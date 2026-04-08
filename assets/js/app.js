@@ -25,7 +25,7 @@ function markerStyle(category, feature = null) {
   const styles = {
     idap_ativos: '#6a43d9',
     idap_inativos: '#8f96a3',
-    inmet_alertas: '#ef8b1e',
+    inmet_alertas: '#ff8c00',
     cemaden_hidro: '#2474d2',
     cemaden_geo: '#8a5a3b',
     sgb_estacoes: '#2f9e44'
@@ -53,9 +53,9 @@ function markerStyle(category, feature = null) {
 function polygonStyle(feature, category) {
   const severity = feature.properties?.severity_group || '';
   if (category === 'inmet_alertas') {
-    if (severity === 'grande_perigo') return { color: '#cf3d32', weight: 2, fillOpacity: 0.18 };
-    if (severity === 'perigo') return { color: '#ef8b1e', weight: 2, fillOpacity: 0.16 };
-    return { color: '#d6b52b', weight: 2, fillOpacity: 0.14 };
+    if (severity === 'grande_perigo') return { color: '#ff0000', weight: 2, fillOpacity: 0.18 };
+    if (severity === 'perigo') return { color: '#ff8c00', weight: 2, fillOpacity: 0.16 };
+    return { color: '#ffff00', weight: 2, fillOpacity: 0.14 };
   }
   const color = markerStyle(category, feature);
   return { color, weight: 2, fillOpacity: 0.14 };
