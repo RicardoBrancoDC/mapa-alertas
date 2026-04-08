@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-08T15:00:00-03:00",
+  "generated_at": "2026-04-08T23:53:54.962422Z",
   "layers": [
     {
       "id": "idap_ativos",
       "name": "IDAP ativos",
       "file": "data/idap_ativos.geojson",
-      "defaultVisible": true,
+      "defaultVisible": false,
       "color": "#6a43d9"
     },
     {
@@ -19,22 +19,32 @@
       "id": "inmet_alertas",
       "name": "INMET alertas",
       "file": "data/inmet_alertas.geojson",
-      "defaultVisible": true,
+      "defaultVisible": false,
       "color": "#ef8b1e"
     },
     {
-      "id": "cemaden_hidro",
-      "name": "CEMADEN hidrológico",
-      "file": "data/cemaden_hidro.geojson",
+      "id": "cemaden_estados",
+      "name": "CEMADEN agrupado",
+      "file": "data/cemaden_estados.geojson",
       "defaultVisible": true,
-      "color": "#2474d2"
+      "color": "#ef8b1e",
+      "summaryLabel": "CEMADEN estados"
     },
     {
-      "id": "cemaden_geo",
-      "name": "CEMADEN geológico",
-      "file": "data/cemaden_geo.geojson",
-      "defaultVisible": false,
-      "color": "#8a5a3b"
+      "id": "cemaden_municipios",
+      "name": "CEMADEN municípios",
+      "file": "data/cemaden_municipios.geojson",
+      "defaultVisible": true,
+      "color": "#d6b52b",
+      "internalOnly": true
+    },
+    {
+      "id": "cemaden_municipios_icones",
+      "name": "CEMADEN ícones",
+      "file": "data/cemaden_municipios_icones.geojson",
+      "defaultVisible": true,
+      "color": "#2474d2",
+      "internalOnly": true
     },
     {
       "id": "sgb_estacoes",
