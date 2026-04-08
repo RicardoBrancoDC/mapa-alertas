@@ -64,25 +64,51 @@ function pointToLayer(feature, latlng, category) {
   });
 }
 
+function popupBadge(label, value, tone = 'neutral') {
+  if (!value) return '';
+  return `<span class="popup-badge ${tone}">${label}: ${value}</span>`;
+}
+
 function popupHtml(feature, layerName) {
   const p = feature.properties || {};
+  const severityTone = (p.severity_group || '').toLowerCase();
+  const statusTone = p.is_active ? 'ativo' : 'inativo';
+  const title = p.title || p.nome || layerName;
+  const eventName = p.evento || p.evento_tipo || '';
+  const areaName = [p.municipio, p.uf].filter(Boolean).join(' - ');
+  const headline = p.headline || '';
+  const description = p.descricao || '';
+  const instruction = p.instruction || '';
+  const sender = p.sender_name || p.sender || '';
+  const channels = p.channel_list || '';
+
   return `
-    <div class="popup-content">
-      <h3>${p.title || p.nome || layerName}</h3>
-      <p><strong>Camada:</strong> ${layerName}</p>
-      ${p.tipo ? `<p><strong>Tipo:</strong> ${p.tipo}</p>` : ''}
-      ${p.categoria ? `<p><strong>Categoria:</strong> ${p.categoria}</p>` : ''}
-      ${p.status ? `<p><strong>Status:</strong> ${p.status}</p>` : ''}
-      ${p.severidade ? `<p><strong>Nível:</strong> ${p.severidade}</p>` : ''}
-      ${p.evento_tipo ? `<p><strong>Evento:</strong> ${p.evento_tipo}</p>` : ''}
-      ${p.municipio ? `<p><strong>Município:</strong> ${p.municipio}</p>` : ''}
-      ${p.uf ? `<p><strong>UF:</strong> ${p.uf}</p>` : ''}
-      ${p.codibge ? `<p><strong>Código IBGE:</strong> ${p.codibge}</p>` : ''}
-      ${p.onset ? `<p><strong>Criação:</strong> ${formatDateTime(p.onset)}</p>` : ''}
-      ${p.expires ? `<p><strong>Expira:</strong> ${formatDateTime(p.expires)}</p>` : ''}
-      ${p.updated_at ? `<p><strong>Atualizado em:</strong> ${formatDateTime(p.updated_at)}</p>` : ''}
-      ${p.descricao ? `<p><strong>Descrição:</strong> ${p.descricao}</p>` : ''}
-      ${p.link ? `<p><a href="${p.link}" target="_blank" rel="noopener noreferrer">Abrir fonte</a></p>` : ''}
+    <div class="popup-content popup-card">
+      <div class="popup-topline">${layerName}</div>
+      <h3>${title}</h3>
+      <div class="popup-badges">
+        ${popupBadge('Status', p.status || (p.is_active ? 'Ativo' : 'Inativo'), statusTone)}
+        ${popupBadge('Nível', p.severidade, severityTone)}
+        ${popupBadge('Tipo', p.tipo)}
+        ${popupBadge('Categoria', p.categoria)}
+      </div>
+
+      ${headline ? `<div class="popup-section"><div class="popup-label">Headline</div><div class="popup-text highlight">${headline}</div></div>` : ''}
+      ${eventName ? `<div class="popup-section"><div class="popup-label">Evento</div><div class="popup-text">${eventName}</div></div>` : ''}
+      ${areaName ? `<div class="popup-section"><div class="popup-label">Área</div><div class="popup-text">${areaName}</div></div>` : ''}
+
+      <div class="popup-grid">
+        ${p.codibge ? `<div><span class="popup-label">IBGE</span><span class="popup-value">${p.codibge}</span></div>` : ''}
+        ${p.onset ? `<div><span class="popup-label">Início</span><span class="popup-value">${formatDateTime(p.onset)}</span></div>` : ''}
+        ${p.expires ? `<div><span class="popup-label">Expira</span><span class="popup-value">${formatDateTime(p.expires)}</span></div>` : ''}
+        ${p.updated_at ? `<div><span class="popup-label">Atualizado</span><span class="popup-value">${formatDateTime(p.updated_at)}</span></div>` : ''}
+      </div>
+
+      ${sender ? `<div class="popup-section"><div class="popup-label">Emissor</div><div class="popup-text">${sender}</div></div>` : ''}
+      ${channels ? `<div class="popup-section"><div class="popup-label">Canais</div><div class="popup-text">${channels}</div></div>` : ''}
+      ${description ? `<div class="popup-section"><div class="popup-label">Descrição</div><div class="popup-text">${description}</div></div>` : ''}
+      ${instruction ? `<div class="popup-section"><div class="popup-label">Instrução</div><div class="popup-text">${instruction}</div></div>` : ''}
+      ${p.link ? `<div class="popup-actions"><a href="${p.link}" target="_blank" rel="noopener noreferrer">Abrir fonte</a></div>` : ''}
     </div>
   `;
 }
