@@ -105,6 +105,7 @@ function popupHtml(feature, layerName) {
       ${eventName ? `<div class="popup-section"><div class="popup-label">Evento</div><div class="popup-text">${eventName}</div></div>` : ''}
       ${areaName ? `<div class="popup-section"><div class="popup-label">Área</div><div class="popup-text">${areaName}</div></div>` : ''}
       ${p.bacia ? `<div class="popup-section"><div class="popup-label">Bacia</div><div class="popup-text">${p.bacia}</div></div>` : ''}
+      ${p.municipios_total ? `<div class="popup-section"><div class="popup-label">Municípios afetados</div><div class="popup-text">${p.municipios_total}</div></div>` : ''}
 
       <div class="popup-grid">
         ${p.codibge ? `<div><span class="popup-label">IBGE</span><span class="popup-value">${p.codibge}</span></div>` : ''}
@@ -118,6 +119,7 @@ function popupHtml(feature, layerName) {
       ${channels ? `<div class="popup-section"><div class="popup-label">Canais</div><div class="popup-text">${channels}</div></div>` : ''}
       ${description ? `<div class="popup-section"><div class="popup-label">Descrição</div><div class="popup-text">${description}</div></div>` : ''}
       ${instruction ? `<div class="popup-section"><div class="popup-label">Instrução</div><div class="popup-text">${instruction}</div></div>` : ''}
+      ${p.municipios ? `<div class="popup-section"><div class="popup-label">Lista de municípios</div><div class="popup-text">${p.municipios}</div></div>` : ''}
       ${p.link ? `<div class="popup-actions"><a href="${p.link}" target="_blank" rel="noopener noreferrer">Abrir fonte</a></div>` : ''}
     </div>
   `;
