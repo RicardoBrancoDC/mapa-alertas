@@ -21,7 +21,7 @@ function formatDateTime(value) {
   });
 }
 
-function markerStyle(category) {
+function markerStyle(category, feature = null) {
   const styles = {
     idap_ativos: '#6a43d9',
     idap_inativos: '#8f96a3',
@@ -30,6 +30,15 @@ function markerStyle(category) {
     cemaden_geo: '#8a5a3b',
     sgb_estacoes: '#2f9e44'
   };
+
+  const severity = feature?.properties?.severity_group || '';
+
+  if (category === 'cemaden_hidro' || category === 'cemaden_geo') {
+    if (severity === 'muito_alto') return '#d73027';
+    if (severity === 'alto') return '#fc8d59';
+    if (severity === 'moderado') return '#ffd54f';
+  }
+
   return styles[category] || '#1f2a44';
 }
 
@@ -40,16 +49,17 @@ function polygonStyle(feature, category) {
     if (severity === 'perigo') return { color: '#ef8b1e', weight: 2, fillOpacity: 0.16 };
     return { color: '#d6b52b', weight: 2, fillOpacity: 0.14 };
   }
-  const color = markerStyle(category);
+  const color = markerStyle(category, feature);
   return { color, weight: 2, fillOpacity: 0.14 };
 }
 
 function pointToLayer(feature, latlng, category) {
+  const color = markerStyle(category, feature);
   return L.circleMarker(latlng, {
     radius: 7,
-    color: markerStyle(category),
+    color,
     weight: 2,
-    fillColor: markerStyle(category),
+    fillColor: color,
     fillOpacity: 0.75
   });
 }
@@ -61,11 +71,14 @@ function popupHtml(feature, layerName) {
       <h3>${p.title || p.nome || layerName}</h3>
       <p><strong>Camada:</strong> ${layerName}</p>
       ${p.tipo ? `<p><strong>Tipo:</strong> ${p.tipo}</p>` : ''}
+      ${p.categoria ? `<p><strong>Categoria:</strong> ${p.categoria}</p>` : ''}
       ${p.status ? `<p><strong>Status:</strong> ${p.status}</p>` : ''}
-      ${p.severidade ? `<p><strong>Severidade:</strong> ${p.severidade}</p>` : ''}
+      ${p.severidade ? `<p><strong>Nível:</strong> ${p.severidade}</p>` : ''}
+      ${p.evento_tipo ? `<p><strong>Evento:</strong> ${p.evento_tipo}</p>` : ''}
       ${p.municipio ? `<p><strong>Município:</strong> ${p.municipio}</p>` : ''}
       ${p.uf ? `<p><strong>UF:</strong> ${p.uf}</p>` : ''}
-      ${p.onset ? `<p><strong>Início:</strong> ${formatDateTime(p.onset)}</p>` : ''}
+      ${p.codibge ? `<p><strong>Código IBGE:</strong> ${p.codibge}</p>` : ''}
+      ${p.onset ? `<p><strong>Criação:</strong> ${formatDateTime(p.onset)}</p>` : ''}
       ${p.expires ? `<p><strong>Expira:</strong> ${formatDateTime(p.expires)}</p>` : ''}
       ${p.updated_at ? `<p><strong>Atualizado em:</strong> ${formatDateTime(p.updated_at)}</p>` : ''}
       ${p.descricao ? `<p><strong>Descrição:</strong> ${p.descricao}</p>` : ''}
