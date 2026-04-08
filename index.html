@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel Integrado de Alertas</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>Painel Integrado de Alertas</h1>
+        <p>Acompanhamento de múltiplas fontes em um único mapa.</p>
+      </div>
 
+      <section class="panel-block">
+        <h2>Última atualização</h2>
+        <div id="last-update" class="muted">Carregando...</div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Filtros de vigência</h2>
+        <div class="chip-row">
+          <button class="chip active" data-filter="all">Todas</button>
+          <button class="chip" data-filter="active">Ativas</button>
+          <button class="chip" data-filter="inactive">Inativas</button>
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Camadas</h2>
+        <div id="layer-list" class="layer-list"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Resumo</h2>
+        <div id="summary" class="summary-grid"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Legenda</h2>
+        <div class="legend-list">
+          <div><span class="legend-swatch purple"></span> IDAP ativo</div>
+          <div><span class="legend-swatch gray"></span> IDAP inativo</div>
+          <div><span class="legend-swatch yellow"></span> INMET perigo potencial</div>
+          <div><span class="legend-swatch orange"></span> INMET perigo</div>
+          <div><span class="legend-swatch red"></span> INMET grande perigo</div>
+          <div><span class="legend-swatch blue"></span> CEMADEN hidrológico</div>
+          <div><span class="legend-swatch brown"></span> CEMADEN geológico</div>
+          <div><span class="legend-swatch green"></span> SGB estações</div>
+        </div>
+      </section>
+
+      <div class="sidebar-footer">
+        <button id="reset-view" class="primary-btn">Voltar para o Brasil</button>
+      </div>
+    </aside>
+
+    <main class="map-wrapper">
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
