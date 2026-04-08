@@ -28,13 +28,31 @@ def fetch_text(url: str, timeout: int = 45) -> str:
         url,
         headers={
             'User-Agent': 'mapa-alertas/1.0 (+https://github.com)',
-            'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+            'Accept': 'application/rss+xml, application/xml, text/xml, application/cap+xml, */*',
         },
     )
     with urllib.request.urlopen(req, timeout=timeout) as response:
         raw = response.read()
+        content_type = (response.headers.get('Content-Type') or '').lower()
         encoding = response.headers.get_content_charset() or 'utf-8'
-    return raw.decode(encoding, errors='replace')
+
+    try:
+        text = raw.decode(encoding, errors='strict')
+    except Exception:
+        text = raw.decode('utf-8', errors='replace')
+
+    text = text.lstrip('﻿
+	 ')
+
+    if not text:
+        raise ValueError(f'Resposta vazia em {url}')
+
+    if '<' not in text[:200] and 'xml' not in content_type and 'rss' not in content_type:
+        preview = text[:120].replace('
+', ' ').replace('', ' ')
+        raise ValueError(f'Resposta não parece XML em {url}: {preview}')
+
+    return text
 
 
 def text_or_none(node: ET.Element | None) -> str | None:
@@ -147,6 +165,10 @@ def parse_rss_items(rss_text: str) -> list[dict[str, str | None]]:
 
 
 def parse_cap_alert(xml_text: str) -> dict[str, Any]:
+    xml_text = (xml_text or '').lstrip('﻿
+	 ')
+    if not xml_text:
+        raise ValueError('CAP vazio.')
     root = ET.fromstring(xml_text)
     info = root.find('cap:info', CAP_NS)
     if info is None:
@@ -244,12 +266,18 @@ def main() -> None:
     all_codes: list[str] = []
     seen_codes: set[str] = set()
 
+    skipped_cap = 0
     for item in rss_items:
         link = item.get('link')
         if not link:
             continue
-        cap_xml = fetch_text(link, timeout=timeout)
-        cap_data = parse_cap_alert(cap_xml)
+        try:
+            cap_xml = fetch_text(link, timeout=timeout)
+            cap_data = parse_cap_alert(cap_xml)
+        except Exception as exc:
+            skipped_cap += 1
+            print(f'[INMET] aviso ignorado em {link}: {exc}')
+            continue
         cap_records.append((item, cap_data))
         for code in cap_data['municipio_codes']:
             if code not in seen_codes:
@@ -269,7 +297,10 @@ def main() -> None:
 
     payload = feature_collection(features)
     write_geojson('inmet_alertas.geojson', payload)
-    print(f'Arquivo INMET atualizado com {len(features)} alertas e {skipped} alertas sem geometria.')
+    print(
+        f'Arquivo INMET atualizado com {len(features)} alertas, '
+        f'{skipped} alertas sem geometria e {skipped_cap} CAPs ignorados.'
+    )
 
 
 if __name__ == '__main__':
