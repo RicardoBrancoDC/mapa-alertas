@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Perigo potencial de chuva",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "uf": "SP",
+        "updated_at": "2026-04-08T12:00:00-03:00",
+        "descricao": "Polígono de exemplo para representar área em observação.",
+        "link": "https://alertas2.inmet.gov.br/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-47.2, -23.0],
+          [-46.2, -23.0],
+          [-46.2, -22.2],
+          [-47.2, -22.2],
+          [-47.2, -23.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Grande perigo por tempestade",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "is_active": true,
+        "severidade": "Grande Perigo",
+        "severity_group": "grande_perigo",
+        "uf": "SC",
+        "updated_at": "2026-04-08T11:30:00-03:00",
+        "descricao": "Outro polígono de exemplo, agora em vermelho.",
+        "link": "https://alertas2.inmet.gov.br/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-49.7, -27.6],
+          [-48.8, -27.6],
+          [-48.8, -26.9],
+          [-49.7, -26.9],
+          [-49.7, -27.6]
+        ]]
+      }
+    }
+  ]
+}

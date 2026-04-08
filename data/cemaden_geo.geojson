@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Alerta geológico",
+        "tipo": "CEMADEN",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "Nova Friburgo",
+        "uf": "RJ",
+        "descricao": "Exemplo de ponto geológico do CEMADEN.",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-42.5310, -22.2817]
+      }
+    }
+  ]
+}

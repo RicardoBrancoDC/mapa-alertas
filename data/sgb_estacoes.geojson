@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estação hidrológica SGB",
+        "nome": "Estação de exemplo",
+        "tipo": "SGB",
+        "status": "Monitoramento",
+        "is_active": true,
+        "municipio": "Manaus",
+        "uf": "AM",
+        "descricao": "Estação ilustrativa para a camada do SGB.",
+        "link": "https://www.sgb.gov.br/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-60.025, -3.119]
+      }
+    }
+  ]
+}

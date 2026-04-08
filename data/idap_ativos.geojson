@@ -1,1 +1,43 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Chuvas intensas em Petrópolis",
+        "tipo": "IDAP",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "Petrópolis",
+        "uf": "RJ",
+        "onset": "2026-04-08T13:30:00-03:00",
+        "expires": "2026-04-08T23:59:00-03:00",
+        "descricao": "Alerta de exemplo para teste visual do painel.",
+        "link": "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1782, -22.5098]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Risco hidrológico em Recife",
+        "tipo": "IDAP",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "Recife",
+        "uf": "PE",
+        "onset": "2026-04-08T10:00:00-03:00",
+        "expires": "2026-04-08T20:00:00-03:00",
+        "descricao": "Outro alerta de exemplo, já com segundo ponto no mapa.",
+        "link": "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.8770, -8.0476]
+      }
+    }
+  ]
+}

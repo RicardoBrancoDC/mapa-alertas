@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Alerta hidrológico",
+        "tipo": "CEMADEN",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "São Paulo",
+        "uf": "SP",
+        "descricao": "Exemplo de ponto hidrológico do CEMADEN.",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.6333, -23.5505]
+      }
+    }
+  ]
+}

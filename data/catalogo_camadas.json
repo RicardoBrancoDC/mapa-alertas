@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-04-08T15:00:00-03:00",
+  "layers": [
+    {
+      "id": "idap_ativos",
+      "name": "IDAP ativos",
+      "file": "data/idap_ativos.geojson",
+      "defaultVisible": true,
+      "color": "#6a43d9"
+    },
+    {
+      "id": "idap_inativos",
+      "name": "IDAP inativos",
+      "file": "data/idap_inativos.geojson",
+      "defaultVisible": false,
+      "color": "#8f96a3"
+    },
+    {
+      "id": "inmet_alertas",
+      "name": "INMET alertas",
+      "file": "data/inmet_alertas.geojson",
+      "defaultVisible": true,
+      "color": "#ef8b1e"
+    },
+    {
+      "id": "cemaden_hidro",
+      "name": "CEMADEN hidrológico",
+      "file": "data/cemaden_hidro.geojson",
+      "defaultVisible": true,
+      "color": "#2474d2"
+    },
+    {
+      "id": "cemaden_geo",
+      "name": "CEMADEN geológico",
+      "file": "data/cemaden_geo.geojson",
+      "defaultVisible": false,
+      "color": "#8a5a3b"
+    },
+    {
+      "id": "sgb_estacoes",
+      "name": "SGB estações hidrológicas",
+      "file": "data/sgb_estacoes.geojson",
+      "defaultVisible": false,
+      "color": "#2f9e44"
+    }
+  ]
+}

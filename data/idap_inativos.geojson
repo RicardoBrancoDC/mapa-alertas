@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Alerta encerrado em Belo Horizonte",
+        "tipo": "IDAP",
+        "status": "Inativo",
+        "is_active": false,
+        "municipio": "Belo Horizonte",
+        "uf": "MG",
+        "onset": "2026-04-07T09:00:00-03:00",
+        "expires": "2026-04-07T18:00:00-03:00",
+        "descricao": "Exemplo de alerta expirado.",
+        "link": "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.9386, -19.9208]
+      }
+    }
+  ]
+}
