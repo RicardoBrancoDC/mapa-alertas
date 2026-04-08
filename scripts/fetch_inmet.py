@@ -3,6 +3,7 @@ import os
 import time
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 import xml.etree.ElementTree as ET
 
@@ -61,12 +62,6 @@ def text_or_none(el: Optional[ET.Element]) -> Optional[str]:
         return None
     t = el.text.strip()
     return t or None
-
-
-def ensure_list(v: Any) -> List[Any]:
-    if v is None:
-        return []
-    return v if isinstance(v, list) else [v]
 
 
 def parse_pubdate(pub_date: str) -> Optional[datetime]:
