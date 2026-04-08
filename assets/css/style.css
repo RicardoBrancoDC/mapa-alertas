@@ -223,3 +223,96 @@ body {
     height: 70vh;
   }
 }
+
+
+.popup-card {
+  min-width: 260px;
+  max-width: 340px;
+}
+
+.popup-topline {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.popup-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 12px;
+}
+
+.popup-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  background: #f7f9fc;
+  color: var(--text);
+}
+
+.popup-badge.ativo { background: rgba(47, 158, 68, 0.12); border-color: rgba(47, 158, 68, 0.22); }
+.popup-badge.inativo { background: rgba(143, 150, 163, 0.16); border-color: rgba(143, 150, 163, 0.26); }
+.popup-badge.baixo { background: rgba(47, 158, 68, 0.12); border-color: rgba(47, 158, 68, 0.22); }
+.popup-badge.médio, .popup-badge.medio, .popup-badge.moderado { background: rgba(214, 181, 43, 0.18); border-color: rgba(214, 181, 43, 0.28); }
+.popup-badge.alto, .popup-badge.perigo { background: rgba(239, 139, 30, 0.16); border-color: rgba(239, 139, 30, 0.26); }
+.popup-badge.severo, .popup-badge.grande_perigo, .popup-badge.muito_alto { background: rgba(207, 61, 50, 0.14); border-color: rgba(207, 61, 50, 0.24); }
+.popup-badge.extremo { background: rgba(106, 67, 217, 0.14); border-color: rgba(106, 67, 217, 0.24); }
+
+.popup-section {
+  margin: 10px 0;
+}
+
+.popup-label {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.popup-text,
+.popup-value {
+  display: block;
+  line-height: 1.45;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.popup-text.highlight {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f5f2ff;
+  border: 1px solid rgba(106, 67, 217, 0.14);
+}
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 12px;
+  margin: 12px 0;
+}
+
+.popup-actions {
+  margin-top: 12px;
+}
+
+.popup-actions a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #fff;
+}
