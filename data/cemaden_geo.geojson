@@ -4,18 +4,993 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Alerta geológico",
+        "id": "1723",
+        "title": "CEMADEN geológico - IGARASSU",
+        "nome": "CEMADEN geológico - IGARASSU",
         "tipo": "CEMADEN",
+        "categoria": "geológico",
         "status": "Ativo",
         "is_active": true,
-        "municipio": "Nova Friburgo",
-        "uf": "RJ",
-        "descricao": "Exemplo de ponto geológico do CEMADEN.",
-        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+        "municipio": "IGARASSU",
+        "uf": "PE",
+        "codibge": "2606804",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1723.",
+        "onset": "2026-03-31T23:19:04.796000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-42.5310, -22.2817]
+        "coordinates": [
+          -34.960468106885,
+          -7.8177301976306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1782",
+        "title": "CEMADEN geológico - MANAQUIRI",
+        "nome": "CEMADEN geológico - MANAQUIRI",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "MANAQUIRI",
+        "uf": "AM",
+        "codibge": "1302553",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1782.",
+        "onset": "2026-04-04T08:11:10.780000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.697124779592,
+          -3.7789290682136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1790",
+        "title": "CEMADEN geológico - CORTÊS",
+        "nome": "CEMADEN geológico - CORTÊS",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "CORTÊS",
+        "uf": "PE",
+        "codibge": "2604809",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1790.",
+        "onset": "2026-04-05T10:58:36.252000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.530759662196,
+          -8.4330139422964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1791",
+        "title": "CEMADEN geológico - BLUMENAU",
+        "nome": "CEMADEN geológico - BLUMENAU",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "BLUMENAU",
+        "uf": "SC",
+        "codibge": "4202404",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1791.",
+        "onset": "2026-04-05T14:11:45.988000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.097025008272,
+          -26.88500500283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1801",
+        "title": "CEMADEN geológico - CRUZ",
+        "nome": "CEMADEN geológico - CRUZ",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "CRUZ",
+        "uf": "CE",
+        "codibge": "2304251",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1801.",
+        "onset": "2026-04-06T00:12:55.939000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.326295170727,
+          -2.8962715931391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1805",
+        "title": "CEMADEN geológico - BALNEÁRIO PIÇARRAS",
+        "nome": "CEMADEN geológico - BALNEÁRIO PIÇARRAS",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "BALNEÁRIO PIÇARRAS",
+        "uf": "SC",
+        "codibge": "4212809",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1805.",
+        "onset": "2026-04-06T06:46:29.085000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.733083625611,
+          -26.759275912993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1811",
+        "title": "CEMADEN geológico - ITAPEMA",
+        "nome": "CEMADEN geológico - ITAPEMA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "ITAPEMA",
+        "uf": "SC",
+        "codibge": "4208302",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1811.",
+        "onset": "2026-04-06T07:45:22.897000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.633719631648,
+          -27.108657387073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1812",
+        "title": "CEMADEN geológico - ITAJAÍ",
+        "nome": "CEMADEN geológico - ITAJAÍ",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "ITAJAÍ",
+        "uf": "SC",
+        "codibge": "4208203",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1812.",
+        "onset": "2026-04-06T07:48:38.189000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.753156177475,
+          -26.96873172173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1814",
+        "title": "CEMADEN geológico - CAMBORIÚ",
+        "nome": "CEMADEN geológico - CAMBORIÚ",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "CAMBORIÚ",
+        "uf": "SC",
+        "codibge": "4203204",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1814.",
+        "onset": "2026-04-06T08:13:37.368000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.708842188792,
+          -27.070861038016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1806",
+        "title": "CEMADEN geológico - BALNEÁRIO CAMBORIÚ",
+        "nome": "CEMADEN geológico - BALNEÁRIO CAMBORIÚ",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "BALNEÁRIO CAMBORIÚ",
+        "uf": "SC",
+        "codibge": "4202008",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1806.",
+        "onset": "2026-04-06T06:49:02.082000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.620556494985,
+          -27.004701956009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1817",
+        "title": "CEMADEN geológico - CAMARAGIBE",
+        "nome": "CEMADEN geológico - CAMARAGIBE",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "CAMARAGIBE",
+        "uf": "PE",
+        "codibge": "2603454",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1817.",
+        "onset": "2026-04-06T17:08:06.064000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.995762516136,
+          -7.9868343781957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1821",
+        "title": "CEMADEN geológico - ABREU E LIMA",
+        "nome": "CEMADEN geológico - ABREU E LIMA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "ABREU E LIMA",
+        "uf": "PE",
+        "codibge": "2600054",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1821.",
+        "onset": "2026-04-06T17:10:52-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.021719225577,
+          -7.8884627078211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1827",
+        "title": "CEMADEN geológico - BRUSQUE",
+        "nome": "CEMADEN geológico - BRUSQUE",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "BRUSQUE",
+        "uf": "SC",
+        "codibge": "4202909",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1827.",
+        "onset": "2026-04-06T20:31:52.053000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.909710720914,
+          -27.124697891712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1829",
+        "title": "CEMADEN geológico - NOVA TRENTO",
+        "nome": "CEMADEN geológico - NOVA TRENTO",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "NOVA TRENTO",
+        "uf": "SC",
+        "codibge": "4211504",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1829.",
+        "onset": "2026-04-06T21:48:44.513000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.042000577793,
+          -27.313056278862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1828",
+        "title": "CEMADEN geológico - GASPAR",
+        "nome": "CEMADEN geológico - GASPAR",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "GASPAR",
+        "uf": "SC",
+        "codibge": "4205902",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1828.",
+        "onset": "2026-04-06T20:33:10.290000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.965809765663,
+          -26.93101198801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1830",
+        "title": "CEMADEN geológico - GUABIRUBA",
+        "nome": "CEMADEN geológico - GUABIRUBA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "GUABIRUBA",
+        "uf": "SC",
+        "codibge": "4206306",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1830.",
+        "onset": "2026-04-06T23:44:20.869000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.02127368728,
+          -27.103259728289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1793",
+        "title": "CEMADEN geológico - OLINDA",
+        "nome": "CEMADEN geológico - OLINDA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "OLINDA",
+        "uf": "PE",
+        "codibge": "2609600",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1793.",
+        "onset": "2026-04-05T16:08:45.594000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.866127388771,
+          -7.9930980272575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1822",
+        "title": "CEMADEN geológico - PAULISTA",
+        "nome": "CEMADEN geológico - PAULISTA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "PAULISTA",
+        "uf": "PE",
+        "codibge": "2610707",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1822.",
+        "onset": "2026-04-06T17:11:41.341000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.883262420767,
+          -7.9281548374103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1816",
+        "title": "CEMADEN geológico - RECIFE",
+        "nome": "CEMADEN geológico - RECIFE",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "RECIFE",
+        "uf": "PE",
+        "codibge": "2611606",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1816.",
+        "onset": "2026-04-06T17:07:29.074000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.933174728362,
+          -8.0392254266458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1820",
+        "title": "CEMADEN geológico - JABOATÃO DOS GUARARAPES",
+        "nome": "CEMADEN geológico - JABOATÃO DOS GUARARAPES",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "JABOATÃO DOS GUARARAPES",
+        "uf": "PE",
+        "codibge": "2607901",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1820.",
+        "onset": "2026-04-06T17:09:24.162000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.003360888424,
+          -8.1521582199467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1833",
+        "title": "CEMADEN geológico - SÃO LOURENÇO DA MATA",
+        "nome": "CEMADEN geológico - SÃO LOURENÇO DA MATA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "SÃO LOURENÇO DA MATA",
+        "uf": "PE",
+        "codibge": "2613701",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1833.",
+        "onset": "2026-04-07T03:24:40.480000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.104090973759,
+          -8.0235695621161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1834",
+        "title": "CEMADEN geológico - MORENO",
+        "nome": "CEMADEN geológico - MORENO",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "MORENO",
+        "uf": "PE",
+        "codibge": "2609402",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1834.",
+        "onset": "2026-04-07T03:27:42.028000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.146905886596,
+          -8.1438380581872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1835",
+        "title": "CEMADEN geológico - PALHOÇA",
+        "nome": "CEMADEN geológico - PALHOÇA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "PALHOÇA",
+        "uf": "SC",
+        "codibge": "4211900",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1835.",
+        "onset": "2026-04-07T04:17:45.869000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.661539979451,
+          -27.771998460633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1836",
+        "title": "CEMADEN geológico - FLORIANÓPOLIS",
+        "nome": "CEMADEN geológico - FLORIANÓPOLIS",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "FLORIANÓPOLIS",
+        "uf": "SC",
+        "codibge": "4205407",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1836.",
+        "onset": "2026-04-07T04:23:00.266000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.508171276623,
+          -27.577897427786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1837",
+        "title": "CEMADEN geológico - SÃO JOSÉ",
+        "nome": "CEMADEN geológico - SÃO JOSÉ",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "SÃO JOSÉ",
+        "uf": "SC",
+        "codibge": "4216602",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1837.",
+        "onset": "2026-04-07T04:30:38.455000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.655534793652,
+          -27.577706538712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1777",
+        "title": "CEMADEN geológico - MANAUS",
+        "nome": "CEMADEN geológico - MANAUS",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "MANAUS",
+        "uf": "AM",
+        "codibge": "1302603",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1777.",
+        "onset": "2026-04-04T03:15:52.508000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.259628014208,
+          -2.6259193827197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1781",
+        "title": "CEMADEN geológico - IRANDUBA",
+        "nome": "CEMADEN geológico - IRANDUBA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "IRANDUBA",
+        "uf": "AM",
+        "codibge": "1301852",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1781.",
+        "onset": "2026-04-04T08:09:33.707000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.480403695533,
+          -3.0951075622624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1840",
+        "title": "CEMADEN geológico - FRANCO DA ROCHA",
+        "nome": "CEMADEN geológico - FRANCO DA ROCHA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "FRANCO DA ROCHA",
+        "uf": "SP",
+        "codibge": "3516408",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1840.",
+        "onset": "2026-04-07T12:55:47.590000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.736169175026,
+          -23.314537924216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1844",
+        "title": "CEMADEN geológico - GAMELEIRA",
+        "nome": "CEMADEN geológico - GAMELEIRA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "GAMELEIRA",
+        "uf": "PE",
+        "codibge": "2605905",
+        "evento": "Movimentos de Massa - Moderado",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Moderado",
+        "severity_group": "moderado",
+        "cor": "#ffd54f",
+        "descricao": "Movimentos de Massa - Moderado. Código do alerta: 1844.",
+        "onset": "2026-04-07T23:13:54.515000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.39260893016,
+          -8.6129303788294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1823",
+        "title": "CEMADEN geológico - IPOJUCA",
+        "nome": "CEMADEN geológico - IPOJUCA",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "IPOJUCA",
+        "uf": "PE",
+        "codibge": "2607208",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1823.",
+        "onset": "2026-04-06T17:12:50.643000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.087975174942,
+          -8.4374425746143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1819",
+        "title": "CEMADEN geológico - CABO DE SANTO AGOSTINHO",
+        "nome": "CEMADEN geológico - CABO DE SANTO AGOSTINHO",
+        "tipo": "CEMADEN",
+        "categoria": "geológico",
+        "status": "Ativo",
+        "is_active": true,
+        "municipio": "CABO DE SANTO AGOSTINHO",
+        "uf": "PE",
+        "codibge": "2602902",
+        "evento": "Movimentos de Massa - Alto",
+        "evento_tipo": "Movimentos de Massa",
+        "severidade": "Alto",
+        "severity_group": "alto",
+        "cor": "#fc8d59",
+        "descricao": "Movimentos de Massa - Alto. Código do alerta: 1819.",
+        "onset": "2026-04-06T17:09:20.399000-03:00",
+        "updated_at": "2026-04-08T09:15:01-03:00",
+        "link": "https://painelalertas.cemaden.gov.br/wsAlertas2",
+        "fonte": "https://painelalertas.cemaden.gov.br/wsAlertas2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08481240852,
+          -8.2694806965221
+        ]
       }
     }
   ]
