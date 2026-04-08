@@ -1,146 +1,135 @@
-from __future__ import annotations
-
+import json
 import os
 import time
-import urllib.request
+from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
+from typing import Any, Dict, List, Optional
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
-from pathlib import Path
-from typing import Any
 
-from utils import DATA_DIR, feature_collection, write_geojson, write_json
+import requests
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+OUT_GEOJSON = DATA_DIR / "inmet_alertas.geojson"
+OUT_STATUS = DATA_DIR / "inmet_status.json"
 
 CAP_NS = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
 
 
-class RateLimitError(Exception):
-    pass
+def now_sp() -> datetime:
+    return datetime.now(timezone(timedelta(hours=-3)))
 
 
-def env_int(name: str, default: int) -> int:
-    value = os.getenv(name, str(default)).strip()
-    try:
-        return int(value)
-    except ValueError:
-        return default
+def fetch_text(url: str, timeout: int = 30, retries: int = 2, sleep_sec: float = 4.0) -> str:
+    headers = {
+        "User-Agent": "mapa-alertas/1.0 (+GitHub Actions)",
+        "Accept": "application/xml,text/xml,application/rss+xml,*/*",
+    }
 
-
-def fetch_text(url: str, timeout: int = 45) -> str:
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "mapa-alertas/1.0 (+https://github.com)",
-            "Accept": "application/rss+xml, application/xml, text/xml, application/cap+xml, */*",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        raw = response.read()
-        content_type = (response.headers.get("Content-Type") or "").lower()
-        encoding = response.headers.get_content_charset() or "utf-8"
-
-    try:
-        text = raw.decode(encoding, errors="strict")
-    except Exception:
-        text = raw.decode("utf-8", errors="replace")
-
-    text = text.lstrip("\ufeff\n\r\t ")
-    if not text:
-        raise ValueError(f"Resposta vazia em {url}")
-
-    lower_text = text.lower()
-    if "limite de requisições" in lower_text or "limite de requisicoes" in lower_text:
-        raise RateLimitError(f"Limite de requisições atingido em {url}")
-
-    if "<" not in text[:200] and "xml" not in content_type and "rss" not in content_type:
-        preview = text[:120].replace("\n", " ").replace("\r", " ")
-        raise ValueError(f"Resposta não parece XML em {url}: {preview}")
-
-    return text
-
-
-def fetch_text_with_retry(url: str, timeout: int = 45, retries: int = 3, backoff_sec: float = 8.0) -> str:
-    last_exc: Exception | None = None
-    for attempt in range(1, retries + 1):
+    last_error: Optional[Exception] = None
+    for attempt in range(retries + 1):
         try:
-            return fetch_text(url, timeout=timeout)
-        except RateLimitError as exc:
-            last_exc = exc
-            if attempt == retries:
-                break
-            sleep_for = backoff_sec * attempt
-            print(f"[INMET] limite de requisições em {url}. Nova tentativa em {sleep_for:.1f}s.")
-            time.sleep(sleep_for)
-        except Exception as exc:
-            last_exc = exc
-            if attempt == retries:
-                break
-            sleep_for = min(3.0 * attempt, 10.0)
-            print(f"[INMET] falha temporária em {url}: {exc}. Nova tentativa em {sleep_for:.1f}s.")
-            time.sleep(sleep_for)
-    assert last_exc is not None
-    raise last_exc
+            resp = requests.get(url, timeout=timeout, headers=headers)
+            text = (resp.text or "").strip()
+            if "Você atingiu o limite de requisições" in text:
+                raise RuntimeError(f"Limite de requisições atingido em {url}")
+            resp.raise_for_status()
+            return text
+        except Exception as e:
+            last_error = e
+            if attempt < retries:
+                print(f"[INMET] tentativa {attempt + 1} falhou em {url}: {e}. Nova tentativa em {sleep_sec:.1f}s.")
+                time.sleep(sleep_sec)
+            else:
+                raise last_error
+    raise RuntimeError(f"Falha inesperada ao buscar {url}")
 
 
-def text_or_none(node: ET.Element | None) -> str | None:
-    if node is None or node.text is None:
+def write_geojson(features: List[Dict[str, Any]]) -> None:
+    fc = {"type": "FeatureCollection", "features": features}
+    OUT_GEOJSON.write_text(json.dumps(fc, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def write_status(payload: Dict[str, Any]) -> None:
+    OUT_STATUS.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def text_or_none(el: Optional[ET.Element]) -> Optional[str]:
+    if el is None or el.text is None:
         return None
-    value = node.text.strip()
-    return value or None
+    t = el.text.strip()
+    return t or None
 
 
-def parse_datetime(value: str | None) -> datetime | None:
-    if not value:
-        return None
+def ensure_list(v: Any) -> List[Any]:
+    if v is None:
+        return []
+    return v if isinstance(v, list) else [v]
+
+
+def parse_pubdate(pub_date: str) -> Optional[datetime]:
     try:
-        return datetime.fromisoformat(value.strip())
+        return parsedate_to_datetime(pub_date)
     except Exception:
         return None
 
 
-def severity_pt_from_cap(value: str | None) -> str:
-    normalized = (value or "").strip().lower()
-    if normalized == "extreme":
+def same_local_date(dt: datetime, ref: datetime) -> bool:
+    try:
+        dt_local = dt.astimezone(ref.tzinfo)
+    except Exception:
+        dt_local = dt
+    return dt_local.date() == ref.date()
+
+
+def parse_cap_datetime(s: Optional[str]) -> Optional[datetime]:
+    if not s:
+        return None
+    try:
+        return datetime.fromisoformat(s)
+    except Exception:
+        return None
+
+
+def normalize_level(headline: str, severity_text: str, colorrisk: str) -> str:
+    h = (headline or "").lower()
+    s = (severity_text or "").lower()
+    c = (colorrisk or "").lower()
+
+    if "grande perigo" in h or "grande perigo" in s or c == "#ff0000":
         return "Grande Perigo"
-    if normalized == "severe":
-        return "Perigo"
-    if normalized == "moderate":
+    if "perigo potencial" in h or "perigo potencial" in s or c in {"#fffe00", "#ffff00"}:
         return "Perigo Potencial"
-    return value or "Não informado"
+    if "perigo" in h or "perigo" in s or c == "#ffa500":
+        return "Perigo"
+    return severity_text or "Perigo Potencial"
 
 
-def severity_group(value: str | None) -> str:
-    normalized = (value or "").strip().lower()
-    if normalized in {"extreme", "grande perigo"}:
+def inmet_group(level: str) -> str:
+    l = (level or "").strip().lower()
+    if l == "grande perigo":
         return "grande_perigo"
-    if normalized in {"severe", "perigo"}:
+    if l == "perigo":
         return "perigo"
     return "perigo_potencial"
 
 
-def parse_parameters(info: ET.Element) -> dict[str, str]:
-    params: dict[str, str] = {}
-    for parameter in info.findall("cap:parameter", CAP_NS):
-        key = text_or_none(parameter.find("cap:valueName", CAP_NS))
-        value = text_or_none(parameter.find("cap:value", CAP_NS))
-        if key:
-            params[key] = value or ""
-    return params
-
-
-def cap_polygon_to_coords(polygon_text: str | None) -> list[list[list[float]]] | None:
-    txt = (polygon_text or "").strip()
-    if not txt:
+def cap_polygon_to_geojson_coords(polygon_str: str) -> Optional[List[List[List[float]]]]:
+    s = (polygon_str or "").strip()
+    if not s:
         return None
 
-    pts: list[list[float]] = []
-    for pair in txt.split():
+    pts = []
+    for pair in s.split():
         parts = pair.split(",")
         if len(parts) != 2:
             continue
         try:
             lat = float(parts[0])
             lon = float(parts[1])
-        except ValueError:
+        except Exception:
             continue
         pts.append([lon, lat])
 
@@ -153,226 +142,229 @@ def cap_polygon_to_coords(polygon_text: str | None) -> list[list[list[float]]] |
     return [pts]
 
 
-def parse_rss_items(rss_text: str) -> list[dict[str, str | None]]:
-    root = ET.fromstring(rss_text)
-    channel = root.find("channel")
-    if channel is None:
-        return []
+def read_cap(url: str, timeout: int) -> Optional[Dict[str, Any]]:
+    try:
+        xml_text = fetch_text(url, timeout=timeout, retries=1, sleep_sec=4.0)
+    except RuntimeError as e:
+        if "Limite de requisições" in str(e):
+            print(f"[INMET] CAP ignorado por limite de requisições em {url}: {e}")
+            return None
+        raise
 
-    items: list[dict[str, str | None]] = []
-    for item in channel.findall("item"):
-        items.append(
-            {
-                "title": text_or_none(item.find("title")),
-                "link": text_or_none(item.find("link")),
-                "guid": text_or_none(item.find("guid")),
-                "pubDate": text_or_none(item.find("pubDate")),
-                "description": text_or_none(item.find("description")),
-            }
-        )
-    return items
+    xml_text = xml_text.lstrip("\ufeff\r\n\t ")
+    if not xml_text.startswith("<"):
+        print(f"[INMET] CAP ignorado, resposta não parece XML em {url}")
+        return None
 
+    try:
+        root = ET.fromstring(xml_text)
+    except Exception as e:
+        print(f"[INMET] CAP ignorado por erro de parse em {url}: {e}")
+        return None
 
-def parse_cap_alert(xml_text: str) -> dict[str, Any]:
-    xml_text = (xml_text or "").lstrip("\ufeff\n\r\t ")
-    if not xml_text:
-        raise ValueError("CAP vazio.")
-
-    root = ET.fromstring(xml_text)
     info = root.find("cap:info", CAP_NS)
     if info is None:
-        raise ValueError("CAP do INMET sem bloco <info>.")
+        return None
 
-    areas = []
-    for area in info.findall("cap:area", CAP_NS):
-        area_desc = text_or_none(area.find("cap:areaDesc", CAP_NS))
-        polygon_text = text_or_none(area.find("cap:polygon", CAP_NS))
-        coords = cap_polygon_to_coords(polygon_text)
-        geocodes = {}
-        for geocode in area.findall("cap:geocode", CAP_NS):
-            key = text_or_none(geocode.find("cap:valueName", CAP_NS))
-            value = text_or_none(geocode.find("cap:value", CAP_NS))
-            if key:
-                geocodes[key] = value or ""
-        areas.append(
-            {
-                "area_desc": area_desc,
-                "polygon": polygon_text,
-                "coords": coords,
-                "geocodes": geocodes,
-            }
-        )
+    areas = info.findall("cap:area", CAP_NS)
+    polygons = []
+    area_descs = []
+    for area in areas:
+        area_desc = text_or_none(area.find("cap:areaDesc", CAP_NS)) or ""
+        area_descs.append(area_desc)
+        polygon_raw = text_or_none(area.find("cap:polygon", CAP_NS))
+        coords = cap_polygon_to_geojson_coords(polygon_raw or "")
+        if coords:
+            polygons.append({"areaDesc": area_desc, "coords": coords})
 
-    parameters = parse_parameters(info)
+    if not polygons:
+        return None
+
+    parameters = {}
+    for p in info.findall("cap:parameter", CAP_NS):
+        name = text_or_none(p.find("cap:valueName", CAP_NS)) or ""
+        value = text_or_none(p.find("cap:value", CAP_NS)) or ""
+        if name:
+            parameters[name] = value
 
     return {
         "identifier": text_or_none(root.find("cap:identifier", CAP_NS)),
         "sender": text_or_none(root.find("cap:sender", CAP_NS)),
         "sent": text_or_none(root.find("cap:sent", CAP_NS)),
         "status": text_or_none(root.find("cap:status", CAP_NS)),
-        "msg_type": text_or_none(root.find("cap:msgType", CAP_NS)),
+        "msgType": text_or_none(root.find("cap:msgType", CAP_NS)),
         "scope": text_or_none(root.find("cap:scope", CAP_NS)),
         "language": text_or_none(info.find("cap:language", CAP_NS)),
         "category": text_or_none(info.find("cap:category", CAP_NS)),
         "event": text_or_none(info.find("cap:event", CAP_NS)),
-        "response_type": text_or_none(info.find("cap:responseType", CAP_NS)),
+        "responseType": text_or_none(info.find("cap:responseType", CAP_NS)),
         "urgency": text_or_none(info.find("cap:urgency", CAP_NS)),
         "severity": text_or_none(info.find("cap:severity", CAP_NS)),
         "certainty": text_or_none(info.find("cap:certainty", CAP_NS)),
         "onset": text_or_none(info.find("cap:onset", CAP_NS)),
         "expires": text_or_none(info.find("cap:expires", CAP_NS)),
-        "sender_name": text_or_none(info.find("cap:senderName", CAP_NS)),
+        "senderName": text_or_none(info.find("cap:senderName", CAP_NS)),
         "headline": text_or_none(info.find("cap:headline", CAP_NS)),
         "description": text_or_none(info.find("cap:description", CAP_NS)),
         "instruction": text_or_none(info.find("cap:instruction", CAP_NS)),
         "web": text_or_none(info.find("cap:web", CAP_NS)),
         "contact": text_or_none(info.find("cap:contact", CAP_NS)),
         "parameters": parameters,
-        "areas": areas,
+        "areas": polygons,
+        "areaDescs": [x for x in area_descs if x],
     }
 
 
-def build_features(rss_item: dict[str, Any], cap_data: dict[str, Any], now: datetime) -> list[dict[str, Any]]:
-    expires_dt = parse_datetime(cap_data.get("expires"))
-    is_active = bool(expires_dt and expires_dt >= now)
-    severity_raw = cap_data.get("severity")
-    severity_label = severity_pt_from_cap(severity_raw)
+def current_time_filter(onset_dt: Optional[datetime], expires_dt: Optional[datetime], mode: str, ref_now: datetime) -> Optional[str]:
+    if not expires_dt:
+        return None
+    if expires_dt <= ref_now:
+        return None
 
-    common_props = {
-        "title": rss_item.get("title") or cap_data.get("headline") or cap_data.get("event") or "Alerta INMET",
-        "tipo": "INMET",
-        "status": "Ativo" if is_active else "Inativo",
-        "is_active": is_active,
-        "severidade": severity_label,
-        "severity_group": severity_group(severity_raw),
-        "evento": cap_data.get("event"),
-        "categoria": cap_data.get("category"),
-        "headline": cap_data.get("headline"),
-        "descricao": cap_data.get("description"),
-        "instruction": cap_data.get("instruction"),
-        "sender": cap_data.get("sender"),
-        "sender_name": cap_data.get("sender_name"),
-        "onset": cap_data.get("onset"),
-        "expires": cap_data.get("expires"),
-        "sent": cap_data.get("sent"),
-        "urgency": cap_data.get("urgency"),
-        "certainty": cap_data.get("certainty"),
-        "response_type": cap_data.get("response_type"),
-        "updated_at": now.isoformat(),
-        "link": cap_data.get("web") or rss_item.get("link"),
-        "source_rss_link": rss_item.get("link"),
-        "guid": rss_item.get("guid"),
-        "identifier": cap_data.get("identifier"),
-        "color_risk": cap_data["parameters"].get("ColorRisk"),
-        "municipios": cap_data["parameters"].get("Municipios"),
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-    }
+    if mode == "today":
+        if onset_dt and onset_dt > ref_now:
+            return None
+        return "hoje"
 
-    features: list[dict[str, Any]] = []
-    areas = cap_data.get("areas") or []
-    for idx, area in enumerate(areas):
-        coords = area.get("coords")
-        if not coords:
-            continue
-        props = dict(common_props)
-        props.update(
-            {
-                "area_desc": area.get("area_desc"),
-                "area_index": idx,
-                "geocodes": area.get("geocodes") or {},
-                "polygon_raw": area.get("polygon"),
-            }
-        )
-        features.append(
-            {
-                "type": "Feature",
-                "properties": props,
-                "geometry": {"type": "Polygon", "coordinates": coords},
-            }
-        )
-    return features
+    if onset_dt and onset_dt > ref_now:
+        return "futuro"
+    return "hoje"
 
 
-def write_status(payload: dict[str, Any]) -> None:
-    write_json("inmet_status.json", payload)
+def parse_rss_items(xml_text: str) -> List[Dict[str, str]]:
+    root = ET.fromstring(xml_text)
+    channel = root.find("channel")
+    if channel is None:
+        return []
 
-
-def existing_geojson_exists() -> bool:
-    return (DATA_DIR / "inmet_alertas.geojson").exists()
+    items = []
+    for item in channel.findall("item"):
+        title = text_or_none(item.find("title")) or ""
+        link = text_or_none(item.find("link")) or ""
+        guid = text_or_none(item.find("guid")) or ""
+        pub_date = text_or_none(item.find("pubDate")) or ""
+        description = text_or_none(item.find("description")) or ""
+        items.append({
+            "title": title,
+            "link": link,
+            "guid": guid,
+            "pubDate": pub_date,
+            "description": description,
+        })
+    return items
 
 
 def main() -> None:
     rss_url = os.getenv("INMET_RSS_URL", "https://apiprevmet3.inmet.gov.br/avisos/rss")
-    timeout = env_int("REQUEST_TIMEOUT_SEC", 45)
-    max_items = env_int("INMET_MAX_ITEMS", 120)
-    retries = env_int("INMET_RSS_RETRIES", 4)
-    backoff_sec = float(os.getenv("INMET_BACKOFF_SEC", "10").strip() or "10")
-    cap_retries = env_int("INMET_CAP_RETRIES", 2)
-    cap_backoff_sec = float(os.getenv("INMET_CAP_BACKOFF_SEC", "4").strip() or "4")
-
-    now = datetime.now(timezone.utc).astimezone()
+    timeout = int(os.getenv("REQUEST_TIMEOUT_SEC", "30"))
+    time_filter = os.getenv("INMET_TIME_FILTER", "today").strip().lower()
+    ref_now = now_sp()
 
     try:
-        rss_text = fetch_text_with_retry(rss_url, timeout=timeout, retries=retries, backoff_sec=backoff_sec)
-    except RateLimitError as exc:
-        message = str(exc)
-        if existing_geojson_exists():
-            print(f"[INMET] {message}. Mantendo camada anterior sem falhar o workflow.")
-            write_status(
-                {
-                    "updated_at": now.isoformat(),
-                    "status": "rate_limited",
-                    "message": message,
-                    "used_cached_geojson": True,
-                }
-            )
+        rss_text = fetch_text(rss_url, timeout=timeout, retries=2, sleep_sec=4.0)
+    except RuntimeError as e:
+        if "Limite de requisições" in str(e):
+            print(f"[INMET] Limite de requisições no RSS. Mantendo camada anterior sem falhar.")
+            if not OUT_GEOJSON.exists():
+                write_geojson([])
+            write_status({
+                "status": "rate_limited_rss",
+                "updated_at": ref_now.isoformat(),
+                "rss_url": rss_url,
+            })
             return
         raise
 
-    rss_items = parse_rss_items(rss_text)[:max_items]
+    items = parse_rss_items(rss_text)
 
-    features: list[dict[str, Any]] = []
-    skipped_cap = 0
-    without_geometry = 0
+    items_today = []
+    for item in items:
+        dt = parse_pubdate(item.get("pubDate", ""))
+        if dt and same_local_date(dt, ref_now):
+            items_today.append(item)
 
-    for item in rss_items:
-        link = item.get("guid") or item.get("link")
-        if not link:
-            continue
-        try:
-            cap_xml = fetch_text_with_retry(link, timeout=timeout, retries=cap_retries, backoff_sec=cap_backoff_sec)
-            cap_data = parse_cap_alert(cap_xml)
-        except RateLimitError as exc:
-            skipped_cap += 1
-            print(f"[INMET] CAP ignorado por limite de requisições em {link}: {exc}")
-            continue
-        except Exception as exc:
-            skipped_cap += 1
-            print(f"[INMET] aviso ignorado em {link}: {exc}")
+    features: List[Dict[str, Any]] = []
+    caps_lidos = 0
+    caps_ignorados_rate_limit = 0
+
+    for item in items_today:
+        cap_url = item.get("link") or item.get("guid")
+        if not cap_url:
             continue
 
-        built = build_features(item, cap_data, now)
-        if not built:
-            without_geometry += 1
+        cap = read_cap(cap_url, timeout=timeout)
+        if cap is None:
+            caps_ignorados_rate_limit += 1
             continue
-        features.extend(built)
 
-    payload = feature_collection(features)
-    write_geojson("inmet_alertas.geojson", payload)
-    write_status(
-        {
-            "updated_at": now.isoformat(),
-            "status": "ok",
-            "alerts_total": len(features),
-            "alerts_without_geometry": without_geometry,
-            "caps_ignored": skipped_cap,
-            "rss_items_total": len(rss_items),
-        }
-    )
-    print(
-        f"Arquivo INMET atualizado com {len(features)} geometrias, "
-        f"{without_geometry} alertas sem polígono e {skipped_cap} CAPs ignorados."
-    )
+        caps_lidos += 1
+
+        onset_dt = parse_cap_datetime(cap.get("onset"))
+        expires_dt = parse_cap_datetime(cap.get("expires"))
+        status_tempo = current_time_filter(onset_dt, expires_dt, time_filter, ref_now)
+        if status_tempo is None:
+            continue
+
+        level = normalize_level(
+            cap.get("headline") or item.get("title") or "",
+            cap.get("severity") or "",
+            (cap.get("parameters") or {}).get("ColorRisk", "")
+        )
+
+        for idx, area in enumerate(cap.get("areas", []), start=1):
+            features.append({
+                "type": "Feature",
+                "properties": {
+                    "fonte": "INMET",
+                    "id": f"{cap.get('identifier') or cap_url}::{idx}",
+                    "identifier": cap.get("identifier"),
+                    "titulo": item.get("title"),
+                    "event": cap.get("event"),
+                    "severity": cap.get("severity"),
+                    "nivel": level,
+                    "nivel_grupo": inmet_group(level),
+                    "status_tempo": status_tempo,
+                    "onset": cap.get("onset"),
+                    "expires": cap.get("expires"),
+                    "sent": cap.get("sent"),
+                    "pubDate": item.get("pubDate"),
+                    "sender": cap.get("sender"),
+                    "senderName": cap.get("senderName"),
+                    "responseType": cap.get("responseType"),
+                    "urgency": cap.get("urgency"),
+                    "certainty": cap.get("certainty"),
+                    "headline": cap.get("headline"),
+                    "description": cap.get("description"),
+                    "instruction": cap.get("instruction"),
+                    "web": cap.get("web"),
+                    "contact": cap.get("contact"),
+                    "areaDesc": area.get("areaDesc"),
+                    "areas": cap.get("areaDescs", []),
+                    "link": cap_url,
+                },
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": area["coords"],
+                },
+            })
+
+    write_geojson(features)
+    write_status({
+        "status": "ok",
+        "updated_at": ref_now.isoformat(),
+        "rss_url": rss_url,
+        "rss_items_total": len(items),
+        "rss_items_pubdate_hoje": len(items_today),
+        "caps_lidos": caps_lidos,
+        "caps_ignorados_rate_limit": caps_ignorados_rate_limit,
+        "features": len(features),
+        "time_filter": time_filter,
+    })
+
+    print(f"[INMET] RSS total: {len(items)}")
+    print(f"[INMET] Itens com pubDate de hoje: {len(items_today)}")
+    print(f"[INMET] CAPs lidos: {caps_lidos}")
+    print(f"[INMET] Features geradas: {len(features)}")
 
 
 if __name__ == "__main__":
