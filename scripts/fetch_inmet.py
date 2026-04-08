@@ -155,13 +155,13 @@ def load_municipal_seats(codes: list[str]) -> dict[str, tuple[float, float]]:
         return {}
 
     try:
-        from geobr import read_municipal_seat  # type: ignore
+        from geobr import read_municipality  # type: ignore
     except Exception as exc:
         raise RuntimeError(
             "Dependência geobr não encontrada. Instale geobr no workflow para gerar a camada do INMET."
         ) from exc
 
-    gdf = read_municipal_seat(code_muni="all", year=2010)
+    gdf = read_municipality(code_muni="all", year=2010, simplified=True)
 
     lookup: dict[str, tuple[float, float]] = {}
     code_set = set(codes)
@@ -172,7 +172,11 @@ def load_municipal_seats(codes: list[str]) -> dict[str, tuple[float, float]]:
         geom = row.geometry
         if geom is None or geom.is_empty:
             continue
-        lookup[code] = (float(geom.x), float(geom.y))
+        try:
+            point = geom.representative_point()
+        except Exception:
+            point = geom.centroid
+        lookup[code] = (float(point.x), float(point.y))
     return lookup
 
 
@@ -347,6 +351,21 @@ def main() -> None:
             if code not in seen_codes:
                 seen_codes.add(code)
                 all_codes.append(code)
+
+    if not all_codes:
+        write_geojson("inmet_alertas.geojson", feature_collection([]))
+        write_status(
+            {
+                "updated_at": now.isoformat(),
+                "status": "ok",
+                "alerts_total": 0,
+                "alerts_without_geometry": 0,
+                "caps_ignored": skipped_cap,
+                "message": "Nenhum CAP do INMET pôde ser convertido nesta execução.",
+            }
+        )
+        print("Arquivo INMET atualizado com 0 alertas. Nenhum município foi extraído dos CAPs desta execução.")
+        return
 
     seat_lookup = load_municipal_seats(all_codes)
 
