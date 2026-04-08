@@ -84,34 +84,15 @@ body {
   height: 100%;
 }
 
-.chip-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.chip,
 .primary-btn {
-  border: 1px solid var(--border);
+  width: 100%;
+  border: 1px solid var(--text);
   border-radius: 999px;
-  background: #fff;
-  color: var(--text);
+  background: var(--text);
+  color: #fff;
   padding: 10px 14px;
   cursor: pointer;
   font-weight: 700;
-}
-
-.chip.active {
-  background: var(--text);
-  color: #fff;
-  border-color: var(--text);
-}
-
-.primary-btn {
-  width: 100%;
-  background: var(--text);
-  color: #fff;
-  border-color: var(--text);
 }
 
 .layer-list {
@@ -224,7 +205,6 @@ body {
   }
 }
 
-
 .popup-card {
   min-width: 260px;
   max-width: 340px;
@@ -258,48 +238,34 @@ body {
   color: var(--text);
 }
 
-.popup-badge.ativo { background: rgba(47, 158, 68, 0.12); border-color: rgba(47, 158, 68, 0.22); }
-.popup-badge.inativo { background: rgba(143, 150, 163, 0.16); border-color: rgba(143, 150, 163, 0.26); }
-.popup-badge.baixo { background: rgba(47, 158, 68, 0.12); border-color: rgba(47, 158, 68, 0.22); }
-.popup-badge.médio, .popup-badge.medio, .popup-badge.moderado { background: rgba(214, 181, 43, 0.18); border-color: rgba(214, 181, 43, 0.28); }
-.popup-badge.alto, .popup-badge.perigo { background: rgba(239, 139, 30, 0.16); border-color: rgba(239, 139, 30, 0.26); }
-.popup-badge.severo, .popup-badge.grande_perigo, .popup-badge.muito_alto { background: rgba(207, 61, 50, 0.14); border-color: rgba(207, 61, 50, 0.24); }
-.popup-badge.extremo { background: rgba(106, 67, 217, 0.14); border-color: rgba(106, 67, 217, 0.24); }
-
 .popup-section {
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .popup-label {
   display: block;
   font-size: 0.74rem;
   font-weight: 700;
-  text-transform: uppercase;
   color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
   margin-bottom: 4px;
 }
 
 .popup-text,
 .popup-value {
-  display: block;
-  line-height: 1.45;
   color: var(--text);
-  white-space: pre-wrap;
-  word-break: break-word;
 }
 
 .popup-text.highlight {
-  padding: 10px 12px;
-  border-radius: 12px;
-  background: #f5f2ff;
-  border: 1px solid rgba(106, 67, 217, 0.14);
+  font-weight: 700;
 }
 
 .popup-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 12px;
-  margin: 12px 0;
+  margin-top: 10px;
 }
 
 .popup-actions {
@@ -307,12 +273,48 @@ body {
 }
 
 .popup-actions a {
-  display: inline-block;
-  text-decoration: none;
+  color: #1f4fa3;
   font-weight: 700;
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 8px 12px;
-  background: #fff;
+  text-decoration: none;
+}
+
+.popup-badge.ativo {
+  background: rgba(106, 67, 217, 0.12);
+  border-color: rgba(106, 67, 217, 0.25);
+  color: #5a35c9;
+}
+
+.popup-badge.inativo {
+  background: rgba(143, 150, 163, 0.12);
+  border-color: rgba(143, 150, 163, 0.24);
+  color: #657084;
+}
+
+.popup-badge.grande_perigo,
+.popup-badge.muito_alto,
+.popup-badge.alerta {
+  background: rgba(207, 61, 50, 0.12);
+  border-color: rgba(207, 61, 50, 0.24);
+  color: #b02e26;
+}
+
+.popup-badge.perigo,
+.popup-badge.alto {
+  background: rgba(239, 139, 30, 0.12);
+  border-color: rgba(239, 139, 30, 0.24);
+  color: #c86f13;
+}
+
+.popup-badge.perigo_potencial,
+.popup-badge.moderado,
+.popup-badge.atencao {
+  background: rgba(214, 181, 43, 0.16);
+  border-color: rgba(214, 181, 43, 0.26);
+  color: #8a6d00;
+}
+
+.popup-badge.normal {
+  background: rgba(47, 158, 68, 0.12);
+  border-color: rgba(47, 158, 68, 0.24);
+  color: #23773a;
 }
