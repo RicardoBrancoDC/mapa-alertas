@@ -1,20 +1,16 @@
 from __future__ import annotations
 
 import os
-import re
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 
 from utils import DATA_DIR, feature_collection, write_geojson, write_json
 
-RSS_NSLESS_ITEM = "item"
 CAP_NS = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
-MUNI_CODE_RE = re.compile(r"\((\d{7})\)")
 
 
 class RateLimitError(Exception):
@@ -48,7 +44,6 @@ def fetch_text(url: str, timeout: int = 45) -> str:
         text = raw.decode("utf-8", errors="replace")
 
     text = text.lstrip("\ufeff\n\r\t ")
-
     if not text:
         raise ValueError(f"Resposta vazia em {url}")
 
@@ -96,13 +91,8 @@ def text_or_none(node: ET.Element | None) -> str | None:
 def parse_datetime(value: str | None) -> datetime | None:
     if not value:
         return None
-    txt = value.strip()
     try:
-        return datetime.fromisoformat(txt)
-    except ValueError:
-        pass
-    try:
-        return parsedate_to_datetime(txt)
+        return datetime.fromisoformat(value.strip())
     except Exception:
         return None
 
@@ -137,47 +127,30 @@ def parse_parameters(info: ET.Element) -> dict[str, str]:
     return params
 
 
-def parse_municipio_codes(parameters: dict[str, str]) -> list[str]:
-    raw = parameters.get("Municipios", "")
-    if not raw:
-        return []
-    seen: set[str] = set()
-    ordered: list[str] = []
-    for code in MUNI_CODE_RE.findall(raw):
-        if code not in seen:
-            seen.add(code)
-            ordered.append(code)
-    return ordered
+def cap_polygon_to_coords(polygon_text: str | None) -> list[list[list[float]]] | None:
+    txt = (polygon_text or "").strip()
+    if not txt:
+        return None
 
-
-def load_municipal_seats(codes: list[str]) -> dict[str, tuple[float, float]]:
-    if not codes:
-        return {}
-
-    try:
-        from geobr import read_municipality  # type: ignore
-    except Exception as exc:
-        raise RuntimeError(
-            "Dependência geobr não encontrada. Instale geobr no workflow para gerar a camada do INMET."
-        ) from exc
-
-    gdf = read_municipality(code_muni="all", year=2010, simplified=True)
-
-    lookup: dict[str, tuple[float, float]] = {}
-    code_set = set(codes)
-    for _, row in gdf.iterrows():
-        code = str(row.get("code_muni", "")).strip()
-        if code not in code_set:
-            continue
-        geom = row.geometry
-        if geom is None or geom.is_empty:
+    pts: list[list[float]] = []
+    for pair in txt.split():
+        parts = pair.split(",")
+        if len(parts) != 2:
             continue
         try:
-            point = geom.representative_point()
-        except Exception:
-            point = geom.centroid
-        lookup[code] = (float(point.x), float(point.y))
-    return lookup
+            lat = float(parts[0])
+            lon = float(parts[1])
+        except ValueError:
+            continue
+        pts.append([lon, lat])
+
+    if len(pts) < 3:
+        return None
+
+    if pts[0] != pts[-1]:
+        pts.append(pts[0])
+
+    return [pts]
 
 
 def parse_rss_items(rss_text: str) -> list[dict[str, str | None]]:
@@ -187,13 +160,14 @@ def parse_rss_items(rss_text: str) -> list[dict[str, str | None]]:
         return []
 
     items: list[dict[str, str | None]] = []
-    for item in channel.findall(RSS_NSLESS_ITEM):
+    for item in channel.findall("item"):
         items.append(
             {
                 "title": text_or_none(item.find("title")),
                 "link": text_or_none(item.find("link")),
                 "guid": text_or_none(item.find("guid")),
                 "pubDate": text_or_none(item.find("pubDate")),
+                "description": text_or_none(item.find("description")),
             }
         )
     return items
@@ -203,13 +177,33 @@ def parse_cap_alert(xml_text: str) -> dict[str, Any]:
     xml_text = (xml_text or "").lstrip("\ufeff\n\r\t ")
     if not xml_text:
         raise ValueError("CAP vazio.")
+
     root = ET.fromstring(xml_text)
     info = root.find("cap:info", CAP_NS)
     if info is None:
         raise ValueError("CAP do INMET sem bloco <info>.")
 
+    areas = []
+    for area in info.findall("cap:area", CAP_NS):
+        area_desc = text_or_none(area.find("cap:areaDesc", CAP_NS))
+        polygon_text = text_or_none(area.find("cap:polygon", CAP_NS))
+        coords = cap_polygon_to_coords(polygon_text)
+        geocodes = {}
+        for geocode in area.findall("cap:geocode", CAP_NS):
+            key = text_or_none(geocode.find("cap:valueName", CAP_NS))
+            value = text_or_none(geocode.find("cap:value", CAP_NS))
+            if key:
+                geocodes[key] = value or ""
+        areas.append(
+            {
+                "area_desc": area_desc,
+                "polygon": polygon_text,
+                "coords": coords,
+                "geocodes": geocodes,
+            }
+        )
+
     parameters = parse_parameters(info)
-    municipio_codes = parse_municipio_codes(parameters)
 
     return {
         "identifier": text_or_none(root.find("cap:identifier", CAP_NS)),
@@ -234,26 +228,17 @@ def parse_cap_alert(xml_text: str) -> dict[str, Any]:
         "web": text_or_none(info.find("cap:web", CAP_NS)),
         "contact": text_or_none(info.find("cap:contact", CAP_NS)),
         "parameters": parameters,
-        "municipio_codes": municipio_codes,
+        "areas": areas,
     }
 
 
-def build_feature(
-    rss_item: dict[str, Any],
-    cap_data: dict[str, Any],
-    seat_lookup: dict[str, tuple[float, float]],
-    now: datetime,
-) -> dict[str, Any] | None:
-    coords = [seat_lookup[code] for code in cap_data["municipio_codes"] if code in seat_lookup]
-    if not coords:
-        return None
-
+def build_features(rss_item: dict[str, Any], cap_data: dict[str, Any], now: datetime) -> list[dict[str, Any]]:
     expires_dt = parse_datetime(cap_data.get("expires"))
     is_active = bool(expires_dt and expires_dt >= now)
     severity_raw = cap_data.get("severity")
     severity_label = severity_pt_from_cap(severity_raw)
 
-    properties = {
+    common_props = {
         "title": rss_item.get("title") or cap_data.get("headline") or cap_data.get("event") or "Alerta INMET",
         "tipo": "INMET",
         "status": "Ativo" if is_active else "Inativo",
@@ -280,16 +265,32 @@ def build_feature(
         "identifier": cap_data.get("identifier"),
         "color_risk": cap_data["parameters"].get("ColorRisk"),
         "municipios": cap_data["parameters"].get("Municipios"),
-        "municipios_total": len(cap_data["municipio_codes"]),
         "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
     }
 
-    geometry = {
-        "type": "MultiPoint",
-        "coordinates": [[lon, lat] for lon, lat in coords],
-    }
-
-    return {"type": "Feature", "properties": properties, "geometry": geometry}
+    features: list[dict[str, Any]] = []
+    areas = cap_data.get("areas") or []
+    for idx, area in enumerate(areas):
+        coords = area.get("coords")
+        if not coords:
+            continue
+        props = dict(common_props)
+        props.update(
+            {
+                "area_desc": area.get("area_desc"),
+                "area_index": idx,
+                "geocodes": area.get("geocodes") or {},
+                "polygon_raw": area.get("polygon"),
+            }
+        )
+        features.append(
+            {
+                "type": "Feature",
+                "properties": props,
+                "geometry": {"type": "Polygon", "coordinates": coords},
+            }
+        )
+    return features
 
 
 def write_status(payload: dict[str, Any]) -> None:
@@ -306,6 +307,8 @@ def main() -> None:
     max_items = env_int("INMET_MAX_ITEMS", 120)
     retries = env_int("INMET_RSS_RETRIES", 4)
     backoff_sec = float(os.getenv("INMET_BACKOFF_SEC", "10").strip() or "10")
+    cap_retries = env_int("INMET_CAP_RETRIES", 2)
+    cap_backoff_sec = float(os.getenv("INMET_CAP_BACKOFF_SEC", "4").strip() or "4")
 
     now = datetime.now(timezone.utc).astimezone()
 
@@ -315,28 +318,29 @@ def main() -> None:
         message = str(exc)
         if existing_geojson_exists():
             print(f"[INMET] {message}. Mantendo camada anterior sem falhar o workflow.")
-            write_status({
-                "updated_at": now.isoformat(),
-                "status": "rate_limited",
-                "message": message,
-                "used_cached_geojson": True,
-            })
+            write_status(
+                {
+                    "updated_at": now.isoformat(),
+                    "status": "rate_limited",
+                    "message": message,
+                    "used_cached_geojson": True,
+                }
+            )
             return
         raise
 
     rss_items = parse_rss_items(rss_text)[:max_items]
 
-    cap_records: list[tuple[dict[str, Any], dict[str, Any]]] = []
-    all_codes: list[str] = []
-    seen_codes: set[str] = set()
-
+    features: list[dict[str, Any]] = []
     skipped_cap = 0
+    without_geometry = 0
+
     for item in rss_items:
-        link = item.get("link")
+        link = item.get("guid") or item.get("link")
         if not link:
             continue
         try:
-            cap_xml = fetch_text_with_retry(link, timeout=timeout, retries=2, backoff_sec=4.0)
+            cap_xml = fetch_text_with_retry(link, timeout=timeout, retries=cap_retries, backoff_sec=cap_backoff_sec)
             cap_data = parse_cap_alert(cap_xml)
         except RateLimitError as exc:
             skipped_cap += 1
@@ -346,37 +350,12 @@ def main() -> None:
             skipped_cap += 1
             print(f"[INMET] aviso ignorado em {link}: {exc}")
             continue
-        cap_records.append((item, cap_data))
-        for code in cap_data["municipio_codes"]:
-            if code not in seen_codes:
-                seen_codes.add(code)
-                all_codes.append(code)
 
-    if not all_codes:
-        write_geojson("inmet_alertas.geojson", feature_collection([]))
-        write_status(
-            {
-                "updated_at": now.isoformat(),
-                "status": "ok",
-                "alerts_total": 0,
-                "alerts_without_geometry": 0,
-                "caps_ignored": skipped_cap,
-                "message": "Nenhum CAP do INMET pôde ser convertido nesta execução.",
-            }
-        )
-        print("Arquivo INMET atualizado com 0 alertas. Nenhum município foi extraído dos CAPs desta execução.")
-        return
-
-    seat_lookup = load_municipal_seats(all_codes)
-
-    features: list[dict[str, Any]] = []
-    skipped = 0
-    for item, cap_data in cap_records:
-        feature = build_feature(item, cap_data, seat_lookup, now)
-        if feature is None:
-            skipped += 1
+        built = build_features(item, cap_data, now)
+        if not built:
+            without_geometry += 1
             continue
-        features.append(feature)
+        features.extend(built)
 
     payload = feature_collection(features)
     write_geojson("inmet_alertas.geojson", payload)
@@ -385,13 +364,14 @@ def main() -> None:
             "updated_at": now.isoformat(),
             "status": "ok",
             "alerts_total": len(features),
-            "alerts_without_geometry": skipped,
+            "alerts_without_geometry": without_geometry,
             "caps_ignored": skipped_cap,
+            "rss_items_total": len(rss_items),
         }
     )
     print(
-        f"Arquivo INMET atualizado com {len(features)} alertas, "
-        f"{skipped} alertas sem geometria e {skipped_cap} CAPs ignorados."
+        f"Arquivo INMET atualizado com {len(features)} geometrias, "
+        f"{without_geometry} alertas sem polígono e {skipped_cap} CAPs ignorados."
     )
 
 
