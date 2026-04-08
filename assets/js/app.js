@@ -39,6 +39,14 @@ function markerStyle(category, feature = null) {
     if (severity === 'moderado') return '#ffd54f';
   }
 
+  if (category === 'sgb_estacoes') {
+    if (severity === 'alerta') return '#d73027';
+    if (severity === 'atencao') return '#ffd54f';
+    if (severity === 'sem_transmissao') return '#8f96a3';
+    if (severity === 'normal') return '#2f9e44';
+    return '#1f78b4';
+  }
+
   return styles[category] || '#1f2a44';
 }
 
@@ -96,9 +104,11 @@ function popupHtml(feature, layerName) {
       ${headline ? `<div class="popup-section"><div class="popup-label">Headline</div><div class="popup-text highlight">${headline}</div></div>` : ''}
       ${eventName ? `<div class="popup-section"><div class="popup-label">Evento</div><div class="popup-text">${eventName}</div></div>` : ''}
       ${areaName ? `<div class="popup-section"><div class="popup-label">Área</div><div class="popup-text">${areaName}</div></div>` : ''}
+      ${p.bacia ? `<div class="popup-section"><div class="popup-label">Bacia</div><div class="popup-text">${p.bacia}</div></div>` : ''}
 
       <div class="popup-grid">
         ${p.codibge ? `<div><span class="popup-label">IBGE</span><span class="popup-value">${p.codibge}</span></div>` : ''}
+        ${p.sigla_pm ? `<div><span class="popup-label">Sigla</span><span class="popup-value">${p.sigla_pm}</span></div>` : ''}
         ${p.onset ? `<div><span class="popup-label">Início</span><span class="popup-value">${formatDateTime(p.onset)}</span></div>` : ''}
         ${p.expires ? `<div><span class="popup-label">Expira</span><span class="popup-value">${formatDateTime(p.expires)}</span></div>` : ''}
         ${p.updated_at ? `<div><span class="popup-label">Atualizado</span><span class="popup-value">${formatDateTime(p.updated_at)}</span></div>` : ''}
