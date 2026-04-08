@@ -1,427 +1,398 @@
 from __future__ import annotations
 
-import json
 import os
-import re
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
-from html import unescape
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from utils import BASE_DIR, DATA_DIR, feature_collection, write_geojson, write_json
+from utils import DATA_DIR, feature_collection, write_geojson, write_json
 
-ATOM_NS = {"atom": "http://www.w3.org/2005/Atom"}
 CAP_NS = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
 
-RSS_URL = os.getenv("RSS_URL", "https://idapfile.mdr.gov.br/idap/api/rss/cap")
-HISTORY_PATH = Path(os.getenv("HISTORY_PATH", str(BASE_DIR / ".cache" / "historico_alertas_idap.json")))
-WINDOW_HOURS = int(os.getenv("WINDOW_HOURS", "24"))
-RETENTION_HOURS = int(os.getenv("RETENTION_HOURS", "72"))
-REQUEST_TIMEOUT_SEC = int(os.getenv("REQUEST_TIMEOUT_SEC", "45"))
-LOCAL_TZ = timezone(timedelta(hours=-3))
-CATALOG_PATH = DATA_DIR / "catalogo_camadas.json"
 
-UF_PATTERN = re.compile(r"\b([A-Z]{2})\b")
-UF_SET = {
-    "AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG",
-    "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"
-}
-
-
-class AlertRecord(dict):
+class RateLimitError(Exception):
     pass
 
 
-def now_local() -> datetime:
-    return datetime.now(timezone.utc).astimezone(LOCAL_TZ)
-
-
-def safe_text(elem: ET.Element | None) -> str | None:
-    if elem is None or elem.text is None:
-        return None
-    txt = elem.text.strip()
-    return txt or None
-
-
-def first(elem: ET.Element, path: str, ns: dict[str, str]) -> ET.Element | None:
-    return elem.find(path, ns)
-
-
-def all_nodes(elem: ET.Element, path: str, ns: dict[str, str]) -> list[ET.Element]:
-    return elem.findall(path, ns)
-
-
-def parse_iso_any(value: str | None) -> datetime | None:
-    if not value:
-        return None
-    txt = str(value).strip()
-    if not txt:
-        return None
-    if txt.endswith("Z"):
-        txt = txt[:-1] + "+00:00"
+def env_int(name: str, default: int) -> int:
+    value = os.getenv(name, str(default)).strip()
     try:
-        dt = datetime.fromisoformat(txt)
-    except Exception:
-        return None
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
-    return dt
+        return int(value)
+    except ValueError:
+        return default
 
 
-def calc_nivel(severity: str, urgency: str, certainty: str, response_type: str) -> str:
-    s = (severity or "").strip()
-    u = (urgency or "").strip()
-    c = (certainty or "").strip()
-    r = (response_type or "").strip()
-
-    if s == "Extreme":
-        if u == "Immediate" and c in {"Likely", "Observed"} and r in {"Evacuate", "Shelter", "Execute"}:
-            return "Extremo"
-        return "Severo"
-    if s == "Severe":
-        return "Alto"
-    if s == "Moderate":
-        return "Médio"
-    if s == "Minor":
-        return "Baixo"
-    return "Indefinido"
-
-
-def guess_uf(*values: str | None) -> str:
-    for value in values:
-        if not value:
-            continue
-        upper = value.upper()
-        found = UF_PATTERN.findall(upper)
-        for uf in found:
-            if uf in UF_SET:
-                return uf
-    return ""
-
-
-def parse_polygon_geometry(poly_str: str | None) -> dict[str, Any] | None:
-    if not poly_str:
-        return None
-    pts: list[list[float]] = []
-    for token in poly_str.strip().split():
-        if "," not in token:
-            continue
-        lat_txt, lon_txt = token.split(",", 1)
-        try:
-            lat = float(lat_txt)
-            lon = float(lon_txt)
-        except Exception:
-            continue
-        pts.append([lon, lat])
-
-    if len(pts) >= 3:
-        if pts[0] != pts[-1]:
-            pts.append(pts[0])
-        return {"type": "Polygon", "coordinates": [pts]}
-
-    if len(pts) == 1:
-        return {"type": "Point", "coordinates": pts[0]}
-
-    if len(pts) == 2:
-        center = [round((pts[0][0] + pts[1][0]) / 2, 6), round((pts[0][1] + pts[1][1]) / 2, 6)]
-        return {"type": "Point", "coordinates": center}
-
-    return None
-
-
-def extract_cap_xml_from_entry(entry: ET.Element) -> ET.Element | None:
-    content = first(entry, "atom:content", ATOM_NS)
-    if content is None:
-        return None
-
-    for child in list(content):
-        if child.tag.endswith("alert"):
-            return child
-
-    raw = (content.text or "").strip()
-    if not raw:
-        return None
-
-    candidates = [raw, unescape(raw)]
-    for candidate in candidates:
-        try:
-            root = ET.fromstring(candidate)
-        except Exception:
-            continue
-        if root.tag.endswith("alert"):
-            return root
-    return None
-
-
-def cap_get_parameter(info_elem: ET.Element, value_name: str) -> str | None:
-    for p in all_nodes(info_elem, "cap:parameter", CAP_NS):
-        vn = safe_text(first(p, "cap:valueName", CAP_NS))
-        if vn and vn.strip().upper() == value_name.strip().upper():
-            return safe_text(first(p, "cap:value", CAP_NS))
-    return None
-
-
-def extract_ibge(area_elem: ET.Element | None) -> str:
-    if area_elem is None:
-        return ""
-    for gc in all_nodes(area_elem, "cap:geocode", CAP_NS):
-        name = safe_text(first(gc, "cap:valueName", CAP_NS)) or ""
-        value = safe_text(first(gc, "cap:value", CAP_NS)) or ""
-        if "IBGE" in name.upper():
-            return value.strip()
-    return ""
-
-
-def parse_entry(entry: ET.Element) -> AlertRecord | None:
-    cap_alert = extract_cap_xml_from_entry(entry)
-    if cap_alert is None:
-        return None
-
-    entry_id = safe_text(first(entry, "atom:id", ATOM_NS)) or "UNKNOWN"
-    identifier = safe_text(first(cap_alert, "cap:identifier", CAP_NS)) or entry_id
-    sender = safe_text(first(cap_alert, "cap:sender", CAP_NS))
-    sent = safe_text(first(cap_alert, "cap:sent", CAP_NS))
-    status_cap = safe_text(first(cap_alert, "cap:status", CAP_NS))
-    msg_type = safe_text(first(cap_alert, "cap:msgType", CAP_NS))
-
-    info = first(cap_alert, "cap:info", CAP_NS)
-    if info is None:
-        infos = all_nodes(cap_alert, "cap:info", CAP_NS)
-        info = infos[0] if infos else None
-    if info is None:
-        return None
-
-    category = safe_text(first(info, "cap:category", CAP_NS))
-    event = safe_text(first(info, "cap:event", CAP_NS))
-    response_type = safe_text(first(info, "cap:responseType", CAP_NS))
-    urgency = safe_text(first(info, "cap:urgency", CAP_NS))
-    severity = safe_text(first(info, "cap:severity", CAP_NS))
-    certainty = safe_text(first(info, "cap:certainty", CAP_NS))
-    onset = safe_text(first(info, "cap:onset", CAP_NS))
-    expires = safe_text(first(info, "cap:expires", CAP_NS))
-    sender_name = safe_text(first(info, "cap:senderName", CAP_NS))
-    headline = safe_text(first(info, "cap:headline", CAP_NS))
-    description = safe_text(first(info, "cap:description", CAP_NS))
-    instruction = safe_text(first(info, "cap:instruction", CAP_NS))
-    web = safe_text(first(info, "cap:web", CAP_NS))
-    contact = safe_text(first(info, "cap:contact", CAP_NS))
-    channel_list = cap_get_parameter(info, "CHANNEL-LIST")
-
-    area = first(info, "cap:area", CAP_NS)
-    area_desc = safe_text(first(area, "cap:areaDesc", CAP_NS)) if area is not None else None
-    polygon_raw = safe_text(first(area, "cap:polygon", CAP_NS)) if area is not None else None
-    ibge = extract_ibge(area)
-    geometry = parse_polygon_geometry(polygon_raw)
-
-    return AlertRecord(
-        identifier=identifier,
-        entry_id=entry_id,
-        sender=sender,
-        senderName=sender_name,
-        sent=sent,
-        status_cap=status_cap,
-        msgType=msg_type,
-        category=category,
-        event=event,
-        responseType=response_type,
-        urgency=urgency,
-        severity=severity,
-        certainty=certainty,
-        onset=onset,
-        expires=expires,
-        nivel=calc_nivel(severity or "", urgency or "", certainty or "", response_type or ""),
-        headline=headline,
-        description=description,
-        instruction=instruction,
-        web=web,
-        contact=contact,
-        channel_list=channel_list,
-        areaDesc=area_desc,
-        polygon_raw=polygon_raw,
-        codibge=ibge,
-        uf=guess_uf(area_desc, sender_name),
-        geometry=geometry,
-    )
-
-
-def read_url_bytes(url: str) -> bytes:
+def fetch_text(url: str, timeout: int = 45) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0",
-            "Accept": "application/atom+xml,application/xml,text/xml,*/*",
+            "User-Agent": "mapa-alertas/1.0 (+https://github.com)",
+            "Accept": "application/rss+xml, application/xml, text/xml, application/cap+xml, */*",
         },
     )
-    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SEC) as resp:
-        return resp.read()
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        raw = response.read()
+        content_type = (response.headers.get("Content-Type") or "").lower()
+        encoding = response.headers.get_content_charset() or "utf-8"
 
-
-def load_history(path: Path) -> list[AlertRecord]:
-    if not path.exists():
-        return []
     try:
-        raw = json.loads(path.read_text(encoding="utf-8"))
+        text = raw.decode(encoding, errors="strict")
     except Exception:
-        return []
-    if not isinstance(raw, list):
-        return []
-    alerts: list[AlertRecord] = []
-    for item in raw:
-        if isinstance(item, dict):
-            alerts.append(AlertRecord(item))
-    return alerts
+        text = raw.decode("utf-8", errors="replace")
+
+    text = text.lstrip("\ufeff\n\r\t ")
+    if not text:
+        raise ValueError(f"Resposta vazia em {url}")
+
+    lower_text = text.lower()
+    if "limite de requisições" in lower_text or "limite de requisicoes" in lower_text:
+        raise RateLimitError(f"Limite de requisições atingido em {url}")
+
+    if "<" not in text[:200] and "xml" not in content_type and "rss" not in content_type:
+        preview = text[:120].replace("\n", " ").replace("\r", " ")
+        raise ValueError(f"Resposta não parece XML em {url}: {preview}")
+
+    return text
 
 
-def save_history(path: Path, alerts: list[AlertRecord]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(alerts, ensure_ascii=False, indent=2), encoding="utf-8")
+def fetch_text_with_retry(url: str, timeout: int = 45, retries: int = 3, backoff_sec: float = 8.0) -> str:
+    last_exc: Exception | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            return fetch_text(url, timeout=timeout)
+        except RateLimitError as exc:
+            last_exc = exc
+            if attempt == retries:
+                break
+            sleep_for = backoff_sec * attempt
+            print(f"[INMET] limite de requisições em {url}. Nova tentativa em {sleep_for:.1f}s.")
+            time.sleep(sleep_for)
+        except Exception as exc:
+            last_exc = exc
+            if attempt == retries:
+                break
+            sleep_for = min(3.0 * attempt, 10.0)
+            print(f"[INMET] falha temporária em {url}: {exc}. Nova tentativa em {sleep_for:.1f}s.")
+            time.sleep(sleep_for)
+    assert last_exc is not None
+    raise last_exc
 
 
-def merge_history(existing: list[AlertRecord], new_alerts: list[AlertRecord]) -> list[AlertRecord]:
-    merged: dict[str, AlertRecord] = {}
-    for alert in existing:
-        key = (alert.get("entry_id") or alert.get("identifier") or "").strip()
+def text_or_none(node: ET.Element | None) -> str | None:
+    if node is None or node.text is None:
+        return None
+    value = node.text.strip()
+    return value or None
+
+
+def parse_datetime(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.strip())
+    except Exception:
+        return None
+
+
+def severity_pt_from_cap(value: str | None) -> str:
+    normalized = (value or "").strip().lower()
+    if normalized == "extreme":
+        return "Grande Perigo"
+    if normalized == "severe":
+        return "Perigo"
+    if normalized == "moderate":
+        return "Perigo Potencial"
+    return value or "Não informado"
+
+
+def severity_group(value: str | None) -> str:
+    normalized = (value or "").strip().lower()
+    if normalized in {"extreme", "grande perigo"}:
+        return "grande_perigo"
+    if normalized in {"severe", "perigo"}:
+        return "perigo"
+    return "perigo_potencial"
+
+
+def parse_parameters(info: ET.Element) -> dict[str, str]:
+    params: dict[str, str] = {}
+    for parameter in info.findall("cap:parameter", CAP_NS):
+        key = text_or_none(parameter.find("cap:valueName", CAP_NS))
+        value = text_or_none(parameter.find("cap:value", CAP_NS))
         if key:
-            merged[key] = alert
-    for alert in new_alerts:
-        key = (alert.get("entry_id") or alert.get("identifier") or "").strip()
-        if key:
-            merged[key] = alert
-    def sort_key(alert: AlertRecord) -> datetime:
-        return parse_iso_any(alert.get("onset")) or parse_iso_any(alert.get("sent")) or datetime(1970, 1, 1, tzinfo=timezone.utc)
-    items = list(merged.values())
-    items.sort(key=sort_key)
+            params[key] = value or ""
+    return params
+
+
+def cap_polygon_to_coords(polygon_text: str | None) -> list[list[list[float]]] | None:
+    txt = (polygon_text or "").strip()
+    if not txt:
+        return None
+
+    pts: list[list[float]] = []
+    for pair in txt.split():
+        parts = pair.split(",")
+        if len(parts) != 2:
+            continue
+        try:
+            lat = float(parts[0])
+            lon = float(parts[1])
+        except ValueError:
+            continue
+        pts.append([lon, lat])
+
+    if len(pts) < 3:
+        return None
+
+    if pts[0] != pts[-1]:
+        pts.append(pts[0])
+
+    return [pts]
+
+
+def parse_rss_items(rss_text: str) -> list[dict[str, str | None]]:
+    root = ET.fromstring(rss_text)
+    channel = root.find("channel")
+    if channel is None:
+        return []
+
+    items: list[dict[str, str | None]] = []
+    for item in channel.findall("item"):
+        items.append(
+            {
+                "title": text_or_none(item.find("title")),
+                "link": text_or_none(item.find("link")),
+                "guid": text_or_none(item.find("guid")),
+                "pubDate": text_or_none(item.find("pubDate")),
+                "description": text_or_none(item.find("description")),
+            }
+        )
     return items
 
 
-def filter_recent(alerts: list[AlertRecord], hours: int, ref_now: datetime) -> list[AlertRecord]:
-    cutoff = ref_now.astimezone(timezone.utc) - timedelta(hours=hours)
-    selected: list[AlertRecord] = []
-    for alert in alerts:
-        ref_dt = parse_iso_any(alert.get("onset")) or parse_iso_any(alert.get("sent"))
-        if ref_dt is not None and ref_dt >= cutoff:
-            selected.append(alert)
-    return selected
+def parse_cap_alert(xml_text: str) -> dict[str, Any]:
+    xml_text = (xml_text or "").lstrip("\ufeff\n\r\t ")
+    if not xml_text:
+        raise ValueError("CAP vazio.")
 
+    root = ET.fromstring(xml_text)
+    info = root.find("cap:info", CAP_NS)
+    if info is None:
+        raise ValueError("CAP do INMET sem bloco <info>.")
 
-def classify_runtime_status(alert: AlertRecord, ref_now: datetime) -> tuple[str, bool]:
-    onset_dt = parse_iso_any(alert.get("onset")) or parse_iso_any(alert.get("sent"))
-    expires_dt = parse_iso_any(alert.get("expires"))
-    if onset_dt and onset_dt > ref_now:
-        return "Futuro", False
-    if expires_dt:
-        return ("Ativo", True) if expires_dt >= ref_now else ("Inativo", False)
-    return "Sem validade", True
+    areas = []
+    for area in info.findall("cap:area", CAP_NS):
+        area_desc = text_or_none(area.find("cap:areaDesc", CAP_NS))
+        polygon_text = text_or_none(area.find("cap:polygon", CAP_NS))
+        coords = cap_polygon_to_coords(polygon_text)
+        geocodes = {}
+        for geocode in area.findall("cap:geocode", CAP_NS):
+            key = text_or_none(geocode.find("cap:valueName", CAP_NS))
+            value = text_or_none(geocode.find("cap:value", CAP_NS))
+            if key:
+                geocodes[key] = value or ""
+        areas.append(
+            {
+                "area_desc": area_desc,
+                "polygon": polygon_text,
+                "coords": coords,
+                "geocodes": geocodes,
+            }
+        )
 
-
-def build_feature(alert: AlertRecord, runtime_status: str, is_active: bool, updated_at: str) -> dict[str, Any] | None:
-    geometry = alert.get("geometry")
-    if not geometry:
-        return None
-
-    title = alert.get("headline") or alert.get("event") or alert.get("senderName") or "Alerta IDAP"
-    description_parts = []
-    if alert.get("description"):
-        description_parts.append(str(alert.get("description")))
-    if alert.get("instruction"):
-        description_parts.append(f"Instruções: {alert.get('instruction')}")
+    parameters = parse_parameters(info)
 
     return {
-        "type": "Feature",
-        "properties": {
-            "id": alert.get("identifier") or alert.get("entry_id"),
-            "title": title,
-            "nome": title,
-            "tipo": "IDAP",
-            "categoria": alert.get("category") or "Met",
-            "status": runtime_status,
-            "status_cap": alert.get("status_cap") or "",
-            "is_active": is_active,
-            "municipio": alert.get("areaDesc") or "",
-            "uf": alert.get("uf") or "",
-            "codibge": alert.get("codibge") or "",
-            "evento": alert.get("event") or "",
-            "evento_tipo": alert.get("event") or "",
-            "severidade": alert.get("nivel") or "Indefinido",
-            "severity_group": str(alert.get("nivel") or "indefinido").lower().replace(" ", "_"),
-            "urgency": alert.get("urgency") or "",
-            "severity": alert.get("severity") or "",
-            "certainty": alert.get("certainty") or "",
-            "sender_name": alert.get("senderName") or "",
-            "sender": alert.get("sender") or "",
-            "channel_list": alert.get("channel_list") or "",
-            "onset": alert.get("onset") or alert.get("sent") or "",
-            "sent": alert.get("sent") or "",
-            "expires": alert.get("expires") or "",
-            "updated_at": updated_at,
-            "descricao": "\n\n".join(description_parts).strip(),
-            "link": alert.get("web") or RSS_URL,
-            "fonte": RSS_URL,
-        },
-        "geometry": geometry,
+        "identifier": text_or_none(root.find("cap:identifier", CAP_NS)),
+        "sender": text_or_none(root.find("cap:sender", CAP_NS)),
+        "sent": text_or_none(root.find("cap:sent", CAP_NS)),
+        "status": text_or_none(root.find("cap:status", CAP_NS)),
+        "msg_type": text_or_none(root.find("cap:msgType", CAP_NS)),
+        "scope": text_or_none(root.find("cap:scope", CAP_NS)),
+        "language": text_or_none(info.find("cap:language", CAP_NS)),
+        "category": text_or_none(info.find("cap:category", CAP_NS)),
+        "event": text_or_none(info.find("cap:event", CAP_NS)),
+        "response_type": text_or_none(info.find("cap:responseType", CAP_NS)),
+        "urgency": text_or_none(info.find("cap:urgency", CAP_NS)),
+        "severity": text_or_none(info.find("cap:severity", CAP_NS)),
+        "certainty": text_or_none(info.find("cap:certainty", CAP_NS)),
+        "onset": text_or_none(info.find("cap:onset", CAP_NS)),
+        "expires": text_or_none(info.find("cap:expires", CAP_NS)),
+        "sender_name": text_or_none(info.find("cap:senderName", CAP_NS)),
+        "headline": text_or_none(info.find("cap:headline", CAP_NS)),
+        "description": text_or_none(info.find("cap:description", CAP_NS)),
+        "instruction": text_or_none(info.find("cap:instruction", CAP_NS)),
+        "web": text_or_none(info.find("cap:web", CAP_NS)),
+        "contact": text_or_none(info.find("cap:contact", CAP_NS)),
+        "parameters": parameters,
+        "areas": areas,
     }
 
 
-def update_catalog_timestamp(updated_at: str) -> None:
-    if not CATALOG_PATH.exists():
-        return
-    try:
-        payload = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
-    except Exception:
-        return
-    if not isinstance(payload, dict):
-        return
-    payload["generated_at"] = updated_at
-    write_json("catalogo_camadas.json", payload)
+def build_features(rss_item: dict[str, Any], cap_data: dict[str, Any], now: datetime, time_filter: str = "today") -> list[dict[str, Any]]:
+    onset_dt = parse_datetime(cap_data.get("onset"))
+    expires_dt = parse_datetime(cap_data.get("expires"))
+    if not expires_dt:
+        return []
+
+    # Descarta tudo que já expirou.
+    if expires_dt <= now:
+        return []
+
+    status_tempo = "hoje"
+    if onset_dt and onset_dt > now:
+        status_tempo = "futuro"
+
+    # Comportamento padrão do painel: mostrar apenas os avisos em vigência agora.
+    # Se quiser incluir futuros também, use INMET_TIME_FILTER=valid.
+    if time_filter == "today" and status_tempo != "hoje":
+        return []
+
+    is_active = status_tempo == "hoje"
+    severity_raw = cap_data.get("severity")
+    severity_label = severity_pt_from_cap(severity_raw)
+
+    common_props = {
+        "title": rss_item.get("title") or cap_data.get("headline") or cap_data.get("event") or "Alerta INMET",
+        "tipo": "INMET",
+        "status": "Ativo" if is_active else "Futuro",
+        "status_tempo": status_tempo,
+        "is_active": is_active,
+        "severidade": severity_label,
+        "severity_group": severity_group(severity_raw),
+        "evento": cap_data.get("event"),
+        "categoria": cap_data.get("category"),
+        "headline": cap_data.get("headline"),
+        "descricao": cap_data.get("description"),
+        "instruction": cap_data.get("instruction"),
+        "sender": cap_data.get("sender"),
+        "sender_name": cap_data.get("sender_name"),
+        "onset": cap_data.get("onset"),
+        "expires": cap_data.get("expires"),
+        "sent": cap_data.get("sent"),
+        "urgency": cap_data.get("urgency"),
+        "certainty": cap_data.get("certainty"),
+        "response_type": cap_data.get("response_type"),
+        "updated_at": now.isoformat(),
+        "link": cap_data.get("web") or rss_item.get("link"),
+        "source_rss_link": rss_item.get("link"),
+        "guid": rss_item.get("guid"),
+        "identifier": cap_data.get("identifier"),
+        "color_risk": cap_data["parameters"].get("ColorRisk"),
+        "municipios": cap_data["parameters"].get("Municipios"),
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+    }
+
+    features: list[dict[str, Any]] = []
+    areas = cap_data.get("areas") or []
+    for idx, area in enumerate(areas):
+        coords = area.get("coords")
+        if not coords:
+            continue
+        props = dict(common_props)
+        props.update(
+            {
+                "area_desc": area.get("area_desc"),
+                "area_index": idx,
+                "geocodes": area.get("geocodes") or {},
+                "polygon_raw": area.get("polygon"),
+            }
+        )
+        features.append(
+            {
+                "type": "Feature",
+                "properties": props,
+                "geometry": {"type": "Polygon", "coordinates": coords},
+            }
+        )
+    return features
+
+
+def write_status(payload: dict[str, Any]) -> None:
+    write_json("inmet_status.json", payload)
+
+
+def existing_geojson_exists() -> bool:
+    return (DATA_DIR / "inmet_alertas.geojson").exists()
 
 
 def main() -> None:
-    rss_bytes = read_url_bytes(RSS_URL)
-    root = ET.fromstring(rss_bytes)
-    entries = all_nodes(root, "atom:entry", ATOM_NS)
+    rss_url = os.getenv("INMET_RSS_URL", "https://apiprevmet3.inmet.gov.br/avisos/rss")
+    timeout = env_int("REQUEST_TIMEOUT_SEC", 45)
+    max_items = env_int("INMET_MAX_ITEMS", 120)
+    retries = env_int("INMET_RSS_RETRIES", 4)
+    backoff_sec = float(os.getenv("INMET_BACKOFF_SEC", "10").strip() or "10")
+    cap_retries = env_int("INMET_CAP_RETRIES", 2)
+    cap_backoff_sec = float(os.getenv("INMET_CAP_BACKOFF_SEC", "4").strip() or "4")
+    time_filter = (os.getenv("INMET_TIME_FILTER", "today").strip().lower() or "today")
 
-    feed_alerts: list[AlertRecord] = []
-    for entry in entries:
-        alert = parse_entry(entry)
-        if alert is not None:
-            feed_alerts.append(alert)
+    now = datetime.now(timezone.utc).astimezone()
 
-    ref_now = now_local()
-    updated_at = ref_now.isoformat()
+    try:
+        rss_text = fetch_text_with_retry(rss_url, timeout=timeout, retries=retries, backoff_sec=backoff_sec)
+    except RateLimitError as exc:
+        message = str(exc)
+        if existing_geojson_exists():
+            print(f"[INMET] {message}. Mantendo camada anterior sem falhar o workflow.")
+            write_status(
+                {
+                    "updated_at": now.isoformat(),
+                    "status": "rate_limited",
+                    "message": message,
+                    "used_cached_geojson": True,
+                }
+            )
+            return
+        raise
 
-    history_before = load_history(HISTORY_PATH)
-    history_merged = merge_history(history_before, feed_alerts)
-    history_kept = filter_recent(history_merged, RETENTION_HOURS, ref_now)
-    alerts_24h = filter_recent(history_kept, WINDOW_HOURS, ref_now)
+    rss_items = parse_rss_items(rss_text)[:max_items]
 
-    ativos: list[dict[str, Any]] = []
-    inativos: list[dict[str, Any]] = []
-    skipped_without_geometry = 0
+    features: list[dict[str, Any]] = []
+    skipped_cap = 0
+    without_geometry = 0
 
-    for alert in alerts_24h:
-        runtime_status, is_active = classify_runtime_status(alert, ref_now)
-        feature = build_feature(alert, runtime_status, is_active, updated_at)
-        if feature is None:
-            skipped_without_geometry += 1
+    for item in rss_items:
+        link = item.get("guid") or item.get("link")
+        if not link:
             continue
-        if is_active:
-            ativos.append(feature)
-        else:
-            inativos.append(feature)
+        try:
+            cap_xml = fetch_text_with_retry(link, timeout=timeout, retries=cap_retries, backoff_sec=cap_backoff_sec)
+            cap_data = parse_cap_alert(cap_xml)
+        except RateLimitError as exc:
+            skipped_cap += 1
+            print(f"[INMET] CAP ignorado por limite de requisições em {link}: {exc}")
+            continue
+        except Exception as exc:
+            skipped_cap += 1
+            print(f"[INMET] aviso ignorado em {link}: {exc}")
+            continue
 
-    save_history(HISTORY_PATH, history_kept)
-    write_geojson("idap_ativos.geojson", feature_collection(ativos))
-    write_geojson("idap_inativos.geojson", feature_collection(inativos))
-    update_catalog_timestamp(updated_at)
+        built = build_features(item, cap_data, now, time_filter=time_filter)
+        if not built:
+            without_geometry += 1
+            continue
+        features.extend(built)
 
-    print(f"IDAP feed lido: {len(feed_alerts)} alertas parseados.")
-    print(f"IDAP histórico preservado: {len(history_kept)} alertas.")
-    print(f"IDAP últimas {WINDOW_HOURS}h: {len(alerts_24h)} alertas.")
-    print(f"IDAP ativos gravados: {len(ativos)} feições.")
-    print(f"IDAP inativos gravados: {len(inativos)} feições.")
-    print(f"IDAP sem geometria aproveitável: {skipped_without_geometry} alertas.")
+    payload = feature_collection(features)
+    write_geojson("inmet_alertas.geojson", payload)
+    write_status(
+        {
+            "updated_at": now.isoformat(),
+            "status": "ok",
+            "time_filter": time_filter,
+            "alerts_total": len(features),
+            "alerts_without_geometry": without_geometry,
+            "caps_ignored": skipped_cap,
+            "rss_items_total": len(rss_items),
+        }
+    )
+    print(
+        f"Arquivo INMET atualizado com {len(features)} geometrias, "
+        f"{without_geometry} alertas sem polígono e {skipped_cap} CAPs ignorados."
+    )
 
 
 if __name__ == "__main__":
