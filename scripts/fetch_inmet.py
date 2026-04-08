@@ -2,17 +2,23 @@ from __future__ import annotations
 
 import os
 import re
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 from typing import Any
 
-from utils import feature_collection, write_geojson
+from utils import DATA_DIR, feature_collection, write_geojson, write_json
 
 RSS_NSLESS_ITEM = "item"
 CAP_NS = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
 MUNI_CODE_RE = re.compile(r"\((\d{7})\)")
+
+
+class RateLimitError(Exception):
+    pass
 
 
 def env_int(name: str, default: int) -> int:
@@ -46,11 +52,38 @@ def fetch_text(url: str, timeout: int = 45) -> str:
     if not text:
         raise ValueError(f"Resposta vazia em {url}")
 
+    lower_text = text.lower()
+    if "limite de requisições" in lower_text or "limite de requisicoes" in lower_text:
+        raise RateLimitError(f"Limite de requisições atingido em {url}")
+
     if "<" not in text[:200] and "xml" not in content_type and "rss" not in content_type:
         preview = text[:120].replace("\n", " ").replace("\r", " ")
         raise ValueError(f"Resposta não parece XML em {url}: {preview}")
 
     return text
+
+
+def fetch_text_with_retry(url: str, timeout: int = 45, retries: int = 3, backoff_sec: float = 8.0) -> str:
+    last_exc: Exception | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            return fetch_text(url, timeout=timeout)
+        except RateLimitError as exc:
+            last_exc = exc
+            if attempt == retries:
+                break
+            sleep_for = backoff_sec * attempt
+            print(f"[INMET] limite de requisições em {url}. Nova tentativa em {sleep_for:.1f}s.")
+            time.sleep(sleep_for)
+        except Exception as exc:
+            last_exc = exc
+            if attempt == retries:
+                break
+            sleep_for = min(3.0 * attempt, 10.0)
+            print(f"[INMET] falha temporária em {url}: {exc}. Nova tentativa em {sleep_for:.1f}s.")
+            time.sleep(sleep_for)
+    assert last_exc is not None
+    raise last_exc
 
 
 def text_or_none(node: ET.Element | None) -> str | None:
@@ -255,13 +288,38 @@ def build_feature(
     return {"type": "Feature", "properties": properties, "geometry": geometry}
 
 
+def write_status(payload: dict[str, Any]) -> None:
+    write_json("inmet_status.json", payload)
+
+
+def existing_geojson_exists() -> bool:
+    return (DATA_DIR / "inmet_alertas.geojson").exists()
+
+
 def main() -> None:
     rss_url = os.getenv("INMET_RSS_URL", "https://apiprevmet3.inmet.gov.br/avisos/rss")
     timeout = env_int("REQUEST_TIMEOUT_SEC", 45)
     max_items = env_int("INMET_MAX_ITEMS", 120)
+    retries = env_int("INMET_RSS_RETRIES", 4)
+    backoff_sec = float(os.getenv("INMET_BACKOFF_SEC", "10").strip() or "10")
 
     now = datetime.now(timezone.utc).astimezone()
-    rss_text = fetch_text(rss_url, timeout=timeout)
+
+    try:
+        rss_text = fetch_text_with_retry(rss_url, timeout=timeout, retries=retries, backoff_sec=backoff_sec)
+    except RateLimitError as exc:
+        message = str(exc)
+        if existing_geojson_exists():
+            print(f"[INMET] {message}. Mantendo camada anterior sem falhar o workflow.")
+            write_status({
+                "updated_at": now.isoformat(),
+                "status": "rate_limited",
+                "message": message,
+                "used_cached_geojson": True,
+            })
+            return
+        raise
+
     rss_items = parse_rss_items(rss_text)[:max_items]
 
     cap_records: list[tuple[dict[str, Any], dict[str, Any]]] = []
@@ -274,8 +332,12 @@ def main() -> None:
         if not link:
             continue
         try:
-            cap_xml = fetch_text(link, timeout=timeout)
+            cap_xml = fetch_text_with_retry(link, timeout=timeout, retries=2, backoff_sec=4.0)
             cap_data = parse_cap_alert(cap_xml)
+        except RateLimitError as exc:
+            skipped_cap += 1
+            print(f"[INMET] CAP ignorado por limite de requisições em {link}: {exc}")
+            continue
         except Exception as exc:
             skipped_cap += 1
             print(f"[INMET] aviso ignorado em {link}: {exc}")
@@ -299,6 +361,15 @@ def main() -> None:
 
     payload = feature_collection(features)
     write_geojson("inmet_alertas.geojson", payload)
+    write_status(
+        {
+            "updated_at": now.isoformat(),
+            "status": "ok",
+            "alerts_total": len(features),
+            "alerts_without_geometry": skipped,
+            "caps_ignored": skipped_cap,
+        }
+    )
     print(
         f"Arquivo INMET atualizado com {len(features)} alertas, "
         f"{skipped} alertas sem geometria e {skipped_cap} CAPs ignorados."
