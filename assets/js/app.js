@@ -6,8 +6,7 @@ const BRAZIL_BOUNDS = L.latLngBounds(
 const state = {
   map: null,
   layers: {},
-  layerDefinitions: [],
-  activeFilter: 'all'
+  layerDefinitions: []
 };
 
 function formatDateTime(value) {
@@ -125,17 +124,8 @@ function popupHtml(feature, layerName) {
   `;
 }
 
-function passesFilter(feature) {
-  if (state.activeFilter === 'all') return true;
-  const isActive = Boolean(feature.properties?.is_active);
-  if (state.activeFilter === 'active') return isActive;
-  if (state.activeFilter === 'inactive') return !isActive;
-  return true;
-}
-
 function createGeoJsonLayer(definition, geojson) {
   return L.geoJSON(geojson, {
-    filter: passesFilter,
     style: feature => polygonStyle(feature, definition.id),
     pointToLayer: (feature, latlng) => pointToLayer(feature, latlng, definition.id),
     onEachFeature: (feature, layer) => {
@@ -230,30 +220,6 @@ async function loadLayers() {
   renderSummary();
 }
 
-function rebuildLayers() {
-  state.layerDefinitions.forEach(def => {
-    const wasVisible = state.map.hasLayer(state.layers[def.id]);
-    state.map.removeLayer(state.layers[def.id]);
-  });
-
-  loadLayers().catch(error => {
-    console.error(error);
-    document.getElementById('last-update').textContent = 'Erro ao carregar dados';
-  });
-}
-
-function setupFilterButtons() {
-  document.querySelectorAll('.chip').forEach(button => {
-    button.addEventListener('click', () => {
-      document.querySelectorAll('.chip').forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-      state.activeFilter = button.dataset.filter;
-      state.layers = {};
-      rebuildLayers();
-    });
-  });
-}
-
 function initMap() {
   state.map = L.map('map', {
     zoomControl: true,
@@ -261,21 +227,23 @@ function initMap() {
   });
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+    maxZoom: 18,
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(state.map);
 
-  state.map.fitBounds(BRAZIL_BOUNDS);
-
-  document.getElementById('reset-view').addEventListener('click', () => {
-    state.map.fitBounds(BRAZIL_BOUNDS);
+  state.map.fitBounds(BRAZIL_BOUNDS, {
+    padding: [10, 10]
   });
 
-  setupFilterButtons();
-  loadLayers().catch(error => {
-    console.error(error);
-    document.getElementById('last-update').textContent = 'Erro ao carregar dados';
+  document.getElementById('reset-view').addEventListener('click', () => {
+    state.map.fitBounds(BRAZIL_BOUNDS, {
+      padding: [10, 10]
+    });
   });
 }
 
-window.addEventListener('DOMContentLoaded', initMap);
+initMap();
+loadLayers().catch(error => {
+  console.error(error);
+  document.getElementById('last-update').textContent = 'Erro ao carregar dados';
+});
