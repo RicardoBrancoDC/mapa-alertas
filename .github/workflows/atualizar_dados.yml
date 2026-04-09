@@ -59,3 +59,29 @@ jobs:
           INMET_TIME_FILTER: "today"
           REQUEST_TIMEOUT_SEC: "30"
         run: python scripts/fetch_inmet.py
+
+      - name: Commit e push se houver alterações
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            .cache/historico_alertas_idap.json \
+            data/idap_ativos.geojson \
+            data/idap_inativos.geojson \
+            data/cemaden_estados.geojson \
+            data/cemaden_municipios.geojson \
+            data/cemaden_municipios_icones.geojson \
+            data/cemaden_status.json \
+            data/sgb_estacoes.geojson \
+            data/inmet_alertas.geojson \
+            data/inmet_status.json \
+            data/catalogo_camadas.json || true
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+            exit 0
+          fi
+
+          git commit -m "Atualiza dados do painel [skip ci]"
+          git push
