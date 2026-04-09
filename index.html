@@ -39,9 +39,8 @@
           <div><span class="legend-swatch yellow"></span> INMET perigo potencial</div>
           <div><span class="legend-swatch orange"></span> INMET perigo</div>
           <div><span class="legend-swatch red"></span> INMET grande perigo</div>
-          <div><span class="legend-swatch cem-moderado"></span> CEMADEN moderado</div>
-          <div><span class="legend-swatch cem-alto"></span> CEMADEN alto</div>
-          <div><span class="legend-swatch cem-muito-alto"></span> CEMADEN muito alto</div>
+          <div><span class="legend-swatch blue"></span> CEMADEN hidrológico</div>
+          <div><span class="legend-swatch brown"></span> CEMADEN geológico</div>
           <div><span class="legend-swatch green"></span> SGB estações</div>
         </div>
       </section>
@@ -54,6 +53,13 @@
     <main class="map-wrapper">
       <div id="map"></div>
     </main>
+  </div>
+
+  <div id="idap-modal" class="idap-modal hidden" aria-hidden="true">
+    <div id="idap-modal-card" class="idap-modal-card">
+      <button id="idap-modal-close" class="idap-close-btn" aria-label="Fechar">×</button>
+      <div id="idap-modal-content"></div>
+    </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
