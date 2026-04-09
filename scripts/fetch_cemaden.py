@@ -43,14 +43,6 @@ COLOR_MAP = {
     "moderado": "#d6b52b",
 }
 
-STATE_CODE_TO_UF = {
-    11: "RO", 12: "AC", 13: "AM", 14: "RR", 15: "PA", 16: "AP", 17: "TO",
-    21: "MA", 22: "PI", 23: "CE", 24: "RN", 25: "PB", 26: "PE", 27: "AL",
-    28: "SE", 29: "BA", 31: "MG", 32: "ES", 33: "RJ", 35: "SP", 41: "PR",
-    42: "SC", 43: "RS", 50: "MS", 51: "MT", 52: "GO", 53: "DF"
-}
-
-
 def severity_group(value: str) -> str:
     key = (value or "").strip().lower()
     return SEVERITY_MAP.get(key, ("moderado", 1))[0]
@@ -83,9 +75,15 @@ def fetch_alerts():
     response = requests.get(URL, timeout=TIMEOUT)
     response.raise_for_status()
     data = response.json()
-    if not isinstance(data, list):
-        return []
-    return data
+
+    if isinstance(data, dict):
+        items = data.get("alertas", [])
+        return items if isinstance(items, list) else []
+
+    if isinstance(data, list):
+        return data
+
+    return []
 
 
 def extract_open_alerts(raw_items):
@@ -97,51 +95,27 @@ def extract_open_alerts(raw_items):
         if status != "1":
             continue
 
-        nivel = (
-            row.get("nome_alerta")
-            or row.get("nivel")
-            or row.get("grau")
-            or "Moderado"
-        )
-        tipo_base = (
-            row.get("tipo")
-            or row.get("tipo_alerta")
-            or row.get("evento")
-            or row.get("descricao")
-            or row.get("nome_alerta")
-            or ""
-        )
-        codibge = (
-            normalize_codibge(row.get("codibge"))
-            or normalize_codibge(row.get("cod_municipio"))
-            or normalize_codibge(row.get("ibge"))
-        )
-
-        nome_pm = str(
-            row.get("nome_pm") or row.get("municipio") or row.get("nome") or ""
-        ).strip()
-
-        uf = str(row.get("uf") or row.get("sigla_uf") or "").strip().upper()
-        if not uf and codibge:
-            try:
-                uf = STATE_CODE_TO_UF.get(int(codibge[:2]), "")
-            except Exception:
-                uf = ""
+        nivel = row.get("nivel") or "Moderado"
+        evento = row.get("evento") or ""
+        codibge = normalize_codibge(row.get("codibge"))
+        municipio = str(row.get("municipio") or "").strip()
+        uf = str(row.get("uf") or "").strip().upper()
 
         items.append({
-            "id": str(row.get("id") or row.get("cod_alerta") or f"{codibge}-{tipo_base}-{nivel}"),
-            "municipio": nome_pm,
+            "id": str(row.get("cod_alerta") or f"{codibge}-{evento}-{nivel}"),
+            "municipio": municipio,
             "codibge": codibge,
             "uf": uf,
-            "bacia": str(row.get("nome_bacia") or "").strip(),
-            "tipo": event_type(tipo_base),
-            "tipo_raw": str(tipo_base).strip(),
+            "bacia": "",
+            "tipo": event_type(evento),
+            "tipo_raw": str(evento).strip(),
             "nivel_raw": str(nivel).strip(),
             "severity_group": severity_group(nivel),
             "severity_rank": severity_rank(nivel),
             "latitude": row.get("latitude"),
             "longitude": row.get("longitude"),
-            "updated_at": now_iso,
+            "created_at": str(row.get("datahoracriacao") or ""),
+            "updated_at": str(row.get("ult_atualizacao") or now_iso),
         })
     return items
 
