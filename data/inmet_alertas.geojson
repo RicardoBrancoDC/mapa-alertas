@@ -5,6 +5,130 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27129.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27129.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-09T15:00:00-03:00",
+        "expires": "2026-04-10T12:00:00-03:00",
+        "sent": "2026-04-09T12:29:58-03:00",
+        "pubDate": "Thu, 09 Apr 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 09/04/2026 15:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/53926",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Noroeste EspÃ­rito-santense, Sul EspÃ­rito-santense, Metropolitana de Belo Horizonte, Jequitinhonha, Litoral Norte EspÃ­rito-santense, Vale do Mucuri, Central Mineira, Norte de Minas, Sul Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Noroeste EspÃ­rito-santense, Sul EspÃ­rito-santense, Metropolitana de Belo Horizonte, Jequitinhonha, Litoral Norte EspÃ­rito-santense, Vale do Mucuri, Central Mineira, Norte de Minas, Sul Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/53926"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.319824,
+              -20.509355
+            ],
+            [
+              -39.660645,
+              -19.47695
+            ],
+            [
+              -39.638672,
+              -18.29195
+            ],
+            [
+              -39.594727,
+              -18.161511
+            ],
+            [
+              -39.523315,
+              -18.028363
+            ],
+            [
+              -39.635925,
+              -17.892501
+            ],
+            [
+              -39.781494,
+              -17.811456
+            ],
+            [
+              -40.534058,
+              -17.397821
+            ],
+            [
+              -41.352539,
+              -17.403063
+            ],
+            [
+              -42.319336,
+              -17.392579
+            ],
+            [
+              -43.659668,
+              -17.633552
+            ],
+            [
+              -44.406738,
+              -18.739906
+            ],
+            [
+              -44.560547,
+              -19.50802
+            ],
+            [
+              -44.34082,
+              -20.344627
+            ],
+            [
+              -43.978271,
+              -20.437308
+            ],
+            [
+              -43.26416,
+              -20.817741
+            ],
+            [
+              -42.363281,
+              -20.735566
+            ],
+            [
+              -41.616211,
+              -20.704739
+            ],
+            [
+              -41.187744,
+              -20.879343
+            ],
+            [
+              -40.715332,
+              -20.899871
+            ],
+            [
+              -40.319824,
+              -20.509355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27128.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27128.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
