@@ -1,25 +1,256 @@
-const BRAZIL_BOUNDS=L.latLngBounds(L.latLng(-33.9,-73.99),L.latLng(5.5,-28.8));
-const CEMADEN_MUNI_ZOOM=7,CEMADEN_ICON_ZOOM=9;
-const state={map:null,layers:{},layerDefinitions:[],cemadenStateLayer:null,cemadenMunicipioLayer:null,cemadenIconLayer:null};
-function formatDateTime(v){if(!v)return'Não informado';const d=new Date(v);if(Number.isNaN(d.getTime()))return v;return d.toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short',timeZone:'America/Sao_Paulo'});}
-function cemadenColor(s){s=String(s||'').toLowerCase();if(s==='muito_alto')return'#cf3d32';if(s==='alto')return'#ef8b1e';return'#d6b52b';}
-function inmetColor(s){s=String(s||'').toLowerCase();if(s==='grande_perigo')return'#ff0000';if(s==='perigo')return'#ff8c00';return'#ffff00';}
-function markerStyle(category,feature=null){const styles={idap_ativos:'#6a43d9',idap_inativos:'#8f96a3',inmet_alertas:'#ff8c00',sgb_estacoes:'#2f9e44'};const sev=feature?.properties?.severity_group||'';if(category==='sgb_estacoes'){if(sev==='alerta')return'#d73027';if(sev==='atencao')return'#ffd54f';if(sev==='sem_transmissao')return'#8f96a3';if(sev==='normal')return'#2f9e44';return'#1f78b4';}if(category==='inmet_alertas')return inmetColor(sev);return styles[category]||'#1f2a44';}
-function polygonStyle(feature,category){if(category==='inmet_alertas'){const c=inmetColor(feature.properties?.severity_group||'');return{color:c,weight:2,fillColor:c,fillOpacity:.16};}if(category==='cemaden_estados'){const c=cemadenColor(feature.properties?.severity_group||'');return{color:'#ffffff',weight:1.8,fillColor:c,fillOpacity:.30};}if(category==='cemaden_municipios'){const c=cemadenColor(feature.properties?.severity_group||'');return{color:c,weight:2,fillColor:c,fillOpacity:.26};}const c=markerStyle(category,feature);return{color:c,weight:2,fillOpacity:.14};}
-function pointToLayer(feature,latlng,category){if(category==='cemaden_municipios_icones'){const tipo=feature.properties?.tipo_icone||'hidro';const emoji=tipo==='geo'?'⛰️':'💧';return L.marker(latlng,{icon:L.divIcon({className:'cemaden-icon-marker',html:`<div class="cemaden-icon cemaden-${tipo}">${emoji}</div>`,iconSize:[22,22],iconAnchor:[11,11]})});}const color=markerStyle(category,feature);return L.circleMarker(latlng,{radius:7,color,weight:2,fillColor:color,fillOpacity:.75});}
-function popupHtml(feature,layerName){const p=feature.properties||{},title=p.title||p.nome||p.municipio||p.estado||layerName;if(layerName==='CEMADEN estados'){return `<div class="popup-content popup-card"><div class="popup-topline">CEMADEN por estado</div><h3>${title}</h3><div class="popup-badges"><span class="popup-badge ${p.severity_group||''}">Nível: ${p.nivel_max_label||p.nivel_max||'n/d'}</span></div><div class="popup-grid"><div><span class="popup-label">UF</span><span class="popup-value">${p.uf||'n/d'}</span></div><div><span class="popup-label">Alertas</span><span class="popup-value">${p.total_alertas||0}</span></div><div><span class="popup-label">Mov. massa</span><span class="popup-value">${p.qtd_geo||0}</span></div><div><span class="popup-label">Risco hidro.</span><span class="popup-value">${p.qtd_hidro||0}</span></div><div><span class="popup-label">Municípios</span><span class="popup-value">${p.municipios_com_alerta||0}</span></div></div>${p.municipios_lista?`<div class="popup-section"><div class="popup-label">Municípios</div><div class="popup-text">${p.municipios_lista}</div></div>`:''}</div>`;}
-if(layerName==='CEMADEN municípios'){const tipos=[];if(p.tem_hidro)tipos.push('Hidro');if(p.tem_geo)tipos.push('Geo');return `<div class="popup-content popup-card"><div class="popup-topline">CEMADEN por município</div><h3>${title}</h3><div class="popup-badges"><span class="popup-badge ${p.severity_group||''}">Nível: ${p.nivel_max_label||p.nivel_max||'n/d'}</span>${tipos.length?`<span class="popup-badge">${tipos.join(' + ')}</span>`:''}</div><div class="popup-grid"><div><span class="popup-label">UF</span><span class="popup-value">${p.uf||'n/d'}</span></div><div><span class="popup-label">Alertas</span><span class="popup-value">${p.total_alertas||0}</span></div><div><span class="popup-label">Risco hidro.</span><span class="popup-value">${p.qtd_hidro||0}</span></div><div><span class="popup-label">Mov. massa</span><span class="popup-value">${p.qtd_geo||0}</span></div></div></div>`;}
-if(layerName==='CEMADEN ícones'){return `<div class="popup-content popup-card"><div class="popup-topline">CEMADEN</div><h3>${title}</h3><div class="popup-badges"><span class="popup-badge ${p.severity_group||''}">Nível: ${p.nivel_max||'n/d'}</span><span class="popup-badge">${p.tipo_icone==='geo'?'Mov. massa':'Risco hidro.'}</span></div><div class="popup-grid"><div><span class="popup-label">UF</span><span class="popup-value">${p.uf||'n/d'}</span></div><div><span class="popup-label">Alertas</span><span class="popup-value">${p.total_alertas||0}</span></div></div></div>`;}
-return `<div class="popup-content popup-card"><div class="popup-topline">${layerName}</div><h3>${title}</h3></div>`;}
-function createGeoJsonLayer(definition,geojson){return L.geoJSON(geojson,{style:f=>polygonStyle(f,definition.id),pointToLayer:(f,latlng)=>pointToLayer(f,latlng,definition.id),onEachFeature:(f,l)=>l.bindPopup(popupHtml(f,definition.name))});}
-function addStateBadges(layer){layer.eachLayer(l=>{const p=l.feature?.properties||{},center=l.getBounds().getCenter(),count=p.total_alertas||0,color=cemadenColor(p.severity_group||'');l._countMarker=L.marker(center,{interactive:false,icon:L.divIcon({className:'cemaden-badge-marker',html:`<div class="cemaden-badge" style="border-color:${color};">${count}</div>`,iconSize:[30,30],iconAnchor:[15,15]})});});}
-function setStateBadgesVisible(layer,visible,map){layer.eachLayer(l=>{if(!l._countMarker)return;if(visible){if(!map.hasLayer(l._countMarker))l._countMarker.addTo(map);}else if(map.hasLayer(l._countMarker)){map.removeLayer(l._countMarker);}});}
-async function fetchJson(path){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(`Falha ao carregar ${path}`);return r.json();}
-async function loadCatalog(){return fetchJson('data/catalogo_camadas.json');}
-function renderLayerList(){const c=document.getElementById('layer-list');c.innerHTML='';state.layerDefinitions.filter(d=>!d.internalOnly).forEach(def=>{const item=document.createElement('div');item.className='layer-item';const label=document.createElement('label');const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.checked=def.defaultVisible;checkbox.dataset.layerId=def.id;const dot=document.createElement('span');dot.className='layer-dot';dot.style.background=def.color;const text=document.createElement('span');text.textContent=def.name;checkbox.addEventListener('change',e=>{const id=e.target.dataset.layerId,layer=state.layers[id];if(!layer)return;if(id==='cemaden_estados'){if(e.target.checked)refreshCemadenVisibility();else removeCemadenLayers();return;}if(e.target.checked)layer.addTo(state.map);else state.map.removeLayer(layer);});label.appendChild(checkbox);label.appendChild(dot);label.appendChild(text);item.appendChild(label);c.appendChild(item);});}
-function removeCemadenLayers(){const m=state.map;if(state.cemadenStateLayer){setStateBadgesVisible(state.cemadenStateLayer,false,m);if(m.hasLayer(state.cemadenStateLayer))m.removeLayer(state.cemadenStateLayer);}if(state.cemadenMunicipioLayer&&m.hasLayer(state.cemadenMunicipioLayer))m.removeLayer(state.cemadenMunicipioLayer);if(state.cemadenIconLayer&&m.hasLayer(state.cemadenIconLayer))m.removeLayer(state.cemadenIconLayer);}
-function refreshCemadenVisibility(){const m=state.map,cb=document.querySelector('input[data-layer-id="cemaden_estados"]'),enabled=cb?cb.checked:true;removeCemadenLayers();if(!enabled)return;const zoom=m.getZoom();if(zoom<CEMADEN_MUNI_ZOOM){if(state.cemadenStateLayer){state.cemadenStateLayer.addTo(m);setStateBadgesVisible(state.cemadenStateLayer,true,m);}return;}if(state.cemadenMunicipioLayer)state.cemadenMunicipioLayer.addTo(m);if(zoom>=CEMADEN_ICON_ZOOM&&state.cemadenIconLayer)state.cemadenIconLayer.addTo(m);}
-function renderSummary(){const s=document.getElementById('summary');s.innerHTML='';state.layerDefinitions.filter(d=>!d.internalOnly).forEach(def=>{const layer=state.layers[def.id];let count=0;if(def.id==='cemaden_estados'){state.cemadenStateLayer.eachLayer(()=>{count+=1;});}else{layer.eachLayer(()=>{count+=1;});}const card=document.createElement('div');card.className='summary-card';card.innerHTML=`<strong>${count}</strong><span>${def.summaryLabel||def.name}</span>`;s.appendChild(card);});}
-async function loadLayers(){const catalog=await loadCatalog();state.layerDefinitions=catalog.layers;const last=document.getElementById('last-update');if(last)last.textContent=formatDateTime(catalog.generated_at);for(const def of state.layerDefinitions){const gj=await fetchJson(def.file);state.layers[def.id]=createGeoJsonLayer(def,gj);}state.cemadenStateLayer=state.layers['cemaden_estados'];state.cemadenMunicipioLayer=state.layers['cemaden_municipios'];state.cemadenIconLayer=state.layers['cemaden_municipios_icones'];if(state.cemadenStateLayer)addStateBadges(state.cemadenStateLayer);state.layerDefinitions.forEach(def=>{if(def.id==='cemaden_estados')return;if(def.defaultVisible)state.layers[def.id].addTo(state.map);});refreshCemadenVisibility();renderLayerList();renderSummary();state.map.on('zoomend',refreshCemadenVisibility);}
-function initMap(){state.map=L.map('map',{zoomControl:true,preferCanvas:true});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(state.map);state.map.fitBounds(BRAZIL_BOUNDS,{padding:[10,10]});const reset=document.getElementById('reset-view');if(reset)reset.addEventListener('click',()=>state.map.fitBounds(BRAZIL_BOUNDS,{padding:[10,10]}));}
-initMap();loadLayers().catch(err=>{console.error(err);const last=document.getElementById('last-update');if(last)last.textContent='Erro ao carregar dados';});
+const BRAZIL_BOUNDS = L.latLngBounds(L.latLng(-33.9, -73.99), L.latLng(5.5, -28.8));
+const state = { map: null, layers: {}, layerDefinitions: [] };
+
+function formatDateTime(value) {
+  if (!value) return 'Não informado';
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return value;
+  return d.toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short', timeZone: 'America/Sao_Paulo' });
+}
+function normalize(value) { return String(value || '').trim().toLowerCase(); }
+
+function computeIdapLevel(props) {
+  const sev = normalize(props.severity || props.severidade);
+  const urg = normalize(props.urgency || props.urgencia);
+  const cer = normalize(props.certainty || props.confianca);
+  const rt = normalize(props.responseType || props.acao_necessaria);
+  const certaintyOk = cer === 'likely' || cer === 'observed' || cer === 'provável' || cer === 'provavel' || cer === 'observado';
+  const responseOk = /shelter|evacuate|execute|abrigar|evacuar|executar/.test(rt);
+  if (sev === 'minor' || sev === 'baixo') return 'Baixo';
+  if (sev === 'moderate' || sev === 'médio' || sev === 'medio') return 'Médio';
+  if (sev === 'severe' || sev === 'alto') return 'Alto';
+  if (sev === 'extreme' || sev === 'extremo') {
+    if (urg === 'immediate' && certaintyOk && responseOk) return 'Extremo';
+    if (urg === 'expected' && certaintyOk && responseOk) return 'Severo';
+    return 'Alto';
+  }
+  return props.nivel_calculado || props.nivel || 'Indefinido';
+}
+function idapLevelColor(level) {
+  const n = normalize(level);
+  if (n === 'baixo') return '#16A42F';
+  if (n === 'médio' || n === 'medio') return '#EFCF19';
+  if (n === 'alto') return '#EE6908';
+  if (n === 'severo') return '#C60C0D';
+  if (n === 'extremo') return '#7D39BD';
+  return '#6a43d9';
+}
+
+function markerStyle(category, feature = null) {
+  const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', cemaden_hidro: '#2474d2', cemaden_geo: '#8a5a3b', sgb_estacoes: '#2f9e44' };
+  const severity = feature?.properties?.severity_group || '';
+  if (category === 'cemaden_hidro' || category === 'cemaden_geo') {
+    if (severity === 'muito_alto') return '#d73027';
+    if (severity === 'alto') return '#fc8d59';
+    if (severity === 'moderado') return '#ffd54f';
+  }
+  if (category === 'sgb_estacoes') {
+    if (severity === 'alerta') return '#d73027';
+    if (severity === 'atencao') return '#ffd54f';
+    if (severity === 'sem_transmissao') return '#8f96a3';
+    if (severity === 'normal') return '#2f9e44';
+    return '#1f78b4';
+  }
+  return styles[category] || '#1f2a44';
+}
+
+function polygonStyle(feature, category) {
+  const severity = feature.properties?.severity_group || '';
+  if (category === 'inmet_alertas') {
+    if (severity === 'grande_perigo') return { color: '#ff0000', weight: 2, fillOpacity: 0.18 };
+    if (severity === 'perigo') return { color: '#ff8c00', weight: 2, fillOpacity: 0.16 };
+    return { color: '#ffff00', weight: 2, fillOpacity: 0.14 };
+  }
+  const color = markerStyle(category, feature);
+  return { color, weight: 2, fillOpacity: 0.14 };
+}
+
+function pointToLayer(feature, latlng, category) {
+  const color = markerStyle(category, feature);
+  return L.circleMarker(latlng, { radius: 7, color, weight: 2, fillColor: color, fillOpacity: 0.75 });
+}
+
+function popupHtml(feature, layerName) {
+  const p = feature.properties || {};
+  const title = p.title || p.nome || layerName;
+  return `<div class="popup-content"><h3>${title}</h3><p><strong>Fonte:</strong> ${layerName}</p></div>`;
+}
+
+function createGeoJsonLayer(definition, geojson) {
+  return L.geoJSON(geojson, {
+    style: feature => polygonStyle(feature, definition.id),
+    pointToLayer: (feature, latlng) => pointToLayer(feature, latlng, definition.id),
+    onEachFeature: (feature, layer) => {
+      if (definition.id === 'idap_ativos' || definition.id === 'idap_inativos') {
+        layer.on('click', () => openIdapModal(feature.properties, definition.id));
+      } else {
+        layer.bindPopup(popupHtml(feature, definition.name));
+      }
+    }
+  });
+}
+
+async function fetchJson(path) {
+  const response = await fetch(path, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`Falha ao carregar ${path}`);
+  return response.json();
+}
+async function loadCatalog() { return fetchJson('data/catalogo_camadas.json'); }
+
+function renderLayerList() {
+  const container = document.getElementById('layer-list');
+  container.innerHTML = '';
+  state.layerDefinitions.forEach(def => {
+    const item = document.createElement('div');
+    item.className = 'layer-item';
+    const label = document.createElement('label');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = def.defaultVisible;
+    checkbox.dataset.layerId = def.id;
+    const dot = document.createElement('span');
+    dot.className = 'layer-dot';
+    dot.style.background = def.color;
+    const text = document.createElement('span');
+    text.textContent = def.name;
+    checkbox.addEventListener('change', event => {
+      const layer = state.layers[event.target.dataset.layerId];
+      if (!layer) return;
+      if (event.target.checked) layer.addTo(state.map);
+      else state.map.removeLayer(layer);
+    });
+    label.appendChild(checkbox);
+    label.appendChild(dot);
+    label.appendChild(text);
+    item.appendChild(label);
+    container.appendChild(item);
+  });
+}
+
+function renderSummary() {
+  const summary = document.getElementById('summary');
+  summary.innerHTML = '';
+  state.layerDefinitions.forEach(def => {
+    const layer = state.layers[def.id];
+    let count = 0;
+    layer.eachLayer(() => { count += 1; });
+    const card = document.createElement('div');
+    card.className = 'summary-card';
+    card.innerHTML = `<strong>${count}</strong><span>${def.name}</span>`;
+    summary.appendChild(card);
+  });
+}
+
+async function loadLayers() {
+  const catalog = await loadCatalog();
+  state.layerDefinitions = catalog.layers;
+  document.getElementById('last-update').textContent = formatDateTime(catalog.generated_at);
+  for (const def of state.layerDefinitions) {
+    const geojson = await fetchJson(def.file);
+    const layer = createGeoJsonLayer(def, geojson);
+    state.layers[def.id] = layer;
+    if (def.defaultVisible) layer.addTo(state.map);
+  }
+  renderLayerList();
+  renderSummary();
+}
+
+function initMap() {
+  state.map = L.map('map', { zoomControl: true, preferCanvas: true });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap contributors' }).addTo(state.map);
+  state.map.fitBounds(BRAZIL_BOUNDS, { padding: [10, 10] });
+  document.getElementById('reset-view').addEventListener('click', () => {
+    state.map.fitBounds(BRAZIL_BOUNDS, { padding: [10, 10] });
+  });
+}
+
+function truncateWithToggle(text, id, limit = 180) {
+  const clean = String(text || '').trim();
+  if (!clean) return '<p>Não informado</p>';
+  if (clean.length <= limit) return `<p>${clean}</p>`;
+  const short = clean.slice(0, limit) + '...';
+  return `<div class="idap-truncated" data-target="${id}"><p class="short-text">${short}</p><p class="full-text" style="display:none;">${clean}</p><button class="toggle-more" data-target="${id}">Mais...</button></div>`;
+}
+
+function buildIdapCardHtml(props) {
+  const level = computeIdapLevel(props);
+  const headline = props.headline || props.sms || props.dca || 'Não informado';
+  const description = props.description || props.descricao || 'Não informado';
+  const instruction = props.instruction || props.recomendacoes || 'Não informado';
+  const event = props.event || props.evento || props.title || 'ALERTA';
+  const sender = props.sender_name || props.senderName || props.sender || props.orgao || 'Não informado';
+  const urgency = props.urgency || props.urgencia || 'Não informado';
+  const certainty = props.certainty || props.confianca || 'Não informado';
+  const responseType = props.responseType || props.acao_necessaria || 'Não informado';
+
+  return `
+    <div class="idap-card-pill-wrap"><div class="idap-card-pill">ALERTA ${String(level).toUpperCase()}</div></div>
+    <div class="idap-card-event">${event}</div>
+    <div class="idap-card-box">
+      <div class="idap-meta-row">
+        <div class="idap-meta-line"><strong>Órgão:</strong><span>${sender}</span></div>
+        <div class="idap-meta-line"><strong>Urgência:</strong><span>${urgency}</span><strong>Confiança:</strong><span>${certainty}</span></div>
+        <div class="idap-meta-line"><strong>Ação Necessária:</strong><span>${responseType}</span></div>
+      </div>
+    </div>
+    <div class="idap-small-grid">
+      <div class="idap-small-card"><span class="label">Início:</span><span class="value">${formatDateTime(props.onset || props.inicio)}</span></div>
+      <div class="idap-small-card"><span class="label">Validade:</span><span class="value">${formatDateTime(props.expires || props.validade)}</span></div>
+    </div>
+    <div class="idap-card-box"><h4>SMS/DCA:</h4><p>${headline}</p></div>
+    <div class="idap-card-box"><h4>Descrição WhatsApp:</h4>${truncateWithToggle(description, 'desc')}</div>
+    <div class="idap-card-box"><h4>Recomendações WhatsApp:</h4>${truncateWithToggle(instruction, 'instr')}</div>
+    <div class="idap-card-actions"><button class="idap-back-btn" id="idap-back-btn">Voltar</button></div>
+  `;
+}
+
+function wireModalToggles() {
+  document.querySelectorAll('.toggle-more').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const wrapper = btn.closest('.idap-truncated');
+      if (!wrapper) return;
+      const shortText = wrapper.querySelector('.short-text');
+      const fullText = wrapper.querySelector('.full-text');
+      const isOpen = fullText.style.display !== 'none';
+      fullText.style.display = isOpen ? 'none' : 'block';
+      shortText.style.display = isOpen ? 'block' : 'none';
+      btn.textContent = isOpen ? 'Mais...' : 'Menos...';
+    });
+  });
+  const backBtn = document.getElementById('idap-back-btn');
+  if (backBtn) backBtn.addEventListener('click', closeIdapModal);
+}
+
+function openIdapModal(props) {
+  const modal = document.getElementById('idap-modal');
+  const card = document.getElementById('idap-modal-card');
+  const content = document.getElementById('idap-modal-content');
+  const level = computeIdapLevel(props);
+  card.style.background = idapLevelColor(level);
+  card.classList.toggle('level-medium', ['médio', 'medio'].includes(normalize(level)));
+  content.innerHTML = buildIdapCardHtml(props);
+  modal.classList.remove('hidden');
+  modal.setAttribute('aria-hidden', 'false');
+  wireModalToggles();
+}
+
+function closeIdapModal() {
+  const modal = document.getElementById('idap-modal');
+  modal.classList.add('hidden');
+  modal.setAttribute('aria-hidden', 'true');
+}
+
+function initModal() {
+  const closeBtn = document.getElementById('idap-modal-close');
+  const modal = document.getElementById('idap-modal');
+  closeBtn.addEventListener('click', closeIdapModal);
+  modal.addEventListener('click', event => { if (event.target === modal) closeIdapModal(); });
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') closeIdapModal(); });
+}
+
+initMap();
+initModal();
+loadLayers().catch(error => {
+  console.error(error);
+  document.getElementById('last-update').textContent = 'Erro ao carregar dados';
+});
