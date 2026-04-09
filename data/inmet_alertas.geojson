@@ -1,4 +1,145 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27125.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27125.1",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "event": "Ventos Costeiros",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-09T09:06:00-03:00",
+        "expires": "2026-04-09T21:00:00-03:00",
+        "sent": "2026-04-09T12:05:11-03:00",
+        "pubDate": "Thu, 09 Apr 2026 09:06:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 09/04/2026 09:06. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/53919",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Catarinense, Grande FlorianÃ³polis",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Catarinense, Grande FlorianÃ³polis"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/53919"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.46344,
+              -27.727298
+            ],
+            [
+              -48.500519,
+              -27.713926
+            ],
+            [
+              -48.544464,
+              -27.722436
+            ],
+            [
+              -48.570557,
+              -27.767406
+            ],
+            [
+              -48.652954,
+              -27.945886
+            ],
+            [
+              -48.769684,
+              -28.308008
+            ],
+            [
+              -48.823242,
+              -28.480763
+            ],
+            [
+              -48.922119,
+              -28.567638
+            ],
+            [
+              -49.020996,
+              -28.642389
+            ],
+            [
+              -49.246216,
+              -28.796546
+            ],
+            [
+              -49.44397,
+              -28.964895
+            ],
+            [
+              -49.537354,
+              -29.058571
+            ],
+            [
+              -49.586792,
+              -29.125773
+            ],
+            [
+              -49.570312,
+              -29.147364
+            ],
+            [
+              -49.207764,
+              -28.844674
+            ],
+            [
+              -49.027863,
+              -28.715883
+            ],
+            [
+              -48.78891,
+              -28.601403
+            ],
+            [
+              -48.736725,
+              -28.502488
+            ],
+            [
+              -48.717499,
+              -28.382943
+            ],
+            [
+              -48.674927,
+              -28.297126
+            ],
+            [
+              -48.636475,
+              -28.23181
+            ],
+            [
+              -48.621368,
+              -28.165243
+            ],
+            [
+              -48.58017,
+              -28.021075
+            ],
+            [
+              -48.460693,
+              -27.785632
+            ],
+            [
+              -48.46344,
+              -27.727298
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
