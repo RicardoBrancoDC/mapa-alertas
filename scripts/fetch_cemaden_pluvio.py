@@ -118,6 +118,10 @@ def fetch_json_sources() -> dict[str, dict[str, Any]]:
                 bucket, color = classify_pluvio(accumulated)
                 by_code[code] = {
                     'codestacao': code,
+                    'idestacao': station.get('idestacao'),
+                    'idmunicipio': station.get('idmunicipio'),
+                    'idrede': station.get('idrede'),
+                    'idtipoestacao': station.get('idtipoestacao'),
                     'nomeestacao': station.get('nomeestacao'),
                     'cidade': station.get('cidade'),
                     'uf': station.get('uf'),
