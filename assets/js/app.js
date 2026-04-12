@@ -1,5 +1,5 @@
 const BRAZIL_BOUNDS = L.latLngBounds(L.latLng(-33.9, -73.99), L.latLng(5.5, -28.8));
-const state = { map: null, layers: {}, layerDefinitions: [] };
+const state = { map: null, layers: {}, layerDefinitions: [], layerVisibility: {} };
 
 function formatDateTime(value) {
   if (!value) return 'Não informado';
@@ -21,6 +21,57 @@ function formatRain(value) {
   const n = Number(value);
   if (Number.isNaN(n)) return String(value);
   return n.toFixed(1).replace(/\.0$/, '');
+}
+
+function cemadenSeverityColor(value) {
+  const severity = normalize(value);
+  if (severity === 'muito_alto') return '#d73027';
+  if (severity === 'alto') return '#fc8d59';
+  if (severity === 'moderado') return '#ffd54f';
+  return '#d6b52b';
+}
+
+function isCemadenInternalLayerId(id) {
+  return id === 'cemaden_estados' || id === 'cemaden_municipios' || id === 'cemaden_municipios_icones';
+}
+
+function getDisplayLayerDefs() {
+  return state.layerDefinitions.filter(def => !def.internalOnly);
+}
+
+function getCemadenActiveMode() {
+  const zoom = state.map ? state.map.getZoom() : 4;
+  if (zoom < 6) return 'estados';
+  if (zoom < 8) return 'municipios';
+  return 'municipios_icones';
+}
+
+function setLayerOnMap(layerId, shouldShow) {
+  const layer = state.layers[layerId];
+  if (!layer || !state.map) return;
+  if (shouldShow) {
+    if (!state.map.hasLayer(layer)) layer.addTo(state.map);
+  } else if (state.map.hasLayer(layer)) {
+    state.map.removeLayer(layer);
+  }
+}
+
+function updateCemadenAlertasByZoom() {
+  if (!state.map) return;
+  const enabled = !!state.layerVisibility.cemaden_alertas;
+  const mode = getCemadenActiveMode();
+
+  setLayerOnMap('cemaden_estados', enabled && mode === 'estados');
+  setLayerOnMap('cemaden_municipios', enabled && (mode === 'municipios' || mode === 'municipios_icones'));
+  setLayerOnMap('cemaden_municipios_icones', enabled && mode === 'municipios_icones');
+}
+
+function syncLayerVisibilityToMap() {
+  getDisplayLayerDefs().forEach(def => {
+    if (def.id === 'cemaden_alertas') return;
+    setLayerOnMap(def.id, !!state.layerVisibility[def.id]);
+  });
+  updateCemadenAlertasByZoom();
 }
 
 function computeIdapLevel(props) {
@@ -60,13 +111,12 @@ function markerStyle(category, feature = null) {
     return '#e64512';
   }
 
-  const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', cemaden_hidro: '#2474d2', cemaden_geo: '#8a5a3b', sgb_estacoes: '#2f9e44' };
-  const severity = feature?.properties?.severity_group || '';
-  if (category === 'cemaden_hidro' || category === 'cemaden_geo') {
-    if (severity === 'muito_alto') return '#d73027';
-    if (severity === 'alto') return '#fc8d59';
-    if (severity === 'moderado') return '#ffd54f';
+  if (category === 'cemaden_estados' || category === 'cemaden_municipios' || category === 'cemaden_municipios_icones') {
+    return feature?.properties?.cor || cemadenSeverityColor(feature?.properties?.severity_group);
   }
+
+  const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', sgb_estacoes: '#2f9e44' };
+  const severity = feature?.properties?.severity_group || '';
   if (category === 'sgb_estacoes') {
     if (severity === 'alerta') return '#d73027';
     if (severity === 'atencao') return '#ffd54f';
@@ -110,6 +160,18 @@ function pointToLayer(feature, latlng, category) {
     return L.marker(latlng, { icon });
   }
 
+  if (category === 'cemaden_municipios_icones') {
+    const tipo = normalize(feature?.properties?.tipo_icone);
+    const glyph = tipo === 'geo' ? '⛰' : '≋';
+    const icon = L.divIcon({
+      className: 'cemaden-alert-icon-wrapper',
+      html: `<div class="cemaden-alert-icon" style="background:${color};"><span>${glyph}</span></div>`,
+      iconSize: [26, 26],
+      iconAnchor: [13, 13]
+    });
+    return L.marker(latlng, { icon });
+  }
+
   return L.circleMarker(latlng, { radius: 7, color, weight: 2, fillColor: color, fillOpacity: 0.75 });
 }
 
@@ -149,6 +211,34 @@ function popupHtml(feature, layerName) {
     `;
   }
 
+  if (p.estado) {
+    return `
+      <div class="popup-content">
+        <h3>${escapeHtml(p.estado)} (${escapeHtml(p.uf || '-')})</h3>
+        <p><strong>Nível máximo:</strong> ${escapeHtml(p.nivel_max_label || p.nivel_max || '-')}</p>
+        <p><strong>Total de alertas:</strong> ${escapeHtml(String(p.total_alertas ?? '-'))}</p>
+        <p><strong>Municípios com alerta:</strong> ${escapeHtml(String(p.municipios_com_alerta ?? '-'))}</p>
+        <p><strong>Tipos:</strong> Hidrológico ${escapeHtml(String(p.qtd_hidro ?? 0))} · Geológico ${escapeHtml(String(p.qtd_geo ?? 0))}</p>
+        <p><strong>Atualizado:</strong> ${escapeHtml(formatDateTime(p.updated_at))}</p>
+      </div>
+    `;
+  }
+
+  if (p.municipio && (p.total_alertas != null || Array.isArray(p.alertas))) {
+    const alertaPrincipal = Array.isArray(p.alertas) && p.alertas.length ? p.alertas[0] : null;
+    const tipoLabel = alertaPrincipal?.tipo_raw || p.tipos || '-';
+    return `
+      <div class="popup-content">
+        <h3>${escapeHtml(p.municipio)} / ${escapeHtml(p.uf || '-')}</h3>
+        <p><strong>Nível máximo:</strong> ${escapeHtml(p.nivel_max_label || p.nivel_max || '-')}</p>
+        <p><strong>Total de alertas:</strong> ${escapeHtml(String(p.total_alertas ?? '-'))}</p>
+        <p><strong>Tipo principal:</strong> ${escapeHtml(tipoLabel)}</p>
+        <p><strong>Tipos:</strong> Hidrológico ${escapeHtml(String(p.qtd_hidro ?? 0))} · Geológico ${escapeHtml(String(p.qtd_geo ?? 0))}</p>
+        <p><strong>Atualizado:</strong> ${escapeHtml(formatDateTime(p.updated_at || alertaPrincipal?.updated_at))}</p>
+      </div>
+    `;
+  }
+
   return `<div class="popup-content"><h3>${escapeHtml(title)}</h3><p><strong>Fonte:</strong> ${escapeHtml(layerName)}</p></div>`;
 }
 
@@ -161,6 +251,15 @@ function createGeoJsonLayer(definition, geojson) {
         layer.on('click', () => openIdapModal(feature.properties, definition.id));
       } else {
         layer.bindPopup(popupHtml(feature, definition.name));
+      }
+
+      if ((definition.id === 'cemaden_estados' || definition.id === 'cemaden_municipios') && feature?.properties?.total_alertas != null) {
+        layer.bindTooltip(String(feature.properties.total_alertas), {
+          permanent: true,
+          direction: 'center',
+          className: `cemaden-count-tooltip ${definition.id === 'cemaden_estados' ? 'is-state' : 'is-municipio'}`,
+          opacity: 1
+        });
       }
     }
   });
@@ -176,13 +275,13 @@ async function loadCatalog() { return fetchJson('data/catalogo_camadas.json'); }
 function renderLayerList() {
   const container = document.getElementById('layer-list');
   container.innerHTML = '';
-  state.layerDefinitions.forEach(def => {
+  getDisplayLayerDefs().forEach(def => {
     const item = document.createElement('div');
     item.className = 'layer-item';
     const label = document.createElement('label');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.checked = def.defaultVisible;
+    checkbox.checked = !!state.layerVisibility[def.id];
     checkbox.dataset.layerId = def.id;
     const dot = document.createElement('span');
     dot.className = 'layer-dot';
@@ -190,10 +289,10 @@ function renderLayerList() {
     const text = document.createElement('span');
     text.textContent = def.name;
     checkbox.addEventListener('change', event => {
-      const layer = state.layers[event.target.dataset.layerId];
-      if (!layer) return;
-      if (event.target.checked) layer.addTo(state.map);
-      else state.map.removeLayer(layer);
+      const id = event.target.dataset.layerId;
+      state.layerVisibility[id] = event.target.checked;
+      syncLayerVisibilityToMap();
+      renderSummary();
     });
     label.appendChild(checkbox);
     label.appendChild(dot);
@@ -206,13 +305,22 @@ function renderLayerList() {
 function renderSummary() {
   const summary = document.getElementById('summary');
   summary.innerHTML = '';
-  state.layerDefinitions.forEach(def => {
-    const layer = state.layers[def.id];
+  getDisplayLayerDefs().forEach(def => {
     let count = 0;
-    layer.eachLayer(() => { count += 1; });
+    if (def.id === 'cemaden_alertas') {
+      if (state.layerVisibility.cemaden_alertas) {
+        const mode = getCemadenActiveMode();
+        const targetId = mode === 'estados' ? 'cemaden_estados' : 'cemaden_municipios';
+        const layer = state.layers[targetId];
+        if (layer) layer.eachLayer(() => { count += 1; });
+      }
+    } else {
+      const layer = state.layers[def.id];
+      if (layer && state.layerVisibility[def.id]) layer.eachLayer(() => { count += 1; });
+    }
     const card = document.createElement('div');
     card.className = 'summary-card';
-    card.innerHTML = `<strong>${count}</strong><span>${def.name}</span>`;
+    card.innerHTML = `<strong>${count}</strong><span>${escapeHtml(def.summaryLabel || def.name)}</span>`;
     summary.appendChild(card);
   });
 }
@@ -221,14 +329,23 @@ async function loadLayers() {
   const catalog = await loadCatalog();
   state.layerDefinitions = catalog.layers;
   document.getElementById('last-update').textContent = formatDateTime(catalog.generated_at);
+
   for (const def of state.layerDefinitions) {
+    state.layerVisibility[def.id] = !!def.defaultVisible;
+    if (!def.file) continue;
     const geojson = await fetchJson(def.file);
     const layer = createGeoJsonLayer(def, geojson);
     state.layers[def.id] = layer;
-    if (def.defaultVisible) layer.addTo(state.map);
   }
+
   renderLayerList();
+  syncLayerVisibilityToMap();
   renderSummary();
+
+  state.map.on('zoomend', () => {
+    updateCemadenAlertasByZoom();
+    renderSummary();
+  });
 }
 
 function initMap() {
@@ -371,117 +488,6 @@ function buildRecentHourlyCards(data) {
   `;
 }
 
-
-function buildHourlyChartConfig(data) {
-  const points = flattenHourlyData(data);
-  if (!points.length) return null;
-  return {
-    labels: points.map(point => `${point.hora} ${point.data.slice(0, 5)}`),
-    values: points.map(point => Number(point.valor))
-  };
-}
-
-let cemadenHourlyChart = null;
-let chartJsPromise = null;
-
-function ensureChartJs() {
-  if (window.Chart) return Promise.resolve(window.Chart);
-  if (chartJsPromise) return chartJsPromise;
-
-  chartJsPromise = new Promise((resolve, reject) => {
-    const existing = document.querySelector('script[data-chartjs="cemaden-hourly"]');
-    if (existing) {
-      existing.addEventListener('load', () => resolve(window.Chart), { once: true });
-      existing.addEventListener('error', () => reject(new Error('Falha ao carregar Chart.js')), { once: true });
-      return;
-    }
-
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js';
-    script.async = true;
-    script.dataset.chartjs = 'cemaden-hourly';
-    script.onload = () => resolve(window.Chart);
-    script.onerror = () => reject(new Error('Falha ao carregar Chart.js'));
-    document.head.appendChild(script);
-  });
-
-  return chartJsPromise;
-}
-
-function renderCemadenHourlyChart(data) {
-  const canvas = document.getElementById('cemaden-hourly-chart');
-  if (!canvas || !window.Chart) return;
-  const config = buildHourlyChartConfig(data);
-  if (!config || !config.labels.length) return;
-
-  if (cemadenHourlyChart) {
-    cemadenHourlyChart.destroy();
-    cemadenHourlyChart = null;
-  }
-
-  const ctx = canvas.getContext('2d');
-  cemadenHourlyChart = new window.Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: config.labels,
-      datasets: [{
-        label: 'Chuva por hora (mm)',
-        data: config.values,
-        borderColor: '#2563eb',
-        backgroundColor: 'rgba(37, 99, 235, 0.12)',
-        pointBackgroundColor: '#2563eb',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1,
-        pointRadius: 3,
-        pointHoverRadius: 4,
-        borderWidth: 2,
-        tension: 0.25,
-        fill: true
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: (context) => ` ${formatRain(context.parsed.y)} mm`
-          }
-        }
-      },
-      scales: {
-        x: {
-          ticks: {
-            autoSkip: true,
-            maxTicksLimit: 12,
-            maxRotation: 0,
-            minRotation: 0,
-            color: '#475569',
-            font: { size: 11 }
-          },
-          grid: { display: false }
-        },
-        y: {
-          beginAtZero: true,
-          ticks: {
-            color: '#475569',
-            callback: (value) => `${formatRain(value)}`
-          },
-          title: {
-            display: true,
-            text: 'mm'
-          },
-          grid: {
-            color: 'rgba(148, 163, 184, 0.2)'
-          }
-        }
-      }
-    }
-  });
-}
-
 function buildHourlyModalHtml(data, meta = {}) {
   const est = data?.estacao || {};
   const nome = meta.title || est.nome || 'Pluviômetro';
@@ -506,12 +512,8 @@ function buildHourlyModalHtml(data, meta = {}) {
     </div>
 
     <div class="cemaden-hourly-section">
-      <h4>Chuva por hora</h4>
-      ${buildHourlyChartConfig(data) ? `
-        <div class="cemaden-hourly-chart-wrap">
-          <canvas id="cemaden-hourly-chart" aria-label="Gráfico de linha da chuva por hora" role="img"></canvas>
-        </div>
-      ` : `<p class="cemaden-empty">Sem dados horários disponíveis.</p>`}
+      <h4>Últimas leituras com dado</h4>
+      ${buildRecentHourlyCards(data)}
     </div>
 
     <div class="cemaden-hourly-section">
@@ -606,10 +608,6 @@ function closeCemadenHourlyModal() {
   if (!modal) return;
   modal.classList.add('hidden');
   modal.setAttribute('aria-hidden', 'true');
-  if (cemadenHourlyChart) {
-    cemadenHourlyChart.destroy();
-    cemadenHourlyChart = null;
-  }
 }
 
 async function openCemadenHourlyModal(meta) {
@@ -625,12 +623,6 @@ async function openCemadenHourlyModal(meta) {
     if (!response.ok) throw new Error(`Falha ao carregar dados horários (${response.status})`);
     const data = await response.json();
     content.innerHTML = buildHourlyModalHtml(data, meta);
-    try {
-      await ensureChartJs();
-      renderCemadenHourlyChart(data);
-    } catch (chartError) {
-      console.error(chartError);
-    }
   } catch (error) {
     content.innerHTML = `<p class="cemaden-hourly-error">Não foi possível carregar os dados horários. ${escapeHtml(error.message || 'Erro desconhecido.')}</p>`;
   }
