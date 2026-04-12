@@ -218,3 +218,22 @@ body { overflow: hidden; }
 
 
 .legend-swatch.cemaden-pluvio { background: #1f78b4; }
+
+.legend-swatch.pluvio-green { background: #00d61f; }
+.legend-swatch.pluvio-yellow { background: #e0d400; }
+.legend-swatch.pluvio-orange { background: #f4a300; }
+.legend-swatch.pluvio-red { background: #e64512; }
+
+.pluvio-div-icon { background: transparent; border: 0; }
+.pluvio-badge {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 2px solid rgba(0,0,0,0.28);
+  color: #111;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
