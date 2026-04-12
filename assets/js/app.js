@@ -371,6 +371,117 @@ function buildRecentHourlyCards(data) {
   `;
 }
 
+
+function buildHourlyChartConfig(data) {
+  const points = flattenHourlyData(data);
+  if (!points.length) return null;
+  return {
+    labels: points.map(point => `${point.hora} ${point.data.slice(0, 5)}`),
+    values: points.map(point => Number(point.valor))
+  };
+}
+
+let cemadenHourlyChart = null;
+let chartJsPromise = null;
+
+function ensureChartJs() {
+  if (window.Chart) return Promise.resolve(window.Chart);
+  if (chartJsPromise) return chartJsPromise;
+
+  chartJsPromise = new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-chartjs="cemaden-hourly"]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(window.Chart), { once: true });
+      existing.addEventListener('error', () => reject(new Error('Falha ao carregar Chart.js')), { once: true });
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js';
+    script.async = true;
+    script.dataset.chartjs = 'cemaden-hourly';
+    script.onload = () => resolve(window.Chart);
+    script.onerror = () => reject(new Error('Falha ao carregar Chart.js'));
+    document.head.appendChild(script);
+  });
+
+  return chartJsPromise;
+}
+
+function renderCemadenHourlyChart(data) {
+  const canvas = document.getElementById('cemaden-hourly-chart');
+  if (!canvas || !window.Chart) return;
+  const config = buildHourlyChartConfig(data);
+  if (!config || !config.labels.length) return;
+
+  if (cemadenHourlyChart) {
+    cemadenHourlyChart.destroy();
+    cemadenHourlyChart = null;
+  }
+
+  const ctx = canvas.getContext('2d');
+  cemadenHourlyChart = new window.Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: config.labels,
+      datasets: [{
+        label: 'Chuva por hora (mm)',
+        data: config.values,
+        borderColor: '#2563eb',
+        backgroundColor: 'rgba(37, 99, 235, 0.12)',
+        pointBackgroundColor: '#2563eb',
+        pointBorderColor: '#ffffff',
+        pointBorderWidth: 1,
+        pointRadius: 3,
+        pointHoverRadius: 4,
+        borderWidth: 2,
+        tension: 0.25,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => ` ${formatRain(context.parsed.y)} mm`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            autoSkip: true,
+            maxTicksLimit: 12,
+            maxRotation: 0,
+            minRotation: 0,
+            color: '#475569',
+            font: { size: 11 }
+          },
+          grid: { display: false }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: {
+            color: '#475569',
+            callback: (value) => `${formatRain(value)}`
+          },
+          title: {
+            display: true,
+            text: 'mm'
+          },
+          grid: {
+            color: 'rgba(148, 163, 184, 0.2)'
+          }
+        }
+      }
+    }
+  });
+}
+
 function buildHourlyModalHtml(data, meta = {}) {
   const est = data?.estacao || {};
   const nome = meta.title || est.nome || 'Pluviômetro';
@@ -424,61 +535,6 @@ function buildHourlyModalHtml(data, meta = {}) {
   `;
 }
 
-
-let cemadenHourlyChart = null;
-let chartJsPromise = null;
-
-function ensureChartJs() {
-  if (window.Chart) return Promise.resolve(window.Chart);
-  if (chartJsPromise) return chartJsPromise;
-  chartJsPromise = new Promise((resolve, reject) => {
-    const s = document.createElement('script');
-    s.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js';
-    s.async = true;
-    s.onload = () => resolve(window.Chart);
-    s.onerror = () => reject(new Error('Falha ao carregar Chart.js'));
-    document.head.appendChild(s);
-  });
-  return chartJsPromise;
-}
-
-function renderCemadenHourlyChart(data) {
-  const canvas = document.getElementById('cemaden-hourly-chart');
-  if (!canvas || !window.Chart) return;
-  const config = buildHourlyChartConfig(data);
-  if (!config) return;
-  if (cemadenHourlyChart) { cemadenHourlyChart.destroy(); cemadenHourlyChart = null; }
-  cemadenHourlyChart = new window.Chart(canvas.getContext('2d'), {
-    type: 'line',
-    data: {
-      labels: config.labels,
-      datasets: [{
-        data: config.values,
-        borderColor: '#2563eb',
-        backgroundColor: 'rgba(37,99,235,0.12)',
-        pointBackgroundColor: '#2563eb',
-        pointBorderColor: '#fff',
-        pointBorderWidth: 1,
-        pointRadius: 3,
-        pointHoverRadius: 4,
-        borderWidth: 2,
-        tension: 0.25,
-        fill: true
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: { ticks: { autoSkip: true, maxTicksLimit: 12, maxRotation: 0, minRotation: 0, color: '#475569', font: { size: 11 } }, grid: { display: false } },
-        y: { beginAtZero: true, ticks: { color: '#475569' }, title: { display: true, text: 'mm' }, grid: { color: 'rgba(148,163,184,0.2)' } }
-      }
-    }
-  });
-}
-
 function ensureCemadenHourlyModal() {
   if (document.getElementById('cemaden-hourly-modal')) return;
 
@@ -506,7 +562,12 @@ function ensureCemadenHourlyModal() {
     .cemaden-hourly-badge { background:#eff6ff; color:#1d4ed8; border-radius:999px; padding:8px 12px; font-weight:700; white-space:nowrap; }
     .cemaden-hourly-section { margin-top:18px; }
     .cemaden-hourly-section h4 { margin:0 0 10px; }
-    .cemaden-hourly-chart-wrap { position:relative; height:280px; padding:10px 8px 2px; border:1px solid #e5e7eb; border-radius:14px; background:#fbfdff; }
+    .cemaden-hourly-bars { display:flex; align-items:flex-end; gap:10px; overflow-x:auto; padding:8px 0; }
+    .cemaden-hourly-bar-item { min-width:48px; text-align:center; }
+    .cemaden-hourly-bar-value { font-size:.78rem; margin-bottom:6px; color:#0f172a; }
+    .cemaden-hourly-bar { width:28px; margin:0 auto 6px; border-radius:8px 8px 4px 4px; background:linear-gradient(180deg,#38bdf8,#2563eb); }
+    .cemaden-hourly-bar-hour { font-size:.75rem; font-weight:700; }
+    .cemaden-hourly-bar-date { font-size:.68rem; color:#64748b; }
     .cemaden-hourly-table-wrap { overflow:auto; border:1px solid #e5e7eb; border-radius:12px; }
     .cemaden-hourly-table { border-collapse:collapse; width:max-content; min-width:100%; font-size:.84rem; }
     .cemaden-hourly-table th, .cemaden-hourly-table td { border-bottom:1px solid #e5e7eb; border-right:1px solid #e5e7eb; padding:6px 8px; text-align:center; }
@@ -545,7 +606,10 @@ function closeCemadenHourlyModal() {
   if (!modal) return;
   modal.classList.add('hidden');
   modal.setAttribute('aria-hidden', 'true');
-  if (cemadenHourlyChart) { cemadenHourlyChart.destroy(); cemadenHourlyChart = null; }
+  if (cemadenHourlyChart) {
+    cemadenHourlyChart.destroy();
+    cemadenHourlyChart = null;
+  }
 }
 
 async function openCemadenHourlyModal(meta) {
@@ -561,7 +625,12 @@ async function openCemadenHourlyModal(meta) {
     if (!response.ok) throw new Error(`Falha ao carregar dados horários (${response.status})`);
     const data = await response.json();
     content.innerHTML = buildHourlyModalHtml(data, meta);
-    try { await ensureChartJs(); renderCemadenHourlyChart(data); } catch (e) { console.error(e); }
+    try {
+      await ensureChartJs();
+      renderCemadenHourlyChart(data);
+    } catch (chartError) {
+      console.error(chartError);
+    }
   } catch (error) {
     content.innerHTML = `<p class="cemaden-hourly-error">Não foi possível carregar os dados horários. ${escapeHtml(error.message || 'Erro desconhecido.')}</p>`;
   }
