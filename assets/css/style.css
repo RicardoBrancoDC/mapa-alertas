@@ -217,23 +217,221 @@ body { overflow: hidden; }
 }
 
 
-.legend-swatch.cemaden-pluvio { background: #1f78b4; }
-
-.legend-swatch.pluvio-green { background: #00d61f; }
-.legend-swatch.pluvio-yellow { background: #e0d400; }
-.legend-swatch.pluvio-orange { background: #f4a300; }
-.legend-swatch.pluvio-red { background: #e64512; }
-
-.pluvio-div-icon { background: transparent; border: 0; }
-.pluvio-badge {
+/* CEMADEN pluviômetros */
+.cemaden-pluvio-marker-wrapper {
+  background: transparent;
+  border: none;
+}
+.cemaden-pluvio-marker {
   width: 28px;
   height: 28px;
-  border-radius: 999px;
-  border: 2px solid rgba(0,0,0,0.28);
-  color: #111;
-  font-size: 12px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
   font-weight: 700;
-  line-height: 24px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  line-height: 1;
+}
+.cemaden-pluvio-marker span {
+  display: block;
+  transform: translateY(0.5px);
+}
+.cemaden-popup-content p {
+  margin: 6px 0;
+}
+.cemaden-popup-actions {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+.cemaden-popup-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #eef5ff;
+  color: #1659b7;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #cfe0ff;
+}
+.cemaden-popup-link:hover {
+  background: #dfeeff;
+}
+
+/* Modal horário CEMADEN */
+.cemaden-hourly-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  z-index: 4000;
+}
+.cemaden-hourly-modal.hidden {
+  display: none;
+}
+.cemaden-hourly-content {
+  width: min(980px, 96vw);
+  max-height: 92vh;
+  overflow: auto;
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+.cemaden-hourly-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 22px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.cemaden-hourly-header h3 {
+  margin: 0 0 4px;
+  font-size: 1.25rem;
+}
+.cemaden-hourly-header p {
+  margin: 0;
+  color: #667085;
+}
+.cemaden-hourly-close {
+  border: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: #edf2f7;
+  color: #1f2a44;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.cemaden-hourly-section {
+  padding: 18px 22px;
+}
+.cemaden-hourly-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #f4f7fb;
+  color: #1f2a44;
+  font-weight: 700;
+}
+.cemaden-hourly-loading,
+.cemaden-hourly-error,
+.cemaden-empty {
+  padding: 22px;
+  color: #475467;
+}
+.cemaden-hourly-bars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+}
+.cemaden-hourly-card {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 12px;
+}
+.cemaden-hourly-bar-date {
+  font-size: 0.82rem;
+  color: #667085;
+  margin-bottom: 8px;
+}
+.cemaden-hourly-bar-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 6px 0;
+}
+.cemaden-hourly-bar-hour {
+  color: #344054;
+  font-weight: 600;
+}
+.cemaden-hourly-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  background: #dbeafe;
+  overflow: hidden;
+  position: relative;
+}
+.cemaden-hourly-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--bar-size, 0%);
+  background: #1d4ed8;
+}
+.cemaden-hourly-bar-value {
+  min-width: 38px;
+  text-align: right;
+  font-weight: 700;
+  color: #1f2a44;
+}
+.cemaden-hourly-table-wrap {
+  overflow: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+.cemaden-hourly-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.cemaden-hourly-table th,
+.cemaden-hourly-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eef2f7;
+  text-align: left;
+}
+.cemaden-hourly-table thead th {
+  position: sticky;
+  top: 0;
+  background: #f8fafc;
+  z-index: 1;
+}
+.cemaden-hourly-footer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cemaden-hourly-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #eef5ff;
+  color: #1659b7;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #cfe0ff;
+}
+.cemaden-hourly-btn:hover {
+  background: #dfeeff;
+}
+@media (max-width: 640px) {
+  .cemaden-hourly-content {
+    width: 100%;
+    max-height: 96vh;
+    border-radius: 18px;
+  }
+  .cemaden-hourly-topbar,
+  .cemaden-hourly-section {
+    padding: 16px;
+  }
+  .cemaden-hourly-bars {
+    grid-template-columns: 1fr;
+  }
 }
