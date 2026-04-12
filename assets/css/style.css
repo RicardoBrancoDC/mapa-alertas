@@ -1,217 +1,69 @@
-:root {
-  --bg: #f3f6fb;
-  --card: #ffffff;
-  --text: #1f2a44;
-  --muted: #62708a;
-  --border: #dce3ef;
-  --shadow: 0 10px 30px rgba(31, 42, 68, 0.08);
-  --purple: #6a43d9;
-  --gray: #8f96a3;
-  --yellow: #d6b52b;
-  --orange: #ef8b1e;
-  --red: #cf3d32;
-  --blue: #2474d2;
-  --brown: #8a5a3b;
-  --green: #2f9e44;
-}
-* { box-sizing: border-box; }
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--text);
-  background: var(--bg);
-}
-body { overflow: hidden; }
-.app-shell { display: grid; grid-template-columns: 360px 1fr; height: 100vh; }
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  padding: 18px;
-  background: #eef3fa;
-  border-right: 1px solid var(--border);
-  overflow-y: auto;
-}
-.sidebar-header, .panel-block, .sidebar-footer {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 16px;
-  box-shadow: var(--shadow);
-}
-.sidebar-header h1 { margin: 0 0 8px; font-size: 1.35rem; }
-.sidebar-header p, .muted { margin: 0; color: var(--muted); line-height: 1.45; }
-.panel-block h2 { margin: 0 0 12px; font-size: 1rem; }
-.map-wrapper { position: relative; }
-#map { width: 100%; height: 100%; }
-.primary-btn {
-  width: 100%;
-  border: 1px solid var(--text);
-  border-radius: 999px;
-  background: var(--text);
-  color: #fff;
-  padding: 10px 14px;
-  cursor: pointer;
-  font-weight: 700;
-}
-.layer-list { display: grid; gap: 10px; }
-.layer-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 10px 12px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-}
-.layer-item label {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  width: 100%;
-}
-.layer-dot { width: 12px; height: 12px; border-radius: 999px; flex: 0 0 auto; }
-.summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.summary-card { border: 1px solid var(--border); border-radius: 14px; padding: 12px; background: #fff; }
-.summary-card strong { display: block; font-size: 1.25rem; margin-bottom: 4px; }
-.legend-list { display: grid; gap: 8px; color: var(--muted); }
-.legend-list div { display: flex; align-items: center; gap: 10px; }
-.legend-swatch { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
-.purple { background: var(--purple); }
-.gray { background: var(--gray); }
-.yellow { background: var(--yellow); }
-.orange { background: var(--orange); }
-.red { background: var(--red); }
-.blue { background: var(--blue); }
-.brown { background: var(--brown); }
-.green { background: var(--green); }
-.popup-content { min-width: 220px; line-height: 1.45; }
-.popup-content h3 { margin: 0 0 8px; font-size: 1rem; }
-.popup-content p { margin: 4px 0; }
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel Integrado de Alertas</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>Painel Integrado de Alertas</h1>
+        <p>Acompanhamento de múltiplas fontes em um único mapa.</p>
+      </div>
 
-.idap-modal {
-  position: fixed;
-  inset: 0;
-  z-index: 6000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
-  background: rgba(0,0,0,0.45);
-  backdrop-filter: blur(2px);
-}
-.idap-modal.hidden { display: none; }
-.idap-modal-card {
-  width: min(680px, 96vw);
-  max-height: 92vh;
-  overflow-y: auto;
-  border-radius: 30px;
-  padding: 24px 24px 22px;
-  box-shadow: 0 24px 60px rgba(0,0,0,0.30);
-  border: 3px solid rgba(255,255,255,0.85);
-  position: relative;
-  color: #fff;
-}
-.idap-modal-card.level-medium { color: #1f2a44; }
-.idap-close-btn {
-  position: absolute;
-  top: 14px;
-  right: 16px;
-  width: 38px;
-  height: 38px;
-  border-radius: 999px;
-  border: 2px solid rgba(255,255,255,0.82);
-  background: rgba(255,255,255,0.12);
-  color: inherit;
-  font-size: 24px;
-  line-height: 1;
-  cursor: pointer;
-}
-.idap-card-pill-wrap { display: flex; justify-content: center; margin-bottom: 14px; }
-.idap-card-pill {
-  padding: 12px 28px;
-  border-radius: 999px;
-  border: 3px solid rgba(255,255,255,0.78);
-  background: rgba(95,55,0,0.20);
-  font-weight: 800;
-  font-size: 1.08rem;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-.idap-card-event {
-  background: rgba(255,255,255,0.92);
-  color: #111;
-  border-radius: 24px;
-  padding: 18px 20px;
-  text-align: center;
-  font-weight: 800;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
-}
-.idap-card-box {
-  margin-top: 18px;
-  background: rgba(255,255,255,0.18);
-  border: 1px solid rgba(255,255,255,0.10);
-  border-radius: 26px;
-  padding: 18px 18px 16px;
-}
-.idap-card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.idap-card-box h4 { margin: 0 0 10px; font-size: 0.98rem; font-weight: 800; }
-.idap-card-box p { margin: 0; line-height: 1.5; font-size: 1rem; }
-.idap-meta-row { display: grid; gap: 12px; }
-.idap-meta-line { display: flex; flex-wrap: wrap; gap: 10px; font-size: 1rem; line-height: 1.45; }
-.idap-meta-line strong { font-weight: 800; }
-.idap-small-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 18px; }
-.idap-small-card { background: rgba(255,255,255,0.18); border-radius: 22px; padding: 16px 18px; }
-.idap-small-card .label { display: block; font-weight: 800; margin-bottom: 8px; font-size: 0.98rem; }
-.idap-small-card .value { font-size: 1rem; line-height: 1.45; }
-.idap-card-actions { margin-top: 20px; display: flex; justify-content: center; }
-.idap-back-btn {
-  min-width: 140px;
-  padding: 12px 24px;
-  border-radius: 999px;
-  border: 3px solid rgba(255,255,255,0.78);
-  background: rgba(95,55,0,0.20);
-  color: inherit;
-  font-weight: 800;
-  font-size: 1rem;
-  cursor: pointer;
-}
-.idap-truncated .toggle-more {
-  margin-top: 12px;
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 14px;
-  border: 2px solid rgba(255,255,255,0.75);
-  background: rgba(95,55,0,0.18);
-  color: inherit;
-  font-weight: 800;
-  cursor: pointer;
-}
-.idap-modal-card.level-medium .idap-card-box,
-.idap-modal-card.level-medium .idap-small-card {
-  background: rgba(255,255,255,0.28);
-}
-.idap-modal-card.level-medium .idap-card-pill,
-.idap-modal-card.level-medium .idap-back-btn,
-.idap-modal-card.level-medium .idap-truncated .toggle-more,
-.idap-modal-card.level-medium .idap-close-btn {
-  border-color: rgba(31,42,68,0.35);
-  background: rgba(255,255,255,0.35);
-}
+      <section class="panel-block">
+        <h2>Última atualização</h2>
+        <div id="last-update" class="muted">Carregando...</div>
+      </section>
 
-@media (max-width: 980px) {
-  body { overflow: auto; }
-  .app-shell { grid-template-columns: 1fr; height: auto; }
-  .sidebar { max-height: none; }
-  .map-wrapper { height: 70vh; }
-}
-@media (max-width: 640px) {
-  .idap-modal-card { padding: 18px 16px 18px; border-radius: 24px; }
-  .idap-card-grid, .idap-small-grid { grid-template-columns: 1fr; }
-  .idap-card-event { font-size: 1.05rem; padding: 16px; }
-}
+      <section class="panel-block">
+        <h2>Camadas</h2>
+        <div id="layer-list" class="layer-list"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Resumo</h2>
+        <div id="summary" class="summary-grid"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Legenda</h2>
+        <div class="legend-list">
+          <div><span class="legend-swatch purple"></span> IDAP ativo</div>
+          <div><span class="legend-swatch gray"></span> IDAP inativo</div>
+          <div><span class="legend-swatch yellow"></span> INMET perigo potencial</div>
+          <div><span class="legend-swatch orange"></span> INMET perigo</div>
+          <div><span class="legend-swatch red"></span> INMET grande perigo</div>
+          <div><span class="legend-swatch blue"></span> CEMADEN hidrológico</div>
+          <div><span class="legend-swatch brown"></span> CEMADEN geológico</div>
+          <div><span class="legend-swatch cemaden-pluvio"></span> CEMADEN pluviômetros</div>
+          <div><span class="legend-swatch green"></span> SGB estações</div>
+        </div>
+      </section>
+
+      <div class="sidebar-footer">
+        <button id="reset-view" class="primary-btn">Voltar para o Brasil</button>
+      </div>
+    </aside>
+
+    <main class="map-wrapper">
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <div id="idap-modal" class="idap-modal hidden" aria-hidden="true">
+    <div id="idap-modal-card" class="idap-modal-card">
+      <button id="idap-modal-close" class="idap-close-btn" aria-label="Fechar">×</button>
+      <div id="idap-modal-content"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
