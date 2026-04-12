@@ -437,67 +437,46 @@ body { overflow: hidden; }
 }
 
 
-.filter-chip-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.filter-chip {
-  border: 1px solid var(--border);
-  background: #fff;
-  color: var(--text);
-  border-radius: 999px;
-  padding: 8px 12px;
+.cemaden-count-tooltip {
+  background: rgba(255,255,255,0.6);
+  border: 5px solid rgba(255,255,255,0.55);
+  color: #111827;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
   font-weight: 700;
-  cursor: pointer;
-}
-.filter-chip.active {
-  background: var(--text);
-  color: #fff;
-  border-color: var(--text);
-}
-.rain-rank-list {
-  display: grid;
-  gap: 10px;
-}
-.rain-rank-item {
-  display: grid;
-  grid-template-columns: 34px 1fr auto;
-  gap: 10px;
-  align-items: center;
-  padding: 10px 12px;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  background: #fff;
-}
-.rain-rank-pos {
-  width: 34px;
-  height: 34px;
   border-radius: 999px;
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eef5ff;
-  color: #1659b7;
-  font-weight: 800;
 }
-.rain-rank-meta {
-  min-width: 0;
+.cemaden-count-tooltip.is-state {
+  width: 52px;
+  height: 52px;
+  font-size: 1.15rem;
 }
-.rain-rank-meta strong {
-  display: block;
-  font-size: .93rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.cemaden-count-tooltip.is-municipio {
+  width: 46px;
+  height: 46px;
+  font-size: 1.05rem;
 }
-.rain-rank-meta span {
-  display: block;
-  font-size: .82rem;
-  color: var(--muted);
+.leaflet-tooltip.cemaden-count-tooltip:before {
+  display: none;
 }
-.rain-rank-value {
-  font-weight: 800;
-  color: #0f3b7a;
-  white-space: nowrap;
+.cemaden-alert-icon-wrapper {
+  background: transparent;
+  border: none;
+}
+.cemaden-alert-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size: 13px;
+  font-weight: 700;
 }
