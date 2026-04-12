@@ -1,5 +1,5 @@
 const BRAZIL_BOUNDS = L.latLngBounds(L.latLng(-33.9, -73.99), L.latLng(5.5, -28.8));
-const state = { map: null, layers: {}, layerDefinitions: [] };
+const state = { map: null, layers: {}, rawData: {}, layerDefinitions: [], pluvioFilter: 'all', layerVisibility: {} };
 
 function formatDateTime(value) {
   if (!value) return 'Não informado';
@@ -21,6 +21,28 @@ function formatRain(value) {
   const n = Number(value);
   if (Number.isNaN(n)) return String(value);
   return n.toFixed(1).replace(/\.0$/, '');
+}
+
+function toNumber(value) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : null;
+}
+
+function passesPluvioFilter(feature, filterValue) {
+  if (!feature || feature.properties?.acumulado == null) return false;
+  const acumulado = toNumber(feature.properties.acumulado);
+  if (acumulado == null) return false;
+  if (filterValue === 'gt0') return acumulado > 0;
+  if (filterValue === 'ge10') return acumulado >= 10;
+  if (filterValue === 'ge30') return acumulado >= 30;
+  if (filterValue === 'ge70') return acumulado >= 70;
+  return true;
+}
+
+function filteredGeoJson(definition, geojson) {
+  if (!geojson || definition.id !== 'cemaden_pluvio_estacoes') return geojson;
+  const features = Array.isArray(geojson.features) ? geojson.features : [];
+  return { ...geojson, features: features.filter(feature => passesPluvioFilter(feature, state.pluvioFilter)) };
 }
 
 function computeIdapLevel(props) {
@@ -173,6 +195,7 @@ async function fetchJson(path) {
 }
 async function loadCatalog() { return fetchJson('data/catalogo_camadas.json'); }
 
+
 function renderLayerList() {
   const container = document.getElementById('layer-list');
   container.innerHTML = '';
@@ -182,7 +205,7 @@ function renderLayerList() {
     const label = document.createElement('label');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.checked = def.defaultVisible;
+    checkbox.checked = state.layerVisibility[def.id] ?? def.defaultVisible;
     checkbox.dataset.layerId = def.id;
     const dot = document.createElement('span');
     dot.className = 'layer-dot';
@@ -190,7 +213,9 @@ function renderLayerList() {
     const text = document.createElement('span');
     text.textContent = def.name;
     checkbox.addEventListener('change', event => {
-      const layer = state.layers[event.target.dataset.layerId];
+      const id = event.target.dataset.layerId;
+      const layer = state.layers[id];
+      state.layerVisibility[id] = event.target.checked;
       if (!layer) return;
       if (event.target.checked) layer.addTo(state.map);
       else state.map.removeLayer(layer);
@@ -217,18 +242,95 @@ function renderSummary() {
   });
 }
 
+function renderTopRainRanking() {
+  const container = document.getElementById('pluvio-top-list');
+  if (!container) return;
+  const raw = state.rawData['cemaden_pluvio_estacoes'];
+  const features = Array.isArray(raw?.features) ? raw.features : [];
+  const ranked = features
+    .filter(feature => feature?.properties?.acumulado != null)
+    .map(feature => ({
+      title: feature.properties.nomeestacao || feature.properties.nome || 'Estação',
+      cidade: feature.properties.cidade || '—',
+      uf: feature.properties.uf || '—',
+      acumulado: toNumber(feature.properties.acumulado) ?? -1,
+    }))
+    .sort((a, b) => b.acumulado - a.acumulado)
+    .slice(0, 10);
+
+  if (!ranked.length) {
+    container.innerHTML = '<p class="muted">Sem dados de chuva disponíveis no momento.</p>';
+    return;
+  }
+
+  container.innerHTML = ranked.map((item, index) => `
+    <div class="rain-rank-item">
+      <div class="rain-rank-pos">${index + 1}</div>
+      <div class="rain-rank-meta">
+        <strong>${escapeHtml(item.title)}</strong>
+        <span>${escapeHtml(item.cidade)} / ${escapeHtml(item.uf)}</span>
+      </div>
+      <div class="rain-rank-value">${escapeHtml(formatRain(item.acumulado))} mm</div>
+    </div>
+  `).join('');
+}
+
+function applyPluvioFilter() {
+  const def = state.layerDefinitions.find(layer => layer.id === 'cemaden_pluvio_estacoes');
+  const raw = state.rawData['cemaden_pluvio_estacoes'];
+  if (!def || !raw) return;
+
+  const wasVisible = state.layerVisibility[def.id] ?? def.defaultVisible;
+  const oldLayer = state.layers[def.id];
+  if (oldLayer && state.map.hasLayer(oldLayer)) {
+    state.map.removeLayer(oldLayer);
+  }
+
+  const geojson = filteredGeoJson(def, raw);
+  const newLayer = createGeoJsonLayer(def, geojson);
+  state.layers[def.id] = newLayer;
+
+  if (wasVisible) newLayer.addTo(state.map);
+  renderSummary();
+}
+
+function initPluvioFilter() {
+  const buttons = Array.from(document.querySelectorAll('[data-pluvio-filter]'));
+  if (!buttons.length) return;
+
+  const syncActive = () => {
+    buttons.forEach(button => {
+      button.classList.toggle('active', button.dataset.pluvioFilter === state.pluvioFilter);
+    });
+  };
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      state.pluvioFilter = button.dataset.pluvioFilter || 'all';
+      syncActive();
+      applyPluvioFilter();
+    });
+  });
+
+  syncActive();
+}
+
+
 async function loadLayers() {
   const catalog = await loadCatalog();
   state.layerDefinitions = catalog.layers;
   document.getElementById('last-update').textContent = formatDateTime(catalog.generated_at);
   for (const def of state.layerDefinitions) {
     const geojson = await fetchJson(def.file);
-    const layer = createGeoJsonLayer(def, geojson);
+    state.rawData[def.id] = geojson;
+    state.layerVisibility[def.id] = def.defaultVisible;
+    const layer = createGeoJsonLayer(def, filteredGeoJson(def, geojson));
     state.layers[def.id] = layer;
     if (def.defaultVisible) layer.addTo(state.map);
   }
   renderLayerList();
   renderSummary();
+  renderTopRainRanking();
 }
 
 function initMap() {
@@ -556,6 +658,7 @@ function initModal() {
 initMap();
 initModal();
 initCemadenHourlyModal();
+initPluvioFilter();
 loadLayers().catch(error => {
   console.error(error);
   document.getElementById('last-update').textContent = 'Erro ao carregar dados';
