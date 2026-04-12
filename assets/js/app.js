@@ -74,15 +74,20 @@ function popupHtml(feature, layerName) {
   const p = feature.properties || {};
   const title = p.title || p.nome || layerName;
 
-  if (p.codestacao && p.tipo === 'Pluviométrica') {
+  if (p.codestacao && (p.tipo === 'Pluviométrica' || p.tipo_jsonp === 'Pluviométrica')) {
+    const acumulado = p.acumulado ?? '-';
+    const atualizado = p.atualizado ? formatDateTime(p.atualizado) : '-';
+    const inatividade = p.tempo_inatividade ?? '-';
     return `
       <div class="popup-content">
         <h3>${title}</h3>
         <p><strong>Fonte:</strong> ${layerName}</p>
         <p><strong>Código:</strong> ${p.codestacao || '-'}</p>
         <p><strong>Cidade:</strong> ${p.cidade || '-'} / ${p.uf || '-'}</p>
-        <p><strong>Tipo:</strong> ${p.tipo || '-'}</p>
-        <p><strong>Tempo de inatividade:</strong> ${p.tempo_inatividade ?? '-'}</p>
+        <p><strong>Tipo:</strong> ${p.tipo || p.tipo_jsonp || '-'}</p>
+        <p><strong>Acumulado:</strong> ${acumulado} mm</p>
+        <p><strong>Atualizado:</strong> ${atualizado}</p>
+        <p><strong>Tempo de inatividade:</strong> ${inatividade}</p>
       </div>
     `;
   }
