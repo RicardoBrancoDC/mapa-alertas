@@ -437,46 +437,9 @@ body { overflow: hidden; }
 }
 
 
-.cemaden-count-tooltip {
-  background: rgba(255,255,255,0.6);
-  border: 5px solid rgba(255,255,255,0.55);
-  color: #111827;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
-  font-weight: 700;
-  border-radius: 999px;
-  width: 42px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cemaden-count-tooltip.is-state {
-  width: 52px;
-  height: 52px;
-  font-size: 1.15rem;
-}
-.cemaden-count-tooltip.is-municipio {
-  width: 46px;
-  height: 46px;
-  font-size: 1.05rem;
-}
-.leaflet-tooltip.cemaden-count-tooltip:before {
-  display: none;
-}
-.cemaden-alert-icon-wrapper {
-  background: transparent;
-  border: none;
-}
-.cemaden-alert-icon {
-  width: 26px;
-  height: 26px;
-  border-radius: 999px;
-  border: 2px solid rgba(255,255,255,0.95);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#fff;
-  font-size: 13px;
-  font-weight: 700;
-}
+.legend-swatch.idap-baixo { background: #16A42F; }
+.legend-swatch.idap-medio { background: #EFCF19; }
+.legend-swatch.idap-alto { background: #EE6908; }
+.legend-swatch.idap-severo { background: #C60C0D; }
+.legend-swatch.idap-extremo { background: #7D39BD; }
+.legend-swatch.idap-inativo { background: #8f96a3; }
