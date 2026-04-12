@@ -23,18 +23,26 @@
       "color": "#ef8b1e"
     },
     {
-      "id": "cemaden_estados",
-      "name": "CEMADEN agrupado",
-      "file": "data/cemaden_estados.geojson",
+      "id": "cemaden_alertas",
+      "name": "CEMADEN alertas",
       "defaultVisible": true,
       "color": "#ef8b1e",
-      "summaryLabel": "CEMADEN estados"
+      "summaryLabel": "CEMADEN alertas"
+    },
+    {
+      "id": "cemaden_estados",
+      "name": "CEMADEN estados",
+      "file": "data/cemaden_estados.geojson",
+      "defaultVisible": false,
+      "color": "#ef8b1e",
+      "summaryLabel": "CEMADEN estados",
+      "internalOnly": true
     },
     {
       "id": "cemaden_municipios",
       "name": "CEMADEN municípios",
       "file": "data/cemaden_municipios.geojson",
-      "defaultVisible": true,
+      "defaultVisible": false,
       "color": "#d6b52b",
       "internalOnly": true
     },
@@ -42,7 +50,7 @@
       "id": "cemaden_municipios_icones",
       "name": "CEMADEN ícones",
       "file": "data/cemaden_municipios_icones.geojson",
-      "defaultVisible": true,
+      "defaultVisible": false,
       "color": "#2474d2",
       "internalOnly": true
     },
