@@ -1,5 +1,5 @@
 const BRAZIL_BOUNDS = L.latLngBounds(L.latLng(-33.9, -73.99), L.latLng(5.5, -28.8));
-const state = { map: null, layers: {}, layerDefinitions: [], layerVisibility: {} };
+const state = { map: null, layers: {}, layerDefinitions: [] };
 
 function formatDateTime(value) {
   if (!value) return 'Não informado';
@@ -21,57 +21,6 @@ function formatRain(value) {
   const n = Number(value);
   if (Number.isNaN(n)) return String(value);
   return n.toFixed(1).replace(/\.0$/, '');
-}
-
-function cemadenSeverityColor(value) {
-  const severity = normalize(value);
-  if (severity === 'muito_alto') return '#d73027';
-  if (severity === 'alto') return '#fc8d59';
-  if (severity === 'moderado') return '#ffd54f';
-  return '#d6b52b';
-}
-
-function isCemadenInternalLayerId(id) {
-  return id === 'cemaden_estados' || id === 'cemaden_municipios' || id === 'cemaden_municipios_icones';
-}
-
-function getDisplayLayerDefs() {
-  return state.layerDefinitions.filter(def => !def.internalOnly);
-}
-
-function getCemadenActiveMode() {
-  const zoom = state.map ? state.map.getZoom() : 4;
-  if (zoom < 6) return 'estados';
-  if (zoom < 8) return 'municipios';
-  return 'municipios_icones';
-}
-
-function setLayerOnMap(layerId, shouldShow) {
-  const layer = state.layers[layerId];
-  if (!layer || !state.map) return;
-  if (shouldShow) {
-    if (!state.map.hasLayer(layer)) layer.addTo(state.map);
-  } else if (state.map.hasLayer(layer)) {
-    state.map.removeLayer(layer);
-  }
-}
-
-function updateCemadenAlertasByZoom() {
-  if (!state.map) return;
-  const enabled = !!state.layerVisibility.cemaden_alertas;
-  const mode = getCemadenActiveMode();
-
-  setLayerOnMap('cemaden_estados', enabled && mode === 'estados');
-  setLayerOnMap('cemaden_municipios', enabled && (mode === 'municipios' || mode === 'municipios_icones'));
-  setLayerOnMap('cemaden_municipios_icones', enabled && mode === 'municipios_icones');
-}
-
-function syncLayerVisibilityToMap() {
-  getDisplayLayerDefs().forEach(def => {
-    if (def.id === 'cemaden_alertas') return;
-    setLayerOnMap(def.id, !!state.layerVisibility[def.id]);
-  });
-  updateCemadenAlertasByZoom();
 }
 
 function computeIdapLevel(props) {
@@ -102,6 +51,15 @@ function idapLevelColor(level) {
 }
 
 function markerStyle(category, feature = null) {
+  if (category === 'idap_ativos') {
+    const level = computeIdapLevel(feature?.properties || {});
+    return idapLevelColor(level);
+  }
+
+  if (category === 'idap_inativos') {
+    return '#8f96a3';
+  }
+
   if (category === 'cemaden_pluvio_estacoes') {
     const acumulado = feature?.properties?.acumulado;
     if (acumulado == null) return '#8f8f8f';
@@ -115,7 +73,7 @@ function markerStyle(category, feature = null) {
     return feature?.properties?.cor || cemadenSeverityColor(feature?.properties?.severity_group);
   }
 
-  const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', sgb_estacoes: '#2f9e44' };
+  const styles = { inmet_alertas: '#ff8c00', sgb_estacoes: '#2f9e44' };
   const severity = feature?.properties?.severity_group || '';
   if (category === 'sgb_estacoes') {
     if (severity === 'alerta') return '#d73027';
@@ -160,18 +118,6 @@ function pointToLayer(feature, latlng, category) {
     return L.marker(latlng, { icon });
   }
 
-  if (category === 'cemaden_municipios_icones') {
-    const tipo = normalize(feature?.properties?.tipo_icone);
-    const glyph = tipo === 'geo' ? '⛰' : '≋';
-    const icon = L.divIcon({
-      className: 'cemaden-alert-icon-wrapper',
-      html: `<div class="cemaden-alert-icon" style="background:${color};"><span>${glyph}</span></div>`,
-      iconSize: [26, 26],
-      iconAnchor: [13, 13]
-    });
-    return L.marker(latlng, { icon });
-  }
-
   return L.circleMarker(latlng, { radius: 7, color, weight: 2, fillColor: color, fillOpacity: 0.75 });
 }
 
@@ -211,34 +157,6 @@ function popupHtml(feature, layerName) {
     `;
   }
 
-  if (p.estado) {
-    return `
-      <div class="popup-content">
-        <h3>${escapeHtml(p.estado)} (${escapeHtml(p.uf || '-')})</h3>
-        <p><strong>Nível máximo:</strong> ${escapeHtml(p.nivel_max_label || p.nivel_max || '-')}</p>
-        <p><strong>Total de alertas:</strong> ${escapeHtml(String(p.total_alertas ?? '-'))}</p>
-        <p><strong>Municípios com alerta:</strong> ${escapeHtml(String(p.municipios_com_alerta ?? '-'))}</p>
-        <p><strong>Tipos:</strong> Hidrológico ${escapeHtml(String(p.qtd_hidro ?? 0))} · Geológico ${escapeHtml(String(p.qtd_geo ?? 0))}</p>
-        <p><strong>Atualizado:</strong> ${escapeHtml(formatDateTime(p.updated_at))}</p>
-      </div>
-    `;
-  }
-
-  if (p.municipio && (p.total_alertas != null || Array.isArray(p.alertas))) {
-    const alertaPrincipal = Array.isArray(p.alertas) && p.alertas.length ? p.alertas[0] : null;
-    const tipoLabel = alertaPrincipal?.tipo_raw || p.tipos || '-';
-    return `
-      <div class="popup-content">
-        <h3>${escapeHtml(p.municipio)} / ${escapeHtml(p.uf || '-')}</h3>
-        <p><strong>Nível máximo:</strong> ${escapeHtml(p.nivel_max_label || p.nivel_max || '-')}</p>
-        <p><strong>Total de alertas:</strong> ${escapeHtml(String(p.total_alertas ?? '-'))}</p>
-        <p><strong>Tipo principal:</strong> ${escapeHtml(tipoLabel)}</p>
-        <p><strong>Tipos:</strong> Hidrológico ${escapeHtml(String(p.qtd_hidro ?? 0))} · Geológico ${escapeHtml(String(p.qtd_geo ?? 0))}</p>
-        <p><strong>Atualizado:</strong> ${escapeHtml(formatDateTime(p.updated_at || alertaPrincipal?.updated_at))}</p>
-      </div>
-    `;
-  }
-
   return `<div class="popup-content"><h3>${escapeHtml(title)}</h3><p><strong>Fonte:</strong> ${escapeHtml(layerName)}</p></div>`;
 }
 
@@ -251,15 +169,6 @@ function createGeoJsonLayer(definition, geojson) {
         layer.on('click', () => openIdapModal(feature.properties, definition.id));
       } else {
         layer.bindPopup(popupHtml(feature, definition.name));
-      }
-
-      if ((definition.id === 'cemaden_estados' || definition.id === 'cemaden_municipios') && feature?.properties?.total_alertas != null) {
-        layer.bindTooltip(String(feature.properties.total_alertas), {
-          permanent: true,
-          direction: 'center',
-          className: `cemaden-count-tooltip ${definition.id === 'cemaden_estados' ? 'is-state' : 'is-municipio'}`,
-          opacity: 1
-        });
       }
     }
   });
@@ -275,13 +184,13 @@ async function loadCatalog() { return fetchJson('data/catalogo_camadas.json'); }
 function renderLayerList() {
   const container = document.getElementById('layer-list');
   container.innerHTML = '';
-  getDisplayLayerDefs().forEach(def => {
+  state.layerDefinitions.forEach(def => {
     const item = document.createElement('div');
     item.className = 'layer-item';
     const label = document.createElement('label');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.checked = !!state.layerVisibility[def.id];
+    checkbox.checked = def.defaultVisible;
     checkbox.dataset.layerId = def.id;
     const dot = document.createElement('span');
     dot.className = 'layer-dot';
@@ -289,10 +198,10 @@ function renderLayerList() {
     const text = document.createElement('span');
     text.textContent = def.name;
     checkbox.addEventListener('change', event => {
-      const id = event.target.dataset.layerId;
-      state.layerVisibility[id] = event.target.checked;
-      syncLayerVisibilityToMap();
-      renderSummary();
+      const layer = state.layers[event.target.dataset.layerId];
+      if (!layer) return;
+      if (event.target.checked) layer.addTo(state.map);
+      else state.map.removeLayer(layer);
     });
     label.appendChild(checkbox);
     label.appendChild(dot);
@@ -305,22 +214,13 @@ function renderLayerList() {
 function renderSummary() {
   const summary = document.getElementById('summary');
   summary.innerHTML = '';
-  getDisplayLayerDefs().forEach(def => {
+  state.layerDefinitions.forEach(def => {
+    const layer = state.layers[def.id];
     let count = 0;
-    if (def.id === 'cemaden_alertas') {
-      if (state.layerVisibility.cemaden_alertas) {
-        const mode = getCemadenActiveMode();
-        const targetId = mode === 'estados' ? 'cemaden_estados' : 'cemaden_municipios';
-        const layer = state.layers[targetId];
-        if (layer) layer.eachLayer(() => { count += 1; });
-      }
-    } else {
-      const layer = state.layers[def.id];
-      if (layer && state.layerVisibility[def.id]) layer.eachLayer(() => { count += 1; });
-    }
+    layer.eachLayer(() => { count += 1; });
     const card = document.createElement('div');
     card.className = 'summary-card';
-    card.innerHTML = `<strong>${count}</strong><span>${escapeHtml(def.summaryLabel || def.name)}</span>`;
+    card.innerHTML = `<strong>${count}</strong><span>${def.name}</span>`;
     summary.appendChild(card);
   });
 }
@@ -329,23 +229,14 @@ async function loadLayers() {
   const catalog = await loadCatalog();
   state.layerDefinitions = catalog.layers;
   document.getElementById('last-update').textContent = formatDateTime(catalog.generated_at);
-
   for (const def of state.layerDefinitions) {
-    state.layerVisibility[def.id] = !!def.defaultVisible;
-    if (!def.file) continue;
     const geojson = await fetchJson(def.file);
     const layer = createGeoJsonLayer(def, geojson);
     state.layers[def.id] = layer;
+    if (def.defaultVisible) layer.addTo(state.map);
   }
-
   renderLayerList();
-  syncLayerVisibilityToMap();
   renderSummary();
-
-  state.map.on('zoomend', () => {
-    updateCemadenAlertasByZoom();
-    renderSummary();
-  });
 }
 
 function initMap() {
