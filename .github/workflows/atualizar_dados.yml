@@ -73,6 +73,7 @@ jobs:
 
           git add \
             .cache/historico_alertas_idap.json \
+            data/cemaden_pluvio_estacoes.geojson \
             data/idap_ativos.geojson \
             data/idap_inativos.geojson \
             data/cemaden_estados.geojson \
@@ -83,6 +84,8 @@ jobs:
             data/inmet_alertas.geojson \
             data/inmet_status.json \
             data/catalogo_camadas.json || true
+
+            
 
           if git diff --cached --quiet; then
             echo "Nenhuma alteração para commit."
