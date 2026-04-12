@@ -37,7 +37,7 @@ function idapLevelColor(level) {
 }
 
 function markerStyle(category, feature = null) {
-  const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', cemaden_hidro: '#2474d2', cemaden_geo: '#8a5a3b', sgb_estacoes: '#2f9e44' };
+  const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', cemaden_hidro: '#2474d2', cemaden_geo: '#8a5a3b', cemaden_pluvio_estacoes: '#1f78b4', sgb_estacoes: '#2f9e44' };
   const severity = feature?.properties?.severity_group || '';
   if (category === 'cemaden_hidro' || category === 'cemaden_geo') {
     if (severity === 'muito_alto') return '#d73027';
@@ -73,6 +73,20 @@ function pointToLayer(feature, latlng, category) {
 function popupHtml(feature, layerName) {
   const p = feature.properties || {};
   const title = p.title || p.nome || layerName;
+
+  if (p.codestacao && p.tipo === 'Pluviométrica') {
+    return `
+      <div class="popup-content">
+        <h3>${title}</h3>
+        <p><strong>Fonte:</strong> ${layerName}</p>
+        <p><strong>Código:</strong> ${p.codestacao || '-'}</p>
+        <p><strong>Cidade:</strong> ${p.cidade || '-'} / ${p.uf || '-'}</p>
+        <p><strong>Tipo:</strong> ${p.tipo || '-'}</p>
+        <p><strong>Tempo de inatividade:</strong> ${p.tempo_inatividade ?? '-'}</p>
+      </div>
+    `;
+  }
+
   return `<div class="popup-content"><h3>${title}</h3><p><strong>Fonte:</strong> ${layerName}</p></div>`;
 }
 
