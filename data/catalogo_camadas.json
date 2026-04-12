@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T23:53:54.962422Z",
+  "generated_at": "2026-04-12T01:12:54.180058Z",
   "layers": [
     {
       "id": "idap_ativos",
@@ -45,6 +45,13 @@
       "defaultVisible": true,
       "color": "#2474d2",
       "internalOnly": true
+    },
+    {
+      "id": "cemaden_pluvio_estacoes",
+      "name": "CEMADEN pluviômetros",
+      "file": "data/cemaden_pluvio_estacoes.geojson",
+      "defaultVisible": false,
+      "color": "#1f78b4"
     },
     {
       "id": "sgb_estacoes",
