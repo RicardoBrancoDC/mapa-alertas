@@ -4,6 +4,10 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Olinda", "uf": "PE", "codibge": "2609600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.870585017494683, -7.999503742 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Recife", "uf": "PE", "codibge": "2611606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.927781066427215, -8.044199039 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Paulista", "uf": "PE", "codibge": "2610707", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.842839913101734, -7.910726955 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Jaboatão Dos Guararapes", "uf": "PE", "codibge": "2607901", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.001620623033673, -8.148632700500007 ] } }
 ]
 }
