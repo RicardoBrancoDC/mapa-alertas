@@ -133,8 +133,7 @@ function popupHtml(feature, layerName) {
     return `
       <div class="popup-content cemaden-popup-content">
         <h3>${escapeHtml(title)}</h3>
-        <p><strong>Fonte:</strong> ${escapeHtml(layerName)}</p>
-        <p><strong>Código:</strong> ${escapeHtml(p.codestacao || '-')}</p>
+                <p><strong>Código:</strong> ${escapeHtml(p.codestacao || '-')}</p>
         <p><strong>Cidade:</strong> ${escapeHtml(p.cidade || '-')} / ${escapeHtml(uf)}</p>
         <p><strong>Tipo:</strong> ${escapeHtml(p.tipo || p.tipo_jsonp || p.tipoestacao || '-')}</p>
         <p><strong>Acumulado 24h:</strong> ${escapeHtml(acumulado)} mm</p>
@@ -143,7 +142,7 @@ function popupHtml(feature, layerName) {
         <div class="cemaden-popup-actions">
           ${horarioUrl ? `<button type="button" class="cemaden-hourly-btn" data-hourly-url="${escapeHtml(horarioUrl)}" data-title="${escapeHtml(title)}" data-codestacao="${escapeHtml(p.codestacao || '')}" data-cidade="${escapeHtml(p.cidade || '')}" data-uf="${escapeHtml(uf)}" data-acumulado="${escapeHtml(acumulado)}" data-atualizado="${escapeHtml(atualizado)}">⏱ Ver chuva por hora</button>` : ''}
           ${graficoUrl ? `<a class="cemaden-popup-link" href="${escapeHtml(graficoUrl)}" target="_blank" rel="noopener noreferrer">📈 Gráfico oficial</a>` : ''}
-          ${horarioUrl ? `<a class="cemaden-popup-link" href="${escapeHtml(horarioUrl)}" target="_blank" rel="noopener noreferrer">{} JSON</a>` : ''}
+          ${horarioUrl ? `<a class="cemaden-popup-link" href="${escapeHtml(horarioUrl)}" target="_blank" rel="noopener noreferrer">🧾 JSON bruto</a>` : ''}
         </div>
       </div>
     `;
