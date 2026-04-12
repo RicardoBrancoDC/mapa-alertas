@@ -47,6 +47,12 @@ jobs:
           REQUEST_TIMEOUT_SEC: "30"
         run: python scripts/fetch_cemaden.py
 
+      - name: Atualizar camada CEMADEN Pluviômetros
+        env:
+          CEMADEN_PLUVIO_WFS_URL: "https://gsc.cemaden.gov.br/geoserver/cemaden_dev/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=cemaden_dev:view_pcds_pluviometrica_cemaden&outputFormat=application/json"
+          REQUEST_TIMEOUT_SEC: "30"
+        run: python scripts/fetch_cemaden_pluvio.py
+
       - name: Atualizar camada SGB
         env:
           SGB_URL: "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
