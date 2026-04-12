@@ -37,6 +37,15 @@ function idapLevelColor(level) {
 }
 
 function markerStyle(category, feature = null) {
+  if (category === 'cemaden_pluvio_estacoes') {
+    const acumulado = Number(feature?.properties?.acumulado);
+    if (!Number.isFinite(acumulado)) return '#8f96a3';
+    if (acumulado < 10) return '#00d61f';
+    if (acumulado < 30) return '#e0d400';
+    if (acumulado < 70) return '#f4a300';
+    return '#e64512';
+  }
+
   const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', cemaden_hidro: '#2474d2', cemaden_geo: '#8a5a3b', cemaden_pluvio_estacoes: '#1f78b4', sgb_estacoes: '#2f9e44' };
   const severity = feature?.properties?.severity_group || '';
   if (category === 'cemaden_hidro' || category === 'cemaden_geo') {
@@ -65,7 +74,27 @@ function polygonStyle(feature, category) {
   return { color, weight: 2, fillOpacity: 0.14 };
 }
 
+function formatPluvioLabel(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return '';
+  if (Math.abs(n - Math.round(n)) < 0.05) return String(Math.round(n));
+  return String(n.toFixed(1)).replace(/\.0$/, '');
+}
+
 function pointToLayer(feature, latlng, category) {
+  if (category === 'cemaden_pluvio_estacoes') {
+    const color = markerStyle(category, feature);
+    const label = formatPluvioLabel(feature?.properties?.acumulado);
+    const icon = L.divIcon({
+      className: 'pluvio-div-icon',
+      html: `<div class="pluvio-badge" style="background:${color}">${label}</div>`,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+      popupAnchor: [0, -14]
+    });
+    return L.marker(latlng, { icon });
+  }
+
   const color = markerStyle(category, feature);
   return L.circleMarker(latlng, { radius: 7, color, weight: 2, fillColor: color, fillOpacity: 0.75 });
 }
@@ -74,9 +103,9 @@ function popupHtml(feature, layerName) {
   const p = feature.properties || {};
   const title = p.title || p.nome || layerName;
 
-  if (p.codestacao && (p.tipo === 'Pluviométrica' || p.tipo_jsonp === 'Pluviométrica')) {
+  if (p.codestacao && (p.tipo === 'Pluviométrica' || p.tipo_jsonp === 'Pluviométrica' || p.tipoestacao === 'Pluviométrica')) {
     const acumulado = p.acumulado ?? '-';
-    const atualizado = p.atualizado ? formatDateTime(p.atualizado) : '-';
+    const atualizado = p.atualizado_brasilia || (p.atualizado ? formatDateTime(p.atualizado) : '-');
     const inatividade = p.tempo_inatividade ?? '-';
     return `
       <div class="popup-content">
