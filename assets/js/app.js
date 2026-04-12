@@ -452,25 +452,15 @@ function flattenHourlyData(data) {
   return points;
 }
 
-function buildRecentHourlyCards(data) {
-  const points = flattenHourlyData(data).slice(-12);
-  if (!points.length) return '<p class="cemaden-empty">Sem dados horários disponíveis.</p>';
-  const max = Math.max(...points.map(p => p.valor), 0.1);
-  return `
-    <div class="cemaden-hourly-bars">
-      ${points.map(point => {
-        const height = Math.max(10, Math.round((point.valor / max) * 72));
-        return `
-          <div class="cemaden-hourly-bar-item">
-            <div class="cemaden-hourly-bar-value">${escapeHtml(formatRain(point.valor))}</div>
-            <div class="cemaden-hourly-bar" style="height:${height}px"></div>
-            <div class="cemaden-hourly-bar-hour">${escapeHtml(point.hora)}</div>
-            <div class="cemaden-hourly-bar-date">${escapeHtml(point.data.slice(0, 5))}</div>
-          </div>
-        `;
-      }).join('')}
-    </div>
-  `;
+
+function buildHourlyChartConfig(data) {
+  const points = flattenHourlyData(data);
+  if (!points.length) return null;
+
+  return {
+    labels: points.map(point => `${point.hora} ${point.data.slice(0, 5)}`),
+    values: points.map(point => Number(point.valor))
+  };
 }
 
 function buildHourlyModalHtml(data, meta = {}) {
@@ -486,6 +476,7 @@ function buildHourlyModalHtml(data, meta = {}) {
   const graficoUrl = est?.idEstacao && uf !== '—'
     ? `https://resources.cemaden.gov.br/graficos/interativo/grafico_CEMADEN.php?idpcd=${est.idEstacao}&uf=${uf}`
     : null;
+  const chartConfig = buildHourlyChartConfig(data);
 
   return `
     <div class="cemaden-hourly-header">
@@ -497,8 +488,12 @@ function buildHourlyModalHtml(data, meta = {}) {
     </div>
 
     <div class="cemaden-hourly-section">
-      <h4>Últimas leituras com dado</h4>
-      ${buildRecentHourlyCards(data)}
+      <h4>Chuva por hora</h4>
+      ${chartConfig ? `
+        <div class="cemaden-hourly-chart-wrap">
+          <canvas id="cemaden-hourly-chart" aria-label="Gráfico de linha da chuva por hora" role="img"></canvas>
+        </div>
+      ` : `<p class="cemaden-empty">Sem dados horários disponíveis.</p>`}
     </div>
 
     <div class="cemaden-hourly-section">
@@ -522,7 +517,108 @@ function buildHourlyModalHtml(data, meta = {}) {
   `;
 }
 
-function ensureCemadenHourlyModal() {
+let cemadenHourlyChart = null;
+let chartJsPromise = null;
+
+function ensureChartJs() {
+  if (window.Chart) return Promise.resolve(window.Chart);
+  if (chartJsPromise) return chartJsPromise;
+
+  chartJsPromise = new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-chartjs="cemaden-hourly"]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(window.Chart), { once: true });
+      existing.addEventListener('error', () => reject(new Error('Falha ao carregar Chart.js')), { once: true });
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js';
+    script.async = true;
+    script.dataset.chartjs = 'cemaden-hourly';
+    script.onload = () => resolve(window.Chart);
+    script.onerror = () => reject(new Error('Falha ao carregar Chart.js'));
+    document.head.appendChild(script);
+  });
+
+  return chartJsPromise;
+}
+
+function renderCemadenHourlyChart(data) {
+  const canvas = document.getElementById('cemaden-hourly-chart');
+  if (!canvas || !window.Chart) return;
+  const config = buildHourlyChartConfig(data);
+  if (!config || !config.labels.length) return;
+
+  if (cemadenHourlyChart) {
+    cemadenHourlyChart.destroy();
+    cemadenHourlyChart = null;
+  }
+
+  const ctx = canvas.getContext('2d');
+  cemadenHourlyChart = new window.Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: config.labels,
+      datasets: [{
+        label: 'Chuva por hora (mm)',
+        data: config.values,
+        borderColor: '#2563eb',
+        backgroundColor: 'rgba(37, 99, 235, 0.12)',
+        pointBackgroundColor: '#2563eb',
+        pointBorderColor: '#ffffff',
+        pointBorderWidth: 1,
+        pointRadius: 3,
+        pointHoverRadius: 4,
+        borderWidth: 2,
+        tension: 0.25,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => ` ${formatRain(context.parsed.y)} mm`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            autoSkip: true,
+            maxTicksLimit: 12,
+            maxRotation: 0,
+            minRotation: 0,
+            color: '#475569',
+            font: { size: 11 }
+          },
+          grid: { display: false }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: {
+            color: '#475569',
+            callback: (value) => `${formatRain(value)}`
+          },
+          title: {
+            display: true,
+            text: 'mm'
+          },
+          grid: {
+            color: 'rgba(148, 163, 184, 0.2)'
+          }
+        }
+      }
+    }
+  });
+}
+
+function ensureCemadenHourlyModal() {function ensureCemadenHourlyModal() {
   if (document.getElementById('cemaden-hourly-modal')) return;
 
   const style = document.createElement('style');
@@ -593,6 +689,10 @@ function closeCemadenHourlyModal() {
   if (!modal) return;
   modal.classList.add('hidden');
   modal.setAttribute('aria-hidden', 'true');
+  if (cemadenHourlyChart) {
+    cemadenHourlyChart.destroy();
+    cemadenHourlyChart = null;
+  }
 }
 
 async function openCemadenHourlyModal(meta) {
@@ -608,6 +708,12 @@ async function openCemadenHourlyModal(meta) {
     if (!response.ok) throw new Error(`Falha ao carregar dados horários (${response.status})`);
     const data = await response.json();
     content.innerHTML = buildHourlyModalHtml(data, meta);
+    try {
+      await ensureChartJs();
+      renderCemadenHourlyChart(data);
+    } catch (chartError) {
+      console.error(chartError);
+    }
   } catch (error) {
     content.innerHTML = `<p class="cemaden-hourly-error">Não foi possível carregar os dados horários. ${escapeHtml(error.message || 'Erro desconhecido.')}</p>`;
   }
