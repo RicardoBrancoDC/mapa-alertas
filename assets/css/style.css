@@ -435,3 +435,69 @@ body { overflow: hidden; }
     grid-template-columns: 1fr;
   }
 }
+
+
+.filter-chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter-chip {
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.filter-chip.active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+.rain-rank-list {
+  display: grid;
+  gap: 10px;
+}
+.rain-rank-item {
+  display: grid;
+  grid-template-columns: 34px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #fff;
+}
+.rain-rank-pos {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef5ff;
+  color: #1659b7;
+  font-weight: 800;
+}
+.rain-rank-meta {
+  min-width: 0;
+}
+.rain-rank-meta strong {
+  display: block;
+  font-size: .93rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.rain-rank-meta span {
+  display: block;
+  font-size: .82rem;
+  color: var(--muted);
+}
+.rain-rank-value {
+  font-weight: 800;
+  color: #0f3b7a;
+  white-space: nowrap;
+}
