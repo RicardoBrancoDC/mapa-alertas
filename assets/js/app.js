@@ -111,6 +111,12 @@ function markerStyle(category, feature = null) {
     return '#e64512';
   }
 
+  if (category === 'idap_ativos' || category === 'idap_inativos') {
+    const props = feature?.properties || {};
+    const level = computeIdapLevel(props);
+    return idapLevelColor(level);
+  }
+
   if (category === 'cemaden_estados' || category === 'cemaden_municipios' || category === 'cemaden_municipios_icones') {
     return feature?.properties?.cor || cemadenSeverityColor(feature?.properties?.severity_group);
   }
@@ -135,7 +141,7 @@ function polygonStyle(feature, category) {
     return { color: '#ffff00', weight: 2, fillOpacity: 0.14 };
   }
   const color = markerStyle(category, feature);
-  return { color, weight: 2, fillOpacity: 0.14 };
+  return { color, fillColor: color, weight: 2, fillOpacity: 0.14 };
 }
 
 function pointToLayer(feature, latlng, category) {
