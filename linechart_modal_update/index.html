@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel Integrado de Alertas</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>Painel Integrado de Alertas</h1>
+        <p>Acompanhamento de múltiplas fontes em um único mapa.</p>
+      </div>
+
+      <section class="panel-block">
+        <h2>Última atualização</h2>
+        <div id="last-update" class="muted">Carregando...</div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Camadas</h2>
+        <div id="layer-list" class="layer-list"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Resumo</h2>
+        <div id="summary" class="summary-grid"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Filtro de chuva 24h</h2>
+        <div class="filter-chip-group">
+          <button type="button" class="filter-chip active" data-pluvio-filter="all">Todas</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="gt0">&gt; 0 mm</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="ge10">&gt;= 10 mm</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="ge30">&gt;= 30 mm</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="ge70">&gt;= 70 mm</button>
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Top 10 chuva 24h</h2>
+        <div id="pluvio-top-list" class="rain-rank-list">
+          <p class="muted">Carregando ranking...</p>
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Legenda</h2>
+        <div class="legend-list">
+          <div><span class="legend-swatch purple"></span> IDAP ativo</div>
+          <div><span class="legend-swatch gray"></span> IDAP inativo</div>
+          <div><span class="legend-swatch yellow"></span> INMET perigo potencial</div>
+          <div><span class="legend-swatch orange"></span> INMET perigo</div>
+          <div><span class="legend-swatch red"></span> INMET grande perigo</div>
+          <div><span class="legend-swatch blue"></span> CEMADEN hidrológico</div>
+          <div><span class="legend-swatch brown"></span> CEMADEN geológico</div>
+          <div><span class="legend-swatch pluvio-green"></span> CEMADEN pluviômetros &lt; 10 mm/24h</div>
+          <div><span class="legend-swatch pluvio-yellow"></span> CEMADEN pluviômetros 10 a 30 mm/24h</div>
+          <div><span class="legend-swatch pluvio-orange"></span> CEMADEN pluviômetros 30 a 70 mm/24h</div>
+          <div><span class="legend-swatch pluvio-red"></span> CEMADEN pluviômetros &gt;= 70 mm/24h</div>
+          <div><span class="legend-swatch green"></span> SGB estações</div>
+        </div>
+      </section>
+
+      <div class="sidebar-footer">
+        <button id="reset-view" class="primary-btn">Voltar para o Brasil</button>
+      </div>
+    </aside>
+
+    <main class="map-wrapper">
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <div id="idap-modal" class="idap-modal hidden" aria-hidden="true">
+    <div id="idap-modal-card" class="idap-modal-card">
+      <button id="idap-modal-close" class="idap-close-btn" aria-label="Fechar">×</button>
+      <div id="idap-modal-content"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
