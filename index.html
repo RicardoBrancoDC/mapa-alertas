@@ -32,6 +32,24 @@
       </section>
 
       <section class="panel-block">
+        <h2>Filtro de chuva 24h</h2>
+        <div class="filter-chip-group">
+          <button type="button" class="filter-chip active" data-pluvio-filter="all">Todas</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="gt0">&gt; 0 mm</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="ge10">&gt;= 10 mm</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="ge30">&gt;= 30 mm</button>
+          <button type="button" class="filter-chip" data-pluvio-filter="ge70">&gt;= 70 mm</button>
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Top 10 chuva 24h</h2>
+        <div id="pluvio-top-list" class="rain-rank-list">
+          <p class="muted">Carregando ranking...</p>
+        </div>
+      </section>
+
+      <section class="panel-block">
         <h2>Legenda</h2>
         <div class="legend-list">
           <div><span class="legend-swatch purple"></span> IDAP ativo</div>
