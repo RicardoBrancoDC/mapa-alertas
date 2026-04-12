@@ -1,5 +1,5 @@
 const BRAZIL_BOUNDS = L.latLngBounds(L.latLng(-33.9, -73.99), L.latLng(5.5, -28.8));
-const state = { map: null, layers: {}, rawData: {}, layerDefinitions: [], pluvioFilter: 'all', layerVisibility: {} };
+const state = { map: null, layers: {}, layerDefinitions: [] };
 
 function formatDateTime(value) {
   if (!value) return 'Não informado';
@@ -21,28 +21,6 @@ function formatRain(value) {
   const n = Number(value);
   if (Number.isNaN(n)) return String(value);
   return n.toFixed(1).replace(/\.0$/, '');
-}
-
-function toNumber(value) {
-  const n = Number(value);
-  return Number.isFinite(n) ? n : null;
-}
-
-function passesPluvioFilter(feature, filterValue) {
-  if (!feature || feature.properties?.acumulado == null) return false;
-  const acumulado = toNumber(feature.properties.acumulado);
-  if (acumulado == null) return false;
-  if (filterValue === 'gt0') return acumulado > 0;
-  if (filterValue === 'ge10') return acumulado >= 10;
-  if (filterValue === 'ge30') return acumulado >= 30;
-  if (filterValue === 'ge70') return acumulado >= 70;
-  return true;
-}
-
-function filteredGeoJson(definition, geojson) {
-  if (!geojson || definition.id !== 'cemaden_pluvio_estacoes') return geojson;
-  const features = Array.isArray(geojson.features) ? geojson.features : [];
-  return { ...geojson, features: features.filter(feature => passesPluvioFilter(feature, state.pluvioFilter)) };
 }
 
 function computeIdapLevel(props) {
@@ -195,7 +173,6 @@ async function fetchJson(path) {
 }
 async function loadCatalog() { return fetchJson('data/catalogo_camadas.json'); }
 
-
 function renderLayerList() {
   const container = document.getElementById('layer-list');
   container.innerHTML = '';
@@ -205,7 +182,7 @@ function renderLayerList() {
     const label = document.createElement('label');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.checked = state.layerVisibility[def.id] ?? def.defaultVisible;
+    checkbox.checked = def.defaultVisible;
     checkbox.dataset.layerId = def.id;
     const dot = document.createElement('span');
     dot.className = 'layer-dot';
@@ -213,9 +190,7 @@ function renderLayerList() {
     const text = document.createElement('span');
     text.textContent = def.name;
     checkbox.addEventListener('change', event => {
-      const id = event.target.dataset.layerId;
-      const layer = state.layers[id];
-      state.layerVisibility[id] = event.target.checked;
+      const layer = state.layers[event.target.dataset.layerId];
       if (!layer) return;
       if (event.target.checked) layer.addTo(state.map);
       else state.map.removeLayer(layer);
@@ -242,95 +217,18 @@ function renderSummary() {
   });
 }
 
-function renderTopRainRanking() {
-  const container = document.getElementById('pluvio-top-list');
-  if (!container) return;
-  const raw = state.rawData['cemaden_pluvio_estacoes'];
-  const features = Array.isArray(raw?.features) ? raw.features : [];
-  const ranked = features
-    .filter(feature => feature?.properties?.acumulado != null)
-    .map(feature => ({
-      title: feature.properties.nomeestacao || feature.properties.nome || 'Estação',
-      cidade: feature.properties.cidade || '—',
-      uf: feature.properties.uf || '—',
-      acumulado: toNumber(feature.properties.acumulado) ?? -1,
-    }))
-    .sort((a, b) => b.acumulado - a.acumulado)
-    .slice(0, 10);
-
-  if (!ranked.length) {
-    container.innerHTML = '<p class="muted">Sem dados de chuva disponíveis no momento.</p>';
-    return;
-  }
-
-  container.innerHTML = ranked.map((item, index) => `
-    <div class="rain-rank-item">
-      <div class="rain-rank-pos">${index + 1}</div>
-      <div class="rain-rank-meta">
-        <strong>${escapeHtml(item.title)}</strong>
-        <span>${escapeHtml(item.cidade)} / ${escapeHtml(item.uf)}</span>
-      </div>
-      <div class="rain-rank-value">${escapeHtml(formatRain(item.acumulado))} mm</div>
-    </div>
-  `).join('');
-}
-
-function applyPluvioFilter() {
-  const def = state.layerDefinitions.find(layer => layer.id === 'cemaden_pluvio_estacoes');
-  const raw = state.rawData['cemaden_pluvio_estacoes'];
-  if (!def || !raw) return;
-
-  const wasVisible = state.layerVisibility[def.id] ?? def.defaultVisible;
-  const oldLayer = state.layers[def.id];
-  if (oldLayer && state.map.hasLayer(oldLayer)) {
-    state.map.removeLayer(oldLayer);
-  }
-
-  const geojson = filteredGeoJson(def, raw);
-  const newLayer = createGeoJsonLayer(def, geojson);
-  state.layers[def.id] = newLayer;
-
-  if (wasVisible) newLayer.addTo(state.map);
-  renderSummary();
-}
-
-function initPluvioFilter() {
-  const buttons = Array.from(document.querySelectorAll('[data-pluvio-filter]'));
-  if (!buttons.length) return;
-
-  const syncActive = () => {
-    buttons.forEach(button => {
-      button.classList.toggle('active', button.dataset.pluvioFilter === state.pluvioFilter);
-    });
-  };
-
-  buttons.forEach(button => {
-    button.addEventListener('click', () => {
-      state.pluvioFilter = button.dataset.pluvioFilter || 'all';
-      syncActive();
-      applyPluvioFilter();
-    });
-  });
-
-  syncActive();
-}
-
-
 async function loadLayers() {
   const catalog = await loadCatalog();
   state.layerDefinitions = catalog.layers;
   document.getElementById('last-update').textContent = formatDateTime(catalog.generated_at);
   for (const def of state.layerDefinitions) {
     const geojson = await fetchJson(def.file);
-    state.rawData[def.id] = geojson;
-    state.layerVisibility[def.id] = def.defaultVisible;
-    const layer = createGeoJsonLayer(def, filteredGeoJson(def, geojson));
+    const layer = createGeoJsonLayer(def, geojson);
     state.layers[def.id] = layer;
     if (def.defaultVisible) layer.addTo(state.map);
   }
   renderLayerList();
   renderSummary();
-  renderTopRainRanking();
 }
 
 function initMap() {
@@ -452,15 +350,25 @@ function flattenHourlyData(data) {
   return points;
 }
 
-
-function buildHourlyChartConfig(data) {
-  const points = flattenHourlyData(data);
-  if (!points.length) return null;
-
-  return {
-    labels: points.map(point => `${point.hora} ${point.data.slice(0, 5)}`),
-    values: points.map(point => Number(point.valor))
-  };
+function buildRecentHourlyCards(data) {
+  const points = flattenHourlyData(data).slice(-12);
+  if (!points.length) return '<p class="cemaden-empty">Sem dados horários disponíveis.</p>';
+  const max = Math.max(...points.map(p => p.valor), 0.1);
+  return `
+    <div class="cemaden-hourly-bars">
+      ${points.map(point => {
+        const height = Math.max(10, Math.round((point.valor / max) * 72));
+        return `
+          <div class="cemaden-hourly-bar-item">
+            <div class="cemaden-hourly-bar-value">${escapeHtml(formatRain(point.valor))}</div>
+            <div class="cemaden-hourly-bar" style="height:${height}px"></div>
+            <div class="cemaden-hourly-bar-hour">${escapeHtml(point.hora)}</div>
+            <div class="cemaden-hourly-bar-date">${escapeHtml(point.data.slice(0, 5))}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
 }
 
 function buildHourlyModalHtml(data, meta = {}) {
@@ -476,7 +384,6 @@ function buildHourlyModalHtml(data, meta = {}) {
   const graficoUrl = est?.idEstacao && uf !== '—'
     ? `https://resources.cemaden.gov.br/graficos/interativo/grafico_CEMADEN.php?idpcd=${est.idEstacao}&uf=${uf}`
     : null;
-  const chartConfig = buildHourlyChartConfig(data);
 
   return `
     <div class="cemaden-hourly-header">
@@ -489,7 +396,7 @@ function buildHourlyModalHtml(data, meta = {}) {
 
     <div class="cemaden-hourly-section">
       <h4>Chuva por hora</h4>
-      ${chartConfig ? `
+      ${buildHourlyChartConfig(data) ? `
         <div class="cemaden-hourly-chart-wrap">
           <canvas id="cemaden-hourly-chart" aria-label="Gráfico de linha da chuva por hora" role="img"></canvas>
         </div>
@@ -517,30 +424,21 @@ function buildHourlyModalHtml(data, meta = {}) {
   `;
 }
 
+
 let cemadenHourlyChart = null;
 let chartJsPromise = null;
 
 function ensureChartJs() {
   if (window.Chart) return Promise.resolve(window.Chart);
   if (chartJsPromise) return chartJsPromise;
-
   chartJsPromise = new Promise((resolve, reject) => {
-    const existing = document.querySelector('script[data-chartjs="cemaden-hourly"]');
-    if (existing) {
-      existing.addEventListener('load', () => resolve(window.Chart), { once: true });
-      existing.addEventListener('error', () => reject(new Error('Falha ao carregar Chart.js')), { once: true });
-      return;
-    }
-
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js';
-    script.async = true;
-    script.dataset.chartjs = 'cemaden-hourly';
-    script.onload = () => resolve(window.Chart);
-    script.onerror = () => reject(new Error('Falha ao carregar Chart.js'));
-    document.head.appendChild(script);
+    const s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js';
+    s.async = true;
+    s.onload = () => resolve(window.Chart);
+    s.onerror = () => reject(new Error('Falha ao carregar Chart.js'));
+    document.head.appendChild(s);
   });
-
   return chartJsPromise;
 }
 
@@ -548,25 +446,18 @@ function renderCemadenHourlyChart(data) {
   const canvas = document.getElementById('cemaden-hourly-chart');
   if (!canvas || !window.Chart) return;
   const config = buildHourlyChartConfig(data);
-  if (!config || !config.labels.length) return;
-
-  if (cemadenHourlyChart) {
-    cemadenHourlyChart.destroy();
-    cemadenHourlyChart = null;
-  }
-
-  const ctx = canvas.getContext('2d');
-  cemadenHourlyChart = new window.Chart(ctx, {
+  if (!config) return;
+  if (cemadenHourlyChart) { cemadenHourlyChart.destroy(); cemadenHourlyChart = null; }
+  cemadenHourlyChart = new window.Chart(canvas.getContext('2d'), {
     type: 'line',
     data: {
       labels: config.labels,
       datasets: [{
-        label: 'Chuva por hora (mm)',
         data: config.values,
         borderColor: '#2563eb',
-        backgroundColor: 'rgba(37, 99, 235, 0.12)',
+        backgroundColor: 'rgba(37,99,235,0.12)',
         pointBackgroundColor: '#2563eb',
-        pointBorderColor: '#ffffff',
+        pointBorderColor: '#fff',
         pointBorderWidth: 1,
         pointRadius: 3,
         pointHoverRadius: 4,
@@ -579,46 +470,16 @@ function renderCemadenHourlyChart(data) {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: (context) => ` ${formatRain(context.parsed.y)} mm`
-          }
-        }
-      },
+      plugins: { legend: { display: false } },
       scales: {
-        x: {
-          ticks: {
-            autoSkip: true,
-            maxTicksLimit: 12,
-            maxRotation: 0,
-            minRotation: 0,
-            color: '#475569',
-            font: { size: 11 }
-          },
-          grid: { display: false }
-        },
-        y: {
-          beginAtZero: true,
-          ticks: {
-            color: '#475569',
-            callback: (value) => `${formatRain(value)}`
-          },
-          title: {
-            display: true,
-            text: 'mm'
-          },
-          grid: {
-            color: 'rgba(148, 163, 184, 0.2)'
-          }
-        }
+        x: { ticks: { autoSkip: true, maxTicksLimit: 12, maxRotation: 0, minRotation: 0, color: '#475569', font: { size: 11 } }, grid: { display: false } },
+        y: { beginAtZero: true, ticks: { color: '#475569' }, title: { display: true, text: 'mm' }, grid: { color: 'rgba(148,163,184,0.2)' } }
       }
     }
   });
 }
 
-function ensureCemadenHourlyModal() {function ensureCemadenHourlyModal() {
+function ensureCemadenHourlyModal() {
   if (document.getElementById('cemaden-hourly-modal')) return;
 
   const style = document.createElement('style');
@@ -645,12 +506,7 @@ function ensureCemadenHourlyModal() {function ensureCemadenHourlyModal() {
     .cemaden-hourly-badge { background:#eff6ff; color:#1d4ed8; border-radius:999px; padding:8px 12px; font-weight:700; white-space:nowrap; }
     .cemaden-hourly-section { margin-top:18px; }
     .cemaden-hourly-section h4 { margin:0 0 10px; }
-    .cemaden-hourly-bars { display:flex; align-items:flex-end; gap:10px; overflow-x:auto; padding:8px 0; }
-    .cemaden-hourly-bar-item { min-width:48px; text-align:center; }
-    .cemaden-hourly-bar-value { font-size:.78rem; margin-bottom:6px; color:#0f172a; }
-    .cemaden-hourly-bar { width:28px; margin:0 auto 6px; border-radius:8px 8px 4px 4px; background:linear-gradient(180deg,#38bdf8,#2563eb); }
-    .cemaden-hourly-bar-hour { font-size:.75rem; font-weight:700; }
-    .cemaden-hourly-bar-date { font-size:.68rem; color:#64748b; }
+    .cemaden-hourly-chart-wrap { position:relative; height:280px; padding:10px 8px 2px; border:1px solid #e5e7eb; border-radius:14px; background:#fbfdff; }
     .cemaden-hourly-table-wrap { overflow:auto; border:1px solid #e5e7eb; border-radius:12px; }
     .cemaden-hourly-table { border-collapse:collapse; width:max-content; min-width:100%; font-size:.84rem; }
     .cemaden-hourly-table th, .cemaden-hourly-table td { border-bottom:1px solid #e5e7eb; border-right:1px solid #e5e7eb; padding:6px 8px; text-align:center; }
@@ -689,10 +545,7 @@ function closeCemadenHourlyModal() {
   if (!modal) return;
   modal.classList.add('hidden');
   modal.setAttribute('aria-hidden', 'true');
-  if (cemadenHourlyChart) {
-    cemadenHourlyChart.destroy();
-    cemadenHourlyChart = null;
-  }
+  if (cemadenHourlyChart) { cemadenHourlyChart.destroy(); cemadenHourlyChart = null; }
 }
 
 async function openCemadenHourlyModal(meta) {
@@ -708,12 +561,7 @@ async function openCemadenHourlyModal(meta) {
     if (!response.ok) throw new Error(`Falha ao carregar dados horários (${response.status})`);
     const data = await response.json();
     content.innerHTML = buildHourlyModalHtml(data, meta);
-    try {
-      await ensureChartJs();
-      renderCemadenHourlyChart(data);
-    } catch (chartError) {
-      console.error(chartError);
-    }
+    try { await ensureChartJs(); renderCemadenHourlyChart(data); } catch (e) { console.error(e); }
   } catch (error) {
     content.innerHTML = `<p class="cemaden-hourly-error">Não foi possível carregar os dados horários. ${escapeHtml(error.message || 'Erro desconhecido.')}</p>`;
   }
@@ -764,7 +612,6 @@ function initModal() {
 initMap();
 initModal();
 initCemadenHourlyModal();
-initPluvioFilter();
 loadLayers().catch(error => {
   console.error(error);
   document.getElementById('last-update').textContent = 'Erro ao carregar dados';
