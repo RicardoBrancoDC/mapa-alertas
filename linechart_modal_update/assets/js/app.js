@@ -82,6 +82,12 @@ function markerStyle(category, feature = null) {
     return '#e64512';
   }
 
+  if (category === 'idap_ativos' || category === 'idap_inativos') {
+    const props = feature?.properties || {};
+    const level = computeIdapLevel(props);
+    return idapLevelColor(level);
+  }
+
   const styles = { idap_ativos: '#6a43d9', idap_inativos: '#8f96a3', inmet_alertas: '#ff8c00', cemaden_hidro: '#2474d2', cemaden_geo: '#8a5a3b', sgb_estacoes: '#2f9e44' };
   const severity = feature?.properties?.severity_group || '';
   if (category === 'cemaden_hidro' || category === 'cemaden_geo') {
@@ -107,7 +113,7 @@ function polygonStyle(feature, category) {
     return { color: '#ffff00', weight: 2, fillOpacity: 0.14 };
   }
   const color = markerStyle(category, feature);
-  return { color, weight: 2, fillOpacity: 0.14 };
+  return { color, fillColor: color, weight: 2, fillOpacity: 0.14 };
 }
 
 function pointToLayer(feature, latlng, category) {
