@@ -20,6 +20,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Igarassu", "uf": "PE", "codibge": "2606804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.98106634100435, -7.7967774615 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Abreu E Lima", "uf": "PE", "codibge": "2600054", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.08376390026234, -7.863377653 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caicó", "uf": "RN", "codibge": "2402006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.056964969828435, -6.458200299500002 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caicó", "uf": "RN", "codibge": "2402006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.056964969828435, -6.458200299500002 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itacaré", "uf": "BA", "codibge": "2914901", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -39.159581936966738, -14.352142835 ] } }
 ]
 }
