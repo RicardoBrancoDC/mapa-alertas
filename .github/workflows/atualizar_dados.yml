@@ -93,8 +93,6 @@ jobs:
             data/sgb_estacoes.geojson \
             data/inmet_alertas.geojson \
             data/inmet_status.json \
-            data/inmet_precipitacao.geojson \
-            data/inmet_precipitacao_status.json \
             data/catalogo_camadas.json || true
 
           if git diff --cached --quiet; then
