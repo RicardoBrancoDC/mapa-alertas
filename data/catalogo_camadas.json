@@ -62,6 +62,14 @@
       "color": "#1f78b4"
     },
     {
+      "id": "inmet_precipitacao",
+      "name": "INMET chuva > 1 mm",
+      "file": "data/inmet_precipitacao.geojson",
+      "defaultVisible": false,
+      "color": "#2474d2",
+      "summaryLabel": "INMET chuva ativa"
+    },
+    {
       "id": "sgb_estacoes",
       "name": "SGB estações hidrológicas",
       "file": "data/sgb_estacoes.geojson",
