@@ -1976,6 +1976,182 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27159.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27159.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "event": "Tempestade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-14T18:00:00-03:00",
+        "expires": "2026-04-15T09:00:00-03:00",
+        "sent": "2026-04-13T12:17:48-03:00",
+        "pubDate": "Tue, 14 Apr 2026 18:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 14/04/2026 18:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/53975",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Noroeste Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Noroeste Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/53975"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.652847,
+              -28.477112
+            ],
+            [
+              -55.598145,
+              -28.750408
+            ],
+            [
+              -55.620117,
+              -29.543805
+            ],
+            [
+              -55.700684,
+              -30.293076
+            ],
+            [
+              -55.820618,
+              -30.838464
+            ],
+            [
+              -55.957947,
+              -31.06308
+            ],
+            [
+              -55.99823,
+              -31.06308
+            ],
+            [
+              -55.99823,
+              -30.979892
+            ],
+            [
+              -55.987244,
+              -30.866766
+            ],
+            [
+              -56.01471,
+              -30.781834
+            ],
+            [
+              -56.260071,
+              -30.515544
+            ],
+            [
+              -56.377258,
+              -30.480825
+            ],
+            [
+              -56.459656,
+              -30.376594
+            ],
+            [
+              -56.631775,
+              -30.172548
+            ],
+            [
+              -56.858826,
+              -30.066404
+            ],
+            [
+              -57.078552,
+              -30.077499
+            ],
+            [
+              -57.210388,
+              -30.210542
+            ],
+            [
+              -57.243347,
+              -30.251686
+            ],
+            [
+              -57.331238,
+              -30.243775
+            ],
+            [
+              -57.527161,
+              -30.24061
+            ],
+            [
+              -57.539978,
+              -30.19313
+            ],
+            [
+              -57.336731,
+              -30.015668
+            ],
+            [
+              -57.272644,
+              -29.850597
+            ],
+            [
+              -57.208557,
+              -29.814054
+            ],
+            [
+              -57.038269,
+              -29.728204
+            ],
+            [
+              -56.778259,
+              -29.460648
+            ],
+            [
+              -56.677551,
+              -29.385669
+            ],
+            [
+              -56.562195,
+              -29.131608
+            ],
+            [
+              -56.406555,
+              -29.073997
+            ],
+            [
+              -56.093445,
+              -28.706776
+            ],
+            [
+              -55.961609,
+              -28.594266
+            ],
+            [
+              -55.81192,
+              -28.389839
+            ],
+            [
+              -55.700226,
+              -28.430112
+            ],
+            [
+              -55.652847,
+              -28.477112
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
