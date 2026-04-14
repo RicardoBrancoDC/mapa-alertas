@@ -16,6 +16,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caicó", "uf": "RN", "codibge": "2402006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.056964969828435, -6.458200299500002 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itacaré", "uf": "BA", "codibge": "2914901", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -39.159581936966738, -14.352142835 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Belém", "uf": "PA", "codibge": "1501402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.502459836369425, -1.270923 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Recife", "uf": "PE", "codibge": "2611606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.927781066427215, -8.044199039 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Recife", "uf": "PE", "codibge": "2611606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.927781066427215, -8.044199039 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Cristóvão", "uf": "SE", "codibge": "2806701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.213786420317561, -10.969121933500002 ] } }
 ]
 }
