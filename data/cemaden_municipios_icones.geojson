@@ -5,7 +5,6 @@
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caicó", "uf": "RN", "codibge": "2402006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.056964969828435, -6.458200299500002 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Cristóvão", "uf": "SE", "codibge": "2806701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.213786420317561, -10.969121933500002 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Rio Branco", "uf": "AC", "codibge": "1200401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -68.159484772371087, -9.994924338499999 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Cristóvão", "uf": "SE", "codibge": "2806701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -37.213786420317561, -10.969121933500002 ] } }
 ]
 }
