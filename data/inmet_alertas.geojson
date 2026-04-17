@@ -1,4 +1,213 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27177.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27177.2",
+        "titulo": "Aviso de Vendaval. Severidade Grau: Perigo Potencial",
+        "event": "Vendaval",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-17T09:00:00-03:00",
+        "expires": "2026-04-17T23:59:00-03:00",
+        "sent": "2026-04-16T00:00:00-03:00",
+        "pubDate": "Fri, 17 Apr 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Vendaval. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 17/04/2026 09:00. Vento variando entre 40 km/h e 60 km/h. Baixo risco de queda de galhos de Ã¡rvores.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54013",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54013"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.656982,
+              -31.372399
+            ],
+            [
+              -53.887939,
+              -31.240985
+            ],
+            [
+              -53.327637,
+              -31.194008
+            ],
+            [
+              -52.701416,
+              -30.996446
+            ],
+            [
+              -52.229004,
+              -30.600094
+            ],
+            [
+              -51.899414,
+              -30.192618
+            ],
+            [
+              -51.657715,
+              -29.945415
+            ],
+            [
+              -51.196289,
+              -29.821583
+            ],
+            [
+              -50.74585,
+              -29.897806
+            ],
+            [
+              -50.262451,
+              -30.059586
+            ],
+            [
+              -50.174561,
+              -30.230595
+            ],
+            [
+              -50.262451,
+              -30.533877
+            ],
+            [
+              -50.526123,
+              -30.855079
+            ],
+            [
+              -50.668945,
+              -31.137603
+            ],
+            [
+              -50.811768,
+              -31.325487
+            ],
+            [
+              -51.020508,
+              -31.550453
+            ],
+            [
+              -51.547852,
+              -31.840233
+            ],
+            [
+              -51.778564,
+              -32.03602
+            ],
+            [
+              -52.009277,
+              -32.175612
+            ],
+            [
+              -52.218018,
+              -32.352123
+            ],
+            [
+              -52.294922,
+              -32.537552
+            ],
+            [
+              -52.382812,
+              -32.833443
+            ],
+            [
+              -52.492676,
+              -33.054716
+            ],
+            [
+              -52.701416,
+              -33.376412
+            ],
+            [
+              -53.096924,
+              -33.632916
+            ],
+            [
+              -53.305664,
+              -33.742613
+            ],
+            [
+              -53.503418,
+              -33.67864
+            ],
+            [
+              -53.514404,
+              -33.376412
+            ],
+            [
+              -53.382568,
+              -33.091542
+            ],
+            [
+              -53.206787,
+              -32.824211
+            ],
+            [
+              -53.074951,
+              -32.667125
+            ],
+            [
+              -53.239746,
+              -32.648626
+            ],
+            [
+              -53.404541,
+              -32.519026
+            ],
+            [
+              -53.525391,
+              -32.435613
+            ],
+            [
+              -53.635254,
+              -32.277845
+            ],
+            [
+              -53.734131,
+              -32.073266
+            ],
+            [
+              -53.876953,
+              -32.008076
+            ],
+            [
+              -54.118652,
+              -31.896214
+            ],
+            [
+              -54.42627,
+              -31.672083
+            ],
+            [
+              -54.51416,
+              -31.503629
+            ],
+            [
+              -54.602051,
+              -31.456782
+            ],
+            [
+              -54.656982,
+              -31.372399
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
