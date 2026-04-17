@@ -3,7 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Vargem Grande", "uf": "MA", "codibge": "2112704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.843389245396523, -3.780052662500005 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } }
 ]
 }
