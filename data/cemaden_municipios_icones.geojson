@@ -4,6 +4,7 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eirunepé", "uf": "AM", "codibge": "1301407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -70.11879049342879, -7.041111558500001 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eirunepé", "uf": "AM", "codibge": "1301407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -70.11879049342879, -7.041111558500001 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } }
 ]
 }
