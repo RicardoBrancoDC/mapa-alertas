@@ -1,4 +1,177 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27184.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27184.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-18T09:00:00-03:00",
+        "expires": "2026-04-19T23:59:00-03:00",
+        "sent": "2026-04-18T11:30:06-03:00",
+        "pubDate": "Sat, 18 Apr 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 18/04/2026 09:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54020",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul EspÃ­rito-santense, Central EspÃ­rito-santense, Litoral Norte EspÃ­rito-santense, Baixadas, Centro Fluminense, Vale do ParaÃ­ba Paulista, Sul Fluminense, Metropolitana do Rio de Janeiro, Noroeste Fluminense, Norte Fluminense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul EspÃ­rito-santense, Central EspÃ­rito-santense, Litoral Norte EspÃ­rito-santense, Baixadas, Centro Fluminense, Vale do ParaÃ­ba Paulista, Sul Fluminense, Metropolitana do Rio de Janeiro, Noroeste Fluminense, Norte Fluminense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54020"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.588257,
+              -23.074678
+            ],
+            [
+              -43.884888,
+              -22.963451
+            ],
+            [
+              -44.038696,
+              -22.801503
+            ],
+            [
+              -44.170532,
+              -22.717924
+            ],
+            [
+              -44.291382,
+              -22.614011
+            ],
+            [
+              -44.409485,
+              -22.55822
+            ],
+            [
+              -44.538574,
+              -22.51002
+            ],
+            [
+              -44.620972,
+              -22.487182
+            ],
+            [
+              -44.653931,
+              -22.482106
+            ],
+            [
+              -43.934326,
+              -22.355156
+            ],
+            [
+              -43.511353,
+              -22.294179
+            ],
+            [
+              -43.066406,
+              -22.207749
+            ],
+            [
+              -42.588501,
+              -22.044913
+            ],
+            [
+              -42.242432,
+              -21.876792
+            ],
+            [
+              -41.896362,
+              -21.458181
+            ],
+            [
+              -41.577759,
+              -21.094751
+            ],
+            [
+              -41.473389,
+              -20.879343
+            ],
+            [
+              -41.231689,
+              -20.457896
+            ],
+            [
+              -40.819702,
+              -20.050771
+            ],
+            [
+              -40.435181,
+              -19.906219
+            ],
+            [
+              -40.149536,
+              -20.043031
+            ],
+            [
+              -40.303345,
+              -20.465616
+            ],
+            [
+              -40.855408,
+              -21.079375
+            ],
+            [
+              -41.083374,
+              -21.534847
+            ],
+            [
+              -41.020203,
+              -21.728886
+            ],
+            [
+              -41.003723,
+              -22.006721
+            ],
+            [
+              -41.217957,
+              -22.126355
+            ],
+            [
+              -41.701355,
+              -22.291638
+            ],
+            [
+              -41.967773,
+              -22.532854
+            ],
+            [
+              -42.025452,
+              -22.988738
+            ],
+            [
+              -42.544556,
+              -22.940689
+            ],
+            [
+              -43.126831,
+              -22.958393
+            ],
+            [
+              -43.588257,
+              -23.074678
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
