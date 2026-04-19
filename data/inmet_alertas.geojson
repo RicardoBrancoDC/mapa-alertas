@@ -1,4 +1,253 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27189.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27189.1",
+        "titulo": "Aviso de Onda de Calor. Severidade Grau: Grande Perigo",
+        "event": "Onda de Calor",
+        "severity": "Extreme",
+        "nivel": "Extreme",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-19T12:00:00-03:00",
+        "expires": "2026-04-25T18:00:00-03:00",
+        "sent": "2026-04-19T11:14:26-03:00",
+        "pubDate": "Sun, 19 Apr 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Onda de Calor. Severidade Grau: Extreme",
+        "description": "INMET publica aviso iniciando em: 19/04/2026 12:00. Risco Ã  saÃºde. Temperatura 5ÂºC acima da mÃ©dia por perÃ­odo maior do que 5 dias.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/54027",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Oeste Catarinense, Noroeste Rio-grandense, Centro Ocidental Paranaense, Noroeste Paranaense, Sudoeste de Mato Grosso do Sul, Sudoeste Paranaense, Oeste Paranaense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Sudeste Paranaense, Centro-Sul Paranaense, Centro Norte de Mato Grosso do Sul, Norte Central Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Oeste Catarinense, Noroeste Rio-grandense, Centro Ocidental Paranaense, Noroeste Paranaense, Sudoeste de Mato Grosso do Sul, Sudoeste Paranaense, Oeste Paranaense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Sudeste Paranaense, Centro-Sul Paranaense, Centro Norte de Mato Grosso do Sul, Norte Central Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54027"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.805542,
+              -25.750425
+            ],
+            [
+              -53.761597,
+              -25.967922
+            ],
+            [
+              -53.607788,
+              -26.268788
+            ],
+            [
+              -53.690186,
+              -26.49024
+            ],
+            [
+              -53.640747,
+              -26.926968
+            ],
+            [
+              -53.811035,
+              -27.171582
+            ],
+            [
+              -54.058228,
+              -27.357132
+            ],
+            [
+              -53.118896,
+              -27.401032
+            ],
+            [
+              -52.086182,
+              -27.337615
+            ],
+            [
+              -51.943359,
+              -27.186242
+            ],
+            [
+              -51.635742,
+              -26.588527
+            ],
+            [
+              -51.778564,
+              -25.572176
+            ],
+            [
+              -51.899414,
+              -24.95618
+            ],
+            [
+              -52.163086,
+              -23.991271
+            ],
+            [
+              -52.426758,
+              -23.563987
+            ],
+            [
+              -53.085938,
+              -22.69512
+            ],
+            [
+              -53.459473,
+              -21.963425
+            ],
+            [
+              -53.860474,
+              -21.135745
+            ],
+            [
+              -54.074707,
+              -20.725291
+            ],
+            [
+              -54.338379,
+              -20.324024
+            ],
+            [
+              -55.772095,
+              -19.062118
+            ],
+            [
+              -56.629028,
+              -18.448347
+            ],
+            [
+              -57.568359,
+              -18.25022
+            ],
+            [
+              -57.700195,
+              -18.859509
+            ],
+            [
+              -57.661743,
+              -19.020577
+            ],
+            [
+              -57.788086,
+              -19.197053
+            ],
+            [
+              -58.09021,
+              -19.761534
+            ],
+            [
+              -57.815552,
+              -19.926877
+            ],
+            [
+              -57.810059,
+              -20.11784
+            ],
+            [
+              -58.051758,
+              -20.133313
+            ],
+            [
+              -58.051758,
+              -20.324024
+            ],
+            [
+              -57.766113,
+              -21.063997
+            ],
+            [
+              -57.908936,
+              -22.044913
+            ],
+            [
+              -56.80481,
+              -22.207749
+            ],
+            [
+              -56.425781,
+              -22.03473
+            ],
+            [
+              -56.178589,
+              -22.21792
+            ],
+            [
+              -55.766602,
+              -22.289096
+            ],
+            [
+              -55.568848,
+              -22.634293
+            ],
+            [
+              -55.579834,
+              -22.983681
+            ],
+            [
+              -55.360107,
+              -23.91597
+            ],
+            [
+              -55.041504,
+              -23.920992
+            ],
+            [
+              -54.61853,
+              -23.760209
+            ],
+            [
+              -54.272461,
+              -24.026397
+            ],
+            [
+              -54.299927,
+              -24.20689
+            ],
+            [
+              -54.217529,
+              -24.28202
+            ],
+            [
+              -54.393311,
+              -24.926295
+            ],
+            [
+              -54.415283,
+              -25.150257
+            ],
+            [
+              -54.558105,
+              -25.532528
+            ],
+            [
+              -54.398804,
+              -25.591994
+            ],
+            [
+              -54.107666,
+              -25.458155
+            ],
+            [
+              -53.898926,
+              -25.542441
+            ],
+            [
+              -53.805542,
+              -25.750425
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }

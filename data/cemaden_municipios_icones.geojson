@@ -14,6 +14,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Maracanaú", "uf": "CE", "codibge": "2307650", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -38.632653734013793, -3.8872719 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Belém", "uf": "PA", "codibge": "1501402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.502459836369425, -1.270923 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Belém", "uf": "PA", "codibge": "1501402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.502459836369425, -1.270923 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Abaetetuba", "uf": "PA", "codibge": "1500107", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.853991895381384, -1.734568735500003 ] } }
 ]
 }
