@@ -12,6 +12,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São José De Ribamar", "uf": "MA", "codibge": "2111201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.136900290017067, -2.584908327 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Macapá", "uf": "AP", "codibge": "1600303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.952855419007449, 0.571600245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Maracanaú", "uf": "CE", "codibge": "2307650", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -38.632653734013793, -3.8872719 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } }
 ]
 }
