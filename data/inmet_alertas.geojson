@@ -5,6 +5,298 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27192.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27192.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-20T15:00:00-03:00",
+        "expires": "2026-04-21T06:00:00-03:00",
+        "sent": "2026-04-20T11:16:32-03:00",
+        "pubDate": "Mon, 20 Apr 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 20/04/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54032",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Centro Ocidental Rio-grandense, Noroeste Rio-grandense, Centro Oriental Rio-grandense, Sudeste Rio-grandense, Oeste Catarinense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Centro Ocidental Rio-grandense, Noroeste Rio-grandense, Centro Oriental Rio-grandense, Sudeste Rio-grandense, Oeste Catarinense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54032"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.668213,
+              -26.971038
+            ],
+            [
+              -53.55011,
+              -26.912274
+            ],
+            [
+              -53.385315,
+              -26.944108
+            ],
+            [
+              -53.231506,
+              -27.112923
+            ],
+            [
+              -53.025513,
+              -27.293689
+            ],
+            [
+              -52.827759,
+              -27.574025
+            ],
+            [
+              -52.613525,
+              -28.256006
+            ],
+            [
+              -52.742615,
+              -28.873539
+            ],
+            [
+              -52.967834,
+              -29.506549
+            ],
+            [
+              -53.09967,
+              -29.897806
+            ],
+            [
+              -53.283691,
+              -30.268556
+            ],
+            [
+              -54.019775,
+              -31.353637
+            ],
+            [
+              -54.198303,
+              -31.501288
+            ],
+            [
+              -54.445496,
+              -31.550453
+            ],
+            [
+              -54.577332,
+              -31.435694
+            ],
+            [
+              -54.810791,
+              -31.391158
+            ],
+            [
+              -55.046997,
+              -31.240985
+            ],
+            [
+              -55.129395,
+              -31.269161
+            ],
+            [
+              -55.535889,
+              -30.798474
+            ],
+            [
+              -55.750122,
+              -30.956413
+            ],
+            [
+              -55.934143,
+              -31.062345
+            ],
+            [
+              -56.002808,
+              -31.048228
+            ],
+            [
+              -55.980835,
+              -30.826781
+            ],
+            [
+              -56.074219,
+              -30.732393
+            ],
+            [
+              -56.755371,
+              -30.126124
+            ],
+            [
+              -56.881714,
+              -30.06434
+            ],
+            [
+              -57.093201,
+              -30.057208
+            ],
+            [
+              -57.225037,
+              -30.240086
+            ],
+            [
+              -57.414551,
+              -30.230595
+            ],
+            [
+              -57.510681,
+              -30.240086
+            ],
+            [
+              -57.513428,
+              -30.164126
+            ],
+            [
+              -56.700439,
+              -29.391748
+            ],
+            [
+              -56.57135,
+              -29.159357
+            ],
+            [
+              -56.398315,
+              -29.096977
+            ],
+            [
+              -56.096191,
+              -28.685769
+            ],
+            [
+              -55.71991,
+              -28.459033
+            ],
+            [
+              -55.508423,
+              -28.156768
+            ],
+            [
+              -55.090942,
+              -27.907058
+            ],
+            [
+              -54.607544,
+              -27.571591
+            ],
+            [
+              -54.253235,
+              -27.44979
+            ],
+            [
+              -53.945618,
+              -27.274161
+            ],
+            [
+              -53.668213,
+              -26.971038
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27190.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27190.2",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-20T15:00:00-03:00",
+        "expires": "2026-04-21T06:00:00-03:00",
+        "sent": "2026-04-20T00:00:00-03:00",
+        "pubDate": "Mon, 20 Apr 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 20/04/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54031",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Ocidental Rio-grandense, Noroeste Rio-grandense, Sudoeste Rio-grandense, Centro Oriental Rio-grandense, Sudeste Rio-grandense, Oeste Catarinense",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Ocidental Rio-grandense, Noroeste Rio-grandense, Sudoeste Rio-grandense, Centro Oriental Rio-grandense, Sudeste Rio-grandense, Oeste Catarinense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54031"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.833008,
+              -26.824071
+            ],
+            [
+              -53.085938,
+              -27.371767
+            ],
+            [
+              -52.822266,
+              -28.381735
+            ],
+            [
+              -52.998047,
+              -29.22889
+            ],
+            [
+              -53.173828,
+              -30.297018
+            ],
+            [
+              -53.745117,
+              -30.902225
+            ],
+            [
+              -54.228516,
+              -31.391158
+            ],
+            [
+              -55.854492,
+              -31.391158
+            ],
+            [
+              -58.359375,
+              -30.297018
+            ],
+            [
+              -55.722656,
+              -27.605671
+            ],
+            [
+              -53.833008,
+              -26.824071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27191.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27191.1",
         "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
@@ -120,6 +412,134 @@
             [
               -51.481934,
               -22.644432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27188.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27188.2",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-20T15:00:00-03:00",
+        "expires": "2026-04-20T23:59:00-03:00",
+        "sent": "2026-04-19T00:00:00-03:00",
+        "pubDate": "Mon, 20 Apr 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 20/04/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54028",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Noroeste Rio-grandense, Sudoeste Rio-grandense, Centro Ocidental Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Noroeste Rio-grandense, Sudoeste Rio-grandense, Centro Ocidental Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54028"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.678467,
+              -29.406105
+            ],
+            [
+              -55.876465,
+              -28.463862
+            ],
+            [
+              -55.684204,
+              -28.449374
+            ],
+            [
+              -55.634766,
+              -28.357568
+            ],
+            [
+              -55.645752,
+              -28.246328
+            ],
+            [
+              -55.426025,
+              -28.134972
+            ],
+            [
+              -55.332642,
+              -28.004102
+            ],
+            [
+              -55.019531,
+              -27.882784
+            ],
+            [
+              -54.805298,
+              -27.644606
+            ],
+            [
+              -54.28894,
+              -27.469287
+            ],
+            [
+              -53.865967,
+              -27.196014
+            ],
+            [
+              -53.964844,
+              -28.22697
+            ],
+            [
+              -54.448242,
+              -29.42046
+            ],
+            [
+              -55.371094,
+              -30.637912
+            ],
+            [
+              -55.947876,
+              -31.034108
+            ],
+            [
+              -55.975342,
+              -30.765439
+            ],
+            [
+              -56.101685,
+              -30.656816
+            ],
+            [
+              -56.78833,
+              -30.045322
+            ],
+            [
+              -57.090454,
+              -30.078601
+            ],
+            [
+              -57.260742,
+              -30.244832
+            ],
+            [
+              -57.546387,
+              -30.225848
+            ],
+            [
+              -56.678467,
+              -29.406105
             ]
           ]
         ]
