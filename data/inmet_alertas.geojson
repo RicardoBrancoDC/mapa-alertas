@@ -5,6 +5,162 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27207.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27207.1",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-22T09:00:00-03:00",
+        "expires": "2026-04-23T23:59:00-03:00",
+        "sent": "2026-04-22T11:50:57-03:00",
+        "pubDate": "Wed, 22 Apr 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 22/04/2026 09:00. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54053",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Nordeste Baiano, Metropolitana de Salvador, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Centro Norte Baiano, Sul Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Nordeste Baiano, Metropolitana de Salvador, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Centro Norte Baiano, Sul Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54053"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.939037,
+              -13.223415
+            ],
+            [
+              -39.098797,
+              -12.873294
+            ],
+            [
+              -38.859157,
+              -12.512937
+            ],
+            [
+              -38.230104,
+              -11.820043
+            ],
+            [
+              -37.790766,
+              -11.360393
+            ],
+            [
+              -37.401351,
+              -10.811758
+            ],
+            [
+              -37.081833,
+              -10.419258
+            ],
+            [
+              -36.797733,
+              -9.889436
+            ],
+            [
+              -36.421823,
+              -9.374944
+            ],
+            [
+              -36.132259,
+              -9.24687
+            ],
+            [
+              -35.712891,
+              -9.266577
+            ],
+            [
+              -35.433311,
+              -9.325691
+            ],
+            [
+              -35.473251,
+              -9.434039
+            ],
+            [
+              -35.537882,
+              -9.548965
+            ],
+            [
+              -35.662694,
+              -9.775325
+            ],
+            [
+              -35.912318,
+              -10.070346
+            ],
+            [
+              -36.03713,
+              -10.252142
+            ],
+            [
+              -36.276769,
+              -10.44856
+            ],
+            [
+              -36.456499,
+              -10.625231
+            ],
+            [
+              -36.88086,
+              -10.914552
+            ],
+            [
+              -37.125492,
+              -11.23297
+            ],
+            [
+              -37.315206,
+              -11.624387
+            ],
+            [
+              -37.902289,
+              -12.583661
+            ],
+            [
+              -38.143959,
+              -12.824476
+            ],
+            [
+              -38.368621,
+              -13.043402
+            ],
+            [
+              -38.508411,
+              -13.106612
+            ],
+            [
+              -38.693132,
+              -13.169805
+            ],
+            [
+              -38.797974,
+              -13.291285
+            ],
+            [
+              -38.939037,
+              -13.223415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27202.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27202.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
@@ -1552,6 +1708,114 @@
             [
               -58.430186,
               -17.102935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27199.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27199.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-22T10:00:00-03:00",
+        "expires": "2026-04-22T18:00:00-03:00",
+        "sent": "2026-04-21T11:39:18-03:00",
+        "pubDate": "Wed, 22 Apr 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 22/04/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54041",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Metropolitana de Curitiba, Leste de Mato Grosso do Sul, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Campinas, Bauru, Piracicaba, Itapetininga, Sul/Sudoeste de Minas, RibeirÃ£o Preto, AraÃ§atuba, Noroeste Paranaense, Macro Metropolitana Paulista, MarÃ­lia, Norte Central Paranaense, Araraquara, Sudoeste de Mato Grosso do Sul, Sul Goiano, Centro Oriental Paranaense, Centro Ocidental Paranaense, Assis, Centro Norte de Mato Grosso do Sul, Litoral Sul Paulista, Metropolitana de SÃ£o Paulo, Centro-Sul Paranaense, Vale do ParaÃ­ba Paulista, Sudeste Paranaense, Oeste de Minas",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Metropolitana de Curitiba, Leste de Mato Grosso do Sul, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Campinas, Bauru, Piracicaba, Itapetininga, Sul/Sudoeste de Minas, RibeirÃ£o Preto, AraÃ§atuba, Noroeste Paranaense, Macro Metropolitana Paulista, MarÃ­lia, Norte Central Paranaense, Araraquara, Sudoeste de Mato Grosso do Sul, Sul Goiano, Centro Oriental Paranaense, Centro Ocidental Paranaense, Assis, Centro Norte de Mato Grosso do Sul, Litoral Sul Paulista, Metropolitana de SÃ£o Paulo, Centro-Sul Paranaense, Vale do ParaÃ­ba Paulista, Sudeste Paranaense, Oeste de Minas"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54041"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.888672,
+              -18.145852
+            ],
+            [
+              -52.822266,
+              -18.646245
+            ],
+            [
+              -54.18457,
+              -19.921713
+            ],
+            [
+              -54.052734,
+              -21.453069
+            ],
+            [
+              -53.393555,
+              -23.160563
+            ],
+            [
+              -52.207031,
+              -24.647017
+            ],
+            [
+              -50.756836,
+              -25.324167
+            ],
+            [
+              -49.746094,
+              -25.234758
+            ],
+            [
+              -48.823242,
+              -25.045792
+            ],
+            [
+              -47.8125,
+              -24.20689
+            ],
+            [
+              -46.757813,
+              -23.402765
+            ],
+            [
+              -45.307617,
+              -22.786311
+            ],
+            [
+              -45.175781,
+              -22.309426
+            ],
+            [
+              -45.307617,
+              -21.779905
+            ],
+            [
+              -46.494141,
+              -20.427013
+            ],
+            [
+              -47.988281,
+              -19.518375
+            ],
+            [
+              -50.888672,
+              -18.145852
             ]
           ]
         ]
