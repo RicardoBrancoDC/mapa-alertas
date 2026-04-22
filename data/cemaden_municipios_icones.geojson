@@ -16,6 +16,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Paragominas", "uf": "PA", "codibge": "1505502", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -47.403997917495175, -3.123807814 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Salvador", "uf": "BA", "codibge": "2927408", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.484732096832175, -12.877980101 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Salvador", "uf": "BA", "codibge": "2927408", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.484732096832175, -12.877980101 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Carmópolis", "uf": "SE", "codibge": "2801504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -36.969916428627698, -10.667894900500002 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Carmópolis", "uf": "SE", "codibge": "2801504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -36.969916428627698, -10.667894900500002 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Boa Vista", "uf": "RR", "codibge": "1400100", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.742042963563989, 3.022119468 ] } }
 ]
 }
