@@ -161,6 +161,206 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27203.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27203.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-22T15:00:00-03:00",
+        "expires": "2026-04-22T23:59:00-03:00",
+        "sent": "2026-04-22T11:32:46-03:00",
+        "pubDate": "Wed, 22 Apr 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 22/04/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54047",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Noroeste Rio-grandense, Nordeste Rio-grandense, Centro Oriental Rio-grandense, Sudoeste Rio-grandense, Centro Ocidental Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Noroeste Rio-grandense, Nordeste Rio-grandense, Centro Oriental Rio-grandense, Sudoeste Rio-grandense, Centro Ocidental Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54047"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.562983,
+              -28.144451
+            ],
+            [
+              -54.983854,
+              -28.443333
+            ],
+            [
+              -54.49459,
+              -28.583692
+            ],
+            [
+              -53.955402,
+              -28.855104
+            ],
+            [
+              -53.0268,
+              -29.056019
+            ],
+            [
+              -52.118167,
+              -29.064746
+            ],
+            [
+              -51.349325,
+              -28.933769
+            ],
+            [
+              -50.610437,
+              -28.504763
+            ],
+            [
+              -50.470647,
+              -28.065195
+            ],
+            [
+              -50.470647,
+              -27.623823
+            ],
+            [
+              -50.660363,
+              -27.189544
+            ],
+            [
+              -51.389266,
+              -26.833772
+            ],
+            [
+              -52.068243,
+              -26.691148
+            ],
+            [
+              -52.567491,
+              -26.494749
+            ],
+            [
+              -53.18656,
+              -26.467942
+            ],
+            [
+              -53.665838,
+              -26.333809
+            ],
+            [
+              -53.745718,
+              -26.494749
+            ],
+            [
+              -53.745718,
+              -26.726821
+            ],
+            [
+              -53.709819,
+              -26.861445
+            ],
+            [
+              -53.737278,
+              -26.977166
+            ],
+            [
+              -53.82215,
+              -27.114986
+            ],
+            [
+              -53.872075,
+              -27.110543
+            ],
+            [
+              -54.094241,
+              -27.265948
+            ],
+            [
+              -54.171624,
+              -27.250417
+            ],
+            [
+              -54.27397,
+              -27.39898
+            ],
+            [
+              -54.386301,
+              -27.403412
+            ],
+            [
+              -54.511113,
+              -27.445504
+            ],
+            [
+              -54.638422,
+              -27.465436
+            ],
+            [
+              -54.713309,
+              -27.536279
+            ],
+            [
+              -54.803174,
+              -27.527426
+            ],
+            [
+              -54.883053,
+              -27.593805
+            ],
+            [
+              -54.937971,
+              -27.722023
+            ],
+            [
+              -55.002873,
+              -27.744114
+            ],
+            [
+              -55.102723,
+              -27.781659
+            ],
+            [
+              -55.060287,
+              -27.821398
+            ],
+            [
+              -55.140166,
+              -27.84347
+            ],
+            [
+              -55.200076,
+              -27.847883
+            ],
+            [
+              -55.349851,
+              -27.907451
+            ],
+            [
+              -55.444708,
+              -28.026487
+            ],
+            [
+              -55.562983,
+              -28.144451
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27202.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27202.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
