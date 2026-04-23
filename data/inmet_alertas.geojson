@@ -297,6 +297,118 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27211.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27211.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-23T18:00:00-03:00",
+        "expires": "2026-04-24T10:00:00-03:00",
+        "sent": "2026-04-23T11:49:49-03:00",
+        "pubDate": "Thu, 23 Apr 2026 18:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 23/04/2026 18:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54060",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Paraibana, Mata Pernambucana, Agreste Paraibano, Leste Potiguar, Agreste Potiguar, Agreste Pernambucano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Paraibana, Mata Pernambucana, Agreste Paraibano, Leste Potiguar, Agreste Potiguar, Agreste Pernambucano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54060"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -35.134763,
+              -8.887031
+            ],
+            [
+              -35.324478,
+              -8.610749
+            ],
+            [
+              -35.404358,
+              -8.107007
+            ],
+            [
+              -35.364417,
+              -7.642214
+            ],
+            [
+              -35.394372,
+              -7.018405
+            ],
+            [
+              -35.424328,
+              -6.423521
+            ],
+            [
+              -35.544147,
+              -5.89746
+            ],
+            [
+              -35.524178,
+              -5.500099
+            ],
+            [
+              -35.394372,
+              -5.301318
+            ],
+            [
+              -35.224629,
+              -5.410655
+            ],
+            [
+              -35.104808,
+              -5.788213
+            ],
+            [
+              -34.955034,
+              -6.254842
+            ],
+            [
+              -34.835214,
+              -6.760712
+            ],
+            [
+              -34.775304,
+              -6.96886
+            ],
+            [
+              -34.705409,
+              -7.493768
+            ],
+            [
+              -34.775304,
+              -8.018045
+            ],
+            [
+              -34.935065,
+              -8.571263
+            ],
+            [
+              -35.134763,
+              -8.887031
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27209.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27209.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
@@ -1676,226 +1788,6 @@
             [
               -58.379058,
               -16.251379
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27206.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27206.1",
-        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
-        "event": "Baixa Umidade",
-        "severity": "Moderate",
-        "nivel": "Perigo Potencial",
-        "nivel_grupo": "perigo_potencial",
-        "status_tempo": "hoje",
-        "onset": "2026-04-23T10:00:00-03:00",
-        "expires": "2026-04-23T18:00:00-03:00",
-        "sent": "2026-04-22T11:46:46-03:00",
-        "pubDate": "Thu, 23 Apr 2026 10:00:00 +0000",
-        "sender": "info.aviso@inmet.gov.br",
-        "senderName": "Instituto Nacional de Meteorologia",
-        "responseType": "Prepare",
-        "urgency": "Future",
-        "certainty": "Likely",
-        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
-        "description": "INMET publica aviso iniciando em: 23/04/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
-        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54052",
-        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
-        "areaDesc": "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Leste de Mato Grosso do Sul, Bauru, Metropolitana de Curitiba, AraÃ§atuba, Noroeste Paranaense, MarÃ­lia, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Pantanais Sul Mato-grossense, Centro Oriental Paranaense, Centro Ocidental Paranaense, Assis, Oeste Paranaense, Centro Norte de Mato Grosso do Sul, Itapetininga, Centro-Sul Paranaense, Araraquara, Sudeste Paranaense",
-        "areas": [
-          "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Leste de Mato Grosso do Sul, Bauru, Metropolitana de Curitiba, AraÃ§atuba, Noroeste Paranaense, MarÃ­lia, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Pantanais Sul Mato-grossense, Centro Oriental Paranaense, Centro Ocidental Paranaense, Assis, Oeste Paranaense, Centro Norte de Mato Grosso do Sul, Itapetininga, Centro-Sul Paranaense, Araraquara, Sudeste Paranaense"
-        ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54052"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -54.219245,
-              -24.043013
-            ],
-            [
-              -52.022551,
-              -24.588874
-            ],
-            [
-              -50.385017,
-              -25.20465
-            ],
-            [
-              -49.226763,
-              -25.240777
-            ],
-            [
-              -49.220696,
-              -24.708737
-            ],
-            [
-              -49.14276,
-              -23.716083
-            ],
-            [
-              -48.795434,
-              -22.344765
-            ],
-            [
-              -48.823242,
-              -21.159001
-            ],
-            [
-              -49.496326,
-              -20.52527
-            ],
-            [
-              -50.055485,
-              -20.263257
-            ],
-            [
-              -51.39347,
-              -20.169573
-            ],
-            [
-              -53.350525,
-              -19.756701
-            ],
-            [
-              -54.86824,
-              -19.135389
-            ],
-            [
-              -55.207729,
-              -18.96553
-            ],
-            [
-              -55.789804,
-              -18.14319
-            ],
-            [
-              -56.768331,
-              -18.029309
-            ],
-            [
-              -57.46728,
-              -18.219069
-            ],
-            [
-              -57.726889,
-              -18.683107
-            ],
-            [
-              -57.816754,
-              -19.042101
-            ],
-            [
-              -58.146258,
-              -19.73896
-            ],
-            [
-              -57.926588,
-              -19.973706
-            ],
-            [
-              -58.136272,
-              -20.105012
-            ],
-            [
-              -58.166227,
-              -20.311127
-            ],
-            [
-              -57.936573,
-              -20.890512
-            ],
-            [
-              -57.956543,
-              -21.625528
-            ],
-            [
-              -58.036423,
-              -22.051806
-            ],
-            [
-              -57.949848,
-              -22.163342
-            ],
-            [
-              -57.577114,
-              -22.20902
-            ],
-            [
-              -57.017956,
-              -22.245985
-            ],
-            [
-              -56.658497,
-              -22.310653
-            ],
-            [
-              -56.508722,
-              -22.181288
-            ],
-            [
-              -56.139278,
-              -22.310653
-            ],
-            [
-              -55.909624,
-              -22.347592
-            ],
-            [
-              -55.669984,
-              -22.698024
-            ],
-            [
-              -55.67997,
-              -22.946472
-            ],
-            [
-              -55.610075,
-              -23.139396
-            ],
-            [
-              -55.510225,
-              -23.350375
-            ],
-            [
-              -55.614767,
-              -23.461449
-            ],
-            [
-              -55.550165,
-              -23.734774
-            ],
-            [
-              -55.410376,
-              -23.990413
-            ],
-            [
-              -55.120812,
-              -24.03601
-            ],
-            [
-              -54.641533,
-              -23.871787
-            ],
-            [
-              -54.401894,
-              -23.990413
-            ],
-            [
-              -54.322014,
-              -24.08159
-            ],
-            [
-              -54.219245,
-              -24.043013
             ]
           ]
         ]
