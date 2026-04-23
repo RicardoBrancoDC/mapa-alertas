@@ -5,6 +5,138 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27210.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27210.2",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-23T09:50:00-03:00",
+        "expires": "2026-04-24T23:59:00-03:00",
+        "sent": "2026-04-23T00:00:00-03:00",
+        "pubDate": "Thu, 23 Apr 2026 09:50:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 23/04/2026 09:50. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54068",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Salvador, Leste Sergipano, Nordeste Baiano, Agreste Sergipano, Sul Baiano, Centro Norte Baiano, Centro Sul Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Salvador, Leste Sergipano, Nordeste Baiano, Agreste Sergipano, Sul Baiano, Centro Norte Baiano, Centro Sul Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54068"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.829719,
+              -10.672061
+            ],
+            [
+              -37.249088,
+              -10.642628
+            ],
+            [
+              -37.668457,
+              -11.358019
+            ],
+            [
+              -38.107795,
+              -12.100907
+            ],
+            [
+              -38.49721,
+              -12.315574
+            ],
+            [
+              -38.806743,
+              -12.325327
+            ],
+            [
+              -39.196157,
+              -12.608019
+            ],
+            [
+              -39.345932,
+              -12.841735
+            ],
+            [
+              -39.315977,
+              -13.269648
+            ],
+            [
+              -39.196157,
+              -13.861641
+            ],
+            [
+              -39.281559,
+              -14.477569
+            ],
+            [
+              -39.141769,
+              -14.641836
+            ],
+            [
+              -39.056897,
+              -14.632177
+            ],
+            [
+              -38.9221,
+              -14.530728
+            ],
+            [
+              -38.827243,
+              -13.887147
+            ],
+            [
+              -38.80228,
+              -13.528284
+            ],
+            [
+              -38.807273,
+              -13.300075
+            ],
+            [
+              -38.417859,
+              -13.086238
+            ],
+            [
+              -37.99849,
+              -12.77974
+            ],
+            [
+              -37.723904,
+              -12.214425
+            ],
+            [
+              -37.149768,
+              -11.315259
+            ],
+            [
+              -36.780324,
+              -10.800865
+            ],
+            [
+              -36.829719,
+              -10.672061
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27217.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27217.1",
         "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
@@ -156,6 +288,334 @@
             [
               -37.613011,
               -11.963454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27209.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27209.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-23T09:50:00-03:00",
+        "expires": "2026-04-24T10:00:00-03:00",
+        "sent": "2026-04-23T11:44:45-03:00",
+        "pubDate": "Thu, 23 Apr 2026 09:50:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 23/04/2026 09:50. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54055",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Nordeste Paraense, Sudeste Paraense, Oeste Maranhense, Vale do Acre, MarajÃ³, Norte Maranhense, Baixo Amazonas, Leste Rondoniense, Sudoeste Paraense, Leste Maranhense, Norte do AmapÃ¡, Metropolitana de BelÃ©m, Norte Mato-grossense, Sul Amazonense, Centro Maranhense, Sudoeste Amazonense, Centro Amazonense, Madeira-GuaporÃ©, Vale do JuruÃ¡, Sul do AmapÃ¡, Ocidental do Tocantins",
+        "areas": [
+          "Aviso para as Ã¡reas: Nordeste Paraense, Sudeste Paraense, Oeste Maranhense, Vale do Acre, MarajÃ³, Norte Maranhense, Baixo Amazonas, Leste Rondoniense, Sudoeste Paraense, Leste Maranhense, Norte do AmapÃ¡, Metropolitana de BelÃ©m, Norte Mato-grossense, Sul Amazonense, Centro Maranhense, Sudoeste Amazonense, Centro Amazonense, Madeira-GuaporÃ©, Vale do JuruÃ¡, Sul do AmapÃ¡, Ocidental do Tocantins"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54055"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.230628,
+              -6.03569
+            ],
+            [
+              -71.193695,
+              -5.956261
+            ],
+            [
+              -67.199706,
+              -7.027535
+            ],
+            [
+              -62.087403,
+              -5.757635
+            ],
+            [
+              -60.170287,
+              -4.365447
+            ],
+            [
+              -59.41143,
+              -2.851026
+            ],
+            [
+              -58.812332,
+              0.302543
+            ],
+            [
+              -58.85227,
+              0.981367
+            ],
+            [
+              -58.615837,
+              1.321447
+            ],
+            [
+              -58.456077,
+              1.441213
+            ],
+            [
+              -58.036709,
+              1.60089
+            ],
+            [
+              -57.31779,
+              2.000028
+            ],
+            [
+              -56.698722,
+              2.039936
+            ],
+            [
+              -56.159535,
+              2.099797
+            ],
+            [
+              -56.259383,
+              2.399068
+            ],
+            [
+              -55.660286,
+              2.598545
+            ],
+            [
+              -54.861488,
+              2.558652
+            ],
+            [
+              -54.342271,
+              2.478862
+            ],
+            [
+              -54.16254,
+              2.359169
+            ],
+            [
+              -53.463593,
+              2.438966
+            ],
+            [
+              -53.024255,
+              2.419017
+            ],
+            [
+              -52.684765,
+              2.698273
+            ],
+            [
+              -52.305336,
+              3.416048
+            ],
+            [
+              -52.065698,
+              3.695044
+            ],
+            [
+              -51.885967,
+              3.934115
+            ],
+            [
+              -51.649932,
+              4.490958
+            ],
+            [
+              -51.330414,
+              4.451146
+            ],
+            [
+              -51.070804,
+              4.252054
+            ],
+            [
+              -50.744878,
+              2.883402
+            ],
+            [
+              -50.611496,
+              2.498096
+            ],
+            [
+              -49.892577,
+              1.919493
+            ],
+            [
+              -49.86185,
+              0.541377
+            ],
+            [
+              -48.060321,
+              -0.341439
+            ],
+            [
+              -47.176665,
+              -0.456188
+            ],
+            [
+              -44.720364,
+              -1.214838
+            ],
+            [
+              -44.210931,
+              -2.272525
+            ],
+            [
+              -43.661956,
+              -2.053093
+            ],
+            [
+              -42.184181,
+              -2.591751
+            ],
+            [
+              -43.661956,
+              -4.106588
+            ],
+            [
+              -45.798739,
+              -5.201123
+            ],
+            [
+              -47.576066,
+              -5.081804
+            ],
+            [
+              -49.333421,
+              -5.340299
+            ],
+            [
+              -53.107738,
+              -7.225661
+            ],
+            [
+              -57.261486,
+              -9.201752
+            ],
+            [
+              -59.238511,
+              -10.441196
+            ],
+            [
+              -63.172588,
+              -12.651632
+            ],
+            [
+              -64.071235,
+              -12.573693
+            ],
+            [
+              -64.999151,
+              -12.103781
+            ],
+            [
+              -65.394573,
+              -11.494632
+            ],
+            [
+              -65.429191,
+              -10.539362
+            ],
+            [
+              -65.452566,
+              -9.863729
+            ],
+            [
+              -65.60892,
+              -9.890907
+            ],
+            [
+              -66.471405,
+              -9.875586
+            ],
+            [
+              -68.400879,
+              -11.091227
+            ],
+            [
+              -68.586702,
+              -11.234163
+            ],
+            [
+              -68.875294,
+              -11.102947
+            ],
+            [
+              -69.202824,
+              -10.980532
+            ],
+            [
+              -70.721225,
+              -11.068906
+            ],
+            [
+              -70.663089,
+              -9.581108
+            ],
+            [
+              -71.260414,
+              -10.16617
+            ],
+            [
+              -71.959362,
+              -10.126861
+            ],
+            [
+              -72.29885,
+              -10.048229
+            ],
+            [
+              -72.45861,
+              -9.635099
+            ],
+            [
+              -73.283873,
+              -9.474602
+            ],
+            [
+              -72.990217,
+              -8.973924
+            ],
+            [
+              -73.491554,
+              -8.442656
+            ],
+            [
+              -74.062872,
+              -7.539702
+            ],
+            [
+              -73.833161,
+              -7.216774
+            ],
+            [
+              -73.776626,
+              -6.6707
+            ],
+            [
+              -73.377227,
+              -6.512021
+            ],
+            [
+              -73.197498,
+              -5.81723
+            ],
+            [
+              -73.230628,
+              -6.03569
             ]
           ]
         ]
@@ -1216,6 +1676,226 @@
             [
               -58.379058,
               -16.251379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27206.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27206.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-23T10:00:00-03:00",
+        "expires": "2026-04-23T18:00:00-03:00",
+        "sent": "2026-04-22T11:46:46-03:00",
+        "pubDate": "Thu, 23 Apr 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 23/04/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54052",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Leste de Mato Grosso do Sul, Bauru, Metropolitana de Curitiba, AraÃ§atuba, Noroeste Paranaense, MarÃ­lia, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Pantanais Sul Mato-grossense, Centro Oriental Paranaense, Centro Ocidental Paranaense, Assis, Oeste Paranaense, Centro Norte de Mato Grosso do Sul, Itapetininga, Centro-Sul Paranaense, Araraquara, Sudeste Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Leste de Mato Grosso do Sul, Bauru, Metropolitana de Curitiba, AraÃ§atuba, Noroeste Paranaense, MarÃ­lia, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Pantanais Sul Mato-grossense, Centro Oriental Paranaense, Centro Ocidental Paranaense, Assis, Oeste Paranaense, Centro Norte de Mato Grosso do Sul, Itapetininga, Centro-Sul Paranaense, Araraquara, Sudeste Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54052"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.219245,
+              -24.043013
+            ],
+            [
+              -52.022551,
+              -24.588874
+            ],
+            [
+              -50.385017,
+              -25.20465
+            ],
+            [
+              -49.226763,
+              -25.240777
+            ],
+            [
+              -49.220696,
+              -24.708737
+            ],
+            [
+              -49.14276,
+              -23.716083
+            ],
+            [
+              -48.795434,
+              -22.344765
+            ],
+            [
+              -48.823242,
+              -21.159001
+            ],
+            [
+              -49.496326,
+              -20.52527
+            ],
+            [
+              -50.055485,
+              -20.263257
+            ],
+            [
+              -51.39347,
+              -20.169573
+            ],
+            [
+              -53.350525,
+              -19.756701
+            ],
+            [
+              -54.86824,
+              -19.135389
+            ],
+            [
+              -55.207729,
+              -18.96553
+            ],
+            [
+              -55.789804,
+              -18.14319
+            ],
+            [
+              -56.768331,
+              -18.029309
+            ],
+            [
+              -57.46728,
+              -18.219069
+            ],
+            [
+              -57.726889,
+              -18.683107
+            ],
+            [
+              -57.816754,
+              -19.042101
+            ],
+            [
+              -58.146258,
+              -19.73896
+            ],
+            [
+              -57.926588,
+              -19.973706
+            ],
+            [
+              -58.136272,
+              -20.105012
+            ],
+            [
+              -58.166227,
+              -20.311127
+            ],
+            [
+              -57.936573,
+              -20.890512
+            ],
+            [
+              -57.956543,
+              -21.625528
+            ],
+            [
+              -58.036423,
+              -22.051806
+            ],
+            [
+              -57.949848,
+              -22.163342
+            ],
+            [
+              -57.577114,
+              -22.20902
+            ],
+            [
+              -57.017956,
+              -22.245985
+            ],
+            [
+              -56.658497,
+              -22.310653
+            ],
+            [
+              -56.508722,
+              -22.181288
+            ],
+            [
+              -56.139278,
+              -22.310653
+            ],
+            [
+              -55.909624,
+              -22.347592
+            ],
+            [
+              -55.669984,
+              -22.698024
+            ],
+            [
+              -55.67997,
+              -22.946472
+            ],
+            [
+              -55.610075,
+              -23.139396
+            ],
+            [
+              -55.510225,
+              -23.350375
+            ],
+            [
+              -55.614767,
+              -23.461449
+            ],
+            [
+              -55.550165,
+              -23.734774
+            ],
+            [
+              -55.410376,
+              -23.990413
+            ],
+            [
+              -55.120812,
+              -24.03601
+            ],
+            [
+              -54.641533,
+              -23.871787
+            ],
+            [
+              -54.401894,
+              -23.990413
+            ],
+            [
+              -54.322014,
+              -24.08159
+            ],
+            [
+              -54.219245,
+              -24.043013
             ]
           ]
         ]
