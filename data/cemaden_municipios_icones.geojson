@@ -17,6 +17,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Camaragibe", "uf": "PE", "codibge": "2603454", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.98717034834857, -7.979656307500007 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Olinda", "uf": "PE", "codibge": "2609600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.870585017494683, -7.999503742 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Recife", "uf": "PE", "codibge": "2611606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.927781066427215, -8.044199039 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Natal", "uf": "RN", "codibge": "2408102", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.216794521056897, -5.801999988 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Natal", "uf": "RN", "codibge": "2408102", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.216794521056897, -5.801999988 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cantanhede", "uf": "MA", "codibge": "2102705", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.302087160724419, -3.650244999500004 ] } }
 ]
 }
