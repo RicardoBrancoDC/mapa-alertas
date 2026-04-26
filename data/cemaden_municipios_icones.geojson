@@ -8,6 +8,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Esperantina", "uf": "PI", "codibge": "2203701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.167878372741008, -3.795894181 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Lábrea", "uf": "AM", "codibge": "1302405", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -65.711014310447325, -8.381733936 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Capitão Leônidas Marques", "uf": "PR", "codibge": "4104600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.597915453909593, -25.458789651 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Itaquiraí", "uf": "MS", "codibge": "5004601", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.097690910451249, -23.387842469 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Itaquiraí", "uf": "MS", "codibge": "5004601", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.097690910451249, -23.387842469 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Umuarama", "uf": "PR", "codibge": "4128104", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.333553444956323, -23.707101858 ] } }
 ]
 }
