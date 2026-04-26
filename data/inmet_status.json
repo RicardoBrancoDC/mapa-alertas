@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "updated_at": "2026-04-26T19:24:50.356437-03:00",
+  "updated_at": "2026-04-26T20:04:53.305816-03:00",
   "rss_url": "https://apiprevmet3.inmet.gov.br/avisos/rss",
   "rss_items_total": 91,
   "rss_items_pubdate_hoje": 20,
   "caps_lidos": 20,
   "caps_ignorados_rate_limit": 0,
-  "features": 11,
+  "features": 10,
   "time_filter": "today"
 }
