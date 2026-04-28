@@ -16,6 +16,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cabedelo", "uf": "PB", "codibge": "2503209", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.844404530997799, -7.030441676 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Lucena", "uf": "PB", "codibge": "2508604", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.919225060177673, -6.9269699705 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ingá", "uf": "PB", "codibge": "2506806", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.637673620883135, -7.286499151 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Caaporã", "uf": "PB", "codibge": "2503001", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.917770690010471, -7.484023522 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Caaporã", "uf": "PB", "codibge": "2503001", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.917770690010471, -7.484023522 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Goiana", "uf": "PE", "codibge": "2606200", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.950240017667525, -7.585594918 ] } }
 ]
 }
