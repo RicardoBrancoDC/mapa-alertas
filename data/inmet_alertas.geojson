@@ -1,4 +1,133 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27270.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27270.1",
+        "titulo": "Aviso de Geada. Severidade Grau: Perigo Potencial",
+        "event": "Geada",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-04-29T04:00:00-03:00",
+        "expires": "2026-04-29T08:00:00-03:00",
+        "sent": "2026-04-28T12:24:00-03:00",
+        "pubDate": "Wed, 29 Apr 2026 04:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Geada. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 29/04/2026 04:00. Risco leve de perda de plantaÃ§Ãµes. Temperatura mÃ­nima atÃ© 3ÂºC.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/54162",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Ocidental Rio-grandense, Centro Oriental Rio-grandense, Noroeste Rio-grandense, Metropolitana de Porto Alegre, Sudoeste Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Ocidental Rio-grandense, Centro Oriental Rio-grandense, Noroeste Rio-grandense, Metropolitana de Porto Alegre, Sudoeste Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54162"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.283447,
+              -29.267233
+            ],
+            [
+              -54.580078,
+              -29.377388
+            ],
+            [
+              -54.700928,
+              -29.573457
+            ],
+            [
+              -54.73938,
+              -29.773914
+            ],
+            [
+              -54.667969,
+              -29.964453
+            ],
+            [
+              -54.18457,
+              -30.092861
+            ],
+            [
+              -53.635254,
+              -30.107118
+            ],
+            [
+              -52.89917,
+              -30.154627
+            ],
+            [
+              -52.371826,
+              -30.145127
+            ],
+            [
+              -52.017517,
+              -30.083355
+            ],
+            [
+              -51.833496,
+              -30.016787
+            ],
+            [
+              -51.767578,
+              -29.907329
+            ],
+            [
+              -51.70166,
+              -29.759609
+            ],
+            [
+              -51.698914,
+              -29.597342
+            ],
+            [
+              -51.775818,
+              -29.51372
+            ],
+            [
+              -51.913147,
+              -29.41089
+            ],
+            [
+              -52.086182,
+              -29.343875
+            ],
+            [
+              -52.481689,
+              -29.22889
+            ],
+            [
+              -52.838745,
+              -29.13297
+            ],
+            [
+              -53.22876,
+              -29.099377
+            ],
+            [
+              -53.909912,
+              -29.142566
+            ],
+            [
+              -54.283447,
+              -29.267233
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
