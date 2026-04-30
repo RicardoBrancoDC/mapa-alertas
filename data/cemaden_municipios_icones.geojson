@@ -12,6 +12,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Mateus Do Sul", "uf": "PR", "codibge": "4125605", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.440723403301838, -25.930087448 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Luís", "uf": "MA", "codibge": "2111300", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -44.27248850711004, -2.63610737 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Luís", "uf": "MA", "codibge": "2111300", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -44.27248850711004, -2.63610737 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Presidente Figueiredo", "uf": "AM", "codibge": "1303536", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.114745740972403, -1.22048525850001 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Presidente Figueiredo", "uf": "AM", "codibge": "1303536", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.114745740972403, -1.22048525850001 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cruzeiro Do Sul", "uf": "AC", "codibge": "1200203", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -72.731521405903777, -7.9566909395 ] } }
 ]
 }
