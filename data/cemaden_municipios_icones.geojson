@@ -56,6 +56,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Chã Grande", "uf": "PE", "codibge": "2604502", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.477160083452873, -8.2373114255 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Primavera", "uf": "PE", "codibge": "2611408", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.374946477292582, -8.346315153500003 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Amaraji", "uf": "PE", "codibge": "2600906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.465050227023418, -8.361966693500001 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Alegre", "uf": "RS", "codibge": "4314902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.189173608756114, -30.101758856499991 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Alegre", "uf": "RS", "codibge": "4314902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.189173608756114, -30.101758856499991 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Rosário Do Sul", "uf": "RS", "codibge": "4316402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.19438083053408, -30.377877919 ] } }
 ]
 }
