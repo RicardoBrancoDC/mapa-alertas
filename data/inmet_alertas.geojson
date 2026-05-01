@@ -5,185 +5,557 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27285.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27285.1",
-        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27292.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27292.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Grande Perigo",
         "event": "Tempestade",
-        "severity": "Severe",
-        "nivel": "Severe",
+        "severity": "Extreme",
+        "nivel": "Extreme",
         "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "onset": "2026-05-01T03:00:00-03:00",
+        "onset": "2026-05-01T10:35:00-03:00",
         "expires": "2026-05-02T12:00:00-03:00",
-        "sent": "2026-04-30T12:28:57-03:00",
-        "pubDate": "Fri, 01 May 2026 03:00:00 +0000",
+        "sent": "2026-05-01T13:32:30-03:00",
+        "pubDate": "Fri, 01 May 2026 10:35:00 +0000",
         "sender": "info.aviso@inmet.gov.br",
         "senderName": "Instituto Nacional de Meteorologia",
         "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
-        "description": "INMET publica aviso iniciando em: 01/05/2026 03:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
-        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54182",
+        "headline": "Aviso de Tempestade. Severidade Grau: Extreme",
+        "description": "INMET publica aviso iniciando em: 01/05/2026 10:35. Chuva superior a 60 mm/h ou maior que 100 mm/dia, ventos superiores a 100 km/h, e queda de granizo. Grande risco de danos em edificaÃ§Ãµes, corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de Ã¡rvores, alagamentos e transtornos no transporte rodoviÃ¡rio.",
+        "instruction": "Desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de enxurrada, ou similar, coloque documentos e objetos de valor em sacos plÃ¡sticos. Em caso de situaÃ§Ã£o de grande perigo confirmada: Procure abrigo, evite permanecer ao ar livre. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54194",
         "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
-        "areaDesc": "Aviso para as Ã¡reas: Noroeste Rio-grandense, Centro Ocidental Rio-grandense, Sudoeste Rio-grandense, Oeste Catarinense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Sul Catarinense, Centro Oriental Rio-grandense",
+        "areaDesc": "Aviso para as Ã¡reas: Oeste Catarinense, Sudoeste Rio-grandense, Noroeste Rio-grandense, Centro Ocidental Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Centro Oriental Rio-grandense, Sudoeste Paranaense",
         "areas": [
-          "Aviso para as Ã¡reas: Noroeste Rio-grandense, Centro Ocidental Rio-grandense, Sudoeste Rio-grandense, Oeste Catarinense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Sul Catarinense, Centro Oriental Rio-grandense"
+          "Aviso para as Ã¡reas: Oeste Catarinense, Sudoeste Rio-grandense, Noroeste Rio-grandense, Centro Ocidental Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Centro Oriental Rio-grandense, Sudoeste Paranaense"
         ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54182"
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54194"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -56.799316,
-              -30.078601
+              -53.64624,
+              -26.25401
             ],
             [
-              -55.244751,
-              -30.486551
+              -53.503418,
+              -26.293415
             ],
             [
-              -53.772583,
-              -31.099982
+              -53.360596,
+              -26.244156
             ],
             [
-              -52.948608,
-              -31.477866
+              -53.22876,
+              -26.293415
             ],
             [
-              -52.407532,
+              -53.085938,
+              -26.372185
+            ],
+            [
+              -52.855225,
+              -26.372185
+            ],
+            [
+              -52.734375,
+              -26.352498
+            ],
+            [
+              -52.415771,
+              -26.509905
+            ],
+            [
+              -52.349854,
+              -26.775039
+            ],
+            [
+              -52.207031,
+              -27.059126
+            ],
+            [
+              -52.075195,
+              -27.352253
+            ],
+            [
+              -51.800537,
+              -27.654338
+            ],
+            [
+              -51.690674,
+              -27.819645
+            ],
+            [
+              -51.448975,
+              -28.110749
+            ],
+            [
+              -51.196289,
+              -28.362402
+            ],
+            [
+              -50.932617,
+              -28.72913
+            ],
+            [
+              -50.800781,
+              -29.065773
+            ],
+            [
+              -50.679932,
+              -29.468297
+            ],
+            [
+              -50.471191,
+              -29.812051
+            ],
+            [
+              -50.284424,
+              -30.39183
+            ],
+            [
+              -50.614014,
+              -30.836215
+            ],
+            [
+              -50.756836,
+              -31.137603
+            ],
+            [
+              -51.020508,
+              -31.344254
+            ],
+            [
+              -51.196289,
+              -31.550453
+            ],
+            [
+              -51.317139,
+              -31.653381
+            ],
+            [
+              -51.503906,
+              -31.774878
+            ],
+            [
+              -51.767578,
               -31.924193
             ],
             [
-              -52.113647,
-              -32.157012
+              -52.009277,
+              -32.091883
             ],
             [
-              -51.954346,
-              -32.026706
+              -52.108154,
+              -32.166313
             ],
             [
-              -50.795288,
-              -31.151707
+              -52.196045,
+              -32.23139
             ],
             [
-              -50.20752,
-              -30.244832
+              -52.283936,
+              -32.342841
             ],
             [
-              -49.768066,
-              -29.372602
+              -52.371826,
+              -32.528289
             ],
             [
-              -49.614258,
-              -29.195328
+              -52.514648,
+              -32.907262
             ],
             [
-              -49.295654,
-              -28.887969
+              -52.668457,
+              -33.220308
             ],
             [
-              -49.729614,
-              -28.454204
+              -52.866211,
+              -33.413102
             ],
             [
-              -50.581055,
-              -28.004102
+              -53.217773,
+              -33.651208
             ],
             [
-              -51.47644,
-              -27.552112
+              -53.382568,
+              -33.751748
             ],
             [
-              -52.242737,
-              -27.264396
+              -53.4375,
+              -33.706063
             ],
             [
-              -53.344116,
-              -27.127591
+              -53.536377,
+              -33.696923
             ],
             [
-              -53.841248,
-              -27.193571
+              -53.514404,
+              -33.587167
             ],
             [
-              -53.973083,
-              -27.288808
+              -53.459473,
+              -33.532237
             ],
             [
-              -54.272461,
-              -27.488781
+              -53.4375,
+              -33.413102
             ],
             [
-              -54.566345,
-              -27.5375
+              -53.459473,
+              -33.330528
             ],
             [
-              -54.950867,
-              -27.839076
+              -53.404541,
+              -33.174342
             ],
             [
-              -55.294189,
-              -27.974998
+              -53.294678,
+              -33.091542
             ],
             [
-              -55.393066,
-              -28.096212
+              -53.173828,
+              -32.98102
             ],
             [
-              -55.640259,
-              -28.248747
+              -53.129883,
+              -32.851903
             ],
             [
-              -55.684204,
-              -28.459033
+              -53.052979,
+              -32.79651
             ],
             [
-              -55.8078,
-              -28.408313
+              -53.294678,
+              -32.593106
             ],
             [
-              -55.865479,
-              -28.468691
+              -53.690186,
+              -32.305706
             ],
             [
-              -55.925903,
-              -28.529036
+              -53.723145,
+              -32.082575
+            ],
+            [
+              -53.85498,
+              -31.970804
+            ],
+            [
+              -54.019775,
+              -31.877558
+            ],
+            [
+              -54.09668,
+              -31.914868
+            ],
+            [
+              -54.448242,
+              -31.653381
+            ],
+            [
+              -54.481201,
+              -31.503629
+            ],
+            [
+              -54.7229,
+              -31.409912
+            ],
+            [
+              -54.854736,
+              -31.381779
+            ],
+            [
+              -54.986572,
+              -31.25977
+            ],
+            [
+              -55.096436,
+              -31.297328
+            ],
+            [
+              -55.206299,
+              -31.250378
+            ],
+            [
+              -55.283203,
+              -31.118794
+            ],
+            [
+              -55.415039,
+              -30.968189
+            ],
+            [
+              -55.579834,
+              -30.817346
+            ],
+            [
+              -55.678711,
+              -30.87394
+            ],
+            [
+              -55.71167,
+              -30.949347
+            ],
+            [
+              -55.788574,
+              -30.996446
+            ],
+            [
+              -55.876465,
+              -31.071756
+            ],
+            [
+              -55.997314,
+              -31.071756
+            ],
+            [
+              -55.997314,
+              -30.892797
+            ],
+            [
+              -56.030273,
+              -30.760719
             ],
             [
               -56.217041,
-              -28.813393
+              -30.581179
             ],
             [
-              -56.431274,
-              -29.099377
+              -56.37085,
+              -30.486551
             ],
             [
-              -56.557617,
-              -29.140167
+              -56.601563,
+              -30.287532
             ],
             [
-              -56.708679,
-              -29.384568
-            ],
-            [
-              -56.895447,
-              -29.614058
-            ],
-            [
-              -57.277222,
-              -29.866847
-            ],
-            [
-              -57.301941,
-              -30.004895
+              -56.678467,
+              -30.135626
             ],
             [
               -56.799316,
-              -30.078601
+              -30.097613
+            ],
+            [
+              -57.008057,
+              -30.069094
+            ],
+            [
+              -57.106934,
+              -30.107118
+            ],
+            [
+              -57.161865,
+              -30.230595
+            ],
+            [
+              -57.32666,
+              -30.287532
+            ],
+            [
+              -57.44751,
+              -30.278044
+            ],
+            [
+              -57.601318,
+              -30.173625
+            ],
+            [
+              -57.425537,
+              -30.107118
+            ],
+            [
+              -57.304688,
+              -29.993002
+            ],
+            [
+              -57.315674,
+              -29.888281
+            ],
+            [
+              -57.161865,
+              -29.802518
+            ],
+            [
+              -56.931152,
+              -29.61167
+            ],
+            [
+              -56.78833,
+              -29.487425
+            ],
+            [
+              -56.711426,
+              -29.391748
+            ],
+            [
+              -56.634521,
+              -29.219302
+            ],
+            [
+              -56.524658,
+              -29.113775
+            ],
+            [
+              -56.414795,
+              -29.094577
+            ],
+            [
+              -56.403809,
+              -29.027355
+            ],
+            [
+              -56.282959,
+              -28.902397
+            ],
+            [
+              -56.228027,
+              -28.796546
+            ],
+            [
+              -56.12915,
+              -28.738764
+            ],
+            [
+              -55.986328,
+              -28.642389
+            ],
+            [
+              -55.975342,
+              -28.545926
+            ],
+            [
+              -55.887451,
+              -28.497661
+            ],
+            [
+              -55.876465,
+              -28.401065
+            ],
+            [
+              -55.766602,
+              -28.449374
+            ],
+            [
+              -55.689697,
+              -28.459033
+            ],
+            [
+              -55.667725,
+              -28.343065
+            ],
+            [
+              -55.733643,
+              -28.265682
+            ],
+            [
+              -55.601807,
+              -28.17856
+            ],
+            [
+              -55.447998,
+              -28.101058
+            ],
+            [
+              -55.305176,
+              -27.955591
+            ],
+            [
+              -55.118408,
+              -27.897349
+            ],
+            [
+              -55.008545,
+              -27.829361
+            ],
+            [
+              -54.931641,
+              -27.819645
+            ],
+            [
+              -54.887695,
+              -27.751608
+            ],
+            [
+              -54.887695,
+              -27.654338
+            ],
+            [
+              -54.788818,
+              -27.605671
+            ],
+            [
+              -54.580078,
+              -27.518015
+            ],
+            [
+              -54.481201,
+              -27.508271
+            ],
+            [
+              -54.415283,
+              -27.479035
+            ],
+            [
+              -54.272461,
+              -27.43029
+            ],
+            [
+              -54.18457,
+              -27.332735
+            ],
+            [
+              -54.019775,
+              -27.244863
+            ],
+            [
+              -53.953857,
+              -27.186242
+            ],
+            [
+              -53.85498,
+              -27.166695
+            ],
+            [
+              -53.76709,
+              -27.127591
+            ],
+            [
+              -53.723145,
+              -27.049342
+            ],
+            [
+              -53.657227,
+              -26.892679
+            ],
+            [
+              -53.690186,
+              -26.765231
+            ],
+            [
+              -53.723145,
+              -26.676913
+            ],
+            [
+              -53.734131,
+              -26.539394
+            ],
+            [
+              -53.701172,
+              -26.480407
+            ],
+            [
+              -53.701172,
+              -26.382028
+            ],
+            [
+              -53.64624,
+              -26.25401
             ]
           ]
         ]
@@ -193,8 +565,1100 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27284.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27284.1",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27291.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27291.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-01T10:20:00-03:00",
+        "expires": "2026-05-02T15:00:00-03:00",
+        "sent": "2026-05-01T13:18:19-03:00",
+        "pubDate": "Fri, 01 May 2026 10:20:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 01/05/2026 10:20. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54193",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Sudoeste Rio-grandense, Vale do ItajaÃ­, Noroeste Rio-grandense, Grande FlorianÃ³polis, Centro Ocidental Rio-grandense, Metropolitana de Curitiba, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Sudoeste Paranaense, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Sul Catarinense, Centro Oriental Rio-grandense, Oeste Paranaense, Centro-Sul Paranaense, Centro Oriental Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Sudoeste Rio-grandense, Vale do ItajaÃ­, Noroeste Rio-grandense, Grande FlorianÃ³polis, Centro Ocidental Rio-grandense, Metropolitana de Curitiba, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Sudoeste Paranaense, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Sul Catarinense, Centro Oriental Rio-grandense, Oeste Paranaense, Centro-Sul Paranaense, Centro Oriental Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54193"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.569092,
+              -25.383735
+            ],
+            [
+              -53.997803,
+              -25.334097
+            ],
+            [
+              -53.074951,
+              -25.463115
+            ],
+            [
+              -51.064453,
+              -25.552354
+            ],
+            [
+              -49.625244,
+              -25.691038
+            ],
+            [
+              -48.922119,
+              -25.720735
+            ],
+            [
+              -48.581543,
+              -25.938287
+            ],
+            [
+              -48.625488,
+              -26.096255
+            ],
+            [
+              -48.537598,
+              -26.155438
+            ],
+            [
+              -48.504639,
+              -26.224447
+            ],
+            [
+              -48.592529,
+              -26.411551
+            ],
+            [
+              -48.669434,
+              -26.549223
+            ],
+            [
+              -48.691406,
+              -26.637639
+            ],
+            [
+              -48.669434,
+              -26.784847
+            ],
+            [
+              -48.625488,
+              -26.814266
+            ],
+            [
+              -48.603516,
+              -26.912274
+            ],
+            [
+              -48.592529,
+              -27.039557
+            ],
+            [
+              -48.47168,
+              -27.108034
+            ],
+            [
+              -48.405762,
+              -27.127591
+            ],
+            [
+              -48.339844,
+              -27.244863
+            ],
+            [
+              -48.273926,
+              -27.401032
+            ],
+            [
+              -48.339844,
+              -27.518015
+            ],
+            [
+              -48.482666,
+              -27.722436
+            ],
+            [
+              -48.548584,
+              -27.877928
+            ],
+            [
+              -48.614502,
+              -28.033198
+            ],
+            [
+              -48.658447,
+              -28.236649
+            ],
+            [
+              -48.746338,
+              -28.459033
+            ],
+            [
+              -48.768311,
+              -28.526622
+            ],
+            [
+              -48.779297,
+              -28.594169
+            ],
+            [
+              -49.295654,
+              -28.863918
+            ],
+            [
+              -49.735107,
+              -29.353452
+            ],
+            [
+              -50.031738,
+              -29.802518
+            ],
+            [
+              -50.20752,
+              -30.192618
+            ],
+            [
+              -50.339355,
+              -30.514949
+            ],
+            [
+              -50.581055,
+              -30.826781
+            ],
+            [
+              -50.679932,
+              -30.996446
+            ],
+            [
+              -50.800781,
+              -31.17521
+            ],
+            [
+              -51.756592,
+              -31.886887
+            ],
+            [
+              -51.888428,
+              -31.961484
+            ],
+            [
+              -52.196045,
+              -32.203505
+            ],
+            [
+              -52.349854,
+              -32.417066
+            ],
+            [
+              -52.492676,
+              -32.778038
+            ],
+            [
+              -52.657471,
+              -33.183537
+            ],
+            [
+              -53.382568,
+              -33.760882
+            ],
+            [
+              -53.448486,
+              -33.669497
+            ],
+            [
+              -53.525391,
+              -33.669497
+            ],
+            [
+              -53.525391,
+              -33.60547
+            ],
+            [
+              -53.448486,
+              -33.559707
+            ],
+            [
+              -53.426514,
+              -33.422272
+            ],
+            [
+              -53.459473,
+              -33.238688
+            ],
+            [
+              -53.404541,
+              -33.14675
+            ],
+            [
+              -53.272705,
+              -33.091542
+            ],
+            [
+              -53.173828,
+              -32.971804
+            ],
+            [
+              -53.151855,
+              -32.824211
+            ],
+            [
+              -53.063965,
+              -32.824211
+            ],
+            [
+              -53.184814,
+              -32.611616
+            ],
+            [
+              -53.536377,
+              -32.481963
+            ],
+            [
+              -53.624268,
+              -32.352123
+            ],
+            [
+              -53.745117,
+              -32.091883
+            ],
+            [
+              -53.85498,
+              -31.998759
+            ],
+            [
+              -53.997803,
+              -31.877558
+            ],
+            [
+              -54.085693,
+              -31.924193
+            ],
+            [
+              -54.448242,
+              -31.644029
+            ],
+            [
+              -54.536133,
+              -31.466154
+            ],
+            [
+              -54.854736,
+              -31.409912
+            ],
+            [
+              -55.008545,
+              -31.25977
+            ],
+            [
+              -55.085449,
+              -31.316101
+            ],
+            [
+              -55.228271,
+              -31.240985
+            ],
+            [
+              -55.557861,
+              -30.836215
+            ],
+            [
+              -55.634766,
+              -30.836215
+            ],
+            [
+              -55.678711,
+              -30.968189
+            ],
+            [
+              -55.788574,
+              -31.005863
+            ],
+            [
+              -55.92041,
+              -31.071756
+            ],
+            [
+              -55.997314,
+              -31.034108
+            ],
+            [
+              -55.986328,
+              -30.789037
+            ],
+            [
+              -56.096191,
+              -30.666266
+            ],
+            [
+              -56.25,
+              -30.571721
+            ],
+            [
+              -56.447754,
+              -30.439202
+            ],
+            [
+              -56.590576,
+              -30.278044
+            ],
+            [
+              -56.810303,
+              -30.088108
+            ],
+            [
+              -57.008057,
+              -30.078601
+            ],
+            [
+              -57.106934,
+              -30.088108
+            ],
+            [
+              -57.216797,
+              -30.259067
+            ],
+            [
+              -57.513428,
+              -30.268556
+            ],
+            [
+              -57.601318,
+              -30.164126
+            ],
+            [
+              -57.44751,
+              -30.135626
+            ],
+            [
+              -57.304688,
+              -30.031055
+            ],
+            [
+              -57.293701,
+              -29.888281
+            ],
+            [
+              -57.11792,
+              -29.792984
+            ],
+            [
+              -56.986084,
+              -29.678508
+            ],
+            [
+              -56.876221,
+              -29.51611
+            ],
+            [
+              -56.744385,
+              -29.42046
+            ],
+            [
+              -56.634521,
+              -29.286399
+            ],
+            [
+              -56.557617,
+              -29.13297
+            ],
+            [
+              -56.425781,
+              -29.084977
+            ],
+            [
+              -56.337891,
+              -28.912015
+            ],
+            [
+              -56.25,
+              -28.796546
+            ],
+            [
+              -56.12915,
+              -28.709861
+            ],
+            [
+              -56.008301,
+              -28.536275
+            ],
+            [
+              -55.865479,
+              -28.449374
+            ],
+            [
+              -55.810547,
+              -28.381735
+            ],
+            [
+              -55.678711,
+              -28.430053
+            ],
+            [
+              -55.656738,
+              -28.323725
+            ],
+            [
+              -55.71167,
+              -28.256006
+            ],
+            [
+              -55.393066,
+              -28.07198
+            ],
+            [
+              -55.217285,
+              -27.907058
+            ],
+            [
+              -54.997559,
+              -27.790491
+            ],
+            [
+              -54.876709,
+              -27.683528
+            ],
+            [
+              -54.766846,
+              -27.595935
+            ],
+            [
+              -54.492187,
+              -27.527758
+            ],
+            [
+              -54.360352,
+              -27.420538
+            ],
+            [
+              -54.140625,
+              -27.322975
+            ],
+            [
+              -53.920898,
+              -27.186242
+            ],
+            [
+              -53.789063,
+              -27.15692
+            ],
+            [
+              -53.64624,
+              -26.931865
+            ],
+            [
+              -53.64624,
+              -26.833875
+            ],
+            [
+              -53.723145,
+              -26.667096
+            ],
+            [
+              -53.690186,
+              -26.519735
+            ],
+            [
+              -53.64624,
+              -26.39187
+            ],
+            [
+              -53.613281,
+              -26.283565
+            ],
+            [
+              -53.668213,
+              -26.165299
+            ],
+            [
+              -53.745117,
+              -25.987675
+            ],
+            [
+              -53.789063,
+              -25.898762
+            ],
+            [
+              -53.811035,
+              -25.720735
+            ],
+            [
+              -53.97583,
+              -25.542441
+            ],
+            [
+              -54.09668,
+              -25.502785
+            ],
+            [
+              -54.30542,
+              -25.522615
+            ],
+            [
+              -54.415283,
+              -25.631622
+            ],
+            [
+              -54.536133,
+              -25.601902
+            ],
+            [
+              -54.602051,
+              -25.542441
+            ],
+            [
+              -54.569092,
+              -25.383735
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27290.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27290.2",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Grande Perigo",
+        "event": "Tempestade",
+        "severity": "Extreme",
+        "nivel": "Extreme",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-01T10:10:00-03:00",
+        "expires": "2026-05-02T10:00:00-03:00",
+        "sent": "2026-05-01T00:00:00-03:00",
+        "pubDate": "Fri, 01 May 2026 10:10:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Extreme",
+        "description": "INMET publica aviso iniciando em: 01/05/2026 10:10. Chuva superior a 60 mm/h ou maior que 100 mm/dia, ventos superiores a 100 km/h, e queda de granizo. Grande risco de danos em edificaÃ§Ãµes, corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de Ã¡rvores, alagamentos e transtornos no transporte rodoviÃ¡rio.",
+        "instruction": "Desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de enxurrada, ou similar, coloque documentos e objetos de valor em sacos plÃ¡sticos. Em caso de situaÃ§Ã£o de grande perigo confirmada: Procure abrigo, evite permanecer ao ar livre. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54192",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Noroeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Centro Oriental Rio-grandense, Sudoeste Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Noroeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Centro Oriental Rio-grandense, Sudoeste Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54192"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.624268,
+              -26.244156
+            ],
+            [
+              -53.525391,
+              -26.293415
+            ],
+            [
+              -53.349609,
+              -26.25401
+            ],
+            [
+              -53.195801,
+              -26.303264
+            ],
+            [
+              -53.129883,
+              -26.39187
+            ],
+            [
+              -52.965088,
+              -26.362342
+            ],
+            [
+              -52.646484,
+              -26.411551
+            ],
+            [
+              -52.459717,
+              -26.696545
+            ],
+            [
+              -52.415771,
+              -26.843677
+            ],
+            [
+              -52.327881,
+              -27.059126
+            ],
+            [
+              -52.229004,
+              -27.274161
+            ],
+            [
+              -52.053223,
+              -27.352253
+            ],
+            [
+              -51.899414,
+              -27.469287
+            ],
+            [
+              -51.624756,
+              -27.498527
+            ],
+            [
+              -51.470947,
+              -27.595935
+            ],
+            [
+              -51.273193,
+              -27.71271
+            ],
+            [
+              -51.234741,
+              -27.766191
+            ],
+            [
+              -51.053467,
+              -27.887639
+            ],
+            [
+              -50.982056,
+              -27.989551
+            ],
+            [
+              -50.916138,
+              -28.193085
+            ],
+            [
+              -50.828247,
+              -28.454204
+            ],
+            [
+              -50.800781,
+              -28.666491
+            ],
+            [
+              -50.778809,
+              -28.8158
+            ],
+            [
+              -50.756836,
+              -29.017748
+            ],
+            [
+              -50.690918,
+              -29.310351
+            ],
+            [
+              -50.630493,
+              -29.453948
+            ],
+            [
+              -50.597534,
+              -29.645095
+            ],
+            [
+              -50.498657,
+              -29.888281
+            ],
+            [
+              -50.262451,
+              -30.334954
+            ],
+            [
+              -50.361328,
+              -30.543339
+            ],
+            [
+              -50.723877,
+              -31.015279
+            ],
+            [
+              -50.74585,
+              -31.099982
+            ],
+            [
+              -51.053467,
+              -31.363018
+            ],
+            [
+              -51.196289,
+              -31.475524
+            ],
+            [
+              -51.37207,
+              -31.672083
+            ],
+            [
+              -51.789551,
+              -31.868228
+            ],
+            [
+              -51.9104,
+              -31.94284
+            ],
+            [
+              -52.097168,
+              -32.147711
+            ],
+            [
+              -52.305908,
+              -32.333559
+            ],
+            [
+              -52.602539,
+              -33.017876
+            ],
+            [
+              -52.69043,
+              -33.211116
+            ],
+            [
+              -53.382568,
+              -33.751748
+            ],
+            [
+              -53.448486,
+              -33.706063
+            ],
+            [
+              -53.525391,
+              -33.67864
+            ],
+            [
+              -53.536377,
+              -33.596319
+            ],
+            [
+              -53.459473,
+              -33.550551
+            ],
+            [
+              -53.426514,
+              -33.449777
+            ],
+            [
+              -53.459473,
+              -33.220308
+            ],
+            [
+              -53.327637,
+              -33.100745
+            ],
+            [
+              -53.250732,
+              -33.091542
+            ],
+            [
+              -53.151855,
+              -32.962586
+            ],
+            [
+              -53.151855,
+              -32.79651
+            ],
+            [
+              -53.096924,
+              -32.79651
+            ],
+            [
+              -53.009033,
+              -32.759562
+            ],
+            [
+              -53.217773,
+              -32.639375
+            ],
+            [
+              -53.624268,
+              -32.389239
+            ],
+            [
+              -53.679199,
+              -32.175612
+            ],
+            [
+              -53.745117,
+              -32.073266
+            ],
+            [
+              -54.063721,
+              -31.877558
+            ],
+            [
+              -54.140625,
+              -31.868228
+            ],
+            [
+              -54.448242,
+              -31.634676
+            ],
+            [
+              -54.481201,
+              -31.503629
+            ],
+            [
+              -54.613037,
+              -31.438037
+            ],
+            [
+              -54.832764,
+              -31.428663
+            ],
+            [
+              -55.008545,
+              -31.269161
+            ],
+            [
+              -55.085449,
+              -31.316101
+            ],
+            [
+              -55.217285,
+              -31.240985
+            ],
+            [
+              -55.283203,
+              -31.156408
+            ],
+            [
+              -55.480957,
+              -30.902225
+            ],
+            [
+              -55.568848,
+              -30.807911
+            ],
+            [
+              -55.678711,
+              -30.826781
+            ],
+            [
+              -55.678711,
+              -30.911651
+            ],
+            [
+              -55.898438,
+              -31.043522
+            ],
+            [
+              -55.986328,
+              -31.062345
+            ],
+            [
+              -55.975342,
+              -30.892797
+            ],
+            [
+              -56.019287,
+              -30.779598
+            ],
+            [
+              -56.173096,
+              -30.590637
+            ],
+            [
+              -56.381836,
+              -30.448674
+            ],
+            [
+              -56.57959,
+              -30.306503
+            ],
+            [
+              -56.689453,
+              -30.135626
+            ],
+            [
+              -56.832275,
+              -30.050077
+            ],
+            [
+              -56.99707,
+              -30.088108
+            ],
+            [
+              -57.095947,
+              -30.097613
+            ],
+            [
+              -57.172852,
+              -30.211608
+            ],
+            [
+              -57.249756,
+              -30.268556
+            ],
+            [
+              -57.502441,
+              -30.259067
+            ],
+            [
+              -57.590332,
+              -30.192618
+            ],
+            [
+              -57.304688,
+              -30.021544
+            ],
+            [
+              -57.304688,
+              -29.878755
+            ],
+            [
+              -57.172852,
+              -29.783449
+            ],
+            [
+              -56.832275,
+              -29.506549
+            ],
+            [
+              -56.733398,
+              -29.372602
+            ],
+            [
+              -56.623535,
+              -29.22889
+            ],
+            [
+              -56.392822,
+              -29.05617
+            ],
+            [
+              -56.359863,
+              -28.960089
+            ],
+            [
+              -56.304932,
+              -28.844674
+            ],
+            [
+              -56.228027,
+              -28.786918
+            ],
+            [
+              -55.986328,
+              -28.536275
+            ],
+            [
+              -55.876465,
+              -28.468691
+            ],
+            [
+              -55.854492,
+              -28.372069
+            ],
+            [
+              -55.700684,
+              -28.459033
+            ],
+            [
+              -55.689697,
+              -28.352734
+            ],
+            [
+              -55.755615,
+              -28.285033
+            ],
+            [
+              -55.623779,
+              -28.168875
+            ],
+            [
+              -55.513916,
+              -28.120439
+            ],
+            [
+              -55.184326,
+              -27.868217
+            ],
+            [
+              -55.041504,
+              -27.84879
+            ],
+            [
+              -54.788818,
+              -27.566721
+            ],
+            [
+              -54.547119,
+              -27.488781
+            ],
+            [
+              -54.393311,
+              -27.479035
+            ],
+            [
+              -54.206543,
+              -27.381523
+            ],
+            [
+              -54.107666,
+              -27.283926
+            ],
+            [
+              -54.019775,
+              -27.25463
+            ],
+            [
+              -53.920898,
+              -27.215556
+            ],
+            [
+              -53.811035,
+              -27.147145
+            ],
+            [
+              -53.745117,
+              -27.049342
+            ],
+            [
+              -53.679199,
+              -26.94166
+            ],
+            [
+              -53.657227,
+              -26.853479
+            ],
+            [
+              -53.712158,
+              -26.74561
+            ],
+            [
+              -53.701172,
+              -26.549223
+            ],
+            [
+              -53.690186,
+              -26.42139
+            ],
+            [
+              -53.624268,
+              -26.244156
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27284.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27284.2",
         "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
         "event": "Tempestade",
         "severity": "Moderate",
@@ -203,7 +1667,7 @@
         "status_tempo": "hoje",
         "onset": "2026-05-01T03:00:00-03:00",
         "expires": "2026-05-02T12:00:00-03:00",
-        "sent": "2026-04-30T12:23:05-03:00",
+        "sent": "2026-04-30T00:00:00-03:00",
         "pubDate": "Fri, 01 May 2026 03:00:00 +0000",
         "sender": "info.aviso@inmet.gov.br",
         "senderName": "Instituto Nacional de Meteorologia",
@@ -213,13 +1677,13 @@
         "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
         "description": "INMET publica aviso iniciando em: 01/05/2026 03:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
         "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54181",
+        "web": "https://avisos.inmet.gov.br/54191",
         "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
         "areaDesc": "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Sudoeste Rio-grandense, Vale do ItajaÃ­, Noroeste Rio-grandense, Grande FlorianÃ³polis, Centro Ocidental Rio-grandense, Metropolitana de Curitiba, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Sudoeste Paranaense, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Sul Catarinense, Centro Oriental Rio-grandense, Oeste Paranaense, Centro-Sul Paranaense",
         "areas": [
           "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Sudoeste Rio-grandense, Vale do ItajaÃ­, Noroeste Rio-grandense, Grande FlorianÃ³polis, Centro Ocidental Rio-grandense, Metropolitana de Curitiba, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Sudoeste Paranaense, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Sul Catarinense, Centro Oriental Rio-grandense, Oeste Paranaense, Centro-Sul Paranaense"
         ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54181"
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54191"
       },
       "geometry": {
         "type": "Polygon",
@@ -504,6 +1968,194 @@
             [
               -53.648987,
               -26.919621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27285.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27285.2",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "event": "Tempestade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-01T03:00:00-03:00",
+        "expires": "2026-05-02T12:00:00-03:00",
+        "sent": "2026-04-30T00:00:00-03:00",
+        "pubDate": "Fri, 01 May 2026 03:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 01/05/2026 03:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54190",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Noroeste Rio-grandense, Centro Ocidental Rio-grandense, Sudoeste Rio-grandense, Oeste Catarinense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Sul Catarinense, Centro Oriental Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Noroeste Rio-grandense, Centro Ocidental Rio-grandense, Sudoeste Rio-grandense, Oeste Catarinense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Sul Catarinense, Centro Oriental Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54190"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.799316,
+              -30.078601
+            ],
+            [
+              -55.244751,
+              -30.486551
+            ],
+            [
+              -53.772583,
+              -31.099982
+            ],
+            [
+              -52.948608,
+              -31.477866
+            ],
+            [
+              -52.407532,
+              -31.924193
+            ],
+            [
+              -52.113647,
+              -32.157012
+            ],
+            [
+              -51.954346,
+              -32.026706
+            ],
+            [
+              -50.795288,
+              -31.151707
+            ],
+            [
+              -50.20752,
+              -30.244832
+            ],
+            [
+              -49.768066,
+              -29.372602
+            ],
+            [
+              -49.614258,
+              -29.195328
+            ],
+            [
+              -49.295654,
+              -28.887969
+            ],
+            [
+              -49.729614,
+              -28.454204
+            ],
+            [
+              -50.581055,
+              -28.004102
+            ],
+            [
+              -51.47644,
+              -27.552112
+            ],
+            [
+              -52.242737,
+              -27.264396
+            ],
+            [
+              -53.344116,
+              -27.127591
+            ],
+            [
+              -53.841248,
+              -27.193571
+            ],
+            [
+              -53.973083,
+              -27.288808
+            ],
+            [
+              -54.272461,
+              -27.488781
+            ],
+            [
+              -54.566345,
+              -27.5375
+            ],
+            [
+              -54.950867,
+              -27.839076
+            ],
+            [
+              -55.294189,
+              -27.974998
+            ],
+            [
+              -55.393066,
+              -28.096212
+            ],
+            [
+              -55.640259,
+              -28.248747
+            ],
+            [
+              -55.684204,
+              -28.459033
+            ],
+            [
+              -55.8078,
+              -28.408313
+            ],
+            [
+              -55.865479,
+              -28.468691
+            ],
+            [
+              -55.925903,
+              -28.529036
+            ],
+            [
+              -56.217041,
+              -28.813393
+            ],
+            [
+              -56.431274,
+              -29.099377
+            ],
+            [
+              -56.557617,
+              -29.140167
+            ],
+            [
+              -56.708679,
+              -29.384568
+            ],
+            [
+              -56.895447,
+              -29.614058
+            ],
+            [
+              -57.277222,
+              -29.866847
+            ],
+            [
+              -57.301941,
+              -30.004895
+            ],
+            [
+              -56.799316,
+              -30.078601
             ]
           ]
         ]
