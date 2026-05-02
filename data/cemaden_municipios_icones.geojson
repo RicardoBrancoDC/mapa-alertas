@@ -77,6 +77,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Coronel Freitas", "uf": "SC", "codibge": "4204400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.712744509715918, -26.880526912 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Coronel Freitas", "uf": "SC", "codibge": "4204400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.712744509715918, -26.880526912 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Quilombo", "uf": "SC", "codibge": "4214201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.720441837021781, -26.741580058500002 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Caçador", "uf": "SC", "codibge": "4203006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.0496911516084, -26.764062703499995 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Caçador", "uf": "SC", "codibge": "4203006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.0496911516084, -26.764062703499995 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Lages", "uf": "SC", "codibge": "4209300", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.305841758668336, -28.002364014500003 ] } }
 ]
 }
