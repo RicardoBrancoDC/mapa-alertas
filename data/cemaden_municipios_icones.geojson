@@ -58,6 +58,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Faxinal Dos Guedes", "uf": "SC", "codibge": "4205308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.253112947181805, -26.844026878499996 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Caucaia", "uf": "CE", "codibge": "2303709", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.790461866898454, -3.77157972 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caucaia", "uf": "CE", "codibge": "2303709", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -38.790461866898454, -3.77157972 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Fortaleza", "uf": "CE", "codibge": "2304400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -38.528319406182192, -3.7929828175 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Alegrete", "uf": "RS", "codibge": "4300406", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.75274105362999, -29.763241701500007 ] } }
 ]
 }
