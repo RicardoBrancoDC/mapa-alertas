@@ -3,8 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eirunepé", "uf": "AM", "codibge": "1301407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -70.11879049342879, -7.041111558500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Lábrea", "uf": "AM", "codibge": "1302405", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -65.711014310447325, -8.381733936 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cruzeiro Do Sul", "uf": "AC", "codibge": "1200203", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -72.731521405903777, -7.9566909395 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Vicência", "uf": "PE", "codibge": "2616308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.351365857897569, -7.667030376 ] } },
@@ -26,6 +24,9 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Paulista", "uf": "PE", "codibge": "2610707", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.842839913101734, -7.910726955 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Igarassu", "uf": "PE", "codibge": "2606804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.98106634100435, -7.7967774615 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "João Pessoa", "uf": "PB", "codibge": "2507507", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.853784252165724, -7.148889045500002 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Goiana", "uf": "PE", "codibge": "2606200", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.950240017667525, -7.585594918 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Goiana", "uf": "PE", "codibge": "2606200", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.950240017667525, -7.585594918 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eirunepé", "uf": "AM", "codibge": "1301407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -70.11879049342879, -7.041111558500001 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Belém", "uf": "PA", "codibge": "1501402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.502459836369425, -1.270923 ] } }
 ]
 }
