@@ -133,6 +133,266 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27310.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27310.2",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-04T15:00:00-03:00",
+        "expires": "2026-05-05T06:00:00-03:00",
+        "sent": "2026-05-04T00:00:00-03:00",
+        "pubDate": "Mon, 04 May 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 04/05/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54230",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Vale do ItajaÃ­, Noroeste Rio-grandense, Metropolitana de Curitiba, Grande FlorianÃ³polis, Metropolitana de Porto Alegre, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Centro Oriental Rio-grandense, Centro-Sul Paranaense, Sul Catarinense, Sudoeste Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Vale do ItajaÃ­, Noroeste Rio-grandense, Metropolitana de Curitiba, Grande FlorianÃ³polis, Metropolitana de Porto Alegre, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Centro Oriental Rio-grandense, Centro-Sul Paranaense, Sul Catarinense, Sudoeste Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54230"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.966064,
+              -25.710837
+            ],
+            [
+              -49.251709,
+              -25.621716
+            ],
+            [
+              -49.943848,
+              -25.740529
+            ],
+            [
+              -50.855713,
+              -26.096255
+            ],
+            [
+              -52.119141,
+              -26.263862
+            ],
+            [
+              -53.009033,
+              -26.470573
+            ],
+            [
+              -53.371582,
+              -26.647459
+            ],
+            [
+              -53.756104,
+              -27.322975
+            ],
+            [
+              -53.909912,
+              -27.926474
+            ],
+            [
+              -53.909912,
+              -28.323725
+            ],
+            [
+              -53.734131,
+              -28.758028
+            ],
+            [
+              -52.877197,
+              -29.430029
+            ],
+            [
+              -51.844482,
+              -29.993002
+            ],
+            [
+              -51.229248,
+              -30.382353
+            ],
+            [
+              -50.74585,
+              -30.334954
+            ],
+            [
+              -50.438232,
+              -30.192618
+            ],
+            [
+              -49.987793,
+              -29.276816
+            ],
+            [
+              -49.504395,
+              -28.68095
+            ],
+            [
+              -49.21875,
+              -27.907058
+            ],
+            [
+              -48.900146,
+              -27.186242
+            ],
+            [
+              -48.80127,
+              -26.598351
+            ],
+            [
+              -48.867188,
+              -25.918526
+            ],
+            [
+              -48.966064,
+              -25.710837
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27307.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27307.2",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-04T15:00:00-03:00",
+        "expires": "2026-05-05T06:00:00-03:00",
+        "sent": "2026-05-04T00:00:00-03:00",
+        "pubDate": "Mon, 04 May 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 04/05/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54228",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Vale do ItajaÃ­, Oeste Catarinense, Noroeste Rio-grandense, Metropolitana de Curitiba, Grande FlorianÃ³polis, Metropolitana de Porto Alegre, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Centro Oriental Rio-grandense, Sul Catarinense",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Vale do ItajaÃ­, Oeste Catarinense, Noroeste Rio-grandense, Metropolitana de Curitiba, Grande FlorianÃ³polis, Metropolitana de Porto Alegre, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Centro Oriental Rio-grandense, Sul Catarinense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54228"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.88916,
+              -25.819672
+            ],
+            [
+              -49.174805,
+              -25.700938
+            ],
+            [
+              -49.768066,
+              -25.859224
+            ],
+            [
+              -50.449219,
+              -26.234302
+            ],
+            [
+              -51.174316,
+              -26.470573
+            ],
+            [
+              -51.811523,
+              -26.68673
+            ],
+            [
+              -52.294922,
+              -27.019984
+            ],
+            [
+              -52.888184,
+              -27.508271
+            ],
+            [
+              -53.481445,
+              -28.07198
+            ],
+            [
+              -53.55835,
+              -28.497661
+            ],
+            [
+              -53.393555,
+              -28.921631
+            ],
+            [
+              -52.723389,
+              -29.42046
+            ],
+            [
+              -52.261963,
+              -29.707139
+            ],
+            [
+              -51.811523,
+              -29.859701
+            ],
+            [
+              -51.295166,
+              -30.135626
+            ],
+            [
+              -50.822754,
+              -30.050077
+            ],
+            [
+              -50.163574,
+              -29.554345
+            ],
+            [
+              -49.438477,
+              -28.690588
+            ],
+            [
+              -49.108887,
+              -27.839076
+            ],
+            [
+              -48.88916,
+              -26.94166
+            ],
+            [
+              -48.845215,
+              -26.056783
+            ],
+            [
+              -48.88916,
+              -25.819672
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27309.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27309.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
