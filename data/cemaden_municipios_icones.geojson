@@ -28,6 +28,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Escada", "uf": "PE", "codibge": "2605202", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.262726716960415, -8.364996590500006 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Macapá", "uf": "AP", "codibge": "1600303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -50.952855419007449, 0.571600245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Macapá", "uf": "AP", "codibge": "1600303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -50.952855419007449, 0.571600245 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Grande", "uf": "AP", "codibge": "1600535", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.501860759722334, 0.614641435 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Grande", "uf": "AP", "codibge": "1600535", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.501860759722334, 0.614641435 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Belém", "uf": "PA", "codibge": "1501402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.502459836369425, -1.270923 ] } }
 ]
 }
