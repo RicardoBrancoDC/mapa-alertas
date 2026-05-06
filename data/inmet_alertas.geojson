@@ -233,6 +233,186 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27322.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27322.2",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-06T09:00:00-03:00",
+        "expires": "2026-05-06T23:59:00-03:00",
+        "sent": "2026-05-06T00:00:00-03:00",
+        "pubDate": "Wed, 06 May 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 06/05/2026 09:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54262",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Baixo Amazonas, Centro Amazonense, Norte Amazonense, Sul Amazonense, Sul de Roraima, Sudoeste Amazonense",
+        "areas": [
+          "Aviso para as Ã¡reas: Baixo Amazonas, Centro Amazonense, Norte Amazonense, Sul Amazonense, Sul de Roraima, Sudoeste Amazonense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54262"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.409919,
+              1.660747
+            ],
+            [
+              -67.850763,
+              0.503046
+            ],
+            [
+              -67.091903,
+              -0.215662
+            ],
+            [
+              -66.692506,
+              -1.373458
+            ],
+            [
+              -65.374489,
+              -2.770009
+            ],
+            [
+              -64.975089,
+              -4.005607
+            ],
+            [
+              -63.936653,
+              -5.239342
+            ],
+            [
+              -63.617135,
+              -6.113454
+            ],
+            [
+              -62.938157,
+              -7.184258
+            ],
+            [
+              -61.500321,
+              -6.98614
+            ],
+            [
+              -60.062484,
+              -6.034045
+            ],
+            [
+              -58.90423,
+              -4.881386
+            ],
+            [
+              -57.186813,
+              -2.770009
+            ],
+            [
+              -57.066995,
+              -2.770009
+            ],
+            [
+              -55.669097,
+              -2.13174
+            ],
+            [
+              -54.750481,
+              -1.413375
+            ],
+            [
+              -54.470901,
+              -0.095876
+            ],
+            [
+              -54.830361,
+              0.26348
+            ],
+            [
+              -55.629158,
+              0.503046
+            ],
+            [
+              -56.348077,
+              0.582899
+            ],
+            [
+              -57.825852,
+              0.662751
+            ],
+            [
+              -59.143868,
+              -0.055948
+            ],
+            [
+              -59.942666,
+              -0.375373
+            ],
+            [
+              -60.901223,
+              -0.175733
+            ],
+            [
+              -61.700021,
+              -0.175733
+            ],
+            [
+              -61.939659,
+              -0.055948
+            ],
+            [
+              -62.658578,
+              0.223551
+            ],
+            [
+              -63.097916,
+              0.742603
+            ],
+            [
+              -64.056473,
+              0.782528
+            ],
+            [
+              -64.89521,
+              0.822452
+            ],
+            [
+              -65.494307,
+              1.022069
+            ],
+            [
+              -66.333046,
+              1.421263
+            ],
+            [
+              -66.892206,
+              1.900203
+            ],
+            [
+              -67.611121,
+              2.179525
+            ],
+            [
+              -68.409919,
+              1.660747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27321.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27321.1",
         "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo Potencial",
