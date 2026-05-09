@@ -1,4 +1,261 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27357.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27357.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-09T08:35:00-03:00",
+        "expires": "2026-05-09T23:59:00-03:00",
+        "sent": "2026-05-09T11:32:16-03:00",
+        "pubDate": "Sat, 09 May 2026 08:35:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 09/05/2026 08:35. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54311",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Agreste Pernambucano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Agreste Pernambucano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54311"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -34.815674,
+              -7.553101
+            ],
+            [
+              -35.040894,
+              -7.612998
+            ],
+            [
+              -35.491333,
+              -7.912353
+            ],
+            [
+              -35.639648,
+              -8.216927
+            ],
+            [
+              -35.848389,
+              -8.597316
+            ],
+            [
+              -36.090088,
+              -8.961045
+            ],
+            [
+              -36.370239,
+              -9.40571
+            ],
+            [
+              -36.765747,
+              -9.709057
+            ],
+            [
+              -36.930542,
+              -10.131117
+            ],
+            [
+              -37.007446,
+              -10.487812
+            ],
+            [
+              -36.914063,
+              -10.660608
+            ],
+            [
+              -36.502075,
+              -10.714587
+            ],
+            [
+              -36.134033,
+              -10.358151
+            ],
+            [
+              -35.656128,
+              -9.741542
+            ],
+            [
+              -35.112305,
+              -9.102097
+            ],
+            [
+              -34.887085,
+              -8.542998
+            ],
+            [
+              -34.72229,
+              -7.885147
+            ],
+            [
+              -34.711304,
+              -7.678329
+            ],
+            [
+              -34.760742,
+              -7.553101
+            ],
+            [
+              -34.815674,
+              -7.553101
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27356.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27356.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-09T08:25:00-03:00",
+        "expires": "2026-05-09T23:59:00-03:00",
+        "sent": "2026-05-09T11:22:37-03:00",
+        "pubDate": "Sat, 09 May 2026 08:25:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 09/05/2026 08:25. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54309",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Metropolitana de Curitiba, Itapetininga, Norte Central Paranaense, Centro Oriental Paranaense, Litoral Sul Paulista, Norte Catarinense, Sudeste Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte Pioneiro Paranaense, Metropolitana de Curitiba, Itapetininga, Norte Central Paranaense, Centro Oriental Paranaense, Litoral Sul Paulista, Norte Catarinense, Sudeste Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54309"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -47.592773,
+              -24.756808
+            ],
+            [
+              -48.087158,
+              -24.397133
+            ],
+            [
+              -49.383545,
+              -23.624395
+            ],
+            [
+              -50.097656,
+              -23.311991
+            ],
+            [
+              -50.943604,
+              -23.130257
+            ],
+            [
+              -51.61377,
+              -23.110049
+            ],
+            [
+              -51.899414,
+              -23.231251
+            ],
+            [
+              -52.075195,
+              -23.412847
+            ],
+            [
+              -52.075195,
+              -23.574057
+            ],
+            [
+              -51.921387,
+              -23.84565
+            ],
+            [
+              -51.481934,
+              -24.367114
+            ],
+            [
+              -50.899658,
+              -24.886436
+            ],
+            [
+              -50.152588,
+              -25.383735
+            ],
+            [
+              -49.152832,
+              -25.918526
+            ],
+            [
+              -48.669434,
+              -26.25401
+            ],
+            [
+              -48.416748,
+              -26.342653
+            ],
+            [
+              -48.372803,
+              -26.352498
+            ],
+            [
+              -48.306885,
+              -26.130782
+            ],
+            [
+              -48.208008,
+              -25.775161
+            ],
+            [
+              -47.977295,
+              -25.482951
+            ],
+            [
+              -47.785034,
+              -25.249664
+            ],
+            [
+              -47.48291,
+              -25.075648
+            ],
+            [
+              -47.389526,
+              -25.000994
+            ],
+            [
+              -47.592773,
+              -24.756808
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
