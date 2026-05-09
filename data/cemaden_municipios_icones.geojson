@@ -4,7 +4,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Lábrea", "uf": "AM", "codibge": "1302405", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -65.711014310447325, -8.381733936 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cruzeiro Do Sul", "uf": "AC", "codibge": "1200203", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -72.731521405903777, -7.9566909395 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Jaboatão Dos Guararapes", "uf": "PE", "codibge": "2607901", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.001620623033673, -8.148632700500007 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cabo De Santo Agostinho", "uf": "PE", "codibge": "2602902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.091675244559966, -8.275342245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Camaragibe", "uf": "PE", "codibge": "2603454", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.98717034834857, -7.979656307500007 ] } },
@@ -23,6 +22,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Campo Grande", "uf": "MS", "codibge": "5002704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.34737108106556, -20.875513825 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Curitiba", "uf": "PR", "codibge": "4106902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.285011088188369, -25.495230215500008 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itararé", "uf": "SP", "codibge": "3523206", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.301971977545371, -24.101336558 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São José De Ribamar", "uf": "MA", "codibge": "2111201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.136900290017067, -2.584908327 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São José De Ribamar", "uf": "MA", "codibge": "2111201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.136900290017067, -2.584908327 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.275025540500002 ] } }
 ]
 }
