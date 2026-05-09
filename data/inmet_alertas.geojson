@@ -5,8 +5,8 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27357.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27357.1",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27357.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27357.2",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
         "event": "Chuvas Intensas",
         "severity": "Severe",
@@ -15,7 +15,7 @@
         "status_tempo": "hoje",
         "onset": "2026-05-09T08:35:00-03:00",
         "expires": "2026-05-09T23:59:00-03:00",
-        "sent": "2026-05-09T11:32:16-03:00",
+        "sent": "2026-05-09T00:00:00-03:00",
         "pubDate": "Sat, 09 May 2026 08:35:00 +0000",
         "sender": "info.aviso@inmet.gov.br",
         "senderName": "Instituto Nacional de Meteorologia",
@@ -25,13 +25,13 @@
         "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
         "description": "INMET publica aviso iniciando em: 09/05/2026 08:35. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
         "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54311",
+        "web": "https://avisos.inmet.gov.br/54312",
         "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
         "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Agreste Pernambucano",
         "areas": [
           "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Agreste Pernambucano"
         ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54311"
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54312"
       },
       "geometry": {
         "type": "Polygon",
