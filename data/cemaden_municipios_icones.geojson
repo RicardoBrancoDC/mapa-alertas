@@ -23,6 +23,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio Largo", "uf": "AL", "codibge": "2707701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.86166890245341, -9.486654765 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Campo Grande", "uf": "MS", "codibge": "5002704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.34737108106556, -20.875513825 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Curitiba", "uf": "PR", "codibge": "4106902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.285011088188369, -25.495230215500008 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itararé", "uf": "SP", "codibge": "3523206", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.301971977545371, -24.101336558 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itararé", "uf": "SP", "codibge": "3523206", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.301971977545371, -24.101336558 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São José De Ribamar", "uf": "MA", "codibge": "2111201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.136900290017067, -2.584908327 ] } }
 ]
 }
