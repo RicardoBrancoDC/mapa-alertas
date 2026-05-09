@@ -21,6 +21,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Atalaia", "uf": "AL", "codibge": "2700409", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -36.081529770792031, -9.495246962500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Maceió", "uf": "AL", "codibge": "2704302", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.708427542457301, -9.543697848 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio Largo", "uf": "AL", "codibge": "2707701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.86166890245341, -9.486654765 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Campo Grande", "uf": "MS", "codibge": "5002704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.34737108106556, -20.875513825 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Campo Grande", "uf": "MS", "codibge": "5002704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.34737108106556, -20.875513825 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Curitiba", "uf": "PR", "codibge": "4106902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.285011088188369, -25.495230215500008 ] } }
 ]
 }
