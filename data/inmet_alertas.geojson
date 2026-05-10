@@ -1448,6 +1448,134 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27366.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27366.1",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo",
+        "event": "Ventos Costeiros",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-10T12:00:00-03:00",
+        "expires": "2026-05-10T23:59:00-03:00",
+        "sent": "2026-05-10T11:27:50-03:00",
+        "pubDate": "Sun, 10 May 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 10/05/2026 12:00. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/54324",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Fluminense, Vale do ParaÃ­ba Paulista, Metropolitana de SÃ£o Paulo, Litoral Sul Paulista, Metropolitana de Curitiba, Metropolitana do Rio de Janeiro",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Fluminense, Vale do ParaÃ­ba Paulista, Metropolitana de SÃ£o Paulo, Litoral Sul Paulista, Metropolitana de Curitiba, Metropolitana do Rio de Janeiro"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54324"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.164063,
+              -25.443275
+            ],
+            [
+              -48.405762,
+              -25.423431
+            ],
+            [
+              -48.405762,
+              -25.234758
+            ],
+            [
+              -48.010254,
+              -24.856534
+            ],
+            [
+              -47.252197,
+              -24.287027
+            ],
+            [
+              -46.73584,
+              -23.976215
+            ],
+            [
+              -46.2854,
+              -23.765237
+            ],
+            [
+              -45.373535,
+              -23.422928
+            ],
+            [
+              -44.846191,
+              -23.120154
+            ],
+            [
+              -44.34082,
+              -22.847071
+            ],
+            [
+              -43.692627,
+              -22.766051
+            ],
+            [
+              -43.275146,
+              -22.836946
+            ],
+            [
+              -43.184509,
+              -22.882501
+            ],
+            [
+              -43.132324,
+              -22.971038
+            ],
+            [
+              -43.187256,
+              -23.059516
+            ],
+            [
+              -43.297119,
+              -23.14036
+            ],
+            [
+              -44.307861,
+              -23.332168
+            ],
+            [
+              -44.945068,
+              -23.815501
+            ],
+            [
+              -45.681152,
+              -24.146754
+            ],
+            [
+              -46.988525,
+              -24.67697
+            ],
+            [
+              -47.867432,
+              -25.274504
+            ],
+            [
+              -48.164063,
+              -25.443275
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
