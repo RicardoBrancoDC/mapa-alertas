@@ -877,6 +877,154 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27379.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27379.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-11T18:00:00-03:00",
+        "expires": "2026-05-12T23:59:00-03:00",
+        "sent": "2026-05-11T12:08:46-03:00",
+        "pubDate": "Mon, 11 May 2026 18:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 11/05/2026 18:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54344",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Agreste Paraibano, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Agreste Pernambucano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Agreste Paraibano, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Agreste Pernambucano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54344"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -35.463867,
+              -5.194894
+            ],
+            [
+              -35.57373,
+              -5.134715
+            ],
+            [
+              -35.474854,
+              -5.965754
+            ],
+            [
+              -35.408936,
+              -6.63187
+            ],
+            [
+              -35.354004,
+              -7.28619
+            ],
+            [
+              -35.397949,
+              -7.950437
+            ],
+            [
+              -35.463867,
+              -8.341953
+            ],
+            [
+              -35.595703,
+              -8.689639
+            ],
+            [
+              -35.837402,
+              -9.264779
+            ],
+            [
+              -35.991211,
+              -9.654908
+            ],
+            [
+              -35.991211,
+              -9.795678
+            ],
+            [
+              -35.859375,
+              -9.849804
+            ],
+            [
+              -35.738525,
+              -9.703643
+            ],
+            [
+              -35.595703,
+              -9.568251
+            ],
+            [
+              -35.408936,
+              -9.356933
+            ],
+            [
+              -35.271606,
+              -9.134639
+            ],
+            [
+              -35.029907,
+              -8.678779
+            ],
+            [
+              -34.909058,
+              -8.265855
+            ],
+            [
+              -34.84314,
+              -7.912353
+            ],
+            [
+              -34.760742,
+              -7.357019
+            ],
+            [
+              -34.832153,
+              -6.871893
+            ],
+            [
+              -34.898071,
+              -6.67552
+            ],
+            [
+              -34.914551,
+              -6.479067
+            ],
+            [
+              -35.046387,
+              -6.140555
+            ],
+            [
+              -35.211182,
+              -5.626919
+            ],
+            [
+              -35.359497,
+              -5.287887
+            ],
+            [
+              -35.463867,
+              -5.194894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27377.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27377.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
