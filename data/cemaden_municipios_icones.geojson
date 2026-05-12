@@ -15,6 +15,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Olinda", "uf": "PE", "codibge": "2609600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.870585017494683, -7.999503742 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Nhamundá", "uf": "AM", "codibge": "1303007", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -58.444829297533502, -1.081697076 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Nhamundá", "uf": "AM", "codibge": "1303007", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -58.444829297533502, -1.081697076 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Almeirim", "uf": "PA", "codibge": "1500503", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.007353462174592, 0.408896119 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Almeirim", "uf": "PA", "codibge": "1500503", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.007353462174592, 0.408896119 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Monte Alegre", "uf": "PA", "codibge": "1504802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.288462126840244, -1.021435509500004 ] } }
 ]
 }
