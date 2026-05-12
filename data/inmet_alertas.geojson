@@ -1,4 +1,169 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27381.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27381.1",
+        "titulo": "Aviso de Geada. Severidade Grau: Perigo Potencial",
+        "event": "Geada",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-12T04:00:00-03:00",
+        "expires": "2026-05-12T09:00:00-03:00",
+        "sent": "2026-05-11T12:21:35-03:00",
+        "pubDate": "Tue, 12 May 2026 04:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Geada. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 12/05/2026 04:00. Risco leve de perda de plantaÃ§Ãµes. Temperatura mÃ­nima atÃ© 3ÂºC.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/54347",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Vale do ItajaÃ­, Oeste Catarinense, Noroeste Rio-grandense, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Centro-Sul Paranaense, Sul Catarinense, Centro Oriental Rio-grandense, Metropolitana de Porto Alegre",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Vale do ItajaÃ­, Oeste Catarinense, Noroeste Rio-grandense, Nordeste Rio-grandense, Sudeste Paranaense, Norte Catarinense, Centro-Sul Paranaense, Sul Catarinense, Centro Oriental Rio-grandense, Metropolitana de Porto Alegre"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54347"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.893921,
+              -26.779943
+            ],
+            [
+              -51.849976,
+              -26.52465
+            ],
+            [
+              -51.800537,
+              -26.194877
+            ],
+            [
+              -51.698914,
+              -25.930877
+            ],
+            [
+              -51.479187,
+              -25.807309
+            ],
+            [
+              -51.221008,
+              -25.738055
+            ],
+            [
+              -50.990295,
+              -25.710837
+            ],
+            [
+              -50.476685,
+              -25.738055
+            ],
+            [
+              -50.265198,
+              -25.849337
+            ],
+            [
+              -50.136108,
+              -26.032106
+            ],
+            [
+              -49.9823,
+              -26.436147
+            ],
+            [
+              -49.86969,
+              -27.03711
+            ],
+            [
+              -49.75708,
+              -27.595935
+            ],
+            [
+              -49.751587,
+              -28.28987
+            ],
+            [
+              -49.751587,
+              -28.579698
+            ],
+            [
+              -49.938354,
+              -28.777289
+            ],
+            [
+              -49.927368,
+              -29.099377
+            ],
+            [
+              -50.059204,
+              -29.209713
+            ],
+            [
+              -50.240479,
+              -29.226493
+            ],
+            [
+              -50.767822,
+              -29.226493
+            ],
+            [
+              -51.135864,
+              -29.269629
+            ],
+            [
+              -51.377563,
+              -29.329509
+            ],
+            [
+              -51.616516,
+              -29.305561
+            ],
+            [
+              -51.838989,
+              -29.13297
+            ],
+            [
+              -52.058716,
+              -28.921631
+            ],
+            [
+              -52.542114,
+              -28.550751
+            ],
+            [
+              -52.608032,
+              -28.318889
+            ],
+            [
+              -52.462463,
+              -27.758899
+            ],
+            [
+              -52.190552,
+              -27.43029
+            ],
+            [
+              -52.025757,
+              -27.103144
+            ],
+            [
+              -51.893921,
+              -26.779943
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
