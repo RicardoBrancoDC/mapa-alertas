@@ -22,6 +22,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Abaetetuba", "uf": "PA", "codibge": "1500107", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -48.853991895381384, -1.734568735500003 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Abaetetuba", "uf": "PA", "codibge": "1500107", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -48.853991895381384, -1.734568735500003 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São José De Ribamar", "uf": "MA", "codibge": "2111201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.136900290017067, -2.584908327 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Igarassu", "uf": "PE", "codibge": "2606804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.98106634100435, -7.7967774615 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Igarassu", "uf": "PE", "codibge": "2606804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.98106634100435, -7.7967774615 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528728, -4.537876234 ] } }
 ]
 }
