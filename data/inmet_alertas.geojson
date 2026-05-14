@@ -4,1406 +4,890 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27405.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27405.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo",
-        "severity_group": "perigo",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
-        "descricao": "INMET publica aviso iniciando em: 14/05/2026 00:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elétrica,  queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda) Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
-        "onset": "2026-05-14T00:00:00-03:00",
+        "onset": "2026-05-14T09:12:00-03:00",
         "expires": "2026-05-14T23:59:00-03:00",
-        "sent": "2026-05-13T12:16:03-03:00",
+        "sent": "2026-05-14T12:10:53-03:00",
+        "pubDate": "Thu, 14 May 2026 09:12:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-14T10:28:30.289930+00:00",
-        "link": "https://avisos.inmet.gov.br/54376",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54376",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54376",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27402.1",
-        "color_risk": "#F96602",
-        "municipios": "Abaetetuba - PA (1500107), Acará - PA (1500206), Afuá - PA (1500305), Água Doce do Maranhão - MA (2100154), Alcântara - MA (2100204), Alenquer - PA (1500404), Almeirim - PA (1500503), Alto Alegre - RR (1400050), Amajari - RR (1400027), Amapá - AP (1600105), Amapá do Maranhão - MA (2100550), Anajás - PA (1500701), Ananindeua - PA (1500800), Apicum-Açu - MA (2100832), Araguanã - MA (2100873), Araioses - MA (2100907), Augusto Corrêa - PA (1500909), Aurora do Pará - PA (1500958), Axixá - MA (2101103), Bacabeira - MA (2101251), Bacuri - MA (2101301), Bacurituba - MA (2101350), Bagre - PA (1501105), Barcarena - PA (1501303), Barcelos - AM (1300409), Barreirinhas - MA (2101707), Barroquinha - CE (2302057), Belágua - MA (2101731), Belém - PA (1501402), Benevides - PA (1501501), Bequimão - MA (2101905), Boa Vista - RR (1400100), Boa Vista do Gurupi - MA (2101970), Bom Princípio do Piauí - PI (2201919), Bonfim - RR (1400159), Bonito - PA (1501600), Bragança - PA (1501709), Breves - PA (1501808), Bujaru - PA (1501907), Buriti dos Lopes - PI (2202000), Cachoeira do Arari - PA (1502004), Cachoeira do Piriá - PA (1501956), Cachoeira Grande - MA (2102374), Cajapió - MA (2102408), Cajueiro da Praia - PI (2202083), Calçoene - AP (1600204), Cametá - PA (1502103), Camocim - CE (2302602), Cândido Mendes - MA (2102606), Cantá - RR (1400175), Capanema - PA (1502202), Capitão Poço - PA (1502301), Caracaraí - RR (1400209), Caroebe - RR (1400233), Carutapera - MA (2102903), Castanhal - PA (1502400), Cedral - MA (2103109), Central do Maranhão - MA (2103125), Centro do Guilherme - MA (2103158), Centro Novo do Maranhão - MA (2103174), Chaval - CE (2303907), Chaves - PA (1502509), Colares - PA (1502608), Concórdia do Pará - PA (1502756), Curralinho - PA (1502806), Curuá - PA (1502855), Curuçá - PA (1502905), Cururupu - MA (2103703), Cutias - AP (1600212), Faro - PA (1503002), Ferreira Gomes - AP (1600238), Garrafão do Norte - PA (1503077), Godofredo Viana - MA (2104305), Governador Nunes Freire - MA (2104677), Granja - CE (2304707), Guimarães - MA (2104909), Gurupá - PA (1503101), Humberto de Campos - MA (2105005), Icatu - MA (2105104), Igarapé-Açu - PA (1503200), Igarapé-Miri - PA (1503309), Ilha Grande - PI (2204659), Inhangapi - PA (1503408), Ipixuna do Pará - PA (1503457), Iracema - RR (1400282), Irituia - PA (1503507), Itaubal - AP (1600253), Junco do Maranhão - MA (2105658), Juruti - PA (1503903), Laranjal do Jari - AP (1600279), Limoeiro do Ajuru - PA (1504000), Luís Correia - PI (2205706), Luís Domingues - MA (2106201), Macapá - AP (1600303), Mãe do Rio - PA (1504059), Magalhães Barata - PA (1504109), Maracaçumé - MA (2106326), Maracanã - PA (1504307), Maranhãozinho - MA (2106375), Marapanim - PA (1504406), Marituba - PA (1504422), Matinha - MA (2106508), Mazagão - AP (1600402), Melgaço - PA (1504505), Mirinzal - MA (2106805), Mocajuba - PA (1504604), Moju - PA (1504703), Monte Alegre - PA (1504802), Morros - MA (2107100), Muaná - PA (1504901), Mucajaí - RR (1400308), Nhamundá - AM (1303007), Normandia - RR (1400407), Nova Esperança do Piriá - PA (1504950), Nova Olinda do Maranhão - MA (2107357), Nova Timboteua - PA (1505007), Novo Airão - AM (1303205), Óbidos - PA (1505106), Oeiras do Pará - PA (1505205), Oiapoque - AP (1600501), Olinda Nova do Maranhão - MA (2107456), Oriximiná - PA (1505304), Ourém - PA (1505403), Pacaraima - RR (1400456), Paço do Lumiar - MA (2107506), Palmeirândia - MA (2107605), Paragominas - PA (1505502), Parnaíba - PI (2207702), Paulino Neves - MA (2108058), Pedra Branca do Amapari - AP (1600154), Pedro do Rosário - MA (2108256), Peixe-Boi - PA (1505601), Peri Mirim - MA (2108405), Pinheiro - MA (2108603), Ponta de Pedras - PA (1505700), Portel - PA (1505809), Porto de Moz - PA (1505908), Porto Grande - AP (1600535), Porto Rico do Maranhão - MA (2109056), Pracuúba - AP (1600550), Prainha - PA (1506005), Presidente Figueiredo - AM (1303536), Presidente Juscelino - MA (2109205), Presidente Médici - MA (2109239), Presidente Sarney - MA (2109270), Primavera - PA (1506104), Primeira Cruz - MA (2109403), Quatipuru - PA (1506112), Raposa - MA (2109452), Rorainópolis - RR (1400472), Rosário - MA (2109601), Salinópolis - PA (1506203), Salvaterra - PA (1506302), Santa Bárbara do Pará - PA (1506351), Santa Cruz do Arari - PA (1506401), Santa Helena - MA (2109809), Santa Isabel do Rio Negro - AM (1303601), Santa Izabel do Pará - PA (1506500), Santa Luzia do Pará - PA (1506559), Santa Luzia do Paruá - MA (2110039), Santa Maria do Pará - PA (1506609), Santana - AP (1600600), Santana do Maranhão - MA (2110237), Santarém - PA (1506807), Santarém Novo - PA (1506906), Santa Rita - MA (2110203), Santo Amaro do Maranhão - MA (2110278), Santo Antônio do Tauá - PA (1507003), São Bento - MA (2110500), São Caetano de Odivelas - PA (1507102), São Domingos do Capim - PA (1507201), São Francisco do Pará - PA (1507409), São João Batista - MA (2111003), São João da Baliza - RR (1400506), São João da Ponta - PA (1507466), São João de Pirabas - PA (1507474), São José de Ribamar - MA (2111201), São Luís - MA (2111300), São Luiz - RR (1400605), São Miguel do Guamá - PA (1507607), São Sebastião da Boa Vista - PA (1507706), São Sebastião do Uatumã - AM (1303957), São Vicente Ferrer - MA (2111706), Senador José Porfírio - PA (1507805), Serra do Navio - AP (1600055), Serrano do Maranhão - MA (2111789), Soure - PA (1507904), Tailândia - PA (1507953), Tartarugalzinho - AP (1600709), Terra Alta - PA (1507961), Terra Santa - PA (1507979), Tomé-Açu - PA (1508001), Tracuateua - PA (1508035), Turiaçu - MA (2112407), Turilândia - MA (2112456), Tutóia - MA (2112506), Uiramutã - RR (1400704), Urbano Santos - MA (2112605), Urucará - AM (1304302), Viana - MA (2112803), Vigia - PA (1508209), Viseu - PA (1508308), Vitória do Jari - AP (1600808)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Nordeste Paraense, Marajó, Leste Maranhense, Norte Maranhense, Baixo Amazonas, Norte de Roraima, Norte do Amapá, Oeste Maranhense, Metropolitana de Belém, Norte Amazonense, Noroeste Cearense, Norte Piauiense, Sul de Roraima, Sul do Amapá, Centro Amazonense, Sudeste Paraense, Sudoeste Paraense",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "1.061221,-65.322533 0.02301,-64.204217 -1.534214,-62.047462 -2.212717,-58.892212 -2.132907,-55.337563 -2.651589,-51.143874 -2.611697,-48.148382 -3.010551,-45.033073 -3.050428,-42.996139 -3.13018,-41.158907 -2.827192,-40.668583 -2.827192,-41.30762 -2.809316,-41.747861 -2.729542,-41.86768 -2.689653,-42.102327 -2.649763,-42.287049 -2.599899,-42.671471 -2.475229,-42.981005 -2.335585,-43.365426 -2.270745,-43.585095 -2.275733,-43.684945 -2.415383,-43.974509 -2.435332,-44.184194 -2.410396,-44.363923 -2.111128,-44.428825 -1.731973,-44.648495 -1.522407,-44.828224 -1.387675,-44.992976 -1.327791,-45.257578 -1.123179,-46.051383 -0.763827,-46.910091 -0.609096,-47.339444 -0.574156,-47.763806 -0.464343,-48.412829 -0.29463,-48.397851 -0.224747,-48.502693 -0.199788,-48.922062 -0.045046,-49.246574 0.239479,-49.591055 0.36427,-49.725852 0.359278,-50.055356 0.613845,-50.050364 0.938274,-50.010424 1.152881,-49.900589 1.706784,-49.925552 1.861451,-50.240078 2.175732,-50.459747 2.335343,-50.669432 3.008484,-50.978966 3.850561,-51.068831 4.248899,-51.318455 4.447991,-51.518154 4.014899,-51.792741 3.14805,-52.316952 2.559763,-52.571568 2.265515,-52.906065 2.190696,-53.075809 2.290454,-53.315449 2.270503,-53.510156 2.335342,-53.774757 2.215636,-54.244051 2.440077,-54.72333 2.574723,-55.002909 2.494934,-55.332413 2.47,-55.771751 2.529843,-55.986428 2.255539,-56.126218 1.96123,-55.911541 1.881407,-55.966458 1.956241,-56.395812 1.986173,-57.109738 1.911341,-57.409287 1.731731,-57.808685 1.562084,-58.347874 1.237721,-58.857107 1.517175,-59.261499 1.796592,-59.680867 2.270503,-59.735785 2.38023,-59.915514 2.794117,-59.985409 3.123129,-59.915514 3.516809,-59.790702 3.885423,-59.571033 4.363383,-59.710822 4.502733,-60.075273 4.522638,-60.145168 4.915643,-60.015364 5.069798,-59.995394 5.263683,-60.200086 5.213975,-60.689349 4.935536,-60.594492 4.731605,-60.804176 4.507709,-61.128688 4.51584,-61.309547 4.371516,-61.509247 4.217208,-61.713938 4.142532,-62.043443 4.162446,-62.432856 3.998138,-62.72242 3.903521,-62.8023 3.749124,-62.772345 3.664443,-63.011985 3.97324,-63.316526 3.948341,-63.446331 3.86866,-63.461308 3.988179,-63.670993 3.908501,-64.015474 4.082786,-64.140286 4.157468,-64.604588 4.291877,-64.754362 4.242098,-64.824257 4.072828,-64.739385 3.938381,-64.62955 3.724218,-64.424858 3.664443,-64.290061 3.495056,-64.200196 3.360522,-64.275083 3.086414,-64.230151 2.877047,-64.080376 2.582872,-64.005489 2.443239,-63.995504 2.393366,-63.755865 2.428277,-63.476286 2.223787,-63.361459 1.939448,-64.020467 1.620135,-64.120316 1.445488,-64.344978 1.505369,-64.419865 1.240885,-64.774332 1.061221,-65.322533"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.322533,
-              1.061221
-            ],
-            [
-              -64.204217,
-              0.02301
-            ],
-            [
-              -62.047462,
-              -1.534214
-            ],
-            [
-              -58.892212,
-              -2.212717
-            ],
-            [
-              -55.337563,
-              -2.132907
-            ],
-            [
-              -51.143874,
-              -2.651589
-            ],
-            [
-              -48.148382,
-              -2.611697
-            ],
-            [
-              -45.033073,
-              -3.010551
-            ],
-            [
-              -42.996139,
-              -3.050428
-            ],
-            [
-              -41.158907,
-              -3.13018
-            ],
-            [
-              -40.668583,
-              -2.827192
-            ],
-            [
-              -41.30762,
-              -2.827192
-            ],
-            [
-              -41.747861,
-              -2.809316
-            ],
-            [
-              -41.86768,
-              -2.729542
-            ],
-            [
-              -42.102327,
-              -2.689653
-            ],
-            [
-              -42.287049,
-              -2.649763
-            ],
-            [
-              -42.671471,
-              -2.599899
-            ],
-            [
-              -42.981005,
-              -2.475229
-            ],
-            [
-              -43.365426,
-              -2.335585
-            ],
-            [
-              -43.585095,
-              -2.270745
-            ],
-            [
-              -43.684945,
-              -2.275733
-            ],
-            [
-              -43.974509,
-              -2.415383
-            ],
-            [
-              -44.184194,
-              -2.435332
-            ],
-            [
-              -44.363923,
-              -2.410396
-            ],
-            [
-              -44.428825,
-              -2.111128
-            ],
-            [
-              -44.648495,
-              -1.731973
-            ],
-            [
-              -44.828224,
-              -1.522407
-            ],
-            [
-              -44.992976,
-              -1.387675
-            ],
-            [
-              -45.257578,
-              -1.327791
-            ],
-            [
-              -46.051383,
-              -1.123179
-            ],
-            [
-              -46.910091,
-              -0.763827
-            ],
-            [
-              -47.339444,
-              -0.609096
-            ],
-            [
-              -47.763806,
-              -0.574156
-            ],
-            [
-              -48.412829,
-              -0.464343
-            ],
-            [
-              -48.397851,
-              -0.29463
-            ],
-            [
-              -48.502693,
-              -0.224747
-            ],
-            [
-              -48.922062,
-              -0.199788
-            ],
-            [
-              -49.246574,
-              -0.045046
-            ],
-            [
-              -49.591055,
-              0.239479
-            ],
-            [
-              -49.725852,
-              0.36427
-            ],
-            [
-              -50.055356,
-              0.359278
-            ],
-            [
-              -50.050364,
-              0.613845
-            ],
-            [
-              -50.010424,
-              0.938274
-            ],
-            [
-              -49.900589,
-              1.152881
-            ],
-            [
-              -49.925552,
-              1.706784
-            ],
-            [
-              -50.240078,
-              1.861451
-            ],
-            [
-              -50.459747,
-              2.175732
-            ],
-            [
-              -50.669432,
-              2.335343
-            ],
-            [
-              -50.978966,
-              3.008484
-            ],
-            [
-              -51.068831,
-              3.850561
-            ],
-            [
-              -51.318455,
-              4.248899
-            ],
-            [
-              -51.518154,
-              4.447991
-            ],
-            [
-              -51.792741,
-              4.014899
-            ],
-            [
-              -52.316952,
-              3.14805
-            ],
-            [
-              -52.571568,
-              2.559763
-            ],
-            [
-              -52.906065,
-              2.265515
-            ],
-            [
-              -53.075809,
-              2.190696
-            ],
-            [
-              -53.315449,
-              2.290454
-            ],
-            [
-              -53.510156,
-              2.270503
-            ],
-            [
-              -53.774757,
-              2.335342
-            ],
-            [
-              -54.244051,
-              2.215636
-            ],
-            [
-              -54.72333,
-              2.440077
-            ],
-            [
-              -55.002909,
-              2.574723
-            ],
-            [
-              -55.332413,
-              2.494934
-            ],
-            [
-              -55.771751,
-              2.47
-            ],
-            [
-              -55.986428,
-              2.529843
-            ],
-            [
-              -56.126218,
-              2.255539
-            ],
-            [
-              -55.911541,
-              1.96123
-            ],
-            [
-              -55.966458,
-              1.881407
-            ],
-            [
-              -56.395812,
-              1.956241
-            ],
-            [
-              -57.109738,
-              1.986173
-            ],
-            [
-              -57.409287,
-              1.911341
-            ],
-            [
-              -57.808685,
-              1.731731
-            ],
-            [
-              -58.347874,
-              1.562084
-            ],
-            [
-              -58.857107,
-              1.237721
-            ],
-            [
-              -59.261499,
-              1.517175
-            ],
-            [
-              -59.680867,
-              1.796592
-            ],
-            [
-              -59.735785,
-              2.270503
-            ],
-            [
-              -59.915514,
-              2.38023
-            ],
-            [
-              -59.985409,
-              2.794117
-            ],
-            [
-              -59.915514,
-              3.123129
-            ],
-            [
-              -59.790702,
-              3.516809
-            ],
-            [
-              -59.571033,
-              3.885423
-            ],
-            [
-              -59.710822,
-              4.363383
-            ],
-            [
-              -60.075273,
-              4.502733
-            ],
-            [
-              -60.145168,
-              4.522638
-            ],
-            [
-              -60.015364,
-              4.915643
-            ],
-            [
-              -59.995394,
-              5.069798
-            ],
-            [
-              -60.200086,
-              5.263683
-            ],
-            [
-              -60.689349,
-              5.213975
-            ],
-            [
-              -60.594492,
-              4.935536
-            ],
-            [
-              -60.804176,
-              4.731605
-            ],
-            [
-              -61.128688,
-              4.507709
-            ],
-            [
-              -61.309547,
-              4.51584
-            ],
-            [
-              -61.509247,
-              4.371516
-            ],
-            [
-              -61.713938,
-              4.217208
-            ],
-            [
-              -62.043443,
-              4.142532
-            ],
-            [
-              -62.432856,
-              4.162446
-            ],
-            [
-              -62.72242,
-              3.998138
-            ],
-            [
-              -62.8023,
-              3.903521
-            ],
-            [
-              -62.772345,
-              3.749124
-            ],
-            [
-              -63.011985,
-              3.664443
-            ],
-            [
-              -63.316526,
-              3.97324
-            ],
-            [
-              -63.446331,
-              3.948341
-            ],
-            [
-              -63.461308,
-              3.86866
-            ],
-            [
-              -63.670993,
-              3.988179
-            ],
-            [
-              -64.015474,
-              3.908501
-            ],
-            [
-              -64.140286,
-              4.082786
-            ],
-            [
-              -64.604588,
-              4.157468
-            ],
-            [
-              -64.754362,
-              4.291877
-            ],
-            [
-              -64.824257,
-              4.242098
-            ],
-            [
-              -64.739385,
-              4.072828
-            ],
-            [
-              -64.62955,
-              3.938381
-            ],
-            [
-              -64.424858,
-              3.724218
-            ],
-            [
-              -64.290061,
-              3.664443
-            ],
-            [
-              -64.200196,
-              3.495056
-            ],
-            [
-              -64.275083,
-              3.360522
-            ],
-            [
-              -64.230151,
-              3.086414
-            ],
-            [
-              -64.080376,
-              2.877047
-            ],
-            [
-              -64.005489,
-              2.582872
-            ],
-            [
-              -63.995504,
-              2.443239
-            ],
-            [
-              -63.755865,
-              2.393366
-            ],
-            [
-              -63.476286,
-              2.428277
-            ],
-            [
-              -63.361459,
-              2.223787
-            ],
-            [
-              -64.020467,
-              1.939448
-            ],
-            [
-              -64.120316,
-              1.620135
-            ],
-            [
-              -64.344978,
-              1.445488
-            ],
-            [
-              -64.419865,
-              1.505369
-            ],
-            [
-              -64.774332,
-              1.240885
-            ],
-            [
-              -65.322533,
-              1.061221
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
-        "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
         "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 14/05/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
-        "onset": "2026-05-14T00:00:00-03:00",
-        "expires": "2026-05-14T23:59:00-03:00",
-        "sent": "2026-05-13T12:04:26-03:00",
-        "urgency": "Future",
-        "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-14T10:28:30.289930+00:00",
-        "link": "https://avisos.inmet.gov.br/54373",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54373",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54373",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27399.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Abaetetuba - PA (1500107), Abel Figueiredo - PA (1500131), Açailândia - MA (2100055), Acará - PA (1500206), Acaraú - CE (2300200), Acrelândia - AC (1200013), Afonso Cunha - MA (2100105), Afuá - PA (1500305), Água Doce do Maranhão - MA (2100154), Alcântara - MA (2100204), Alcântaras - CE (2300507), Aldeias Altas - MA (2100303), Alenquer - PA (1500404), Almeirim - PA (1500503), Alta Floresta - MT (5100250), Altamira - PA (1500602), Altamira do Maranhão - MA (2100402), Alto Alegre - RR (1400050), Alto Alegre do Maranhão - MA (2100436), Alto Alegre do Pindaré - MA (2100477), Alto Paraíso - RO (1100403), Alvarães - AM (1300029), Amajari - RR (1400027), Amapá - AP (1600105), Amapá do Maranhão - MA (2100550), Amaturá - AM (1300060), Amontada - CE (2300754), Anajás - PA (1500701), Anajatuba - MA (2100709), Anamã - AM (1300086), Ananindeua - PA (1500800), Anapu - PA (1500859), Anapurus - MA (2100808), Anori - AM (1300102), Apiacás - MT (5100805), Apicum-Açu - MA (2100832), Apuí - AM (1300144), Araguanã - MA (2100873), Araioses - MA (2100907), Arari - MA (2101004), Aripuanã - MT (5101407), Ariquemes - RO (1100023), Atalaia do Norte - AM (1300201), Augusto Corrêa - PA (1500909), Aurora do Pará - PA (1500958), Autazes - AM (1300300), Aveiro - PA (1501006), Axixá - MA (2101103), Bacabal - MA (2101202), Bacabeira - MA (2101251), Bacuri - MA (2101301), Bacurituba - MA (2101350), Bagre - PA (1501105), Baião - PA (1501204), Barcarena - PA (1501303), Barcelos - AM (1300409), Barras - PI (2201200), Barreirinha - AM (1300508), Barreirinhas - MA (2101707), Barroquinha - CE (2302057), Batalha - PI (2201507), Bela Cruz - CE (2302305), Belágua - MA (2101731), Bela Vista do Maranhão - MA (2101772), Belém - PA (1501402), Belterra - PA (1501451), Benevides - PA (1501501), Benjamin Constant - AM (1300607), Bequimão - MA (2101905), Beruri - AM (1300631), Boa Vista - RR (1400100), Boa Vista do Gurupi - MA (2101970), Boa Vista do Ramos - AM (1300680), Boca do Acre - AM (1300706), Bom Jardim - MA (2102002), Bom Jesus das Selvas - MA (2102036), Bom Jesus do Tocantins - PA (1501576), Bom Lugar - MA (2102077), Bom Princípio do Piauí - PI (2201919), Bonfim - RR (1400159), Bonito - PA (1501600), Borba - AM (1300805), Bragança - PA (1501709), Brasileira - PI (2201960), Brasil Novo - PA (1501725), Brejo - MA (2102101), Brejo de Areia - MA (2102150), Breu Branco - PA (1501782), Breves - PA (1501808), Bujaru - PA (1501907), Buriti - MA (2102200), Buriticupu - MA (2102325), Buriti dos Lopes - PI (2202000), Buritis - RO (1100452), Caapiranga - AM (1300839), Cacaulândia - RO (1100601), Cachoeira do Arari - PA (1502004), Cachoeira do Piriá - PA (1501956), Cachoeira Grande - MA (2102374), Cajapió - MA (2102408), Cajari - MA (2102507), Cajueiro da Praia - PI (2202083), Calçoene - AP (1600204), Cametá - PA (1502103), Camocim - CE (2302602), Campo Largo do Piauí - PI (2202174), Campo Novo de Rondônia - RO (1100700), Candeias do Jamari - RO (1100809), Cândido Mendes - MA (2102606), Cantá - RR (1400175), Cantanhede - MA (2102705), Canutama - AM (1300904), Capanema - PA (1502202), Capitão Poço - PA (1502301), Caracaraí - RR (1400209), Carauari - AM (1301001), Caraúbas do Piauí - PI (2202539), Careiro - AM (1301100), Careiro da Várzea - AM (1301159), Cariré - CE (2303105), Caroebe - RR (1400233), Carutapera - MA (2102903), Castanhal - PA (1502400), Castanheira - MT (5102850), Caxingó - PI (2202653), Cedral - MA (2103109), Central do Maranhão - MA (2103125), Centro do Guilherme - MA (2103158), Centro Novo do Maranhão - MA (2103174), Chapadinha - MA (2103208), Chaval - CE (2303907), Chaves - PA (1502509), Cidelândia - MA (2103257), Coari - AM (1301209), Cocal - PI (2202703), Cocal dos Alves - PI (2202729), Codajás - AM (1301308), Codó - MA (2103307), Coelho Neto - MA (2103406), Colares - PA (1502608), Colniza - MT (5103254), Conceição do Lago-Açu - MA (2103554), Concórdia do Pará - PA (1502756), Coreaú - CE (2304004), Coroatá - MA (2103604), Cotriguaçu - MT (5103379), Cruz - CE (2304251), Cujubim - RO (1100940), Curralinho - PA (1502806), Curuá - PA (1502855), Curuçá - PA (1502905), Cururupu - MA (2103703), Cutias - AP (1600212), Dom Eliseu - PA (1502939), Duque Bacelar - MA (2103901), Eirunepé - AM (1301407), Envira - AM (1301506), Esperantina - PI (2203701), Faro - PA (1503002), Ferreira Gomes - AP (1600238), Fonte Boa - AM (1301605), Forquilha - CE (2304350), Frecheirinha - CE (2304509), Garrafão do Norte - PA (1503077), Godofredo Viana - MA (2104305), Goianésia do Pará - PA (1503093), Governador Jorge Teixeira - RO (1101005), Governador Newton Bello - MA (2104651), Governador Nunes Freire - MA (2104677), Granja - CE (2304707), Guajará-Mirim - RO (1100106), Guimarães - MA (2104909), Gurupá - PA (1503101), Humaitá - AM (1301704), Humberto de Campos - MA (2105005), Ibiapina - CE (2305308), Icatu - MA (2105104), Igarapé-Açu - PA (1503200), Igarapé do Meio - MA (2105153), Igarapé Grande - MA (2105203), Igarapé-Miri - PA (1503309), Ilha Grande - PI (2204659), Inhangapi - PA (1503408), Ipixuna do Pará - PA (1503457), Iracema - RR (1400282), Iranduba - AM (1301852), Irituia - PA (1503507), Itacoatiara - AM (1301902), Itaituba - PA (1503606), Itamarati - AM (1301951), Itapecuru Mirim - MA (2105401), Itapipoca - CE (2306405), Itapiranga - AM (1302009), Itapuã do Oeste - RO (1101104), Itarema - CE (2306553), Itaubal - AP (1600253), Itinga do Maranhão - MA (2105427), Itupiranga - PA (1503705), Jacareacanga - PA (1503754), Jacundá - PA (1503804), Japurá - AM (1302108), Jaru - RO (1100114), Jijoca de Jericoacoara - CE (2307254), Ji-Paraná - RO (1100122), Joaquim Pires - PI (2205409), Joca Marques - PI (2205458), Juara - MT (5105101), Juína - MT (5105150), Junco do Maranhão - MA (2105658), Juruá - AM (1302207), Juruena - MT (5105176), Juruti - PA (1503903), Jutaí - AM (1302306), Lábrea - AM (1302405), Lago da Pedra - MA (2105708), Lago do Junco - MA (2105807), Lago dos Rodrigues - MA (2105948), Lago Verde - MA (2105906), Laranjal do Jari - AP (1600279), Limoeiro do Ajuru - PA (1504000), Luís Correia - PI (2205706), Luís Domingues - MA (2106201), Luzilândia - PI (2205805), Macapá - AP (1600303), Machadinho D'Oeste - RO (1100130), Madeiro - PI (2205854), Mãe do Rio - PA (1504059), Magalhães Barata - PA (1504109), Magalhães de Almeida - MA (2106300), Manacapuru - AM (1302504), Manaquiri - AM (1302553), Manaus - AM (1302603), Manicoré - AM (1302702), Maraã - AM (1302801), Marabá - PA (1504208), Maracaçumé - MA (2106326), Maracanã - PA (1504307), Marajá do Sena - MA (2106359), Maranhãozinho - MA (2106375), Marapanim - PA (1504406), Marco - CE (2307809), Marituba - PA (1504422), Martinópole - CE (2307908), Massapê - CE (2308005), Mata Roma - MA (2106409), Matias Olímpio - PI (2206100), Matinha - MA (2106508), Matões do Norte - MA (2106631), Maués - AM (1302900), Mazagão - AP (1600402), Medicilândia - PA (1504455), Melgaço - PA (1504505), Meruoca - CE (2308203), Miguel Alves - PI (2206209), Milagres do Maranhão - MA (2106672), Miraíma - CE (2308377), Miranda do Norte - MA (2106755), Mirinzal - MA (2106805), Mocajuba - PA (1504604), Moju - PA (1504703), Mojuí dos Campos - PA (1504752), Monção - MA (2106904), Monte Alegre - PA (1504802), Monte Negro - RO (1101401), Moraújo - CE (2308807), Morrinhos - CE (2308906), Morro do Chapéu do Piauí - PI (2206670), Morros - MA (2107100), Muaná - PA (1504901), Mucajaí - RR (1400308), Mucambo - CE (2309003), Murici dos Portelas - PI (2206696), Nhamundá - AM (1303007), Nina Rodrigues - MA (2107209), Normandia - RR (1400407), Nossa Senhora dos Remédios - PI (2206803), Nova Bandeirantes - MT (5106158), Nova Esperança do Piriá - PA (1504950), Nova Ipixuna - PA (1504976), Nova Mamoré - RO (1100338), Nova Monte Verde - MT (5108956), Nova Olinda do Maranhão - MA (2107357), Nova Olinda do Norte - AM (1303106), Nova Timboteua - PA (1505007), Nova União - RO (1101435), Novo Airão - AM (1303205), Novo Aripuanã - AM (1303304), Novo Progresso - PA (1505031), Novo Repartimento - PA (1505064), Óbidos - PA (1505106), Oeiras do Pará - PA (1505205), Oiapoque - AP (1600501), Olho d'Água das Cunhãs - MA (2107407), Olinda Nova do Maranhão - MA (2107456), Oriximiná - PA (1505304), Ourém - PA (1505403), Ouro Preto do Oeste - RO (1100155), Pacajá - PA (1505486), Pacaraima - RR (1400456), Paço do Lumiar - MA (2107506), Palmeirândia - MA (2107605), Paragominas - PA (1505502), Paranaíta - MT (5106299), Parintins - AM (1303403), Parnaíba - PI (2207702), Pauini - AM (1303502), Paulino Neves - MA (2108058), Paulo Ramos - MA (2108108), Pedra Branca do Amapari - AP (1600154), Pedreiras - MA (2108207), Pedro do Rosário - MA (2108256), Peixe-Boi - PA (1505601), Penalva - MA (2108306), Peri Mirim - MA (2108405), Peritoró - MA (2108454), Pindaré-Mirim - MA (2108504), Pinheiro - MA (2108603), Pio XII - MA (2108702), Piracuruca - PI (2208304), Pirapemas - MA (2108801), Piripiri - PI (2208403), Placas - PA (1505650), Ponta de Pedras - PA (1505700), Portel - PA (1505809), Porto - PI (2208502), Porto de Moz - PA (1505908), Porto Grande - AP (1600535), Porto Rico do Maranhão - MA (2109056), Porto Velho - RO (1100205), Pracuúba - AP (1600550), Prainha - PA (1506005), Presidente Figueiredo - AM (1303536), Presidente Juscelino - MA (2109205), Presidente Médici - MA (2109239), Presidente Sarney - MA (2109270), Presidente Vargas - MA (2109304), Primavera - PA (1506104), Primeira Cruz - MA (2109403), Quatipuru - PA (1506112), Raposa - MA (2109452), Rio Crespo - RO (1100262), Rio Preto da Eva - AM (1303569), Rondolândia - MT (5107578), Rondon do Pará - PA (1506187), Rorainópolis - RR (1400472), Rosário - MA (2109601), Rurópolis - PA (1506195), Salinópolis - PA (1506203), Salvaterra - PA (1506302), Santa Bárbara do Pará - PA (1506351), Santa Cruz do Arari - PA (1506401), Santa Helena - MA (2109809), Santa Inês - MA (2109908), Santa Isabel do Rio Negro - AM (1303601), Santa Izabel do Pará - PA (1506500), Santa Luzia - MA (2110005), Santa Luzia do Pará - PA (1506559), Santa Luzia do Paruá - MA (2110039), Santa Maria do Pará - PA (1506609), Santana - AP (1600600), Santana do Acaraú - CE (2312007), Santana do Maranhão - MA (2110237), Santa Quitéria do Maranhão - MA (2110104), Santarém - PA (1506807), Santarém Novo - PA (1506906), Santa Rita - MA (2110203), Santo Amaro do Maranhão - MA (2110278), Santo Antônio do Içá - AM (1303700), Santo Antônio do Tauá - PA (1507003), São Benedito do Rio Preto - MA (2110401), São Bento - MA (2110500), São Bernardo - MA (2110609), São Caetano de Odivelas - PA (1507102), São Domingos do Capim - PA (1507201), São Félix do Xingu - PA (1507300), São Francisco do Pará - PA (1507409), São Gabriel da Cachoeira - AM (1303809), São João Batista - MA (2111003), São João da Baliza - RR (1400506), São João da Fronteira - PI (2209872), São João da Ponta - PA (1507466), São João de Pirabas - PA (1507474), São João do Arraial - PI (2209971), São João do Carú - MA (2111029), São José de Ribamar - MA (2111201), São José do Divino - PI (2210052), São Luís - MA (2111300), São Luís Gonzaga do Maranhão - MA (2111409), São Luiz - RR (1400605), São Mateus do Maranhão - MA (2111508), São Miguel do Guamá - PA (1507607), São Paulo de Olivença - AM (1303908), São Sebastião da Boa Vista - PA (1507706), São Sebastião do Uatumã - AM (1303957), São Vicente Ferrer - MA (2111706), Satubinha - MA (2111722), Senador Guiomard - AC (1200450), Senador José Porfírio - PA (1507805), Senador Sá - CE (2312809), Serra do Navio - AP (1600055), Serrano do Maranhão - MA (2111789), Silves - AM (1304005), Sobral - CE (2312908), Soure - PA (1507904), Tabatinga - AM (1304062), Tailândia - PA (1507953), Tapauá - AM (1304104), Tartarugalzinho - AP (1600709), Tefé - AM (1304203), Terra Alta - PA (1507961), Terra Santa - PA (1507979), Theobroma - RO (1101609), Tianguá - CE (2313401), Timbiras - MA (2112100), Tomé-Açu - PA (1508001), Tonantins - AM (1304237), Tracuateua - PA (1508035), Trairão - PA (1508050), Trairi - CE (2313500), Trizidela do Vale - MA (2112233), Tucuruí - PA (1508100), Tufilândia - MA (2112274), Turiaçu - MA (2112407), Turilândia - MA (2112456), Tururu - CE (2313559), Tutóia - MA (2112506), Uarini - AM (1304260), Ubajara - CE (2313609), Uiramutã - RR (1400704), Ulianópolis - PA (1508126), Urbano Santos - MA (2112605), Uruará - PA (1508159), Urucará - AM (1304302), Urucurituba - AM (1304401), Uruoca - CE (2313906), Vale do Anari - RO (1101757), Vale do Paraíso - RO (1101807), Vargem Grande - MA (2112704), Viana - MA (2112803), Viçosa do Ceará - CE (2314102), Vigia - PA (1508209), Vila Nova dos Martírios - MA (2112852), Viseu - PA (1508308), Vitória do Jari - AP (1600808), Vitória do Mearim - MA (2112902), Vitória do Xingu - PA (1508357), Vitorino Freire - MA (2113009), Zé Doca - MA (2114007)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Nordeste Paraense, Sudeste Paraense, Oeste Maranhense, Noroeste Cearense, Vale do Acre, Leste Maranhense, Marajó, Norte Maranhense, Baixo Amazonas, Norte Mato-grossense, Sudoeste Paraense, Norte de Roraima, Leste Rondoniense, Centro Amazonense, Norte do Amapá, Sudoeste Amazonense, Norte Cearense, Metropolitana de Belém, Sul Amazonense, Centro Maranhense, Norte Amazonense, Norte Piauiense, Madeira-Guaporé, Sul de Roraima, Sul do Amapá",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-4.524701,-71.572609 -5.678165,-71.013451 -7.779941,-69.495736 -9.71383,-67.099342 -10.185823,-66.540183 -10.814057,-64.702948 -10.735599,-62.346496 -10.814057,-60.7489 -10.814057,-57.91317 -10.460832,-56.754913 -7.977723,-54.797858 -7.265276,-54.118881 -6.39298,-52.361526 -5.916541,-51.283149 -5.042027,-49.645615 -4.604315,-46.011084 -4.445078,-44.333612 -4.245985,-42.017098 -3.449121,-39.421004 -3.289663,-39.221306 -2.982817,-39.685221 -2.823288,-40.074634 -2.783403,-40.374183 -2.843231,-40.883417 -2.903056,-41.402636 -2.793374,-41.802034 -2.660732,-42.195482 -2.590922,-42.684746 -2.45129,-43.044204 -2.331594,-43.353739 -2.271742,-43.633318 -2.441315,-43.992777 -2.441315,-44.352236 -2.03231,-44.452085 -1.6232,-44.70171 -1.383682,-44.981289 -1.23397,-45.640297 -1.064287,-46.20944 -0.625067,-47.307786 -0.605101,-47.966794 -0.455357,-48.436088 -0.195794,-48.426103 -0.195794,-48.975276 0.173591,-49.514465 0.363273,-49.684209 0.35329,-50.063638 0.682727,-50.083608 1.541128,-49.843968 1.900367,-50.273323 2.179724,-50.562886 3.017458,-50.982255 3.864508,-51.07212 4.451974,-51.521444 3.754934,-51.960782 3.057336,-52.360181 2.409158,-52.649745 2.179724,-53.069114 2.329359,-53.808002 2.199676,-54.247341 2.379234,-54.586829 2.538821,-55.006198 2.429107,-55.595311 2.5089,-55.944786 2.23958,-56.124515 1.980188,-55.904845 1.870433,-55.954771 1.970211,-56.374139 1.920323,-57.003192 1.990166,-57.132997 1.700798,-57.851915 1.531148,-58.460998 1.241716,-58.870382 1.670861,-59.42954 1.820542,-59.699134 2.289458,-59.749059 2.409158,-59.908819 2.847963,-59.988698 3.485092,-59.810572 3.903521,-59.550963 4.411332,-59.720707 4.471053,-59.930391 4.530768,-60.160046 4.799426,-60.030241 5.038145,-60.010271 5.256893,-60.180015 5.197242,-60.659294 4.928743,-60.60937 4.670085,-60.878963 4.500911,-61.108618 4.530768,-61.318302 4.371516,-61.527987 4.271966,-61.637821 4.142532,-61.97731 4.112659,-62.206964 4.192317,-62.496529 4.032994,-62.676258 3.903521,-62.806063 3.724218,-62.766123 3.65448,-63.045702 3.813875,-63.165522 3.97324,-63.315296 3.953321,-63.455086 3.87364,-63.465071 3.983199,-63.66477 3.913481,-64.024229 4.082786,-64.144049 4.132574,-64.393673 4.172403,-64.628792 4.301832,-64.748611 4.252054,-64.838476 4.082786,-64.728642 3.853719,-64.548912 3.684368,-64.309273 3.505021,-64.209423 3.375471,-64.259348 3.066476,-64.229393 2.867076,-64.049664 2.567912,-64.019708 2.468174,-64.009723 2.378404,-63.750114 2.418303,-63.470535 2.208823,-63.370685 2.10906,-63.610325 2.009291,-63.909874 1.919493,-64.089603 1.620135,-64.129543 1.440498,-64.339228 1.520338,-64.419107 1.270828,-64.758596 1.280809,-64.908371 1.12111,-65.177965 0.931456,-65.277815 0.661931,-65.517454 0.941439,-65.557394 0.931456,-65.896883 0.77174,-66.266327 1.171017,-66.785546 1.171017,-67.03517 1.640093,-67.09508 1.82969,-67.214899 2.218798,-67.384644 2.039222,-67.604313 1.839669,-67.923832 1.999313,-68.183442 1.859625,-68.273306 1.709947,-68.173457 1.759841,-69.840947 1.180998,-69.870901 1.091165,-69.711142 1.071202,-69.411593 0.911492,-69.171953 0.681897,-69.151983 0.761757,-69.521427 0.651948,-69.840947 0.512189,-70.060616 -0.236557,-70.030661 -0.506103,-69.691172 -0.845513,-69.561367 -1.2348,-69.411592 -2.242644,-69.601307 -4.305718,-69.990721 -4.20616,-70.39012 -4.20616,-70.739594 -4.39531,-70.989218 -4.524701,-71.572609"
+        "description": "INMET publica aviso iniciando em: 14/05/2026 09:12. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54380",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Nordeste Paraense, Sudeste Paraense, Oeste Maranhense, Noroeste Cearense, Oeste Potiguar, Central Potiguar, Leste Maranhense, MarajÃ³, Norte Maranhense, Baixo Amazonas, Mata Paraibana, Sudoeste Paraense, Norte de Roraima, Centro Amazonense, Norte do AmapÃ¡, Sudoeste Amazonense, Norte Cearense, Metropolitana de BelÃ©m, Sul Amazonense, Metropolitana de Fortaleza, Agreste Paraibano, Jaguaribe, Ocidental do Tocantins, Centro Maranhense, Leste Potiguar, Agreste Potiguar, Norte Amazonense, Norte Piauiense, Centro-Norte Piauiense, Sul de Roraima, Sul do AmapÃ¡",
+        "areas": [
+          "Aviso para as Ã¡reas: Nordeste Paraense, Sudeste Paraense, Oeste Maranhense, Noroeste Cearense, Oeste Potiguar, Central Potiguar, Leste Maranhense, MarajÃ³, Norte Maranhense, Baixo Amazonas, Mata Paraibana, Sudoeste Paraense, Norte de Roraima, Centro Amazonense, Norte do AmapÃ¡, Sudoeste Amazonense, Norte Cearense, Metropolitana de BelÃ©m, Sul Amazonense, Metropolitana de Fortaleza, Agreste Paraibano, Jaguaribe, Ocidental do Tocantins, Centro Maranhense, Leste Potiguar, Agreste Potiguar, Norte Amazonense, Norte Piauiense, Centro-Norte Piauiense, Sul de Roraima, Sul do AmapÃ¡"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54380"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -71.572609,
-              -4.524701
+              -34.859619,
+              -7.536764
             ],
             [
-              -71.013451,
-              -5.678165
+              -35.15625,
+              -7.28619
             ],
             [
-              -69.495736,
-              -7.779941
+              -35.2771,
+              -7.188101
             ],
             [
-              -67.099342,
-              -9.71383
+              -35.562744,
+              -6.795535
             ],
             [
-              -66.540183,
-              -10.185823
+              -35.617676,
+              -6.380812
             ],
             [
-              -64.702948,
-              -10.814057
+              -36.474609,
+              -6.227934
             ],
             [
-              -62.346496,
-              -10.735599
+              -37.243652,
+              -5.900189
             ],
             [
-              -60.7489,
-              -10.814057
+              -37.617188,
+              -5.441022
             ],
             [
-              -57.91317,
-              -10.814057
+              -38.353271,
+              -4.65308
             ],
             [
-              -56.754913,
-              -10.460832
+              -38.485107,
+              -4.203986
             ],
             [
-              -54.797858,
-              -7.977723
+              -39.067383,
+              -3.83137
             ],
             [
-              -54.118881,
-              -7.265276
+              -39.660645,
+              -3.645
             ],
             [
-              -52.361526,
-              -6.39298
+              -40.462646,
+              -3.623071
             ],
             [
-              -51.283149,
-              -5.916541
+              -40.825195,
+              -3.721745
             ],
             [
-              -49.645615,
-              -5.042027
+              -41.52832,
+              -4.149201
             ],
             [
-              -46.011084,
-              -4.604315
+              -41.989746,
+              -4.488809
             ],
             [
-              -44.333612,
-              -4.445078
+              -43.077393,
+              -4.882994
             ],
             [
-              -42.017098,
-              -4.245985
+              -44.417725,
+              -5.058114
             ],
             [
-              -39.421004,
-              -3.449121
+              -46.604004,
+              -5.266008
             ],
             [
-              -39.221306,
-              -3.289663
+              -48.416748,
+              -5.331644
             ],
             [
-              -39.685221,
-              -2.982817
+              -51.152344,
+              -5.758105
             ],
             [
-              -40.074634,
-              -2.823288
+              -53.206787,
+              -5.998533
             ],
             [
-              -40.374183,
-              -2.783403
+              -57.205811,
+              -6.653695
             ],
             [
-              -40.883417,
-              -2.843231
+              -59.051514,
+              -6.915521
             ],
             [
-              -41.402636,
-              -2.903056
+              -63.237305,
+              -7.100893
             ],
             [
-              -41.802034,
-              -2.793374
+              -67.203369,
+              -6.566389
             ],
             [
-              -42.195482,
-              -2.660732
+              -72.125244,
+              -5.495704
             ],
             [
-              -42.684746,
-              -2.590922
+              -72.454834,
+              -5.014339
             ],
             [
-              -43.044204,
-              -2.45129
+              -72.388916,
+              -4.893941
             ],
             [
-              -43.353739,
-              -2.331594
+              -72.169189,
+              -4.82826
             ],
             [
-              -43.633318,
-              -2.271742
+              -71.817627,
+              -4.609278
             ],
             [
-              -43.992777,
-              -2.441315
+              -71.542969,
+              -4.510714
             ],
             [
-              -44.352236,
-              -2.441315
+              -71.169434,
+              -4.488809
             ],
             [
-              -44.452085,
-              -2.03231
+              -70.751953,
+              -4.291636
             ],
             [
-              -44.70171,
-              -1.6232
+              -70.488281,
+              -4.258768
             ],
             [
-              -44.981289,
-              -1.383682
+              -70.279541,
+              -4.313546
             ],
             [
-              -45.640297,
-              -1.23397
+              -70.059814,
+              -4.42309
             ],
             [
-              -46.20944,
-              -1.064287
+              -69.840088,
+              -4.258768
             ],
             [
-              -47.307786,
-              -0.625067
+              -69.334717,
+              -0.999705
             ],
             [
-              -47.966794,
-              -0.605101
+              -69.56543,
+              -0.747049
             ],
             [
-              -48.436088,
-              -0.455357
+              -69.554443,
+              -0.527336
             ],
             [
-              -48.426103,
-              -0.195794
+              -69.65332,
+              -0.406491
             ],
             [
-              -48.975276,
-              -0.195794
+              -69.862061,
+              -0.285643
             ],
             [
-              -49.514465,
-              0.173591
+              -70.026855,
+              -0.131836
             ],
             [
-              -49.684209,
-              0.363273
+              -70.015869,
+              0.153808
             ],
             [
-              -50.063638,
-              0.35329
+              -70.015869,
+              0.395505
             ],
             [
-              -50.083608,
-              0.682727
+              -69.993896,
+              0.538322
             ],
             [
-              -49.843968,
-              1.541128
+              -69.796143,
+              0.57128
             ],
             [
-              -50.273323,
-              1.900367
+              -69.576416,
+              0.626208
             ],
             [
-              -50.562886,
-              2.179724
+              -69.488525,
+              0.637194
             ],
             [
-              -50.982255,
-              3.017458
+              -69.301758,
+              0.527336
             ],
             [
-              -51.07212,
-              3.864508
+              -69.158936,
+              0.560294
             ],
             [
-              -51.521444,
-              4.451974
+              -69.049072,
+              0.637194
             ],
             [
-              -51.960782,
-              3.754934
+              -69.11499,
+              0.747049
             ],
             [
-              -52.360181,
-              3.057336
+              -69.093018,
+              0.933797
             ],
             [
-              -52.649745,
-              2.409158
+              -69.290771,
+              1.164471
             ],
             [
-              -53.069114,
-              2.179724
+              -69.400635,
+              1.164471
             ],
             [
-              -53.808002,
-              2.329359
+              -69.488525,
+              1.142502
             ],
             [
-              -54.247341,
-              2.199676
+              -69.675293,
+              1.142502
             ],
             [
-              -54.586829,
-              2.379234
+              -69.807129,
+              1.175455
             ],
             [
-              -55.006198,
-              2.538821
+              -69.818115,
+              1.680667
             ],
             [
-              -55.595311,
-              2.429107
+              -69.631348,
+              1.680667
             ],
             [
-              -55.944786,
-              2.5089
+              -69.543457,
+              1.713612
             ],
             [
-              -56.124515,
-              2.23958
+              -69.411621,
+              1.691649
             ],
             [
-              -55.904845,
-              1.980188
+              -69.301758,
+              1.680667
             ],
             [
-              -55.954771,
-              1.870433
+              -68.972168,
+              1.680667
             ],
             [
-              -56.374139,
-              1.970211
+              -68.214111,
+              1.647722
             ],
             [
-              -57.003192,
-              1.920323
+              -68.115234,
+              1.691649
             ],
             [
-              -57.132997,
-              1.990166
+              -68.170166,
+              1.856365
             ],
             [
-              -57.851915,
-              1.700798
+              -68.15918,
+              1.911267
             ],
             [
-              -58.460998,
-              1.531148
+              -67.961426,
+              1.801461
             ],
             [
-              -58.870382,
-              1.241716
+              -67.763672,
+              1.933227
             ],
             [
-              -59.42954,
-              1.670861
+              -67.631836,
+              1.988126
             ],
             [
-              -59.699134,
-              1.820542
+              -67.489014,
+              2.086941
             ],
             [
-              -59.749059,
-              2.289458
+              -67.412109,
+              2.174771
             ],
             [
-              -59.908819,
-              2.409158
+              -67.37915,
+              1.988126
             ],
             [
-              -59.988698,
-              2.847963
+              -67.302246,
+              1.834403
             ],
             [
-              -59.810572,
-              3.485092
+              -67.225342,
+              1.812442
             ],
             [
-              -59.550963,
-              3.903521
+              -67.181396,
+              1.746556
             ],
             [
-              -59.720707,
-              4.411332
+              -67.159424,
+              1.603794
             ],
             [
-              -59.930391,
-              4.471053
+              -67.159424,
+              1.482989
             ],
             [
-              -60.160046,
-              4.530768
+              -67.159424,
+              1.351193
             ],
             [
-              -60.030241,
-              4.799426
+              -67.17041,
+              1.21939
             ],
             [
-              -60.010271,
-              5.038145
+              -67.115479,
+              1.054628
             ],
             [
-              -60.180015,
-              5.256893
+              -67.027588,
+              1.131518
             ],
             [
-              -60.659294,
-              5.197242
+              -66.895752,
+              1.164471
             ],
             [
-              -60.60937,
-              4.928743
+              -66.741943,
+              1.076597
             ],
             [
-              -60.878963,
-              4.670085
+              -66.621094,
+              0.944781
             ],
             [
-              -61.108618,
-              4.500911
+              -66.478271,
+              0.823946
             ],
             [
-              -61.318302,
-              4.530768
+              -66.346436,
+              0.725078
             ],
             [
-              -61.527987,
-              4.371516
+              -66.2146,
+              0.692122
             ],
             [
-              -61.637821,
-              4.271966
+              -66.060791,
+              0.692122
             ],
             [
-              -61.97731,
-              4.142532
+              -65.983887,
+              0.76902
             ],
             [
-              -62.206964,
-              4.112659
+              -65.830078,
+              0.856902
             ],
             [
-              -62.496529,
-              4.192317
+              -65.709229,
+              0.922812
             ],
             [
-              -62.676258,
-              4.032994
+              -65.632324,
+              0.922812
             ],
             [
-              -62.806063,
-              3.903521
+              -65.566406,
+              0.889857
             ],
             [
-              -62.766123,
-              3.724218
+              -65.654297,
+              0.801976
             ],
             [
-              -63.045702,
-              3.65448
+              -65.577393,
+              0.64818
             ],
             [
-              -63.165522,
-              3.813875
+              -65.43457,
+              0.670151
             ],
             [
-              -63.315296,
-              3.97324
+              -65.368652,
+              0.758035
             ],
             [
-              -63.455086,
-              3.953321
+              -65.302734,
+              0.867887
             ],
             [
-              -63.465071,
-              3.87364
+              -65.148926,
+              0.878872
             ],
             [
-              -63.66477,
-              3.983199
+              -65.10498,
+              1.021674
             ],
             [
-              -64.024229,
-              3.913481
+              -65.093994,
+              1.10955
             ],
             [
-              -64.144049,
-              4.082786
+              -64.962158,
+              1.087581
             ],
             [
-              -64.393673,
-              4.132574
+              -64.863281,
+              1.197423
             ],
             [
-              -64.628792,
-              4.172403
+              -64.731445,
+              1.164471
             ],
             [
-              -64.748611,
-              4.301832
+              -64.456787,
+              1.406109
             ],
             [
-              -64.838476,
-              4.252054
+              -64.346924,
+              1.285293
             ],
             [
-              -64.728642,
-              4.082786
+              -64.27002,
+              1.395126
             ],
             [
-              -64.548912,
-              3.853719
+              -64.14917,
+              1.493971
             ],
             [
-              -64.309273,
-              3.684368
+              -63.962402,
+              1.680667
             ],
             [
-              -64.209423,
-              3.505021
+              -63.995361,
+              1.900286
             ],
             [
-              -64.259348,
-              3.375471
+              -63.863525,
+              1.911267
             ],
             [
-              -64.229393,
-              3.066476
+              -63.665771,
+              1.944207
             ],
             [
-              -64.049664,
-              2.867076
+              -63.500977,
+              2.064982
             ],
             [
-              -64.019708,
-              2.567912
+              -63.28125,
+              2.262595
             ],
             [
-              -64.009723,
-              2.468174
+              -63.50647,
+              2.509573
             ],
             [
-              -63.750114,
-              2.378404
+              -63.748169,
+              2.438229
             ],
             [
-              -63.470535,
-              2.418303
+              -63.962402,
+              2.547988
             ],
             [
-              -63.370685,
-              2.208823
+              -63.918457,
+              2.767478
             ],
             [
-              -63.610325,
-              2.10906
+              -64.02832,
+              3.030812
             ],
             [
-              -63.909874,
-              2.009291
+              -64.094238,
+              3.272146
             ],
             [
-              -64.089603,
-              1.919493
+              -64.094238,
+              3.601142
             ],
             [
-              -64.129543,
-              1.620135
+              -64.665527,
+              4.127285
             ],
             [
-              -64.339228,
-              1.440498
+              -64.313965,
+              4.039618
             ],
             [
-              -64.419107,
-              1.520338
+              -63.693237,
+              3.880696
             ],
             [
-              -64.758596,
-              1.270828
+              -63.479004,
+              3.798484
             ],
             [
-              -64.908371,
-              1.280809
+              -63.308716,
+              3.92454
             ],
             [
-              -65.177965,
-              1.12111
+              -63.143921,
+              3.73819
             ],
             [
-              -65.277815,
-              0.931456
+              -63.006592,
+              3.568248
             ],
             [
-              -65.517454,
-              0.661931
+              -62.830811,
+              3.67241
             ],
             [
-              -65.557394,
-              0.941439
+              -62.698975,
+              3.67241
             ],
             [
-              -65.896883,
-              0.931456
+              -62.715454,
+              3.957421
             ],
             [
-              -66.266327,
-              0.77174
+              -62.457275,
+              4.116327
             ],
             [
-              -66.785546,
-              1.171017
+              -61.990356,
+              4.088932
             ],
             [
-              -67.03517,
-              1.171017
+              -61.556396,
+              4.231378
             ],
             [
-              -67.09508,
-              1.640093
+              -61.281738,
+              4.444997
             ],
             [
-              -67.214899,
-              1.82969
+              -60.875244,
+              4.647605
             ],
             [
-              -67.384644,
-              2.218798
+              -60.688477,
+              4.762573
             ],
             [
-              -67.604313,
-              2.039222
+              -60.545654,
+              4.937724
             ],
             [
-              -67.923832,
-              1.839669
+              -60.600586,
+              5.145657
             ],
             [
-              -68.183442,
-              1.999313
+              -60.221558,
+              5.189423
             ],
             [
-              -68.273306,
-              1.859625
+              -60.05127,
+              5.030755
             ],
             [
-              -68.173457,
-              1.709947
+              -60.089722,
+              4.757098
             ],
             [
-              -69.840947,
-              1.759841
+              -60.161133,
+              4.412137
             ],
             [
-              -69.870901,
-              1.180998
+              -59.749146,
+              4.401183
             ],
             [
-              -69.711142,
-              1.091165
+              -59.831543,
+              4.171115
             ],
             [
-              -69.411593,
-              1.071202
+              -59.60083,
+              3.93002
             ],
             [
-              -69.171953,
-              0.911492
+              -59.820557,
+              3.683373
             ],
             [
-              -69.151983,
-              0.681897
+              -59.875488,
+              3.409241
             ],
             [
-              -69.521427,
-              0.761757
+              -60.05127,
+              3.074695
             ],
             [
-              -69.840947,
-              0.651948
+              -59.798584,
+              2.213195
             ],
             [
-              -70.060616,
-              0.512189
+              -59.787598,
+              1.911267
             ],
             [
-              -70.030661,
-              -0.236557
+              -59.49646,
+              1.515936
             ],
             [
-              -69.691172,
-              -0.506103
+              -58.985596,
+              1.202915
             ],
             [
-              -69.561367,
-              -0.845513
+              -58.491211,
+              1.208406
             ],
             [
-              -69.411592,
-              -1.2348
+              -58.326416,
+              1.466515
             ],
             [
-              -69.601307,
-              -2.242644
+              -57.826538,
+              1.58183
             ],
             [
-              -69.990721,
-              -4.305718
+              -57.310181,
+              1.911267
             ],
             [
-              -70.39012,
-              -4.20616
+              -56.689453,
+              1.823423
             ],
             [
-              -70.739594,
-              -4.20616
+              -56.178589,
+              1.812442
             ],
             [
-              -70.989218,
-              -4.39531
+              -55.838013,
+              1.856365
             ],
             [
-              -71.572609,
-              -4.524701
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Aviso de Geada. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
-        "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Geada",
-        "categoria": "Met",
-        "headline": "Aviso de Geada. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 14/05/2026 03:00. Risco leve de perda de plantações. Temperatura mínima até 3ºC.",
-        "instruction": "Contate a Defesa Civil (telefone: 199).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
-        "onset": "2026-05-14T03:00:00-03:00",
-        "expires": "2026-05-14T08:00:00-03:00",
-        "sent": "2026-05-13T11:50:40-03:00",
-        "urgency": "Future",
-        "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-14T10:28:30.289930+00:00",
-        "link": "https://avisos.inmet.gov.br/54365",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54365",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54365",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27396.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Abdon Batista - SC (4200051), Agrolândia - SC (4200200), Água Doce - SC (4200408), Anita Garibaldi - SC (4201000), Arroio Trinta - SC (4201604), Bela Vista do Toldo - SC (4202131), Bituruna - PR (4102901), Bocaina do Sul - SC (4202438), Bom Jardim da Serra - SC (4202503), Bom Jesus - RS (4302303), Bom Retiro - SC (4202602), Brunópolis - SC (4202875), Caçador - SC (4203006), Calmon - SC (4203154), Cambará do Sul - RS (4303608), Campo Belo do Sul - SC (4203402), Campos Novos - SC (4203600), Canoinhas - SC (4203808), Capão Alto - SC (4203253), Cerro Negro - SC (4204178), Correia Pinto - SC (4204558), Cruz Machado - PR (4106803), Curitibanos - SC (4204806), Fraiburgo - SC (4205506), Frei Rogério - SC (4205555), General Carneiro - PR (4108502), Ibiam - SC (4206751), Iomerê - SC (4207577), Irineópolis - SC (4207908), Jaquirana - RS (4311122), Lages - SC (4209300), Lebon Régis - SC (4209706), Macieira - SC (4210050), Major Vieira - SC (4210308), Mallet - PR (4113908), Matos Costa - SC (4210704), Mirim Doce - SC (4210852), Monte Alegre dos Campos - RS (4312377), Monte Carlo - SC (4211058), Otacílio Costa - SC (4211751), Painel - SC (4211892), Palmas - PR (4117602), Palmeira - SC (4212056), Paula Freitas - PR (4118600), Paulo Frontin - PR (4118709), Pinheiro Preto - SC (4213005), Ponte Alta - SC (4213302), Ponte Alta do Norte - SC (4213351), Porto União - SC (4213609), Porto Vitória - PR (4120309), Pouso Redondo - SC (4213708), Rio das Antas - SC (4214409), Rio Rufino - SC (4215059), Salto Veloso - SC (4215406), Santa Cecília - SC (4215505), São Cristóvão do Sul - SC (4216057), São Francisco de Paula - RS (4318200), São Joaquim - SC (4216503), São José do Cerrito - SC (4216800), São José dos Ausentes - RS (4318622), Taió - SC (4217808), Tangará - SC (4217907), Timbó Grande - SC (4218251), União da Vitória - PR (4128203), Urubici - SC (4218905), Urupema - SC (4218954), Vacaria - RS (4322509), Vargem - SC (4219150), Videira - SC (4219309)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Serrana, Vale do Itajaí, Oeste Catarinense, Norte Catarinense, Sudeste Paranaense, Nordeste Rio-grandense, Centro-Sul Paranaense",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-28.098635,-50.891418 -28.483177,-51.05072 -28.717087,-50.940857 -28.981715,-50.429993 -28.875945,-50.067444 -28.705043,-49.919128 -28.579698,-49.779053 -28.299544,-49.589539 -27.941034,-49.537354 -27.493654,-49.888916 -27.266837,-50.114136 -26.939211,-50.336609 -26.517278,-50.531616 -26.192412,-50.740356 -26.02717,-50.927124 -25.977799,-51.27594 -26.037042,-51.498413 -26.128316,-51.627502 -26.28849,-51.720886 -26.49024,-51.723633 -26.951453,-51.300659 -27.515579,-51.028748 -27.890067,-50.880432 -28.098635,-50.891418"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
+              -56.019287,
+              2.295528
+            ],
+            [
+              -55.93689,
+              2.443717
+            ],
+            [
+              -55.239258,
+              2.454693
+            ],
+            [
+              -55.030518,
+              2.558963
+            ],
+            [
+              -54.744873,
+              2.273573
+            ],
+            [
+              -54.140625,
+              2.043024
+            ],
+            [
+              -53.778076,
+              2.295528
+            ],
             [
-              -50.891418,
-              -28.098635
+              -53.503418,
+              2.213195
             ],
             [
-              -51.05072,
-              -28.483177
+              -53.31665,
+              2.284551
             ],
             [
-              -50.940857,
-              -28.717087
+              -53.179321,
+              2.103409
             ],
             [
-              -50.429993,
-              -28.981715
+              -52.877197,
+              2.136346
             ],
             [
-              -50.067444,
-              -28.875945
+              -52.542114,
+              2.487621
             ],
             [
-              -49.919128,
-              -28.705043
+              -52.338867,
+              3.00887
             ],
             [
-              -49.779053,
-              -28.579698
+              -51.921387,
+              3.716264
             ],
             [
-              -49.589539,
-              -28.299544
+              -51.652222,
+              3.990301
             ],
             [
-              -49.537354,
-              -27.941034
+              -51.503906,
+              4.417614
             ],
             [
-              -49.888916,
-              -27.493654
+              -51.102905,
+              4.01222
             ],
             [
-              -50.114136,
-              -27.266837
+              -50.971069,
+              3.359889
             ],
             [
-              -50.336609,
-              -26.939211
+              -50.789795,
+              2.701635
             ],
             [
               -50.531616,
-              -26.517278
+              2.317483
             ],
             [
-              -50.740356,
-              -26.192412
+              -50.223999,
+              2.081451
             ],
             [
-              -50.927124,
-              -26.02717
+              -50.009766,
+              1.79597
             ],
             [
-              -51.27594,
-              -25.977799
+              -49.822998,
+              1.631249
             ],
             [
-              -51.498413,
-              -26.037042
+              -49.86145,
+              1.131518
             ],
             [
-              -51.627502,
-              -26.128316
+              -49.87793,
+              0.626208
             ],
             [
-              -51.720886,
-              -26.28849
+              -49.356079,
+              0.137329
             ],
             [
-              -51.723633,
-              -26.49024
+              -48.477173,
+              -0.170288
             ],
             [
-              -51.300659,
-              -26.951453
+              -48.120117,
+              -0.29663
             ],
             [
-              -51.028748,
-              -27.515579
+              -47.697144,
+              -0.499872
             ],
             [
-              -50.880432,
-              -27.890067
+              -47.224731,
+              -0.593251
             ],
             [
-              -50.891418,
-              -28.098635
+              -46.779785,
+              -0.719586
+            ],
+            [
+              -45.719604,
+              -1.076597
+            ],
+            [
+              -44.862671,
+              -1.235866
+            ],
+            [
+              -44.143066,
+              -1.867345
+            ],
+            [
+              -42.1875,
+              -2.613839
+            ],
+            [
+              -40.484619,
+              -2.783938
+            ],
+            [
+              -40.050659,
+              -2.778451
+            ],
+            [
+              -38.737793,
+              -3.491489
+            ],
+            [
+              -38.226929,
+              -3.968381
+            ],
+            [
+              -37.749023,
+              -4.477856
+            ],
+            [
+              -37.089844,
+              -4.872048
+            ],
+            [
+              -36.738281,
+              -5.069058
+            ],
+            [
+              -36.068115,
+              -5.003394
+            ],
+            [
+              -35.529785,
+              -5.090944
+            ],
+            [
+              -35.178223,
+              -5.528511
+            ],
+            [
+              -35.090332,
+              -6.118708
+            ],
+            [
+              -34.870605,
+              -6.8828
+            ],
+            [
+              -34.82666,
+              -7.231699
+            ],
+            [
+              -34.859619,
+              -7.536764
             ]
           ]
         ]
