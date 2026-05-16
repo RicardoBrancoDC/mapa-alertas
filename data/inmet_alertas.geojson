@@ -5,6 +5,222 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27417.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27417.1",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-16T08:20:00-03:00",
+        "expires": "2026-05-17T10:00:00-03:00",
+        "sent": "2026-05-16T11:16:26-03:00",
+        "pubDate": "Sat, 16 May 2026 08:20:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 16/05/2026 08:20. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54397",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Mata Paraibana, Leste Potiguar, Agreste Potiguar, Central Potiguar",
+        "areas": [
+          "Aviso para as Ã¡reas: Mata Paraibana, Leste Potiguar, Agreste Potiguar, Central Potiguar"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54397"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.123047,
+              -5.080001
+            ],
+            [
+              -35.969238,
+              -5.255068
+            ],
+            [
+              -35.749512,
+              -5.419148
+            ],
+            [
+              -35.540771,
+              -5.637853
+            ],
+            [
+              -35.463867,
+              -5.889261
+            ],
+            [
+              -35.332031,
+              -6.348056
+            ],
+            [
+              -35.222168,
+              -6.784626
+            ],
+            [
+              -35.079346,
+              -7.133598
+            ],
+            [
+              -34.999695,
+              -7.389705
+            ],
+            [
+              -34.972229,
+              -7.474134
+            ],
+            [
+              -34.966736,
+              -7.517704
+            ],
+            [
+              -34.915237,
+              -7.524511
+            ],
+            [
+              -34.868546,
+              -7.536764
+            ],
+            [
+              -34.833527,
+              -7.535403
+            ],
+            [
+              -34.801254,
+              -7.531999
+            ],
+            [
+              -34.778595,
+              -7.303898
+            ],
+            [
+              -34.774475,
+              -7.105662
+            ],
+            [
+              -34.812241,
+              -7.031387
+            ],
+            [
+              -34.821854,
+              -6.958463
+            ],
+            [
+              -34.844513,
+              -6.932562
+            ],
+            [
+              -34.864426,
+              -6.85894
+            ],
+            [
+              -34.885712,
+              -6.824852
+            ],
+            [
+              -34.911804,
+              -6.713028
+            ],
+            [
+              -34.944077,
+              -6.644829
+            ],
+            [
+              -34.952316,
+              -6.580032
+            ],
+            [
+              -34.928284,
+              -6.565707
+            ],
+            [
+              -34.954376,
+              -6.449729
+            ],
+            [
+              -34.974289,
+              -6.361023
+            ],
+            [
+              -35.013428,
+              -6.324853
+            ],
+            [
+              -35.042267,
+              -6.210869
+            ],
+            [
+              -35.06218,
+              -6.17742
+            ],
+            [
+              -35.088272,
+              -6.014922
+            ],
+            [
+              -35.128784,
+              -5.913166
+            ],
+            [
+              -35.152817,
+              -5.827785
+            ],
+            [
+              -35.161057,
+              -5.803193
+            ],
+            [
+              -35.178909,
+              -5.623503
+            ],
+            [
+              -35.267487,
+              -5.430085
+            ],
+            [
+              -35.341644,
+              -5.280366
+            ],
+            [
+              -35.386963,
+              -5.219511
+            ],
+            [
+              -35.485153,
+              -5.143605
+            ],
+            [
+              -35.570984,
+              -5.101887
+            ],
+            [
+              -35.828476,
+              -5.015023
+            ],
+            [
+              -35.999451,
+              -5.020495
+            ],
+            [
+              -36.123047,
+              -5.080001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27416.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27416.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
