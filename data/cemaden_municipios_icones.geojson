@@ -3,9 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Lábrea", "uf": "AM", "codibge": "1302405", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -65.711014310447325, -8.381733936 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ipixuna", "uf": "AM", "codibge": "1301803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.418877934956981, -7.142309168 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eirunepé", "uf": "AM", "codibge": "1301407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -70.11879049342879, -7.041111558500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.275025540500002 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528728, -4.537876234 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Laranjal Do Jari", "uf": "AP", "codibge": "1600279", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.953091827198776, 0.774569748 ] } },
