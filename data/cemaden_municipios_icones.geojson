@@ -17,6 +17,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Juiz De Fora", "uf": "MG", "codibge": "3136702", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.450997967359626, -21.759089495 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Matias Barbosa", "uf": "MG", "codibge": "3140803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.3075715884532, -21.869009995 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Além Paraíba", "uf": "MG", "codibge": "3101508", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.684785831363854, -21.827814496 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Bom Jardim", "uf": "RJ", "codibge": "3300506", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.379444173359985, -22.206021606499998 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Bom Jardim", "uf": "RJ", "codibge": "3300506", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.379444173359985, -22.206021606499998 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Viçosa", "uf": "MG", "codibge": "3171303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.877609734559996, -20.747334496 ] } }
 ]
 }
