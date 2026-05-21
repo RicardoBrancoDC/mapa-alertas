@@ -10,7 +10,6 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528728, -4.537876234 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.275025540500002 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Viçosa", "uf": "MG", "codibge": "3171303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.877609734559996, -20.747334496 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } }
 ]
 }
