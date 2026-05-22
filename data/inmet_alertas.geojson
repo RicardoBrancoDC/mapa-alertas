@@ -4,34 +4,1982 @@
     {
       "type": "Feature",
       "properties": {
-        "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27440.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27440.1",
-        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
-        "event": "Chuvas Intensas",
-        "severity": "Severe",
-        "nivel": "Severe",
-        "nivel_grupo": "perigo_potencial",
+        "title": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
         "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Acumulado de Chuva",
+        "categoria": "Met",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 20 a 30 mm/h ou até 50 mm/dia. Baixo risco de alagamentos e pequenos deslizamentos, em cidades com tais áreas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteração nas encostas. Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54450",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54450",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54450",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27441.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Alcobaça - BA (2900801), Caravelas - BA (2906907), Conceição da Barra - ES (3201605), Eunápolis - BA (2910727), Guaratinga - BA (2911808), Ibirapuã - BA (2912806), Itabela - BA (2914653), Itagimirim - BA (2915304), Itamaraju - BA (2915601), Itanhém - BA (2916005), Jucuruçu - BA (2918456), Lajedão - BA (2918902), Medeiros Neto - BA (2921104), Montanha - ES (3203502), Mucuri - BA (2922003), Nova Viçosa - BA (2923001), Palmópolis - MG (3146750), Pedro Canário - ES (3204054), Porto Seguro - BA (2925303), Prado - BA (2925501), Santa Cruz Cabrália - BA (2927705), Santo Antônio do Jacinto - MG (3160306), Teixeira de Freitas - BA (2931350), Vereda - BA (2933257)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Baiano, Litoral Norte Espírito-santense, Jequitinhonha",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-16.214675,-39.067383 -16.146092,-39.748535 -16.320139,-39.918823 -16.430816,-40.039673 -16.54143,-40.12207 -16.625665,-40.237427 -16.720385,-40.275879 -16.815058,-40.22644 -16.94647,-40.341797 -16.988502,-40.457153 -17.20377,-40.517578 -17.32442,-40.545044 -17.465953,-40.462646 -17.612611,-40.270386 -17.85329,-40.166016 -17.952606,-40.204468 -18.130191,-40.209961 -18.245003,-40.061646 -18.32324,-39.770508 -18.218916,-39.660645 -17.963058,-39.534302 -17.85329,-39.413452 -17.753918,-39.265137 -17.701595,-39.226685 -17.418787,-39.237671 -17.062036,-39.237671 -16.841348,-39.177246 -16.378121,-39.116821 -16.214675,-39.067383"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.067383,
+              -16.214675
+            ],
+            [
+              -39.748535,
+              -16.146092
+            ],
+            [
+              -39.918823,
+              -16.320139
+            ],
+            [
+              -40.039673,
+              -16.430816
+            ],
+            [
+              -40.12207,
+              -16.54143
+            ],
+            [
+              -40.237427,
+              -16.625665
+            ],
+            [
+              -40.275879,
+              -16.720385
+            ],
+            [
+              -40.22644,
+              -16.815058
+            ],
+            [
+              -40.341797,
+              -16.94647
+            ],
+            [
+              -40.457153,
+              -16.988502
+            ],
+            [
+              -40.517578,
+              -17.20377
+            ],
+            [
+              -40.545044,
+              -17.32442
+            ],
+            [
+              -40.462646,
+              -17.465953
+            ],
+            [
+              -40.270386,
+              -17.612611
+            ],
+            [
+              -40.166016,
+              -17.85329
+            ],
+            [
+              -40.204468,
+              -17.952606
+            ],
+            [
+              -40.209961,
+              -18.130191
+            ],
+            [
+              -40.061646,
+              -18.245003
+            ],
+            [
+              -39.770508,
+              -18.32324
+            ],
+            [
+              -39.660645,
+              -18.218916
+            ],
+            [
+              -39.534302,
+              -17.963058
+            ],
+            [
+              -39.413452,
+              -17.85329
+            ],
+            [
+              -39.265137,
+              -17.753918
+            ],
+            [
+              -39.226685,
+              -17.701595
+            ],
+            [
+              -39.237671,
+              -17.418787
+            ],
+            [
+              -39.237671,
+              -17.062036
+            ],
+            [
+              -39.177246,
+              -16.841348
+            ],
+            [
+              -39.116821,
+              -16.378121
+            ],
+            [
+              -39.067383,
+              -16.214675
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo",
+        "severity_group": "perigo",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elétrica,  queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda) Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T13:55:23-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54449",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54449",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54449",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27450.1",
+        "color_risk": "#F96602",
+        "municipios": "Alcobaça - BA (2900801), Caravelas - BA (2906907), Conceição da Barra - ES (3201605), Mucuri - BA (2922003), Nova Viçosa - BA (2923001), Porto Seguro - BA (2925303), Prado - BA (2925501), Santa Cruz Cabrália - BA (2927705)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Baiano, Litoral Norte Espírito-santense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-16.341226,-39.116821 -16.328047,-38.908081 -16.465061,-38.833923 -16.625665,-38.910828 -16.862377,-38.946533 -17.072539,-38.990479 -17.25099,-39.028931 -17.465953,-38.946533 -17.704212,-38.938293 -17.976121,-39.009705 -18.093644,-39.199219 -18.177169,-39.350281 -18.179126,-39.369507 -18.223482,-39.397659 -18.3089,-39.453964 -18.486121,-39.570007 -18.469189,-39.711456 -18.452255,-39.862518 -18.431411,-39.851532 -18.319981,-39.770508 -18.314115,-39.763813 -18.304173,-39.753342 -18.29472,-39.7439 -18.279399,-39.729309 -18.269619,-39.717121 -18.250383,-39.698582 -18.228373,-39.673176 -18.218264,-39.662189 -18.18777,-39.6488 -18.169829,-39.63953 -18.133291,-39.620132 -18.091197,-39.599876 -18.069983,-39.588203 -18.013018,-39.560909 -17.963384,-39.536877 -17.955709,-39.528809 -17.94934,-39.522457 -17.928273,-39.49894 -17.899852,-39.467697 -17.885803,-39.450874 -17.855414,-39.418259 -17.846918,-39.409676 -17.833682,-39.387016 -17.815215,-39.360237 -17.798544,-39.334831 -17.772718,-39.296207 -17.751302,-39.264793 -17.724488,-39.245396 -17.712715,-39.238701 -17.700287,-39.227715 -17.686386,-39.227715 -17.656781,-39.229259 -17.547153,-39.236298 -17.428615,-39.239731 -17.06138,-39.243164 -16.83609,-39.184113 -16.595398,-39.155273 -16.341226,-39.116821"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.116821,
+              -16.341226
+            ],
+            [
+              -38.908081,
+              -16.328047
+            ],
+            [
+              -38.833923,
+              -16.465061
+            ],
+            [
+              -38.910828,
+              -16.625665
+            ],
+            [
+              -38.946533,
+              -16.862377
+            ],
+            [
+              -38.990479,
+              -17.072539
+            ],
+            [
+              -39.028931,
+              -17.25099
+            ],
+            [
+              -38.946533,
+              -17.465953
+            ],
+            [
+              -38.938293,
+              -17.704212
+            ],
+            [
+              -39.009705,
+              -17.976121
+            ],
+            [
+              -39.199219,
+              -18.093644
+            ],
+            [
+              -39.350281,
+              -18.177169
+            ],
+            [
+              -39.369507,
+              -18.179126
+            ],
+            [
+              -39.397659,
+              -18.223482
+            ],
+            [
+              -39.453964,
+              -18.3089
+            ],
+            [
+              -39.570007,
+              -18.486121
+            ],
+            [
+              -39.711456,
+              -18.469189
+            ],
+            [
+              -39.862518,
+              -18.452255
+            ],
+            [
+              -39.851532,
+              -18.431411
+            ],
+            [
+              -39.770508,
+              -18.319981
+            ],
+            [
+              -39.763813,
+              -18.314115
+            ],
+            [
+              -39.753342,
+              -18.304173
+            ],
+            [
+              -39.7439,
+              -18.29472
+            ],
+            [
+              -39.729309,
+              -18.279399
+            ],
+            [
+              -39.717121,
+              -18.269619
+            ],
+            [
+              -39.698582,
+              -18.250383
+            ],
+            [
+              -39.673176,
+              -18.228373
+            ],
+            [
+              -39.662189,
+              -18.218264
+            ],
+            [
+              -39.6488,
+              -18.18777
+            ],
+            [
+              -39.63953,
+              -18.169829
+            ],
+            [
+              -39.620132,
+              -18.133291
+            ],
+            [
+              -39.599876,
+              -18.091197
+            ],
+            [
+              -39.588203,
+              -18.069983
+            ],
+            [
+              -39.560909,
+              -18.013018
+            ],
+            [
+              -39.536877,
+              -17.963384
+            ],
+            [
+              -39.528809,
+              -17.955709
+            ],
+            [
+              -39.522457,
+              -17.94934
+            ],
+            [
+              -39.49894,
+              -17.928273
+            ],
+            [
+              -39.467697,
+              -17.899852
+            ],
+            [
+              -39.450874,
+              -17.885803
+            ],
+            [
+              -39.418259,
+              -17.855414
+            ],
+            [
+              -39.409676,
+              -17.846918
+            ],
+            [
+              -39.387016,
+              -17.833682
+            ],
+            [
+              -39.360237,
+              -17.815215
+            ],
+            [
+              -39.334831,
+              -17.798544
+            ],
+            [
+              -39.296207,
+              -17.772718
+            ],
+            [
+              -39.264793,
+              -17.751302
+            ],
+            [
+              -39.245396,
+              -17.724488
+            ],
+            [
+              -39.238701,
+              -17.712715
+            ],
+            [
+              -39.227715,
+              -17.700287
+            ],
+            [
+              -39.227715,
+              -17.686386
+            ],
+            [
+              -39.229259,
+              -17.656781
+            ],
+            [
+              -39.236298,
+              -17.547153
+            ],
+            [
+              -39.239731,
+              -17.428615
+            ],
+            [
+              -39.243164,
+              -17.06138
+            ],
+            [
+              -39.184113,
+              -16.83609
+            ],
+            [
+              -39.155273,
+              -16.595398
+            ],
+            [
+              -39.116821,
+              -16.341226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo",
+        "severity_group": "perigo",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elétrica,  queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda) Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54448",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54448",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54448",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27449.2",
+        "color_risk": "#F96602",
+        "municipios": "Alcobaça - BA (2900801), Caravelas - BA (2906907), Conceição da Barra - ES (3201605), Mucuri - BA (2922003), Nova Viçosa - BA (2923001), Porto Seguro - BA (2925303), Prado - BA (2925501), Santa Cruz Cabrália - BA (2927705)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Baiano, Litoral Norte Espírito-santense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-16.342543,-39.118195 -16.333319,-39.042664 -16.335954,-38.980865 -16.534848,-39.002838 -16.795338,-39.082489 -17.199834,-39.114075 -17.501319,-39.068756 -17.833682,-39.138794 -18.004856,-39.293976 -18.318026,-39.534302 -18.380592,-39.648285 -18.363649,-39.701843 -18.324544,-39.762268 -18.248916,-39.707336 -18.188911,-39.657898 -18.074062,-39.609833 -17.976121,-39.556274 -17.871589,-39.454651 -17.811456,-39.380493 -17.764381,-39.293976 -17.708136,-39.244537 -17.641405,-39.237671 -17.479052,-39.241791 -17.313932,-39.247284 -17.165722,-39.247284 -16.975368,-39.221191 -16.691448,-39.167633 -16.508516,-39.142914 -16.342543,-39.118195"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.118195,
+              -16.342543
+            ],
+            [
+              -39.042664,
+              -16.333319
+            ],
+            [
+              -38.980865,
+              -16.335954
+            ],
+            [
+              -39.002838,
+              -16.534848
+            ],
+            [
+              -39.082489,
+              -16.795338
+            ],
+            [
+              -39.114075,
+              -17.199834
+            ],
+            [
+              -39.068756,
+              -17.501319
+            ],
+            [
+              -39.138794,
+              -17.833682
+            ],
+            [
+              -39.293976,
+              -18.004856
+            ],
+            [
+              -39.534302,
+              -18.318026
+            ],
+            [
+              -39.648285,
+              -18.380592
+            ],
+            [
+              -39.701843,
+              -18.363649
+            ],
+            [
+              -39.762268,
+              -18.324544
+            ],
+            [
+              -39.707336,
+              -18.248916
+            ],
+            [
+              -39.657898,
+              -18.188911
+            ],
+            [
+              -39.609833,
+              -18.074062
+            ],
+            [
+              -39.556274,
+              -17.976121
+            ],
+            [
+              -39.454651,
+              -17.871589
+            ],
+            [
+              -39.380493,
+              -17.811456
+            ],
+            [
+              -39.293976,
+              -17.764381
+            ],
+            [
+              -39.244537,
+              -17.708136
+            ],
+            [
+              -39.237671,
+              -17.641405
+            ],
+            [
+              -39.241791,
+              -17.479052
+            ],
+            [
+              -39.247284,
+              -17.313932
+            ],
+            [
+              -39.247284,
+              -17.165722
+            ],
+            [
+              -39.221191,
+              -16.975368
+            ],
+            [
+              -39.167633,
+              -16.691448
+            ],
+            [
+              -39.142914,
+              -16.508516
+            ],
+            [
+              -39.118195,
+              -16.342543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo",
+        "severity_group": "perigo",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elétrica,  queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda) Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54446",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54446",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54446",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27442.2",
+        "color_risk": "#F96602",
+        "municipios": "Alcobaça - BA (2900801), Caravelas - BA (2906907), Conceição da Barra - ES (3201605), Mucuri - BA (2922003), Nova Viçosa - BA (2923001), Porto Seguro - BA (2925303), Prado - BA (2925501), Santa Cruz Cabrália - BA (2927705)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Baiano, Litoral Norte Espírito-santense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-16.215334,-39.06601 -16.232476,-39.010391 -16.249286,-39.017773 -16.254066,-39.018459 -16.265931,-39.020691 -16.289,-39.023952 -16.30663,-39.026699 -16.322281,-39.022236 -16.330189,-39.015369 -16.334307,-39.007301 -16.354074,-39.013996 -16.37318,-39.009533 -16.375733,-39.011936 -16.390473,-39.036655 -16.423901,-39.062576 -16.451891,-39.062576 -16.472963,-39.06498 -16.511149,-39.077339 -16.600004,-39.099655 -16.634876,-39.097595 -16.650665,-39.098969 -16.66448,-39.108582 -16.703944,-39.112015 -16.749318,-39.142914 -16.803884,-39.150467 -16.87749,-39.14772 -16.892602,-39.123001 -16.905742,-39.134674 -16.937931,-39.156647 -16.983905,-39.162827 -17.011485,-39.177933 -17.05022,-39.177246 -17.081071,-39.183426 -17.109293,-39.190292 -17.134885,-39.209518 -17.177531,-39.219818 -17.214264,-39.217072 -17.2464,-39.220505 -17.308032,-39.227371 -17.429925,-39.210892 -17.474467,-39.198532 -17.585776,-39.200592 -17.63617,-39.186172 -17.680007,-39.14772 -17.738223,-39.197159 -17.750649,-39.192352 -17.840872,-39.27681 -17.861786,-39.275436 -17.937582,-39.445038 -17.983305,-39.495163 -18.101476,-39.563141 -18.184997,-39.618073 -18.383199,-39.689484 -18.327151,-39.768448 -18.271086,-39.729996 -18.188911,-39.657211 -18.098213,-39.619446 -17.974161,-39.553528 -17.893807,-39.48555 -17.820608,-39.390106 -17.790535,-39.335175 -17.71991,-39.240417 -17.661034,-39.235611 -17.551081,-39.241104 -17.445647,-39.243851 -17.341463,-39.245911 -17.276563,-39.245911 -17.139478,-39.245224 -17.039716,-39.237671 -16.993099,-39.223938 -16.642113,-39.159393 -16.619086,-39.151154 -16.36231,-39.123688 -16.254231,-39.087982 -16.215334,-39.06601"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.06601,
+              -16.215334
+            ],
+            [
+              -39.010391,
+              -16.232476
+            ],
+            [
+              -39.017773,
+              -16.249286
+            ],
+            [
+              -39.018459,
+              -16.254066
+            ],
+            [
+              -39.020691,
+              -16.265931
+            ],
+            [
+              -39.023952,
+              -16.289
+            ],
+            [
+              -39.026699,
+              -16.30663
+            ],
+            [
+              -39.022236,
+              -16.322281
+            ],
+            [
+              -39.015369,
+              -16.330189
+            ],
+            [
+              -39.007301,
+              -16.334307
+            ],
+            [
+              -39.013996,
+              -16.354074
+            ],
+            [
+              -39.009533,
+              -16.37318
+            ],
+            [
+              -39.011936,
+              -16.375733
+            ],
+            [
+              -39.036655,
+              -16.390473
+            ],
+            [
+              -39.062576,
+              -16.423901
+            ],
+            [
+              -39.062576,
+              -16.451891
+            ],
+            [
+              -39.06498,
+              -16.472963
+            ],
+            [
+              -39.077339,
+              -16.511149
+            ],
+            [
+              -39.099655,
+              -16.600004
+            ],
+            [
+              -39.097595,
+              -16.634876
+            ],
+            [
+              -39.098969,
+              -16.650665
+            ],
+            [
+              -39.108582,
+              -16.66448
+            ],
+            [
+              -39.112015,
+              -16.703944
+            ],
+            [
+              -39.142914,
+              -16.749318
+            ],
+            [
+              -39.150467,
+              -16.803884
+            ],
+            [
+              -39.14772,
+              -16.87749
+            ],
+            [
+              -39.123001,
+              -16.892602
+            ],
+            [
+              -39.134674,
+              -16.905742
+            ],
+            [
+              -39.156647,
+              -16.937931
+            ],
+            [
+              -39.162827,
+              -16.983905
+            ],
+            [
+              -39.177933,
+              -17.011485
+            ],
+            [
+              -39.177246,
+              -17.05022
+            ],
+            [
+              -39.183426,
+              -17.081071
+            ],
+            [
+              -39.190292,
+              -17.109293
+            ],
+            [
+              -39.209518,
+              -17.134885
+            ],
+            [
+              -39.219818,
+              -17.177531
+            ],
+            [
+              -39.217072,
+              -17.214264
+            ],
+            [
+              -39.220505,
+              -17.2464
+            ],
+            [
+              -39.227371,
+              -17.308032
+            ],
+            [
+              -39.210892,
+              -17.429925
+            ],
+            [
+              -39.198532,
+              -17.474467
+            ],
+            [
+              -39.200592,
+              -17.585776
+            ],
+            [
+              -39.186172,
+              -17.63617
+            ],
+            [
+              -39.14772,
+              -17.680007
+            ],
+            [
+              -39.197159,
+              -17.738223
+            ],
+            [
+              -39.192352,
+              -17.750649
+            ],
+            [
+              -39.27681,
+              -17.840872
+            ],
+            [
+              -39.275436,
+              -17.861786
+            ],
+            [
+              -39.445038,
+              -17.937582
+            ],
+            [
+              -39.495163,
+              -17.983305
+            ],
+            [
+              -39.563141,
+              -18.101476
+            ],
+            [
+              -39.618073,
+              -18.184997
+            ],
+            [
+              -39.689484,
+              -18.383199
+            ],
+            [
+              -39.768448,
+              -18.327151
+            ],
+            [
+              -39.729996,
+              -18.271086
+            ],
+            [
+              -39.657211,
+              -18.188911
+            ],
+            [
+              -39.619446,
+              -18.098213
+            ],
+            [
+              -39.553528,
+              -17.974161
+            ],
+            [
+              -39.48555,
+              -17.893807
+            ],
+            [
+              -39.390106,
+              -17.820608
+            ],
+            [
+              -39.335175,
+              -17.790535
+            ],
+            [
+              -39.240417,
+              -17.71991
+            ],
+            [
+              -39.235611,
+              -17.661034
+            ],
+            [
+              -39.241104,
+              -17.551081
+            ],
+            [
+              -39.243851,
+              -17.445647
+            ],
+            [
+              -39.245911,
+              -17.341463
+            ],
+            [
+              -39.245911,
+              -17.276563
+            ],
+            [
+              -39.245224,
+              -17.139478
+            ],
+            [
+              -39.237671,
+              -17.039716
+            ],
+            [
+              -39.223938,
+              -16.993099
+            ],
+            [
+              -39.159393,
+              -16.642113
+            ],
+            [
+              -39.151154,
+              -16.619086
+            ],
+            [
+              -39.123688,
+              -16.36231
+            ],
+            [
+              -39.087982,
+              -16.254231
+            ],
+            [
+              -39.06601,
+              -16.215334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T13:49:25-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54445",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54445",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54445",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27448.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Alcobaça - BA (2900801), Caravelas - BA (2906907), Conceição da Barra - ES (3201605), Eunápolis - BA (2910727), Guaratinga - BA (2911808), Ibirapuã - BA (2912806), Itabela - BA (2914653), Itamaraju - BA (2915601), Itanhém - BA (2916005), Jucuruçu - BA (2918456), Lajedão - BA (2918902), Medeiros Neto - BA (2921104), Montanha - ES (3203502), Mucuri - BA (2922003), Nanuque - MG (3144300), Nova Viçosa - BA (2923001), Palmópolis - MG (3146750), Pedro Canário - ES (3204054), Pinheiros - ES (3204104), Porto Seguro - BA (2925303), Prado - BA (2925501), Santa Cruz Cabrália - BA (2927705), Teixeira de Freitas - BA (2931350), Vereda - BA (2933257)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Baiano, Litoral Norte Espírito-santense, Vale do Mucuri, Jequitinhonha",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-16.351768,-38.913574 -16.341226,-39.561768 -16.446622,-40.023193 -16.688817,-40.264893 -16.96486,-40.487366 -17.122417,-40.539551 -17.277219,-40.506592 -17.387337,-40.539551 -17.528821,-40.407715 -17.704212,-40.218201 -17.863747,-40.155029 -18.041421,-40.264893 -18.281518,-40.089111 -18.437925,-39.869385 -18.469189,-39.567261 -18.132801,-39.350281 -17.931702,-39.028931 -17.513106,-38.954773 -17.298199,-39.056396 -16.996382,-39.009705 -16.688817,-38.960266 -16.459793,-38.875122 -16.351768,-38.913574"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.913574,
+              -16.351768
+            ],
+            [
+              -39.561768,
+              -16.341226
+            ],
+            [
+              -40.023193,
+              -16.446622
+            ],
+            [
+              -40.264893,
+              -16.688817
+            ],
+            [
+              -40.487366,
+              -16.96486
+            ],
+            [
+              -40.539551,
+              -17.122417
+            ],
+            [
+              -40.506592,
+              -17.277219
+            ],
+            [
+              -40.539551,
+              -17.387337
+            ],
+            [
+              -40.407715,
+              -17.528821
+            ],
+            [
+              -40.218201,
+              -17.704212
+            ],
+            [
+              -40.155029,
+              -17.863747
+            ],
+            [
+              -40.264893,
+              -18.041421
+            ],
+            [
+              -40.089111,
+              -18.281518
+            ],
+            [
+              -39.869385,
+              -18.437925
+            ],
+            [
+              -39.567261,
+              -18.469189
+            ],
+            [
+              -39.350281,
+              -18.132801
+            ],
+            [
+              -39.028931,
+              -17.931702
+            ],
+            [
+              -38.954773,
+              -17.513106
+            ],
+            [
+              -39.056396,
+              -17.298199
+            ],
+            [
+              -39.009705,
+              -16.996382
+            ],
+            [
+              -38.960266,
+              -16.688817
+            ],
+            [
+              -38.875122,
+              -16.459793
+            ],
+            [
+              -38.913574,
+              -16.351768
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Geada. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Geada",
+        "categoria": "Met",
+        "headline": "Aviso de Geada. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Risco leve de perda de plantações. Temperatura mínima até 3ºC.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T09:00:00-03:00",
+        "sent": "2026-05-21T13:36:27-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54443",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54443",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54443",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27446.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Aceguá - RS (4300034), Bagé - RS (4301602), Candiota - RS (4304358), Canguçu - RS (4304507), Dom Pedrito - RS (4306601), Herval - RS (4307104), Hulha Negra - RS (4309654), Pedras Altas - RS (4314175), Pinheiro Machado - RS (4314506), Piratini - RS (4314605)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sudoeste Rio-grandense, Sudeste Rio-grandense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-31.264466,-54.569092 -31.015279,-54.275208 -31.027048,-53.657227 -31.156408,-53.371582 -31.336044,-53.11615 -31.455611,-53.0159 -31.585555,-52.970581 -31.725831,-52.998047 -31.87989,-53.168335 -32.031363,-53.418274 -32.133757,-53.684692 -32.082575,-53.706665 -32.049989,-53.783569 -32.022049,-53.813782 -31.970804,-53.857727 -31.968474,-53.893433 -31.938178,-53.929138 -31.896214,-53.945618 -31.884554,-54.017029 -31.896214,-54.069214 -31.882222,-54.124146 -31.679096,-54.365845 -31.608949,-54.440002 -31.531726,-54.470215 -31.482551,-54.538879 -31.416944,-54.63501 -31.264466,-54.569092"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.569092,
+              -31.264466
+            ],
+            [
+              -54.275208,
+              -31.015279
+            ],
+            [
+              -53.657227,
+              -31.027048
+            ],
+            [
+              -53.371582,
+              -31.156408
+            ],
+            [
+              -53.11615,
+              -31.336044
+            ],
+            [
+              -53.0159,
+              -31.455611
+            ],
+            [
+              -52.970581,
+              -31.585555
+            ],
+            [
+              -52.998047,
+              -31.725831
+            ],
+            [
+              -53.168335,
+              -31.87989
+            ],
+            [
+              -53.418274,
+              -32.031363
+            ],
+            [
+              -53.684692,
+              -32.133757
+            ],
+            [
+              -53.706665,
+              -32.082575
+            ],
+            [
+              -53.783569,
+              -32.049989
+            ],
+            [
+              -53.813782,
+              -32.022049
+            ],
+            [
+              -53.857727,
+              -31.970804
+            ],
+            [
+              -53.893433,
+              -31.968474
+            ],
+            [
+              -53.929138,
+              -31.938178
+            ],
+            [
+              -53.945618,
+              -31.896214
+            ],
+            [
+              -54.017029,
+              -31.884554
+            ],
+            [
+              -54.069214,
+              -31.896214
+            ],
+            [
+              -54.124146,
+              -31.882222
+            ],
+            [
+              -54.365845,
+              -31.679096
+            ],
+            [
+              -54.440002,
+              -31.608949
+            ],
+            [
+              -54.470215,
+              -31.531726
+            ],
+            [
+              -54.538879,
+              -31.482551
+            ],
+            [
+              -54.63501,
+              -31.416944
+            ],
+            [
+              -54.569092,
+              -31.264466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Geada. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Geada",
+        "categoria": "Met",
+        "headline": "Aviso de Geada. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Risco leve de perda de plantações. Temperatura mínima até 3ºC.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T09:00:00-03:00",
+        "sent": "2026-05-21T13:34:54-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54442",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54442",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54442",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27445.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Alto Feliz - RS (4300570), André da Rocha - RS (4300661), Antônio Prado - RS (4300802), Bento Gonçalves - RS (4302105), Bocaina do Sul - SC (4202438), Bom Jardim da Serra - SC (4202503), Bom Jesus - RS (4302303), Bom Retiro - SC (4202602), Cambará do Sul - RS (4303608), Campestre da Serra - RS (4303673), Campo Belo do Sul - SC (4203402), Canela - RS (4304408), Capão Alto - SC (4203253), Capão Bonito do Sul - RS (4304622), Carlos Barbosa - RS (4304804), Caxias do Sul - RS (4305108), Cerro Negro - SC (4204178), Correia Pinto - SC (4204558), Esmeralda - RS (4307401), Farroupilha - RS (4307906), Feliz - RS (4308102), Flores da Cunha - RS (4308201), Garibaldi - RS (4308607), Gramado - RS (4309100), Ibiraiaras - RS (4309902), Ipê - RS (4310439), Itati - RS (4310652), Jacinto Machado - SC (4208708), Jaquirana - RS (4311122), Lages - SC (4209300), Lagoa Vermelha - RS (4311304), Lauro Müller - SC (4209607), Mampituba - RS (4311734), Maquiné - RS (4311775), Meleiro - SC (4210803), Monte Alegre dos Campos - RS (4312377), Morro Grande - SC (4211256), Muitos Capões - RS (4312617), Nova Pádua - RS (4313086), Nova Petrópolis - RS (4313201), Nova Prata - RS (4313300), Nova Roma do Sul - RS (4313359), Nova Veneza - SC (4211603), Orleans - SC (4211702), Otacílio Costa - SC (4211751), Painel - SC (4211892), Palmeira - SC (4212056), Picada Café - RS (4314423), Pinto Bandeira - RS (4314548), Praia Grande - SC (4213807), Protásio Alves - RS (4315172), Rio Rufino - SC (4215059), Santa Maria do Herval - RS (4316956), São Francisco de Paula - RS (4318200), São Joaquim - SC (4216503), São José do Cerrito - SC (4216800), São José dos Ausentes - RS (4318622), São Marcos - RS (4319000), São Vendelino - RS (4319752), Siderópolis - SC (4217600), Taquara - RS (4321204), Timbé do Sul - SC (4218103), Três Coroas - RS (4321709), Três Forquilhas - RS (4321832), Treviso - SC (4218350), Turvo - SC (4218806), Urubici - SC (4218905), Urupema - SC (4218954), Vacaria - RS (4322509), Vale Real - RS (4322541), Veranópolis - RS (4322806), Vila Flores - RS (4323309)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Metropolitana de Porto Alegre, Nordeste Rio-grandense, Serrana, Noroeste Rio-grandense, Sul Catarinense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-27.967721,-51.053467 -27.84879,-50.756836 -27.684744,-50.401154 -27.610539,-50.174561 -27.644606,-49.946594 -27.71271,-49.768066 -27.80021,-49.584045 -27.994401,-49.509888 -28.497661,-49.504395 -28.88316,-49.713135 -29.128172,-49.932861 -29.329509,-50.081177 -29.489816,-50.401154 -29.479057,-50.727997 -29.440794,-51.030121 -29.373798,-51.339111 -29.32472,-51.454468 -29.257649,-51.575317 -28.758028,-51.608276 -28.362402,-51.509399 -28.130128,-51.377563 -28.0235,-51.135864 -27.967721,-51.053467"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.053467,
+              -27.967721
+            ],
+            [
+              -50.756836,
+              -27.84879
+            ],
+            [
+              -50.401154,
+              -27.684744
+            ],
+            [
+              -50.174561,
+              -27.610539
+            ],
+            [
+              -49.946594,
+              -27.644606
+            ],
+            [
+              -49.768066,
+              -27.71271
+            ],
+            [
+              -49.584045,
+              -27.80021
+            ],
+            [
+              -49.509888,
+              -27.994401
+            ],
+            [
+              -49.504395,
+              -28.497661
+            ],
+            [
+              -49.713135,
+              -28.88316
+            ],
+            [
+              -49.932861,
+              -29.128172
+            ],
+            [
+              -50.081177,
+              -29.329509
+            ],
+            [
+              -50.401154,
+              -29.489816
+            ],
+            [
+              -50.727997,
+              -29.479057
+            ],
+            [
+              -51.030121,
+              -29.440794
+            ],
+            [
+              -51.339111,
+              -29.373798
+            ],
+            [
+              -51.454468,
+              -29.32472
+            ],
+            [
+              -51.575317,
+              -29.257649
+            ],
+            [
+              -51.608276,
+              -28.758028
+            ],
+            [
+              -51.509399,
+              -28.362402
+            ],
+            [
+              -51.377563,
+              -28.130128
+            ],
+            [
+              -51.135864,
+              -28.0235
+            ],
+            [
+              -51.053467,
+              -27.967721
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo",
+        "severity_group": "perigo",
+        "evento": "Tempestade",
+        "categoria": "Met",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elétrica, estragos em plantações,  queda de árvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T13:31:25-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54441",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54441",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54441",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27444.1",
+        "color_risk": "#F96602",
+        "municipios": "Abelardo Luz - SC (4200101), Água Doce - SC (4200408), Altamira do Paraná - PR (4100459), Altônia - PR (4100509), Alto Paraíso - PR (4128625), Alto Piquiri - PR (4100707), Amaporã - PR (4100905), Ampére - PR (4101002), Anahy - PR (4101051), Anchieta - SC (4200804), Arapuã - PR (4101655), Araruna - PR (4101705), Ariranha do Ivaí - PR (4101853), Assis Chateaubriand - PR (4102000), Barbosa Ferraz - PR (4102505), Barracão - PR (4102604), Bela Vista da Caroba - PR (4102752), Bituruna - PR (4102901), Boa Esperança - PR (4103008), Boa Esperança do Iguaçu - PR (4103024), Boa Ventura de São Roque - PR (4103040), Boa Vista da Aparecida - PR (4103057), Bom Jesus - SC (4202537), Bom Jesus do Sul - PR (4103156), Bom Sucesso do Sul - PR (4103222), Braganey - PR (4103354), Brasilândia do Sul - PR (4103370), Caçador - SC (4203006), Cafelândia - PR (4103453), Cafezal do Sul - PR (4103479), Calmon - SC (4203154), Campina da Lagoa - PR (4103909), Campina do Simão - PR (4103958), Campo Bonito - PR (4104055), Campo Erê - SC (4203501), Campo Mourão - PR (4104303), Cândido de Abreu - PR (4104402), Candói - PR (4104428), Cantagalo - PR (4104451), Capanema - PR (4104501), Capitão Leônidas Marques - PR (4104600), Cascavel - PR (4104808), Catanduvas - PR (4105003), Céu Azul - PR (4105300), Chopinzinho - PR (4105409), Cianorte - PR (4105508), Cidade Gaúcha - PR (4105607), Clevelândia - PR (4105706), Corbélia - PR (4106308), Coronel Domingos Soares - PR (4106456), Coronel Martins - SC (4204459), Coronel Vivida - PR (4106506), Corumbataí do Sul - PR (4106555), Cruzeiro do Iguaçu - PR (4106571), Cruzeiro do Oeste - PR (4106605), Cruz Machado - PR (4106803), Diamante D'Oeste - PR (4107157), Diamante do Sul - PR (4107124), Dionísio Cerqueira - SC (4205001), Dois Vizinhos - PR (4107207), Douradina - PR (4107256), Doutor Camargo - PR (4107306), Enéas Marques - PR (4107405), Engenheiro Beltrão - PR (4107504), Entre Rios - SC (4205175), Entre Rios do Oeste - PR (4107538), Esperança Nova - PR (4107520), Espigão Alto do Iguaçu - PR (4107546), Farol - PR (4107553), Faxinal dos Guedes - SC (4205308), Fênix - PR (4107702), Flor da Serra do Sul - PR (4107850), Floresta - PR (4107900), Formosa do Oeste - PR (4108205), Formosa do Sul - SC (4205431), Foz do Iguaçu - PR (4108304), Foz do Jordão - PR (4108452), Francisco Alves - PR (4108320), Francisco Beltrão - PR (4108403), Galvão - SC (4205605), General Carneiro - PR (4108502), Godoy Moreira - PR (4108551), Goioerê - PR (4108601), Goioxim - PR (4108650), Guaíra - PR (4108809), Guaporema - PR (4109104), Guaraniaçu - PR (4109302), Guarapuava - PR (4109401), Guarujá do Sul - SC (4206603), Honório Serpa - PR (4109658), Ibema - PR (4109757), Icaraíma - PR (4109906), Iguatu - PR (4110052), Inácio Martins - PR (4110201), Indianópolis - PR (4110409), Iporã - PR (4110607), Ipuaçu - SC (4207684), Iracema do Oeste - PR (4110656), Irati - PR (4110706), Irati - SC (4207858), Iretama - PR (4110805), Irineópolis - SC (4207908), Itaipulândia - PR (4110953), Itambé - PR (4111100), Itapejara d'Oeste - PR (4111209), Ivaiporã - PR (4111506), Ivaté - PR (4111555), Ivatuba - PR (4111605), Janiópolis - PR (4112207), Japurá - PR (4112405), Jardim Alegre - PR (4112504), Jesuítas - PR (4112751), Jupiá - SC (4209177), Juranda - PR (4112959), Jussara - PR (4113007), Laranjal - PR (4113254), Laranjeiras do Sul - PR (4113304), Lidianópolis - PR (4113429), Lindoeste - PR (4113452), Luiziana - PR (4113734), Lunardelli - PR (4113759), Macieira - SC (4210050), Mallet - PR (4113908), Mamborê - PR (4114005), Manfrinópolis - PR (4114351), Mangueirinha - PR (4114401), Manoel Ribas - PR (4114500), Marechal Cândido Rondon - PR (4114609), Maria Helena - PR (4114708), Marialva - PR (4114807), Mariluz - PR (4115101), Mariópolis - PR (4115309), Maripá - PR (4115358), Marmeleiro - PR (4115408), Marquinho - PR (4115457), Matelândia - PR (4115606), Mato Rico - PR (4115739), Matos Costa - SC (4210704), Medianeira - PR (4115804), Mercedes - PR (4115853), Mirador - PR (4115903), Missal - PR (4116059), Moreira Sales - PR (4116109), Nova Aurora - PR (4116703), Nova Cantu - PR (4116802), Nova Esperança do Sudoeste - PR (4116950), Nova Laranjeiras - PR (4117057), Nova Olímpia - PR (4117206), Nova Prata do Iguaçu - PR (4117255), Nova Santa Rosa - PR (4117222), Nova Tebas - PR (4117271), Novo Horizonte - SC (4211652), Ourizona - PR (4117404), Ouro Verde - SC (4211850), Ouro Verde do Oeste - PR (4117453), Palmas - PR (4117602), Palma Sola - SC (4212007), Palmital - PR (4117800), Palotina - PR (4117909), Passos Maia - SC (4212270), Pato Bragado - PR (4118451), Pato Branco - PR (4118501), Paula Freitas - PR (4118600), Paulo Frontin - PR (4118709), Peabiru - PR (4118808), Perobal - PR (4118857), Pérola - PR (4118907), Pérola d'Oeste - PR (4119004), Pinhal de São Bento - PR (4119251), Pinhão - PR (4119301), Pitanga - PR (4119608), Planaltina do Paraná - PR (4119707), Planalto - PR (4119806), Ponte Serrada - SC (4213401), Porto Barreiro - PR (4120150), Porto União - SC (4213609), Porto Vitória - PR (4120309), Pranchita - PR (4120358), Princesa - SC (4214151), Prudentópolis - PR (4120606), Quarto Centenário - PR (4120655), Quatro Pontes - PR (4120853), Quedas do Iguaçu - PR (4120903), Querência do Norte - PR (4121000), Quilombo - SC (4214201), Quinta do Sol - PR (4121109), Ramilândia - PR (4121257), Rancho Alegre D'Oeste - PR (4121356), Realeza - PR (4121406), Renascença - PR (4121604), Reserva do Iguaçu - PR (4121752), Rio Bonito do Iguaçu - PR (4122156), Romelândia - SC (4215208), Roncador - PR (4122503), Rondon - PR (4122602), Salgado Filho - PR (4122800), Saltinho - SC (4215356), Salto do Lontra - PR (4123006), Santa Cruz de Monte Castelo - PR (4123303), Santa Helena - PR (4123501), Santa Isabel do Ivaí - PR (4123709), Santa Izabel do Oeste - PR (4123808), Santa Lúcia - PR (4123824), Santa Maria do Oeste - PR (4123857), Santa Mônica - PR (4123956), Santa Tereza do Oeste - PR (4124020), Santa Terezinha de Itaipu - PR (4124053), Santa Terezinha do Progresso - SC (4215687), Santiago do Sul - SC (4215695), Santo Antônio do Sudoeste - PR (4124400), São Bernardino - SC (4215752), São Carlos do Ivaí - PR (4124608), São Domingos - SC (4216107), São João - PR (4124806), São João do Ivaí - PR (4125001), São Jorge d'Oeste - PR (4125209), São Jorge do Ivaí - PR (4125308), São Jorge do Patrocínio - PR (4125357), São José das Palmeiras - PR (4125456), São José do Cedro - SC (4216701), São Lourenço do Oeste - SC (4216909), São Manoel do Paraná - PR (4125555), São Miguel do Iguaçu - PR (4125704), São Pedro do Iguaçu - PR (4125753), São Pedro do Ivaí - PR (4125803), São Tomé - PR (4126108), Saudade do Iguaçu - PR (4126272), Serranópolis do Iguaçu - PR (4126355), Sul Brasil - SC (4217758), Sulina - PR (4126652), Tapejara - PR (4126801), Tapira - PR (4126900), Terra Boa - PR (4127205), Terra Roxa - PR (4127403), Toledo - PR (4127700), Três Barras do Paraná - PR (4127858), Tuneiras do Oeste - PR (4127908), Tupãssi - PR (4127957), Turvo - PR (4127965), Ubiratã - PR (4128005), Umuarama - PR (4128104), União da Vitória - PR (4128203), Vargeão - SC (4219101), Vera Cruz do Oeste - PR (4128559), Verê - PR (4128609), Virmond - PR (4128658), Vitorino - PR (4128708), Xambrê - PR (4128807)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Oeste Catarinense, Centro Ocidental Paranaense, Noroeste Paranaense, Sudoeste Paranaense, Oeste Paranaense, Norte Central Paranaense, Sudeste Paranaense, Centro-Sul Paranaense, Norte Catarinense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-24.106647,-54.28894 -24.011344,-54.058228 -23.855698,-53.970337 -23.543845,-53.865967 -23.397724,-53.712158 -23.200961,-53.618774 -23.221155,-52.954102 -23.644524,-52.009277 -24.527135,-51.459961 -25.363882,-51.086426 -26.037042,-50.888672 -26.470573,-50.888672 -26.804461,-51.328125 -26.765231,-51.877441 -26.68673,-52.624512 -26.509905,-53.481445 -26.431228,-53.66272 -26.308189,-53.635254 -26.245388,-53.632507 -26.221983,-53.632507 -26.187483,-53.644867 -26.140645,-53.676453 -26.095022,-53.716278 -26.014829,-53.728638 -25.955575,-53.795929 -25.908644,-53.801422 -25.827089,-53.824768 -25.76032,-53.819275 -25.712074,-53.845367 -25.641526,-53.853607 -25.598187,-53.908539 -25.552354,-54.021149 -25.536246,-54.078827 -25.497827,-54.078827 -25.490389,-54.121399 -25.516418,-54.191437 -25.536246,-54.221649 -25.54492,-54.246368 -25.54492,-54.294434 -25.556071,-54.342499 -25.580847,-54.376831 -25.621716,-54.41391 -25.621716,-54.460602 -25.58704,-54.497681 -25.557309,-54.551239 -25.482951,-54.595184 -25.439554,-54.600677 -25.383735,-54.547119 -25.260843,-54.474335 -25.183816,-54.444122 -25.142798,-54.420776 -25.098036,-54.434509 -25.052013,-54.441376 -24.97361,-54.424896 -24.847812,-54.389191 -24.766785,-54.356232 -24.681961,-54.319153 -24.525885,-54.299927 -24.47465,-54.298553 -24.424645,-54.269714 -24.36211,-54.249115 -24.305802,-54.265594 -24.210647,-54.308167 -24.129209,-54.308167 -24.106647,-54.28894"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.28894,
+              -24.106647
+            ],
+            [
+              -54.058228,
+              -24.011344
+            ],
+            [
+              -53.970337,
+              -23.855698
+            ],
+            [
+              -53.865967,
+              -23.543845
+            ],
+            [
+              -53.712158,
+              -23.397724
+            ],
+            [
+              -53.618774,
+              -23.200961
+            ],
+            [
+              -52.954102,
+              -23.221155
+            ],
+            [
+              -52.009277,
+              -23.644524
+            ],
+            [
+              -51.459961,
+              -24.527135
+            ],
+            [
+              -51.086426,
+              -25.363882
+            ],
+            [
+              -50.888672,
+              -26.037042
+            ],
+            [
+              -50.888672,
+              -26.470573
+            ],
+            [
+              -51.328125,
+              -26.804461
+            ],
+            [
+              -51.877441,
+              -26.765231
+            ],
+            [
+              -52.624512,
+              -26.68673
+            ],
+            [
+              -53.481445,
+              -26.509905
+            ],
+            [
+              -53.66272,
+              -26.431228
+            ],
+            [
+              -53.635254,
+              -26.308189
+            ],
+            [
+              -53.632507,
+              -26.245388
+            ],
+            [
+              -53.632507,
+              -26.221983
+            ],
+            [
+              -53.644867,
+              -26.187483
+            ],
+            [
+              -53.676453,
+              -26.140645
+            ],
+            [
+              -53.716278,
+              -26.095022
+            ],
+            [
+              -53.728638,
+              -26.014829
+            ],
+            [
+              -53.795929,
+              -25.955575
+            ],
+            [
+              -53.801422,
+              -25.908644
+            ],
+            [
+              -53.824768,
+              -25.827089
+            ],
+            [
+              -53.819275,
+              -25.76032
+            ],
+            [
+              -53.845367,
+              -25.712074
+            ],
+            [
+              -53.853607,
+              -25.641526
+            ],
+            [
+              -53.908539,
+              -25.598187
+            ],
+            [
+              -54.021149,
+              -25.552354
+            ],
+            [
+              -54.078827,
+              -25.536246
+            ],
+            [
+              -54.078827,
+              -25.497827
+            ],
+            [
+              -54.121399,
+              -25.490389
+            ],
+            [
+              -54.191437,
+              -25.516418
+            ],
+            [
+              -54.221649,
+              -25.536246
+            ],
+            [
+              -54.246368,
+              -25.54492
+            ],
+            [
+              -54.294434,
+              -25.54492
+            ],
+            [
+              -54.342499,
+              -25.556071
+            ],
+            [
+              -54.376831,
+              -25.580847
+            ],
+            [
+              -54.41391,
+              -25.621716
+            ],
+            [
+              -54.460602,
+              -25.621716
+            ],
+            [
+              -54.497681,
+              -25.58704
+            ],
+            [
+              -54.551239,
+              -25.557309
+            ],
+            [
+              -54.595184,
+              -25.482951
+            ],
+            [
+              -54.600677,
+              -25.439554
+            ],
+            [
+              -54.547119,
+              -25.383735
+            ],
+            [
+              -54.474335,
+              -25.260843
+            ],
+            [
+              -54.444122,
+              -25.183816
+            ],
+            [
+              -54.420776,
+              -25.142798
+            ],
+            [
+              -54.434509,
+              -25.098036
+            ],
+            [
+              -54.441376,
+              -25.052013
+            ],
+            [
+              -54.424896,
+              -24.97361
+            ],
+            [
+              -54.389191,
+              -24.847812
+            ],
+            [
+              -54.356232,
+              -24.766785
+            ],
+            [
+              -54.319153,
+              -24.681961
+            ],
+            [
+              -54.299927,
+              -24.525885
+            ],
+            [
+              -54.298553,
+              -24.47465
+            ],
+            [
+              -54.269714,
+              -24.424645
+            ],
+            [
+              -54.249115,
+              -24.36211
+            ],
+            [
+              -54.265594,
+              -24.305802
+            ],
+            [
+              -54.308167,
+              -24.210647
+            ],
+            [
+              -54.308167,
+              -24.129209
+            ],
+            [
+              -54.28894,
+              -24.106647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Tempestade",
+        "categoria": "Met",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 22/05/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-05-22T00:00:00-03:00",
+        "expires": "2026-05-22T23:59:00-03:00",
+        "sent": "2026-05-21T13:28:55-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54440",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54440",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54440",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27443.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Abatiá - PR (4100103), Abdon Batista - SC (4200051), Abelardo Luz - SC (4200101), Adrianópolis - PR (4100202), Agrolândia - SC (4200200), Agronômica - SC (4200309), Água Doce - SC (4200408), Águas de Chapecó - SC (4200507), Águas Frias - SC (4200556), Agudos do Sul - PR (4100301), Alfredo Marcondes - SP (3500808), Almirante Tamandaré - PR (4100400), Alpestre - RS (4300505), Altamira do Paraná - PR (4100459), Alto Bela Vista - SC (4200754), Altônia - PR (4100509), Alto Paraíso - PR (4128625), Alto Paraná - PR (4100608), Alto Piquiri - PR (4100707), Álvares Machado - SP (3501301), Alvorada do Sul - PR (4100806), Amambai - MS (5000609), Amaporã - PR (4100905), Ametista do Sul - RS (4300646), Ampére - PR (4101002), Anahy - PR (4101051), Anaurilândia - MS (5000807), Anchieta - SC (4200804), Andirá - PR (4101101), Angélica - MS (5000856), Ângulo - PR (4101150), Anhumas - SP (3502408), Anita Garibaldi - SC (4201000), Antonina - PR (4101200), Antônio Olinto - PR (4101309), Apiúna - SC (4201257), Apucarana - PR (4101408), Arabutã - SC (4201273), Aral Moreira - MS (5001243), Arapongas - PR (4101507), Arapoti - PR (4101606), Arapuã - PR (4101655), Araquari - SC (4201307), Araruna - PR (4101705), Aratiba - RS (4300901), Araucária - PR (4101804), Ariranha do Ivaí - PR (4101853), Arroio Trinta - SC (4201604), Arvoredo - SC (4201653), Ascurra - SC (4201703), Assaí - PR (4101903), Assis - SP (3504008), Assis Chateaubriand - PR (4102000), Astorga - PR (4102109), Atalaia - PR (4102208), Áurea - RS (4301552), Balneário Barra do Sul - SC (4202057), Balneário Piçarras - SC (4212809), Balsa Nova - PR (4102307), Bandeirante - SC (4202081), Bandeirantes - PR (4102406), Barão de Cotegipe - RS (4301701), Barbosa Ferraz - PR (4102505), Barra Bonita - SC (4202099), Barracão - PR (4102604), Barracão - RS (4301800), Barra do Guarita - RS (4301859), Barra do Jacaré - PR (4102703), Barra do Rio Azul - RS (4301925), Barra Velha - SC (4202107), Bataguassu - MS (5001904), Batayporã - MS (5002001), Bela Vista da Caroba - PR (4102752), Bela Vista do Paraíso - PR (4102802), Bela Vista do Toldo - SC (4202131), Belmonte - SC (4202156), Benedito Novo - SC (4202206), Benjamin Constant do Sul - RS (4302055), Bituruna - PR (4102901), Blumenau - SC (4202404), Boa Esperança - PR (4103008), Boa Esperança do Iguaçu - PR (4103024), Boa Ventura de São Roque - PR (4103040), Boa Vista da Aparecida - PR (4103057), Boa Vista das Missões - RS (4302154), Bocaiúva do Sul - PR (4103107), Bom Jesus - SC (4202537), Bom Jesus do Oeste - SC (4202578), Bom Jesus do Sul - PR (4103156), Bom Progresso - RS (4302378), Bom Sucesso - PR (4103206), Bom Sucesso do Sul - PR (4103222), Borrazópolis - PR (4103305), Braço do Trombudo - SC (4202859), Braga - RS (4302600), Braganey - PR (4103354), Brasilândia - MS (5002308), Brasilândia do Sul - PR (4103370), Brunópolis - SC (4202875), Caarapó - MS (5002407), Caçador - SC (4203006), Cacique Doble - RS (4303202), Cafeara - PR (4103404), Cafelândia - PR (4103453), Cafezal do Sul - PR (4103479), Caiabu - SP (3508900), Caibi - SC (4203105), Caiçara - RS (4303400), Caiuá - SP (3509106), Califórnia - PR (4103503), Calmon - SC (4203154), Cambará - PR (4103602), Cambé - PR (4103701), Cambira - PR (4103800), Campina da Lagoa - PR (4103909), Campina do Simão - PR (4103958), Campina Grande do Sul - PR (4104006), Campinas do Sul - RS (4303806), Campo Alegre - SC (4203303), Campo Belo do Sul - SC (4203402), Campo Bonito - PR (4104055), Campo do Tenente - PR (4104105), Campo Erê - SC (4203501), Campo Largo - PR (4104204), Campo Magro - PR (4104253), Campo Mourão - PR (4104303), Campos Novos - SC (4203600), Cândido de Abreu - PR (4104402), Cândido Mota - SP (3510005), Candói - PR (4104428), Canoinhas - SC (4203808), Cantagalo - PR (4104451), Capanema - PR (4104501), Capinzal - SC (4203907), Capitão Leônidas Marques - PR (4104600), Carambeí - PR (4104659), Carlópolis - PR (4104709), Carlos Gomes - RS (4304853), Cascavel - PR (4104808), Castro - PR (4104907), Catanduvas - PR (4105003), Catanduvas - SC (4204004), Caxambu do Sul - SC (4204103), Celso Ramos - SC (4204152), Centenário - RS (4305116), Centenário do Sul - PR (4105102), Cerro Azul - PR (4105201), Cerro Grande - RS (4305157), Cerro Negro - SC (4204178), Céu Azul - PR (4105300), Chapecó - SC (4204202), Chopinzinho - PR (4105409), Cianorte - PR (4105508), Cidade Gaúcha - PR (4105607), Clevelândia - PR (4105706), Colombo - PR (4105805), Colorado - PR (4105904), Concórdia - SC (4204301), Congonhinhas - PR (4106001), Conselheiro Mairinck - PR (4106100), Constantina - RS (4305801), Contenda - PR (4106209), Corbélia - PR (4106308), Cordilheira Alta - SC (4204350), Cornélio Procópio - PR (4106407), Coronel Domingos Soares - PR (4106456), Coronel Freitas - SC (4204400), Coronel Martins - SC (4204459), Coronel Sapucaia - MS (5003157), Coronel Vivida - PR (4106506), Correia Pinto - SC (4204558), Corumbataí do Sul - PR (4106555), Corupá - SC (4204509), Cristal do Sul - RS (4306072), Cruzália - SP (3513306), Cruzaltense - RS (4306130), Cruzeiro do Iguaçu - PR (4106571), Cruzeiro do Oeste - PR (4106605), Cruzeiro do Sul - PR (4106704), Cruz Machado - PR (4106803), Cruzmaltina - PR (4106852), Cunha Porã - SC (4204707), Cunhataí - SC (4204756), Curitiba - PR (4106902), Curitibanos - SC (4204806), Curiúva - PR (4107009), Deodápolis - MS (5003454), Derrubadas - RS (4306320), Descanso - SC (4204905), Diamante D'Oeste - PR (4107157), Diamante do Norte - PR (4107108), Diamante do Sul - PR (4107124), Dionísio Cerqueira - SC (4205001), Dois Vizinhos - PR (4107207), Dona Emma - SC (4205100), Douradina - MS (5003504), Douradina - PR (4107256), Dourados - MS (5003702), Doutor Camargo - PR (4107306), Doutor Pedrinho - SC (4205159), Doutor Ulysses - PR (4128633), Dracena - SP (3514403), Eldorado - MS (5003751), Emilianópolis - SP (3515129), Enéas Marques - PR (4107405), Engenheiro Beltrão - PR (4107504), Engenho Velho - RS (4306924), Entre Rios - SC (4205175), Entre Rios do Oeste - PR (4107538), Entre Rios do Sul - RS (4306957), Erebango - RS (4306973), Erechim - RS (4307005), Erval Grande - RS (4307203), Erval Seco - RS (4307302), Erval Velho - SC (4205209), Esmeralda - RS (4307401), Esperança Nova - PR (4107520), Espigão Alto do Iguaçu - PR (4107546), Estrela do Norte - SP (3515301), Euclides da Cunha Paulista - SP (3515350), Farol - PR (4107553), Fátima do Sul - MS (5003801), Faxinal - PR (4107603), Faxinal dos Guedes - SC (4205308), Faxinalzinho - RS (4308052), Fazenda Rio Grande - PR (4107652), Fênix - PR (4107702), Fernandes Pinheiro - PR (4107736), Figueira - PR (4107751), Floraí - PR (4107801), Flora Rica - SP (3515806), Flor da Serra do Sul - PR (4107850), Flor do Sertão - SC (4205357), Floresta - PR (4107900), Florestópolis - PR (4108007), Flórida - PR (4108106), Florínea - SP (3516101), Formosa do Oeste - PR (4108205), Formosa do Sul - SC (4205431), Foz do Iguaçu - PR (4108304), Foz do Jordão - PR (4108452), Fraiburgo - SC (4205506), Francisco Alves - PR (4108320), Francisco Beltrão - PR (4108403), Frederico Westphalen - RS (4308508), Frei Rogério - SC (4205555), Galvão - SC (4205605), Garuva - SC (4205803), Gaspar - SC (4205902), Gaurama - RS (4308706), General Carneiro - PR (4108502), Getúlio Vargas - RS (4308904), Glória de Dourados - MS (5004007), Godoy Moreira - PR (4108551), Goioerê - PR (4108601), Goioxim - PR (4108650), Gramado dos Loureiros - RS (4309126), Grandes Rios - PR (4108700), Guaíra - PR (4108809), Guairaçá - PR (4108908), Guamiranga - PR (4108957), Guapirama - PR (4109005), Guaporema - PR (4109104), Guaraci - PR (4109203), Guaraciaba - SC (4206405), Guaramirim - SC (4206504), Guaraniaçu - PR (4109302), Guarapuava - PR (4109401), Guaraqueçaba - PR (4109500), Guaratuba - PR (4109609), Guarujá do Sul - SC (4206603), Guatambú - SC (4206652), Herval d'Oeste - SC (4206702), Honório Serpa - PR (4109658), Ibaiti - PR (4109708), Ibema - PR (4109757), Ibiam - SC (4206751), Ibicaré - SC (4206801), Ibiporã - PR (4109807), Ibirama - SC (4206900), Ibirarema - SP (3519501), Icaraíma - PR (4109906), Iepê - SP (3519907), Iguaraçu - PR (4110003), Iguatemi - MS (5004304), Iguatu - PR (4110052), Ilhota - SC (4207106), Imbaú - PR (4110078), Imbituva - PR (4110102), Inácio Martins - PR (4110201), Inajá - PR (4110300), Indaial - SC (4207502), Indiana - SP (3520608), Indianópolis - PR (4110409), Iomerê - SC (4207577), Ipira - SC (4207601), Ipiranga - PR (4110508), Iporã - PR (4110607), Iporã do Oeste - SC (4207650), Ipuaçu - SC (4207684), Ipumirim - SC (4207700), Iracema do Oeste - PR (4110656), Iraceminha - SC (4207759), Iraí - RS (4310504), Irani - SC (4207809), Irati - PR (4110706), Irati - SC (4207858), Iretama - PR (4110805), Irineópolis - SC (4207908), Itá - SC (4208005), Itaguajé - PR (4110904), Itaiópolis - SC (4208104), Itaipulândia - PR (4110953), Itambaracá - PR (4111001), Itambé - PR (4111100), Itapejara d'Oeste - PR (4111209), Itaperuçu - PR (4111258), Itapiranga - SC (4208401), Itapoá - SC (4208450), Itaporã - MS (5004502), Itaquiraí - MS (5004601), Itatiba do Sul - RS (4310702), Itaúna do Sul - PR (4111308), Ivaí - PR (4111407), Ivaiporã - PR (4111506), Ivaté - PR (4111555), Ivatuba - PR (4111605), Ivinhema - MS (5004700), Jaborá - SC (4208609), Jaboti - PR (4111704), Jaboticaba - RS (4310850), Jacarezinho - PR (4111803), Jacutinga - RS (4310900), Jaguapitã - PR (4111902), Jaguariaíva - PR (4112009), Jandaia do Sul - PR (4112108), Janiópolis - PR (4112207), Japira - PR (4112306), Japorã - MS (5004809), Japurá - PR (4112405), Jaraguá do Sul - SC (4208906), Jardim Alegre - PR (4112504), Jardim Olinda - PR (4112603), Jardinópolis - SC (4208955), Jataizinho - PR (4112702), Jateí - MS (5005103), Jesuítas - PR (4112751), Joaçaba - SC (4209003), João Ramalho - SP (3525607), Joaquim Távora - PR (4112801), Joinville - SC (4209102), José Boiteux - SC (4209151), Jundiaí do Sul - PR (4112900), Junqueirópolis - SP (3526001), Jupiá - SC (4209177), Juranda - PR (4112959), Jussara - PR (4113007), Juti - MS (5005152), Kaloré - PR (4113106), Lacerdópolis - SC (4209201), Lages - SC (4209300), Lagoa Vermelha - RS (4311304), Laguna Carapã - MS (5005251), Lajeado Grande - SC (4209458), Lapa - PR (4113205), Laranjal - PR (4113254), Laranjeiras do Sul - PR (4113304), Laurentino - SC (4209508), Lebon Régis - SC (4209706), Leópolis - PR (4113403), Liberato Salzano - RS (4311601), Lidianópolis - PR (4113429), Lindoeste - PR (4113452), Lindóia do Sul - SC (4209854), Loanda - PR (4113502), Lobato - PR (4113601), Londrina - PR (4113700), Lontras - SC (4209904), Luiz Alves - SC (4210001), Luiziana - PR (4113734), Lunardelli - PR (4113759), Lupionópolis - PR (4113809), Luzerna - SC (4210035), Machadinho - RS (4311700), Macieira - SC (4210050), Mafra - SC (4210100), Major Vieira - SC (4210308), Mallet - PR (4113908), Mamborê - PR (4114005), Mandaguaçu - PR (4114104), Mandaguari - PR (4114203), Mandirituba - PR (4114302), Manfrinópolis - PR (4114351), Mangueirinha - PR (4114401), Manoel Ribas - PR (4114500), Marabá Paulista - SP (3528700), Maracaí - SP (3528809), Maravilha - SC (4210506), Marcelino Ramos - RS (4311908), Marechal Cândido Rondon - PR (4114609), Marema - SC (4210555), Maria Helena - PR (4114708), Marialva - PR (4114807), Mariano Moro - RS (4312005), Marilândia do Sul - PR (4114906), Marilena - PR (4115002), Mariluz - PR (4115101), Maringá - PR (4115200), Mariópolis - PR (4115309), Maripá - PR (4115358), Marmeleiro - PR (4115408), Marquinho - PR (4115457), Martinópolis - SP (3529203), Marumbi - PR (4115507), Massaranduba - SC (4210605), Matelândia - PR (4115606), Matinhos - PR (4115705), Mato Rico - PR (4115739), Matos Costa - SC (4210704), Mauá da Serra - PR (4115754), Maximiliano de Almeida - RS (4312203), Medianeira - PR (4115804), Mercedes - PR (4115853), Mirador - PR (4115903), Miraguaí - RS (4312302), Mirante do Paranapanema - SP (3530201), Miraselva - PR (4116000), Mirim Doce - SC (4210852), Missal - PR (4116059), Modelo - SC (4210902), Mondaí - SC (4211009), Monte Carlo - SC (4211058), Monte Castelo - SC (4211108), Moreira Sales - PR (4116109), Morretes - PR (4116208), Mundo Novo - MS (5005681), Munhoz de Melo - PR (4116307), Nantes - SP (3532157), Narandiba - SP (3532207), Navegantes - SC (4211306), Naviraí - MS (5005707), Nonoai - RS (4312708), Nossa Senhora das Graças - PR (4116406), Nova Aliança do Ivaí - PR (4116505), Nova Alvorada do Sul - MS (5006002), Nova América da Colina - PR (4116604), Nova Andradina - MS (5006200), Nova Aurora - PR (4116703), Nova Cantu - PR (4116802), Nova Erechim - SC (4211405), Nova Esperança - PR (4116901), Nova Esperança do Sudoeste - PR (4116950), Nova Fátima - PR (4117008), Nova Itaberaba - SC (4211454), Nova Laranjeiras - PR (4117057), Nova Londrina - PR (4117107), Nova Olímpia - PR (4117206), Nova Prata do Iguaçu - PR (4117255), Nova Santa Bárbara - PR (4117214), Nova Santa Rosa - PR (4117222), Nova Tebas - PR (4117271), Novo Horizonte - SC (4211652), Novo Horizonte do Sul - MS (5006259), Novo Itacolomi - PR (4117297), Novo Tiradentes - RS (4313441), Ortigueira - PR (4117305), Otacílio Costa - SC (4211751), Ourizona - PR (4117404), Ouro - SC (4211801), Ouro Verde - SC (4211850), Ouro Verde - SP (3534807), Ouro Verde do Oeste - PR (4117453), Paial - SC (4211876), Paiçandu - PR (4117503), Paim Filho - RS (4313607), Palmas - PR (4117602), Palma Sola - SC (4212007), Palmeira - PR (4117701), Palmeira - SC (4212056), Palmital - SP (3535309), Palmital - PR (4117800), Palmitinho - RS (4313805), Palmitos - SC (4212106), Palotina - PR (4117909), Panorama - SP (3535408), Papanduva - SC (4212205), Paraguaçu Paulista - SP (3535507), Paraíso - SC (4212239), Paraíso do Norte - PR (4118006), Paranacity - PR (4118105), Paranaguá - PR (4118204), Paranapoema - PR (4118303), Paranavaí - PR (4118402), Paranhos - MS (5006358), Passos Maia - SC (4212270), Pato Bragado - PR (4118451), Pato Branco - PR (4118501), Paula Freitas - PR (4118600), Paulo Bento - RS (4314134), Paulo Frontin - PR (4118709), Peabiru - PR (4118808), Pedrinhas Paulista - SP (3537156), Penha - SC (4212502), Peritiba - SC (4212601), Perobal - PR (4118857), Pérola - PR (4118907), Pérola d'Oeste - PR (4119004), Piên - PR (4119103), Pinhais - PR (4119152), Pinhal - RS (4314456), Pinhalão - PR (4119202), Pinhal da Serra - RS (4314464), Pinhal de São Bento - PR (4119251), Pinhalzinho - SC (4212908), Pinhão - PR (4119301), Pinheirinho do Vale - RS (4314498), Pinheiro Preto - SC (4213005), Piquerobi - SP (3538303), Piraí do Sul - PR (4119400), Pirapozinho - SP (3539202), Piraquara - PR (4119509), Piratuba - SC (4213104), Pitanga - PR (4119608), Pitangueiras - PR (4119657), Planaltina do Paraná - PR (4119707), Planalto - RS (4314704), Planalto - PR (4119806), Planalto Alegre - SC (4213153), Platina - SP (3539707), Pomerode - SC (4213203), Ponta Grossa - PR (4119905), Pontal do Paraná - PR (4119954), Ponta Porã - MS (5006606), Ponte Alta - SC (4213302), Ponte Alta do Norte - SC (4213351), Ponte Preta - RS (4314787), Ponte Serrada - SC (4213401), Porecatu - PR (4120002), Porto Amazonas - PR (4120101), Porto Barreiro - PR (4120150), Porto Rico - PR (4120200), Porto União - SC (4213609), Porto Vitória - PR (4120309), Pouso Redondo - SC (4213708), Prado Ferreira - PR (4120333), Pranchita - PR (4120358), Presidente Bernardes - SP (3541208), Presidente Castello Branco - SC (4213906), Presidente Castelo Branco - PR (4120408), Presidente Epitácio - SP (3541307), Presidente Getúlio - SC (4214003), Presidente Prudente - SP (3541406), Presidente Venceslau - SP (3541505), Primeiro de Maio - PR (4120507), Princesa - SC (4214151), Prudentópolis - PR (4120606), Quarto Centenário - PR (4120655), Quatá - SP (3541703), Quatiguá - PR (4120705), Quatro Barras - PR (4120804), Quatro Irmãos - RS (4315313), Quatro Pontes - PR (4120853), Quedas do Iguaçu - PR (4120903), Querência do Norte - PR (4121000), Quilombo - SC (4214201), Quinta do Sol - PR (4121109), Quitandinha - PR (4121208), Ramilândia - PR (4121257), Rancharia - SP (3542206), Rancho Alegre - PR (4121307), Rancho Alegre D'Oeste - PR (4121356), Realeza - PR (4121406), Rebouças - PR (4121505), Redentora - RS (4315404), Regente Feijó - SP (3542404), Renascença - PR (4121604), Reserva - PR (4121703), Reserva do Iguaçu - PR (4121752), Ribas do Rio Pardo - MS (5007109), Ribeirão Claro - PR (4121802), Ribeirão do Pinhal - PR (4121901), Ribeirão dos Índios - SP (3543238), Rio Azul - PR (4122008), Rio Bom - PR (4122107), Rio Bonito do Iguaçu - PR (4122156), Rio Branco do Ivaí - PR (4122172), Rio Branco do Sul - PR (4122206), Rio Brilhante - MS (5007208), Rio das Antas - SC (4214409), Rio do Campo - SC (4214508), Rio do Oeste - SC (4214607), Rio dos Cedros - SC (4214706), Rio dos Índios - RS (4315552), Rio do Sul - SC (4214805), Rio Negrinho - SC (4215000), Rio Negro - PR (4122305), Riqueza - SC (4215075), Rodeio - SC (4215109), Rodeio Bonito - RS (4315909), Rolândia - PR (4122404), Romelândia - SC (4215208), Roncador - PR (4122503), Ronda Alta - RS (4316105), Rondon - PR (4122602), Rosana - SP (3544251), Rosário do Ivaí - PR (4122651), Sabáudia - PR (4122701), Sagrada Família - RS (4316428), Salete - SC (4215307), Salgado Filho - PR (4122800), Saltinho - SC (4215356), Salto do Itararé - PR (4122909), Salto do Lontra - PR (4123006), Salto Veloso - SC (4215406), Sananduva - RS (4316600), Sandovalina - SP (3545506), Santa Amélia - PR (4123105), Santa Cecília - SC (4215505), Santa Cecília do Pavão - PR (4123204), Santa Cruz de Monte Castelo - PR (4123303), Santa Fé - PR (4123402), Santa Helena - PR (4123501), Santa Helena - SC (4215554), Santa Inês - PR (4123600), Santa Isabel do Ivaí - PR (4123709), Santa Izabel do Oeste - PR (4123808), Santa Lúcia - PR (4123824), Santa Maria do Oeste - PR (4123857), Santa Mariana - PR (4123907), Santa Mônica - PR (4123956), Santana do Itararé - PR (4124004), Santa Rita do Pardo - MS (5007554), Santa Tereza do Oeste - PR (4124020), Santa Terezinha - SC (4215679), Santa Terezinha de Itaipu - PR (4124053), Santa Terezinha do Progresso - SC (4215687), Santiago do Sul - SC (4215695), Santo Anastácio - SP (3547700), Santo Antônio da Platina - PR (4124103), Santo Antônio do Caiuá - PR (4124202), Santo Antônio do Paraíso - PR (4124301), Santo Antônio do Sudoeste - PR (4124400), Santo Expedito - SP (3548302), Santo Expedito do Sul - RS (4317954), Santo Inácio - PR (4124509), São Bento do Sul - SC (4215802), São Bernardino - SC (4215752), São Carlos - SC (4216008), São Carlos do Ivaí - PR (4124608), São Cristóvão do Sul - SC (4216057), São Domingos - SC (4216107), São Francisco do Sul - SC (4216206), São Jerônimo da Serra - PR (4124707), São João - PR (4124806), São João da Urtiga - RS (4318424), São João do Caiuá - PR (4124905), São João do Itaperiú - SC (4216354), São João do Ivaí - PR (4125001), São João do Oeste - SC (4216255), São João do Triunfo - PR (4125100), São Jorge d'Oeste - PR (4125209), São Jorge do Ivaí - PR (4125308), São Jorge do Patrocínio - PR (4125357), São José da Boa Vista - PR (4125407), São José das Palmeiras - PR (4125456), São José do Cedro - SC (4216701), São José do Cerrito - SC (4216800), São José do Ouro - RS (4318606), São José dos Pinhais - PR (4125506), São Lourenço do Oeste - SC (4216909), São Manoel do Paraná - PR (4125555), São Mateus do Sul - PR (4125605), São Miguel da Boa Vista - SC (4217154), São Miguel do Iguaçu - PR (4125704), São Miguel do Oeste - SC (4217204), São Pedro do Iguaçu - PR (4125753), São Pedro do Ivaí - PR (4125803), São Pedro do Paraná - PR (4125902), São Sebastião da Amoreira - PR (4126009), São Tomé - PR (4126108), São Valentim - RS (4319703), Sapopema - PR (4126207), Sarandi - PR (4126256), Saudade do Iguaçu - PR (4126272), Saudades - SC (4217303), Schroeder - SC (4217402), Seara - SC (4217501), Seberi - RS (4320206), Sengés - PR (4126306), Serra Alta - SC (4217550), Serranópolis do Iguaçu - PR (4126355), Sertaneja - PR (4126405), Sertanópolis - PR (4126504), Sete Quedas - MS (5007703), Severiano de Almeida - RS (4320602), Siqueira Campos - PR (4126603), Sul Brasil - SC (4217758), Sulina - PR (4126652), Taciba - SP (3552908), Tacuru - MS (5007950), Taió - SC (4217808), Tamarana - PR (4126678), Tamboara - PR (4126702), Tangará - SC (4217907), Tapejara - PR (4126801), Tapira - PR (4126900), Taquaruçu do Sul - RS (4321329), Taquarussu - MS (5007976), Tarabai - SP (3553906), Tarumã - SP (3553955), Teixeira Soares - PR (4127007), Telêmaco Borba - PR (4127106), Tenente Portela - RS (4321402), Teodoro Sampaio - SP (3554300), Terra Boa - PR (4127205), Terra Rica - PR (4127304), Terra Roxa - PR (4127403), Tibagi - PR (4127502), Tigrinhos - SC (4217956), Tijucas do Sul - PR (4127601), Timbó - SC (4218202), Timbó Grande - SC (4218251), Toledo - PR (4127700), Tomazina - PR (4127809), Três Arroios - RS (4321634), Três Barras - SC (4218301), Três Barras do Paraná - PR (4127858), Três Palmeiras - RS (4321857), Três Passos - RS (4321907), Treze Tílias - SC (4218509), Trindade do Sul - RS (4321956), Trombudo Central - SC (4218608), Tunápolis - SC (4218756), Tunas do Paraná - PR (4127882), Tuneiras do Oeste - PR (4127908), Tupanci do Sul - RS (4322186), Tupãssi - PR (4127957), Turvo - PR (4127965), Ubiratã - PR (4128005), Umuarama - PR (4128104), União da Vitória - PR (4128203), União do Oeste - SC (4218855), Uniflor - PR (4128302), Uraí - PR (4128401), Vargeão - SC (4219101), Vargem - SC (4219150), Vargem Bonita - SC (4219176), Ventania - PR (4128534), Vera Cruz do Oeste - PR (4128559), Verê - PR (4128609), Viadutos - RS (4322905), Vicente Dutra - RS (4323101), Vicentina - MS (5008404), Videira - SC (4219309), Virmond - PR (4128658), Vista Alegre - RS (4323507), Vista Gaúcha - RS (4323705), Vitorino - PR (4128708), Vitor Meireles - SC (4219358), Wenceslau Braz - PR (4128500), Witmarsum - SC (4219408), Xambrê - PR (4128807), Xanxerê - SC (4219507), Xavantina - SC (4219606), Xaxim - SC (4219705), Zortéa - SC (4219853)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Norte Pioneiro Paranaense, Serrana, Oeste Catarinense, Metropolitana de Curitiba, Vale do Itajaí, Presidente Prudente, Noroeste Rio-grandense, Centro Ocidental Paranaense, Noroeste Paranaense, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Sudoeste Paranaense, Oeste Paranaense, Leste de Mato Grosso do Sul, Sudeste Paranaense, Centro Oriental Paranaense, Norte Catarinense, Assis, Centro-Sul Paranaense, Nordeste Rio-grandense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-22.593726,-55.612793 -22.207749,-55.217285 -21.993989,-54.656982 -21.667639,-53.481445 -21.514407,-52.163086 -21.637005,-51.481934 -22.461802,-50.50415 -23.342256,-49.713135 -23.795398,-49.669189 -24.20689,-49.504395 -24.347097,-49.383545 -24.716895,-49.361572 -24.736853,-48.999023 -24.77676,-48.702393 -24.986058,-48.669434 -25.175117,-48.55957 -25.125393,-48.372803 -25.294371,-48.218994 -25.492868,-48.043213 -26.037042,-48.295898 -26.696545,-48.482666 -26.843677,-49.086914 -27.751608,-50.372314 -27.926474,-51.108398 -27.877928,-51.580811 -27.722436,-52.525635 -27.556982,-53.85498 -27.205786,-53.920898 -27.059126,-53.668213 -26.843677,-53.580322 -26.588527,-53.657227 -26.372185,-53.569336 -26.115986,-53.668213 -25.938287,-53.734131 -25.740529,-53.811035 -25.562265,-53.843994 -25.5127,-53.97583 -25.443275,-54.18457 -25.5127,-54.371338 -25.552354,-54.492187 -25.383735,-54.481201 -25.22482,-54.42627 -24.946219,-54.382324 -24.766785,-54.294434 -24.487149,-54.239502 -24.21691,-54.239502 -23.986253,-54.250488 -23.835601,-54.459229 -23.795398,-54.624023 -23.825551,-54.920654 -23.895883,-55.151367 -23.885838,-55.393066 -23.614329,-55.447998 -23.412847,-55.469971 -23.180764,-55.50293 -22.958393,-55.579834 -22.725524,-55.59082 -22.593726,-55.612793"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.612793,
+              -22.593726
+            ],
+            [
+              -55.217285,
+              -22.207749
+            ],
+            [
+              -54.656982,
+              -21.993989
+            ],
+            [
+              -53.481445,
+              -21.667639
+            ],
+            [
+              -52.163086,
+              -21.514407
+            ],
+            [
+              -51.481934,
+              -21.637005
+            ],
+            [
+              -50.50415,
+              -22.461802
+            ],
+            [
+              -49.713135,
+              -23.342256
+            ],
+            [
+              -49.669189,
+              -23.795398
+            ],
+            [
+              -49.504395,
+              -24.20689
+            ],
+            [
+              -49.383545,
+              -24.347097
+            ],
+            [
+              -49.361572,
+              -24.716895
+            ],
+            [
+              -48.999023,
+              -24.736853
+            ],
+            [
+              -48.702393,
+              -24.77676
+            ],
+            [
+              -48.669434,
+              -24.986058
+            ],
+            [
+              -48.55957,
+              -25.175117
+            ],
+            [
+              -48.372803,
+              -25.125393
+            ],
+            [
+              -48.218994,
+              -25.294371
+            ],
+            [
+              -48.043213,
+              -25.492868
+            ],
+            [
+              -48.295898,
+              -26.037042
+            ],
+            [
+              -48.482666,
+              -26.696545
+            ],
+            [
+              -49.086914,
+              -26.843677
+            ],
+            [
+              -50.372314,
+              -27.751608
+            ],
+            [
+              -51.108398,
+              -27.926474
+            ],
+            [
+              -51.580811,
+              -27.877928
+            ],
+            [
+              -52.525635,
+              -27.722436
+            ],
+            [
+              -53.85498,
+              -27.556982
+            ],
+            [
+              -53.920898,
+              -27.205786
+            ],
+            [
+              -53.668213,
+              -27.059126
+            ],
+            [
+              -53.580322,
+              -26.843677
+            ],
+            [
+              -53.657227,
+              -26.588527
+            ],
+            [
+              -53.569336,
+              -26.372185
+            ],
+            [
+              -53.668213,
+              -26.115986
+            ],
+            [
+              -53.734131,
+              -25.938287
+            ],
+            [
+              -53.811035,
+              -25.740529
+            ],
+            [
+              -53.843994,
+              -25.562265
+            ],
+            [
+              -53.97583,
+              -25.5127
+            ],
+            [
+              -54.18457,
+              -25.443275
+            ],
+            [
+              -54.371338,
+              -25.5127
+            ],
+            [
+              -54.492187,
+              -25.552354
+            ],
+            [
+              -54.481201,
+              -25.383735
+            ],
+            [
+              -54.42627,
+              -25.22482
+            ],
+            [
+              -54.382324,
+              -24.946219
+            ],
+            [
+              -54.294434,
+              -24.766785
+            ],
+            [
+              -54.239502,
+              -24.487149
+            ],
+            [
+              -54.239502,
+              -24.21691
+            ],
+            [
+              -54.250488,
+              -23.986253
+            ],
+            [
+              -54.459229,
+              -23.835601
+            ],
+            [
+              -54.624023,
+              -23.795398
+            ],
+            [
+              -54.920654,
+              -23.825551
+            ],
+            [
+              -55.151367,
+              -23.895883
+            ],
+            [
+              -55.393066,
+              -23.885838
+            ],
+            [
+              -55.447998,
+              -23.614329
+            ],
+            [
+              -55.469971,
+              -23.412847
+            ],
+            [
+              -55.50293,
+              -23.180764
+            ],
+            [
+              -55.579834,
+              -22.958393
+            ],
+            [
+              -55.59082,
+              -22.725524
+            ],
+            [
+              -55.612793,
+              -22.593726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo",
+        "severity_group": "perigo",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "descricao": "INMET publica aviso iniciando em: 21/05/2026 10:22. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elétrica,  queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda) Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-05-21T10:22:00-03:00",
         "expires": "2026-05-22T23:59:00-03:00",
         "sent": "2026-05-21T13:21:26-03:00",
-        "pubDate": "Thu, 21 May 2026 10:22:00 +0000",
-        "sender": "info.aviso@inmet.gov.br",
-        "senderName": "Instituto Nacional de Meteorologia",
-        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
-        "description": "INMET publica aviso iniciando em: 21/05/2026 10:22. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
-        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54437",
-        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
-        "areaDesc": "Aviso para as Ã¡reas: Baixo Amazonas, Norte de Roraima, Norte Amazonense, Sul de Roraima, Centro Amazonense",
-        "areas": [
-          "Aviso para as Ã¡reas: Baixo Amazonas, Norte de Roraima, Norte Amazonense, Sul de Roraima, Centro Amazonense"
-        ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54437"
+        "response_type": "Prepare",
+        "updated_at": "2026-05-22T05:45:09.364287+00:00",
+        "link": "https://avisos.inmet.gov.br/54437",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54437",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54437",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27440.1",
+        "color_risk": "#F96602",
+        "municipios": "Alenquer - PA (1500404), Almeirim - PA (1500503), Alto Alegre - RR (1400050), Amajari - RR (1400027), Barcelos - AM (1300409), Boa Vista - RR (1400100), Bonfim - RR (1400159), Cantá - RR (1400175), Caracaraí - RR (1400209), Caroebe - RR (1400233), Faro - PA (1503002), Iracema - RR (1400282), Manaus - AM (1302603), Mucajaí - RR (1400308), Nhamundá - AM (1303007), Normandia - RR (1400407), Novo Airão - AM (1303205), Óbidos - PA (1505106), Oriximiná - PA (1505304), Pacaraima - RR (1400456), Presidente Figueiredo - AM (1303536), Rorainópolis - RR (1400472), Santa Isabel do Rio Negro - AM (1303601), São João da Baliza - RR (1400506), São Luiz - RR (1400605), São Sebastião do Uatumã - AM (1303957), Uiramutã - RR (1400704), Urucará - AM (1304302)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Baixo Amazonas, Norte de Roraima, Norte Amazonense, Sul de Roraima, Centro Amazonense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "0.856902,-65.874023 0.219726,-65.379639 -0.64818,-64.588623 -1.801461,-62.677002 -2.130856,-60.688477 -1.58183,-59.117432 -0.417477,-57.084961 0.35156,-56.326904 1.757537,-55.019531 2.427252,-54.920654 2.509573,-55.055237 2.473901,-55.280457 2.405299,-55.412292 2.405299,-55.934143 2.320227,-55.997314 2.062238,-55.919724 1.967539,-55.911484 1.927051,-55.91423 1.871463,-55.912857 1.814501,-56.015854 1.925678,-56.474533 1.831658,-56.821289 1.911953,-57.045135 1.992244,-57.108994 1.927737,-57.227097 1.970284,-57.301941 1.904404,-57.372665 1.87009,-57.425537 1.80352,-57.431717 1.710866,-57.498322 1.683413,-57.55188 1.680667,-57.694016 1.704689,-57.719421 1.677235,-57.801132 1.636054,-57.941895 1.59144,-57.970734 1.522114,-57.986526 1.498776,-57.9879 1.498776,-58.042831 1.478184,-58.139648 1.531037,-58.180161 1.552316,-58.29895 1.5228,-58.368301 1.472692,-58.360062 1.431507,-58.462372 1.329913,-58.450012 1.156233,-58.730164 1.169963,-58.809814 1.163784,-58.829041 1.266758,-58.956757 1.334718,-59.155884 1.381397,-59.268494 1.562611,-59.48822 1.927737,-59.867249 2.237895,-59.850769 2.501341,-59.974365 2.901896,-60.010071 3.507938,-59.889221 3.614848,-59.880981 3.946461,-59.620056 4.138243,-59.707947 4.291636,-59.762878 4.34915,-59.72168 4.450474,-59.911194 4.486071,-60.084229 4.475118,-60.152893 4.510885,-60.167484 4.545966,-60.163536 4.581216,-60.159931 4.891204,-60.040283 5.104623,-60.092468 5.222247,-60.249023 5.200365,-60.628052 5.017075,-60.567627 4.891204,-60.5896 4.636655,-60.919189 4.556575,-60.942535 4.516875,-60.984421 4.478541,-61.127243 4.51003,-61.268692 4.453212,-61.264572 4.414191,-61.312637 4.410083,-61.465759 4.371744,-61.505585 4.223161,-61.506958 4.119067,-61.842041 4.045097,-62.190857 4.058796,-62.473755 3.990301,-62.558899 3.973861,-62.707214 3.776559,-62.718201 3.658705,-62.723694 3.677892,-62.817078 3.625812,-62.888489 3.59566,-63.025818 3.91906,-63.308716 3.839591,-63.435059 3.888917,-63.613586 3.883437,-63.855286 3.864255,-63.934937 3.92454,-64.05304 4.108109,-64.215088 4.094411,-64.492493 4.140983,-64.660034 4.138243,-64.701233 3.754634,-64.302979 3.60731,-64.212341 3.553856,-64.182816 3.502455,-64.171143 3.432546,-64.224701 3.379082,-64.224701 3.147372,-64.180756 3.073324,-64.127884 2.847033,-64.011841 2.661167,-63.931503 2.564451,-64.000854 2.509573,-64.003601 2.450577,-63.487244 2.441659,-63.412399 2.419706,-63.378067 2.377171,-63.367767 2.215253,-63.333435 2.120564,-63.398666 1.966167,-63.69873 1.894796,-63.934937 1.649095,-64.050293 1.543392,-64.168396 1.506327,-64.206848 1.45004,-64.296112 1.376592,-64.365807 1.43185,-64.490089 1.383113,-64.56665 1.326137,-64.578323 1.31584,-64.613686 1.266758,-64.694366 1.210123,-64.749298 0.668778,-65.445557 0.623462,-65.56366 0.685256,-65.681763 0.818454,-65.608978 0.948901,-65.613098 0.93105,-65.76416 0.89123,-65.863037 0.856902,-65.874023"
       },
       "geometry": {
         "type": "Polygon",
