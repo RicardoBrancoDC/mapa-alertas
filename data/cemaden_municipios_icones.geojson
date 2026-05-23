@@ -9,6 +9,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528728, -4.537876234 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.275025540500002 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Bauru", "uf": "SP", "codibge": "3506003", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.155245294771305, -22.240308447 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Bauru", "uf": "SP", "codibge": "3506003", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.155245294771305, -22.240308447 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Belém", "uf": "PA", "codibge": "1501402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.502459836369425, -1.270923 ] } }
 ]
 }
