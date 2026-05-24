@@ -3,8 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Grande", "uf": "AP", "codibge": "1600535", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.501860759722334, 0.614641435 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Laranjal Do Jari", "uf": "AP", "codibge": "1600279", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.953091827198776, 0.774569748 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528728, -4.537876234 ] } },
