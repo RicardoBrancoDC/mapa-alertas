@@ -5,6 +5,158 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27477.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27477.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-25T12:00:00-03:00",
+        "expires": "2026-05-25T18:00:00-03:00",
+        "sent": "2026-05-25T12:24:40-03:00",
+        "pubDate": "Mon, 25 May 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 25/05/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54494",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Ocidental do Tocantins, Sudeste Piauiense, SÃ£o Francisco Pernambucano, Sudeste Paraense, Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense, Sudoeste Piauiense, Centro-Norte Piauiense, Oeste Maranhense, Sul Maranhense, Leste Maranhense, Centro Maranhense, Vale SÃ£o-Franciscano da Bahia",
+        "areas": [
+          "Aviso para as Ã¡reas: Ocidental do Tocantins, Sudeste Piauiense, SÃ£o Francisco Pernambucano, Sudeste Paraense, Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense, Sudoeste Piauiense, Centro-Norte Piauiense, Oeste Maranhense, Sul Maranhense, Leste Maranhense, Centro Maranhense, Vale SÃ£o-Franciscano da Bahia"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54494"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.164063,
+              -5.244128
+            ],
+            [
+              -51.503906,
+              -5.965754
+            ],
+            [
+              -54.294434,
+              -6.599131
+            ],
+            [
+              -55.17334,
+              -7.079088
+            ],
+            [
+              -55.788574,
+              -7.928675
+            ],
+            [
+              -56.206055,
+              -9.968851
+            ],
+            [
+              -56.052246,
+              -11.264612
+            ],
+            [
+              -55.634766,
+              -12.060809
+            ],
+            [
+              -54.470215,
+              -12.382928
+            ],
+            [
+              -53.305664,
+              -12.425848
+            ],
+            [
+              -51.108398,
+              -12.168226
+            ],
+            [
+              -50.185547,
+              -11.178402
+            ],
+            [
+              -49.526367,
+              -9.18887
+            ],
+            [
+              -48.647461,
+              -7.318882
+            ],
+            [
+              -48.076172,
+              -6.948239
+            ],
+            [
+              -47.548828,
+              -6.83917
+            ],
+            [
+              -46.757813,
+              -6.8828
+            ],
+            [
+              -46.098633,
+              -7.231699
+            ],
+            [
+              -44.824219,
+              -8.754795
+            ],
+            [
+              -43.066406,
+              -9.492408
+            ],
+            [
+              -42.209473,
+              -9.253936
+            ],
+            [
+              -41.396484,
+              -8.90678
+            ],
+            [
+              -40.957031,
+              -8.21149
+            ],
+            [
+              -40.957031,
+              -7.493196
+            ],
+            [
+              -41.85791,
+              -6.620957
+            ],
+            [
+              -42.978516,
+              -5.965754
+            ],
+            [
+              -45.351562,
+              -5.528511
+            ],
+            [
+              -48.164063,
+              -5.244128
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27476.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27476.1",
         "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
