@@ -1,4 +1,121 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27480.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27480.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-26T12:00:00-03:00",
+        "expires": "2026-05-26T18:00:00-03:00",
+        "sent": "2026-05-25T12:33:36-03:00",
+        "pubDate": "Tue, 26 May 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 26/05/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54497",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Ocidental do Tocantins, Sudeste Paraense, Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense",
+        "areas": [
+          "Aviso para as Ã¡reas: Ocidental do Tocantins, Sudeste Paraense, Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54497"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.349609,
+              -6.271618
+            ],
+            [
+              -54.382324,
+              -6.642783
+            ],
+            [
+              -55.327148,
+              -7.231699
+            ],
+            [
+              -56.557617,
+              -8.776511
+            ],
+            [
+              -56.887207,
+              -9.774025
+            ],
+            [
+              -57.019043,
+              -10.725381
+            ],
+            [
+              -56.975098,
+              -11.759815
+            ],
+            [
+              -56.403809,
+              -12.554564
+            ],
+            [
+              -55.17334,
+              -13.175771
+            ],
+            [
+              -53.898926,
+              -13.261333
+            ],
+            [
+              -52.44873,
+              -12.747516
+            ],
+            [
+              -51.37207,
+              -12.082296
+            ],
+            [
+              -50.537109,
+              -10.962764
+            ],
+            [
+              -49.196777,
+              -8.29847
+            ],
+            [
+              -49.240723,
+              -7.514981
+            ],
+            [
+              -49.482422,
+              -6.708254
+            ],
+            [
+              -50.471191,
+              -6.184246
+            ],
+            [
+              -51.657715,
+              -6.053161
+            ],
+            [
+              -53.349609,
+              -6.271618
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
