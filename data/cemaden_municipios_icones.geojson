@@ -5,7 +5,6 @@
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.575493343499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Amajari", "uf": "RR", "codibge": "1400027", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.810271509555534, 3.724071347499992 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Macapá", "uf": "AP", "codibge": "1600303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.952855419007449, 0.571600245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528728, -4.537876234 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.275025540500002 ] } }
 ]
