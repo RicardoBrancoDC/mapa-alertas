@@ -4,38 +4,34 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27498.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27498.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo",
-        "severity_group": "perigo",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
-        "descricao": "INMET publica aviso iniciando em: 30/05/2026 09:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elétrica,  queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda) Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-05-30T09:00:00-03:00",
         "expires": "2026-05-31T10:00:00-03:00",
         "sent": "2026-05-30T11:42:51-03:00",
+        "pubDate": "Sat, 30 May 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-30T22:33:29.442828+00:00",
-        "link": "https://avisos.inmet.gov.br/54524",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54524",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54524",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27498.1",
-        "color_risk": "#F96602",
-        "municipios": "Alto Alegre - RR (1400050), Amajari - RR (1400027), Barcelos - AM (1300409), Boa Vista - RR (1400100), Bonfim - RR (1400159), Cantá - RR (1400175), Caracaraí - RR (1400209), Caroebe - RR (1400233), Faro - PA (1503002), Iracema - RR (1400282), Japurá - AM (1302108), Mucajaí - RR (1400308), Nhamundá - AM (1303007), Normandia - RR (1400407), Novo Airão - AM (1303205), Oriximiná - PA (1505304), Pacaraima - RR (1400456), Presidente Figueiredo - AM (1303536), Rorainópolis - RR (1400472), Santa Isabel do Rio Negro - AM (1303601), São Gabriel da Cachoeira - AM (1303809), São João da Baliza - RR (1400506), São Luiz - RR (1400605), Uiramutã - RR (1400704), Urucará - AM (1304302)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Norte de Roraima, Norte Amazonense, Sul de Roraima, Baixo Amazonas, Centro Amazonense",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "0.12085,-70.052485 -0.023192,-70.035387 -0.201411,-69.973142 -0.30685,-69.892824 -0.550957,-69.258157 -0.648598,-68.086464 -1.039137,-66.524209 -1.136766,-64.766671 -1.136766,-62.911492 -1.039137,-61.153955 -0.843873,-59.73816 -0.160383,-58.566467 0.474307,-58.371187 1.206566,-58.322366 1.24137,-58.698733 1.301176,-59.044184 1.56841,-59.340815 1.720948,-59.613019 2.130856,-59.688721 2.751644,-59.953594 3.490272,-59.832779 3.791494,-59.640519 4.27851,-59.73816 4.521905,-59.982262 5.154337,-60.128725 5.20296,-60.665751 4.792987,-60.645733 4.521905,-61.105135 4.208875,-61.688232 4.050565,-62.542728 3.982376,-62.672109 3.749755,-62.683096 3.643771,-63.007827 3.921481,-63.280049 3.937629,-63.741442 3.917855,-64.006348 4.140687,-64.268801 4.183301,-64.836399 3.791494,-64.327287 3.174642,-64.116228 2.524054,-63.936722 2.434574,-63.699949 2.407736,-63.436311 2.247962,-63.343545 2.013754,-63.583992 1.933215,-63.913565 1.402464,-64.354236 1.169347,-64.898677 0.692146,-65.46504 0.977724,-65.672597 0.733637,-66.280518 0.99239,-66.712641 1.185231,-67.073988 1.852708,-67.222921 2.032045,-67.324253 2.168654,-67.419474 1.927134,-67.760016 1.867357,-67.949221 1.962499,-68.118891 1.647722,-68.37767 1.694636,-68.769953 1.743437,-69.111696 1.792236,-69.551081 1.743437,-69.795183 1.526919,-69.818115 1.304188,-69.844002 1.135187,-69.79125 1.102223,-69.610594 1.028977,-69.173613 0.628659,-69.110115 0.550539,-69.447017 0.581022,-69.677731 0.5432,-69.868154 0.415026,-69.938948 0.274657,-69.999991 0.12085,-70.052485"
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 30/05/2026 09:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54524",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte de Roraima, Norte Amazonense, Sul de Roraima, Baixo Amazonas, Centro Amazonense",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte de Roraima, Norte Amazonense, Sul de Roraima, Baixo Amazonas, Centro Amazonense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54524"
       },
       "geometry": {
         "type": "Polygon",
@@ -352,38 +348,34 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27495.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27495.2",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 30/05/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-05-30T10:00:00-03:00",
         "expires": "2026-05-31T10:00:00-03:00",
         "sent": "2026-05-29T00:00:00-03:00",
+        "pubDate": "Sat, 30 May 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-30T22:33:29.442828+00:00",
-        "link": "https://avisos.inmet.gov.br/54523",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54523",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54523",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27495.2",
-        "color_risk": "#FFFE00",
-        "municipios": "Amélia Rodrigues - BA (2901106), Araçás - BA (2902054), Aratuípe - BA (2902302), Cachoeira - BA (2904902), Cairu - BA (2905404), Camaçari - BA (2905701), Camamu - BA (2905800), Canavieiras - BA (2906303), Candeias - BA (2906501), Catu - BA (2907509), Conceição do Jacuípe - BA (2908507), Dias d'Ávila - BA (2910057), Entre Rios - BA (2910503), Esplanada - BA (2910602), Igrapiúna - BA (2913457), Ilhéus - BA (2913606), Itacaré - BA (2914901), Itanagra - BA (2915908), Itaparica - BA (2916104), Ituberá - BA (2917300), Jaguaripe - BA (2917805), Lauro de Freitas - BA (2919207), Madre de Deus - BA (2919926), Maragogipe - BA (2920601), Maraú - BA (2920700), Mata de São João - BA (2921005), Nazaré - BA (2922508), Nilo Peçanha - BA (2922607), Pojuca - BA (2925204), Salinas da Margarida - BA (2927309), Salvador - BA (2927408), Santa Luzia - BA (2928059), Santo Amaro - BA (2928604), São Francisco do Conde - BA (2929206), São Sebastião do Passé - BA (2929503), Saubara - BA (2929750), Simões Filho - BA (2930709), Taperoá - BA (2931202), Teodoro Sampaio - BA (2931400), Terra Nova - BA (2931707), Una - BA (2932507), Uruçuca - BA (2932705), Valença - BA (2932903), Vera Cruz - BA (2933208)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Metropolitana de Salvador, Nordeste Baiano, Sul Baiano, Centro Norte Baiano",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-12.184334,-37.776489 -12.227286,-37.935791 -12.313169,-38.468628 -12.409754,-38.776245 -12.704651,-38.864136 -12.897489,-38.946533 -13.159725,-39.056396 -13.394963,-39.094849 -13.678013,-39.089355 -13.736717,-39.100342 -13.875413,-39.14978 -14.43468,-39.188232 -14.764259,-39.127808 -14.886396,-39.122314 -15.082732,-39.122314 -15.363653,-39.089355 -15.633617,-39.04541 -15.707663,-39.001465 -15.697086,-38.770752 -15.008464,-38.880615 -14.392118,-38.880615 -13.720708,-38.803711 -13.261333,-38.71582 -13.004558,-38.320312 -12.57601,-37.781982 -12.184334,-37.776489"
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 30/05/2026 10:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54523",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Salvador, Nordeste Baiano, Sul Baiano, Centro Norte Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Salvador, Nordeste Baiano, Sul Baiano, Centro Norte Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54523"
       },
       "geometry": {
         "type": "Polygon",
@@ -500,146 +492,34 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27494.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27494.2",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo Potencial",
+        "event": "Acumulado de Chuva",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 30/05/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
-        "onset": "2026-05-30T00:00:00-03:00",
-        "expires": "2026-05-30T23:59:00-03:00",
-        "sent": "2026-05-29T14:43:13-03:00",
-        "urgency": "Future",
-        "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-30T22:33:29.442828+00:00",
-        "link": "https://avisos.inmet.gov.br/54522",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54522",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54522",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27497.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Amélia Rodrigues - BA (2901106), Araçás - BA (2902054), Aratuípe - BA (2902302), Cachoeira - BA (2904902), Cairu - BA (2905404), Camaçari - BA (2905701), Camamu - BA (2905800), Canavieiras - BA (2906303), Candeias - BA (2906501), Catu - BA (2907509), Conceição do Jacuípe - BA (2908507), Dias d'Ávila - BA (2910057), Entre Rios - BA (2910503), Esplanada - BA (2910602), Igrapiúna - BA (2913457), Ilhéus - BA (2913606), Itacaré - BA (2914901), Itanagra - BA (2915908), Itaparica - BA (2916104), Ituberá - BA (2917300), Jaguaripe - BA (2917805), Lauro de Freitas - BA (2919207), Madre de Deus - BA (2919926), Maragogipe - BA (2920601), Maraú - BA (2920700), Mata de São João - BA (2921005), Nazaré - BA (2922508), Nilo Peçanha - BA (2922607), Pojuca - BA (2925204), Salinas da Margarida - BA (2927309), Salvador - BA (2927408), Santa Luzia - BA (2928059), Santo Amaro - BA (2928604), São Francisco do Conde - BA (2929206), São Sebastião do Passé - BA (2929503), Saubara - BA (2929750), Simões Filho - BA (2930709), Taperoá - BA (2931202), Teodoro Sampaio - BA (2931400), Terra Nova - BA (2931707), Una - BA (2932507), Uruçuca - BA (2932705), Valença - BA (2932903), Vera Cruz - BA (2933208)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Metropolitana de Salvador, Nordeste Baiano, Sul Baiano, Centro Norte Baiano",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-12.173595,-37.781982 -12.24876,-38.276367 -12.393659,-38.770752 -13.197165,-39.050903 -13.720708,-39.122314 -14.49319,-39.188232 -14.93417,-39.127808 -15.533083,-39.094849 -15.707663,-38.995972 -15.712951,-38.825684 -15.670643,-38.770752 -14.642054,-38.902588 -13.619295,-38.809204 -13.218556,-38.688354 -12.559925,-37.825928 -12.173595,-37.781982"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -37.781982,
-              -12.173595
-            ],
-            [
-              -38.276367,
-              -12.24876
-            ],
-            [
-              -38.770752,
-              -12.393659
-            ],
-            [
-              -39.050903,
-              -13.197165
-            ],
-            [
-              -39.122314,
-              -13.720708
-            ],
-            [
-              -39.188232,
-              -14.49319
-            ],
-            [
-              -39.127808,
-              -14.93417
-            ],
-            [
-              -39.094849,
-              -15.533083
-            ],
-            [
-              -38.995972,
-              -15.707663
-            ],
-            [
-              -38.825684,
-              -15.712951
-            ],
-            [
-              -38.770752,
-              -15.670643
-            ],
-            [
-              -38.902588,
-              -14.642054
-            ],
-            [
-              -38.809204,
-              -13.619295
-            ],
-            [
-              -38.688354,
-              -13.218556
-            ],
-            [
-              -37.825928,
-              -12.559925
-            ],
-            [
-              -37.781982,
-              -12.173595
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
-        "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Acumulado de Chuva",
-        "categoria": "Met",
-        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 30/05/2026 10:00. Chuva entre 20 a 30 mm/h ou até 50 mm/dia. Baixo risco de alagamentos e pequenos deslizamentos, em cidades com tais áreas de risco.",
-        "instruction": "Evite enfrentar o mau tempo. Observe alteração nas encostas. Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-05-30T10:00:00-03:00",
         "expires": "2026-05-31T10:00:00-03:00",
         "sent": "2026-05-29T00:00:00-03:00",
+        "pubDate": "Sat, 30 May 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-30T22:33:29.442828+00:00",
-        "link": "https://avisos.inmet.gov.br/54521",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54521",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54521",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27494.2",
-        "color_risk": "#FFFE00",
-        "municipios": "Abreu e Lima - PE (2600054), Água Preta - PE (2600401), Alhandra - PB (2500601), Aliança - PE (2600708), Amaraji - PE (2600906), Araçagi - PB (2500809), Araçoiaba - PE (2601052), Arês - RN (2401206), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Barreiros - PE (2601409), Bayeux - PB (2501807), Brejinho - RN (2401800), Buenos Aires - PE (2602704), Caaporã - PB (2503001), Cabedelo - PB (2503209), Cabo de Santo Agostinho - PE (2602902), Caiçara - PB (2503605), Camaragibe - PE (2603454), Campestre - AL (2701357), Canguaretama - RN (2402204), Capim - PB (2504033), Carpina - PE (2604007), Ceará-Mirim - RN (2402600), Chã de Alegria - PE (2604403), Condado - PE (2604601), Conde - PB (2504603), Cruz do Espírito Santo - PB (2504900), Cuité de Mamanguape - PB (2505238), Curral de Cima - PB (2505279), Escada - PE (2605202), Espírito Santo - RN (2403509), Extremoz - RN (2403608), Feira Nova - PE (2605400), Ferreiros - PE (2605509), Gameleira - PE (2605905), Glória do Goitá - PE (2606101), Goiana - PE (2606200), Goianinha - RN (2404200), Ielmo Marinho - RN (2404606), Igarassu - PE (2606804), Ilha de Itamaracá - PE (2607604), Ipojuca - PE (2607208), Itambé - PE (2607653), Itapissuma - PE (2607752), Itapororoca - PB (2507101), Itaquitinga - PE (2607802), Jaboatão dos Guararapes - PE (2607901), Jacaraú - PB (2507309), Jacuípe - AL (2703502), Japaratinga - AL (2703601), João Pessoa - PB (2507507), Jundiá - RN (2406155), Jundiá - AL (2703908), Juripiranga - PB (2507903), Lagoa de Dentro - PB (2508208), Lagoa de Itaenga - PE (2608503), Lagoa de Pedras - RN (2406304), Lagoa do Carro - PE (2608453), Lucena - PB (2508604), Macaíba - RN (2407104), Mamanguape - PB (2508901), Maragogi - AL (2704500), Marcação - PB (2509057), Mari - PB (2509107), Mataraca - PB (2509305), Matriz de Camaragibe - AL (2705101), Maxaranguape - RN (2407500), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Moreno - PE (2609402), Natal - RN (2408102), Nazaré da Mata - PE (2609501), Nísia Floresta - RN (2408201), Nova Cruz - RN (2408300), Olinda - PE (2609600), Parnamirim - RN (2403251), Passagem - RN (2409209), Passo de Camaragibe - AL (2706505), Paudalho - PE (2610608), Paulista - PE (2610707), Pedras de Fogo - PB (2511202), Pedro Régis - PB (2512721), Pedro Velho - RN (2409803), Pilar - PB (2511509), Pitimbu - PB (2511905), Pombos - PE (2611309), Porto Calvo - AL (2707305), Porto de Pedras - AL (2707404), Primavera - PE (2611408), Pureza - RN (2410405), Recife - PE (2611606), Ribeirão - PE (2611804), Rio do Fogo - RN (2408953), Rio Formoso - PE (2611903), Rio Tinto - PB (2512903), Santa Rita - PB (2513703), São Gonçalo do Amarante - RN (2412005), São José da Coroa Grande - PE (2613404), São José de Mipibu - RN (2412203), São Lourenço da Mata - PE (2613701), São Miguel de Taipu - PB (2515005), São Miguel dos Milagres - AL (2708709), Sapé - PB (2515302), Senador Georgino Avelino - RN (2413201), Sirinhaém - PE (2614204), Sobrado - PB (2515971), Tamandaré - PE (2614857), Tibau do Sul - RN (2414209), Timbaúba - PE (2615300), Touros - RN (2414407), Tracunhaém - PE (2615508), Várzea - RN (2414704), Vera Cruz - RN (2414803), Vicência - PE (2616308), Vila Flor - RN (2415008), Vitória de Santo Antão - PE (2616407)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Agreste Paraibano, Leste Potiguar, Agreste Potiguar, Leste Alagoano, Agreste Pernambucano",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-5.178482,-35.496826 -5.495704,-35.452881 -5.790897,-35.452881 -6.075011,-35.419922 -6.588217,-35.354004 -6.991859,-35.255127 -7.1554,-35.222168 -7.395153,-35.222168 -8.026595,-35.343018 -8.374562,-35.430908 -8.765653,-35.441895 -9.004452,-35.529785 -9.178025,-35.562744 -9.329831,-35.430908 -8.93934,-34.958496 -8.21149,-34.749756 -7.514981,-34.672852 -6.773716,-34.771729 -6.238855,-34.903564 -5.747174,-35.046387 -5.276948,-35.255127 -5.178482,-35.496826"
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 30/05/2026 10:00. Chuva entre 20 a 30 mm/h ou atÃ© 50 mm/dia. Baixo risco de alagamentos e pequenos deslizamentos, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54521",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Agreste Paraibano, Leste Potiguar, Agreste Potiguar, Leste Alagoano, Agreste Pernambucano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Agreste Paraibano, Leste Potiguar, Agreste Potiguar, Leste Alagoano, Agreste Pernambucano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54521"
       },
       "geometry": {
         "type": "Polygon",
@@ -740,162 +620,34 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27493.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27493.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 30/05/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
-        "onset": "2026-05-30T00:00:00-03:00",
-        "expires": "2026-05-30T23:59:00-03:00",
-        "sent": "2026-05-29T14:40:46-03:00",
-        "urgency": "Future",
-        "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-30T22:33:29.442828+00:00",
-        "link": "https://avisos.inmet.gov.br/54520",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54520",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54520",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27496.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Abreu e Lima - PE (2600054), Água Preta - PE (2600401), Alhandra - PB (2500601), Aliança - PE (2600708), Amaraji - PE (2600906), Araçagi - PB (2500809), Araçoiaba - PE (2601052), Arês - RN (2401206), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Barreiros - PE (2601409), Bayeux - PB (2501807), Brejinho - RN (2401800), Buenos Aires - PE (2602704), Caaporã - PB (2503001), Cabedelo - PB (2503209), Cabo de Santo Agostinho - PE (2602902), Caiçara - PB (2503605), Camaragibe - PE (2603454), Campestre - AL (2701357), Canguaretama - RN (2402204), Capim - PB (2504033), Carpina - PE (2604007), Ceará-Mirim - RN (2402600), Chã de Alegria - PE (2604403), Condado - PE (2604601), Conde - PB (2504603), Cruz do Espírito Santo - PB (2504900), Cuité de Mamanguape - PB (2505238), Curral de Cima - PB (2505279), Escada - PE (2605202), Espírito Santo - RN (2403509), Extremoz - RN (2403608), Feira Nova - PE (2605400), Ferreiros - PE (2605509), Gameleira - PE (2605905), Glória do Goitá - PE (2606101), Goiana - PE (2606200), Goianinha - RN (2404200), Ielmo Marinho - RN (2404606), Igarassu - PE (2606804), Ilha de Itamaracá - PE (2607604), Ipojuca - PE (2607208), Itambé - PE (2607653), Itapissuma - PE (2607752), Itapororoca - PB (2507101), Itaquitinga - PE (2607802), Jaboatão dos Guararapes - PE (2607901), Jacaraú - PB (2507309), Jacuípe - AL (2703502), Japaratinga - AL (2703601), João Pessoa - PB (2507507), Jundiá - RN (2406155), Jundiá - AL (2703908), Juripiranga - PB (2507903), Lagoa de Dentro - PB (2508208), Lagoa de Itaenga - PE (2608503), Lagoa de Pedras - RN (2406304), Lagoa do Carro - PE (2608453), Lucena - PB (2508604), Macaíba - RN (2407104), Mamanguape - PB (2508901), Maragogi - AL (2704500), Marcação - PB (2509057), Mari - PB (2509107), Mataraca - PB (2509305), Matriz de Camaragibe - AL (2705101), Maxaranguape - RN (2407500), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Moreno - PE (2609402), Natal - RN (2408102), Nazaré da Mata - PE (2609501), Nísia Floresta - RN (2408201), Nova Cruz - RN (2408300), Olinda - PE (2609600), Parnamirim - RN (2403251), Passagem - RN (2409209), Passo de Camaragibe - AL (2706505), Paudalho - PE (2610608), Paulista - PE (2610707), Pedras de Fogo - PB (2511202), Pedro Régis - PB (2512721), Pedro Velho - RN (2409803), Pilar - PB (2511509), Pitimbu - PB (2511905), Pombos - PE (2611309), Porto Calvo - AL (2707305), Porto de Pedras - AL (2707404), Primavera - PE (2611408), Pureza - RN (2410405), Recife - PE (2611606), Ribeirão - PE (2611804), Rio do Fogo - RN (2408953), Rio Formoso - PE (2611903), Rio Tinto - PB (2512903), Santa Rita - PB (2513703), São Gonçalo do Amarante - RN (2412005), São José da Coroa Grande - PE (2613404), São José de Mipibu - RN (2412203), São Lourenço da Mata - PE (2613701), São Miguel de Taipu - PB (2515005), São Miguel dos Milagres - AL (2708709), Sapé - PB (2515302), Senador Georgino Avelino - RN (2413201), Sirinhaém - PE (2614204), Sobrado - PB (2515971), Tamandaré - PE (2614857), Tibau do Sul - RN (2414209), Timbaúba - PE (2615300), Touros - RN (2414407), Tracunhaém - PE (2615508), Várzea - RN (2414704), Vera Cruz - RN (2414803), Vicência - PE (2616308), Vila Flor - RN (2415008), Vitória de Santo Antão - PE (2616407)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Agreste Paraibano, Leste Potiguar, Agreste Potiguar, Leste Alagoano, Agreste Pernambucano",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-5.173011,-35.496826 -5.4793,-35.458374 -5.987607,-35.441895 -6.571846,-35.348511 -7.095442,-35.233154 -7.509535,-35.233154 -7.928675,-35.315552 -8.189742,-35.36499 -8.450639,-35.425415 -8.765653,-35.452881 -9.243093,-35.557251 -9.313569,-35.430908 -8.944767,-34.94751 -8.195179,-34.744263 -7.395153,-34.661865 -6.620957,-34.799194 -6.014922,-34.953003 -5.523043,-35.117798 -5.271478,-35.222168 -5.173011,-35.496826"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -35.496826,
-              -5.173011
-            ],
-            [
-              -35.458374,
-              -5.4793
-            ],
-            [
-              -35.441895,
-              -5.987607
-            ],
-            [
-              -35.348511,
-              -6.571846
-            ],
-            [
-              -35.233154,
-              -7.095442
-            ],
-            [
-              -35.233154,
-              -7.509535
-            ],
-            [
-              -35.315552,
-              -7.928675
-            ],
-            [
-              -35.36499,
-              -8.189742
-            ],
-            [
-              -35.425415,
-              -8.450639
-            ],
-            [
-              -35.452881,
-              -8.765653
-            ],
-            [
-              -35.557251,
-              -9.243093
-            ],
-            [
-              -35.430908,
-              -9.313569
-            ],
-            [
-              -34.94751,
-              -8.944767
-            ],
-            [
-              -34.744263,
-              -8.195179
-            ],
-            [
-              -34.661865,
-              -7.395153
-            ],
-            [
-              -34.799194,
-              -6.620957
-            ],
-            [
-              -34.953003,
-              -6.014922
-            ],
-            [
-              -35.117798,
-              -5.523043
-            ],
-            [
-              -35.222168,
-              -5.271478
-            ],
-            [
-              -35.496826,
-              -5.173011
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
-        "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 30/05/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-05-30T10:00:00-03:00",
         "expires": "2026-05-31T10:00:00-03:00",
         "sent": "2026-05-29T11:56:20-03:00",
+        "pubDate": "Sat, 30 May 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-05-30T22:33:29.442828+00:00",
-        "link": "https://avisos.inmet.gov.br/54514",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54514",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54514",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27493.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Abaetetuba - PA (1500107), Acará - PA (1500206), Acaraú - CE (2300200), Afuá - PA (1500305), Água Doce do Maranhão - MA (2100154), Alcântara - MA (2100204), Alcântaras - CE (2300507), Alenquer - PA (1500404), Almeirim - PA (1500503), Altamira - PA (1500602), Altamira do Maranhão - MA (2100402), Alto Alegre - RR (1400050), Alto Alegre do Pindaré - MA (2100477), Alvarães - AM (1300029), Amajari - RR (1400027), Amapá - AP (1600105), Amapá do Maranhão - MA (2100550), Amaturá - AM (1300060), Amontada - CE (2300754), Anajás - PA (1500701), Anajatuba - MA (2100709), Anamã - AM (1300086), Ananindeua - PA (1500800), Anapu - PA (1500859), Anapurus - MA (2100808), Anori - AM (1300102), Apicum-Açu - MA (2100832), Araguanã - MA (2100873), Araioses - MA (2100907), Arari - MA (2101004), Augusto Corrêa - PA (1500909), Aurora do Pará - PA (1500958), Autazes - AM (1300300), Aveiro - PA (1501006), Axixá - MA (2101103), Bacabal - MA (2101202), Bacabeira - MA (2101251), Bacuri - MA (2101301), Bacurituba - MA (2101350), Bagre - PA (1501105), Baião - PA (1501204), Barcarena - PA (1501303), Barcelos - AM (1300409), Barreirinha - AM (1300508), Barreirinhas - MA (2101707), Barroquinha - CE (2302057), Batalha - PI (2201507), Bela Cruz - CE (2302305), Belágua - MA (2101731), Bela Vista do Maranhão - MA (2101772), Belém - PA (1501402), Belterra - PA (1501451), Benevides - PA (1501501), Bequimão - MA (2101905), Beruri - AM (1300631), Boa Vista - RR (1400100), Boa Vista do Gurupi - MA (2101970), Boa Vista do Ramos - AM (1300680), Bom Jardim - MA (2102002), Bom Princípio do Piauí - PI (2201919), Bonfim - RR (1400159), Bonito - PA (1501600), Borba - AM (1300805), Bragança - PA (1501709), Brasil Novo - PA (1501725), Brejo - MA (2102101), Breu Branco - PA (1501782), Breves - PA (1501808), Bujaru - PA (1501907), Buriti - MA (2102200), Buriticupu - MA (2102325), Buriti dos Lopes - PI (2202000), Caapiranga - AM (1300839), Cachoeira do Arari - PA (1502004), Cachoeira do Piriá - PA (1501956), Cachoeira Grande - MA (2102374), Cajapió - MA (2102408), Cajari - MA (2102507), Cajueiro da Praia - PI (2202083), Calçoene - AP (1600204), Cametá - PA (1502103), Camocim - CE (2302602), Campo Largo do Piauí - PI (2202174), Cândido Mendes - MA (2102606), Cantá - RR (1400175), Cantanhede - MA (2102705), Capanema - PA (1502202), Capitão Poço - PA (1502301), Caracaraí - RR (1400209), Caraúbas do Piauí - PI (2202539), Careiro - AM (1301100), Careiro da Várzea - AM (1301159), Caroebe - RR (1400233), Carutapera - MA (2102903), Castanhal - PA (1502400), Caucaia - CE (2303709), Caxingó - PI (2202653), Cedral - MA (2103109), Central do Maranhão - MA (2103125), Centro do Guilherme - MA (2103158), Centro Novo do Maranhão - MA (2103174), Chapadinha - MA (2103208), Chaval - CE (2303907), Chaves - PA (1502509), Coari - AM (1301209), Cocal - PI (2202703), Cocal dos Alves - PI (2202729), Codajás - AM (1301308), Colares - PA (1502608), Conceição do Lago-Açu - MA (2103554), Concórdia do Pará - PA (1502756), Coreaú - CE (2304004), Coroatá - MA (2103604), Cruz - CE (2304251), Curralinho - PA (1502806), Curuá - PA (1502855), Curuçá - PA (1502905), Cururupu - MA (2103703), Cutias - AP (1600212), Dom Eliseu - PA (1502939), Esperantina - PI (2203701), Faro - PA (1503002), Ferreira Gomes - AP (1600238), Fonte Boa - AM (1301605), Frecheirinha - CE (2304509), Garrafão do Norte - PA (1503077), Godofredo Viana - MA (2104305), Goianésia do Pará - PA (1503093), Governador Newton Bello - MA (2104651), Governador Nunes Freire - MA (2104677), Granja - CE (2304707), Guimarães - MA (2104909), Gurupá - PA (1503101), Humberto de Campos - MA (2105005), Icatu - MA (2105104), Igarapé-Açu - PA (1503200), Igarapé do Meio - MA (2105153), Igarapé-Miri - PA (1503309), Ilha Grande - PI (2204659), Inhangapi - PA (1503408), Ipixuna do Pará - PA (1503457), Iracema - RR (1400282), Iranduba - AM (1301852), Irituia - PA (1503507), Itacoatiara - AM (1301902), Itaituba - PA (1503606), Itapecuru Mirim - MA (2105401), Itapipoca - CE (2306405), Itapiranga - AM (1302009), Itarema - CE (2306553), Itaubal - AP (1600253), Itinga do Maranhão - MA (2105427), Japurá - AM (1302108), Jijoca de Jericoacoara - CE (2307254), Joaquim Pires - PI (2205409), Joca Marques - PI (2205458), Junco do Maranhão - MA (2105658), Juruá - AM (1302207), Juruti - PA (1503903), Jutaí - AM (1302306), Lago Verde - MA (2105906), Laranjal do Jari - AP (1600279), Limoeiro do Ajuru - PA (1504000), Luís Correia - PI (2205706), Luís Domingues - MA (2106201), Luzilândia - PI (2205805), Macapá - AP (1600303), Madeiro - PI (2205854), Mãe do Rio - PA (1504059), Magalhães Barata - PA (1504109), Magalhães de Almeida - MA (2106300), Manacapuru - AM (1302504), Manaquiri - AM (1302553), Manaus - AM (1302603), Maraã - AM (1302801), Maracaçumé - MA (2106326), Maracanã - PA (1504307), Maranhãozinho - MA (2106375), Marapanim - PA (1504406), Marco - CE (2307809), Marituba - PA (1504422), Martinópole - CE (2307908), Massapê - CE (2308005), Mata Roma - MA (2106409), Matias Olímpio - PI (2206100), Matinha - MA (2106508), Matões do Norte - MA (2106631), Maués - AM (1302900), Mazagão - AP (1600402), Medicilândia - PA (1504455), Melgaço - PA (1504505), Meruoca - CE (2308203), Milagres do Maranhão - MA (2106672), Miranda do Norte - MA (2106755), Mirinzal - MA (2106805), Mocajuba - PA (1504604), Moju - PA (1504703), Mojuí dos Campos - PA (1504752), Monção - MA (2106904), Monte Alegre - PA (1504802), Moraújo - CE (2308807), Morrinhos - CE (2308906), Morro do Chapéu do Piauí - PI (2206670), Morros - MA (2107100), Muaná - PA (1504901), Mucajaí - RR (1400308), Murici dos Portelas - PI (2206696), Nhamundá - AM (1303007), Nina Rodrigues - MA (2107209), Normandia - RR (1400407), Nova Esperança do Piriá - PA (1504950), Nova Olinda do Maranhão - MA (2107357), Nova Olinda do Norte - AM (1303106), Nova Timboteua - PA (1505007), Novo Airão - AM (1303205), Novo Repartimento - PA (1505064), Óbidos - PA (1505106), Oeiras do Pará - PA (1505205), Oiapoque - AP (1600501), Olho d'Água das Cunhãs - MA (2107407), Olinda Nova do Maranhão - MA (2107456), Oriximiná - PA (1505304), Ourém - PA (1505403), Pacajá - PA (1505486), Pacaraima - RR (1400456), Paço do Lumiar - MA (2107506), Palmeirândia - MA (2107605), Paracuru - CE (2310209), Paragominas - PA (1505502), Paraipaba - CE (2310258), Parintins - AM (1303403), Parnaíba - PI (2207702), Paulino Neves - MA (2108058), Pedra Branca do Amapari - AP (1600154), Pedro do Rosário - MA (2108256), Peixe-Boi - PA (1505601), Penalva - MA (2108306), Peri Mirim - MA (2108405), Pindaré-Mirim - MA (2108504), Pinheiro - MA (2108603), Pio XII - MA (2108702), Piracuruca - PI (2208304), Pirapemas - MA (2108801), Placas - PA (1505650), Ponta de Pedras - PA (1505700), Portel - PA (1505809), Porto - PI (2208502), Porto de Moz - PA (1505908), Porto Grande - AP (1600535), Porto Rico do Maranhão - MA (2109056), Pracuúba - AP (1600550), Prainha - PA (1506005), Presidente Figueiredo - AM (1303536), Presidente Juscelino - MA (2109205), Presidente Médici - MA (2109239), Presidente Sarney - MA (2109270), Presidente Vargas - MA (2109304), Primavera - PA (1506104), Primeira Cruz - MA (2109403), Quatipuru - PA (1506112), Raposa - MA (2109452), Rio Preto da Eva - AM (1303569), Rondon do Pará - PA (1506187), Rorainópolis - RR (1400472), Rosário - MA (2109601), Rurópolis - PA (1506195), Salinópolis - PA (1506203), Salvaterra - PA (1506302), Santa Bárbara do Pará - PA (1506351), Santa Cruz do Arari - PA (1506401), Santa Helena - MA (2109809), Santa Inês - MA (2109908), Santa Isabel do Rio Negro - AM (1303601), Santa Izabel do Pará - PA (1506500), Santa Luzia - MA (2110005), Santa Luzia do Pará - PA (1506559), Santa Luzia do Paruá - MA (2110039), Santa Maria do Pará - PA (1506609), Santana - AP (1600600), Santana do Acaraú - CE (2312007), Santana do Maranhão - MA (2110237), Santa Quitéria do Maranhão - MA (2110104), Santarém - PA (1506807), Santarém Novo - PA (1506906), Santa Rita - MA (2110203), Santo Amaro do Maranhão - MA (2110278), Santo Antônio do Içá - AM (1303700), Santo Antônio do Tauá - PA (1507003), São Benedito do Rio Preto - MA (2110401), São Bento - MA (2110500), São Bernardo - MA (2110609), São Caetano de Odivelas - PA (1507102), São Domingos do Capim - PA (1507201), São Francisco do Pará - PA (1507409), São Gabriel da Cachoeira - AM (1303809), São Gonçalo do Amarante - CE (2312403), São João Batista - MA (2111003), São João da Baliza - RR (1400506), São João da Fronteira - PI (2209872), São João da Ponta - PA (1507466), São João de Pirabas - PA (1507474), São João do Arraial - PI (2209971), São João do Carú - MA (2111029), São José de Ribamar - MA (2111201), São José do Divino - PI (2210052), São Luís - MA (2111300), São Luiz - RR (1400605), São Mateus do Maranhão - MA (2111508), São Miguel do Guamá - PA (1507607), São Paulo de Olivença - AM (1303908), São Sebastião da Boa Vista - PA (1507706), São Sebastião do Uatumã - AM (1303957), São Vicente Ferrer - MA (2111706), Satubinha - MA (2111722), Senador José Porfírio - PA (1507805), Senador Sá - CE (2312809), Serra do Navio - AP (1600055), Serrano do Maranhão - MA (2111789), Silves - AM (1304005), Sobral - CE (2312908), Soure - PA (1507904), Tabatinga - AM (1304062), Tailândia - PA (1507953), Tartarugalzinho - AP (1600709), Tefé - AM (1304203), Terra Alta - PA (1507961), Terra Santa - PA (1507979), Tianguá - CE (2313401), Tomé-Açu - PA (1508001), Tonantins - AM (1304237), Tracuateua - PA (1508035), Trairi - CE (2313500), Tucuruí - PA (1508100), Tufilândia - MA (2112274), Turiaçu - MA (2112407), Turilândia - MA (2112456), Tururu - CE (2313559), Tutóia - MA (2112506), Uarini - AM (1304260), Ubajara - CE (2313609), Uiramutã - RR (1400704), Ulianópolis - PA (1508126), Urbano Santos - MA (2112605), Uruará - PA (1508159), Urucará - AM (1304302), Urucurituba - AM (1304401), Uruoca - CE (2313906), Vargem Grande - MA (2112704), Viana - MA (2112803), Viçosa do Ceará - CE (2314102), Vigia - PA (1508209), Viseu - PA (1508308), Vitória do Jari - AP (1600808), Vitória do Mearim - MA (2112902), Vitória do Xingu - PA (1508357), Vitorino Freire - MA (2113009), Zé Doca - MA (2114007)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Nordeste Paraense, Noroeste Cearense, Marajó, Leste Maranhense, Norte Maranhense, Baixo Amazonas, Sudoeste Paraense, Oeste Maranhense, Norte de Roraima, Centro Amazonense, Norte do Amapá, Sudoeste Amazonense, Norte Cearense, Metropolitana de Belém, Centro Maranhense, Norte Amazonense, Norte Piauiense, Sul Amazonense, Sudeste Paraense, Sul de Roraima, Metropolitana de Fortaleza, Sul do Amapá",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-3.908099,-69.829102 -3.951941,-68.554688 -3.995781,-67.456055 -4.302591,-63.808594 -4.346411,-60.512695 -3.951941,-57.260742 -3.908099,-54.008789 -4.390229,-50.053711 -4.171115,-47.109375 -4.039618,-45.834961 -3.864255,-42.583008 -3.864255,-40.913086 -3.381824,-40.078125 -3.513421,-39.375 -3.557283,-38.803711 -3.074695,-38.979492 -2.811371,-39.726563 -2.690661,-40.528564 -2.745531,-41.638184 -2.262595,-43.220215 -1.647722,-44.165039 -1.076597,-45.285645 -0.692122,-46.593018 -0.560294,-46.955566 -0.384519,-47.702637 0.076904,-48.328857 0.944781,-49.196777 1.58183,-49.691162 2.372369,-50.394287 2.745531,-50.657959 3.140516,-50.822754 3.765597,-50.921631 4.324501,-51.152344 4.444997,-51.28418 4.54357,-51.536865 4.313546,-51.624756 3.864255,-51.82251 3.710782,-51.976318 3.348922,-52.23999 2.734557,-52.514648 2.339438,-52.767334 2.196727,-53.184814 2.284551,-53.272705 2.306506,-53.591309 2.361392,-53.833008 2.229662,-54.151611 2.350415,-54.492187 2.613839,-55.019531 2.493109,-55.437012 2.547988,-55.953369 2.471157,-56.118164 2.350415,-56.118164 2.152814,-56.04126 1.977147,-55.964355 1.856365,-56.008301 1.900286,-56.403809 1.944207,-56.964111 1.955187,-57.282715 1.713612,-57.491455 1.669686,-57.919922 1.515936,-58.018799 1.526919,-58.271484 1.515936,-58.480225 1.274309,-58.502197 1.263325,-58.73291 1.482989,-59.260254 1.779499,-59.611816 2.054003,-59.688721 2.515061,-59.908447 2.986927,-59.963379 3.403758,-59.842529 3.875216,-59.556885 3.984821,-59.556885 4.19303,-59.72168 4.390229,-59.677734 4.455951,-59.853516 4.499762,-60.073242 4.718778,-60.029297 5.058114,-59.963379 5.244128,-60.062256 5.276948,-60.172119 5.276948,-60.490723 5.211306,-60.754395 5.036227,-60.622559 4.82826,-60.776367 4.64213,-60.952148 4.488809,-61.105957 4.521666,-61.226807 4.466904,-61.369629 4.291636,-61.633301 4.2259,-61.787109 4.182073,-62.347412 4.028659,-62.74292 3.655964,-62.775879 3.732708,-63.083496 3.897138,-63.259277 3.984821,-63.314209 3.91906,-63.435059 4.00674,-63.676758 3.940981,-63.863525 4.050577,-64.127197 4.138243,-64.313965 4.160158,-64.56665 4.291636,-64.709473 4.214943,-64.80835 4.094411,-64.720459 3.940981,-64.588623 3.590178,-64.281006 3.261177,-64.182129 2.975956,-64.116211 2.547988,-64.017334 2.405299,-63.94043 2.372369,-63.665771 2.339438,-63.413086 2.163792,-63.468018 2.010086,-63.786621 1.955187,-63.951416 1.845384,-63.995361 1.482989,-64.182129 1.417092,-64.390869 1.30726,-64.665527 1.197423,-64.918213 1.032659,-65.083008 0.944781,-65.269775 0.692122,-65.456543 0.944781,-65.632324 0.911827,-65.830078 0.801976,-66.115723 0.76902,-66.346436 0.98872,-66.588135 1.10955,-66.774902 1.175455,-66.895752 1.208406,-67.038574 1.559866,-67.093506 1.746556,-67.159424 1.977147,-67.302246 2.196727,-67.390137 2.108899,-67.532959 1.999106,-67.752686 1.889306,-67.906494 1.988126,-68.126221 1.845384,-68.312988 1.735574,-68.389893 1.779499,-69.104004 1.801461,-69.411621 1.79048,-69.631348 1.746556,-69.862061 1.559866,-69.916992 1.230374,-69.916992 1.153487,-69.873047 1.098565,-69.719238 1.054628,-69.44458 1.01069,-69.191895 0.856902,-69.136963 0.736064,-69.213867 0.681136,-69.411621 0.703107,-69.642334 0.637194,-69.906006 0.560294,-70.026855 0.340574,-70.070801 -0.010986,-70.070801 -0.307616,-69.960938 -0.505365,-69.741211 -0.703107,-69.587402 -1.054628,-69.44458 -1.757537,-69.477539 -2.262595,-69.56543 -3.908099,-69.829102"
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 30/05/2026 10:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54514",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Nordeste Paraense, Noroeste Cearense, MarajÃ³, Leste Maranhense, Norte Maranhense, Baixo Amazonas, Sudoeste Paraense, Oeste Maranhense, Norte de Roraima, Centro Amazonense, Norte do AmapÃ¡, Sudoeste Amazonense, Norte Cearense, Metropolitana de BelÃ©m, Centro Maranhense, Norte Amazonense, Norte Piauiense, Sul Amazonense, Sudeste Paraense, Sul de Roraima, Metropolitana de Fortaleza, Sul do AmapÃ¡",
+        "areas": [
+          "Aviso para as Ã¡reas: Nordeste Paraense, Noroeste Cearense, MarajÃ³, Leste Maranhense, Norte Maranhense, Baixo Amazonas, Sudoeste Paraense, Oeste Maranhense, Norte de Roraima, Centro Amazonense, Norte do AmapÃ¡, Sudoeste Amazonense, Norte Cearense, Metropolitana de BelÃ©m, Centro Maranhense, Norte Amazonense, Norte Piauiense, Sul Amazonense, Sudeste Paraense, Sul de Roraima, Metropolitana de Fortaleza, Sul do AmapÃ¡"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54514"
       },
       "geometry": {
         "type": "Polygon",
