@@ -1,4 +1,349 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27498.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27498.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-05-30T09:00:00-03:00",
+        "expires": "2026-05-31T10:00:00-03:00",
+        "sent": "2026-05-30T11:42:51-03:00",
+        "pubDate": "Sat, 30 May 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 30/05/2026 09:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54524",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte de Roraima, Norte Amazonense, Sul de Roraima, Baixo Amazonas, Centro Amazonense",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte de Roraima, Norte Amazonense, Sul de Roraima, Baixo Amazonas, Centro Amazonense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54524"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.052485,
+              0.12085
+            ],
+            [
+              -70.035387,
+              -0.023192
+            ],
+            [
+              -69.973142,
+              -0.201411
+            ],
+            [
+              -69.892824,
+              -0.30685
+            ],
+            [
+              -69.258157,
+              -0.550957
+            ],
+            [
+              -68.086464,
+              -0.648598
+            ],
+            [
+              -66.524209,
+              -1.039137
+            ],
+            [
+              -64.766671,
+              -1.136766
+            ],
+            [
+              -62.911492,
+              -1.136766
+            ],
+            [
+              -61.153955,
+              -1.039137
+            ],
+            [
+              -59.73816,
+              -0.843873
+            ],
+            [
+              -58.566467,
+              -0.160383
+            ],
+            [
+              -58.371187,
+              0.474307
+            ],
+            [
+              -58.322366,
+              1.206566
+            ],
+            [
+              -58.698733,
+              1.24137
+            ],
+            [
+              -59.044184,
+              1.301176
+            ],
+            [
+              -59.340815,
+              1.56841
+            ],
+            [
+              -59.613019,
+              1.720948
+            ],
+            [
+              -59.688721,
+              2.130856
+            ],
+            [
+              -59.953594,
+              2.751644
+            ],
+            [
+              -59.832779,
+              3.490272
+            ],
+            [
+              -59.640519,
+              3.791494
+            ],
+            [
+              -59.73816,
+              4.27851
+            ],
+            [
+              -59.982262,
+              4.521905
+            ],
+            [
+              -60.128725,
+              5.154337
+            ],
+            [
+              -60.665751,
+              5.20296
+            ],
+            [
+              -60.645733,
+              4.792987
+            ],
+            [
+              -61.105135,
+              4.521905
+            ],
+            [
+              -61.688232,
+              4.208875
+            ],
+            [
+              -62.542728,
+              4.050565
+            ],
+            [
+              -62.672109,
+              3.982376
+            ],
+            [
+              -62.683096,
+              3.749755
+            ],
+            [
+              -63.007827,
+              3.643771
+            ],
+            [
+              -63.280049,
+              3.921481
+            ],
+            [
+              -63.741442,
+              3.937629
+            ],
+            [
+              -64.006348,
+              3.917855
+            ],
+            [
+              -64.268801,
+              4.140687
+            ],
+            [
+              -64.836399,
+              4.183301
+            ],
+            [
+              -64.327287,
+              3.791494
+            ],
+            [
+              -64.116228,
+              3.174642
+            ],
+            [
+              -63.936722,
+              2.524054
+            ],
+            [
+              -63.699949,
+              2.434574
+            ],
+            [
+              -63.436311,
+              2.407736
+            ],
+            [
+              -63.343545,
+              2.247962
+            ],
+            [
+              -63.583992,
+              2.013754
+            ],
+            [
+              -63.913565,
+              1.933215
+            ],
+            [
+              -64.354236,
+              1.402464
+            ],
+            [
+              -64.898677,
+              1.169347
+            ],
+            [
+              -65.46504,
+              0.692146
+            ],
+            [
+              -65.672597,
+              0.977724
+            ],
+            [
+              -66.280518,
+              0.733637
+            ],
+            [
+              -66.712641,
+              0.99239
+            ],
+            [
+              -67.073988,
+              1.185231
+            ],
+            [
+              -67.222921,
+              1.852708
+            ],
+            [
+              -67.324253,
+              2.032045
+            ],
+            [
+              -67.419474,
+              2.168654
+            ],
+            [
+              -67.760016,
+              1.927134
+            ],
+            [
+              -67.949221,
+              1.867357
+            ],
+            [
+              -68.118891,
+              1.962499
+            ],
+            [
+              -68.37767,
+              1.647722
+            ],
+            [
+              -68.769953,
+              1.694636
+            ],
+            [
+              -69.111696,
+              1.743437
+            ],
+            [
+              -69.551081,
+              1.792236
+            ],
+            [
+              -69.795183,
+              1.743437
+            ],
+            [
+              -69.818115,
+              1.526919
+            ],
+            [
+              -69.844002,
+              1.304188
+            ],
+            [
+              -69.79125,
+              1.135187
+            ],
+            [
+              -69.610594,
+              1.102223
+            ],
+            [
+              -69.173613,
+              1.028977
+            ],
+            [
+              -69.110115,
+              0.628659
+            ],
+            [
+              -69.447017,
+              0.550539
+            ],
+            [
+              -69.677731,
+              0.581022
+            ],
+            [
+              -69.868154,
+              0.5432
+            ],
+            [
+              -69.938948,
+              0.415026
+            ],
+            [
+              -69.999991,
+              0.274657
+            ],
+            [
+              -70.052485,
+              0.12085
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
