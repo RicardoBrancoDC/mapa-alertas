@@ -14,7 +14,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874715+00:00",
+        "updated_at": "2026-06-12T07:26:20.070991+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -38,7 +38,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874745+00:00",
+        "updated_at": "2026-06-12T07:26:20.071018+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -62,7 +62,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874753+00:00",
+        "updated_at": "2026-06-12T07:26:20.071025+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -86,7 +86,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874762+00:00",
+        "updated_at": "2026-06-12T07:26:20.071035+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -110,7 +110,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874770+00:00",
+        "updated_at": "2026-06-12T07:26:20.071042+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -134,7 +134,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874775+00:00",
+        "updated_at": "2026-06-12T07:26:20.071048+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -158,7 +158,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-06-11T22:39:44.874780+00:00",
+        "updated_at": "2026-06-12T07:26:20.071052+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -182,7 +182,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874789+00:00",
+        "updated_at": "2026-06-12T07:26:20.071062+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -206,7 +206,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874795+00:00",
+        "updated_at": "2026-06-12T07:26:20.071068+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -230,7 +230,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874800+00:00",
+        "updated_at": "2026-06-12T07:26:20.071073+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -254,7 +254,7 @@
         "is_active": true,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874805+00:00",
+        "updated_at": "2026-06-12T07:26:20.071078+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -278,7 +278,7 @@
         "is_active": true,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874809+00:00",
+        "updated_at": "2026-06-12T07:26:20.071083+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -302,7 +302,7 @@
         "is_active": true,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874813+00:00",
+        "updated_at": "2026-06-12T07:26:20.071087+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -326,7 +326,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874821+00:00",
+        "updated_at": "2026-06-12T07:26:20.071095+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -350,7 +350,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874825+00:00",
+        "updated_at": "2026-06-12T07:26:20.071101+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -374,7 +374,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874831+00:00",
+        "updated_at": "2026-06-12T07:26:20.071105+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -398,7 +398,7 @@
         "is_active": true,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874835+00:00",
+        "updated_at": "2026-06-12T07:26:20.071109+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -422,7 +422,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874839+00:00",
+        "updated_at": "2026-06-12T07:26:20.071114+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -446,7 +446,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874844+00:00",
+        "updated_at": "2026-06-12T07:26:20.071118+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -470,7 +470,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874848+00:00",
+        "updated_at": "2026-06-12T07:26:20.071123+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -494,7 +494,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874856+00:00",
+        "updated_at": "2026-06-12T07:26:20.071130+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -518,7 +518,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874861+00:00",
+        "updated_at": "2026-06-12T07:26:20.071134+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -542,7 +542,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874865+00:00",
+        "updated_at": "2026-06-12T07:26:20.071138+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -566,7 +566,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874872+00:00",
+        "updated_at": "2026-06-12T07:26:20.071144+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -590,7 +590,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874875+00:00",
+        "updated_at": "2026-06-12T07:26:20.071148+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -614,7 +614,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874879+00:00",
+        "updated_at": "2026-06-12T07:26:20.071154+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -638,7 +638,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874885+00:00",
+        "updated_at": "2026-06-12T07:26:20.071158+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -662,7 +662,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874889+00:00",
+        "updated_at": "2026-06-12T07:26:20.071162+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -686,7 +686,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874893+00:00",
+        "updated_at": "2026-06-12T07:26:20.071166+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -710,7 +710,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-06-11T22:39:44.874899+00:00",
+        "updated_at": "2026-06-12T07:26:20.071171+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -734,7 +734,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874902+00:00",
+        "updated_at": "2026-06-12T07:26:20.071175+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -758,7 +758,7 @@
         "is_active": true,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874906+00:00",
+        "updated_at": "2026-06-12T07:26:20.071179+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -782,7 +782,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874910+00:00",
+        "updated_at": "2026-06-12T07:26:20.071183+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -806,7 +806,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874916+00:00",
+        "updated_at": "2026-06-12T07:26:20.071188+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -830,7 +830,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874920+00:00",
+        "updated_at": "2026-06-12T07:26:20.071192+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -854,7 +854,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874923+00:00",
+        "updated_at": "2026-06-12T07:26:20.071198+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -878,7 +878,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-06-11T22:39:44.874930+00:00",
+        "updated_at": "2026-06-12T07:26:20.071202+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -902,7 +902,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874933+00:00",
+        "updated_at": "2026-06-12T07:26:20.071205+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -926,7 +926,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874937+00:00",
+        "updated_at": "2026-06-12T07:26:20.071209+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -950,7 +950,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874943+00:00",
+        "updated_at": "2026-06-12T07:26:20.071214+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -974,7 +974,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874946+00:00",
+        "updated_at": "2026-06-12T07:26:20.071218+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -998,7 +998,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874950+00:00",
+        "updated_at": "2026-06-12T07:26:20.071222+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1022,7 +1022,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874954+00:00",
+        "updated_at": "2026-06-12T07:26:20.071225+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1046,7 +1046,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874960+00:00",
+        "updated_at": "2026-06-12T07:26:20.071231+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1070,7 +1070,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874963+00:00",
+        "updated_at": "2026-06-12T07:26:20.071235+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1094,7 +1094,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874967+00:00",
+        "updated_at": "2026-06-12T07:26:20.071238+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1118,7 +1118,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874970+00:00",
+        "updated_at": "2026-06-12T07:26:20.071244+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1142,7 +1142,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874978+00:00",
+        "updated_at": "2026-06-12T07:26:20.071247+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1166,7 +1166,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874981+00:00",
+        "updated_at": "2026-06-12T07:26:20.071251+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1190,7 +1190,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-06-11T22:39:44.874985+00:00",
+        "updated_at": "2026-06-12T07:26:20.071255+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1214,7 +1214,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.874989+00:00",
+        "updated_at": "2026-06-12T07:26:20.071258+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1238,7 +1238,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.874992+00:00",
+        "updated_at": "2026-06-12T07:26:20.071262+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1262,7 +1262,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.874996+00:00",
+        "updated_at": "2026-06-12T07:26:20.071266+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1286,7 +1286,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875002+00:00",
+        "updated_at": "2026-06-12T07:26:20.071271+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1310,7 +1310,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875007+00:00",
+        "updated_at": "2026-06-12T07:26:20.071276+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1334,7 +1334,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875011+00:00",
+        "updated_at": "2026-06-12T07:26:20.071280+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1358,7 +1358,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875014+00:00",
+        "updated_at": "2026-06-12T07:26:20.071286+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1382,7 +1382,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875018+00:00",
+        "updated_at": "2026-06-12T07:26:20.071290+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1406,7 +1406,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875024+00:00",
+        "updated_at": "2026-06-12T07:26:20.071294+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1430,7 +1430,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875028+00:00",
+        "updated_at": "2026-06-12T07:26:20.071297+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1454,7 +1454,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875034+00:00",
+        "updated_at": "2026-06-12T07:26:20.071304+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1478,7 +1478,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-06-11T22:39:44.875038+00:00",
+        "updated_at": "2026-06-12T07:26:20.071308+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1502,7 +1502,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-06-11T22:39:44.875041+00:00",
+        "updated_at": "2026-06-12T07:26:20.071311+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1526,7 +1526,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-06-11T22:39:44.875051+00:00",
+        "updated_at": "2026-06-12T07:26:20.071317+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1550,7 +1550,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-06-11T22:39:44.875055+00:00",
+        "updated_at": "2026-06-12T07:26:20.071321+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1574,7 +1574,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-06-11T22:39:44.875058+00:00",
+        "updated_at": "2026-06-12T07:26:20.071353+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1598,7 +1598,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-06-11T22:39:44.875062+00:00",
+        "updated_at": "2026-06-12T07:26:20.071362+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1622,7 +1622,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-06-11T22:39:44.875066+00:00",
+        "updated_at": "2026-06-12T07:26:20.071367+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1646,7 +1646,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-06-11T22:39:44.875072+00:00",
+        "updated_at": "2026-06-12T07:26:20.071374+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1670,7 +1670,7 @@
         "is_active": true,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-06-11T22:39:44.875078+00:00",
+        "updated_at": "2026-06-12T07:26:20.071378+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1694,7 +1694,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-06-11T22:39:44.875156+00:00",
+        "updated_at": "2026-06-12T07:26:20.071465+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1718,7 +1718,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-06-11T22:39:44.875161+00:00",
+        "updated_at": "2026-06-12T07:26:20.071474+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1742,7 +1742,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-06-11T22:39:44.875164+00:00",
+        "updated_at": "2026-06-12T07:26:20.071478+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1766,7 +1766,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875188+00:00",
+        "updated_at": "2026-06-12T07:26:20.071487+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1790,7 +1790,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875191+00:00",
+        "updated_at": "2026-06-12T07:26:20.071491+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1814,7 +1814,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875197+00:00",
+        "updated_at": "2026-06-12T07:26:20.071496+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1838,7 +1838,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875204+00:00",
+        "updated_at": "2026-06-12T07:26:20.071502+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1862,7 +1862,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875207+00:00",
+        "updated_at": "2026-06-12T07:26:20.071506+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1886,7 +1886,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875211+00:00",
+        "updated_at": "2026-06-12T07:26:20.071509+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1910,7 +1910,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875215+00:00",
+        "updated_at": "2026-06-12T07:26:20.071513+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1934,7 +1934,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-06-11T22:39:44.875221+00:00",
+        "updated_at": "2026-06-12T07:26:20.071519+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1958,7 +1958,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-06-11T22:39:44.875224+00:00",
+        "updated_at": "2026-06-12T07:26:20.071522+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1982,7 +1982,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-06-11T22:39:44.875228+00:00",
+        "updated_at": "2026-06-12T07:26:20.071526+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2006,7 +2006,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-06-11T22:39:44.875234+00:00",
+        "updated_at": "2026-06-12T07:26:20.071531+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2030,7 +2030,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-06-11T22:39:44.875238+00:00",
+        "updated_at": "2026-06-12T07:26:20.071535+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2054,7 +2054,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-06-11T22:39:44.875242+00:00",
+        "updated_at": "2026-06-12T07:26:20.071538+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2078,7 +2078,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-06-11T22:39:44.875245+00:00",
+        "updated_at": "2026-06-12T07:26:20.071542+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2102,7 +2102,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875249+00:00",
+        "updated_at": "2026-06-12T07:26:20.071546+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2126,7 +2126,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875253+00:00",
+        "updated_at": "2026-06-12T07:26:20.071549+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2150,7 +2150,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875256+00:00",
+        "updated_at": "2026-06-12T07:26:20.071553+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2174,7 +2174,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875260+00:00",
+        "updated_at": "2026-06-12T07:26:20.071557+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2198,7 +2198,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875268+00:00",
+        "updated_at": "2026-06-12T07:26:20.071562+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2222,7 +2222,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875272+00:00",
+        "updated_at": "2026-06-12T07:26:20.071566+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2246,7 +2246,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875279+00:00",
+        "updated_at": "2026-06-12T07:26:20.071573+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2270,7 +2270,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875285+00:00",
+        "updated_at": "2026-06-12T07:26:20.071579+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2294,7 +2294,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875289+00:00",
+        "updated_at": "2026-06-12T07:26:20.071583+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2318,7 +2318,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875293+00:00",
+        "updated_at": "2026-06-12T07:26:20.071586+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2342,7 +2342,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875297+00:00",
+        "updated_at": "2026-06-12T07:26:20.071590+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2366,7 +2366,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875300+00:00",
+        "updated_at": "2026-06-12T07:26:20.071594+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2390,7 +2390,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875304+00:00",
+        "updated_at": "2026-06-12T07:26:20.071597+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2414,7 +2414,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875308+00:00",
+        "updated_at": "2026-06-12T07:26:20.071601+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2438,7 +2438,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875314+00:00",
+        "updated_at": "2026-06-12T07:26:20.071604+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2462,7 +2462,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-06-11T22:39:44.875317+00:00",
+        "updated_at": "2026-06-12T07:26:20.071608+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2486,7 +2486,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875323+00:00",
+        "updated_at": "2026-06-12T07:26:20.071613+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2510,7 +2510,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875327+00:00",
+        "updated_at": "2026-06-12T07:26:20.071617+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2534,7 +2534,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875330+00:00",
+        "updated_at": "2026-06-12T07:26:20.071626+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2558,7 +2558,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875334+00:00",
+        "updated_at": "2026-06-12T07:26:20.071630+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2582,7 +2582,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875340+00:00",
+        "updated_at": "2026-06-12T07:26:20.071635+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2606,7 +2606,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875344+00:00",
+        "updated_at": "2026-06-12T07:26:20.071639+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2630,7 +2630,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875348+00:00",
+        "updated_at": "2026-06-12T07:26:20.071644+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2654,7 +2654,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875352+00:00",
+        "updated_at": "2026-06-12T07:26:20.071647+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2678,7 +2678,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875355+00:00",
+        "updated_at": "2026-06-12T07:26:20.071651+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2702,7 +2702,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875362+00:00",
+        "updated_at": "2026-06-12T07:26:20.071657+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2726,7 +2726,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875370+00:00",
+        "updated_at": "2026-06-12T07:26:20.071662+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2750,7 +2750,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875373+00:00",
+        "updated_at": "2026-06-12T07:26:20.071666+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2774,7 +2774,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875377+00:00",
+        "updated_at": "2026-06-12T07:26:20.071669+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2798,7 +2798,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875381+00:00",
+        "updated_at": "2026-06-12T07:26:20.071673+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2822,7 +2822,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875384+00:00",
+        "updated_at": "2026-06-12T07:26:20.071676+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2846,7 +2846,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875388+00:00",
+        "updated_at": "2026-06-12T07:26:20.071682+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2870,7 +2870,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875391+00:00",
+        "updated_at": "2026-06-12T07:26:20.071686+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2894,7 +2894,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875395+00:00",
+        "updated_at": "2026-06-12T07:26:20.071689+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2918,7 +2918,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875398+00:00",
+        "updated_at": "2026-06-12T07:26:20.071692+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2942,7 +2942,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875404+00:00",
+        "updated_at": "2026-06-12T07:26:20.071698+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2966,7 +2966,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875412+00:00",
+        "updated_at": "2026-06-12T07:26:20.071703+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2990,7 +2990,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875416+00:00",
+        "updated_at": "2026-06-12T07:26:20.071707+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3014,7 +3014,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-06-11T22:39:44.875419+00:00",
+        "updated_at": "2026-06-12T07:26:20.071710+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3038,7 +3038,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-06-11T22:39:44.875423+00:00",
+        "updated_at": "2026-06-12T07:26:20.071714+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3062,7 +3062,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-06-11T22:39:44.875427+00:00",
+        "updated_at": "2026-06-12T07:26:20.071718+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3086,7 +3086,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-06-11T22:39:44.875431+00:00",
+        "updated_at": "2026-06-12T07:26:20.071722+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3110,7 +3110,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-06-11T22:39:44.875435+00:00",
+        "updated_at": "2026-06-12T07:26:20.071725+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3134,7 +3134,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-06-11T22:39:44.875438+00:00",
+        "updated_at": "2026-06-12T07:26:20.071729+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3158,7 +3158,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-06-11T22:39:44.875442+00:00",
+        "updated_at": "2026-06-12T07:26:20.071734+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3182,7 +3182,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875446+00:00",
+        "updated_at": "2026-06-12T07:26:20.071738+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3206,7 +3206,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875452+00:00",
+        "updated_at": "2026-06-12T07:26:20.071744+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3230,7 +3230,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875460+00:00",
+        "updated_at": "2026-06-12T07:26:20.071749+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3254,7 +3254,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875463+00:00",
+        "updated_at": "2026-06-12T07:26:20.071753+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3278,7 +3278,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875470+00:00",
+        "updated_at": "2026-06-12T07:26:20.071759+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3302,7 +3302,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875473+00:00",
+        "updated_at": "2026-06-12T07:26:20.071762+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3326,7 +3326,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875479+00:00",
+        "updated_at": "2026-06-12T07:26:20.071768+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3350,7 +3350,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875483+00:00",
+        "updated_at": "2026-06-12T07:26:20.071771+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3374,7 +3374,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875486+00:00",
+        "updated_at": "2026-06-12T07:26:20.071775+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3398,7 +3398,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875490+00:00",
+        "updated_at": "2026-06-12T07:26:20.071779+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3422,7 +3422,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875493+00:00",
+        "updated_at": "2026-06-12T07:26:20.071782+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3446,7 +3446,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875499+00:00",
+        "updated_at": "2026-06-12T07:26:20.071788+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3470,7 +3470,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875503+00:00",
+        "updated_at": "2026-06-12T07:26:20.071791+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3494,7 +3494,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875509+00:00",
+        "updated_at": "2026-06-12T07:26:20.071797+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3518,7 +3518,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875512+00:00",
+        "updated_at": "2026-06-12T07:26:20.071803+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3542,7 +3542,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875518+00:00",
+        "updated_at": "2026-06-12T07:26:20.071806+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3566,7 +3566,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-06-11T22:39:44.875524+00:00",
+        "updated_at": "2026-06-12T07:26:20.071812+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3590,7 +3590,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875528+00:00",
+        "updated_at": "2026-06-12T07:26:20.071816+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3614,7 +3614,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875532+00:00",
+        "updated_at": "2026-06-12T07:26:20.071820+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3638,7 +3638,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875535+00:00",
+        "updated_at": "2026-06-12T07:26:20.071824+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3662,7 +3662,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875539+00:00",
+        "updated_at": "2026-06-12T07:26:20.071827+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3686,7 +3686,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875545+00:00",
+        "updated_at": "2026-06-12T07:26:20.071833+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3710,7 +3710,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875554+00:00",
+        "updated_at": "2026-06-12T07:26:20.071838+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3734,7 +3734,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875558+00:00",
+        "updated_at": "2026-06-12T07:26:20.071842+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3758,7 +3758,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875561+00:00",
+        "updated_at": "2026-06-12T07:26:20.071845+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3782,7 +3782,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875565+00:00",
+        "updated_at": "2026-06-12T07:26:20.071849+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3806,7 +3806,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875573+00:00",
+        "updated_at": "2026-06-12T07:26:20.071854+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3830,7 +3830,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875577+00:00",
+        "updated_at": "2026-06-12T07:26:20.071858+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3854,7 +3854,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875580+00:00",
+        "updated_at": "2026-06-12T07:26:20.071863+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3878,7 +3878,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875584+00:00",
+        "updated_at": "2026-06-12T07:26:20.071867+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3902,7 +3902,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875587+00:00",
+        "updated_at": "2026-06-12T07:26:20.071870+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3926,7 +3926,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875593+00:00",
+        "updated_at": "2026-06-12T07:26:20.071902+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3950,7 +3950,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-06-11T22:39:44.875597+00:00",
+        "updated_at": "2026-06-12T07:26:20.071906+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3974,7 +3974,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875600+00:00",
+        "updated_at": "2026-06-12T07:26:20.071909+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3998,7 +3998,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875604+00:00",
+        "updated_at": "2026-06-12T07:26:20.071913+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4022,7 +4022,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875607+00:00",
+        "updated_at": "2026-06-12T07:26:20.071916+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4046,7 +4046,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875613+00:00",
+        "updated_at": "2026-06-12T07:26:20.071920+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4070,7 +4070,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875617+00:00",
+        "updated_at": "2026-06-12T07:26:20.071923+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4094,7 +4094,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875623+00:00",
+        "updated_at": "2026-06-12T07:26:20.071929+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4118,7 +4118,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875626+00:00",
+        "updated_at": "2026-06-12T07:26:20.071932+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4142,7 +4142,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875630+00:00",
+        "updated_at": "2026-06-12T07:26:20.071938+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4166,7 +4166,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875636+00:00",
+        "updated_at": "2026-06-12T07:26:20.071944+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4190,7 +4190,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875640+00:00",
+        "updated_at": "2026-06-12T07:26:20.071947+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4214,7 +4214,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875643+00:00",
+        "updated_at": "2026-06-12T07:26:20.071951+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4238,7 +4238,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875647+00:00",
+        "updated_at": "2026-06-12T07:26:20.071954+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4262,7 +4262,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875651+00:00",
+        "updated_at": "2026-06-12T07:26:20.071958+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4286,7 +4286,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875654+00:00",
+        "updated_at": "2026-06-12T07:26:20.071962+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4310,7 +4310,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875660+00:00",
+        "updated_at": "2026-06-12T07:26:20.071965+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4334,7 +4334,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875663+00:00",
+        "updated_at": "2026-06-12T07:26:20.071969+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4358,7 +4358,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875667+00:00",
+        "updated_at": "2026-06-12T07:26:20.071972+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4382,7 +4382,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875670+00:00",
+        "updated_at": "2026-06-12T07:26:20.071976+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4406,7 +4406,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875676+00:00",
+        "updated_at": "2026-06-12T07:26:20.071981+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4430,7 +4430,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875682+00:00",
+        "updated_at": "2026-06-12T07:26:20.071987+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4454,7 +4454,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875688+00:00",
+        "updated_at": "2026-06-12T07:26:20.071994+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4478,7 +4478,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875692+00:00",
+        "updated_at": "2026-06-12T07:26:20.071997+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4502,7 +4502,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875695+00:00",
+        "updated_at": "2026-06-12T07:26:20.072001+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4526,7 +4526,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875698+00:00",
+        "updated_at": "2026-06-12T07:26:20.072005+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4550,7 +4550,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875702+00:00",
+        "updated_at": "2026-06-12T07:26:20.072008+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4574,7 +4574,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875705+00:00",
+        "updated_at": "2026-06-12T07:26:20.072012+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4598,7 +4598,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875709+00:00",
+        "updated_at": "2026-06-12T07:26:20.072015+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4622,7 +4622,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-06-11T22:39:44.875714+00:00",
+        "updated_at": "2026-06-12T07:26:20.072019+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4646,7 +4646,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875720+00:00",
+        "updated_at": "2026-06-12T07:26:20.072024+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4670,7 +4670,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875724+00:00",
+        "updated_at": "2026-06-12T07:26:20.072027+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4694,7 +4694,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875727+00:00",
+        "updated_at": "2026-06-12T07:26:20.072031+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4718,7 +4718,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875731+00:00",
+        "updated_at": "2026-06-12T07:26:20.072034+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4742,7 +4742,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875735+00:00",
+        "updated_at": "2026-06-12T07:26:20.072038+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4766,7 +4766,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875738+00:00",
+        "updated_at": "2026-06-12T07:26:20.072043+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4790,7 +4790,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-06-11T22:39:44.875742+00:00",
+        "updated_at": "2026-06-12T07:26:20.072047+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4814,7 +4814,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875746+00:00",
+        "updated_at": "2026-06-12T07:26:20.072051+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4838,7 +4838,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875752+00:00",
+        "updated_at": "2026-06-12T07:26:20.072056+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4862,7 +4862,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875756+00:00",
+        "updated_at": "2026-06-12T07:26:20.072060+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4886,7 +4886,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875764+00:00",
+        "updated_at": "2026-06-12T07:26:20.072068+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4910,7 +4910,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875767+00:00",
+        "updated_at": "2026-06-12T07:26:20.072072+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4934,7 +4934,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875771+00:00",
+        "updated_at": "2026-06-12T07:26:20.072076+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4958,7 +4958,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-06-11T22:39:44.875775+00:00",
+        "updated_at": "2026-06-12T07:26:20.072079+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
