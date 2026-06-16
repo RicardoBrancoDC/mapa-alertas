@@ -9,6 +9,6 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Sebastião", "uf": "SP", "codibge": "3550704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.68510446644882, -23.745750935 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Ubatuba", "uf": "SP", "codibge": "3555406", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.081609183741136, -23.397500162500002 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Saquarema", "uf": "RJ", "codibge": "3305505", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.524848373948537, -22.870745669500003 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio De Janeiro", "uf": "RJ", "codibge": "3304557", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.466108638108544, -22.937430926499996 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio De Janeiro", "uf": "RJ", "codibge": "3304557", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.466108638108544, -22.937430926499996 ] } }
 ]
 }
