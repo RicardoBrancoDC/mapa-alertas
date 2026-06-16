@@ -5,8 +5,8 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27568.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27568.1",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27568.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27568.2",
         "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo Potencial",
         "event": "Acumulado de Chuva",
         "severity": "Moderate",
@@ -15,7 +15,7 @@
         "status_tempo": "hoje",
         "onset": "2026-06-16T09:37:00-03:00",
         "expires": "2026-06-16T23:59:00-03:00",
-        "sent": "2026-06-16T12:36:13-03:00",
+        "sent": "2026-06-16T00:00:00-03:00",
         "pubDate": "Tue, 16 Jun 2026 09:37:00 +0000",
         "sender": "info.aviso@inmet.gov.br",
         "senderName": "Instituto Nacional de Meteorologia",
@@ -25,13 +25,13 @@
         "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Moderate",
         "description": "INMET publica aviso iniciando em: 16/06/2026 09:37. Chuva entre 20 a 30 mm/h ou atÃ© 50 mm/dia. Baixo risco de alagamentos e pequenos deslizamentos, em cidades com tais Ã¡reas de risco.",
         "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54632",
+        "web": "https://avisos.inmet.gov.br/54636",
         "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
         "areaDesc": "Aviso para as Ã¡reas: Zona da Mata, Sul Fluminense, Vale do ParaÃ­ba Paulista, Baixadas, Centro Fluminense, Metropolitana do Rio de Janeiro, Metropolitana de SÃ£o Paulo, Sul/Sudoeste de Minas",
         "areas": [
           "Aviso para as Ã¡reas: Zona da Mata, Sul Fluminense, Vale do ParaÃ­ba Paulista, Baixadas, Centro Fluminense, Metropolitana do Rio de Janeiro, Metropolitana de SÃ£o Paulo, Sul/Sudoeste de Minas"
         ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54632"
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54636"
       },
       "geometry": {
         "type": "Polygon",
