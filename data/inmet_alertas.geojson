@@ -4,34 +4,38 @@
     {
       "type": "Feature",
       "properties": {
-        "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27646.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27646.1",
-        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
-        "event": "Acumulado de Chuva",
-        "severity": "Severe",
-        "nivel": "Severe",
-        "nivel_grupo": "perigo_potencial",
+        "title": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "tipo": "INMET",
+        "status": "Ativo",
         "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo",
+        "severity_group": "perigo",
+        "evento": "Acumulado de Chuva",
+        "categoria": "Met",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 09:21. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais áreas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteração nas encostas. Se possível, desligue aparelhos elétricos e quadro geral de energia. Em caso de situação de inundação, ou similar, proteja seus pertences da água envoltos em sacos plásticos. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-06-26T09:21:00-03:00",
         "expires": "2026-06-26T23:59:00-03:00",
         "sent": "2026-06-26T12:20:13-03:00",
-        "pubDate": "Fri, 26 Jun 2026 09:21:00 +0000",
-        "sender": "info.aviso@inmet.gov.br",
-        "senderName": "Instituto Nacional de Meteorologia",
-        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
-        "description": "INMET publica aviso iniciando em: 26/06/2026 09:21. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
-        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54746",
-        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
-        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Leste Sergipano",
-        "areas": [
-          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Leste Sergipano"
-        ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54746"
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54746",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54746",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54746",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27646.1",
+        "color_risk": "#F96602",
+        "municipios": "Abreu e Lima - PE (2600054), Água Preta - PE (2600401), Alhandra - PB (2500601), Aliança - PE (2600708), Araçoiaba - PE (2601052), Arês - RN (2401206), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Barra de Santo Antônio - AL (2700508), Barra de São Miguel - AL (2700607), Barreiros - PE (2601409), Bayeux - PB (2501807), Brejinho - RN (2401800), Brejo Grande - SE (2800704), Caaporã - PB (2503001), Cabedelo - PB (2503209), Cabo de Santo Agostinho - PE (2602902), Camaragibe - PE (2603454), Campestre - AL (2701357), Campo Alegre - AL (2701407), Canguaretama - RN (2402204), Capim - PB (2504033), Carpina - PE (2604007), Ceará-Mirim - RN (2402600), Chã de Alegria - PE (2604403), Condado - PE (2604601), Conde - PB (2504603), Coqueiro Seco - AL (2702207), Coruripe - AL (2702306), Cruz do Espírito Santo - PB (2504900), Curral de Cima - PB (2505279), Escada - PE (2605202), Espírito Santo - RN (2403509), Extremoz - RN (2403608), Feliz Deserto - AL (2702702), Ferreiros - PE (2605509), Flexeiras - AL (2702801), Gameleira - PE (2605905), Glória do Goitá - PE (2606101), Goiana - PE (2606200), Goianinha - RN (2404200), Ielmo Marinho - RN (2404606), Igarassu - PE (2606804), Ilha das Flores - SE (2802700), Ilha de Itamaracá - PE (2607604), Ipojuca - PE (2607208), Itambé - PE (2607653), Itapissuma - PE (2607752), Itapororoca - PB (2507101), Itaquitinga - PE (2607802), Jaboatão dos Guararapes - PE (2607901), Jacaraú - PB (2507309), Jacuípe - AL (2703502), Japaratinga - AL (2703601), Jequiá da Praia - AL (2703759), João Pessoa - PB (2507507), Joaquim Gomes - AL (2703809), Jundiá - RN (2406155), Jundiá - AL (2703908), Juripiranga - PB (2507903), Lucena - PB (2508604), Macaíba - RN (2407104), Maceió - AL (2704302), Mamanguape - PB (2508901), Maragogi - AL (2704500), Marcação - PB (2509057), Marechal Deodoro - AL (2704708), Mataraca - PB (2509305), Matriz de Camaragibe - AL (2705101), Maxaranguape - RN (2407500), Messias - AL (2705200), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Moreno - PE (2609402), Natal - RN (2408102), Nazaré da Mata - PE (2609501), Neópolis - SE (2804409), Nísia Floresta - RN (2408201), Novo Lino - AL (2705606), Olinda - PE (2609600), Paripueira - AL (2706448), Parnamirim - RN (2403251), Passo de Camaragibe - AL (2706505), Paudalho - PE (2610608), Paulista - PE (2610707), Pedras de Fogo - PB (2511202), Pedro Velho - RN (2409803), Penedo - AL (2706703), Piaçabuçu - AL (2706802), Pilar - AL (2706901), Pitimbu - PB (2511905), Porto Calvo - AL (2707305), Porto de Pedras - AL (2707404), Primavera - PE (2611408), Pureza - RN (2410405), Recife - PE (2611606), Ribeirão - PE (2611804), Rio do Fogo - RN (2408953), Rio Formoso - PE (2611903), Rio Largo - AL (2707701), Rio Tinto - PB (2512903), Roteiro - AL (2707800), Santa Luzia do Norte - AL (2707909), Santa Rita - PB (2513703), São Gonçalo do Amarante - RN (2412005), São José da Coroa Grande - PE (2613404), São José de Mipibu - RN (2412203), São Lourenço da Mata - PE (2613701), São Luís do Quitunde - AL (2708501), São Miguel de Taipu - PB (2515005), São Miguel do Gostoso - RN (2412559), São Miguel dos Campos - AL (2708600), São Miguel dos Milagres - AL (2708709), Sapé - PB (2515302), Satuba - AL (2708907), Senador Georgino Avelino - RN (2413201), Sirinhaém - PE (2614204), Taipu - RN (2413904), Tamandaré - PE (2614857), Teotônio Vilela - AL (2709152), Tibau do Sul - RN (2414209), Touros - RN (2414407), Tracunhaém - PE (2615508), Vera Cruz - RN (2414803), Vila Flor - RN (2415008), Vitória de Santo Antão - PE (2616407)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Metropolitana de Recife, Mata Pernambucana, Mata Paraibana, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Leste Sergipano",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-10.282491,-36.540527 -9.535749,-35.90332 -8.982749,-35.562744 -8.570158,-35.386963 -7.678329,-35.167236 -7.002764,-35.145264 -6.238855,-35.343018 -5.528511,-35.551758 -5.337114,-35.606689 -5.13745,-35.639648 -5.11283,-35.579224 -5.131979,-35.518799 -5.222247,-35.408936 -5.438288,-35.2771 -5.681584,-35.211182 -6.241586,-35.021667 -6.836443,-34.848633 -7.046379,-34.804688 -7.373362,-34.788208 -7.77903,-34.785461 -8.002117,-34.815674 -8.208772,-34.898071 -8.513119,-34.980469 -8.819939,-35.101318 -9.102097,-35.241394 -9.340672,-35.419922 -9.806504,-35.831909 -10.185187,-36.156006 -10.466206,-36.375732 -10.474308,-36.447144 -10.447299,-36.524048 -10.38787,-36.5625 -10.32843,-36.565247 -10.282491,-36.540527"
       },
       "geometry": {
         "type": "Polygon",
@@ -180,34 +184,38 @@
     {
       "type": "Feature",
       "properties": {
-        "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27645.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27645.1",
-        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "event": "Chuvas Intensas",
-        "severity": "Moderate",
-        "nivel": "Perigo Potencial",
-        "nivel_grupo": "perigo_potencial",
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
         "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 09:20. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-06-26T09:20:00-03:00",
         "expires": "2026-06-26T23:59:00-03:00",
         "sent": "2026-06-26T12:17:46-03:00",
-        "pubDate": "Fri, 26 Jun 2026 09:20:00 +0000",
-        "sender": "info.aviso@inmet.gov.br",
-        "senderName": "Instituto Nacional de Meteorologia",
-        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "description": "INMET publica aviso iniciando em: 26/06/2026 09:20. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
-        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54745",
-        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
-        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Central Potiguar, Oeste Potiguar, Nordeste Baiano, SertÃ£o Pernambucano, Agreste Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Mata Pernambucana, Agreste Paraibano, Borborema, Mata Paraibana, Jaguaribe, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Leste Potiguar, Sul Cearense, Centro-Sul Cearense, SertÃµes Cearenses, Agreste Potiguar, Norte Cearense, SÃ£o Francisco Pernambucano, SertÃ£o Sergipano, Vale SÃ£o-Franciscano da Bahia",
-        "areas": [
-          "Aviso para as Ã¡reas: Metropolitana de Recife, Central Potiguar, Oeste Potiguar, Nordeste Baiano, SertÃ£o Pernambucano, Agreste Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Mata Pernambucana, Agreste Paraibano, Borborema, Mata Paraibana, Jaguaribe, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Leste Potiguar, Sul Cearense, Centro-Sul Cearense, SertÃµes Cearenses, Agreste Potiguar, Norte Cearense, SÃ£o Francisco Pernambucano, SertÃ£o Sergipano, Vale SÃ£o-Franciscano da Bahia"
-        ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54745"
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54745",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54745",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54745",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27645.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Abreu e Lima - PE (2600054), Acari - RN (2400109), Açu - RN (2400208), Adustina - BA (2900355), Afogados da Ingazeira - PE (2600104), Afonso Bezerra - RN (2400307), Agrestina - PE (2600302), Água Branca - AL (2700102), Água Branca - PB (2500106), Água Nova - RN (2400406), Água Preta - PE (2600401), Águas Belas - PE (2600500), Aguiar - PB (2500205), Alagoa Grande - PB (2500304), Alagoa Nova - PB (2500403), Alagoinha - PB (2500502), Alagoinha - PE (2600609), Alcantil - PB (2500536), Alexandria - RN (2400505), Algodão de Jandaíra - PB (2500577), Alhandra - PB (2500601), Aliança - PE (2600708), Almino Afonso - RN (2400604), Altinho - PE (2600807), Alto do Rodrigues - RN (2400703), Alto Santo - CE (2300705), Amaraji - PE (2600906), Amparo - PB (2500734), Amparo de São Francisco - SE (2800100), Anadia - AL (2700201), Angelim - PE (2601003), Angicos - RN (2400802), Antas - BA (2901601), Antônio Martins - RN (2400901), Aparecida - PB (2500775), Apodi - RN (2401008), Aquidabã - SE (2800209), Araçagi - PB (2500809), Aracaju - SE (2800308), Aracati - CE (2301109), Araçoiaba - PE (2601052), Arapiraca - AL (2700300), Arara - PB (2500908), Araruna - PB (2501005), Arauá - SE (2800407), Arcoverde - PE (2601201), Areia - PB (2501104), Areia Branca - SE (2800506), Areia Branca - RN (2401107), Areia de Baraúnas - PB (2501153), Areial - PB (2501203), Arês - RN (2401206), Aroeiras - PB (2501302), Assunção - PB (2501351), Atalaia - AL (2700409), Augusto Severo - RN (2401305), Aurora - CE (2301703), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Baixio - CE (2301802), Banabuiú - CE (2301851), Bananeiras - PB (2501500), Baraúna - RN (2401453), Baraúna - PB (2501534), Barcelona - RN (2401503), Barra de Guabiraba - PE (2601300), Barra de Santana - PB (2501575), Barra de Santa Rosa - PB (2501609), Barra de Santo Antônio - AL (2700508), Barra de São Miguel - PB (2501708), Barra de São Miguel - AL (2700607), Barra dos Coqueiros - SE (2800605), Barreiros - PE (2601409), Barro - CE (2302008), Batalha - AL (2700706), Bayeux - PB (2501807), Beberibe - CE (2302206), Belém - PB (2501906), Belém - AL (2700805), Belém de Maria - PE (2601508), Belém do Brejo do Cruz - PB (2502003), Belém do São Francisco - PE (2601607), Belo Jardim - PE (2601706), Belo Monte - AL (2700904), Bento Fernandes - RN (2401602), Bernardino Batista - PB (2502052), Betânia - PE (2601805), Bezerros - PE (2601904), Boa Ventura - PB (2502102), Boa Vista - PB (2502151), Boca da Mata - AL (2701001), Bodó - RN (2401651), Bom Conselho - PE (2602100), Bom Jardim - PE (2602209), Bom Jesus - RN (2401701), Bom Jesus - PB (2502201), Bom Sucesso - PB (2502300), Bonito - PE (2602308), Bonito de Santa Fé - PB (2502409), Boqueirão - PB (2502508), Boquim - SE (2800670), Borborema - PB (2502706), Branquinha - AL (2701100), Brejão - PE (2602407), Brejinho - RN (2401800), Brejinho - PE (2602506), Brejo da Madre de Deus - PE (2602605), Brejo do Cruz - PB (2502805), Brejo dos Santos - PB (2502904), Brejo Grande - SE (2800704), Brejo Santo - CE (2302503), Buenos Aires - PE (2602704), Buíque - PE (2602803), Caaporã - PB (2503001), Cabaceiras - PB (2503100), Cabedelo - PB (2503209), Cabo de Santo Agostinho - PE (2602902), Cachoeira dos Índios - PB (2503308), Cachoeirinha - PE (2603108), Cacimba de Areia - PB (2503407), Cacimba de Dentro - PB (2503506), Cacimbas - PB (2503555), Cacimbinhas - AL (2701209), Caetés - PE (2603207), Caiçara - PB (2503605), Caiçara do Norte - RN (2401859), Caiçara do Rio do Vento - RN (2401909), Caicó - RN (2402006), Cajazeiras - PB (2503704), Cajazeirinhas - PB (2503753), Cajueiro - AL (2701308), Calçado - PE (2603306), Caldas Brandão - PB (2503803), Calumbi - PE (2603405), Camalaú - PB (2503902), Camaragibe - PE (2603454), Camocim de São Félix - PE (2603504), Campestre - AL (2701357), Campina Grande - PB (2504009), Campo Alegre - AL (2701407), Campo do Brito - SE (2801009), Campo Grande - AL (2701506), Campo Redondo - RN (2402105), Camutanga - PE (2603603), Canapi - AL (2701605), Canguaretama - RN (2402204), Canhoba - SE (2801108), Canhotinho - PE (2603702), Canindé de São Francisco - SE (2801207), Capela - SE (2801306), Capela - AL (2701704), Capim - PB (2504033), Capoeiras - PE (2603801), Caraúbas - RN (2402303), Caraúbas - PB (2504074), Carira - SE (2801405), Carmópolis - SE (2801504), Carnaíba - PE (2603900), Carnaúba dos Dantas - RN (2402402), Carnaubais - RN (2402501), Carnaubeira da Penha - PE (2603926), Carneiros - AL (2701803), Carpina - PE (2604007), Carrapateira - PB (2504108), Caruaru - PE (2604106), Casinhas - PE (2604155), Casserengue - PB (2504157), Catende - PE (2604205), Catingueira - PB (2504207), Catolé do Rocha - PB (2504306), Caturité - PB (2504355), Ceará-Mirim - RN (2402600), Cedro de São João - SE (2801603), Cerro Corá - RN (2402709), Chã de Alegria - PE (2604403), Chã Grande - PE (2604502), Chã Preta - AL (2701902), Cícero Dantas - BA (2907806), Coité do Nóia - AL (2702009), Colônia Leopoldina - AL (2702108), Conceição - PB (2504405), Condado - PB (2504504), Condado - PE (2604601), Conde - PB (2504603), Congo - PB (2504702), Coqueiro Seco - AL (2702207), Coremas - PB (2504801), Coronel Ezequiel - RN (2402808), Coronel João Pessoa - RN (2402907), Coronel João Sá - BA (2909208), Correntes - PE (2604700), Cortês - PE (2604809), Coruripe - AL (2702306), Coxixola - PB (2504850), Craíbas - AL (2702355), Cristinápolis - SE (2801702), Cruz do Espírito Santo - PB (2504900), Cruzeta - RN (2403004), Cubati - PB (2505006), Cuité - PB (2505105), Cuité de Mamanguape - PB (2505238), Cuitegi - PB (2505204), Cumaru - PE (2604908), Cumbe - SE (2801900), Cupira - PE (2605004), Currais Novos - RN (2403103), Curral de Cima - PB (2505279), Curral Velho - PB (2505303), Custódia - PE (2605103), Damião - PB (2505352), Delmiro Gouveia - AL (2702405), Desterro - PB (2505402), Diamante - PB (2505600), Divina Pastora - SE (2802007), Dois Riachos - AL (2702504), Dona Inês - PB (2505709), Doutor Severiano - RN (2403202), Duas Estradas - PB (2505808), Emas - PB (2505907), Encanto - RN (2403301), Equador - RN (2403400), Ererê - CE (2304277), Escada - PE (2605202), Esperança - PB (2506004), Espírito Santo - RN (2403509), Estância - SE (2802106), Estrela de Alagoas - AL (2702553), Extremoz - RN (2403608), Fagundes - PB (2506103), Fátima - BA (2910750), Feira Grande - AL (2702603), Feira Nova - PE (2605400), Feira Nova - SE (2802205), Felipe Guerra - RN (2403707), Feliz Deserto - AL (2702702), Fernando Pedroza - RN (2403756), Ferreiros - PE (2605509), Flexeiras - AL (2702801), Florânia - RN (2403806), Flores - PE (2605608), Floresta - PE (2605707), Fortim - CE (2304459), Francisco Dantas - RN (2403905), Frei Martinho - PB (2506202), Frei Miguelinho - PE (2605806), Frei Paulo - SE (2802304), Frutuoso Gomes - RN (2404002), Gado Bravo - PB (2506251), Galinhos - RN (2404101), Gameleira - PE (2605905), Garanhuns - PE (2606002), Gararu - SE (2802403), General Maynard - SE (2802502), Girau do Ponciano - AL (2702900), Glória - BA (2911402), Glória do Goitá - PE (2606101), Goiana - PE (2606200), Goianinha - RN (2404200), Governador Dix-Sept Rosado - RN (2404309), Gracho Cardoso - SE (2802601), Gravatá - PE (2606408), Grossos - RN (2404408), Guamaré - RN (2404507), Guarabira - PB (2506301), Gurinhém - PB (2506400), Gurjão - PB (2506509), Heliópolis - BA (2911857), Iati - PE (2606507), Ibateguara - AL (2703007), Ibiara - PB (2506608), Ibicuitinga - CE (2305332), Ibimirim - PE (2606606), Ibirajuba - PE (2606705), Icapuí - CE (2305357), Icó - CE (2305407), Ielmo Marinho - RN (2404606), Igaci - AL (2703106), Igaracy - PB (2502607), Igarassu - PE (2606804), Igreja Nova - AL (2703205), Iguaracy - PE (2606903), Ilha das Flores - SE (2802700), Ilha de Itamaracá - PE (2607604), Imaculada - PB (2506707), Inajá - PE (2607000), Indiaroba - SE (2802809), Ingá - PB (2506806), Ingazeira - PE (2607109), Inhapi - AL (2703304), Ipanguaçu - RN (2404705), Ipaumirim - CE (2305704), Ipojuca - PE (2607208), Ipueira - RN (2404804), Iracema - CE (2306009), Itabaiana - PB (2506905), Itabaiana - SE (2802908), Itabaianinha - SE (2803005), Itabi - SE (2803104), Itacuruba - PE (2607406), Itaíba - PE (2607505), Itaiçaba - CE (2306207), Itajá - RN (2404853), Itambé - PE (2607653), Itapetim - PE (2607703), Itapicuru - BA (2916500), Itapissuma - PE (2607752), Itaporanga - PB (2507002), Itaporanga d'Ajuda - SE (2803203), Itapororoca - PB (2507101), Itaquitinga - PE (2607802), Itatuba - PB (2507200), Itaú - RN (2404903), Jaboatão dos Guararapes - PE (2607901), Jaçanã - RN (2405009), Jacaraú - PB (2507309), Jacaré dos Homens - AL (2703403), Jacuípe - AL (2703502), Jaguaretama - CE (2306702), Jaguaribara - CE (2306801), Jaguaribe - CE (2306900), Jaguaruana - CE (2307007), Jandaíra - BA (2917904), Jandaíra - RN (2405108), Janduís - RN (2405207), Januário Cicco - RN (2405306), Japaratinga - AL (2703601), Japaratuba - SE (2803302), Japi - RN (2405405), Japoatã - SE (2803401), Jaqueira - PE (2607950), Jaramataia - AL (2703700), Jardim de Angicos - RN (2405504), Jardim de Piranhas - RN (2405603), Jardim do Seridó - RN (2405702), Jataúba - PE (2608008), Jatobá - PE (2608057), Jequiá da Praia - AL (2703759), Jeremoabo - BA (2918100), Jericó - PB (2507408), João Alfredo - PE (2608107), João Câmara - RN (2405801), João Dias - RN (2405900), João Pessoa - PB (2507507), Joaquim Gomes - AL (2703809), Joaquim Nabuco - PE (2608206), Joca Claudino - PB (2513653), José da Penha - RN (2406007), Juarez Távora - PB (2507606), Juazeirinho - PB (2507705), Jucati - PE (2608255), Jucurutu - RN (2406106), Junco do Seridó - PB (2507804), Jundiá - RN (2406155), Jundiá - AL (2703908), Junqueiro - AL (2704005), Jupi - PE (2608305), Jurema - PE (2608404), Juripiranga - PB (2507903), Juru - PB (2508000), Lagarto - SE (2803500), Lagoa - PB (2508109), Lagoa da Canoa - AL (2704104), Lagoa d'Anta - RN (2406205), Lagoa de Dentro - PB (2508208), Lagoa de Itaenga - PE (2608503), Lagoa de Pedras - RN (2406304), Lagoa de Velhos - RN (2406403), Lagoa do Carro - PE (2608453), Lagoa do Ouro - PE (2608602), Lagoa dos Gatos - PE (2608701), Lagoa Nova - RN (2406502), Lagoa Salgada - RN (2406601), Lagoa Seca - PB (2508307), Lajedo - PE (2608800), Lajes - RN (2406700), Lajes Pintadas - RN (2406809), Laranjeiras - SE (2803609), Lastro - PB (2508406), Lavras da Mangabeira - CE (2307502), Limoeiro - PE (2608909), Limoeiro de Anadia - AL (2704203), Limoeiro do Norte - CE (2307601), Livramento - PB (2508505), Logradouro - PB (2508554), Lucena - PB (2508604), Lucrécia - RN (2406908), Luís Gomes - RN (2407005), Macaíba - RN (2407104), Macambira - SE (2803708), Macaparana - PE (2609006), Macau - RN (2407203), Maceió - AL (2704302), Machados - PE (2609105), Mãe d'Água - PB (2508703), Major Isidoro - AL (2704401), Major Sales - RN (2407252), Malhada dos Bois - SE (2803807), Malhador - SE (2803906), Malta - PB (2508802), Mamanguape - PB (2508901), Manaíra - PB (2509008), Manari - PE (2609154), Maragogi - AL (2704500), Maraial - PE (2609204), Maravilha - AL (2704609), Marcação - PB (2509057), Marcelino Vieira - RN (2407302), Marechal Deodoro - AL (2704708), Mari - PB (2509107), Maribondo - AL (2704807), Marizópolis - PB (2509156), Martins - RN (2407401), Maruim - SE (2804003), Mar Vermelho - AL (2704906), Massaranduba - PB (2509206), Mata Grande - AL (2705002), Mataraca - PB (2509305), Matinhas - PB (2509339), Mato Grosso - PB (2509370), Matriz de Camaragibe - AL (2705101), Maturéia - PB (2509396), Mauriti - CE (2308104), Maxaranguape - RN (2407500), Messias - AL (2705200), Messias Targino - RN (2407609), Milagres - CE (2308302), Minador do Negrão - AL (2705309), Mirandiba - PE (2609303), Mogeiro - PB (2509404), Moita Bonita - SE (2804102), Montadas - PB (2509503), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Monte Alegre de Sergipe - SE (2804201), Monte das Gameleiras - RN (2407906), Monte Horebe - PB (2509602), Monteiro - PB (2509701), Monteirópolis - AL (2705408), Morada Nova - CE (2308708), Moreno - PE (2609402), Mossoró - RN (2408003), Mulungu - PB (2509800), Muribeca - SE (2804300), Murici - AL (2705507), Natal - RN (2408102), Natuba - PB (2509909), Nazaré da Mata - PE (2609501), Nazarezinho - PB (2510006), Neópolis - SE (2804409), Nísia Floresta - RN (2408201), Nossa Senhora Aparecida - SE (2804458), Nossa Senhora da Glória - SE (2804508), Nossa Senhora das Dores - SE (2804607), Nossa Senhora de Lourdes - SE (2804706), Nossa Senhora do Socorro - SE (2804805), Nova Cruz - RN (2408300), Nova Floresta - PB (2510105), Nova Olinda - PB (2510204), Nova Palmeira - PB (2510303), Novo Lino - AL (2705606), Novo Triunfo - BA (2923050), Olho d'Água - PB (2510402), Olho d'Água das Flores - AL (2705705), Olho d'Água do Borges - RN (2408409), Olho d'Água do Casado - AL (2705804), Olho d'Água Grande - AL (2705903), Olinda - PE (2609600), Olivedos - PB (2510501), Olivença - AL (2706000), Orobó - PE (2609709), Orós - CE (2309508), Ouro Branco - AL (2706109), Ouro Branco - RN (2408508), Ouro Velho - PB (2510600), Pacatuba - SE (2804904), Palestina - AL (2706208), Palhano - CE (2310001), Palmares - PE (2610004), Palmeira dos Índios - AL (2706307), Palmeirina - PE (2610103), Panelas - PE (2610202), Pão de Açúcar - AL (2706406), Paraná - RN (2408607), Paranatama - PE (2610301), Parari - PB (2510659), Paraú - RN (2408706), Parazinho - RN (2408805), Parelhas - RN (2408904), Pariconha - AL (2706422), Paripiranga - BA (2923803), Paripueira - AL (2706448), Parnamirim - RN (2403251), Passa e Fica - RN (2409100), Passagem - PB (2510709), Passagem - RN (2409209), Passira - PE (2610509), Passo de Camaragibe - AL (2706505), Patos - PB (2510808), Patu - RN (2409308), Paudalho - PE (2610608), Pau dos Ferros - RN (2409407), Paulista - PB (2510907), Paulista - PE (2610707), Paulo Afonso - BA (2924009), Paulo Jacinto - AL (2706604), Pedra - PE (2610806), Pedra Branca - PB (2511004), Pedra Grande - RN (2409506), Pedra Lavrada - PB (2511103), Pedra Mole - SE (2805000), Pedra Preta - RN (2409605), Pedras de Fogo - PB (2511202), Pedrinhas - SE (2805109), Pedro Alexandre - BA (2924207), Pedro Avelino - RN (2409704), Pedro Régis - PB (2512721), Pedro Velho - RN (2409803), Pendências - RN (2409902), Penedo - AL (2706703), Pereiro - CE (2310803), Pesqueira - PE (2610905), Petrolândia - PE (2611002), Piaçabuçu - AL (2706802), Piancó - PB (2511301), Picuí - PB (2511400), Pilar - PB (2511509), Pilar - AL (2706901), Pilões - PB (2511608), Pilões - RN (2410009), Pilõezinhos - PB (2511707), Pindoba - AL (2707008), Pinhão - SE (2805208), Pirambu - SE (2805307), Piranhas - AL (2707107), Pirpirituba - PB (2511806), Pitimbu - PB (2511905), Poção - PE (2611200), Pocinhos - PB (2512002), Poço Branco - RN (2410108), Poço Dantas - PB (2512036), Poço das Trincheiras - AL (2707206), Poço de José de Moura - PB (2512077), Poço Redondo - SE (2805406), Poço Verde - SE (2805505), Pombal - PB (2512101), Pombos - PE (2611309), Portalegre - RN (2410207), Porto Calvo - AL (2707305), Porto da Folha - SE (2805604), Porto de Pedras - AL (2707404), Porto do Mangue - RN (2410256), Porto Real do Colégio - AL (2707503), Potiretama - CE (2311231), Prata - PB (2512200), Primavera - PE (2611408), Princesa Isabel - PB (2512309), Propriá - SE (2805703), Pureza - RN (2410405), Puxinanã - PB (2512408), Quebrangulo - AL (2707602), Queimadas - PB (2512507), Quipapá - PE (2611507), Quixaba - PB (2512606), Quixaba - PE (2611533), Quixadá - CE (2311306), Quixeré - CE (2311504), Rafael Fernandes - RN (2410504), Rafael Godeiro - RN (2410603), Recife - PE (2611606), Remígio - PB (2512705), Riachão - PB (2512747), Riachão do Bacamarte - PB (2512754), Riachão do Dantas - SE (2805802), Riachão do Poço - PB (2512762), Riacho da Cruz - RN (2410702), Riacho das Almas - PE (2611705), Riacho de Santana - RN (2410801), Riacho de Santo Antônio - PB (2512788), Riacho dos Cavalos - PB (2512804), Riachuelo - RN (2410900), Riachuelo - SE (2805901), Ribeira do Amparo - BA (2926509), Ribeirão - PE (2611804), Ribeirópolis - SE (2806008), Rio do Fogo - RN (2408953), Rio Formoso - PE (2611903), Rio Largo - AL (2707701), Rio Tinto - PB (2512903), Rodelas - BA (2927101), Rodolfo Fernandes - RN (2411007), Rosário do Catete - SE (2806107), Roteiro - AL (2707800), Russas - CE (2311801), Ruy Barbosa - RN (2411106), Sairé - PE (2612000), Salgadinho - PE (2612109), Salgadinho - PB (2513000), Salgado - SE (2806206), Salgado de São Félix - PB (2513109), Saloá - PE (2612307), Sanharó - PE (2612406), Santa Brígida - BA (2927606), Santa Cecília - PB (2513158), Santa Cruz - RN (2411205), Santa Cruz - PB (2513208), Santa Cruz da Baixa Verde - PE (2612471), Santa Cruz do Capibaribe - PE (2612505), Santa Helena - PB (2513307), Santa Inês - PB (2513356), Santa Luzia - PB (2513406), Santa Luzia do Itanhy - SE (2806305), Santa Luzia do Norte - AL (2707909), Santa Maria - RN (2409332), Santa Maria do Cambucá - PE (2612703), Santana de Mangueira - PB (2513505), Santana do Ipanema - AL (2708006), Santana do Matos - RN (2411403), Santana do Mundaú - AL (2708105), Santana do São Francisco - SE (2806404), Santana do Seridó - RN (2411429), Santana dos Garrotes - PB (2513604), Santa Rita - PB (2513703), Santa Rosa de Lima - SE (2806503), Santa Teresinha - PB (2513802), Santa Terezinha - PE (2612802), Santo Amaro das Brotas - SE (2806602), Santo André - PB (2513851), Santo Antônio - RN (2411502), São Benedito do Sul - PE (2612901), São Bentinho - PB (2513927), São Bento - PB (2513901), São Bento do Norte - RN (2411601), São Bento do Trairí - RN (2411700), São Bento do Una - PE (2613008), São Brás - AL (2708204), São Caitano - PE (2613107), São Cristóvão - SE (2806701), São Domingos - PB (2513968), São Domingos - SE (2806800), São Domingos do Cariri - PB (2513943), São Fernando - RN (2411809), São Francisco - PB (2513984), São Francisco - SE (2806909), São Francisco do Oeste - RN (2411908), São Gonçalo do Amarante - RN (2412005), São João - PE (2613206), São João do Cariri - PB (2514008), São João do Jaguaribe - CE (2312502), São João do Rio do Peixe - PB (2500700), São João do Sabugi - RN (2412104), São João do Tigre - PB (2514107), São Joaquim do Monte - PE (2613305), São José da Coroa Grande - PE (2613404), São José da Lagoa Tapada - PB (2514206), São José da Laje - AL (2708303), São José da Tapera - AL (2708402), São José de Caiana - PB (2514305), São José de Espinharas - PB (2514404), São José de Mipibu - RN (2412203), São José de Piranhas - PB (2514503), São José de Princesa - PB (2514552), São José do Belmonte - PE (2613503), São José do Bonfim - PB (2514602), São José do Brejo do Cruz - PB (2514651), São José do Campestre - RN (2412302), São José do Egito - PE (2613602), São José do Sabugi - PB (2514701), São José dos Cordeiros - PB (2514800), São José do Seridó - RN (2412401), São José dos Ramos - PB (2514453), São Lourenço da Mata - PE (2613701), São Luís do Quitunde - AL (2708501), São Mamede - PB (2514909), São Miguel - RN (2412500), São Miguel de Taipu - PB (2515005), São Miguel do Aleixo - SE (2807006), São Miguel do Gostoso - RN (2412559), São Miguel dos Campos - AL (2708600), São Miguel dos Milagres - AL (2708709), São Paulo do Potengi - RN (2412609), São Pedro - RN (2412708), São Rafael - RN (2412807), São Sebastião - AL (2708808), São Sebastião de Lagoa de Roça - PB (2515104), São Sebastião do Umbuzeiro - PB (2515203), São Tomé - RN (2412906), São Vicente - RN (2413003), São Vicente do Seridó - PB (2515401), São Vicente Férrer - PE (2613800), Sapé - PB (2515302), Satuba - AL (2708907), Senador Elói de Souza - RN (2413102), Senador Georgino Avelino - RN (2413201), Senador Rui Palmeira - AL (2708956), Serra Branca - PB (2515500), Serra Caiada - RN (2410306), Serra da Raiz - PB (2515609), Serra de São Bento - RN (2413300), Serra do Mel - RN (2413359), Serra Grande - PB (2515708), Serra Negra do Norte - RN (2413409), Serra Redonda - PB (2515807), Serraria - PB (2515906), Serra Talhada - PE (2613909), Serrinha - RN (2413508), Serrinha dos Pintos - RN (2413557), Sertânia - PE (2614105), Sertãozinho - PB (2515930), Severiano Melo - RN (2413607), Simão Dias - SE (2807105), Sirinhaém - PE (2614204), Siriri - SE (2807204), Sítio do Quinto - BA (2930766), Sítio Novo - RN (2413706), Sobrado - PB (2515971), Solânea - PB (2516003), Soledade - PB (2516102), Solidão - PE (2614402), Solonópole - CE (2313005), Sossêgo - PB (2516151), Sousa - PB (2516201), Sumé - PB (2516300), Surubim - PE (2614501), Tabira - PE (2614600), Taboleiro Grande - RN (2413805), Tabuleiro do Norte - CE (2313104), Tacaimbó - PE (2614709), Tacaratu - PE (2614808), Tacima - PB (2516409), Taipu - RN (2413904), Tamandaré - PE (2614857), Tangará - RN (2414001), Tanque d'Arca - AL (2709004), Taperoá - PB (2516508), Taquarana - AL (2709103), Taquaritinga do Norte - PE (2615003), Tavares - PB (2516607), Teixeira - PB (2516706), Telha - SE (2807303), Tenente Ananias - RN (2414100), Tenente Laurentino Cruz - RN (2414159), Tenório - PB (2516755), Teotônio Vilela - AL (2709152), Terezinha - PE (2615102), Tibau - RN (2411056), Tibau do Sul - RN (2414209), Timbaúba - PE (2615300), Timbaúba dos Batistas - RN (2414308), Tobias Barreto - SE (2807402), Tomar do Geru - SE (2807501), Toritama - PE (2615409), Touros - RN (2414407), Tracunhaém - PE (2615508), Traipu - AL (2709202), Triunfo - PE (2615706), Triunfo - PB (2516805), Triunfo Potiguar - RN (2414456), Tupanatinga - PE (2615805), Tuparetama - PE (2615904), Uiraúna - PB (2516904), Umari - CE (2313708), Umarizal - RN (2414506), Umbaúba - SE (2807600), Umbuzeiro - PB (2517001), União dos Palmares - AL (2709301), Upanema - RN (2414605), Várzea - PB (2517100), Várzea - RN (2414704), Venha-Ver - RN (2414753), Venturosa - PE (2616001), Vera Cruz - RN (2414803), Vertente do Lério - PE (2616183), Vertentes - PE (2616209), Vicência - PE (2616308), Viçosa - RN (2414902), Viçosa - AL (2709400), Vieirópolis - PB (2517209), Vila Flor - RN (2415008), Vista Serrana - PB (2505501), Vitória de Santo Antão - PE (2616407), Xexéu - PE (2616506), Zabelê - PB (2517407)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Metropolitana de Recife, Central Potiguar, Oeste Potiguar, Nordeste Baiano, Sertão Pernambucano, Agreste Pernambucano, Sertão Alagoano, Sertão Paraibano, Mata Pernambucana, Agreste Paraibano, Borborema, Mata Paraibana, Jaguaribe, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Agreste Alagoano, Leste Potiguar, Sul Cearense, Centro-Sul Cearense, Sertões Cearenses, Agreste Potiguar, Norte Cearense, São Francisco Pernambucano, Sertão Sergipano, Vale São-Franciscano da Bahia",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-4.379275,-37.75177 -4.565474,-38.325806 -5.047171,-38.737793 -5.856475,-38.891602 -6.80099,-38.891602 -9.102097,-38.605957 -10.827911,-38.276367 -11.27,-38.062134 -11.598432,-37.584229 -11.383109,-37.22168 -10.120302,-36.013184 -9.346092,-35.299072 -8.738507,-35.013428 -7.953157,-34.752502 -7.06546,-34.744263 -6.263428,-34.93103 -5.725311,-35.183716 -5.424617,-35.235901 -5.255068,-35.315552 -5.104623,-35.450134 -5.025283,-35.678101 -5.008867,-35.933533 -5.071794,-36.24939 -4.863838,-36.99646 -4.379275,-37.75177"
       },
       "geometry": {
         "type": "Polygon",
@@ -312,6 +320,802 @@
             [
               -37.75177,
               -4.379275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-06-26T00:00:00-03:00",
+        "expires": "2026-06-26T23:59:00-03:00",
+        "sent": "2026-06-25T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54744",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54744",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54744",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27641.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Abaiara - CE (2300101), Abaré - BA (2900207), Abreu e Lima - PE (2600054), Acajutiba - BA (2900306), Acarape - CE (2300150), Acari - RN (2400109), Acopiara - CE (2300309), Açu - RN (2400208), Adustina - BA (2900355), Afogados da Ingazeira - PE (2600104), Afonso Bezerra - RN (2400307), Agrestina - PE (2600302), Água Branca - AL (2700102), Água Branca - PB (2500106), Água Fria - BA (2900405), Água Nova - RN (2400406), Água Preta - PE (2600401), Águas Belas - PE (2600500), Aguiar - PB (2500205), Alagoa Grande - PB (2500304), Alagoa Nova - PB (2500403), Alagoinha - PB (2500502), Alagoinha - PE (2600609), Alagoinhas - BA (2900702), Alcantil - PB (2500536), Alexandria - RN (2400505), Algodão de Jandaíra - PB (2500577), Alhandra - PB (2500601), Aliança - PE (2600708), Almino Afonso - RN (2400604), Altaneira - CE (2300606), Altinho - PE (2600807), Alto do Rodrigues - RN (2400703), Alto Santo - CE (2300705), Amaraji - PE (2600906), Amargosa - BA (2901007), Amélia Rodrigues - BA (2901106), Amparo - PB (2500734), Amparo de São Francisco - SE (2800100), Anadia - AL (2700201), Andorinha - BA (2901353), Angelim - PE (2601003), Angicos - RN (2400802), Anguera - BA (2901502), Antas - BA (2901601), Antonina do Norte - CE (2300804), Antônio Cardoso - BA (2901700), Antônio Martins - RN (2400901), Aparecida - PB (2500775), Apodi - RN (2401008), Aporá - BA (2901908), Aquidabã - SE (2800209), Aquiraz - CE (2301000), Araçagi - PB (2500809), Aracaju - SE (2800308), Araçás - BA (2902054), Aracati - CE (2301109), Araci - BA (2902104), Aracoiaba - CE (2301208), Araçoiaba - PE (2601052), Aramari - BA (2902203), Arapiraca - AL (2700300), Arara - PB (2500908), Araripe - CE (2301307), Araruna - PB (2501005), Aratuba - CE (2301406), Aratuípe - BA (2902302), Arauá - SE (2800407), Arcoverde - PE (2601201), Areia - PB (2501104), Areia Branca - SE (2800506), Areia Branca - RN (2401107), Areia de Baraúnas - PB (2501153), Areial - PB (2501203), Arês - RN (2401206), Aroeiras - PB (2501302), Assaré - CE (2301604), Assunção - PB (2501351), Atalaia - AL (2700409), Augusto Severo - RN (2401305), Aurora - CE (2301703), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Baixio - CE (2301802), Banabuiú - CE (2301851), Bananeiras - PB (2501500), Banzaê - BA (2902658), Baraúna - RN (2401453), Baraúna - PB (2501534), Barbalha - CE (2301901), Barcelona - RN (2401503), Barra de Guabiraba - PE (2601300), Barra de Santana - PB (2501575), Barra de Santa Rosa - PB (2501609), Barra de Santo Antônio - AL (2700508), Barra de São Miguel - PB (2501708), Barra de São Miguel - AL (2700607), Barra dos Coqueiros - SE (2800605), Barreira - CE (2301950), Barreiros - PE (2601409), Barro - CE (2302008), Barrocas - BA (2903276), Batalha - AL (2700706), Baturité - CE (2302107), Bayeux - PB (2501807), Beberibe - CE (2302206), Belém - PB (2501906), Belém - AL (2700805), Belém de Maria - PE (2601508), Belém do Brejo do Cruz - PB (2502003), Belém do São Francisco - PE (2601607), Belo Jardim - PE (2601706), Belo Monte - AL (2700904), Bento Fernandes - RN (2401602), Bernardino Batista - PB (2502052), Betânia - PE (2601805), Bezerros - PE (2601904), Biritinga - BA (2903607), Boa Ventura - PB (2502102), Boa Viagem - CE (2302404), Boa Vista - PB (2502151), Boca da Mata - AL (2701001), Bodó - RN (2401651), Bodocó - PE (2602001), Bom Conselho - PE (2602100), Bom Jardim - PE (2602209), Bom Jesus - RN (2401701), Bom Jesus - PB (2502201), Bom Sucesso - PB (2502300), Bonito - PE (2602308), Bonito de Santa Fé - PB (2502409), Boqueirão - PB (2502508), Boquim - SE (2800670), Borborema - PB (2502706), Branquinha - AL (2701100), Brejão - PE (2602407), Brejinho - RN (2401800), Brejinho - PE (2602506), Brejo da Madre de Deus - PE (2602605), Brejo do Cruz - PB (2502805), Brejo dos Santos - PB (2502904), Brejões - BA (2904308), Brejo Grande - SE (2800704), Brejo Santo - CE (2302503), Buenos Aires - PE (2602704), Buíque - PE (2602803), Caaporã - PB (2503001), Cabaceiras - PB (2503100), Cabaceiras do Paraguaçu - BA (2904852), Cabedelo - PB (2503209), Cabo de Santo Agostinho - PE (2602902), Cabrobó - PE (2603009), Cachoeira - BA (2904902), Cachoeira dos Índios - PB (2503308), Cachoeirinha - PE (2603108), Cacimba de Areia - PB (2503407), Cacimba de Dentro - PB (2503506), Cacimbas - PB (2503555), Cacimbinhas - AL (2701209), Caetés - PE (2603207), Caiçara - PB (2503605), Caiçara do Norte - RN (2401859), Caiçara do Rio do Vento - RN (2401909), Caicó - RN (2402006), Cairu - BA (2905404), Cajazeiras - PB (2503704), Cajazeirinhas - PB (2503753), Cajueiro - AL (2701308), Calçado - PE (2603306), Caldas Brandão - PB (2503803), Calumbi - PE (2603405), Camaçari - BA (2905701), Camalaú - PB (2503902), Camamu - BA (2905800), Camaragibe - PE (2603454), Camocim de São Félix - PE (2603504), Campestre - AL (2701357), Campina Grande - PB (2504009), Campo Alegre - AL (2701407), Campo do Brito - SE (2801009), Campo Grande - AL (2701506), Campo Redondo - RN (2402105), Camutanga - PE (2603603), Canapi - AL (2701605), Candeal - BA (2906402), Candeias - BA (2906501), Canguaretama - RN (2402204), Canhoba - SE (2801108), Canhotinho - PE (2603702), Canindé - CE (2302800), Canindé de São Francisco - SE (2801207), Cansanção - BA (2906808), Canudos - BA (2906824), Capela - SE (2801306), Capela - AL (2701704), Capela do Alto Alegre - BA (2906857), Capim - PB (2504033), Capim Grosso - BA (2906873), Capistrano - CE (2302909), Capoeiras - PE (2603801), Caraúbas - RN (2402303), Caraúbas - PB (2504074), Cardeal da Silva - BA (2907004), Caridade - CE (2303006), Carira - SE (2801405), Caririaçu - CE (2303204), Cariús - CE (2303303), Carmópolis - SE (2801504), Carnaíba - PE (2603900), Carnaúba dos Dantas - RN (2402402), Carnaubais - RN (2402501), Carnaubeira da Penha - PE (2603926), Carneiros - AL (2701803), Carpina - PE (2604007), Carrapateira - PB (2504108), Caruaru - PE (2604106), Cascavel - CE (2303501), Casinhas - PE (2604155), Casserengue - PB (2504157), Castro Alves - BA (2907301), Catarina - CE (2303600), Catende - PE (2604205), Catingueira - PB (2504207), Catolé do Rocha - PB (2504306), Catu - BA (2907509), Caturité - PB (2504355), Caucaia - CE (2303709), Ceará-Mirim - RN (2402600), Cedro - CE (2303808), Cedro - PE (2604304), Cedro de São João - SE (2801603), Cerro Corá - RN (2402709), Chã de Alegria - PE (2604403), Chã Grande - PE (2604502), Chã Preta - AL (2701902), Choró - CE (2303931), Chorozinho - CE (2303956), Chorrochó - BA (2907707), Cícero Dantas - BA (2907806), Cipó - BA (2907905), Coité do Nóia - AL (2702009), Colônia Leopoldina - AL (2702108), Conceição - PB (2504405), Conceição da Feira - BA (2908200), Conceição do Almeida - BA (2908309), Conceição do Coité - BA (2908408), Conceição do Jacuípe - BA (2908507), Condado - PB (2504504), Condado - PE (2604601), Conde - BA (2908606), Conde - PB (2504603), Congo - PB (2504702), Coqueiro Seco - AL (2702207), Coração de Maria - BA (2908903), Coremas - PB (2504801), Coronel Ezequiel - RN (2402808), Coronel João Pessoa - RN (2402907), Coronel João Sá - BA (2909208), Correntes - PE (2604700), Cortês - PE (2604809), Coruripe - AL (2702306), Coxixola - PB (2504850), Craíbas - AL (2702355), Crato - CE (2304202), Crisópolis - BA (2909604), Cristinápolis - SE (2801702), Cruz das Almas - BA (2909802), Cruz do Espírito Santo - PB (2504900), Cruzeta - RN (2403004), Cubati - PB (2505006), Cuité - PB (2505105), Cuité de Mamanguape - PB (2505238), Cuitegi - PB (2505204), Cumaru - PE (2604908), Cumbe - SE (2801900), Cupira - PE (2605004), Curaçá - BA (2909901), Currais Novos - RN (2403103), Curral de Cima - PB (2505279), Curral Velho - PB (2505303), Custódia - PE (2605103), Damião - PB (2505352), Delmiro Gouveia - AL (2702405), Deputado Irapuan Pinheiro - CE (2304269), Desterro - PB (2505402), Diamante - PB (2505600), Dias d'Ávila - BA (2910057), Divina Pastora - SE (2802007), Dois Riachos - AL (2702504), Dom Macedo Costa - BA (2910206), Dona Inês - PB (2505709), Doutor Severiano - RN (2403202), Duas Estradas - PB (2505808), Elísio Medrado - BA (2910305), Emas - PB (2505907), Encanto - RN (2403301), Entre Rios - BA (2910503), Equador - RN (2403400), Ererê - CE (2304277), Escada - PE (2605202), Esperança - PB (2506004), Espírito Santo - RN (2403509), Esplanada - BA (2910602), Estância - SE (2802106), Estrela de Alagoas - AL (2702553), Euclides da Cunha - BA (2910701), Eusébio - CE (2304285), Extremoz - RN (2403608), Exu - PE (2605301), Fagundes - PB (2506103), Farias Brito - CE (2304301), Fátima - BA (2910750), Feira de Santana - BA (2910800), Feira Grande - AL (2702603), Feira Nova - PE (2605400), Feira Nova - SE (2802205), Felipe Guerra - RN (2403707), Feliz Deserto - AL (2702702), Fernando Pedroza - RN (2403756), Ferreiros - PE (2605509), Flexeiras - AL (2702801), Florânia - RN (2403806), Flores - PE (2605608), Floresta - PE (2605707), Fortaleza - CE (2304400), Fortim - CE (2304459), Francisco Dantas - RN (2403905), Frei Martinho - PB (2506202), Frei Miguelinho - PE (2605806), Frei Paulo - SE (2802304), Frutuoso Gomes - RN (2404002), Gado Bravo - PB (2506251), Galinhos - RN (2404101), Gameleira - PE (2605905), Gandu - BA (2911204), Garanhuns - PE (2606002), Gararu - SE (2802403), Gavião - BA (2911253), General Maynard - SE (2802502), Girau do Ponciano - AL (2702900), Glória - BA (2911402), Glória do Goitá - PE (2606101), Goiana - PE (2606200), Goianinha - RN (2404200), Governador Dix-Sept Rosado - RN (2404309), Governador Mangabeira - BA (2911600), Gracho Cardoso - SE (2802601), Granito - PE (2606309), Granjeiro - CE (2304806), Gravatá - PE (2606408), Grossos - RN (2404408), Guaiúba - CE (2304954), Guamaré - RN (2404507), Guarabira - PB (2506301), Guaramiranga - CE (2305100), Gurinhém - PB (2506400), Gurjão - PB (2506509), Heliópolis - BA (2911857), Horizonte - CE (2305233), Iaçu - BA (2911907), Iati - PE (2606507), Ibaretama - CE (2305266), Ibateguara - AL (2703007), Ibiara - PB (2506608), Ibicuitinga - CE (2305332), Ibimirim - PE (2606606), Ibirajuba - PE (2606705), Icapuí - CE (2305357), Ichu - BA (2913309), Icó - CE (2305407), Ielmo Marinho - RN (2404606), Igaci - AL (2703106), Igaracy - PB (2502607), Igarassu - PE (2606804), Igrapiúna - BA (2913457), Igreja Nova - AL (2703205), Iguaracy - PE (2606903), Iguatu - CE (2305506), Ilha das Flores - SE (2802700), Ilha de Itamaracá - PE (2607604), Imaculada - PB (2506707), Inajá - PE (2607000), Indiaroba - SE (2802809), Ingá - PB (2506806), Ingazeira - PE (2607109), Inhambupe - BA (2913705), Inhapi - AL (2703304), Ipanguaçu - RN (2404705), Ipaumirim - CE (2305704), Ipecaetá - BA (2913804), Ipirá - BA (2914000), Ipojuca - PE (2607208), Ipueira - RN (2404804), Iracema - CE (2306009), Irará - BA (2914505), Itabaiana - PB (2506905), Itabaiana - SE (2802908), Itabaianinha - SE (2803005), Itabi - SE (2803104), Itacuruba - PE (2607406), Itaíba - PE (2607505), Itaiçaba - CE (2306207), Itaitinga - CE (2306256), Itajá - RN (2404853), Itambé - PE (2607653), Itanagra - BA (2915908), Itaparica - BA (2916104), Itapetim - PE (2607703), Itapicuru - BA (2916500), Itapissuma - PE (2607752), Itapiúna - CE (2306504), Itaporanga - PB (2507002), Itaporanga d'Ajuda - SE (2803203), Itapororoca - PB (2507101), Itaquitinga - PE (2607802), Itatim - BA (2916856), Itatira - CE (2306603), Itatuba - PB (2507200), Itaú - RN (2404903), Itiúba - BA (2917003), Ituberá - BA (2917300), Jaboatão dos Guararapes - PE (2607901), Jaçanã - RN (2405009), Jacaraú - PB (2507309), Jacaré dos Homens - AL (2703403), Jacuípe - AL (2703502), Jaguarari - BA (2917706), Jaguaretama - CE (2306702), Jaguaribara - CE (2306801), Jaguaribe - CE (2306900), Jaguaripe - BA (2917805), Jaguaruana - CE (2307007), Jandaíra - BA (2917904), Jandaíra - RN (2405108), Janduís - RN (2405207), Januário Cicco - RN (2405306), Japaratinga - AL (2703601), Japaratuba - SE (2803302), Japi - RN (2405405), Japoatã - SE (2803401), Jaqueira - PE (2607950), Jaramataia - AL (2703700), Jardim - CE (2307106), Jardim de Angicos - RN (2405504), Jardim de Piranhas - RN (2405603), Jardim do Seridó - RN (2405702), Jataúba - PE (2608008), Jati - CE (2307205), Jatobá - PE (2608057), Jequiá da Praia - AL (2703759), Jeremoabo - BA (2918100), Jericó - PB (2507408), Jiquiriçá - BA (2918209), João Alfredo - PE (2608107), João Câmara - RN (2405801), João Dias - RN (2405900), João Pessoa - PB (2507507), Joaquim Gomes - AL (2703809), Joaquim Nabuco - PE (2608206), Joca Claudino - PB (2513653), José da Penha - RN (2406007), Juarez Távora - PB (2507606), Juazeirinho - PB (2507705), Juazeiro - BA (2918407), Juazeiro do Norte - CE (2307304), Jucás - CE (2307403), Jucati - PE (2608255), Jucurutu - RN (2406106), Junco do Seridó - PB (2507804), Jundiá - RN (2406155), Jundiá - AL (2703908), Junqueiro - AL (2704005), Jupi - PE (2608305), Jurema - PE (2608404), Juripiranga - PB (2507903), Juru - PB (2508000), Lagarto - SE (2803500), Lagoa - PB (2508109), Lagoa da Canoa - AL (2704104), Lagoa d'Anta - RN (2406205), Lagoa de Dentro - PB (2508208), Lagoa de Itaenga - PE (2608503), Lagoa de Pedras - RN (2406304), Lagoa de Velhos - RN (2406403), Lagoa do Carro - PE (2608453), Lagoa do Ouro - PE (2608602), Lagoa dos Gatos - PE (2608701), Lagoa Grande - PE (2608750), Lagoa Nova - RN (2406502), Lagoa Salgada - RN (2406601), Lagoa Seca - PB (2508307), Laje - BA (2918803), Lajedo - PE (2608800), Lajes - RN (2406700), Lajes Pintadas - RN (2406809), Lamarão - BA (2919108), Laranjeiras - SE (2803609), Lastro - PB (2508406), Lauro de Freitas - BA (2919207), Lavras da Mangabeira - CE (2307502), Limoeiro - PE (2608909), Limoeiro de Anadia - AL (2704203), Limoeiro do Norte - CE (2307601), Livramento - PB (2508505), Logradouro - PB (2508554), Lucena - PB (2508604), Lucrécia - RN (2406908), Luís Gomes - RN (2407005), Macaíba - RN (2407104), Macambira - SE (2803708), Macaparana - PE (2609006), Macau - RN (2407203), Maceió - AL (2704302), Machados - PE (2609105), Macururé - BA (2919900), Madalena - CE (2307635), Madre de Deus - BA (2919926), Mãe d'Água - PB (2508703), Mairi - BA (2920106), Major Isidoro - AL (2704401), Major Sales - RN (2407252), Malhada dos Bois - SE (2803807), Malhador - SE (2803906), Malta - PB (2508802), Mamanguape - PB (2508901), Manaíra - PB (2509008), Manari - PE (2609154), Maracanaú - CE (2307650), Maragogi - AL (2704500), Maragogipe - BA (2920601), Maraial - PE (2609204), Maranguape - CE (2307700), Maraú - BA (2920700), Maravilha - AL (2704609), Marcação - PB (2509057), Marcelino Vieira - RN (2407302), Marechal Deodoro - AL (2704708), Mari - PB (2509107), Maribondo - AL (2704807), Marizópolis - PB (2509156), Martins - RN (2407401), Maruim - SE (2804003), Mar Vermelho - AL (2704906), Massaranduba - PB (2509206), Mata de São João - BA (2921005), Mata Grande - AL (2705002), Mataraca - PB (2509305), Matinhas - PB (2509339), Mato Grosso - PB (2509370), Matriz de Camaragibe - AL (2705101), Maturéia - PB (2509396), Mauriti - CE (2308104), Maxaranguape - RN (2407500), Messias - AL (2705200), Messias Targino - RN (2407609), Milagres - BA (2921302), Milagres - CE (2308302), Milhã - CE (2308351), Minador do Negrão - AL (2705309), Mirandiba - PE (2609303), Missão Velha - CE (2308401), Mogeiro - PB (2509404), Moita Bonita - SE (2804102), Mombaça - CE (2308500), Montadas - PB (2509503), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Monte Alegre de Sergipe - SE (2804201), Monte das Gameleiras - RN (2407906), Monte Horebe - PB (2509602), Monteiro - PB (2509701), Monteirópolis - AL (2705408), Monte Santo - BA (2921500), Morada Nova - CE (2308708), Moreilândia - PE (2614303), Moreno - PE (2609402), Mossoró - RN (2408003), Mulungu - CE (2309102), Mulungu - PB (2509800), Muniz Ferreira - BA (2922201), Muribeca - SE (2804300), Murici - AL (2705507), Muritiba - BA (2922300), Mutuípe - BA (2922409), Natal - RN (2408102), Natuba - PB (2509909), Nazaré - BA (2922508), Nazaré da Mata - PE (2609501), Nazarezinho - PB (2510006), Neópolis - SE (2804409), Nilo Peçanha - BA (2922607), Nísia Floresta - RN (2408201), Nordestina - BA (2922656), Nossa Senhora Aparecida - SE (2804458), Nossa Senhora da Glória - SE (2804508), Nossa Senhora das Dores - SE (2804607), Nossa Senhora de Lourdes - SE (2804706), Nossa Senhora do Socorro - SE (2804805), Nova Cruz - RN (2408300), Nova Fátima - BA (2922730), Nova Floresta - PB (2510105), Nova Olinda - CE (2309201), Nova Olinda - PB (2510204), Nova Palmeira - PB (2510303), Nova Soure - BA (2922904), Novo Lino - AL (2705606), Novo Triunfo - BA (2923050), Ocara - CE (2309458), Olho d'Água - PB (2510402), Olho d'Água das Flores - AL (2705705), Olho d'Água do Borges - RN (2408409), Olho d'Água do Casado - AL (2705804), Olho d'Água Grande - AL (2705903), Olinda - PE (2609600), Olindina - BA (2923100), Olivedos - PB (2510501), Olivença - AL (2706000), Orobó - PE (2609709), Orocó - PE (2609808), Orós - CE (2309508), Ouriçangas - BA (2923308), Ouricuri - PE (2609907), Ouro Branco - AL (2706109), Ouro Branco - RN (2408508), Ouro Velho - PB (2510600), Pacajus - CE (2309607), Pacatuba - SE (2804904), Pacatuba - CE (2309706), Pacoti - CE (2309805), Palestina - AL (2706208), Palhano - CE (2310001), Palmácia - CE (2310100), Palmares - PE (2610004), Palmeira dos Índios - AL (2706307), Palmeirina - PE (2610103), Panelas - PE (2610202), Pão de Açúcar - AL (2706406), Paraná - RN (2408607), Paranatama - PE (2610301), Parari - PB (2510659), Paraú - RN (2408706), Parazinho - RN (2408805), Parelhas - RN (2408904), Pariconha - AL (2706422), Paripiranga - BA (2923803), Paripueira - AL (2706448), Parnamirim - PE (2610400), Parnamirim - RN (2403251), Passa e Fica - RN (2409100), Passagem - PB (2510709), Passagem - RN (2409209), Passira - PE (2610509), Passo de Camaragibe - AL (2706505), Patos - PB (2510808), Patu - RN (2409308), Paudalho - PE (2610608), Pau dos Ferros - RN (2409407), Paulista - PB (2510907), Paulista - PE (2610707), Paulo Afonso - BA (2924009), Paulo Jacinto - AL (2706604), Pé de Serra - BA (2924058), Pedra - PE (2610806), Pedra Branca - PB (2511004), Pedra Branca - CE (2310506), Pedra Grande - RN (2409506), Pedra Lavrada - PB (2511103), Pedra Mole - SE (2805000), Pedrão - BA (2924108), Pedra Preta - RN (2409605), Pedras de Fogo - PB (2511202), Pedrinhas - SE (2805109), Pedro Alexandre - BA (2924207), Pedro Avelino - RN (2409704), Pedro Régis - PB (2512721), Pedro Velho - RN (2409803), Penaforte - CE (2310605), Pendências - RN (2409902), Penedo - AL (2706703), Pentecoste - CE (2310704), Pereiro - CE (2310803), Pesqueira - PE (2610905), Petrolândia - PE (2611002), Piaçabuçu - AL (2706802), Piancó - PB (2511301), Picuí - PB (2511400), Pilar - PB (2511509), Pilar - AL (2706901), Pilões - PB (2511608), Pilões - RN (2410009), Pilõezinhos - PB (2511707), Pindoba - AL (2707008), Pindoretama - CE (2310852), Pinhão - SE (2805208), Pintadas - BA (2924652), Piquet Carneiro - CE (2310902), Piraí do Norte - BA (2924678), Pirambu - SE (2805307), Piranhas - AL (2707107), Pirpirituba - PB (2511806), Pitimbu - PB (2511905), Poção - PE (2611200), Pocinhos - PB (2512002), Poço Branco - RN (2410108), Poço Dantas - PB (2512036), Poço das Trincheiras - AL (2707206), Poço de José de Moura - PB (2512077), Poço Redondo - SE (2805406), Poço Verde - SE (2805505), Pojuca - BA (2925204), Pombal - PB (2512101), Pombos - PE (2611309), Portalegre - RN (2410207), Porteiras - CE (2311108), Porto Calvo - AL (2707305), Porto da Folha - SE (2805604), Porto de Pedras - AL (2707404), Porto do Mangue - RN (2410256), Porto Real do Colégio - AL (2707503), Potengi - CE (2311207), Potiretama - CE (2311231), Prata - PB (2512200), Presidente Tancredo Neves - BA (2925758), Primavera - PE (2611408), Princesa Isabel - PB (2512309), Propriá - SE (2805703), Pureza - RN (2410405), Puxinanã - PB (2512408), Quebrangulo - AL (2707602), Queimadas - BA (2925808), Queimadas - PB (2512507), Quijingue - BA (2925907), Quipapá - PE (2611507), Quixaba - PB (2512606), Quixaba - PE (2611533), Quixadá - CE (2311306), Quixelô - CE (2311355), Quixeramobim - CE (2311405), Quixeré - CE (2311504), Rafael Fernandes - RN (2410504), Rafael Godeiro - RN (2410603), Rafael Jambeiro - BA (2925956), Recife - PE (2611606), Redenção - CE (2311603), Remígio - PB (2512705), Retirolândia - BA (2926103), Riachão - PB (2512747), Riachão do Bacamarte - PB (2512754), Riachão do Dantas - SE (2805802), Riachão do Jacuípe - BA (2926301), Riachão do Poço - PB (2512762), Riacho da Cruz - RN (2410702), Riacho das Almas - PE (2611705), Riacho de Santana - RN (2410801), Riacho de Santo Antônio - PB (2512788), Riacho dos Cavalos - PB (2512804), Riachuelo - RN (2410900), Riachuelo - SE (2805901), Ribeira do Amparo - BA (2926509), Ribeira do Pombal - BA (2926608), Ribeirão - PE (2611804), Ribeirópolis - SE (2806008), Rio do Fogo - RN (2408953), Rio Formoso - PE (2611903), Rio Largo - AL (2707701), Rio Real - BA (2927002), Rio Tinto - PB (2512903), Rodelas - BA (2927101), Rodolfo Fernandes - RN (2411007), Rosário do Catete - SE (2806107), Roteiro - AL (2707800), Russas - CE (2311801), Ruy Barbosa - RN (2411106), Saboeiro - CE (2311900), Sairé - PE (2612000), Salgadinho - PE (2612109), Salgadinho - PB (2513000), Salgado - SE (2806206), Salgado de São Félix - PB (2513109), Salgueiro - PE (2612208), Salinas da Margarida - BA (2927309), Saloá - PE (2612307), Salvador - BA (2927408), Sanharó - PE (2612406), Santa Bárbara - BA (2927507), Santa Brígida - BA (2927606), Santa Cecília - PB (2513158), Santa Cruz - RN (2411205), Santa Cruz - PB (2513208), Santa Cruz - PE (2612455), Santa Cruz da Baixa Verde - PE (2612471), Santa Cruz do Capibaribe - PE (2612505), Santa Helena - PB (2513307), Santa Inês - PB (2513356), Santaluz - BA (2928000), Santa Luzia - PB (2513406), Santa Luzia do Itanhy - SE (2806305), Santa Luzia do Norte - AL (2707909), Santa Maria - RN (2409332), Santa Maria da Boa Vista - PE (2612604), Santa Maria do Cambucá - PE (2612703), Santana de Mangueira - PB (2513505), Santana do Cariri - CE (2312106), Santana do Ipanema - AL (2708006), Santana do Matos - RN (2411403), Santana do Mundaú - AL (2708105), Santana do São Francisco - SE (2806404), Santana do Seridó - RN (2411429), Santana dos Garrotes - PB (2513604), Santanópolis - BA (2928307), Santa Rita - PB (2513703), Santa Rosa de Lima - SE (2806503), Santa Teresinha - PB (2513802), Santa Terezinha - BA (2928505), Santa Terezinha - PE (2612802), Santo Amaro - BA (2928604), Santo Amaro das Brotas - SE (2806602), Santo André - PB (2513851), Santo Antônio - RN (2411502), Santo Antônio de Jesus - BA (2928703), Santo Estêvão - BA (2928802), São Benedito do Sul - PE (2612901), São Bentinho - PB (2513927), São Bento - PB (2513901), São Bento do Norte - RN (2411601), São Bento do Trairí - RN (2411700), São Bento do Una - PE (2613008), São Brás - AL (2708204), São Caitano - PE (2613107), São Cristóvão - SE (2806701), São Domingos - PB (2513968), São Domingos - BA (2928950), São Domingos - SE (2806800), São Domingos do Cariri - PB (2513943), São Felipe - BA (2929107), São Félix - BA (2929008), São Fernando - RN (2411809), São Francisco - PB (2513984), São Francisco - SE (2806909), São Francisco do Conde - BA (2929206), São Francisco do Oeste - RN (2411908), São Gonçalo do Amarante - RN (2412005), São Gonçalo dos Campos - BA (2929305), São João - PE (2613206), São João do Cariri - PB (2514008), São João do Jaguaribe - CE (2312502), São João do Rio do Peixe - PB (2500700), São João do Sabugi - RN (2412104), São João do Tigre - PB (2514107), São Joaquim do Monte - PE (2613305), São José da Coroa Grande - PE (2613404), São José da Lagoa Tapada - PB (2514206), São José da Laje - AL (2708303), São José da Tapera - AL (2708402), São José de Caiana - PB (2514305), São José de Espinharas - PB (2514404), São José de Mipibu - RN (2412203), São José de Piranhas - PB (2514503), São José de Princesa - PB (2514552), São José do Belmonte - PE (2613503), São José do Bonfim - PB (2514602), São José do Brejo do Cruz - PB (2514651), São José do Campestre - RN (2412302), São José do Egito - PE (2613602), São José do Jacuípe - BA (2929370), São José do Sabugi - PB (2514701), São José dos Cordeiros - PB (2514800), São José do Seridó - RN (2412401), São José dos Ramos - PB (2514453), São Lourenço da Mata - PE (2613701), São Luís do Quitunde - AL (2708501), São Mamede - PB (2514909), São Miguel - RN (2412500), São Miguel das Matas - BA (2929404), São Miguel de Taipu - PB (2515005), São Miguel do Aleixo - SE (2807006), São Miguel do Gostoso - RN (2412559), São Miguel dos Campos - AL (2708600), São Miguel dos Milagres - AL (2708709), São Paulo do Potengi - RN (2412609), São Pedro - RN (2412708), São Rafael - RN (2412807), São Sebastião - AL (2708808), São Sebastião de Lagoa de Roça - PB (2515104), São Sebastião do Passé - BA (2929503), São Sebastião do Umbuzeiro - PB (2515203), São Tomé - RN (2412906), São Vicente - RN (2413003), São Vicente do Seridó - PB (2515401), São Vicente Férrer - PE (2613800), Sapé - PB (2515302), Sapeaçu - BA (2929602), Sátiro Dias - BA (2929701), Satuba - AL (2708907), Saubara - BA (2929750), Senador Elói de Souza - RN (2413102), Senador Georgino Avelino - RN (2413201), Senador Pompeu - CE (2312700), Senador Rui Palmeira - AL (2708956), Senhor do Bonfim - BA (2930105), Serra Branca - PB (2515500), Serra Caiada - RN (2410306), Serra da Raiz - PB (2515609), Serra de São Bento - RN (2413300), Serra do Mel - RN (2413359), Serra Grande - PB (2515708), Serra Negra do Norte - RN (2413409), Serra Preta - BA (2930402), Serra Redonda - PB (2515807), Serraria - PB (2515906), Serra Talhada - PE (2613909), Serrinha - RN (2413508), Serrinha - BA (2930501), Serrinha dos Pintos - RN (2413557), Serrita - PE (2614006), Sertânia - PE (2614105), Sertãozinho - PB (2515930), Severiano Melo - RN (2413607), Simão Dias - SE (2807105), Simões Filho - BA (2930709), Sirinhaém - PE (2614204), Siriri - SE (2807204), Sítio do Quinto - BA (2930766), Sítio Novo - RN (2413706), Sobrado - PB (2515971), Solânea - PB (2516003), Soledade - PB (2516102), Solidão - PE (2614402), Solonópole - CE (2313005), Sossêgo - PB (2516151), Sousa - PB (2516201), Sumé - PB (2516300), Surubim - PE (2614501), Tabira - PE (2614600), Taboleiro Grande - RN (2413805), Tabuleiro do Norte - CE (2313104), Tacaimbó - PE (2614709), Tacaratu - PE (2614808), Tacima - PB (2516409), Taipu - RN (2413904), Tamandaré - PE (2614857), Tangará - RN (2414001), Tanque d'Arca - AL (2709004), Tanquinho - BA (2931103), Taperoá - PB (2516508), Taperoá - BA (2931202), Taquarana - AL (2709103), Taquaritinga do Norte - PE (2615003), Tarrafas - CE (2313252), Tavares - PB (2516607), Teixeira - PB (2516706), Telha - SE (2807303), Tenente Ananias - RN (2414100), Tenente Laurentino Cruz - RN (2414159), Tenório - PB (2516755), Teodoro Sampaio - BA (2931400), Teofilândia - BA (2931509), Teolândia - BA (2931608), Teotônio Vilela - AL (2709152), Terezinha - PE (2615102), Terra Nova - PE (2615201), Terra Nova - BA (2931707), Tibau - RN (2411056), Tibau do Sul - RN (2414209), Timbaúba - PE (2615300), Timbaúba dos Batistas - RN (2414308), Tobias Barreto - SE (2807402), Tomar do Geru - SE (2807501), Toritama - PE (2615409), Touros - RN (2414407), Tracunhaém - PE (2615508), Traipu - AL (2709202), Triunfo - PE (2615706), Triunfo - PB (2516805), Triunfo Potiguar - RN (2414456), Tucano - BA (2931905), Tupanatinga - PE (2615805), Tuparetama - PE (2615904), Uauá - BA (2932002), Ubaíra - BA (2932101), Uiraúna - PB (2516904), Umari - CE (2313708), Umarizal - RN (2414506), Umbaúba - SE (2807600), Umbuzeiro - PB (2517001), União dos Palmares - AL (2709301), Upanema - RN (2414605), Valença - BA (2932903), Valente - BA (2933000), Várzea - PB (2517100), Várzea - RN (2414704), Várzea Alegre - CE (2314003), Várzea da Roça - BA (2933059), Varzedo - BA (2933174), Venha-Ver - RN (2414753), Venturosa - PE (2616001), Vera Cruz - RN (2414803), Vera Cruz - BA (2933208), Verdejante - PE (2616100), Vertente do Lério - PE (2616183), Vertentes - PE (2616209), Vicência - PE (2616308), Viçosa - RN (2414902), Viçosa - AL (2709400), Vieirópolis - PB (2517209), Vila Flor - RN (2415008), Vista Serrana - PB (2505501), Vitória de Santo Antão - PE (2616407), Wenceslau Guimarães - BA (2933505), Xexéu - PE (2616506), Zabelê - PB (2517407)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Cearense, Vale São-Franciscano da Bahia, Metropolitana de Recife, Nordeste Baiano, Norte Cearense, Central Potiguar, Sertões Cearenses, Oeste Potiguar, Sertão Pernambucano, Agreste Pernambucano, Sertão Alagoano, Sertão Paraibano, Centro Norte Baiano, Mata Pernambucana, Agreste Paraibano, Borborema, Mata Paraibana, Jaguaribe, Centro Sul Baiano, Metropolitana de Salvador, Leste Sergipano, Leste Alagoano, Centro-Sul Cearense, Agreste Sergipano, Metropolitana de Fortaleza, Agreste Alagoano, Leste Potiguar, Agreste Potiguar, São Francisco Pernambucano, Sul Baiano, Sertão Sergipano",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-4.97056,-35.914307 -5.003394,-36.622925 -4.696879,-37.315063 -3.621701,-38.50708 -3.675151,-38.862762 -4.67498,-39.484863 -6.293459,-39.880371 -8.015716,-40.100098 -12.01783,-39.946289 -13.090179,-39.79248 -13.774066,-39.506836 -14.157882,-39.023438 -14.10994,-38.853149 -13.597939,-38.759766 -13.18112,-38.62793 -13.042021,-38.325806 -11.969471,-37.474365 -10.779348,-36.732788 -10.363555,-36.117554 -9.503244,-35.474854 -8.982749,-35.062866 -8.233237,-34.821167 -7.427837,-34.667358 -5.178482,-35.288086 -4.97056,-35.914307"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -35.914307,
+              -4.97056
+            ],
+            [
+              -36.622925,
+              -5.003394
+            ],
+            [
+              -37.315063,
+              -4.696879
+            ],
+            [
+              -38.50708,
+              -3.621701
+            ],
+            [
+              -38.862762,
+              -3.675151
+            ],
+            [
+              -39.484863,
+              -4.67498
+            ],
+            [
+              -39.880371,
+              -6.293459
+            ],
+            [
+              -40.100098,
+              -8.015716
+            ],
+            [
+              -39.946289,
+              -12.01783
+            ],
+            [
+              -39.79248,
+              -13.090179
+            ],
+            [
+              -39.506836,
+              -13.774066
+            ],
+            [
+              -39.023438,
+              -14.157882
+            ],
+            [
+              -38.853149,
+              -14.10994
+            ],
+            [
+              -38.759766,
+              -13.597939
+            ],
+            [
+              -38.62793,
+              -13.18112
+            ],
+            [
+              -38.325806,
+              -13.042021
+            ],
+            [
+              -37.474365,
+              -11.969471
+            ],
+            [
+              -36.732788,
+              -10.779348
+            ],
+            [
+              -36.117554,
+              -10.363555
+            ],
+            [
+              -35.474854,
+              -9.503244
+            ],
+            [
+              -35.062866,
+              -8.982749
+            ],
+            [
+              -34.821167,
+              -8.233237
+            ],
+            [
+              -34.667358,
+              -7.427837
+            ],
+            [
+              -35.288086,
+              -5.178482
+            ],
+            [
+              -35.914307,
+              -4.97056
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Baixa Umidade",
+        "categoria": "Met",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "instruction": "Beba bastante líquido.  Evite desgaste físico nas horas mais secas. Evite exposição ao sol nas horas mais quentes do dia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-06-26T12:00:00-03:00",
+        "expires": "2026-06-26T18:00:00-03:00",
+        "sent": "2026-06-26T12:14:45-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54743",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54743",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54743",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27644.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Abreulândia - TO (1700251), Aliança do Tocantins - TO (1700350), Alta Floresta - MT (5100250), Altamira - PA (1500602), Alto Boa Vista - MT (5100359), Alvorada - TO (1700707), Aparecida do Rio Negro - TO (1701101), Apiacás - MT (5100805), Araguacema - TO (1701903), Araguaçu - TO (1702000), Araguaína - TO (1702109), Arapoema - TO (1702307), Bandeirantes do Tocantins - TO (1703057), Bannach - PA (1501253), Barrolândia - TO (1703107), Bernardo Sayão - TO (1703206), Bom Jesus do Araguaia - MT (5101852), Bom Jesus do Tocantins - TO (1703305), Bonópolis - GO (5203575), Brasilândia do Tocantins - TO (1703602), Brejinho de Nazaré - TO (1703701), Canabrava do Norte - MT (5102694), Canarana - MT (5102702), Cariri do Tocantins - TO (1703867), Carlinda - MT (5102793), Caseara - TO (1703909), Chapada de Areia - TO (1704600), Cláudia - MT (5103056), Cocalinho - MT (5103106), Colíder - MT (5103205), Colinas do Tocantins - TO (1705508), Colméia - TO (1716703), Conceição do Araguaia - PA (1502707), Confresa - MT (5103353), Couto Magalhães - TO (1706001), Cristalândia - TO (1706100), Crixás do Tocantins - TO (1706258), Cumaru do Norte - PA (1502764), Divinópolis do Tocantins - TO (1707108), Dois Irmãos do Tocantins - TO (1707207), Dueré - TO (1707306), Fátima - TO (1707553), Feliz Natal - MT (5103700), Figueirópolis - TO (1707652), Floresta do Araguaia - PA (1503044), Formoso do Araguaia - TO (1708205), Fortaleza do Tabocão - TO (1708254), Gaúcha do Norte - MT (5103858), Goianorte - TO (1708304), Guaraí - TO (1709302), Guarantã do Norte - MT (5104104), Gurupi - TO (1709500), Ipiranga do Norte - MT (5104526), Ipueiras - TO (1709807), Itaituba - PA (1503606), Itanhangá - MT (5104542), Itapiratins - TO (1710904), Itaporã do Tocantins - TO (1711100), Itaúba - MT (5104559), Jacareacanga - PA (1503754), Jaú do Tocantins - TO (1711506), Juara - MT (5105101), Juarina - TO (1711803), Lagoa da Confusão - TO (1711902), Lajeado - TO (1712009), Luciara - MT (5105309), Marcelândia - MT (5105580), Marianópolis do Tocantins - TO (1712504), Matupá - MT (5105606), Miracema do Tocantins - TO (1713205), Miranorte - TO (1713304), Monte do Carmo - TO (1713601), Monte Santo do Tocantins - TO (1713700), Montividiu do Norte - GO (5213772), Mundo Novo - GO (5214051), Nova Bandeirantes - MT (5106158), Nova Canaã do Norte - MT (5106216), Nova Crixás - GO (5214838), Nova Guarita - MT (5108808), Nova Maringá - MT (5108907), Nova Monte Verde - MT (5108956), Nova Nazaré - MT (5106174), Nova Olinda - TO (1714880), Nova Rosalândia - TO (1715002), Nova Santa Helena - MT (5106190), Nova Ubiratã - MT (5106240), Novo Horizonte do Norte - MT (5106273), Novo Mundo - MT (5106265), Novo Planalto - GO (5215256), Novo Progresso - PA (1505031), Novo Santo Antônio - MT (5106315), Oliveira de Fátima - TO (1715507), Ourilândia do Norte - PA (1505437), Palmas - TO (1721000), Palmeirante - TO (1715705), Paraíso do Tocantins - TO (1716109), Paranã - TO (1716208), Paranaíta - MT (5106299), Paranatinga - MT (5106307), Pau D'Arco - TO (1716307), Pau D'Arco - PA (1505551), Pedro Afonso - TO (1716505), Peixe - TO (1716604), Peixoto de Azevedo - MT (5106422), Pequizeiro - TO (1716653), Pium - TO (1717503), Porangatu - GO (5218003), Porto Alegre do Norte - MT (5106778), Porto dos Gaúchos - MT (5106802), Porto Nacional - TO (1718204), Presidente Kennedy - TO (1718402), Pugmil - TO (1718451), Querência - MT (5107065), Redenção - PA (1506138), Ribeirão Cascalheira - MT (5107180), Rio dos Bois - TO (1718709), Rio Maria - PA (1506161), Sandolândia - TO (1718840), Santa Carmem - MT (5107248), Santa Cruz do Xingu - MT (5107743), Santa Maria das Barreiras - PA (1506583), Santa Maria do Tocantins - TO (1718881), Santana do Araguaia - PA (1506708), Santa Rita do Tocantins - TO (1718899), Santa Rosa do Tocantins - TO (1718907), Santa Terezinha - MT (5107776), São Félix do Araguaia - MT (5107859), São Félix do Xingu - PA (1507300), São José do Xingu - MT (5107354), São Miguel do Araguaia - GO (5220207), São Salvador do Tocantins - TO (1720259), São Valério - TO (1720499), Serra Nova Dourada - MT (5107883), Silvanópolis - TO (1720655), Sinop - MT (5107909), Sorriso - MT (5107925), Sucupira - TO (1720853), Tabaporã - MT (5107941), Talismã - TO (1720978), Terra Nova do Norte - MT (5108055), Tocantínia - TO (1721109), Tupirama - TO (1721257), Tupiratins - TO (1721307), União do Sul - MT (5108303), Vera - MT (5108501), Vila Rica - MT (5108600)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Ocidental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense, Oriental do Tocantins, Sudeste Paraense, Norte Goiano, Noroeste Goiano",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-8.624472,-57.612305 -7.667441,-57.128906 -7.144499,-56.425781 -7.144499,-55.019531 -7.536764,-52.998047 -7.754537,-52.075195 -7.754537,-50.053711 -7.406048,-48.735352 -8.146243,-48.120117 -9.795678,-48.032227 -12.340002,-48.251953 -13.624633,-49.525242 -13.624633,-51.591797 -12.811801,-54.755859 -11.996338,-57.128906 -11.135287,-57.832031 -9.449062,-57.832031 -8.624472,-57.612305"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.612305,
+              -8.624472
+            ],
+            [
+              -57.128906,
+              -7.667441
+            ],
+            [
+              -56.425781,
+              -7.144499
+            ],
+            [
+              -55.019531,
+              -7.144499
+            ],
+            [
+              -52.998047,
+              -7.536764
+            ],
+            [
+              -52.075195,
+              -7.754537
+            ],
+            [
+              -50.053711,
+              -7.754537
+            ],
+            [
+              -48.735352,
+              -7.406048
+            ],
+            [
+              -48.120117,
+              -8.146243
+            ],
+            [
+              -48.032227,
+              -9.795678
+            ],
+            [
+              -48.251953,
+              -12.340002
+            ],
+            [
+              -49.525242,
+              -13.624633
+            ],
+            [
+              -51.591797,
+              -13.624633
+            ],
+            [
+              -54.755859,
+              -12.811801
+            ],
+            [
+              -57.128906,
+              -11.996338
+            ],
+            [
+              -57.832031,
+              -11.135287
+            ],
+            [
+              -57.832031,
+              -9.449062
+            ],
+            [
+              -57.612305,
+              -8.624472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Baixa Umidade",
+        "categoria": "Met",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "instruction": "Beba bastante líquido.  Evite desgaste físico nas horas mais secas. Evite exposição ao sol nas horas mais quentes do dia. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-06-26T12:00:00-03:00",
+        "expires": "2026-06-26T18:00:00-03:00",
+        "sent": "2026-06-25T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54742",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54742",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54742",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27642.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Alta Floresta - MT (5100250), Altamira - PA (1500602), Apiacás - MT (5100805), Canabrava do Norte - MT (5102694), Carlinda - MT (5102793), Cláudia - MT (5103056), Colíder - MT (5103205), Confresa - MT (5103353), Cumaru do Norte - PA (1502764), Feliz Natal - MT (5103700), Guarantã do Norte - MT (5104104), Ipiranga do Norte - MT (5104526), Itaituba - PA (1503606), Itaúba - MT (5104559), Jacareacanga - PA (1503754), Juara - MT (5105101), Marcelândia - MT (5105580), Matupá - MT (5105606), Nova Canaã do Norte - MT (5106216), Nova Guarita - MT (5108808), Nova Monte Verde - MT (5108956), Nova Santa Helena - MT (5106190), Novo Mundo - MT (5106265), Novo Progresso - PA (1505031), Ourilândia do Norte - PA (1505437), Paranaíta - MT (5106299), Peixoto de Azevedo - MT (5106422), Porto Alegre do Norte - MT (5106778), Querência - MT (5107065), Santa Cruz do Xingu - MT (5107743), São Félix do Araguaia - MT (5107859), São Félix do Xingu - PA (1507300), São José do Xingu - MT (5107354), Sinop - MT (5107909), Tabaporã - MT (5107941), Terra Nova do Norte - MT (5108055), União do Sul - MT (5108303), Vila Rica - MT (5108600)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense, Sudeste Paraense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-7.275292,-56.601563 -7.046379,-55.667725 -7.024572,-54.711914 -7.28619,-53.283691 -7.536764,-52.635498 -7.885147,-52.108154 -9.123792,-51.712646 -10.379765,-51.745605 -11.253837,-52.23999 -11.598432,-53.481445 -11.501557,-56.25 -10.833306,-57.23877 -9.838979,-57.612305 -9.112945,-57.65625 -8.678779,-57.491455 -8.091862,-57.359619 -7.275292,-56.601563"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.601563,
+              -7.275292
+            ],
+            [
+              -55.667725,
+              -7.046379
+            ],
+            [
+              -54.711914,
+              -7.024572
+            ],
+            [
+              -53.283691,
+              -7.28619
+            ],
+            [
+              -52.635498,
+              -7.536764
+            ],
+            [
+              -52.108154,
+              -7.885147
+            ],
+            [
+              -51.712646,
+              -9.123792
+            ],
+            [
+              -51.745605,
+              -10.379765
+            ],
+            [
+              -52.23999,
+              -11.253837
+            ],
+            [
+              -53.481445,
+              -11.598432
+            ],
+            [
+              -56.25,
+              -11.501557
+            ],
+            [
+              -57.23877,
+              -10.833306
+            ],
+            [
+              -57.612305,
+              -9.838979
+            ],
+            [
+              -57.65625,
+              -9.112945
+            ],
+            [
+              -57.491455,
+              -8.678779
+            ],
+            [
+              -57.359619,
+              -8.091862
+            ],
+            [
+              -56.601563,
+              -7.275292
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-06-26T00:00:00-03:00",
+        "expires": "2026-06-26T23:59:00-03:00",
+        "sent": "2026-06-25T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54740",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54740",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54740",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27640.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Abaetetuba - PA (1500107), Acará - PA (1500206), Afuá - PA (1500305), Alcântara - MA (2100204), Amapá - AP (1600105), Amapá do Maranhão - MA (2100550), Anajás - PA (1500701), Anajatuba - MA (2100709), Ananindeua - PA (1500800), Apicum-Açu - MA (2100832), Araguanã - MA (2100873), Arari - MA (2101004), Augusto Corrêa - PA (1500909), Aurora do Pará - PA (1500958), Axixá - MA (2101103), Bacabeira - MA (2101251), Bacuri - MA (2101301), Bacurituba - MA (2101350), Barcarena - PA (1501303), Barreirinhas - MA (2101707), Belágua - MA (2101731), Belém - PA (1501402), Benevides - PA (1501501), Bequimão - MA (2101905), Boa Vista do Gurupi - MA (2101970), Bom Jardim - MA (2102002), Bonito - PA (1501600), Bragança - PA (1501709), Breves - PA (1501808), Bujaru - PA (1501907), Cachoeira do Arari - PA (1502004), Cachoeira do Piriá - PA (1501956), Cachoeira Grande - MA (2102374), Cajapió - MA (2102408), Cajari - MA (2102507), Calçoene - AP (1600204), Cametá - PA (1502103), Cândido Mendes - MA (2102606), Cantanhede - MA (2102705), Capanema - PA (1502202), Capitão Poço - PA (1502301), Carutapera - MA (2102903), Castanhal - PA (1502400), Cedral - MA (2103109), Central do Maranhão - MA (2103125), Centro do Guilherme - MA (2103158), Centro Novo do Maranhão - MA (2103174), Chapadinha - MA (2103208), Chaves - PA (1502509), Colares - PA (1502608), Conceição do Lago-Açu - MA (2103554), Concórdia do Pará - PA (1502756), Curralinho - PA (1502806), Curuçá - PA (1502905), Cururupu - MA (2103703), Cutias - AP (1600212), Ferreira Gomes - AP (1600238), Garrafão do Norte - PA (1503077), Godofredo Viana - MA (2104305), Governador Newton Bello - MA (2104651), Governador Nunes Freire - MA (2104677), Guimarães - MA (2104909), Gurupá - PA (1503101), Humberto de Campos - MA (2105005), Icatu - MA (2105104), Igarapé-Açu - PA (1503200), Igarapé do Meio - MA (2105153), Igarapé-Miri - PA (1503309), Inhangapi - PA (1503408), Ipixuna do Pará - PA (1503457), Irituia - PA (1503507), Itapecuru Mirim - MA (2105401), Itaubal - AP (1600253), Junco do Maranhão - MA (2105658), Limoeiro do Ajuru - PA (1504000), Luís Domingues - MA (2106201), Macapá - AP (1600303), Mãe do Rio - PA (1504059), Magalhães Barata - PA (1504109), Maracaçumé - MA (2106326), Maracanã - PA (1504307), Maranhãozinho - MA (2106375), Marapanim - PA (1504406), Marituba - PA (1504422), Matinha - MA (2106508), Matões do Norte - MA (2106631), Mazagão - AP (1600402), Melgaço - PA (1504505), Miranda do Norte - MA (2106755), Mirinzal - MA (2106805), Moju - PA (1504703), Monção - MA (2106904), Morros - MA (2107100), Muaná - PA (1504901), Nina Rodrigues - MA (2107209), Nova Esperança do Piriá - PA (1504950), Nova Olinda do Maranhão - MA (2107357), Nova Timboteua - PA (1505007), Oeiras do Pará - PA (1505205), Olinda Nova do Maranhão - MA (2107456), Ourém - PA (1505403), Paço do Lumiar - MA (2107506), Palmeirândia - MA (2107605), Paragominas - PA (1505502), Pedra Branca do Amapari - AP (1600154), Pedro do Rosário - MA (2108256), Peixe-Boi - PA (1505601), Penalva - MA (2108306), Peri Mirim - MA (2108405), Pindaré-Mirim - MA (2108504), Pinheiro - MA (2108603), Pirapemas - MA (2108801), Ponta de Pedras - PA (1505700), Porto Grande - AP (1600535), Porto Rico do Maranhão - MA (2109056), Pracuúba - AP (1600550), Presidente Juscelino - MA (2109205), Presidente Médici - MA (2109239), Presidente Sarney - MA (2109270), Presidente Vargas - MA (2109304), Primavera - PA (1506104), Primeira Cruz - MA (2109403), Quatipuru - PA (1506112), Raposa - MA (2109452), Rosário - MA (2109601), Salinópolis - PA (1506203), Salvaterra - PA (1506302), Santa Bárbara do Pará - PA (1506351), Santa Cruz do Arari - PA (1506401), Santa Helena - MA (2109809), Santa Inês - MA (2109908), Santa Izabel do Pará - PA (1506500), Santa Luzia do Pará - PA (1506559), Santa Luzia do Paruá - MA (2110039), Santa Maria do Pará - PA (1506609), Santana - AP (1600600), Santarém Novo - PA (1506906), Santa Rita - MA (2110203), Santo Amaro do Maranhão - MA (2110278), Santo Antônio do Tauá - PA (1507003), São Benedito do Rio Preto - MA (2110401), São Bento - MA (2110500), São Caetano de Odivelas - PA (1507102), São Domingos do Capim - PA (1507201), São Francisco do Pará - PA (1507409), São João Batista - MA (2111003), São João da Ponta - PA (1507466), São João de Pirabas - PA (1507474), São João do Carú - MA (2111029), São José de Ribamar - MA (2111201), São Luís - MA (2111300), São Miguel do Guamá - PA (1507607), São Sebastião da Boa Vista - PA (1507706), São Vicente Ferrer - MA (2111706), Serra do Navio - AP (1600055), Serrano do Maranhão - MA (2111789), Soure - PA (1507904), Tailândia - PA (1507953), Tartarugalzinho - AP (1600709), Terra Alta - PA (1507961), Tomé-Açu - PA (1508001), Tracuateua - PA (1508035), Turiaçu - MA (2112407), Turilândia - MA (2112456), Urbano Santos - MA (2112605), Vargem Grande - MA (2112704), Viana - MA (2112803), Vigia - PA (1508209), Viseu - PA (1508308), Vitória do Mearim - MA (2112902), Zé Doca - MA (2114007)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Nordeste Paraense, Marajó, Norte Maranhense, Norte do Amapá, Oeste Maranhense, Metropolitana de Belém, Leste Maranhense, Sul do Amapá, Sudeste Paraense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "2.043024,-51.262207 2.383346,-50.592041 1.845384,-49.96582 1.285293,-49.702148 0.637194,-49.921875 0.087891,-49.196777 -0.12085,-48.427734 -0.285643,-48.032227 -0.450435,-47.636719 -0.845917,-46.263428 -1.208406,-44.835205 -1.966167,-44.318848 -2.262595,-43.912354 -2.152814,-43.549805 -2.273573,-43.198242 -2.427252,-42.912598 -2.701635,-42.868652 -3.261177,-43.231201 -3.677892,-43.813477 -3.820408,-44.472656 -3.579213,-45.637207 -2.877208,-47.625732 -2.010086,-49.581299 -0.977736,-51.196289 -0.252685,-51.800537 0.604237,-51.921387 1.406109,-51.70166 2.043024,-51.262207"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.262207,
+              2.043024
+            ],
+            [
+              -50.592041,
+              2.383346
+            ],
+            [
+              -49.96582,
+              1.845384
+            ],
+            [
+              -49.702148,
+              1.285293
+            ],
+            [
+              -49.921875,
+              0.637194
+            ],
+            [
+              -49.196777,
+              0.087891
+            ],
+            [
+              -48.427734,
+              -0.12085
+            ],
+            [
+              -48.032227,
+              -0.285643
+            ],
+            [
+              -47.636719,
+              -0.450435
+            ],
+            [
+              -46.263428,
+              -0.845917
+            ],
+            [
+              -44.835205,
+              -1.208406
+            ],
+            [
+              -44.318848,
+              -1.966167
+            ],
+            [
+              -43.912354,
+              -2.262595
+            ],
+            [
+              -43.549805,
+              -2.152814
+            ],
+            [
+              -43.198242,
+              -2.273573
+            ],
+            [
+              -42.912598,
+              -2.427252
+            ],
+            [
+              -42.868652,
+              -2.701635
+            ],
+            [
+              -43.231201,
+              -3.261177
+            ],
+            [
+              -43.813477,
+              -3.677892
+            ],
+            [
+              -44.472656,
+              -3.820408
+            ],
+            [
+              -45.637207,
+              -3.579213
+            ],
+            [
+              -47.625732,
+              -2.877208
+            ],
+            [
+              -49.581299,
+              -2.010086
+            ],
+            [
+              -51.196289,
+              -0.977736
+            ],
+            [
+              -51.800537,
+              -0.252685
+            ],
+            [
+              -51.921387,
+              0.604237
+            ],
+            [
+              -51.70166,
+              1.406109
+            ],
+            [
+              -51.262207,
+              2.043024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Acumulado de Chuva",
+        "categoria": "Met",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 00:00. Chuva entre 20 a 30 mm/h ou até 50 mm/dia. Baixo risco de alagamentos e pequenos deslizamentos, em cidades com tais áreas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteração nas encostas. Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-06-26T00:00:00-03:00",
+        "expires": "2026-06-26T23:59:00-03:00",
+        "sent": "2026-06-24T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54739",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54739",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54739",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27628.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Aguaí - SP (3500303), Águas da Prata - SP (3500402), Águas de Lindóia - SP (3500501), Albertina - MG (3101409), Amparo - SP (3501905), Andradas - MG (3102605), Angra dos Reis - RJ (3300100), Aparecida - SP (3502507), Arapeí - SP (3503158), Areias - SP (3503505), Arujá - SP (3503901), Atibaia - SP (3504107), Bananal - SP (3504909), Bandeira do Sul - MG (3105301), Barra Mansa - RJ (3300407), Bertioga - SP (3506359), Biritiba Mirim - SP (3506607), Bocaina de Minas - MG (3107208), Bom Jesus dos Perdões - SP (3507100), Bom Repouso - MG (3107901), Borda da Mata - MG (3108305), Botelhos - MG (3108404), Bragança Paulista - SP (3507605), Brazópolis - MG (3108909), Bueno Brandão - MG (3109105), Caçapava - SP (3508504), Cachoeira de Minas - MG (3109709), Cachoeira Paulista - SP (3508603), Caldas - MG (3110301), Camanducaia - MG (3110509), Cambuí - MG (3110608), Campestre - MG (3111002), Campos do Jordão - SP (3509700), Canas - SP (3509957), Caraguatatuba - SP (3510500), Careaçu - MG (3113602), Carmo de Minas - MG (3114105), Conceição das Pedras - MG (3117207), Conceição dos Ouros - MG (3117801), Congonhal - MG (3117900), Consolação - MG (3118502), Córrego do Bom Jesus - MG (3119906), Cristina - MG (3120508), Cruzeiro - SP (3513405), Cunha - SP (3513603), Delfim Moreira - MG (3121100), Divinolândia - SP (3513900), Dom Viçoso - MG (3122801), Espírito Santo do Dourado - MG (3124401), Espírito Santo do Pinhal - SP (3515186), Estiva - MG (3124500), Estiva Gerbi - SP (3557303), Extrema - MG (3125101), Gonçalves - MG (3127404), Guararema - SP (3518305), Guaratinguetá - SP (3518404), Guarulhos - SP (3518800), Heliodora - MG (3129202), Ibitiúra de Minas - MG (3129905), Igaratá - SP (3520202), Ilhabela - SP (3520400), Inconfidentes - MG (3130606), Ipuiúna - MG (3131505), Itajubá - MG (3132404), Itamonte - MG (3133006), Itanhandu - MG (3133105), Itapeva - MG (3133600), Itapira - SP (3522604), Itaquaquecetuba - SP (3523107), Itatiaia - RJ (3302254), Itatiba - SP (3523404), Jacareí - SP (3524402), Jacutinga - MG (3134905), Jambeiro - SP (3524907), Jarinu - SP (3525201), Joanópolis - SP (3525508), Lagoinha - SP (3526308), Lambari - MG (3137809), Lavrinhas - SP (3526605), Lindóia - SP (3527009), Lorena - SP (3527207), Mairiporã - SP (3528502), Mangaratiba - RJ (3302601), Maria da Fé - MG (3139904), Marmelópolis - MG (3140407), Mogi das Cruzes - SP (3530607), Mogi Guaçu - SP (3530706), Mogi Mirim - SP (3530805), Monte Alegre do Sul - SP (3531209), Monteiro Lobato - SP (3531704), Monte Sião - MG (3143401), Morungaba - SP (3532009), Munhoz - MG (3143807), Natércia - MG (3144409), Natividade da Serra - SP (3532306), Nazaré Paulista - SP (3532405), Olímpio Noronha - MG (3145505), Ouro Fino - MG (3146008), Paraibuna - SP (3535606), Paraisópolis - MG (3147303), Paraty - RJ (3303807), Passa Quatro - MG (3147600), Pedra Bela - SP (3536802), Pedralva - MG (3149101), Pedreira - SP (3537107), Pindamonhangaba - SP (3538006), Pinhalzinho - SP (3538204), Piquete - SP (3538501), Piracaia - SP (3538600), Piranguçu - MG (3150901), Piranguinho - MG (3151008), Poço Fundo - MG (3151701), Poços de Caldas - MG (3151800), Porto Real - RJ (3304110), Potim - SP (3540754), Pouso Alegre - MG (3152501), Pouso Alto - MG (3152600), Quatis - RJ (3304128), Queluz - SP (3541901), Redenção da Serra - SP (3542305), Resende - RJ (3304201), Rio Claro - RJ (3304409), Roseira - SP (3544301), Salesópolis - SP (3545001), Santa Branca - SP (3546009), Santa Isabel - SP (3546801), Santa Rita de Caldas - MG (3159209), Santa Rita do Sapucaí - MG (3159605), Santo Antônio de Posse - SP (3548005), Santo Antônio do Jardim - SP (3548104), Santo Antônio do Pinhal - SP (3548203), São Bento do Sapucaí - SP (3548609), São Gonçalo do Sapucaí - MG (3162005), São João da Boa Vista - SP (3549102), São João da Mata - MG (3162302), São José do Alegre - MG (3163201), São José do Barreiro - SP (3549607), São José dos Campos - SP (3549904), São Luiz do Paraitinga - SP (3550001), São Sebastião - SP (3550704), São Sebastião da Bela Vista - MG (3164407), São Sebastião da Grama - SP (3550803), São Sebastião do Rio Verde - MG (3164902), Sapucaí-Mirim - MG (3165404), Senador Amaral - MG (3165578), Senador José Bento - MG (3165800), Serra Negra - SP (3551603), Silveiras - SP (3552007), Silvianópolis - MG (3167400), Socorro - SP (3552106), Taubaté - SP (3554102), Tocos do Moji - MG (3169059), Toledo - MG (3169109), Tremembé - SP (3554805), Tuiuti - SP (3554953), Turvolândia - MG (3169802), Ubatuba - SP (3555406), Vargem - SP (3556354), Vargem Grande do Sul - SP (3556404), Virgínia - MG (3171709), Wenceslau Braz - MG (3172202)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Campinas, Sul/Sudoeste de Minas, Sul Fluminense, Vale do Paraíba Paulista, Metropolitana de São Paulo, Macro Metropolitana Paulista, Metropolitana do Rio de Janeiro",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-22.024546,-45.626221 -21.703369,-46.120605 -21.71868,-46.411743 -21.779905,-46.702881 -22.044913,-46.977539 -22.507482,-46.977539 -22.902743,-46.790771 -23.624395,-46.142578 -23.976215,-45.736084 -24.071544,-45.420227 -23.986253,-45.115356 -23.581609,-44.524841 -23.372514,-44.247437 -23.160563,-44.049683 -22.758453,-44.071655 -22.575974,-44.14856 -22.421185,-44.296875 -22.197577,-45.065918 -22.024546,-45.626221"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -45.626221,
+              -22.024546
+            ],
+            [
+              -46.120605,
+              -21.703369
+            ],
+            [
+              -46.411743,
+              -21.71868
+            ],
+            [
+              -46.702881,
+              -21.779905
+            ],
+            [
+              -46.977539,
+              -22.044913
+            ],
+            [
+              -46.977539,
+              -22.507482
+            ],
+            [
+              -46.790771,
+              -22.902743
+            ],
+            [
+              -46.142578,
+              -23.624395
+            ],
+            [
+              -45.736084,
+              -23.976215
+            ],
+            [
+              -45.420227,
+              -24.071544
+            ],
+            [
+              -45.115356,
+              -23.986253
+            ],
+            [
+              -44.524841,
+              -23.581609
+            ],
+            [
+              -44.247437,
+              -23.372514
+            ],
+            [
+              -44.049683,
+              -23.160563
+            ],
+            [
+              -44.071655,
+              -22.758453
+            ],
+            [
+              -44.14856,
+              -22.575974
+            ],
+            [
+              -44.296875,
+              -22.421185
+            ],
+            [
+              -45.065918,
+              -22.197577
+            ],
+            [
+              -45.626221,
+              -22.024546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 26/06/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-06-26T00:00:00-03:00",
+        "expires": "2026-06-26T23:59:00-03:00",
+        "sent": "2026-06-24T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-06-26T15:40:02.901037+00:00",
+        "link": "https://avisos.inmet.gov.br/54737",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54737",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54737",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27627.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Abaiara - CE (2300101), Abreu e Lima - PE (2600054), Acajutiba - BA (2900306), Acari - RN (2400109), Acopiara - CE (2300309), Açu - RN (2400208), Adustina - BA (2900355), Afogados da Ingazeira - PE (2600104), Afonso Bezerra - RN (2400307), Agrestina - PE (2600302), Água Branca - AL (2700102), Água Branca - PB (2500106), Água Nova - RN (2400406), Água Preta - PE (2600401), Águas Belas - PE (2600500), Aguiar - PB (2500205), Alagoa Grande - PB (2500304), Alagoa Nova - PB (2500403), Alagoinha - PB (2500502), Alagoinha - PE (2600609), Alcantil - PB (2500536), Alexandria - RN (2400505), Algodão de Jandaíra - PB (2500577), Alhandra - PB (2500601), Aliança - PE (2600708), Almino Afonso - RN (2400604), Altinho - PE (2600807), Alto do Rodrigues - RN (2400703), Alto Santo - CE (2300705), Amaraji - PE (2600906), Amparo - PB (2500734), Amparo de São Francisco - SE (2800100), Anadia - AL (2700201), Angelim - PE (2601003), Angicos - RN (2400802), Antas - BA (2901601), Antônio Martins - RN (2400901), Aparecida - PB (2500775), Apodi - RN (2401008), Aporá - BA (2901908), Aquidabã - SE (2800209), Araçagi - PB (2500809), Aracaju - SE (2800308), Aracati - CE (2301109), Aracoiaba - CE (2301208), Araçoiaba - PE (2601052), Arapiraca - AL (2700300), Arara - PB (2500908), Araruna - PB (2501005), Arauá - SE (2800407), Arcoverde - PE (2601201), Areia - PB (2501104), Areia Branca - SE (2800506), Areia Branca - RN (2401107), Areia de Baraúnas - PB (2501153), Areial - PB (2501203), Arês - RN (2401206), Aroeiras - PB (2501302), Assunção - PB (2501351), Atalaia - AL (2700409), Augusto Severo - RN (2401305), Aurora - CE (2301703), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Baixio - CE (2301802), Banabuiú - CE (2301851), Bananeiras - PB (2501500), Banzaê - BA (2902658), Baraúna - RN (2401453), Baraúna - PB (2501534), Barcelona - RN (2401503), Barra de Guabiraba - PE (2601300), Barra de Santana - PB (2501575), Barra de Santa Rosa - PB (2501609), Barra de Santo Antônio - AL (2700508), Barra de São Miguel - PB (2501708), Barra de São Miguel - AL (2700607), Barra dos Coqueiros - SE (2800605), Barreiros - PE (2601409), Barro - CE (2302008), Batalha - AL (2700706), Bayeux - PB (2501807), Beberibe - CE (2302206), Belém - PB (2501906), Belém - AL (2700805), Belém de Maria - PE (2601508), Belém do Brejo do Cruz - PB (2502003), Belém do São Francisco - PE (2601607), Belo Jardim - PE (2601706), Belo Monte - AL (2700904), Bento Fernandes - RN (2401602), Bernardino Batista - PB (2502052), Betânia - PE (2601805), Bezerros - PE (2601904), Boa Ventura - PB (2502102), Boa Vista - PB (2502151), Boca da Mata - AL (2701001), Bodó - RN (2401651), Bom Conselho - PE (2602100), Bom Jardim - PE (2602209), Bom Jesus - RN (2401701), Bom Jesus - PB (2502201), Bom Sucesso - PB (2502300), Bonito - PE (2602308), Bonito de Santa Fé - PB (2502409), Boqueirão - PB (2502508), Boquim - SE (2800670), Borborema - PB (2502706), Branquinha - AL (2701100), Brejão - PE (2602407), Brejinho - RN (2401800), Brejinho - PE (2602506), Brejo da Madre de Deus - PE (2602605), Brejo do Cruz - PB (2502805), Brejo dos Santos - PB (2502904), Brejo Grande - SE (2800704), Brejo Santo - CE (2302503), Buenos Aires - PE (2602704), Buíque - PE (2602803), Caaporã - PB (2503001), Cabaceiras - PB (2503100), Cabedelo - PB (2503209), Cabo de Santo Agostinho - PE (2602902), Cachoeira dos Índios - PB (2503308), Cachoeirinha - PE (2603108), Cacimba de Areia - PB (2503407), Cacimba de Dentro - PB (2503506), Cacimbas - PB (2503555), Cacimbinhas - AL (2701209), Caetés - PE (2603207), Caiçara - PB (2503605), Caiçara do Norte - RN (2401859), Caiçara do Rio do Vento - RN (2401909), Caicó - RN (2402006), Cajazeiras - PB (2503704), Cajazeirinhas - PB (2503753), Cajueiro - AL (2701308), Calçado - PE (2603306), Caldas Brandão - PB (2503803), Calumbi - PE (2603405), Camalaú - PB (2503902), Camaragibe - PE (2603454), Camocim de São Félix - PE (2603504), Campestre - AL (2701357), Campina Grande - PB (2504009), Campo Alegre - AL (2701407), Campo do Brito - SE (2801009), Campo Grande - AL (2701506), Campo Redondo - RN (2402105), Camutanga - PE (2603603), Canapi - AL (2701605), Canguaretama - RN (2402204), Canhoba - SE (2801108), Canhotinho - PE (2603702), Canindé de São Francisco - SE (2801207), Canudos - BA (2906824), Capela - SE (2801306), Capela - AL (2701704), Capim - PB (2504033), Capoeiras - PE (2603801), Caraúbas - RN (2402303), Caraúbas - PB (2504074), Cardeal da Silva - BA (2907004), Carira - SE (2801405), Caririaçu - CE (2303204), Carmópolis - SE (2801504), Carnaíba - PE (2603900), Carnaúba dos Dantas - RN (2402402), Carnaubais - RN (2402501), Carnaubeira da Penha - PE (2603926), Carneiros - AL (2701803), Carpina - PE (2604007), Carrapateira - PB (2504108), Caruaru - PE (2604106), Cascavel - CE (2303501), Casinhas - PE (2604155), Casserengue - PB (2504157), Catende - PE (2604205), Catingueira - PB (2504207), Catolé do Rocha - PB (2504306), Caturité - PB (2504355), Ceará-Mirim - RN (2402600), Cedro - CE (2303808), Cedro de São João - SE (2801603), Cerro Corá - RN (2402709), Chã de Alegria - PE (2604403), Chã Grande - PE (2604502), Chã Preta - AL (2701902), Chorozinho - CE (2303956), Cícero Dantas - BA (2907806), Coité do Nóia - AL (2702009), Colônia Leopoldina - AL (2702108), Conceição - PB (2504405), Condado - PB (2504504), Condado - PE (2604601), Conde - BA (2908606), Conde - PB (2504603), Congo - PB (2504702), Coqueiro Seco - AL (2702207), Coremas - PB (2504801), Coronel Ezequiel - RN (2402808), Coronel João Pessoa - RN (2402907), Coronel João Sá - BA (2909208), Correntes - PE (2604700), Cortês - PE (2604809), Coruripe - AL (2702306), Coxixola - PB (2504850), Craíbas - AL (2702355), Crisópolis - BA (2909604), Cristinápolis - SE (2801702), Cruz do Espírito Santo - PB (2504900), Cruzeta - RN (2403004), Cubati - PB (2505006), Cuité - PB (2505105), Cuité de Mamanguape - PB (2505238), Cuitegi - PB (2505204), Cumaru - PE (2604908), Cumbe - SE (2801900), Cupira - PE (2605004), Currais Novos - RN (2403103), Curral de Cima - PB (2505279), Curral Velho - PB (2505303), Custódia - PE (2605103), Damião - PB (2505352), Delmiro Gouveia - AL (2702405), Deputado Irapuan Pinheiro - CE (2304269), Desterro - PB (2505402), Diamante - PB (2505600), Divina Pastora - SE (2802007), Dois Riachos - AL (2702504), Dona Inês - PB (2505709), Doutor Severiano - RN (2403202), Duas Estradas - PB (2505808), Emas - PB (2505907), Encanto - RN (2403301), Entre Rios - BA (2910503), Equador - RN (2403400), Ererê - CE (2304277), Escada - PE (2605202), Esperança - PB (2506004), Espírito Santo - RN (2403509), Esplanada - BA (2910602), Estância - SE (2802106), Estrela de Alagoas - AL (2702553), Euclides da Cunha - BA (2910701), Extremoz - RN (2403608), Fagundes - PB (2506103), Fátima - BA (2910750), Feira Grande - AL (2702603), Feira Nova - PE (2605400), Feira Nova - SE (2802205), Felipe Guerra - RN (2403707), Feliz Deserto - AL (2702702), Fernando Pedroza - RN (2403756), Ferreiros - PE (2605509), Flexeiras - AL (2702801), Florânia - RN (2403806), Flores - PE (2605608), Floresta - PE (2605707), Fortim - CE (2304459), Francisco Dantas - RN (2403905), Frei Martinho - PB (2506202), Frei Miguelinho - PE (2605806), Frei Paulo - SE (2802304), Frutuoso Gomes - RN (2404002), Gado Bravo - PB (2506251), Galinhos - RN (2404101), Gameleira - PE (2605905), Garanhuns - PE (2606002), Gararu - SE (2802403), General Maynard - SE (2802502), Girau do Ponciano - AL (2702900), Glória - BA (2911402), Glória do Goitá - PE (2606101), Goiana - PE (2606200), Goianinha - RN (2404200), Governador Dix-Sept Rosado - RN (2404309), Gracho Cardoso - SE (2802601), Gravatá - PE (2606408), Grossos - RN (2404408), Guamaré - RN (2404507), Guarabira - PB (2506301), Gurinhém - PB (2506400), Gurjão - PB (2506509), Heliópolis - BA (2911857), Iati - PE (2606507), Ibaretama - CE (2305266), Ibateguara - AL (2703007), Ibiara - PB (2506608), Ibicuitinga - CE (2305332), Ibimirim - PE (2606606), Ibirajuba - PE (2606705), Icapuí - CE (2305357), Icó - CE (2305407), Ielmo Marinho - RN (2404606), Igaci - AL (2703106), Igaracy - PB (2502607), Igarassu - PE (2606804), Igreja Nova - AL (2703205), Iguaracy - PE (2606903), Iguatu - CE (2305506), Ilha das Flores - SE (2802700), Ilha de Itamaracá - PE (2607604), Imaculada - PB (2506707), Inajá - PE (2607000), Indiaroba - SE (2802809), Ingá - PB (2506806), Ingazeira - PE (2607109), Inhapi - AL (2703304), Ipanguaçu - RN (2404705), Ipaumirim - CE (2305704), Ipojuca - PE (2607208), Ipueira - RN (2404804), Iracema - CE (2306009), Itabaiana - PB (2506905), Itabaiana - SE (2802908), Itabaianinha - SE (2803005), Itabi - SE (2803104), Itacuruba - PE (2607406), Itaíba - PE (2607505), Itaiçaba - CE (2306207), Itajá - RN (2404853), Itambé - PE (2607653), Itapetim - PE (2607703), Itapicuru - BA (2916500), Itapissuma - PE (2607752), Itaporanga - PB (2507002), Itaporanga d'Ajuda - SE (2803203), Itapororoca - PB (2507101), Itaquitinga - PE (2607802), Itatuba - PB (2507200), Itaú - RN (2404903), Jaboatão dos Guararapes - PE (2607901), Jaçanã - RN (2405009), Jacaraú - PB (2507309), Jacaré dos Homens - AL (2703403), Jacuípe - AL (2703502), Jaguaretama - CE (2306702), Jaguaribara - CE (2306801), Jaguaribe - CE (2306900), Jaguaruana - CE (2307007), Jandaíra - BA (2917904), Jandaíra - RN (2405108), Janduís - RN (2405207), Januário Cicco - RN (2405306), Japaratinga - AL (2703601), Japaratuba - SE (2803302), Japi - RN (2405405), Japoatã - SE (2803401), Jaqueira - PE (2607950), Jaramataia - AL (2703700), Jardim de Angicos - RN (2405504), Jardim de Piranhas - RN (2405603), Jardim do Seridó - RN (2405702), Jataúba - PE (2608008), Jati - CE (2307205), Jatobá - PE (2608057), Jequiá da Praia - AL (2703759), Jeremoabo - BA (2918100), Jericó - PB (2507408), João Alfredo - PE (2608107), João Câmara - RN (2405801), João Dias - RN (2405900), João Pessoa - PB (2507507), Joaquim Gomes - AL (2703809), Joaquim Nabuco - PE (2608206), Joca Claudino - PB (2513653), José da Penha - RN (2406007), Juarez Távora - PB (2507606), Juazeirinho - PB (2507705), Jucati - PE (2608255), Jucurutu - RN (2406106), Junco do Seridó - PB (2507804), Jundiá - RN (2406155), Jundiá - AL (2703908), Junqueiro - AL (2704005), Jupi - PE (2608305), Jurema - PE (2608404), Juripiranga - PB (2507903), Juru - PB (2508000), Lagarto - SE (2803500), Lagoa - PB (2508109), Lagoa da Canoa - AL (2704104), Lagoa d'Anta - RN (2406205), Lagoa de Dentro - PB (2508208), Lagoa de Itaenga - PE (2608503), Lagoa de Pedras - RN (2406304), Lagoa de Velhos - RN (2406403), Lagoa do Carro - PE (2608453), Lagoa do Ouro - PE (2608602), Lagoa dos Gatos - PE (2608701), Lagoa Nova - RN (2406502), Lagoa Salgada - RN (2406601), Lagoa Seca - PB (2508307), Lajedo - PE (2608800), Lajes - RN (2406700), Lajes Pintadas - RN (2406809), Laranjeiras - SE (2803609), Lastro - PB (2508406), Lavras da Mangabeira - CE (2307502), Limoeiro - PE (2608909), Limoeiro de Anadia - AL (2704203), Limoeiro do Norte - CE (2307601), Livramento - PB (2508505), Logradouro - PB (2508554), Lucena - PB (2508604), Lucrécia - RN (2406908), Luís Gomes - RN (2407005), Macaíba - RN (2407104), Macambira - SE (2803708), Macaparana - PE (2609006), Macau - RN (2407203), Maceió - AL (2704302), Machados - PE (2609105), Macururé - BA (2919900), Mãe d'Água - PB (2508703), Major Isidoro - AL (2704401), Major Sales - RN (2407252), Malhada dos Bois - SE (2803807), Malhador - SE (2803906), Malta - PB (2508802), Mamanguape - PB (2508901), Manaíra - PB (2509008), Manari - PE (2609154), Maragogi - AL (2704500), Maraial - PE (2609204), Maravilha - AL (2704609), Marcação - PB (2509057), Marcelino Vieira - RN (2407302), Marechal Deodoro - AL (2704708), Mari - PB (2509107), Maribondo - AL (2704807), Marizópolis - PB (2509156), Martins - RN (2407401), Maruim - SE (2804003), Mar Vermelho - AL (2704906), Massaranduba - PB (2509206), Mata Grande - AL (2705002), Mataraca - PB (2509305), Matinhas - PB (2509339), Mato Grosso - PB (2509370), Matriz de Camaragibe - AL (2705101), Maturéia - PB (2509396), Mauriti - CE (2308104), Maxaranguape - RN (2407500), Messias - AL (2705200), Messias Targino - RN (2407609), Milagres - CE (2308302), Milhã - CE (2308351), Minador do Negrão - AL (2705309), Mirandiba - PE (2609303), Missão Velha - CE (2308401), Mogeiro - PB (2509404), Moita Bonita - SE (2804102), Montadas - PB (2509503), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Monte Alegre de Sergipe - SE (2804201), Monte das Gameleiras - RN (2407906), Monte Horebe - PB (2509602), Monteiro - PB (2509701), Monteirópolis - AL (2705408), Morada Nova - CE (2308708), Moreno - PE (2609402), Mossoró - RN (2408003), Mulungu - PB (2509800), Muribeca - SE (2804300), Murici - AL (2705507), Natal - RN (2408102), Natuba - PB (2509909), Nazaré da Mata - PE (2609501), Nazarezinho - PB (2510006), Neópolis - SE (2804409), Nísia Floresta - RN (2408201), Nossa Senhora Aparecida - SE (2804458), Nossa Senhora da Glória - SE (2804508), Nossa Senhora das Dores - SE (2804607), Nossa Senhora de Lourdes - SE (2804706), Nossa Senhora do Socorro - SE (2804805), Nova Cruz - RN (2408300), Nova Floresta - PB (2510105), Nova Olinda - PB (2510204), Nova Palmeira - PB (2510303), Novo Lino - AL (2705606), Novo Triunfo - BA (2923050), Ocara - CE (2309458), Olho d'Água - PB (2510402), Olho d'Água das Flores - AL (2705705), Olho d'Água do Borges - RN (2408409), Olho d'Água do Casado - AL (2705804), Olho d'Água Grande - AL (2705903), Olinda - PE (2609600), Olindina - BA (2923100), Olivedos - PB (2510501), Olivença - AL (2706000), Orobó - PE (2609709), Orós - CE (2309508), Ouro Branco - AL (2706109), Ouro Branco - RN (2408508), Ouro Velho - PB (2510600), Pacatuba - SE (2804904), Palestina - AL (2706208), Palhano - CE (2310001), Palmares - PE (2610004), Palmeira dos Índios - AL (2706307), Palmeirina - PE (2610103), Panelas - PE (2610202), Pão de Açúcar - AL (2706406), Paraná - RN (2408607), Paranatama - PE (2610301), Parari - PB (2510659), Paraú - RN (2408706), Parazinho - RN (2408805), Parelhas - RN (2408904), Pariconha - AL (2706422), Paripiranga - BA (2923803), Paripueira - AL (2706448), Parnamirim - RN (2403251), Passa e Fica - RN (2409100), Passagem - PB (2510709), Passagem - RN (2409209), Passira - PE (2610509), Passo de Camaragibe - AL (2706505), Patos - PB (2510808), Patu - RN (2409308), Paudalho - PE (2610608), Pau dos Ferros - RN (2409407), Paulista - PB (2510907), Paulista - PE (2610707), Paulo Afonso - BA (2924009), Paulo Jacinto - AL (2706604), Pedra - PE (2610806), Pedra Branca - PB (2511004), Pedra Grande - RN (2409506), Pedra Lavrada - PB (2511103), Pedra Mole - SE (2805000), Pedra Preta - RN (2409605), Pedras de Fogo - PB (2511202), Pedrinhas - SE (2805109), Pedro Alexandre - BA (2924207), Pedro Avelino - RN (2409704), Pedro Régis - PB (2512721), Pedro Velho - RN (2409803), Penaforte - CE (2310605), Pendências - RN (2409902), Penedo - AL (2706703), Pereiro - CE (2310803), Pesqueira - PE (2610905), Petrolândia - PE (2611002), Piaçabuçu - AL (2706802), Piancó - PB (2511301), Picuí - PB (2511400), Pilar - PB (2511509), Pilar - AL (2706901), Pilões - PB (2511608), Pilões - RN (2410009), Pilõezinhos - PB (2511707), Pindoba - AL (2707008), Pinhão - SE (2805208), Pirambu - SE (2805307), Piranhas - AL (2707107), Pirpirituba - PB (2511806), Pitimbu - PB (2511905), Poção - PE (2611200), Pocinhos - PB (2512002), Poço Branco - RN (2410108), Poço Dantas - PB (2512036), Poço das Trincheiras - AL (2707206), Poço de José de Moura - PB (2512077), Poço Redondo - SE (2805406), Poço Verde - SE (2805505), Pombal - PB (2512101), Pombos - PE (2611309), Portalegre - RN (2410207), Porteiras - CE (2311108), Porto Calvo - AL (2707305), Porto da Folha - SE (2805604), Porto de Pedras - AL (2707404), Porto do Mangue - RN (2410256), Porto Real do Colégio - AL (2707503), Potiretama - CE (2311231), Prata - PB (2512200), Primavera - PE (2611408), Princesa Isabel - PB (2512309), Propriá - SE (2805703), Pureza - RN (2410405), Puxinanã - PB (2512408), Quebrangulo - AL (2707602), Queimadas - PB (2512507), Quipapá - PE (2611507), Quixaba - PB (2512606), Quixaba - PE (2611533), Quixadá - CE (2311306), Quixelô - CE (2311355), Quixeramobim - CE (2311405), Quixeré - CE (2311504), Rafael Fernandes - RN (2410504), Rafael Godeiro - RN (2410603), Recife - PE (2611606), Remígio - PB (2512705), Riachão - PB (2512747), Riachão do Bacamarte - PB (2512754), Riachão do Dantas - SE (2805802), Riachão do Poço - PB (2512762), Riacho da Cruz - RN (2410702), Riacho das Almas - PE (2611705), Riacho de Santana - RN (2410801), Riacho de Santo Antônio - PB (2512788), Riacho dos Cavalos - PB (2512804), Riachuelo - RN (2410900), Riachuelo - SE (2805901), Ribeira do Amparo - BA (2926509), Ribeira do Pombal - BA (2926608), Ribeirão - PE (2611804), Ribeirópolis - SE (2806008), Rio do Fogo - RN (2408953), Rio Formoso - PE (2611903), Rio Largo - AL (2707701), Rio Real - BA (2927002), Rio Tinto - PB (2512903), Rodelas - BA (2927101), Rodolfo Fernandes - RN (2411007), Rosário do Catete - SE (2806107), Roteiro - AL (2707800), Russas - CE (2311801), Ruy Barbosa - RN (2411106), Sairé - PE (2612000), Salgadinho - PE (2612109), Salgadinho - PB (2513000), Salgado - SE (2806206), Salgado de São Félix - PB (2513109), Salgueiro - PE (2612208), Saloá - PE (2612307), Sanharó - PE (2612406), Santa Brígida - BA (2927606), Santa Cecília - PB (2513158), Santa Cruz - RN (2411205), Santa Cruz - PB (2513208), Santa Cruz da Baixa Verde - PE (2612471), Santa Cruz do Capibaribe - PE (2612505), Santa Helena - PB (2513307), Santa Inês - PB (2513356), Santa Luzia - PB (2513406), Santa Luzia do Itanhy - SE (2806305), Santa Luzia do Norte - AL (2707909), Santa Maria - RN (2409332), Santa Maria do Cambucá - PE (2612703), Santana de Mangueira - PB (2513505), Santana do Ipanema - AL (2708006), Santana do Matos - RN (2411403), Santana do Mundaú - AL (2708105), Santana do São Francisco - SE (2806404), Santana do Seridó - RN (2411429), Santana dos Garrotes - PB (2513604), Santa Rita - PB (2513703), Santa Rosa de Lima - SE (2806503), Santa Teresinha - PB (2513802), Santa Terezinha - PE (2612802), Santo Amaro das Brotas - SE (2806602), Santo André - PB (2513851), Santo Antônio - RN (2411502), São Benedito do Sul - PE (2612901), São Bentinho - PB (2513927), São Bento - PB (2513901), São Bento do Norte - RN (2411601), São Bento do Trairí - RN (2411700), São Bento do Una - PE (2613008), São Brás - AL (2708204), São Caitano - PE (2613107), São Cristóvão - SE (2806701), São Domingos - PB (2513968), São Domingos - SE (2806800), São Domingos do Cariri - PB (2513943), São Fernando - RN (2411809), São Francisco - PB (2513984), São Francisco - SE (2806909), São Francisco do Oeste - RN (2411908), São Gonçalo do Amarante - RN (2412005), São João - PE (2613206), São João do Cariri - PB (2514008), São João do Jaguaribe - CE (2312502), São João do Rio do Peixe - PB (2500700), São João do Sabugi - RN (2412104), São João do Tigre - PB (2514107), São Joaquim do Monte - PE (2613305), São José da Coroa Grande - PE (2613404), São José da Lagoa Tapada - PB (2514206), São José da Laje - AL (2708303), São José da Tapera - AL (2708402), São José de Caiana - PB (2514305), São José de Espinharas - PB (2514404), São José de Mipibu - RN (2412203), São José de Piranhas - PB (2514503), São José de Princesa - PB (2514552), São José do Belmonte - PE (2613503), São José do Bonfim - PB (2514602), São José do Brejo do Cruz - PB (2514651), São José do Campestre - RN (2412302), São José do Egito - PE (2613602), São José do Sabugi - PB (2514701), São José dos Cordeiros - PB (2514800), São José do Seridó - RN (2412401), São José dos Ramos - PB (2514453), São Lourenço da Mata - PE (2613701), São Luís do Quitunde - AL (2708501), São Mamede - PB (2514909), São Miguel - RN (2412500), São Miguel de Taipu - PB (2515005), São Miguel do Aleixo - SE (2807006), São Miguel do Gostoso - RN (2412559), São Miguel dos Campos - AL (2708600), São Miguel dos Milagres - AL (2708709), São Paulo do Potengi - RN (2412609), São Pedro - RN (2412708), São Rafael - RN (2412807), São Sebastião - AL (2708808), São Sebastião de Lagoa de Roça - PB (2515104), São Sebastião do Umbuzeiro - PB (2515203), São Tomé - RN (2412906), São Vicente - RN (2413003), São Vicente do Seridó - PB (2515401), São Vicente Férrer - PE (2613800), Sapé - PB (2515302), Satuba - AL (2708907), Senador Elói de Souza - RN (2413102), Senador Georgino Avelino - RN (2413201), Senador Rui Palmeira - AL (2708956), Serra Branca - PB (2515500), Serra Caiada - RN (2410306), Serra da Raiz - PB (2515609), Serra de São Bento - RN (2413300), Serra do Mel - RN (2413359), Serra Grande - PB (2515708), Serra Negra do Norte - RN (2413409), Serra Redonda - PB (2515807), Serraria - PB (2515906), Serra Talhada - PE (2613909), Serrinha - RN (2413508), Serrinha dos Pintos - RN (2413557), Sertânia - PE (2614105), Sertãozinho - PB (2515930), Severiano Melo - RN (2413607), Simão Dias - SE (2807105), Sirinhaém - PE (2614204), Siriri - SE (2807204), Sítio do Quinto - BA (2930766), Sítio Novo - RN (2413706), Sobrado - PB (2515971), Solânea - PB (2516003), Soledade - PB (2516102), Solidão - PE (2614402), Solonópole - CE (2313005), Sossêgo - PB (2516151), Sousa - PB (2516201), Sumé - PB (2516300), Surubim - PE (2614501), Tabira - PE (2614600), Taboleiro Grande - RN (2413805), Tabuleiro do Norte - CE (2313104), Tacaimbó - PE (2614709), Tacaratu - PE (2614808), Tacima - PB (2516409), Taipu - RN (2413904), Tamandaré - PE (2614857), Tangará - RN (2414001), Tanque d'Arca - AL (2709004), Taperoá - PB (2516508), Taquarana - AL (2709103), Taquaritinga do Norte - PE (2615003), Tavares - PB (2516607), Teixeira - PB (2516706), Telha - SE (2807303), Tenente Ananias - RN (2414100), Tenente Laurentino Cruz - RN (2414159), Tenório - PB (2516755), Teotônio Vilela - AL (2709152), Terezinha - PE (2615102), Tibau - RN (2411056), Tibau do Sul - RN (2414209), Timbaúba - PE (2615300), Timbaúba dos Batistas - RN (2414308), Tobias Barreto - SE (2807402), Tomar do Geru - SE (2807501), Toritama - PE (2615409), Touros - RN (2414407), Tracunhaém - PE (2615508), Traipu - AL (2709202), Triunfo - PE (2615706), Triunfo - PB (2516805), Triunfo Potiguar - RN (2414456), Tupanatinga - PE (2615805), Tuparetama - PE (2615904), Uiraúna - PB (2516904), Umari - CE (2313708), Umarizal - RN (2414506), Umbaúba - SE (2807600), Umbuzeiro - PB (2517001), União dos Palmares - AL (2709301), Upanema - RN (2414605), Várzea - PB (2517100), Várzea - RN (2414704), Várzea Alegre - CE (2314003), Venha-Ver - RN (2414753), Venturosa - PE (2616001), Vera Cruz - RN (2414803), Verdejante - PE (2616100), Vertente do Lério - PE (2616183), Vertentes - PE (2616209), Vicência - PE (2616308), Viçosa - RN (2414902), Viçosa - AL (2709400), Vieirópolis - PB (2517209), Vila Flor - RN (2415008), Vista Serrana - PB (2505501), Vitória de Santo Antão - PE (2616407), Xexéu - PE (2616506), Zabelê - PB (2517407)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Sul Cearense, Metropolitana de Recife, Nordeste Baiano, Central Potiguar, Sertões Cearenses, Oeste Potiguar, Sertão Pernambucano, Agreste Pernambucano, Sertão Alagoano, Sertão Paraibano, Mata Pernambucana, Agreste Paraibano, Borborema, Mata Paraibana, Jaguaribe, Leste Sergipano, Leste Alagoano, Agreste Sergipano, Norte Cearense, Agreste Alagoano, Leste Potiguar, Centro-Sul Cearense, Agreste Potiguar, São Francisco Pernambucano, Sertão Sergipano, Vale São-Franciscano da Bahia",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-4.926779,-36.68335 -4.751624,-37.144775 -4.417614,-37.622681 -3.995781,-38.078613 -4.351889,-38.496094 -4.806365,-38.858643 -5.965754,-39.265137 -7.710992,-39.012451 -8.874217,-38.858643 -10.773952,-38.551025 -11.549998,-38.226929 -12.275599,-37.809448 -12.24876,-37.683105 -12.093039,-37.556763 -11.576907,-37.315063 -10.90883,-36.870117 -10.417586,-36.221924 -9.62783,-35.540771 -8.711359,-34.914551 -7.798079,-34.705811 -6.899161,-34.782715 -5.238657,-35.238647 -5.052643,-35.463867 -4.97056,-35.727539 -4.99245,-36.210938 -4.926779,-36.68335"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.68335,
+              -4.926779
+            ],
+            [
+              -37.144775,
+              -4.751624
+            ],
+            [
+              -37.622681,
+              -4.417614
+            ],
+            [
+              -38.078613,
+              -3.995781
+            ],
+            [
+              -38.496094,
+              -4.351889
+            ],
+            [
+              -38.858643,
+              -4.806365
+            ],
+            [
+              -39.265137,
+              -5.965754
+            ],
+            [
+              -39.012451,
+              -7.710992
+            ],
+            [
+              -38.858643,
+              -8.874217
+            ],
+            [
+              -38.551025,
+              -10.773952
+            ],
+            [
+              -38.226929,
+              -11.549998
+            ],
+            [
+              -37.809448,
+              -12.275599
+            ],
+            [
+              -37.683105,
+              -12.24876
+            ],
+            [
+              -37.556763,
+              -12.093039
+            ],
+            [
+              -37.315063,
+              -11.576907
+            ],
+            [
+              -36.870117,
+              -10.90883
+            ],
+            [
+              -36.221924,
+              -10.417586
+            ],
+            [
+              -35.540771,
+              -9.62783
+            ],
+            [
+              -34.914551,
+              -8.711359
+            ],
+            [
+              -34.705811,
+              -7.798079
+            ],
+            [
+              -34.782715,
+              -6.899161
+            ],
+            [
+              -35.238647,
+              -5.238657
+            ],
+            [
+              -35.463867,
+              -5.052643
+            ],
+            [
+              -35.727539,
+              -4.97056
+            ],
+            [
+              -36.210938,
+              -4.99245
+            ],
+            [
+              -36.68335,
+              -4.926779
             ]
           ]
         ]
