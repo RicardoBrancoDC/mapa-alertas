@@ -1,4 +1,309 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27654.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27654.2",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+        "event": "Chuvas Intensas",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-06-27T09:00:00-03:00",
+        "expires": "2026-06-27T23:59:00-03:00",
+        "sent": "2026-06-27T00:00:00-03:00",
+        "pubDate": "Sat, 27 Jun 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 27/06/2026 09:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h). Risco de corte de energia elÃ©trica,  queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda) Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54760",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Agreste Paraibano, Mata Paraibana, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Agreste Pernambucano, Central Potiguar",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Agreste Paraibano, Mata Paraibana, Leste Potiguar, Leste Alagoano, Agreste Potiguar, Agreste Pernambucano, Central Potiguar"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54760"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -35.099287,
+              -5.49593
+            ],
+            [
+              -35.249061,
+              -5.197769
+            ],
+            [
+              -35.64846,
+              -4.988972
+            ],
+            [
+              -36.097784,
+              -4.889522
+            ],
+            [
+              -36.207618,
+              -4.929304
+            ],
+            [
+              -36.437274,
+              -4.959139
+            ],
+            [
+              -36.357393,
+              -5.197769
+            ],
+            [
+              -36.177663,
+              -5.43631
+            ],
+            [
+              -36.077814,
+              -5.78401
+            ],
+            [
+              -35.848159,
+              -6.111647
+            ],
+            [
+              -35.74831,
+              -6.587849
+            ],
+            [
+              -35.778265,
+              -6.944702
+            ],
+            [
+              -35.76828,
+              -7.301285
+            ],
+            [
+              -35.738324,
+              -7.707047
+            ],
+            [
+              -35.718355,
+              -8.063005
+            ],
+            [
+              -35.76828,
+              -8.468021
+            ],
+            [
+              -35.848159,
+              -8.902198
+            ],
+            [
+              -35.948009,
+              -9.257051
+            ],
+            [
+              -36.127739,
+              -9.72963
+            ],
+            [
+              -36.277513,
+              -9.995164
+            ],
+            [
+              -36.357393,
+              -10.201542
+            ],
+            [
+              -36.337423,
+              -10.388149
+            ],
+            [
+              -36.237573,
+              -10.456871
+            ],
+            [
+              -35.738324,
+              -9.946008
+            ],
+            [
+              -35.438775,
+              -9.483577
+            ],
+            [
+              -34.989452,
+              -8.912059
+            ],
+            [
+              -34.809723,
+              -8.448274
+            ],
+            [
+              -34.729843,
+              -7.954273
+            ],
+            [
+              -34.699888,
+              -7.390387
+            ],
+            [
+              -34.699888,
+              -7.0735
+            ],
+            [
+              -34.769783,
+              -6.587849
+            ],
+            [
+              -34.989452,
+              -6.062018
+            ],
+            [
+              -35.099287,
+              -5.49593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27643.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27643.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-06-27T12:00:00-03:00",
+        "expires": "2026-06-27T18:00:00-03:00",
+        "sent": "2026-06-26T12:11:19-03:00",
+        "pubDate": "Sat, 27 Jun 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 27/06/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54741",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense, Sudeste Paraense",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte Mato-grossense, Sudoeste Paraense, Nordeste Mato-grossense, Sudeste Paraense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54741"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.019043,
+              -7.623887
+            ],
+            [
+              -57.32666,
+              -8.167993
+            ],
+            [
+              -57.65625,
+              -8.971897
+            ],
+            [
+              -57.744141,
+              -9.817329
+            ],
+            [
+              -57.502441,
+              -10.466206
+            ],
+            [
+              -56.953125,
+              -11.22151
+            ],
+            [
+              -56.008301,
+              -11.458491
+            ],
+            [
+              -54.84375,
+              -11.566144
+            ],
+            [
+              -53.745117,
+              -11.566144
+            ],
+            [
+              -52.844238,
+              -11.415418
+            ],
+            [
+              -52.338867,
+              -11.199957
+            ],
+            [
+              -51.899414,
+              -10.768556
+            ],
+            [
+              -51.745605,
+              -10.228437
+            ],
+            [
+              -51.745605,
+              -9.60075
+            ],
+            [
+              -51.833496,
+              -8.711359
+            ],
+            [
+              -52.075195,
+              -7.993957
+            ],
+            [
+              -52.514648,
+              -7.580328
+            ],
+            [
+              -53.327637,
+              -7.253496
+            ],
+            [
+              -54.360352,
+              -7.079088
+            ],
+            [
+              -55.151367,
+              -7.035476
+            ],
+            [
+              -56.052246,
+              -7.035476
+            ],
+            [
+              -56.711426,
+              -7.231699
+            ],
+            [
+              -57.019043,
+              -7.623887
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
