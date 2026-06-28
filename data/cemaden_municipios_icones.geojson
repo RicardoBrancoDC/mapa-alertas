@@ -39,6 +39,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Vicência", "uf": "PE", "codibge": "2616308", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -35.351365857897569, -7.667030376 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Vicente Férrer", "uf": "PE", "codibge": "2613800", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.48515285254404, -7.601849486 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Goiana", "uf": "PE", "codibge": "2606200", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -34.950240017667525, -7.585594918 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Goiana", "uf": "PE", "codibge": "2606200", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -34.950240017667525, -7.585594918 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Goiana", "uf": "PE", "codibge": "2606200", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -34.950240017667525, -7.585594918 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Extremoz", "uf": "RN", "codibge": "2403608", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.269978262280439, -5.680407271500004 ] } }
 ]
 }
