@@ -1,4 +1,373 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27657.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27657.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-06-28T09:00:00-03:00",
+        "expires": "2026-06-29T23:59:00-03:00",
+        "sent": "2026-06-28T11:48:37-03:00",
+        "pubDate": "Sun, 28 Jun 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 28/06/2026 09:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54764",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Nordeste Paraense, MarajÃ³, Baixo Amazonas, Norte de Roraima, Norte do AmapÃ¡, Metropolitana de BelÃ©m, Centro Amazonense, Norte Amazonense, Sul de Roraima, Sul do AmapÃ¡, Sudeste Paraense, Sudoeste Paraense",
+        "areas": [
+          "Aviso para as Ã¡reas: Nordeste Paraense, MarajÃ³, Baixo Amazonas, Norte de Roraima, Norte do AmapÃ¡, Metropolitana de BelÃ©m, Centro Amazonense, Norte Amazonense, Sul de Roraima, Sul do AmapÃ¡, Sudeste Paraense, Sudoeste Paraense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54764"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.188205,
+              3.637677
+            ],
+            [
+              -63.972414,
+              2.54436
+            ],
+            [
+              -63.4036,
+              2.446444
+            ],
+            [
+              -62.858854,
+              -0.79462
+            ],
+            [
+              -61.269483,
+              -3.217323
+            ],
+            [
+              -58.414124,
+              -3.341585
+            ],
+            [
+              -54.339475,
+              -2.561856
+            ],
+            [
+              -49.170347,
+              -2.633348
+            ],
+            [
+              -47.574264,
+              -2.616287
+            ],
+            [
+              -46.461182,
+              -1.922247
+            ],
+            [
+              -46.278107,
+              -1.462244
+            ],
+            [
+              -46.33417,
+              -1.024124
+            ],
+            [
+              -48.250867,
+              -0.572316
+            ],
+            [
+              -49.893786,
+              0.435915
+            ],
+            [
+              -49.945254,
+              1.653895
+            ],
+            [
+              -50.524946,
+              2.257789
+            ],
+            [
+              -51.417239,
+              4.368348
+            ],
+            [
+              -52.638607,
+              2.339479
+            ],
+            [
+              -54.276131,
+              2.177226
+            ],
+            [
+              -55.041527,
+              2.489435
+            ],
+            [
+              -55.97652,
+              2.402817
+            ],
+            [
+              -55.821945,
+              1.816098
+            ],
+            [
+              -57.180213,
+              1.870973
+            ],
+            [
+              -58.829386,
+              1.113231
+            ],
+            [
+              -59.775065,
+              1.790163
+            ],
+            [
+              -59.988658,
+              2.610545
+            ],
+            [
+              -59.99294,
+              3.148144
+            ],
+            [
+              -59.679049,
+              3.938543
+            ],
+            [
+              -59.787944,
+              4.38474
+            ],
+            [
+              -60.208045,
+              4.521367
+            ],
+            [
+              -60.056786,
+              4.843162
+            ],
+            [
+              -60.083754,
+              5.229552
+            ],
+            [
+              -60.632227,
+              5.189975
+            ],
+            [
+              -60.548092,
+              4.925222
+            ],
+            [
+              -60.971707,
+              4.502942
+            ],
+            [
+              -61.252909,
+              4.490301
+            ],
+            [
+              -61.541872,
+              4.248714
+            ],
+            [
+              -61.958366,
+              4.069748
+            ],
+            [
+              -62.452371,
+              4.110831
+            ],
+            [
+              -62.742625,
+              3.667236
+            ],
+            [
+              -63.014526,
+              3.596586
+            ],
+            [
+              -63.281885,
+              3.849937
+            ],
+            [
+              -64.008726,
+              3.848124
+            ],
+            [
+              -64.179439,
+              4.065186
+            ],
+            [
+              -64.645118,
+              4.0098
+            ],
+            [
+              -64.188205,
+              3.637677
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27656.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27656.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "event": "Tempestade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-06-28T08:43:00-03:00",
+        "expires": "2026-06-28T23:59:00-03:00",
+        "sent": "2026-06-28T11:41:16-03:00",
+        "pubDate": "Sun, 28 Jun 2026 08:43:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 28/06/2026 08:43. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54761",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Vale do ItajaÃ­, Noroeste Rio-grandense, Sudoeste Paranaense, Nordeste Rio-grandense, Centro-Sul Paranaense, Sudeste Paranaense, Sul Catarinense",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Vale do ItajaÃ­, Noroeste Rio-grandense, Sudoeste Paranaense, Nordeste Rio-grandense, Centro-Sul Paranaense, Sudeste Paranaense, Sul Catarinense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54761"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.637415,
+              -26.87266
+            ],
+            [
+              -53.718353,
+              -26.724269
+            ],
+            [
+              -53.709135,
+              -26.508365
+            ],
+            [
+              -53.680646,
+              -26.441472
+            ],
+            [
+              -53.696164,
+              -26.376012
+            ],
+            [
+              -53.641048,
+              -26.283423
+            ],
+            [
+              -53.638735,
+              -26.210926
+            ],
+            [
+              -53.723122,
+              -26.065477
+            ],
+            [
+              -53.820345,
+              -25.953301
+            ],
+            [
+              -53.825163,
+              -25.785602
+            ],
+            [
+              -53.855635,
+              -25.65941
+            ],
+            [
+              -53.910099,
+              -25.616901
+            ],
+            [
+              -53.958616,
+              -25.610158
+            ],
+            [
+              -53.95267,
+              -25.582051
+            ],
+            [
+              -52.772839,
+              -25.897654
+            ],
+            [
+              -51.597301,
+              -26.339923
+            ],
+            [
+              -50.508072,
+              -26.896108
+            ],
+            [
+              -49.841947,
+              -27.445457
+            ],
+            [
+              -49.395081,
+              -27.996633
+            ],
+            [
+              -49.398836,
+              -28.338768
+            ],
+            [
+              -49.677118,
+              -28.626323
+            ],
+            [
+              -50.081789,
+              -28.64292
+            ],
+            [
+              -50.49748,
+              -28.518549
+            ],
+            [
+              -51.84993,
+              -27.708379
+            ],
+            [
+              -53.842887,
+              -27.194014
+            ],
+            [
+              -53.637415,
+              -26.87266
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
