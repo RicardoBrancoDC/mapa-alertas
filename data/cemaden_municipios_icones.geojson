@@ -10,6 +10,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Vicência", "uf": "PE", "codibge": "2616308", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.351365857897569, -7.667030376 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Nazaré Da Mata", "uf": "PE", "codibge": "2609501", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.232630558523084, -7.740028330500007 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Guaratuba", "uf": "PR", "codibge": "4109609", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -48.719471375526155, -25.794453956500007 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Guaratuba", "uf": "PR", "codibge": "4109609", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -48.719471375526155, -25.794453956500007 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Guaratuba", "uf": "PR", "codibge": "4109609", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -48.719471375526155, -25.794453956500007 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Pato Branco", "uf": "PR", "codibge": "4118501", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.660262802060537, -26.15215749 ] } }
 ]
 }
