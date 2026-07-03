@@ -5,6 +5,310 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27713.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27713.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-03T12:00:00-03:00",
+        "expires": "2026-07-03T18:00:00-03:00",
+        "sent": "2026-07-03T11:39:47-03:00",
+        "pubDate": "Fri, 03 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 03/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54843",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte de Minas, Jequitinhonha, Vale SÃ£o-Franciscano da Bahia, Centro Sul Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte de Minas, Jequitinhonha, Vale SÃ£o-Franciscano da Bahia, Centro Sul Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54843"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -44.296875,
+              -14.237762
+            ],
+            [
+              -43.687134,
+              -13.827412
+            ],
+            [
+              -42.907104,
+              -13.795406
+            ],
+            [
+              -41.995239,
+              -14.072645
+            ],
+            [
+              -41.693115,
+              -14.594216
+            ],
+            [
+              -41.434937,
+              -15.570128
+            ],
+            [
+              -41.621704,
+              -16.783506
+            ],
+            [
+              -42.885132,
+              -16.904428
+            ],
+            [
+              -44.187012,
+              -16.430816
+            ],
+            [
+              -44.725342,
+              -15.771109
+            ],
+            [
+              -44.79126,
+              -14.966013
+            ],
+            [
+              -44.296875,
+              -14.237762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27712.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27712.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-03T12:00:00-03:00",
+        "expires": "2026-07-03T18:00:00-03:00",
+        "sent": "2026-07-03T11:37:26-03:00",
+        "pubDate": "Fri, 03 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 03/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54842",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Goiano, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Leste Goiano, Sudeste Paraense, Ocidental do Tocantins, Oeste Maranhense, Sudeste Piauiense, Sul Goiano, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Nordeste Mato-grossense, SertÃµes Cearenses, Leste Maranhense, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Sul Amazonense, Noroeste Goiano, Centro Maranhense, RibeirÃ£o Preto, SertÃ£o Pernambucano, Norte Piauiense, Vale SÃ£o-Franciscano da Bahia, Sul Cearense, SÃ£o JosÃ© do Rio Preto, Leste de Mato Grosso do Sul, Noroeste Cearense, Extremo Oeste Baiano, Sudeste Mato-grossense",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Goiano, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Leste Goiano, Sudeste Paraense, Ocidental do Tocantins, Oeste Maranhense, Sudeste Piauiense, Sul Goiano, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Nordeste Mato-grossense, SertÃµes Cearenses, Leste Maranhense, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Sul Amazonense, Noroeste Goiano, Centro Maranhense, RibeirÃ£o Preto, SertÃ£o Pernambucano, Norte Piauiense, Vale SÃ£o-Franciscano da Bahia, Sul Cearense, SÃ£o JosÃ© do Rio Preto, Leste de Mato Grosso do Sul, Noroeste Cearense, Extremo Oeste Baiano, Sudeste Mato-grossense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54842"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.044922,
+              -4.477856
+            ],
+            [
+              -47.241211,
+              -4.740675
+            ],
+            [
+              -52.734375,
+              -5.397273
+            ],
+            [
+              -55.854492,
+              -6.227934
+            ],
+            [
+              -58.579102,
+              -8.494105
+            ],
+            [
+              -57.788086,
+              -10.876465
+            ],
+            [
+              -55.678711,
+              -12.811801
+            ],
+            [
+              -53.085938,
+              -16.003576
+            ],
+            [
+              -51.416016,
+              -19.642588
+            ],
+            [
+              -49.658203,
+              -20.055931
+            ],
+            [
+              -47.944336,
+              -20.385825
+            ],
+            [
+              -46.977539,
+              -18.729502
+            ],
+            [
+              -48.339844,
+              -16.425548
+            ],
+            [
+              -48.208008,
+              -14.43468
+            ],
+            [
+              -46.274414,
+              -11.350797
+            ],
+            [
+              -43.989258,
+              -9.579084
+            ],
+            [
+              -41.308594,
+              -8.798225
+            ],
+            [
+              -40.429688,
+              -7.057282
+            ],
+            [
+              -41.044922,
+              -4.477856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27710.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27710.2",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-03T12:00:00-03:00",
+        "expires": "2026-07-03T18:00:00-03:00",
+        "sent": "2026-07-03T00:00:00-03:00",
+        "pubDate": "Fri, 03 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 03/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54841",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Goiano, Leste Goiano, Sudeste Paraense, Ocidental do Tocantins, Oeste Maranhense, Centro-Norte Piauiense, Nordeste Mato-grossense, Leste Maranhense, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Sul Amazonense, Noroeste Goiano, Centro Maranhense, Norte Piauiense, Sul Goiano, Sudeste Piauiense, SertÃµes Cearenses, Extremo Oeste Baiano, Sudeste Mato-grossense, Noroeste Cearense",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Goiano, Leste Goiano, Sudeste Paraense, Ocidental do Tocantins, Oeste Maranhense, Centro-Norte Piauiense, Nordeste Mato-grossense, Leste Maranhense, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Sul Amazonense, Noroeste Goiano, Centro Maranhense, Norte Piauiense, Sul Goiano, Sudeste Piauiense, SertÃµes Cearenses, Extremo Oeste Baiano, Sudeste Mato-grossense, Noroeste Cearense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54841"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.855469,
+              -5.003394
+            ],
+            [
+              -55.283203,
+              -5.834616
+            ],
+            [
+              -58.095703,
+              -7.318882
+            ],
+            [
+              -58.666992,
+              -8.754795
+            ],
+            [
+              -57.875977,
+              -10.876465
+            ],
+            [
+              -54.18457,
+              -13.581921
+            ],
+            [
+              -52.602539,
+              -16.930705
+            ],
+            [
+              -49.130859,
+              -17.14079
+            ],
+            [
+              -47.724609,
+              -14.477234
+            ],
+            [
+              -46.362305,
+              -10.876465
+            ],
+            [
+              -43.110352,
+              -7.188101
+            ],
+            [
+              -40.671387,
+              -6.446318
+            ],
+            [
+              -41.154785,
+              -4.54357
+            ],
+            [
+              -46.318359,
+              -4.477856
+            ],
+            [
+              -51.855469,
+              -5.003394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27706.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27706.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
@@ -140,6 +444,114 @@
             [
               -38.74054,
               -3.324244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27695.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27695.2",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-03T12:00:00-03:00",
+        "expires": "2026-07-03T18:00:00-03:00",
+        "sent": "2026-07-01T00:00:00-03:00",
+        "pubDate": "Fri, 03 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 03/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54823",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Goiano, Sudeste Paraense, Nordeste Mato-grossense, Ocidental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Centro-Sul Mato-grossense, Sul Amazonense, Noroeste Goiano, Sul Goiano, Sudeste Mato-grossense, Centro Amazonense",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Goiano, Sudeste Paraense, Nordeste Mato-grossense, Ocidental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Centro-Sul Mato-grossense, Sul Amazonense, Noroeste Goiano, Sul Goiano, Sudeste Mato-grossense, Centro Amazonense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54823"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.09668,
+              -5.266008
+            ],
+            [
+              -56.030273,
+              -6.315299
+            ],
+            [
+              -58.095703,
+              -7.231699
+            ],
+            [
+              -59.0625,
+              -8.233237
+            ],
+            [
+              -59.677734,
+              -9.579084
+            ],
+            [
+              -59.765625,
+              -11.781325
+            ],
+            [
+              -58.798828,
+              -13.581921
+            ],
+            [
+              -55.415039,
+              -14.817371
+            ],
+            [
+              -51.547852,
+              -16.846605
+            ],
+            [
+              -50.141602,
+              -16.488765
+            ],
+            [
+              -49.394531,
+              -15.834536
+            ],
+            [
+              -48.537598,
+              -13.83808
+            ],
+            [
+              -48.999023,
+              -11.953349
+            ],
+            [
+              -49.87793,
+              -9.838979
+            ],
+            [
+              -50.581055,
+              -7.144499
+            ],
+            [
+              -51.855469,
+              -5.353521
+            ],
+            [
+              -54.09668,
+              -5.266008
             ]
           ]
         ]
