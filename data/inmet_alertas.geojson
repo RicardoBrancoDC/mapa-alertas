@@ -4,34 +4,38 @@
     {
       "type": "Feature",
       "properties": {
-        "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27706.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27706.1",
-        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "event": "Chuvas Intensas",
-        "severity": "Moderate",
-        "nivel": "Perigo Potencial",
-        "nivel_grupo": "perigo_potencial",
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
         "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 03/07/2026 07:45. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-07-03T07:45:00-03:00",
         "expires": "2026-07-03T23:59:00-03:00",
         "sent": "2026-07-03T10:41:51-03:00",
-        "pubDate": "Fri, 03 Jul 2026 07:45:00 +0000",
-        "sender": "info.aviso@inmet.gov.br",
-        "senderName": "Instituto Nacional de Meteorologia",
-        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "description": "INMET publica aviso iniciando em: 03/07/2026 07:45. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
-        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "web": "https://avisos.inmet.gov.br/54834",
-        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
-        "areaDesc": "Aviso para as Ã¡reas: Norte Cearense, Central Potiguar, Oeste Potiguar, Agreste Paraibano, Jaguaribe, Metropolitana de Fortaleza, Leste Potiguar, Mata Paraibana, SertÃµes Cearenses, Borborema, Agreste Potiguar, SertÃ£o Paraibano",
-        "areas": [
-          "Aviso para as Ã¡reas: Norte Cearense, Central Potiguar, Oeste Potiguar, Agreste Paraibano, Jaguaribe, Metropolitana de Fortaleza, Leste Potiguar, Mata Paraibana, SertÃµes Cearenses, Borborema, Agreste Potiguar, SertÃ£o Paraibano"
-        ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54834"
+        "response_type": "Prepare",
+        "updated_at": "2026-07-03T22:29:10.397572+00:00",
+        "link": "https://avisos.inmet.gov.br/54834",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54834",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54834",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27706.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Acarape - CE (2300150), Acari - RN (2400109), Açu - RN (2400208), Afonso Bezerra - RN (2400307), Água Nova - RN (2400406), Alexandria - RN (2400505), Algodão de Jandaíra - PB (2500577), Almino Afonso - RN (2400604), Alto do Rodrigues - RN (2400703), Alto Santo - CE (2300705), Angicos - RN (2400802), Antônio Martins - RN (2400901), Apodi - RN (2401008), Aquiraz - CE (2301000), Araçagi - PB (2500809), Aracati - CE (2301109), Aracoiaba - CE (2301208), Araruna - PB (2501005), Aratuba - CE (2301406), Areia Branca - RN (2401107), Arês - RN (2401206), Augusto Severo - RN (2401305), Baía da Traição - PB (2501401), Baía Formosa - RN (2401404), Banabuiú - CE (2301851), Bananeiras - PB (2501500), Baraúna - RN (2401453), Baraúna - PB (2501534), Barcelona - RN (2401503), Barra de Santa Rosa - PB (2501609), Barreira - CE (2301950), Baturité - CE (2302107), Beberibe - CE (2302206), Belém - PB (2501906), Belém do Brejo do Cruz - PB (2502003), Bento Fernandes - RN (2401602), Bodó - RN (2401651), Bom Jesus - RN (2401701), Bom Sucesso - PB (2502300), Borborema - PB (2502706), Brejinho - RN (2401800), Brejo do Cruz - PB (2502805), Brejo dos Santos - PB (2502904), Cacimba de Dentro - PB (2503506), Caiçara - PB (2503605), Caiçara do Norte - RN (2401859), Caiçara do Rio do Vento - RN (2401909), Caicó - RN (2402006), Campo Redondo - RN (2402105), Canguaretama - RN (2402204), Canindé - CE (2302800), Capistrano - CE (2302909), Caraúbas - RN (2402303), Caridade - CE (2303006), Carnaúba dos Dantas - RN (2402402), Carnaubais - RN (2402501), Cascavel - CE (2303501), Casserengue - PB (2504157), Catolé do Rocha - PB (2504306), Caucaia - CE (2303709), Ceará-Mirim - RN (2402600), Cerro Corá - RN (2402709), Choró - CE (2303931), Chorozinho - CE (2303956), Coronel Ezequiel - RN (2402808), Coronel João Pessoa - RN (2402907), Cruzeta - RN (2403004), Cubati - PB (2505006), Cuité - PB (2505105), Currais Novos - RN (2403103), Curral de Cima - PB (2505279), Damião - PB (2505352), Dona Inês - PB (2505709), Doutor Severiano - RN (2403202), Duas Estradas - PB (2505808), Encanto - RN (2403301), Equador - RN (2403400), Ererê - CE (2304277), Espírito Santo - RN (2403509), Eusébio - CE (2304285), Extremoz - RN (2403608), Felipe Guerra - RN (2403707), Fernando Pedroza - RN (2403756), Florânia - RN (2403806), Fortaleza - CE (2304400), Fortim - CE (2304459), Francisco Dantas - RN (2403905), Frei Martinho - PB (2506202), Frutuoso Gomes - RN (2404002), Galinhos - RN (2404101), Goianinha - RN (2404200), Governador Dix-Sept Rosado - RN (2404309), Grossos - RN (2404408), Guaiúba - CE (2304954), Guamaré - RN (2404507), Guaramiranga - CE (2305100), Horizonte - CE (2305233), Ibaretama - CE (2305266), Ibicuitinga - CE (2305332), Icapuí - CE (2305357), Ielmo Marinho - RN (2404606), Ipanguaçu - RN (2404705), Ipueira - RN (2404804), Iracema - CE (2306009), Itaiçaba - CE (2306207), Itaitinga - CE (2306256), Itajá - RN (2404853), Itapiúna - CE (2306504), Itapororoca - PB (2507101), Itaú - RN (2404903), Jaçanã - RN (2405009), Jacaraú - PB (2507309), Jaguaretama - CE (2306702), Jaguaribara - CE (2306801), Jaguaribe - CE (2306900), Jaguaruana - CE (2307007), Jandaíra - RN (2405108), Janduís - RN (2405207), Januário Cicco - RN (2405306), Japi - RN (2405405), Jardim de Angicos - RN (2405504), Jardim de Piranhas - RN (2405603), Jardim do Seridó - RN (2405702), Jericó - PB (2507408), João Câmara - RN (2405801), João Dias - RN (2405900), José da Penha - RN (2406007), Jucurutu - RN (2406106), Jundiá - RN (2406155), Lagoa - PB (2508109), Lagoa d'Anta - RN (2406205), Lagoa de Dentro - PB (2508208), Lagoa de Pedras - RN (2406304), Lagoa de Velhos - RN (2406403), Lagoa Nova - RN (2406502), Lagoa Salgada - RN (2406601), Lajes - RN (2406700), Lajes Pintadas - RN (2406809), Lastro - PB (2508406), Limoeiro do Norte - CE (2307601), Logradouro - PB (2508554), Lucrécia - RN (2406908), Luís Gomes - RN (2407005), Macaíba - RN (2407104), Macau - RN (2407203), Major Sales - RN (2407252), Mamanguape - PB (2508901), Maracanaú - CE (2307650), Maranguape - CE (2307700), Marcação - PB (2509057), Marcelino Vieira - RN (2407302), Martins - RN (2407401), Mataraca - PB (2509305), Mato Grosso - PB (2509370), Maxaranguape - RN (2407500), Messias Targino - RN (2407609), Milhã - CE (2308351), Montanhas - RN (2407708), Monte Alegre - RN (2407807), Monte das Gameleiras - RN (2407906), Morada Nova - CE (2308708), Mossoró - RN (2408003), Mulungu - CE (2309102), Natal - RN (2408102), Nísia Floresta - RN (2408201), Nova Cruz - RN (2408300), Nova Floresta - PB (2510105), Nova Palmeira - PB (2510303), Ocara - CE (2309458), Olho d'Água do Borges - RN (2408409), Olivedos - PB (2510501), Ouro Branco - RN (2408508), Pacajus - CE (2309607), Pacatuba - CE (2309706), Pacoti - CE (2309805), Palhano - CE (2310001), Palmácia - CE (2310100), Paraná - RN (2408607), Paraú - RN (2408706), Parazinho - RN (2408805), Parelhas - RN (2408904), Parnamirim - RN (2403251), Passa e Fica - RN (2409100), Passagem - RN (2409209), Patu - RN (2409308), Pau dos Ferros - RN (2409407), Paulista - PB (2510907), Pedra Grande - RN (2409506), Pedra Lavrada - PB (2511103), Pedra Preta - RN (2409605), Pedro Avelino - RN (2409704), Pedro Régis - PB (2512721), Pedro Velho - RN (2409803), Pendências - RN (2409902), Pentecoste - CE (2310704), Pereiro - CE (2310803), Picuí - PB (2511400), Pilões - RN (2410009), Pindoretama - CE (2310852), Pirpirituba - PB (2511806), Poço Branco - RN (2410108), Portalegre - RN (2410207), Porto do Mangue - RN (2410256), Potiretama - CE (2311231), Pureza - RN (2410405), Quixadá - CE (2311306), Quixeramobim - CE (2311405), Quixeré - CE (2311504), Rafael Fernandes - RN (2410504), Rafael Godeiro - RN (2410603), Redenção - CE (2311603), Riachão - PB (2512747), Riacho da Cruz - RN (2410702), Riacho de Santana - RN (2410801), Riacho dos Cavalos - PB (2512804), Riachuelo - RN (2410900), Rio do Fogo - RN (2408953), Rio Tinto - PB (2512903), Rodolfo Fernandes - RN (2411007), Russas - CE (2311801), Ruy Barbosa - RN (2411106), Santa Cruz - RN (2411205), Santa Cruz - PB (2513208), Santa Luzia - PB (2513406), Santa Maria - RN (2409332), Santana do Matos - RN (2411403), Santana do Seridó - RN (2411429), Santo Antônio - RN (2411502), São Bento - PB (2513901), São Bento do Norte - RN (2411601), São Bento do Trairí - RN (2411700), São Fernando - RN (2411809), São Francisco do Oeste - RN (2411908), São Gonçalo do Amarante - RN (2412005), São Gonçalo do Amarante - CE (2312403), São João do Jaguaribe - CE (2312502), São João do Sabugi - RN (2412104), São José de Espinharas - PB (2514404), São José de Mipibu - RN (2412203), São José do Brejo do Cruz - PB (2514651), São José do Campestre - RN (2412302), São José do Sabugi - PB (2514701), São José do Seridó - RN (2412401), São Miguel - RN (2412500), São Miguel do Gostoso - RN (2412559), São Paulo do Potengi - RN (2412609), São Pedro - RN (2412708), São Rafael - RN (2412807), São Tomé - RN (2412906), São Vicente - RN (2413003), São Vicente do Seridó - PB (2515401), Senador Elói de Souza - RN (2413102), Senador Georgino Avelino - RN (2413201), Serra Caiada - RN (2410306), Serra da Raiz - PB (2515609), Serra de São Bento - RN (2413300), Serra do Mel - RN (2413359), Serra Negra do Norte - RN (2413409), Serrinha - RN (2413508), Serrinha dos Pintos - RN (2413557), Sertãozinho - PB (2515930), Severiano Melo - RN (2413607), Sítio Novo - RN (2413706), Solânea - PB (2516003), Solonópole - CE (2313005), Sossêgo - PB (2516151), Taboleiro Grande - RN (2413805), Tabuleiro do Norte - CE (2313104), Tacima - PB (2516409), Taipu - RN (2413904), Tangará - RN (2414001), Tenente Ananias - RN (2414100), Tenente Laurentino Cruz - RN (2414159), Tenório - PB (2516755), Tibau - RN (2411056), Tibau do Sul - RN (2414209), Timbaúba dos Batistas - RN (2414308), Touros - RN (2414407), Triunfo Potiguar - RN (2414456), Umarizal - RN (2414506), Upanema - RN (2414605), Várzea - PB (2517100), Várzea - RN (2414704), Vera Cruz - RN (2414803), Viçosa - RN (2414902), Vieirópolis - PB (2517209), Vila Flor - RN (2415008)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Norte Cearense, Central Potiguar, Oeste Potiguar, Agreste Paraibano, Jaguaribe, Metropolitana de Fortaleza, Leste Potiguar, Mata Paraibana, Sertões Cearenses, Borborema, Agreste Potiguar, Sertão Paraibano",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-3.324244,-38.74054 -3.91906,-39.050903 -4.488809,-39.210205 -5.397273,-39.177246 -6.533645,-38.232422 -6.8828,-36.650391 -6.702798,-34.711304 -6.211551,-34.84314 -5.594118,-35.018921 -5.173011,-35.194702 -4.954142,-35.452881 -4.850154,-35.831909 -4.729727,-36.040649 -4.67498,-36.24939 -4.740675,-36.375732 -4.861101,-36.452637 -4.850154,-36.705322 -4.724252,-36.919556 -4.724252,-37.10083 -4.521666,-37.216187 -4.401183,-37.479858 -4.214943,-37.738037 -3.962901,-38.018188 -3.760115,-38.226929 -3.557283,-38.309326 -3.324244,-38.74054"
       },
       "geometry": {
         "type": "Polygon",
@@ -140,6 +144,1954 @@
             [
               -38.74054,
               -3.324244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Declínio de Temperatura. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Declínio de Temperatura",
+        "categoria": "Met",
+        "headline": "Aviso de Declínio de Temperatura. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 03/07/2026 00:00. Leve risco à saúde. Declínio entre 3ºC e 5ºC.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-07-03T00:00:00-03:00",
+        "expires": "2026-07-03T23:59:00-03:00",
+        "sent": "2026-06-29T00:00:00-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-07-03T22:29:10.397572+00:00",
+        "link": "https://avisos.inmet.gov.br/54833",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54833",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54833",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27663.2",
+        "color_risk": "#FFFE00",
+        "municipios": "Abatiá - PR (4100103), Abdon Batista - SC (4200051), Abelardo Luz - SC (4200101), Aceguá - RS (4300034), Acorizal - MT (5100102), Acrelândia - AC (1200013), Acreúna - GO (5200134), Adamantina - SP (3500105), Adolfo - SP (3500204), Adrianópolis - PR (4100202), Agrolândia - SC (4200200), Agronômica - SC (4200309), Água Clara - MS (5000203), Água Comprida - MG (3100708), Água Doce - SC (4200408), Aguaí - SP (3500303), Aguanil - MG (3100807), Água Santa - RS (4300059), Águas da Prata - SP (3500402), Águas de Chapecó - SC (4200507), Águas de Lindóia - SP (3500501), Águas de Santa Bárbara - SP (3500550), Águas de São Pedro - SP (3500600), Águas Frias - SC (4200556), Águas Mornas - SC (4200606), Agudo - RS (4300109), Agudos - SP (3500709), Agudos do Sul - PR (4100301), Aiuruoca - MG (3101201), Ajuricaba - RS (4300208), Alagoa - MG (3101300), Alambari - SP (3500758), Albertina - MG (3101409), Alcinópolis - MS (5000252), Alecrim - RS (4300307), Alegrete - RS (4300406), Alegria - RS (4300455), Além Paraíba - MG (3101508), Alfenas - MG (3101607), Alfredo Marcondes - SP (3500808), Alfredo Vasconcelos - MG (3101631), Alfredo Wagner - SC (4200705), Almirante Tamandaré - PR (4100400), Almirante Tamandaré do Sul - RS (4300471), Alpestre - RS (4300505), Alpinópolis - MG (3101904), Alta Floresta D'Oeste - RO (1100015), Altair - SP (3500907), Altamira do Paraná - PR (4100459), Alterosa - MG (3102001), Altinópolis - SP (3501004), Alto Alegre - RS (4300554), Alto Alegre - SP (3501103), Alto Alegre dos Parecis - RO (1100379), Alto Araguaia - MT (5100300), Alto Bela Vista - SC (4200754), Alto Feliz - RS (4300570), Alto Garças - MT (5100409), Altônia - PR (4100509), Alto Paraguai - MT (5100508), Alto Paraíso - PR (4128625), Alto Paraná - PR (4100608), Alto Piquiri - PR (4100707), Alto Rio Doce - MG (3102100), Alto Taquari - MT (5100607), Alumínio - SP (3501152), Álvares Florence - SP (3501202), Álvares Machado - SP (3501301), Álvaro de Carvalho - SP (3501400), Alvinlândia - SP (3501509), Alvorada - RS (4300604), Alvorada D'Oeste - RO (1100346), Alvorada do Sul - PR (4100806), Amambai - MS (5000609), Amaporã - PR (4100905), Amaral Ferrador - RS (4300638), Americana - SP (3501608), Américo Brasiliense - SP (3501707), Américo de Campos - SP (3501806), Ametista do Sul - RS (4300646), Amparo - SP (3501905), Ampére - PR (4101002), Anahy - PR (4101051), Analândia - SP (3502002), Anastácio - MS (5000708), Anaurilândia - MS (5000807), Anchieta - SC (4200804), Andirá - PR (4101101), Andradas - MG (3102605), Andradina - SP (3502101), André da Rocha - RS (4300661), Andrelândia - MG (3102803), Angatuba - SP (3502200), Angélica - MS (5000856), Angelina - SC (4200903), Angra dos Reis - RJ (3300100), Ângulo - PR (4101150), Anhembi - SP (3502309), Anhumas - SP (3502408), Anita Garibaldi - SC (4201000), Anitápolis - SC (4201109), Anta Gorda - RS (4300703), Antonina - PR (4101200), Antônio Carlos - SC (4201208), Antônio Carlos - MG (3102902), Antônio João - MS (5000906), Antônio Olinto - PR (4101309), Antônio Prado - RS (4300802), Antônio Prado de Minas - MG (3103108), Aparecida - SP (3502507), Aparecida d'Oeste - SP (3502606), Aparecida do Rio Doce - GO (5201454), Aparecida do Taboado - MS (5001003), Aperibé - RJ (3300159), Apiacá - ES (3200508), Apiaí - SP (3502705), Apiúna - SC (4201257), Aporé - GO (5201504), Apucarana - PR (4101408), Aquidauana - MS (5001102), Arabutã - SC (4201273), Araçariguama - SP (3502754), Araçatuba - SP (3502804), Aracitaba - MG (3103306), Araçoiaba da Serra - SP (3502903), Araguainha - MT (5101209), Aral Moreira - MS (5001243), Arambaré - RS (4300851), Aramina - SP (3503000), Arandu - SP (3503109), Arantina - MG (3103603), Arapeí - SP (3503158), Arapongas - PR (4101507), Arapoti - PR (4101606), Arapuã - PR (4101655), Araputanga - MT (5101258), Araquari - SC (4201307), Araranguá - SC (4201406), Araraquara - SP (3503208), Araras - SP (3503307), Araricá - RS (4300877), Araruama - RJ (3300209), Araruna - PR (4101705), Aratiba - RS (4300901), Araucária - PR (4101804), Araxá - MG (3104007), Arceburgo - MG (3104106), Arco-Íris - SP (3503356), Arcos - MG (3104205), Areado - MG (3104304), Areal - RJ (3300225), Arealva - SP (3503406), Areias - SP (3503505), Areiópolis - SP (3503604), Arenápolis - MT (5101308), Argirita - MG (3104403), Ariranha - SP (3503703), Ariranha do Ivaí - PR (4101853), Armação dos Búzios - RJ (3300233), Armazém - SC (4201505), Arraial do Cabo - RJ (3300258), Arroio do Meio - RS (4301008), Arroio do Padre - RS (4301073), Arroio do Sal - RS (4301057), Arroio dos Ratos - RS (4301107), Arroio do Tigre - RS (4301206), Arroio Grande - RS (4301305), Arroio Trinta - SC (4201604), Artur Nogueira - SP (3503802), Arujá - SP (3503901), Arvoredo - SC (4201653), Arvorezinha - RS (4301404), Ascurra - SC (4201703), Aspásia - SP (3503950), Assaí - PR (4101903), Assis - SP (3504008), Assis Brasil - AC (1200054), Assis Chateaubriand - PR (4102000), Astolfo Dutra - MG (3104601), Astorga - PR (4102109), Atalaia - PR (4102208), Atalanta - SC (4201802), Atibaia - SP (3504107), Augusto Pestana - RS (4301503), Áurea - RS (4301552), Auriflama - SP (3504206), Aurora - SC (4201901), Avaí - SP (3504305), Avanhandava - SP (3504404), Avaré - SP (3504503), Bady Bassitt - SP (3504602), Baependi - MG (3104908), Bagé - RS (4301602), Balbinos - SP (3504701), Baliza - GO (5203104), Balneário Arroio do Silva - SC (4201950), Balneário Barra do Sul - SC (4202057), Balneário Camboriú - SC (4202008), Balneário Gaivota - SC (4202073), Balneário Piçarras - SC (4212809), Balneário Pinhal - RS (4301636), Balneário Rincão - SC (4220000), Bálsamo - SP (3504800), Balsa Nova - PR (4102307), Bambuí - MG (3105103), Bananal - SP (3504909), Bandeira do Sul - MG (3105301), Bandeirante - SC (4202081), Bandeirantes - PR (4102406), Bandeirantes - MS (5001508), Barão - RS (4301651), Barão de Antonina - SP (3505005), Barão de Cotegipe - RS (4301701), Barão de Melgaço - MT (5101605), Barão de Monte Alto - MG (3105509), Barão do Triunfo - RS (4301750), Barbacena - MG (3105608), Barbosa - SP (3505104), Barbosa Ferraz - PR (4102505), Bariri - SP (3505203), Barra Bonita - SC (4202099), Barra Bonita - SP (3505302), Barracão - PR (4102604), Barracão - RS (4301800), Barra do Bugres - MT (5101704), Barra do Chapéu - SP (3505351), Barra do Guarita - RS (4301859), Barra do Jacaré - PR (4102703), Barra do Piraí - RJ (3300308), Barra do Quaraí - RS (4301875), Barra do Ribeiro - RS (4301909), Barra do Rio Azul - RS (4301925), Barra do Turvo - SP (3505401), Barra Funda - RS (4301958), Barra Mansa - RJ (3300407), Barra Velha - SC (4202107), Barretos - SP (3505500), Barrinha - SP (3505609), Barros Cassal - RS (4302006), Barroso - MG (3105905), Barueri - SP (3505708), Bastos - SP (3505807), Bataguassu - MS (5001904), Batatais - SP (3505906), Batayporã - MS (5002001), Bauru - SP (3506003), Bebedouro - SP (3506102), Bela Vista - MS (5002100), Bela Vista da Caroba - PR (4102752), Bela Vista do Paraíso - PR (4102802), Bela Vista do Toldo - SC (4202131), Belford Roxo - RJ (3300456), Belmiro Braga - MG (3106101), Belmonte - SC (4202156), Belo Vale - MG (3106408), Benedito Novo - SC (4202206), Benjamin Constant do Sul - RS (4302055), Bento de Abreu - SP (3506201), Bento Gonçalves - RS (4302105), Bernardino de Campos - SP (3506300), Bertioga - SP (3506359), Bias Fortes - MG (3106804), Bicas - MG (3106903), Biguaçu - SC (4202305), Bilac - SP (3506409), Birigui - SP (3506508), Biritiba Mirim - SP (3506607), Bituruna - PR (4102901), Blumenau - SC (4202404), Boa Esperança - PR (4103008), Boa Esperança - MG (3107109), Boa Esperança do Iguaçu - PR (4103024), Boa Esperança do Sul - SP (3506706), Boa Ventura de São Roque - PR (4103040), Boa Vista da Aparecida - PR (4103057), Boa Vista das Missões - RS (4302154), Boa Vista do Buricá - RS (4302204), Boa Vista do Cadeado - RS (4302220), Boa Vista do Incra - RS (4302238), Boa Vista do Sul - RS (4302253), Boca do Acre - AM (1300706), Bocaina - SP (3506805), Bocaina de Minas - MG (3107208), Bocaina do Sul - SC (4202438), Bocaiúva do Sul - PR (4103107), Bodoquena - MS (5002159), Bofete - SP (3506904), Boituva - SP (3507001), Bombinhas - SC (4202453), Bom Jardim - RJ (3300506), Bom Jardim da Serra - SC (4202503), Bom Jardim de Goiás - GO (5203401), Bom Jardim de Minas - MG (3107505), Bom Jesus - RS (4302303), Bom Jesus - SC (4202537), Bom Jesus da Penha - MG (3107604), Bom Jesus de Goiás - GO (5203500), Bom Jesus do Itabapoana - RJ (3300605), Bom Jesus do Norte - ES (3201100), Bom Jesus do Oeste - SC (4202578), Bom Jesus dos Perdões - SP (3507100), Bom Jesus do Sul - PR (4103156), Bom Princípio - RS (4302352), Bom Progresso - RS (4302378), Bom Repouso - MG (3107901), Bom Retiro - SC (4202602), Bom Retiro do Sul - RS (4302402), Bom Sucesso - PR (4103206), Bom Sucesso - MG (3108008), Bom Sucesso de Itararé - SP (3507159), Bom Sucesso do Sul - PR (4103222), Bonito - MS (5002209), Boqueirão do Leão - RS (4302451), Borá - SP (3507209), Boracéia - SP (3507308), Borborema - SP (3507407), Borda da Mata - MG (3108305), Borebi - SP (3507456), Borrazópolis - PR (4103305), Bossoroca - RS (4302501), Botelhos - MG (3108404), Botucatu - SP (3507506), Botuverá - SC (4202701), Bozano - RS (4302584), Braço do Norte - SC (4202800), Braço do Trombudo - SC (4202859), Braga - RS (4302600), Bragança Paulista - SP (3507605), Braganey - PR (4103354), Brasilândia - MS (5002308), Brasilândia do Sul - PR (4103370), Brasiléia - AC (1200104), Brasnorte - MT (5101902), Brás Pires - MG (3108701), Braúna - SP (3507704), Brazópolis - MG (3108909), Brejo Alegre - SP (3507753), Brochier - RS (4302659), Brodowski - SP (3507803), Brotas - SP (3507902), Brunópolis - SC (4202875), Brusque - SC (4202909), Bueno Brandão - MG (3109105), Bujari - AC (1200138), Buri - SP (3508009), Buritama - SP (3508108), Buritis - RO (1100452), Buritizal - SP (3508207), Butiá - RS (4302709), Caarapó - MS (5002407), Cabixi - RO (1100031), Cabo Frio - RJ (3300704), Cabo Verde - MG (3109501), Cabrália Paulista - SP (3508306), Cabreúva - SP (3508405), Caçador - SC (4203006), Caçapava - SP (3508504), Caçapava do Sul - RS (4302808), Cacequi - RS (4302907), Cáceres - MT (5102504), Cachoeira Alta - GO (5204102), Cachoeira de Minas - MG (3109709), Cachoeira do Sul - RS (4303004), Cachoeira Dourada - GO (5204250), Cachoeira Dourada - MG (3109808), Cachoeira Paulista - SP (3508603), Cachoeiras de Macacu - RJ (3300803), Cachoeirinha - RS (4303103), Cacique Doble - RS (4303202), Caconde - SP (3508702), Caçu - GO (5204300), Cafeara - PR (4103404), Cafelândia - SP (3508801), Cafelândia - PR (4103453), Cafezal do Sul - PR (4103479), Caiabu - SP (3508900), Caiapônia - GO (5204409), Caibaté - RS (4303301), Caibi - SC (4203105), Caiçara - RS (4303400), Caieiras - SP (3509007), Caiuá - SP (3509106), Cajamar - SP (3509205), Cajati - SP (3509254), Cajobi - SP (3509304), Cajuru - SP (3509403), Caldas - MG (3110301), Califórnia - PR (4103503), Calmon - SC (4203154), Camacho - MG (3110400), Camanducaia - MG (3110509), Camapuã - MS (5002605), Camaquã - RS (4303509), Camargo - RS (4303558), Cambará - PR (4103602), Cambará do Sul - RS (4303608), Cambé - PR (4103701), Cambira - PR (4103800), Camboriú - SC (4203204), Cambuci - RJ (3300902), Cambuí - MG (3110608), Cambuquira - MG (3110707), Campanha - MG (3110905), Campestre - MG (3111002), Campestre da Serra - RS (4303673), Campina da Lagoa - PR (4103909), Campina das Missões - RS (4303707), Campina do Monte Alegre - SP (3509452), Campina do Simão - PR (4103958), Campina Grande do Sul - PR (4104006), Campinas - SP (3509502), Campinas do Sul - RS (4303806), Campina Verde - MG (3111101), Campo Alegre - SC (4203303), Campo Belo - MG (3111200), Campo Belo do Sul - SC (4203402), Campo Bom - RS (4303905), Campo Bonito - PR (4104055), Campo do Meio - MG (3111309), Campo do Tenente - PR (4104105), Campo Erê - SC (4203501), Campo Florido - MG (3111408), Campo Grande - MS (5002704), Campo Largo - PR (4104204), Campo Limpo Paulista - SP (3509601), Campo Magro - PR (4104253), Campo Mourão - PR (4104303), Campo Novo - RS (4304002), Campo Novo de Rondônia - RO (1100700), Campo Novo do Parecis - MT (5102637), Campos Borges - RS (4304101), Campos de Júlio - MT (5102686), Campos do Jordão - SP (3509700), Campos dos Goytacazes - RJ (3301009), Campos Gerais - MG (3111606), Campos Novos - SC (4203600), Campos Novos Paulista - SP (3509809), Campo Verde - MT (5102678), Cananéia - SP (3509908), Canápolis - MG (3111804), Canas - SP (3509957), Cana Verde - MG (3111903), Candeias - MG (3112000), Candelária - RS (4304200), Cândido de Abreu - PR (4104402), Cândido Godói - RS (4304309), Cândido Mota - SP (3510005), Cândido Rodrigues - SP (3510104), Candiota - RS (4304358), Candói - PR (4104428), Canela - RS (4304408), Canelinha - SC (4203709), Canguçu - RS (4304507), Canitar - SP (3510153), Canoas - RS (4304606), Canoinhas - SC (4203808), Cantagalo - PR (4104451), Cantagalo - RJ (3301108), Canudos do Vale - RS (4304614), Capanema - PR (4104501), Capão Alto - SC (4203253), Capão Bonito - SP (3510203), Capão Bonito do Sul - RS (4304622), Capão da Canoa - RS (4304630), Capão do Cipó - RS (4304655), Capão do Leão - RS (4304663), Capela de Santana - RS (4304689), Capela do Alto - SP (3510302), Capela Nova - MG (3112208), Capetinga - MG (3112406), Capinópolis - MG (3112604), Capinzal - SC (4203907), Capitão - RS (4304697), Capitão Leônidas Marques - PR (4104600), Capitólio - MG (3112802), Capivari - SP (3510401), Capivari de Baixo - SC (4203956), Capivari do Sul - RS (4304671), Capixaba - AC (1200179), Caraá - RS (4304713), Caracol - MS (5002803), Caraguatatuba - SP (3510500), Carambeí - PR (4104659), Caranaíba - MG (3113107), Carandaí - MG (3113206), Carapebus - RJ (3300936), Carapicuíba - SP (3510609), Carazinho - RS (4304705), Cardoso - SP (3510708), Cardoso Moreira - RJ (3301157), Careaçu - MG (3113602), Carlópolis - PR (4104709), Carlos Barbosa - RS (4304804), Carlos Gomes - RS (4304853), Carmo - RJ (3301207), Carmo da Cachoeira - MG (3113909), Carmo da Mata - MG (3114006), Carmo de Minas - MG (3114105), Carmo do Rio Claro - MG (3114402), Carmópolis de Minas - MG (3114501), Carneirinho - MG (3114550), Carrancas - MG (3114600), Carvalhópolis - MG (3114709), Carvalhos - MG (3114808), Casa Branca - SP (3510807), Casa Grande - MG (3114907), Casca - RS (4304903), Cascavel - PR (4104808), Caseiros - RS (4304952), Casimiro de Abreu - RJ (3301306), Cássia - MG (3115102), Cássia dos Coqueiros - SP (3510906), Cassilândia - MS (5002902), Castelândia - GO (5205059), Castilho - SP (3511003), Castro - PR (4104907), Cataguases - MG (3115300), Catanduva - SP (3511102), Catanduvas - PR (4105003), Catanduvas - SC (4204004), Catas Altas da Noruega - MG (3115409), Catiguá - SP (3511201), Catuípe - RS (4305009), Caxambu - MG (3115508), Caxambu do Sul - SC (4204103), Caxias do Sul - RS (4305108), Cedral - SP (3511300), Celso Ramos - SC (4204152), Centenário - RS (4305116), Centenário do Sul - PR (4105102), Centralina - MG (3115805), Cerejeiras - RO (1100056), Cerqueira César - SP (3511409), Cerquilho - SP (3511508), Cerrito - RS (4305124), Cerro Azul - PR (4105201), Cerro Branco - RS (4305132), Cerro Grande - RS (4305157), Cerro Grande do Sul - RS (4305173), Cerro Largo - RS (4305207), Cerro Negro - SC (4204178), Cesário Lange - SP (3511607), Céu Azul - PR (4105300), Chácara - MG (3115904), Chapada - RS (4305306), Chapada dos Guimarães - MT (5103007), Chapadão do Céu - GO (5205471), Chapadão do Lageado - SC (4204194), Chapadão do Sul - MS (5002951), Chapecó - SC (4204202), Charqueada - SP (3511706), Charqueadas - RS (4305355), Charrua - RS (4305371), Chavantes - SP (3557204), Chiador - MG (3116209), Chiapetta - RS (4305405), Chopinzinho - PR (4105409), Chuí - RS (4305439), Chupinguaia - RO (1100924), Chuvisca - RS (4305447), Cianorte - PR (4105508), Cidade Gaúcha - PR (4105607), Cidreira - RS (4305454), Cipotânea - MG (3116308), Ciríaco - RS (4305504), Claraval - MG (3116407), Cláudio - MG (3116605), Clementina - SP (3511904), Clevelândia - PR (4105706), Cocal do Sul - SC (4204251), Coimbra - MG (3116704), Colina - SP (3512001), Colinas - RS (4305587), Colômbia - SP (3512100), Colombo - PR (4105805), Colorado - PR (4105904), Colorado - RS (4305603), Colorado do Oeste - RO (1100064), Comendador Gomes - MG (3116902), Comendador Levy Gasparian - RJ (3300951), Comodoro - MT (5103304), Conceição da Aparecida - MG (3117108), Conceição da Barra de Minas - MG (3115201), Conceição das Alagoas - MG (3117306), Conceição das Pedras - MG (3117207), Conceição de Macabu - RJ (3301405), Conceição do Rio Verde - MG (3117702), Conceição dos Ouros - MG (3117801), Conchal - SP (3512209), Conchas - SP (3512308), Concórdia - SC (4204301), Condor - RS (4305702), Congonhal - MG (3117900), Congonhas - MG (3118007), Congonhinhas - PR (4106001), Conquista - MG (3118205), Conquista D'Oeste - MT (5103361), Conselheiro Lafaiete - MG (3118304), Conselheiro Mairinck - PR (4106100), Consolação - MG (3118502), Constantina - RS (4305801), Contenda - PR (4106209), Coqueiral - MG (3118700), Coqueiro Baixo - RS (4305835), Coqueiros do Sul - RS (4305850), Corbélia - PR (4106308), Cordeiro - RJ (3301504), Cordeirópolis - SP (3512407), Cordilheira Alta - SC (4204350), Cordislândia - MG (3119005), Corguinho - MS (5003108), Cornélio Procópio - PR (4106407), Coroados - SP (3512506), Coronel Barros - RS (4305871), Coronel Bicaco - RS (4305900), Coronel Domingos Soares - PR (4106456), Coronel Freitas - SC (4204400), Coronel Macedo - SP (3512605), Coronel Martins - SC (4204459), Coronel Pacheco - MG (3119609), Coronel Pilar - RS (4305934), Coronel Sapucaia - MS (5003157), Coronel Vivida - PR (4106506), Coronel Xavier Chaves - MG (3119708), Córrego do Bom Jesus - MG (3119906), Córrego Fundo - MG (3119955), Correia Pinto - SC (4204558), Corumbá - MS (5003207), Corumbataí - SP (3512704), Corumbataí do Sul - PR (4106555), Corumbiara - RO (1100072), Corupá - SC (4204509), Cosmópolis - SP (3512803), Cosmorama - SP (3512902), Costa Marques - RO (1100080), Costa Rica - MS (5003256), Cotia - SP (3513009), Cotiporã - RS (4305959), Coxilha - RS (4305975), Coxim - MS (5003306), Cravinhos - SP (3513108), Criciúma - SC (4204608), Crissiumal - RS (4306007), Cristais - MG (3120201), Cristais Paulista - SP (3513207), Cristal - RS (4306056), Cristal do Sul - RS (4306072), Cristiano Otoni - MG (3120409), Cristina - MG (3120508), Crucilândia - MG (3120607), Cruzália - SP (3513306), Cruz Alta - RS (4306106), Cruzaltense - RS (4306130), Cruzeiro - SP (3513405), Cruzeiro do Iguaçu - PR (4106571), Cruzeiro do Oeste - PR (4106605), Cruzeiro do Sul - RS (4306205), Cruzeiro do Sul - PR (4106704), Cruzília - MG (3120805), Cruz Machado - PR (4106803), Cruzmaltina - PR (4106852), Cubatão - SP (3513504), Cuiabá - MT (5103403), Cunha - SP (3513603), Cunha Porã - SC (4204707), Cunhataí - SC (4204756), Curitiba - PR (4106902), Curitibanos - SC (4204806), Curiúva - PR (4107009), Curvelândia - MT (5103437), David Canabarro - RS (4306304), Delfim Moreira - MG (3121100), Delfinópolis - MG (3121209), Delta - MG (3121258), Denise - MT (5103452), Deodápolis - MS (5003454), Derrubadas - RS (4306320), Descalvado - SP (3513702), Descanso - SC (4204905), Descoberto - MG (3121308), Desterro de Entre Rios - MG (3121407), Desterro do Melo - MG (3121506), Dezesseis de Novembro - RS (4306353), Diadema - SP (3513801), Diamante D'Oeste - PR (4107157), Diamante do Norte - PR (4107108), Diamante do Sul - PR (4107124), Diamantino - MT (5103502), Dilermando de Aguiar - RS (4306379), Dionísio Cerqueira - SC (4205001), Dirce Reis - SP (3513850), Divinésia - MG (3121902), Divinolândia - SP (3513900), Divinópolis - MG (3122306), Divisa Nova - MG (3122405), Dobrada - SP (3514007), Dois Córregos - SP (3514106), Dois Irmãos - RS (4306403), Dois Irmãos das Missões - RS (4306429), Dois Irmãos do Buriti - MS (5003488), Dois Lajeados - RS (4306452), Dois Vizinhos - PR (4107207), Dolcinópolis - SP (3514205), Dom Aquino - MT (5103601), Dom Feliciano - RS (4306502), Dom Pedrito - RS (4306601), Dom Pedro de Alcântara - RS (4306551), Dom Viçoso - MG (3122801), Dona Emma - SC (4205100), Dona Eusébia - MG (3122900), Dona Francisca - RS (4306700), Dores de Campos - MG (3123007), Dores do Turvo - MG (3123304), Doresópolis - MG (3123403), Douradina - MS (5003504), Douradina - PR (4107256), Dourado - SP (3514304), Dourados - MS (5003702), Doutor Camargo - PR (4107306), Doutor Maurício Cardoso - RS (4306734), Doutor Pedrinho - SC (4205159), Doutor Ricardo - RS (4306759), Doutor Ulysses - PR (4128633), Doverlândia - GO (5207253), Dracena - SP (3514403), Duartina - SP (3514502), Duas Barras - RJ (3301603), Dumont - SP (3514601), Duque de Caxias - RJ (3301702), Echaporã - SP (3514700), Eldorado - MS (5003751), Eldorado - SP (3514809), Eldorado do Sul - RS (4306767), Elias Fausto - SP (3514908), Elisiário - SP (3514924), Elói Mendes - MG (3123601), Embaúba - SP (3514957), Embu das Artes - SP (3515004), Embu-Guaçu - SP (3515103), Emilianópolis - SP (3515129), Encantado - RS (4306809), Encruzilhada do Sul - RS (4306908), Enéas Marques - PR (4107405), Engenheiro Beltrão - PR (4107504), Engenheiro Coelho - SP (3515152), Engenheiro Paulo de Frontin - RJ (3301801), Engenho Velho - RS (4306924), Entre-Ijuís - RS (4306932), Entre Rios - SC (4205175), Entre Rios de Minas - MG (3123908), Entre Rios do Oeste - PR (4107538), Entre Rios do Sul - RS (4306957), Epitaciolândia - AC (1200252), Erebango - RS (4306973), Erechim - RS (4307005), Ermo - SC (4205191), Ernestina - RS (4307054), Erval Grande - RS (4307203), Ervália - MG (3124005), Erval Seco - RS (4307302), Erval Velho - SC (4205209), Esmeralda - RS (4307401), Esperança do Sul - RS (4307450), Esperança Nova - PR (4107520), Espigão Alto do Iguaçu - PR (4107546), Espírito Santo do Dourado - MG (3124401), Espírito Santo do Pinhal - SP (3515186), Espírito Santo do Turvo - SP (3515194), Espumoso - RS (4307500), Estação - RS (4307559), Estância Velha - RS (4307609), Esteio - RS (4307708), Estiva - MG (3124500), Estiva Gerbi - SP (3557303), Estrela - RS (4307807), Estrela Dalva - MG (3124609), Estrela d'Oeste - SP (3515202), Estrela do Norte - SP (3515301), Estrela Velha - RS (4307815), Euclides da Cunha Paulista - SP (3515350), Eugênio de Castro - RS (4307831), Eugenópolis - MG (3124906), Ewbank da Câmara - MG (3125002), Extrema - MG (3125101), Fagundes Varela - RS (4307864), Fama - MG (3125200), Farol - PR (4107553), Farroupilha - RS (4307906), Fartura - SP (3515400), Fátima do Sul - MS (5003801), Faxinal - PR (4107603), Faxinal dos Guedes - SC (4205308), Faxinal do Soturno - RS (4308003), Faxinalzinho - RS (4308052), Fazenda Rio Grande - PR (4107652), Fazenda Vilanova - RS (4308078), Feijó - AC (1200302), Feliz - RS (4308102), Fênix - PR (4107702), Fernandes Pinheiro - PR (4107736), Fernandópolis - SP (3515509), Fernando Prestes - SP (3515608), Fernão - SP (3515657), Ferraz de Vasconcelos - SP (3515707), Figueira - PR (4107751), Figueirão - MS (5003900), Figueirópolis D'Oeste - MT (5103809), Floraí - PR (4107801), Flora Rica - SP (3515806), Flor da Serra do Sul - PR (4107850), Flor do Sertão - SC (4205357), Floreal - SP (3515905), Flores da Cunha - RS (4308201), Floresta - PR (4107900), Florestópolis - PR (4108007), Floriano Peixoto - RS (4308250), Florianópolis - SC (4205407), Flórida - PR (4108106), Flórida Paulista - SP (3516002), Florínea - SP (3516101), Fontoura Xavier - RS (4308300), Formiga - MG (3126109), Formigueiro - RS (4308409), Formosa do Oeste - PR (4108205), Formosa do Sul - SC (4205431), Forquetinha - RS (4308433), Forquilhinha - SC (4205456), Fortaleza de Minas - MG (3126307), Fortaleza dos Valos - RS (4308458), Foz do Iguaçu - PR (4108304), Foz do Jordão - PR (4108452), Fraiburgo - SC (4205506), Franca - SP (3516200), Francisco Alves - PR (4108320), Francisco Beltrão - PR (4108403), Francisco Morato - SP (3516309), Franco da Rocha - SP (3516408), Frederico Westphalen - RS (4308508), Frei Rogério - SC (4205555), Fronteira - MG (3127008), Frutal - MG (3127107), Gabriel Monteiro - SP (3516507), Gália - SP (3516606), Galvão - SC (4205605), Garça - SP (3516705), Garibaldi - RS (4308607), Garopaba - SC (4205704), Garruchos - RS (4308656), Garuva - SC (4205803), Gaspar - SC (4205902), Gastão Vidigal - SP (3516804), Gaurama - RS (4308706), Gavião Peixoto - SP (3516853), General Câmara - RS (4308805), General Carneiro - MT (5103908), General Carneiro - PR (4108502), General Salgado - SP (3516903), Gentil - RS (4308854), Getulina - SP (3517000), Getúlio Vargas - RS (4308904), Giruá - RS (4309001), Glicério - SP (3517109), Glória de Dourados - MS (5004007), Glória D'Oeste - MT (5103957), Glorinha - RS (4309050), Godoy Moreira - PR (4108551), Goianá - MG (3127388), Goiatuba - GO (5209101), Goioerê - PR (4108601), Goioxim - PR (4108650), Gonçalves - MG (3127404), Gouvelândia - GO (5209150), Governador Celso Ramos - SC (4206009), Governador Jorge Teixeira - RO (1101005), Gramado - RS (4309100), Gramado dos Loureiros - RS (4309126), Gramado Xavier - RS (4309159), Grandes Rios - PR (4108700), Grão Pará - SC (4206108), Gravataí - RS (4309209), Gravatal - SC (4206207), Guabiju - RS (4309258), Guabiruba - SC (4206306), Guaíba - RS (4309308), Guaiçara - SP (3517208), Guaimbê - SP (3517307), Guaíra - SP (3517406), Guaíra - PR (4108809), Guairaçá - PR (4108908), Guajará-Mirim - RO (1100106), Guamiranga - PR (4108957), Guapé - MG (3128105), Guapiaçu - SP (3517505), Guapiara - SP (3517604), Guapimirim - RJ (3301850), Guapirama - PR (4109005), Guaporé - RS (4309407), Guaporema - PR (4109104), Guará - SP (3517703), Guaraçaí - SP (3517802), Guaraci - SP (3517901), Guaraci - PR (4109203), Guaraciaba - SC (4206405), Guaramirim - SC (4206504), Guaranésia - MG (3128303), Guarani - MG (3128402), Guaraniaçu - PR (4109302), Guarani das Missões - RS (4309506), Guarani d'Oeste - SP (3518008), Guarantã - SP (3518107), Guarapuava - PR (4109401), Guaraqueçaba - PR (4109500), Guarará - MG (3128501), Guararapes - SP (3518206), Guararema - SP (3518305), Guaratinguetá - SP (3518404), Guaratuba - PR (4109609), Guareí - SP (3518503), Guariba - SP (3518602), Guarujá - SP (3518701), Guarujá do Sul - SC (4206603), Guarulhos - SP (3518800), Guatambú - SC (4206652), Guatapará - SP (3518859), Guaxupé - MG (3128709), Guia Lopes da Laguna - MS (5004106), Guidoval - MG (3128808), Guiratinga - MT (5104203), Guiricema - MG (3129004), Gurinhatã - MG (3129103), Guzolândia - SP (3518909), Harmonia - RS (4309555), Heliodora - MG (3129202), Herculândia - SP (3519006), Herval - RS (4307104), Herval d'Oeste - SC (4206702), Herveiras - RS (4309571), Holambra - SP (3519055), Honório Serpa - PR (4109658), Horizontina - RS (4309605), Hortolândia - SP (3519071), Hulha Negra - RS (4309654), Humaitá - RS (4309704), Iacanga - SP (3519105), Iacri - SP (3519204), Iaras - SP (3519253), Ibaiti - PR (4109708), Ibarama - RS (4309753), Ibaté - SP (3519303), Ibema - PR (4109757), Ibertioga - MG (3129400), Ibiá - MG (3129509), Ibiaçá - RS (4309803), Ibiam - SC (4206751), Ibicaré - SC (4206801), Ibiporã - PR (4109807), Ibirá - SP (3519402), Ibiraci - MG (3129707), Ibiraiaras - RS (4309902), Ibirama - SC (4206900), Ibirapuitã - RS (4309951), Ibirarema - SP (3519501), Ibirubá - RS (4310009), Ibitinga - SP (3519600), Ibitiúra de Minas - MG (3129905), Ibituruna - MG (3130002), Ibiúna - SP (3519709), Içara - SC (4207007), Icaraíma - PR (4109906), Icém - SP (3519808), Iepê - SP (3519907), Igaraçu do Tietê - SP (3520004), Igarapava - SP (3520103), Igaratá - SP (3520202), Igrejinha - RS (4310108), Iguaba Grande - RJ (3301876), Iguape - SP (3520301), Iguaraçu - PR (4110003), Iguatama - MG (3130309), Iguatemi - MS (5004304), Iguatu - PR (4110052), Ijaci - MG (3130408), Ijuí - RS (4310207), Ilhabela - SP (3520400), Ilha Comprida - SP (3520426), Ilha Solteira - SP (3520442), Ilhota - SC (4207106), Ilicínea - MG (3130507), Ilópolis - RS (4310306), Imaruí - SC (4207205), Imbaú - PR (4110078), Imbé - RS (4310330), Imbituba - SC (4207304), Imbituva - PR (4110102), Imbuia - SC (4207403), Imigrante - RS (4310363), Inaciolândia - GO (5209937), Inácio Martins - PR (4110201), Inajá - PR (4110300), Inconfidentes - MG (3130606), Indaial - SC (4207502), Indaiatuba - SP (3520509), Independência - RS (4310405), Indiana - SP (3520608), Indianópolis - PR (4110409), Indiaporã - SP (3520707), Indiavaí - MT (5104500), Ingaí - MG (3130804), Inhacorá - RS (4310413), Inocência - MS (5004403), Inúbia Paulista - SP (3520806), Iomerê - SC (4207577), Ipaussu - SP (3520905), Ipê - RS (4310439), Iperó - SP (3521002), Ipeúna - SP (3521101), Ipiaçu - MG (3131406), Ipiguá - SP (3521150), Ipira - SC (4207601), Ipiranga - PR (4110508), Ipiranga do Sul - RS (4310462), Iporã - PR (4110607), Iporã do Oeste - SC (4207650), Iporanga - SP (3521200), Ipuã - SP (3521309), Ipuaçu - SC (4207684), Ipuiúna - MG (3131505), Ipumirim - SC (4207700), Iracema do Oeste - PR (4110656), Iracemápolis - SP (3521408), Iraceminha - SC (4207759), Iraí - RS (4310504), Irani - SC (4207809), Irapuã - SP (3521507), Irapuru - SP (3521606), Irati - PR (4110706), Irati - SC (4207858), Iretama - PR (4110805), Irineópolis - SC (4207908), Itá - SC (4208005), Itaara - RS (4310538), Itaberá - SP (3521705), Itaboraí - RJ (3301900), Itacurubi - RS (4310553), Itaguaí - RJ (3302007), Itaguajé - PR (4110904), Itaguara - MG (3132206), Itaí - SP (3521804), Itaiópolis - SC (4208104), Itaipulândia - PR (4110953), Itajá - GO (5210802), Itajaí - SC (4208203), Itajobi - SP (3521903), Itaju - SP (3522000), Itajubá - MG (3132404), Italva - RJ (3302056), Itamarati de Minas - MG (3132602), Itambaracá - PR (4111001), Itambé - PR (4111100), Itamogi - MG (3132909), Itamonte - MG (3133006), Itanhaém - SP (3522109), Itanhandu - MG (3133105), Itaoca - SP (3522158), Itaocara - RJ (3302106), Itapagipe - MG (3133402), Itapecerica - MG (3133501), Itapecerica da Serra - SP (3522208), Itapejara d'Oeste - PR (4111209), Itapema - SC (4208302), Itaperuçu - PR (4111258), Itaperuna - RJ (3302205), Itapetininga - SP (3522307), Itapeva - SP (3522406), Itapeva - MG (3133600), Itapevi - SP (3522505), Itapira - SP (3522604), Itapiranga - SC (4208401), Itapirapuã Paulista - SP (3522653), Itapoá - SC (4208450), Itápolis - SP (3522703), Itaporã - MS (5004502), Itaporanga - SP (3522802), Itapuca - RS (4310579), Itapuí - SP (3522901), Itapura - SP (3523008), Itaquaquecetuba - SP (3523107), Itaqui - RS (4310603), Itaquiraí - MS (5004601), Itararé - SP (3523206), Itariri - SP (3523305), Itarumã - GO (5211305), Itati - RS (4310652), Itatiaia - RJ (3302254), Itatiba - SP (3523404), Itatiba do Sul - RS (4310702), Itatinga - SP (3523503), Itaú de Minas - MG (3133758), Itaúna do Sul - PR (4111308), Itaverava - MG (3133907), Itiquira - MT (5104609), Itirapina - SP (3523602), Itirapuã - SP (3523701), Itobi - SP (3523800), Itu - SP (3523909), Ituiutaba - MG (3134202), Itumbiara - GO (5211503), Itumirim - MG (3134301), Itupeva - SP (3524006), Ituporanga - SC (4208500), Iturama - MG (3134400), Itutinga - MG (3134509), Ituverava - SP (3524105), Ivaí - PR (4111407), Ivaiporã - PR (4111506), Ivaté - PR (4111555), Ivatuba - PR (4111605), Ivinhema - MS (5004700), Ivorá - RS (4310751), Ivoti - RS (4310801), Jaborá - SC (4208609), Jaborandi - SP (3524204), Jaboti - PR (4111704), Jaboticaba - RS (4310850), Jaboticabal - SP (3524303), Jacareí - SP (3524402), Jacarezinho - PR (4111803), Jaci - SP (3524501), Jaciara - MT (5104807), Jacinto Machado - SC (4208708), Jacuí - MG (3134806), Jacuizinho - RS (4310876), Jacupiranga - SP (3524600), Jacutinga - MG (3134905), Jacutinga - RS (4310900), Jaguapitã - PR (4111902), Jaguarão - RS (4311007), Jaguari - RS (4311106), Jaguariaíva - PR (4112009), Jaguariúna - SP (3524709), Jaguaruna - SC (4208807), Jales - SP (3524808), Jambeiro - SP (3524907), Jandaia do Sul - PR (4112108), Jandira - SP (3525003), Jangada - MT (5104906), Janiópolis - PR (4112207), Japaraíba - MG (3135308), Japeri - RJ (3302270), Japira - PR (4112306), Japorã - MS (5004809), Japurá - PR (4112405), Jaquirana - RS (4311122), Jaraguá do Sul - SC (4208906), Jaraguari - MS (5004908), Jardim - MS (5005004), Jardim Alegre - PR (4112504), Jardim Olinda - PR (4112603), Jardinópolis - SC (4208955), Jardinópolis - SP (3525102), Jari - RS (4311130), Jarinu - SP (3525201), Jaru - RO (1100114), Jataí - GO (5211909), Jataizinho - PR (4112702), Jateí - MS (5005103), Jaú - SP (3525300), Jauru - MT (5105002), Jeceaba - MG (3135407), Jeriquara - SP (3525409), Jesuânia - MG (3135902), Jesuítas - PR (4112751), Joaçaba - SC (4209003), Joanópolis - SP (3525508), João Ramalho - SP (3525607), Joaquim Távora - PR (4112801), Jóia - RS (4311155), Joinville - SC (4209102), José Boiteux - SC (4209151), José Bonifácio - SP (3525706), Juiz de Fora - MG (3136702), Júlio de Castilhos - RS (4311205), Júlio Mesquita - SP (3525805), Jumirim - SP (3525854), Jundiaí - SP (3525904), Jundiaí do Sul - PR (4112900), Junqueirópolis - SP (3526001), Jupiá - SC (4209177), Juquiá - SP (3526100), Juquitiba - SP (3526209), Juranda - PR (4112959), Juruaia - MG (3136900), Juscimeira - MT (5105200), Jussara - PR (4113007), Juti - MS (5005152), Kaloré - PR (4113106), Lábrea - AM (1302405), Lacerdópolis - SC (4209201), Ladário - MS (5005202), Lages - SC (4209300), Lagoa Bonita do Sul - RS (4311239), Lagoa da Prata - MG (3137205), Lagoa dos Três Cantos - RS (4311270), Lagoa Dourada - MG (3137403), Lagoão - RS (4311254), Lagoa Santa - GO (5212253), Lagoa Vermelha - RS (4311304), Lagoinha - SP (3526308), Laguna - SC (4209409), Laguna Carapã - MS (5005251), Lajeado - RS (4311403), Lajeado do Bugre - RS (4311429), Lajeado Grande - SC (4209458), Laje do Muriaé - RJ (3302304), Lambari - MG (3137809), Lambari D'Oeste - MT (5105234), Lamim - MG (3137908), Lapa - PR (4113205), Laranjal - MG (3138005), Laranjal - PR (4113254), Laranjal Paulista - SP (3526407), Laranjeiras do Sul - PR (4113304), Laurentino - SC (4209508), Lauro Müller - SC (4209607), Lavínia - SP (3526506), Lavras - MG (3138203), Lavras do Sul - RS (4311502), Lavrinhas - SP (3526605), Lebon Régis - SC (4209706), Leme - SP (3526704), Lençóis Paulista - SP (3526803), Leoberto Leal - SC (4209805), Leopoldina - MG (3138401), Leópolis - PR (4113403), Liberato Salzano - RS (4311601), Liberdade - MG (3138500), Lidianópolis - PR (4113429), Lima Duarte - MG (3138609), Limeira - SP (3526902), Limeira do Oeste - MG (3138625), Lindoeste - PR (4113452), Lindóia - SP (3527009), Lindóia do Sul - SC (4209854), Lindolfo Collor - RS (4311627), Linha Nova - RS (4311643), Lins - SP (3527108), Loanda - PR (4113502), Lobato - PR (4113601), Londrina - PR (4113700), Lontras - SC (4209904), Lorena - SP (3527207), Lourdes - SP (3527256), Louveira - SP (3527306), Lucélia - SP (3527405), Lucianópolis - SP (3527504), Luís Antônio - SP (3527603), Luiz Alves - SC (4210001), Luiziana - PR (4113734), Luiziânia - SP (3527702), Luminárias - MG (3138708), Lunardelli - PR (4113759), Lupércio - SP (3527801), Lupionópolis - PR (4113809), Lutécia - SP (3527900), Luz - MG (3138807), Luzerna - SC (4210035), Macaé - RJ (3302403), Maçambará - RS (4311718), Macatuba - SP (3528007), Macaubal - SP (3528106), Macedônia - SP (3528205), Machadinho - RS (4311700), Machado - MG (3139003), Macieira - SC (4210050), Macuco - RJ (3302452), Madre de Deus de Minas - MG (3139102), Mafra - SC (4210100), Magda - SP (3528304), Magé - RJ (3302502), Mairinque - SP (3528403), Mairiporã - SP (3528502), Major Gercino - SC (4210209), Major Vieira - SC (4210308), Mallet - PR (4113908), Mamborê - PR (4114005), Mampituba - RS (4311734), Mandaguaçu - PR (4114104), Mandaguari - PR (4114203), Mandirituba - PR (4114302), Manduri - SP (3528601), Manfrinópolis - PR (4114351), Mangaratiba - RJ (3302601), Mangueirinha - PR (4114401), Manoel Ribas - PR (4114500), Manoel Urbano - AC (1200344), Manoel Viana - RS (4311759), Maquiné - RS (4311775), Marabá Paulista - SP (3528700), Maracaí - SP (3528809), Maracajá - SC (4210407), Maracaju - MS (5005400), Marapoama - SP (3528858), Maratá - RS (4311791), Marau - RS (4311809), Maravilha - SC (4210506), Marcelino Ramos - RS (4311908), Mar de Espanha - MG (3139805), Marechal Cândido Rondon - PR (4114609), Marema - SC (4210555), Maria da Fé - MG (3139904), Maria Helena - PR (4114708), Marialva - PR (4114807), Mariana Pimentel - RS (4311981), Mariano Moro - RS (4312005), Mariápolis - SP (3528908), Maricá - RJ (3302700), Marilândia do Sul - PR (4114906), Marilena - PR (4115002), Marília - SP (3529005), Mariluz - PR (4115101), Maringá - PR (4115200), Marinópolis - SP (3529104), Mariópolis - PR (4115309), Maripá - PR (4115358), Maripá de Minas - MG (3140209), Marmeleiro - PR (4115408), Marmelópolis - MG (3140407), Marques de Souza - RS (4312054), Marquinho - PR (4115457), Martinópolis - SP (3529203), Marumbi - PR (4115507), Massaranduba - SC (4210605), Mata - RS (4312104), Matão - SP (3529302), Matelândia - PR (4115606), Matias Barbosa - MG (3140803), Matinhos - PR (4115705), Mato Castelhano - RS (4312138), Mato Leitão - RS (4312153), Mato Queimado - RS (4312179), Mato Rico - PR (4115739), Matos Costa - SC (4210704), Mauá - SP (3529401), Mauá da Serra - PR (4115754), Maurilândia - GO (5213004), Maximiliano de Almeida - RS (4312203), Medeiros - MG (3141306), Medianeira - PR (4115804), Meleiro - SC (4210803), Mendes - RJ (3302809), Mendonça - SP (3529500), Mercedes - PR (4115853), Mercês - MG (3141603), Meridiano - SP (3529609), Mesópolis - SP (3529658), Mesquita - RJ (3302858), Miguelópolis - SP (3529708), Miguel Pereira - RJ (3302908), Mimoso do Sul - ES (3203403), Minas do Leão - RS (4312252), Minduri - MG (3141900), Mineiros - GO (5213103), Mineiros do Tietê - SP (3529807), Miracatu - SP (3529906), Miracema - RJ (3303005), Mirador - PR (4115903), Miradouro - MG (3142106), Mira Estrela - SP (3530003), Miraguaí - RS (4312302), Miraí - MG (3142205), Miranda - MS (5005608), Mirandópolis - SP (3530102), Mirante da Serra - RO (1101302), Mirante do Paranapanema - SP (3530201), Miraselva - PR (4116000), Mirassol - SP (3530300), Mirassolândia - SP (3530409), Mirassol d'Oeste - MT (5105622), Mirim Doce - SC (4210852), Missal - PR (4116059), Mococa - SP (3530508), Modelo - SC (4210902), Mogi das Cruzes - SP (3530607), Mogi Guaçu - SP (3530706), Mogi Mirim - SP (3530805), Mombuca - SP (3530904), Monções - SP (3531001), Mondaí - SC (4211009), Mongaguá - SP (3531100), Monsenhor Paulo - MG (3142601), Montauri - RS (4312351), Monte Alegre de Minas - MG (3142809), Monte Alegre dos Campos - RS (4312377), Monte Alegre do Sul - SP (3531209), Monte Alto - SP (3531308), Monte Aprazível - SP (3531407), Monte Azul Paulista - SP (3531506), Monte Belo - MG (3143005), Monte Belo do Sul - RS (4312385), Monte Carlo - SC (4211058), Monte Castelo - SP (3531605), Monte Castelo - SC (4211108), Monteiro Lobato - SP (3531704), Monte Mor - SP (3531803), Montenegro - RS (4312401), Monte Santo de Minas - MG (3143203), Monte Sião - MG (3143401), Montividiu - GO (5213756), Moreira Sales - PR (4116109), Mormaço - RS (4312427), Morretes - PR (4116208), Morrinhos do Sul - RS (4312443), Morro Agudo - SP (3531902), Morro da Fumaça - SC (4211207), Morro Grande - SC (4211256), Morro Redondo - RS (4312450), Morro Reuter - RS (4312476), Morungaba - SP (3532009), Mostardas - RS (4312500), Motuca - SP (3532058), Muçum - RS (4312609), Muitos Capões - RS (4312617), Muliterno - RS (4312625), Mundo Novo - MS (5005681), Munhoz - MG (3143807), Munhoz de Melo - PR (4116307), Muriaé - MG (3143906), Murutinga do Sul - SP (3532108), Muzambinho - MG (3144102), Nantes - SP (3532157), Não-Me-Toque - RS (4312658), Narandiba - SP (3532207), Natércia - MG (3144409), Natividade - RJ (3303104), Natividade da Serra - SP (3532306), Navegantes - SC (4211306), Naviraí - MS (5005707), Nazareno - MG (3144508), Nazaré Paulista - SP (3532405), Nepomuceno - MG (3144607), Neves Paulista - SP (3532504), Nhandeara - SP (3532603), Nicolau Vergueiro - RS (4312674), Nilópolis - RJ (3303203), Nioaque - MS (5005806), Nipoã - SP (3532702), Niterói - RJ (3303302), Nobres - MT (5105903), Nonoai - RS (4312708), Nortelândia - MT (5106000), Nossa Senhora das Graças - PR (4116406), Nossa Senhora do Livramento - MT (5106109), Nova Aliança - SP (3532801), Nova Aliança do Ivaí - PR (4116505), Nova Alvorada - RS (4312757), Nova Alvorada do Sul - MS (5006002), Nova América da Colina - PR (4116604), Nova Andradina - MS (5006200), Nova Araçá - RS (4312807), Nova Aurora - PR (4116703), Nova Bassano - RS (4312906), Nova Boa Vista - RS (4312955), Nova Brasilândia - MT (5106208), Nova Brasilândia D'Oeste - RO (1100148), Nova Bréscia - RS (4313003), Nova Campina - SP (3532827), Nova Canaã Paulista - SP (3532843), Nova Candelária - RS (4313011), Nova Cantu - PR (4116802), Nova Castilho - SP (3532868), Nova Erechim - SC (4211405), Nova Esperança - PR (4116901), Nova Esperança do Sudoeste - PR (4116950), Nova Esperança do Sul - RS (4313037), Nova Europa - SP (3532900), Nova Fátima - PR (4117008), Nova Friburgo - RJ (3303401), Nova Granada - SP (3533007), Nova Guataporanga - SP (3533106), Nova Hartz - RS (4313060), Nova Iguaçu - RJ (3303500), Nova Independência - SP (3533205), Novais - SP (3533254), Nova Itaberaba - SC (4211454), Nova Lacerda - MT (5106182), Nova Laranjeiras - PR (4117057), Nova Londrina - PR (4117107), Nova Luzitânia - SP (3533304), Nova Mamoré - RO (1100338), Nova Marilândia - MT (5108857), Nova Maringá - MT (5108907), Nova Mutum - MT (5106224), Nova Odessa - SP (3533403), Nova Olímpia - MT (5106232), Nova Olímpia - PR (4117206), Nova Pádua - RS (4313086), Nova Palma - RS (4313102), Nova Petrópolis - RS (4313201), Nova Ponte - MG (3145000), Nova Prata - RS (4313300), Nova Prata do Iguaçu - PR (4117255), Nova Ramada - RS (4313334), Nova Resende - MG (3145109), Nova Roma do Sul - RS (4313359), Nova Santa Bárbara - PR (4117214), Nova Santa Rita - RS (4313375), Nova Santa Rosa - PR (4117222), Nova Tebas - PR (4117271), Nova Trento - SC (4211504), Nova Veneza - SC (4211603), Novo Barreiro - RS (4313490), Novo Cabrais - RS (4313391), Novo Hamburgo - RS (4313409), Novo Horizonte - SP (3533502), Novo Horizonte - SC (4211652), Novo Horizonte do Oeste - RO (1100502), Novo Horizonte do Sul - MS (5006259), Novo Itacolomi - PR (4117297), Novo Machado - RS (4313425), Novo São Joaquim - MT (5106281), Novo Tiradentes - RS (4313441), Novo Xingu - RS (4313466), Nuporanga - SP (3533601), Ocauçu - SP (3533700), Olaria - MG (3145406), Óleo - SP (3533809), Olímpia - SP (3533908), Olímpio Noronha - MG (3145505), Oliveira - MG (3145604), Oliveira Fortes - MG (3145703), Onda Verde - SP (3534005), Oriente - SP (3534104), Orindiúva - SP (3534203), Orlândia - SP (3534302), Orleans - SC (4211702), Ortigueira - PR (4117305), Osasco - SP (3534401), Oscar Bressane - SP (3534500), Osório - RS (4313508), Osvaldo Cruz - SP (3534609), Otacílio Costa - SC (4211751), Ourinhos - SP (3534708), Ourizona - PR (4117404), Ouro - SC (4211801), Ouro Branco - MG (3145901), Ouroeste - SP (3534757), Ouro Fino - MG (3146008), Ouro Verde - SC (4211850), Ouro Verde - SP (3534807), Ouro Verde do Oeste - PR (4117453), Pacaembu - SP (3534906), Paial - SC (4211876), Paiçandu - PR (4117503), Paim Filho - RS (4313607), Painel - SC (4211892), Pains - MG (3146503), Paiva - MG (3146602), Palestina - SP (3535002), Palestina de Goiás - GO (5215652), Palhoça - SC (4211900), Palma - MG (3146701), Palmares do Sul - RS (4313656), Palmares Paulista - SP (3535101), Palmas - PR (4117602), Palma Sola - SC (4212007), Palmeira - PR (4117701), Palmeira - SC (4212056), Palmeira das Missões - RS (4313706), Palmeira d'Oeste - SP (3535200), Palmital - SP (3535309), Palmital - PR (4117800), Palmitinho - RS (4313805), Palmitos - SC (4212106), Palotina - PR (4117909), Panambi - RS (4313904), Panorama - SP (3535408), Pantano Grande - RS (4313953), Papanduva - SC (4212205), Paracambi - RJ (3303609), Paraguaçu - MG (3147204), Paraguaçu Paulista - SP (3535507), Paraí - RS (4314001), Paraíba do Sul - RJ (3303708), Paraibuna - SP (3535606), Paraíso - SC (4212239), Paraíso - SP (3535705), Paraíso das Águas - MS (5006275), Paraíso do Norte - PR (4118006), Paraíso do Sul - RS (4314027), Paraisópolis - MG (3147303), Paranacity - PR (4118105), Paranaguá - PR (4118204), Paranaíba - MS (5006309), Paranaiguara - GO (5216304), Paranapanema - SP (3535804), Paranapoema - PR (4118303), Paranapuã - SP (3535903), Paranavaí - PR (4118402), Paranhos - MS (5006358), Parapuã - SP (3536000), Paraty - RJ (3303807), Pardinho - SP (3536109), Pareci Novo - RS (4314035), Parecis - RO (1101450), Pariquera-Açu - SP (3536208), Parisi - SP (3536257), Parobé - RS (4314050), Passa Quatro - MG (3147600), Passa Sete - RS (4314068), Passa Tempo - MG (3147709), Passa Vinte - MG (3147808), Passo de Torres - SC (4212254), Passo do Sobrado - RS (4314076), Passo Fundo - RS (4314100), Passos - MG (3147907), Passos Maia - SC (4212270), Pato Bragado - PR (4118451), Pato Branco - PR (4118501), Patrocínio do Muriaé - MG (3148202), Patrocínio Paulista - SP (3536307), Paty do Alferes - RJ (3303856), Paula Cândido - MG (3148301), Paula Freitas - PR (4118600), Paulicéia - SP (3536406), Paulínia - SP (3536505), Paulistânia - SP (3536570), Paulo Bento - RS (4314134), Paulo de Faria - SP (3536604), Paulo Frontin - PR (4118709), Paulo Lopes - SC (4212304), Paverama - RS (4314159), Peabiru - PR (4118808), Pederneiras - SP (3536703), Pedra Bela - SP (3536802), Pedra do Indaiá - MG (3148905), Pedralva - MG (3149101), Pedranópolis - SP (3536901), Pedra Preta - MT (5106372), Pedras Altas - RS (4314175), Pedras Grandes - SC (4212403), Pedregulho - SP (3537008), Pedreira - SP (3537107), Pedrinhas Paulista - SP (3537156), Pedro de Toledo - SP (3537206), Pedro Gomes - MS (5006408), Pedro Osório - RS (4314209), Pedro Teixeira - MG (3149408), Pejuçara - RS (4314308), Pelotas - RS (4314407), Penápolis - SP (3537305), Penha - SC (4212502), Pequeri - MG (3149507), Perdizes - MG (3149804), Perdões - MG (3149903), Pereira Barreto - SP (3537404), Pereiras - SP (3537503), Peritiba - SC (4212601), Perobal - PR (4118857), Pérola - PR (4118907), Pérola d'Oeste - PR (4119004), Perolândia - GO (5216452), Peruíbe - SP (3537602), Pescaria Brava - SC (4212650), Petrolândia - SC (4212700), Petrópolis - RJ (3303906), Piacatu - SP (3537701), Piau - MG (3150109), Picada Café - RS (4314423), Piedade - SP (3537800), Piedade do Rio Grande - MG (3150307), Piedade dos Gerais - MG (3150406), Piên - PR (4119103), Pilar do Sul - SP (3537909), Pimenta - MG (3150505), Pimenteiras do Oeste - RO (1101468), Pindamonhangaba - SP (3538006), Pindorama - SP (3538105), Pinhais - PR (4119152), Pinhal - RS (4314456), Pinhalão - PR (4119202), Pinhal da Serra - RS (4314464), Pinhal de São Bento - PR (4119251), Pinhal Grande - RS (4314472), Pinhalzinho - SC (4212908), Pinhalzinho - SP (3538204), Pinhão - PR (4119301), Pinheiral - RJ (3303955), Pinheirinho do Vale - RS (4314498), Pinheiro Machado - RS (4314506), Pinheiro Preto - SC (4213005), Pinto Bandeira - RS (4314548), Piquerobi - SP (3538303), Piquete - SP (3538501), Piracaia - SP (3538600), Piracema - MG (3150604), Piracicaba - SP (3538709), Piraí - RJ (3304003), Piraí do Sul - PR (4119400), Piraju - SP (3538808), Pirajuba - MG (3150703), Pirajuí - SP (3538907), Piranga - MG (3150802), Pirangi - SP (3539004), Piranguçu - MG (3150901), Piranguinho - MG (3151008), Piranhas - GO (5217203), Pirapetinga - MG (3151107), Pirapó - RS (4314555), Pirapora do Bom Jesus - SP (3539103), Pirapozinho - SP (3539202), Piraquara - PR (4119509), Pirassununga - SP (3539301), Piratini - RS (4314605), Piratininga - SP (3539400), Piratuba - SC (4213104), Piraúba - MG (3151305), Pitanga - PR (4119608), Pitangueiras - PR (4119657), Pitangueiras - SP (3539509), Piumhi - MG (3151503), Plácido de Castro - AC (1200385), Planaltina do Paraná - PR (4119707), Planalto - SP (3539608), Planalto - RS (4314704), Planalto - PR (4119806), Planalto Alegre - SC (4213153), Planalto da Serra - MT (5106455), Planura - MG (3151602), Platina - SP (3539707), Poá - SP (3539806), Poço das Antas - RS (4314753), Poço Fundo - MG (3151701), Poconé - MT (5106505), Poços de Caldas - MG (3151800), Poloni - SP (3539905), Pomerode - SC (4213203), Pompéia - SP (3540002), Pongaí - SP (3540101), Ponta Grossa - PR (4119905), Pontal - SP (3540200), Pontal do Araguaia - MT (5106653), Pontal do Paraná - PR (4119954), Pontalinda - SP (3540259), Pontão - RS (4314779), Ponta Porã - MS (5006606), Ponte Alta - SC (4213302), Ponte Alta do Norte - SC (4213351), Ponte Branca - MT (5106703), Ponte Preta - RS (4314787), Pontes e Lacerda - MT (5106752), Ponte Serrada - SC (4213401), Pontes Gestal - SP (3540309), Populina - SP (3540408), Porangaba - SP (3540507), Porecatu - PR (4120002), Portão - RS (4314803), Porteirão - GO (5218052), Portelândia - GO (5218102), Porto Acre - AC (1200807), Porto Alegre - RS (4314902), Porto Amazonas - PR (4120101), Porto Barreiro - PR (4120150), Porto Belo - SC (4213500), Porto Esperidião - MT (5106828), Porto Estrela - MT (5106851), Porto Feliz - SP (3540606), Porto Ferreira - SP (3540705), Porto Lucena - RS (4315008), Porto Mauá - RS (4315057), Porto Murtinho - MS (5006903), Porto Real - RJ (3304110), Porto Rico - PR (4120200), Porto União - SC (4213609), Porto Velho - RO (1100205), Porto Vera Cruz - RS (4315073), Porto Vitória - PR (4120309), Porto Xavier - RS (4315107), Potim - SP (3540754), Potirendaba - SP (3540804), Pouso Alegre - MG (3152501), Pouso Alto - MG (3152600), Pouso Novo - RS (4315131), Pouso Redondo - SC (4213708), Poxoréu - MT (5107008), Pracinha - SP (3540853), Prado Ferreira - PR (4120333), Pradópolis - SP (3540903), Prados - MG (3152709), Praia Grande - SC (4213807), Praia Grande - SP (3541000), Pranchita - PR (4120358), Prata - MG (3152808), Pratânia - SP (3541059), Pratápolis - MG (3152907), Pratinha - MG (3153004), Presidente Alves - SP (3541109), Presidente Bernardes - SP (3541208), Presidente Bernardes - MG (3153103), Presidente Castello Branco - SC (4213906), Presidente Castelo Branco - PR (4120408), Presidente Epitácio - SP (3541307), Presidente Getúlio - SC (4214003), Presidente Lucena - RS (4315149), Presidente Nereu - SC (4214102), Presidente Prudente - SP (3541406), Presidente Venceslau - SP (3541505), Primavera do Leste - MT (5107040), Primeiro de Maio - PR (4120507), Princesa - SC (4214151), Progresso - RS (4315156), Promissão - SP (3541604), Protásio Alves - RS (4315172), Prudentópolis - PR (4120606), Putinga - RS (4315206), Quadra - SP (3541653), Quaraí - RS (4315305), Quarto Centenário - PR (4120655), Quatá - SP (3541703), Quatiguá - PR (4120705), Quatis - RJ (3304128), Quatro Barras - PR (4120804), Quatro Irmãos - RS (4315313), Quatro Pontes - PR (4120853), Quedas do Iguaçu - PR (4120903), Queimados - RJ (3304144), Queiroz - SP (3541802), Queluz - SP (3541901), Queluzito - MG (3153806), Querência do Norte - PR (4121000), Quevedos - RS (4315321), Quilombo - SC (4214201), Quinta do Sol - PR (4121109), Quintana - SP (3542008), Quinze de Novembro - RS (4315354), Quirinópolis - GO (5218508), Quissamã - RJ (3304151), Quitandinha - PR (4121208), Rafard - SP (3542107), Ramilândia - PR (4121257), Rancharia - SP (3542206), Rancho Alegre - PR (4121307), Rancho Alegre D'Oeste - PR (4121356), Rancho Queimado - SC (4214300), Realeza - PR (4121406), Rebouças - PR (4121505), Recreio - MG (3154101), Redenção da Serra - SP (3542305), Redentora - RS (4315404), Regente Feijó - SP (3542404), Reginópolis - SP (3542503), Registro - SP (3542602), Relvado - RS (4315453), Renascença - PR (4121604), Resende - RJ (3304201), Resende Costa - MG (3154200), Reserva - PR (4121703), Reserva do Cabaçal - MT (5107156), Reserva do Iguaçu - PR (4121752), Ressaquinha - MG (3154408), Restinga - SP (3542701), Restinga Sêca - RS (4315503), Ribas do Rio Pardo - MS (5007109), Ribeira - SP (3542800), Ribeirão Bonito - SP (3542909), Ribeirão Branco - SP (3543006), Ribeirão Claro - PR (4121802), Ribeirão Corrente - SP (3543105), Ribeirão do Pinhal - PR (4121901), Ribeirão dos Índios - SP (3543238), Ribeirão do Sul - SP (3543204), Ribeirão Grande - SP (3543253), Ribeirão Pires - SP (3543303), Ribeirão Preto - SP (3543402), Ribeirão Vermelho - MG (3154705), Ribeirãozinho - MT (5107198), Rifaina - SP (3543600), Rincão - SP (3543709), Rinópolis - SP (3543808), Rio Azul - PR (4122008), Rio Bom - PR (4122107), Rio Bonito - RJ (3304300), Rio Bonito do Iguaçu - PR (4122156), Rio Branco - AC (1200401), Rio Branco - MT (5107206), Rio Branco do Ivaí - PR (4122172), Rio Branco do Sul - PR (4122206), Rio Brilhante - MS (5007208), Rio Claro - RJ (3304409), Rio Claro - SP (3543907), Rio das Antas - SC (4214409), Rio das Flores - RJ (3304508), Rio das Ostras - RJ (3304524), Rio das Pedras - SP (3544004), Rio de Janeiro - RJ (3304557), Rio do Campo - SC (4214508), Rio do Oeste - SC (4214607), Rio dos Cedros - SC (4214706), Rio dos Índios - RS (4315552), Rio do Sul - SC (4214805), Rio Espera - MG (3155207), Rio Fortuna - SC (4214904), Rio Grande - RS (4315602), Rio Grande da Serra - SP (3544103), Riolândia - SP (3544202), Rio Negrinho - SC (4215000), Rio Negro - PR (4122305), Rio Negro - MS (5007307), Rio Novo - MG (3155405), Rio Pardo - RS (4315701), Rio Pomba - MG (3155801), Rio Preto - MG (3155900), Rio Rufino - SC (4215059), Rio Verde - GO (5218805), Rio Verde de Mato Grosso - MS (5007406), Riozinho - RS (4315750), Riqueza - SC (4215075), Ritápolis - MG (3156106), Riversul - SP (3543501), Roca Sales - RS (4315800), Rochedo - MS (5007505), Rochedo de Minas - MG (3156205), Rodeio - SC (4215109), Rodeio Bonito - RS (4315909), Rodeiro - MG (3156304), Rolador - RS (4315958), Rolândia - PR (4122404), Rolante - RS (4316006), Romelândia - SC (4215208), Roncador - PR (4122503), Ronda Alta - RS (4316105), Rondinha - RS (4316204), Rondon - PR (4122602), Rondonópolis - MT (5107602), Roque Gonzales - RS (4316303), Rosana - SP (3544251), Rosário da Limeira - MG (3156452), Rosário do Ivaí - PR (4122651), Rosário do Sul - RS (4316402), Rosário Oeste - MT (5107701), Roseira - SP (3544301), Rubiácea - SP (3544400), Rubinéia - SP (3544509), Sabáudia - PR (4122701), Sabino - SP (3544608), Sacramento - MG (3156908), Sagrada Família - RS (4316428), Sagres - SP (3544707), Saldanha Marinho - RS (4316436), Sales - SP (3544806), Sales Oliveira - SP (3544905), Salesópolis - SP (3545001), Salete - SC (4215307), Salgado Filho - PR (4122800), Salmourão - SP (3545100), Saltinho - SP (3545159), Saltinho - SC (4215356), Salto - SP (3545209), Salto de Pirapora - SP (3545308), Salto do Céu - MT (5107750), Salto do Itararé - PR (4122909), Salto do Jacuí - RS (4316451), Salto do Lontra - PR (4123006), Salto Grande - SP (3545407), Salto Veloso - SC (4215406), Salvador das Missões - RS (4316477), Salvador do Sul - RS (4316501), Sananduva - RS (4316600), Sandovalina - SP (3545506), Sangão - SC (4215455), Santa Adélia - SP (3545605), Santa Albertina - SP (3545704), Santa Amélia - PR (4123105), Santa Bárbara d'Oeste - SP (3545803), Santa Bárbara do Monte Verde - MG (3157278), Santa Bárbara do Sul - RS (4316709), Santa Bárbara do Tugúrio - MG (3157302), Santa Branca - SP (3546009), Santa Cecília - SC (4215505), Santa Cecília do Pavão - PR (4123204), Santa Cecília do Sul - RS (4316733), Santa Clara d'Oeste - SP (3546108), Santa Clara do Sul - RS (4316758), Santa Cruz da Conceição - SP (3546207), Santa Cruz da Esperança - SP (3546256), Santa Cruz das Palmeiras - SP (3546306), Santa Cruz de Minas - MG (3157336), Santa Cruz de Monte Castelo - PR (4123303), Santa Cruz do Rio Pardo - SP (3546405), Santa Cruz do Sul - RS (4316808), Santa Ernestina - SP (3546504), Santa Fé - PR (4123402), Santa Fé do Sul - SP (3546603), Santa Gertrudes - SP (3546702), Santa Helena - PR (4123501), Santa Helena - SC (4215554), Santa Helena de Goiás - GO (5219308), Santa Inês - PR (4123600), Santa Isabel - SP (3546801), Santa Isabel do Ivaí - PR (4123709), Santa Izabel do Oeste - PR (4123808), Santa Juliana - MG (3157708), Santa Lúcia - PR (4123824), Santa Lúcia - SP (3546900), Santa Luzia D'Oeste - RO (1100296), Santa Margarida do Sul - RS (4316972), Santa Maria - RS (4316907), Santa Maria da Serra - SP (3547007), Santa Maria do Herval - RS (4316956), Santa Maria do Oeste - PR (4123857), Santa Maria Madalena - RJ (3304607), Santa Mariana - PR (4123907), Santa Mercedes - SP (3547106), Santa Mônica - PR (4123956), Santana da Boa Vista - RS (4317004), Santana da Ponte Pensa - SP (3547205), Santana da Vargem - MG (3158300), Santana de Cataguases - MG (3158409), Santana de Parnaíba - SP (3547304), Santana do Deserto - MG (3158607), Santana do Garambéu - MG (3158706), Santana do Itararé - PR (4124004), Santana do Jacaré - MG (3158805), Santana do Livramento - RS (4317103), Santana dos Montes - MG (3159100), Santa Rita de Caldas - MG (3159209), Santa Rita de Ibitipoca - MG (3159407), Santa Rita de Jacutinga - MG (3159308), Santa Rita do Araguaia - GO (5219407), Santa Rita d'Oeste - SP (3547403), Santa Rita do Pardo - MS (5007554), Santa Rita do Passa Quatro - SP (3547502), Santa Rita do Sapucaí - MG (3159605), Santa Rosa - RS (4317202), Santa Rosa de Lima - SC (4215604), Santa Rosa de Viterbo - SP (3547601), Santa Rosa do Purus - AC (1200435), Santa Rosa do Sul - SC (4215653), Santa Salete - SP (3547650), Santa Tereza - RS (4317251), Santa Tereza do Oeste - PR (4124020), Santa Terezinha - SC (4215679), Santa Terezinha de Itaipu - PR (4124053), Santa Terezinha do Progresso - SC (4215687), Santa Vitória - MG (3159803), Santa Vitória do Palmar - RS (4317301), Santiago - RS (4317400), Santiago do Sul - SC (4215695), Santo Afonso - MT (5107263), Santo Amaro da Imperatriz - SC (4215703), Santo Anastácio - SP (3547700), Santo André - SP (3547809), Santo Ângelo - RS (4317509), Santo Antônio da Alegria - SP (3547908), Santo Antônio da Barra - GO (5219712), Santo Antônio da Patrulha - RS (4317608), Santo Antônio da Platina - PR (4124103), Santo Antônio das Missões - RS (4317707), Santo Antônio de Pádua - RJ (3304706), Santo Antônio de Posse - SP (3548005), Santo Antônio do Amparo - MG (3159902), Santo Antônio do Aracanguá - SP (3548054), Santo Antônio do Aventureiro - MG (3160009), Santo Antônio do Caiuá - PR (4124202), Santo Antônio do Jardim - SP (3548104), Santo Antônio do Leste - MT (5107792), Santo Antônio do Leverger - MT (5107800), Santo Antônio do Monte - MG (3160405), Santo Antônio do Palma - RS (4317558), Santo Antônio do Paraíso - PR (4124301), Santo Antônio do Pinhal - SP (3548203), Santo Antônio do Planalto - RS (4317756), Santo Antônio do Sudoeste - PR (4124400), Santo Augusto - RS (4317806), Santo Cristo - RS (4317905), Santo Expedito - SP (3548302), Santo Expedito do Sul - RS (4317954), Santo Inácio - PR (4124509), Santópolis do Aguapeí - SP (3548401), Santos - SP (3548500), Santos Dumont - MG (3160702), São Bento Abade - MG (3160801), São Bento do Sapucaí - SP (3548609), São Bento do Sul - SC (4215802), São Bernardino - SC (4215752), São Bernardo do Campo - SP (3548708), São Bonifácio - SC (4215901), São Borja - RS (4318002), São Brás do Suaçuí - MG (3160900), São Caetano do Sul - SP (3548807), São Carlos - SP (3548906), São Carlos - SC (4216008), São Carlos do Ivaí - PR (4124608), São Cristóvão do Sul - SC (4216057), São Domingos - SC (4216107), São Domingos do Sul - RS (4318051), São Fidélis - RJ (3304805), São Francisco - SP (3549003), São Francisco de Assis - RS (4318101), São Francisco de Itabapoana - RJ (3304755), São Francisco de Paula - RS (4318200), São Francisco de Paula - MG (3161205), São Francisco de Sales - MG (3161304), São Francisco do Guaporé - RO (1101492), São Francisco do Sul - SC (4216206), São Gabriel - RS (4318309), São Gabriel do Oeste - MS (5007695), São Geraldo - MG (3161502), São Gonçalo - RJ (3304904), São Gonçalo do Sapucaí - MG (3162005), São Jerônimo - RS (4318408), São Jerônimo da Serra - PR (4124707), São João - PR (4124806), São João Batista - SC (4216305), São João Batista do Glória - MG (3162203), São João da Barra - RJ (3305000), São João da Boa Vista - SP (3549102), São João da Mata - MG (3162302), São João das Duas Pontes - SP (3549201), São João da Urtiga - RS (4318424), São João de Iracema - SP (3549250), São João del Rei - MG (3162500), São João de Meriti - RJ (3305109), São João do Caiuá - PR (4124905), São João do Itaperiú - SC (4216354), São João do Ivaí - PR (4125001), São João do Oeste - SC (4216255), São João do Pau d'Alho - SP (3549300), São João do Polêsine - RS (4318432), São João do Sul - SC (4216404), São João do Triunfo - PR (4125100), São João Nepomuceno - MG (3162906), São Joaquim - SC (4216503), São Joaquim da Barra - SP (3549409), São Jorge - RS (4318440), São Jorge d'Oeste - PR (4125209), São Jorge do Ivaí - PR (4125308), São Jorge do Patrocínio - PR (4125357), São José - SC (4216602), São José da Barra - MG (3162948), São José da Bela Vista - SP (3549508), São José da Boa Vista - PR (4125407), São José das Missões - RS (4318457), São José das Palmeiras - PR (4125456), São José de Ubá - RJ (3305133), São José do Alegre - MG (3163201), São José do Barreiro - SP (3549607), São José do Cedro - SC (4216701), São José do Cerrito - SC (4216800), São José do Herval - RS (4318465), São José do Hortêncio - RS (4318481), São José do Inhacorá - RS (4318499), São José do Norte - RS (4318507), São José do Ouro - RS (4318606), São José do Povo - MT (5107297), São José do Rio Claro - MT (5107305), São José do Rio Pardo - SP (3549706), São José do Rio Preto - SP (3549805), São José dos Ausentes - RS (4318622), São José dos Campos - SP (3549904), São José dos Pinhais - PR (4125506), São José dos Quatro Marcos - MT (5107107), São José do Sul - RS (4318614), São José do Vale do Rio Preto - RJ (3305158), São Leopoldo - RS (4318705), São Lourenço - MG (3163706), São Lourenço da Serra - SP (3549953), São Lourenço do Oeste - SC (4216909), São Lourenço do Sul - RS (4318804), São Ludgero - SC (4217006), São Luiz do Paraitinga - SP (3550001), São Luiz Gonzaga - RS (4318903), São Manoel do Paraná - PR (4125555), São Manuel - SP (3550100), São Marcos - RS (4319000), São Martinho - RS (4319109), São Martinho - SC (4217105), São Martinho da Serra - RS (4319125), São Mateus do Sul - PR (4125605), São Miguel Arcanjo - SP (3550209), São Miguel da Boa Vista - SC (4217154), São Miguel das Missões - RS (4319158), São Miguel do Guaporé - RO (1100320), São Miguel do Iguaçu - PR (4125704), São Miguel do Oeste - SC (4217204), São Nicolau - RS (4319208), São Paulo - SP (3550308), São Paulo das Missões - RS (4319307), São Pedro - SP (3550407), São Pedro da Aldeia - RJ (3305208), São Pedro da Cipa - MT (5107404), São Pedro da Serra - RS (4319356), São Pedro das Missões - RS (4319364), São Pedro da União - MG (3163904), São Pedro de Alcântara - SC (4217253), São Pedro do Butiá - RS (4319372), São Pedro do Iguaçu - PR (4125753), São Pedro do Ivaí - PR (4125803), São Pedro do Paraná - PR (4125902), São Pedro do Sul - RS (4319406), São Pedro do Turvo - SP (3550506), São Roque - SP (3550605), São Roque de Minas - MG (3164308), São Sebastião - SP (3550704), São Sebastião da Amoreira - PR (4126009), São Sebastião da Bela Vista - MG (3164407), São Sebastião da Grama - SP (3550803), São Sebastião da Vargem Alegre - MG (3164431), São Sebastião do Alto - RJ (3305307), São Sebastião do Caí - RS (4319505), São Sebastião do Oeste - MG (3164605), São Sebastião do Paraíso - MG (3164704), São Sebastião do Rio Verde - MG (3164902), São Sepé - RS (4319604), São Simão - SP (3550902), São Simão - GO (5220405), São Thomé das Letras - MG (3165206), São Tiago - MG (3165008), São Tomás de Aquino - MG (3165107), São Tomé - PR (4126108), São Valentim - RS (4319703), São Valentim do Sul - RS (4319711), São Valério do Sul - RS (4319737), São Vendelino - RS (4319752), São Vicente - SP (3551009), São Vicente de Minas - MG (3165305), São Vicente do Sul - RS (4319802), Sapezal - MT (5107875), Sapiranga - RS (4319901), Sapopema - PR (4126207), Sapucaia - RJ (3305406), Sapucaia do Sul - RS (4320008), Sapucaí-Mirim - MG (3165404), Saquarema - RJ (3305505), Sarandi - RS (4320107), Sarandi - PR (4126256), Sarapuí - SP (3551108), Sarutaiá - SP (3551207), Saudade do Iguaçu - PR (4126272), Saudades - SC (4217303), Schroeder - SC (4217402), Seara - SC (4217501), Sebastianópolis do Sul - SP (3551306), Seberi - RS (4320206), Sede Nova - RS (4320230), Segredo - RS (4320263), Selbach - RS (4320305), Selvíria - MS (5007802), Senador Amaral - MG (3165578), Senador Cortes - MG (3165602), Senador Firmino - MG (3165701), Senador Guiomard - AC (1200450), Senador José Bento - MG (3165800), Senador Salgado Filho - RS (4320321), Sena Madureira - AC (1200500), Sengés - PR (4126306), Senhora de Oliveira - MG (3166006), Senhora dos Remédios - MG (3166204), Sentinela do Sul - RS (4320354), Serafina Corrêa - RS (4320404), Seringueiras - RO (1101500), Sério - RS (4320453), Seritinga - MG (3166402), Seropédica - RJ (3305554), Serra Alta - SC (4217550), Serra Azul - SP (3551405), Serrana - SP (3551504), Serra Negra - SP (3551603), Serrania - MG (3166907), Serranópolis - GO (5220504), Serranópolis do Iguaçu - PR (4126355), Serranos - MG (3167004), Sertaneja - PR (4126405), Sertanópolis - PR (4126504), Sertão - RS (4320503), Sertão Santana - RS (4320552), Sertãozinho - SP (3551702), Sete Barras - SP (3551801), Sete de Setembro - RS (4320578), Sete Quedas - MS (5007703), Severiano de Almeida - RS (4320602), Severínia - SP (3551900), Siderópolis - SC (4217600), Sidrolândia - MS (5007901), Silva Jardim - RJ (3305604), Silveira Martins - RS (4320651), Silveirânia - MG (3167301), Silveiras - SP (3552007), Silvianópolis - MG (3167400), Simão Pereira - MG (3167509), Sinimbu - RS (4320677), Siqueira Campos - PR (4126603), Sobradinho - RS (4320701), Socorro - SP (3552106), Soledade - RS (4320800), Soledade de Minas - MG (3167806), Sombrio - SC (4217709), Sonora - MS (5007935), Sorocaba - SP (3552205), Sud Mennucci - SP (3552304), Sul Brasil - SC (4217758), Sulina - PR (4126652), Sumaré - SP (3552403), Sumidouro - RJ (3305703), Suzanápolis - SP (3552551), Suzano - SP (3552502), Tabaí - RS (4320859), Tabapuã - SP (3552601), Tabatinga - SP (3552700), Taboão da Serra - SP (3552809), Tabuleiro - MG (3167905), Taciba - SP (3552908), Tacuru - MS (5007950), Taguaí - SP (3553005), Taiaçu - SP (3553104), Taió - SC (4217808), Taiúva - SP (3553203), Tamarana - PR (4126678), Tambaú - SP (3553302), Tamboara - PR (4126702), Tanabi - SP (3553401), Tangará - SC (4217907), Tangará da Serra - MT (5107958), Tanguá - RJ (3305752), Tapejara - PR (4126801), Tapejara - RS (4320909), Tapera - RS (4321006), Tapes - RS (4321105), Tapira - MG (3168101), Tapira - PR (4126900), Tapiraí - SP (3553500), Tapiraí - MG (3168200), Tapiratiba - SP (3553609), Taquara - RS (4321204), Taquaral - SP (3553658), Taquari - RS (4321303), Taquaritinga - SP (3553708), Taquarituba - SP (3553807), Taquarivaí - SP (3553856), Taquaruçu do Sul - RS (4321329), Taquarussu - MS (5007976), Tarabai - SP (3553906), Tarumã - SP (3553955), Tatuí - SP (3554003), Taubaté - SP (3554102), Tavares - RS (4321352), Teixeira Soares - PR (4127007), Tejupá - SP (3554201), Telêmaco Borba - PR (4127106), Tenente Portela - RS (4321402), Teodoro Sampaio - SP (3554300), Terenos - MS (5008008), Teresópolis - RJ (3305802), Terra Boa - PR (4127205), Terra de Areia - RS (4321436), Terra Rica - PR (4127304), Terra Roxa - PR (4127403), Terra Roxa - SP (3554409), Tesouro - MT (5108105), Teutônia - RS (4321451), Tibagi - PR (4127502), Tietê - SP (3554508), Tigrinhos - SC (4217956), Tijucas - SC (4218004), Tijucas do Sul - PR (4127601), Timbé do Sul - SC (4218103), Timbó - SC (4218202), Timbó Grande - SC (4218251), Timburi - SP (3554607), Tio Hugo - RS (4321469), Tiradentes - MG (3168804), Tiradentes do Sul - RS (4321477), Tocantins - MG (3169000), Tocos do Moji - MG (3169059), Toledo - MG (3169109), Toledo - PR (4127700), Tomazina - PR (4127809), Torixoréu - MT (5108204), Toropi - RS (4321493), Torre de Pedra - SP (3554656), Torres - RS (4321501), Torrinha - SP (3554706), Trabiju - SP (3554755), Trajano de Moraes - RJ (3305901), Tramandaí - RS (4321600), Travesseiro - RS (4321626), Tremembé - SP (3554805), Três Arroios - RS (4321634), Três Barras - SC (4218301), Três Barras do Paraná - PR (4127858), Três Cachoeiras - RS (4321667), Três Corações - MG (3169307), Três Coroas - RS (4321709), Três de Maio - RS (4321808), Três Forquilhas - RS (4321832), Três Fronteiras - SP (3554904), Três Lagoas - MS (5008305), Três Palmeiras - RS (4321857), Três Passos - RS (4321907), Três Pontas - MG (3169406), Três Rios - RJ (3306008), Treviso - SC (4218350), Treze de Maio - SC (4218400), Treze Tílias - SC (4218509), Trindade do Sul - RS (4321956), Triunfo - RS (4322004), Trombudo Central - SC (4218608), Tubarão - SC (4218707), Tucunduva - RS (4322103), Tuiuti - SP (3554953), Tunápolis - SC (4218756), Tunas - RS (4322152), Tunas do Paraná - PR (4127882), Tuneiras do Oeste - PR (4127908), Tupã - SP (3555000), Tupanci do Sul - RS (4322186), Tupanciretã - RS (4322202), Tupandi - RS (4322251), Tuparendi - RS (4322301), Tupãssi - PR (4127957), Tupi Paulista - SP (3555109), Turiúba - SP (3555208), Turmalina - SP (3555307), Turuçu - RS (4322327), Turvelândia - GO (5221551), Turvo - PR (4127965), Turvo - SC (4218806), Turvolândia - MG (3169802), Ubá - MG (3169901), Ubarana - SP (3555356), Ubatuba - SP (3555406), Uberaba - MG (3170107), Uberlândia - MG (3170206), Ubirajara - SP (3555505), Ubiratã - PR (4128005), Ubiretama - RS (4322343), Uchoa - SP (3555604), Umuarama - PR (4128104), União da Serra - RS (4322350), União da Vitória - PR (4128203), União de Minas - MG (3170438), União do Oeste - SC (4218855), União Paulista - SP (3555703), Uniflor - PR (4128302), Unistalda - RS (4322376), Uraí - PR (4128401), Urânia - SP (3555802), Uru - SP (3555901), Urubici - SC (4218905), Uruguaiana - RS (4322400), Urupema - SC (4218954), Urupês - SP (3556008), Urussanga - SC (4219002), Vacaria - RS (4322509), Vale de São Domingos - MT (5108352), Vale do Sol - RS (4322533), Valença - RJ (3306107), Valentim Gentil - SP (3556107), Vale Real - RS (4322541), Vale Verde - RS (4322525), Valinhos - SP (3556206), Valparaíso - SP (3556305), Vanini - RS (4322558), Vargeão - SC (4219101), Vargem - SP (3556354), Vargem - SC (4219150), Vargem Bonita - SC (4219176), Vargem Bonita - MG (3170602), Vargem Grande do Sul - SP (3556404), Vargem Grande Paulista - SP (3556453), Varginha - MG (3170701), Várzea Grande - MT (5108402), Várzea Paulista - SP (3556503), Vassouras - RJ (3306206), Venâncio Aires - RS (4322608), Ventania - PR (4128534), Vera Cruz - RS (4322707), Vera Cruz - SP (3556602), Vera Cruz do Oeste - PR (4128559), Veranópolis - RS (4322806), Verê - PR (4128609), Veríssimo - MG (3171105), Vespasiano Corrêa - RS (4322855), Viadutos - RS (4322905), Viamão - RS (4323002), Vicente Dutra - RS (4323101), Vicentina - MS (5008404), Viçosa - MG (3171303), Victor Graeff - RS (4323200), Vidal Ramos - SC (4219200), Videira - SC (4219309), Vieiras - MG (3171402), Vila Bela da Santíssima Trindade - MT (5105507), Vila Flores - RS (4323309), Vila Lângaro - RS (4323358), Vila Maria - RS (4323408), Vila Nova do Sul - RS (4323457), Vilhena - RO (1100304), Vinhedo - SP (3556701), Viradouro - SP (3556800), Virgínia - MG (3171709), Virmond - PR (4128658), Visconde do Rio Branco - MG (3172004), Vista Alegre - RS (4323507), Vista Alegre do Alto - SP (3556909), Vista Alegre do Prata - RS (4323606), Vista Gaúcha - RS (4323705), Vitória Brasil - SP (3556958), Vitória das Missões - RS (4323754), Vitorino - PR (4128708), Vitor Meireles - SC (4219358), Volta Grande - MG (3172103), Volta Redonda - RJ (3306305), Votorantim - SP (3557006), Votuporanga - SP (3557105), Wenceslau Braz - PR (4128500), Wenceslau Braz - MG (3172202), Westfália - RS (4323770), Witmarsum - SC (4219408), Xambrê - PR (4128807), Xangri-lá - RS (4323804), Xanxerê - SC (4219507), Xapuri - AC (1200708), Xavantina - SC (4219606), Xaxim - SC (4219705), Zacarias - SP (3557154), Zortéa - SC (4219853)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Norte Pioneiro Paranaense, Serrana, Oeste Catarinense, Sudoeste Rio-grandense, Centro-Sul Mato-grossense, Vale do Acre, Sul Goiano, Presidente Prudente, São José do Rio Preto, Metropolitana de Curitiba, Vale do Itajaí, Leste de Mato Grosso do Sul, Triângulo Mineiro/Alto Paranaíba, Campinas, Oeste de Minas, Noroeste Rio-grandense, Bauru, Piracicaba, Grande Florianópolis, Centro Ocidental Rio-grandense, Sul/Sudoeste de Minas, Itapetininga, Centro Norte de Mato Grosso do Sul, Zona da Mata, Campo das Vertentes, Leste Rondoniense, Centro Ocidental Paranaense, Ribeirão Preto, Araçatuba, Sudeste Mato-grossense, Metropolitana de Porto Alegre, Noroeste Paranaense, Macro Metropolitana Paulista, Marília, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Sudeste Rio-grandense, Araraquara, Sudoeste Paranaense, Oeste Paranaense, Pantanais Sul Mato-grossense, Nordeste Rio-grandense, Sul Fluminense, Sudeste Paranaense, Vale do Paraíba Paulista, Noroeste Fluminense, Sul Espírito-santense, Centro Oriental Paranaense, Sudoeste Mato-grossense, Norte Catarinense, Sul Catarinense, Baixadas, Centro Fluminense, Centro Oriental Rio-grandense, Metropolitana de São Paulo, Assis, Noroeste Goiano, Litoral Sul Paulista, Metropolitana do Rio de Janeiro, Metropolitana de Belo Horizonte, Centro-Sul Paranaense, Sul Amazonense, Norte Mato-grossense, Madeira-Guaporé, Norte Fluminense, Vale do Juruá, Central Mineira, Nordeste Mato-grossense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-9.882275,-72.114258 -9.18887,-69.873047 -9.31899,-67.148438 -9.838979,-64.476013 -12.146746,-61.820068 -12.586732,-60.216064 -13.923404,-55.810547 -17.266728,-50.83374 -19.228177,-48.515625 -20.519644,-44.044189 -21.320081,-40.946045 -21.432617,-40.627441 -21.677848,-40.836182 -21.912471,-40.759277 -22.116177,-40.825195 -22.278931,-41.055908 -22.563293,-41.52832 -22.82682,-41.594238 -23.029187,-41.704102 -23.231251,-41.879883 -23.412847,-44.088135 -24.106647,-45.153809 -24.647017,-46.516113 -25.433353,-47.911377 -26.135714,-48.262939 -26.755421,-48.394775 -27.274161,-48.109131 -27.936181,-48.218994 -28.565225,-48.438721 -28.719496,-48.647461 -28.979312,-49.0979 -29.40132,-49.493408 -29.897806,-49.844971 -30.60955,-50.119629 -31.16581,-50.526123 -31.597253,-50.987549 -32.10119,-51.734619 -32.324276,-51.943359 -32.417066,-52.086182 -32.79651,-52.207031 -33.247876,-52.44873 -33.568861,-52.77832 -33.879537,-53.261719 -33.706063,-53.536377 -33.348885,-53.536377 -33.091542,-53.459473 -32.907262,-53.173828 -32.713355,-53.129883 -32.509762,-53.547363 -32.175612,-53.712158 -31.933517,-53.986816 -31.952162,-54.074707 -31.634676,-54.459229 -31.531726,-54.547119 -31.456782,-54.777832 -31.306715,-55.008545 -31.363018,-55.096436 -31.25977,-55.228271 -30.902225,-55.50293 -30.86451,-55.623779 -30.968189,-55.634766 -31.081165,-55.83252 -31.071756,-56.030273 -30.845647,-56.04126 -30.581179,-56.282959 -30.278044,-56.590576 -30.164126,-56.799316 -30.097613,-57.073975 -30.240086,-57.194824 -30.268556,-57.337646 -30.268556,-57.513428 -30.173625,-57.623291 -30.069094,-57.425537 -29.831114,-57.304688 -29.726222,-57.084961 -29.382175,-56.744385 -29.13297,-56.634521 -29.036961,-56.436768 -28.8158,-56.260986 -28.536275,-56.008301 -28.362402,-55.887451 -28.401065,-55.722656 -28.304381,-55.700684 -28.236649,-55.810547 -27.916767,-55.294189 -27.615406,-54.821777 -27.303452,-54.228516 -27.137368,-53.843994 -26.88288,-53.712158 -26.578702,-53.76709 -26.332807,-53.745117 -26.234302,-53.64624 -25.809782,-53.865967 -25.661333,-53.876953 -25.532528,-54.063721 -25.582085,-54.294434 -25.700938,-54.492187 -25.5127,-54.624023 -25.185059,-54.448242 -24.916331,-54.437256 -24.517139,-54.30542 -24.357105,-54.316406 -24.136728,-54.371338 -24.056496,-54.338379 -23.855698,-54.613037 -23.91597,-54.953613 -23.986253,-55.228271 -23.946096,-55.447998 -23.584126,-55.546875 -23.352343,-55.535889 -23.039298,-55.623779 -22.69512,-55.634766 -22.441495,-55.766602 -22.309426,-55.898438 -22.299261,-56.217041 -22.105999,-56.381836 -22.105999,-56.502686 -22.248429,-56.590576 -22.258597,-56.964111 -22.22809,-57.227783 -22.167058,-57.579346 -22.09582,-57.645264 -22.136532,-57.733154 -22.09582,-57.974854 -21.749296,-57.930908 -21.340548,-57.930908 -20.971699,-57.843018 -20.663626,-57.963867 -20.13847,-58.139648 -19.963023,-57.886963 -19.766704,-58.117676 -19.041349,-57.810059 -19.030963,-57.722168 -18.885498,-57.733154 -18.677471,-57.722168 -18.271086,-57.568359 -18.218916,-57.469482 -18.083201,-57.579346 -17.727759,-57.7771 -17.528821,-57.799072 -17.476432,-57.86499 -17.486911,-58.040771 -17.14079,-58.458252 -16.667769,-58.414307 -16.47823,-58.392334 -16.299051,-58.293457 -16.309596,-58.392334 -16.309596,-58.469238 -16.235772,-60.161133 -15.538376,-60.238037 -15.082732,-60.567627 -15.114553,-60.227051 -14.626109,-60.281982 -14.168534,-60.523682 -13.91274,-60.457764 -13.699362,-60.644531 -13.528519,-60.985107 -13.528519,-61.468506 -13.528519,-61.831055 -13.11158,-62.20459 -13.090179,-62.457275 -13.047372,-62.753906 -12.693933,-63.116455 -12.661778,-63.325195 -12.458033,-63.731689 -12.511665,-63.918457 -12.479487,-64.281006 -12.200442,-64.621582 -12.039321,-64.929199 -11.727546,-65.203857 -11.253837,-65.324707 -10.962764,-65.236816 -10.746969,-65.357666 -10.487812,-65.401611 -10.382467,-65.379639 -10.293301,-65.335693 -10.217625,-65.278015 -10.131117,-65.302734 -9.939093,-65.319214 -9.744249,-65.332947 -9.700935,-65.448303 -9.817329,-65.577393 -9.774025,-65.994873 -9.893099,-66.500244 -10.044585,-66.763916 -10.336536,-67.181396 -10.53102,-67.642822 -10.725381,-67.719727 -10.692996,-68.049316 -10.898042,-68.203125 -11.156845,-68.686523 -11.038255,-68.7854 -10.951978,-69.598389 -10.962764,-69.971924 -11.038255,-70.3125 -10.941192,-70.532227 -10.984335,-70.598145 -9.828154,-70.631104 -9.767258,-70.539093 -9.69146,-70.534973 -9.61429,-70.594025 -9.527623,-70.536346 -9.470736,-70.52124 -9.426032,-70.492401 -9.43687,-70.550079 -9.455835,-70.602264 -9.539812,-70.686035 -9.838979,-71.069183 -9.990491,-71.290283 -10.00131,-71.553955 -10.00131,-72.191162 -9.882275,-72.114258"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.114258,
+              -9.882275
+            ],
+            [
+              -69.873047,
+              -9.18887
+            ],
+            [
+              -67.148438,
+              -9.31899
+            ],
+            [
+              -64.476013,
+              -9.838979
+            ],
+            [
+              -61.820068,
+              -12.146746
+            ],
+            [
+              -60.216064,
+              -12.586732
+            ],
+            [
+              -55.810547,
+              -13.923404
+            ],
+            [
+              -50.83374,
+              -17.266728
+            ],
+            [
+              -48.515625,
+              -19.228177
+            ],
+            [
+              -44.044189,
+              -20.519644
+            ],
+            [
+              -40.946045,
+              -21.320081
+            ],
+            [
+              -40.627441,
+              -21.432617
+            ],
+            [
+              -40.836182,
+              -21.677848
+            ],
+            [
+              -40.759277,
+              -21.912471
+            ],
+            [
+              -40.825195,
+              -22.116177
+            ],
+            [
+              -41.055908,
+              -22.278931
+            ],
+            [
+              -41.52832,
+              -22.563293
+            ],
+            [
+              -41.594238,
+              -22.82682
+            ],
+            [
+              -41.704102,
+              -23.029187
+            ],
+            [
+              -41.879883,
+              -23.231251
+            ],
+            [
+              -44.088135,
+              -23.412847
+            ],
+            [
+              -45.153809,
+              -24.106647
+            ],
+            [
+              -46.516113,
+              -24.647017
+            ],
+            [
+              -47.911377,
+              -25.433353
+            ],
+            [
+              -48.262939,
+              -26.135714
+            ],
+            [
+              -48.394775,
+              -26.755421
+            ],
+            [
+              -48.109131,
+              -27.274161
+            ],
+            [
+              -48.218994,
+              -27.936181
+            ],
+            [
+              -48.438721,
+              -28.565225
+            ],
+            [
+              -48.647461,
+              -28.719496
+            ],
+            [
+              -49.0979,
+              -28.979312
+            ],
+            [
+              -49.493408,
+              -29.40132
+            ],
+            [
+              -49.844971,
+              -29.897806
+            ],
+            [
+              -50.119629,
+              -30.60955
+            ],
+            [
+              -50.526123,
+              -31.16581
+            ],
+            [
+              -50.987549,
+              -31.597253
+            ],
+            [
+              -51.734619,
+              -32.10119
+            ],
+            [
+              -51.943359,
+              -32.324276
+            ],
+            [
+              -52.086182,
+              -32.417066
+            ],
+            [
+              -52.207031,
+              -32.79651
+            ],
+            [
+              -52.44873,
+              -33.247876
+            ],
+            [
+              -52.77832,
+              -33.568861
+            ],
+            [
+              -53.261719,
+              -33.879537
+            ],
+            [
+              -53.536377,
+              -33.706063
+            ],
+            [
+              -53.536377,
+              -33.348885
+            ],
+            [
+              -53.459473,
+              -33.091542
+            ],
+            [
+              -53.173828,
+              -32.907262
+            ],
+            [
+              -53.129883,
+              -32.713355
+            ],
+            [
+              -53.547363,
+              -32.509762
+            ],
+            [
+              -53.712158,
+              -32.175612
+            ],
+            [
+              -53.986816,
+              -31.933517
+            ],
+            [
+              -54.074707,
+              -31.952162
+            ],
+            [
+              -54.459229,
+              -31.634676
+            ],
+            [
+              -54.547119,
+              -31.531726
+            ],
+            [
+              -54.777832,
+              -31.456782
+            ],
+            [
+              -55.008545,
+              -31.306715
+            ],
+            [
+              -55.096436,
+              -31.363018
+            ],
+            [
+              -55.228271,
+              -31.25977
+            ],
+            [
+              -55.50293,
+              -30.902225
+            ],
+            [
+              -55.623779,
+              -30.86451
+            ],
+            [
+              -55.634766,
+              -30.968189
+            ],
+            [
+              -55.83252,
+              -31.081165
+            ],
+            [
+              -56.030273,
+              -31.071756
+            ],
+            [
+              -56.04126,
+              -30.845647
+            ],
+            [
+              -56.282959,
+              -30.581179
+            ],
+            [
+              -56.590576,
+              -30.278044
+            ],
+            [
+              -56.799316,
+              -30.164126
+            ],
+            [
+              -57.073975,
+              -30.097613
+            ],
+            [
+              -57.194824,
+              -30.240086
+            ],
+            [
+              -57.337646,
+              -30.268556
+            ],
+            [
+              -57.513428,
+              -30.268556
+            ],
+            [
+              -57.623291,
+              -30.173625
+            ],
+            [
+              -57.425537,
+              -30.069094
+            ],
+            [
+              -57.304688,
+              -29.831114
+            ],
+            [
+              -57.084961,
+              -29.726222
+            ],
+            [
+              -56.744385,
+              -29.382175
+            ],
+            [
+              -56.634521,
+              -29.13297
+            ],
+            [
+              -56.436768,
+              -29.036961
+            ],
+            [
+              -56.260986,
+              -28.8158
+            ],
+            [
+              -56.008301,
+              -28.536275
+            ],
+            [
+              -55.887451,
+              -28.362402
+            ],
+            [
+              -55.722656,
+              -28.401065
+            ],
+            [
+              -55.700684,
+              -28.304381
+            ],
+            [
+              -55.810547,
+              -28.236649
+            ],
+            [
+              -55.294189,
+              -27.916767
+            ],
+            [
+              -54.821777,
+              -27.615406
+            ],
+            [
+              -54.228516,
+              -27.303452
+            ],
+            [
+              -53.843994,
+              -27.137368
+            ],
+            [
+              -53.712158,
+              -26.88288
+            ],
+            [
+              -53.76709,
+              -26.578702
+            ],
+            [
+              -53.745117,
+              -26.332807
+            ],
+            [
+              -53.64624,
+              -26.234302
+            ],
+            [
+              -53.865967,
+              -25.809782
+            ],
+            [
+              -53.876953,
+              -25.661333
+            ],
+            [
+              -54.063721,
+              -25.532528
+            ],
+            [
+              -54.294434,
+              -25.582085
+            ],
+            [
+              -54.492187,
+              -25.700938
+            ],
+            [
+              -54.624023,
+              -25.5127
+            ],
+            [
+              -54.448242,
+              -25.185059
+            ],
+            [
+              -54.437256,
+              -24.916331
+            ],
+            [
+              -54.30542,
+              -24.517139
+            ],
+            [
+              -54.316406,
+              -24.357105
+            ],
+            [
+              -54.371338,
+              -24.136728
+            ],
+            [
+              -54.338379,
+              -24.056496
+            ],
+            [
+              -54.613037,
+              -23.855698
+            ],
+            [
+              -54.953613,
+              -23.91597
+            ],
+            [
+              -55.228271,
+              -23.986253
+            ],
+            [
+              -55.447998,
+              -23.946096
+            ],
+            [
+              -55.546875,
+              -23.584126
+            ],
+            [
+              -55.535889,
+              -23.352343
+            ],
+            [
+              -55.623779,
+              -23.039298
+            ],
+            [
+              -55.634766,
+              -22.69512
+            ],
+            [
+              -55.766602,
+              -22.441495
+            ],
+            [
+              -55.898438,
+              -22.309426
+            ],
+            [
+              -56.217041,
+              -22.299261
+            ],
+            [
+              -56.381836,
+              -22.105999
+            ],
+            [
+              -56.502686,
+              -22.105999
+            ],
+            [
+              -56.590576,
+              -22.248429
+            ],
+            [
+              -56.964111,
+              -22.258597
+            ],
+            [
+              -57.227783,
+              -22.22809
+            ],
+            [
+              -57.579346,
+              -22.167058
+            ],
+            [
+              -57.645264,
+              -22.09582
+            ],
+            [
+              -57.733154,
+              -22.136532
+            ],
+            [
+              -57.974854,
+              -22.09582
+            ],
+            [
+              -57.930908,
+              -21.749296
+            ],
+            [
+              -57.930908,
+              -21.340548
+            ],
+            [
+              -57.843018,
+              -20.971699
+            ],
+            [
+              -57.963867,
+              -20.663626
+            ],
+            [
+              -58.139648,
+              -20.13847
+            ],
+            [
+              -57.886963,
+              -19.963023
+            ],
+            [
+              -58.117676,
+              -19.766704
+            ],
+            [
+              -57.810059,
+              -19.041349
+            ],
+            [
+              -57.722168,
+              -19.030963
+            ],
+            [
+              -57.733154,
+              -18.885498
+            ],
+            [
+              -57.722168,
+              -18.677471
+            ],
+            [
+              -57.568359,
+              -18.271086
+            ],
+            [
+              -57.469482,
+              -18.218916
+            ],
+            [
+              -57.579346,
+              -18.083201
+            ],
+            [
+              -57.7771,
+              -17.727759
+            ],
+            [
+              -57.799072,
+              -17.528821
+            ],
+            [
+              -57.86499,
+              -17.476432
+            ],
+            [
+              -58.040771,
+              -17.486911
+            ],
+            [
+              -58.458252,
+              -17.14079
+            ],
+            [
+              -58.414307,
+              -16.667769
+            ],
+            [
+              -58.392334,
+              -16.47823
+            ],
+            [
+              -58.293457,
+              -16.299051
+            ],
+            [
+              -58.392334,
+              -16.309596
+            ],
+            [
+              -58.469238,
+              -16.309596
+            ],
+            [
+              -60.161133,
+              -16.235772
+            ],
+            [
+              -60.238037,
+              -15.538376
+            ],
+            [
+              -60.567627,
+              -15.082732
+            ],
+            [
+              -60.227051,
+              -15.114553
+            ],
+            [
+              -60.281982,
+              -14.626109
+            ],
+            [
+              -60.523682,
+              -14.168534
+            ],
+            [
+              -60.457764,
+              -13.91274
+            ],
+            [
+              -60.644531,
+              -13.699362
+            ],
+            [
+              -60.985107,
+              -13.528519
+            ],
+            [
+              -61.468506,
+              -13.528519
+            ],
+            [
+              -61.831055,
+              -13.528519
+            ],
+            [
+              -62.20459,
+              -13.11158
+            ],
+            [
+              -62.457275,
+              -13.090179
+            ],
+            [
+              -62.753906,
+              -13.047372
+            ],
+            [
+              -63.116455,
+              -12.693933
+            ],
+            [
+              -63.325195,
+              -12.661778
+            ],
+            [
+              -63.731689,
+              -12.458033
+            ],
+            [
+              -63.918457,
+              -12.511665
+            ],
+            [
+              -64.281006,
+              -12.479487
+            ],
+            [
+              -64.621582,
+              -12.200442
+            ],
+            [
+              -64.929199,
+              -12.039321
+            ],
+            [
+              -65.203857,
+              -11.727546
+            ],
+            [
+              -65.324707,
+              -11.253837
+            ],
+            [
+              -65.236816,
+              -10.962764
+            ],
+            [
+              -65.357666,
+              -10.746969
+            ],
+            [
+              -65.401611,
+              -10.487812
+            ],
+            [
+              -65.379639,
+              -10.382467
+            ],
+            [
+              -65.335693,
+              -10.293301
+            ],
+            [
+              -65.278015,
+              -10.217625
+            ],
+            [
+              -65.302734,
+              -10.131117
+            ],
+            [
+              -65.319214,
+              -9.939093
+            ],
+            [
+              -65.332947,
+              -9.744249
+            ],
+            [
+              -65.448303,
+              -9.700935
+            ],
+            [
+              -65.577393,
+              -9.817329
+            ],
+            [
+              -65.994873,
+              -9.774025
+            ],
+            [
+              -66.500244,
+              -9.893099
+            ],
+            [
+              -66.763916,
+              -10.044585
+            ],
+            [
+              -67.181396,
+              -10.336536
+            ],
+            [
+              -67.642822,
+              -10.53102
+            ],
+            [
+              -67.719727,
+              -10.725381
+            ],
+            [
+              -68.049316,
+              -10.692996
+            ],
+            [
+              -68.203125,
+              -10.898042
+            ],
+            [
+              -68.686523,
+              -11.156845
+            ],
+            [
+              -68.7854,
+              -11.038255
+            ],
+            [
+              -69.598389,
+              -10.951978
+            ],
+            [
+              -69.971924,
+              -10.962764
+            ],
+            [
+              -70.3125,
+              -11.038255
+            ],
+            [
+              -70.532227,
+              -10.941192
+            ],
+            [
+              -70.598145,
+              -10.984335
+            ],
+            [
+              -70.631104,
+              -9.828154
+            ],
+            [
+              -70.539093,
+              -9.767258
+            ],
+            [
+              -70.534973,
+              -9.69146
+            ],
+            [
+              -70.594025,
+              -9.61429
+            ],
+            [
+              -70.536346,
+              -9.527623
+            ],
+            [
+              -70.52124,
+              -9.470736
+            ],
+            [
+              -70.492401,
+              -9.426032
+            ],
+            [
+              -70.550079,
+              -9.43687
+            ],
+            [
+              -70.602264,
+              -9.455835
+            ],
+            [
+              -70.686035,
+              -9.539812
+            ],
+            [
+              -71.069183,
+              -9.838979
+            ],
+            [
+              -71.290283,
+              -9.990491
+            ],
+            [
+              -71.553955,
+              -10.00131
+            ],
+            [
+              -72.191162,
+              -10.00131
+            ],
+            [
+              -72.114258,
+              -9.882275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Declínio de Temperatura. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Declínio de Temperatura",
+        "categoria": "Met",
+        "headline": "Aviso de Declínio de Temperatura. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 03/07/2026 00:00. Leve risco à saúde. Declínio entre 3ºC e 5ºC.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-07-03T00:00:00-03:00",
+        "expires": "2026-07-03T23:59:00-03:00",
+        "sent": "2026-07-02T12:07:26-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-07-03T22:29:10.397572+00:00",
+        "link": "https://avisos.inmet.gov.br/54831",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54831",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54831",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27705.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Abelardo Luz - SC (4200101), Acorizal - MT (5100102), Acrelândia - AC (1200013), Agrolândia - SC (4200200), Agronômica - SC (4200309), Água Doce - SC (4200408), Águas Mornas - SC (4200606), Agudos do Sul - PR (4100301), Alfredo Wagner - SC (4200705), Almirante Tamandaré - PR (4100400), Alta Floresta D'Oeste - RO (1100015), Altamira do Paraná - PR (4100459), Alto Alegre dos Parecis - RO (1100379), Altônia - PR (4100509), Alto Paraguai - MT (5100508), Alto Paraíso - PR (4128625), Alto Paraíso - RO (1100403), Alto Paraná - PR (4100608), Alto Piquiri - PR (4100707), Alvorada D'Oeste - RO (1100346), Amambai - MS (5000609), Amaporã - PR (4100905), Ampére - PR (4101002), Anahy - PR (4101051), Anastácio - MS (5000708), Anaurilândia - MS (5000807), Anchieta - SC (4200804), Angélica - MS (5000856), Angelina - SC (4200903), Ângulo - PR (4101150), Anitápolis - SC (4201109), Antônio Carlos - SC (4201208), Antônio João - MS (5000906), Antônio Olinto - PR (4101309), Apiúna - SC (4201257), Apucarana - PR (4101408), Aquidauana - MS (5001102), Aral Moreira - MS (5001243), Arapongas - PR (4101507), Arapuã - PR (4101655), Araputanga - MT (5101258), Araquari - SC (4201307), Araruna - PR (4101705), Araucária - PR (4101804), Arenápolis - MT (5101308), Ariquemes - RO (1100023), Ariranha do Ivaí - PR (4101853), Arroio Trinta - SC (4201604), Ascurra - SC (4201703), Assis Brasil - AC (1200054), Assis Chateaubriand - PR (4102000), Astorga - PR (4102109), Atalaia - PR (4102208), Atalanta - SC (4201802), Aurora - SC (4201901), Balneário Barra do Sul - SC (4202057), Balneário Camboriú - SC (4202008), Balneário Piçarras - SC (4212809), Balsa Nova - PR (4102307), Bandeirantes - MS (5001508), Barão de Melgaço - MT (5101605), Barbosa Ferraz - PR (4102505), Barracão - PR (4102604), Barra do Bugres - MT (5101704), Barra Velha - SC (4202107), Bataguassu - MS (5001904), Batayporã - MS (5002001), Bela Vista - MS (5002100), Bela Vista da Caroba - PR (4102752), Bela Vista do Toldo - SC (4202131), Benedito Novo - SC (4202206), Biguaçu - SC (4202305), Bituruna - PR (4102901), Blumenau - SC (4202404), Boa Esperança - PR (4103008), Boa Esperança do Iguaçu - PR (4103024), Boa Ventura de São Roque - PR (4103040), Boa Vista da Aparecida - PR (4103057), Boca do Acre - AM (1300706), Bocaina do Sul - SC (4202438), Bodoquena - MS (5002159), Bombinhas - SC (4202453), Bom Jesus - SC (4202537), Bom Jesus do Sul - PR (4103156), Bom Retiro - SC (4202602), Bom Sucesso - PR (4103206), Bom Sucesso do Sul - PR (4103222), Bonito - MS (5002209), Borrazópolis - PR (4103305), Botuverá - SC (4202701), Braço do Trombudo - SC (4202859), Braganey - PR (4103354), Brasilândia do Sul - PR (4103370), Brasiléia - AC (1200104), Brasnorte - MT (5101902), Brunópolis - SC (4202875), Brusque - SC (4202909), Bujari - AC (1200138), Buritis - RO (1100452), Caarapó - MS (5002407), Cabixi - RO (1100031), Caçador - SC (4203006), Cacaulândia - RO (1100601), Cáceres - MT (5102504), Cacoal - RO (1100049), Cafelândia - PR (4103453), Cafezal do Sul - PR (4103479), Califórnia - PR (4103503), Calmon - SC (4203154), Cambira - PR (4103800), Camboriú - SC (4203204), Campina da Lagoa - PR (4103909), Campina do Simão - PR (4103958), Campo Alegre - SC (4203303), Campo Bonito - PR (4104055), Campo do Tenente - PR (4104105), Campo Erê - SC (4203501), Campo Grande - MS (5002704), Campo Largo - PR (4104204), Campo Magro - PR (4104253), Campo Mourão - PR (4104303), Campo Novo de Rondônia - RO (1100700), Campo Novo do Parecis - MT (5102637), Campos de Júlio - MT (5102686), Campos Novos - SC (4203600), Campo Verde - MT (5102678), Cândido de Abreu - PR (4104402), Candói - PR (4104428), Canelinha - SC (4203709), Canoinhas - SC (4203808), Cantagalo - PR (4104451), Capanema - PR (4104501), Capitão Leônidas Marques - PR (4104600), Capixaba - AC (1200179), Caracol - MS (5002803), Carambeí - PR (4104659), Cascavel - PR (4104808), Castanheiras - RO (1100908), Castro - PR (4104907), Catanduvas - PR (4105003), Catanduvas - SC (4204004), Cerejeiras - RO (1100056), Céu Azul - PR (4105300), Chapada dos Guimarães - MT (5103007), Chapadão do Lageado - SC (4204194), Chopinzinho - PR (4105409), Chupinguaia - RO (1100924), Cianorte - PR (4105508), Cidade Gaúcha - PR (4105607), Clevelândia - PR (4105706), Colorado - PR (4105904), Colorado do Oeste - RO (1100064), Comodoro - MT (5103304), Conquista D'Oeste - MT (5103361), Contenda - PR (4106209), Corbélia - PR (4106308), Corguinho - MS (5003108), Coronel Domingos Soares - PR (4106456), Coronel Martins - SC (4204459), Coronel Sapucaia - MS (5003157), Coronel Vivida - PR (4106506), Correia Pinto - SC (4204558), Corumbá - MS (5003207), Corumbataí do Sul - PR (4106555), Corumbiara - RO (1100072), Corupá - SC (4204509), Costa Marques - RO (1100080), Coxim - MS (5003306), Cruzeiro do Iguaçu - PR (4106571), Cruzeiro do Oeste - PR (4106605), Cruzeiro do Sul - PR (4106704), Cruz Machado - PR (4106803), Cruzmaltina - PR (4106852), Cuiabá - MT (5103403), Curitiba - PR (4106902), Curitibanos - SC (4204806), Curvelândia - MT (5103437), Denise - MT (5103452), Deodápolis - MS (5003454), Diamante D'Oeste - PR (4107157), Diamante do Norte - PR (4107108), Diamante do Sul - PR (4107124), Diamantino - MT (5103502), Dionísio Cerqueira - SC (4205001), Dois Irmãos do Buriti - MS (5003488), Dois Vizinhos - PR (4107207), Dona Emma - SC (4205100), Douradina - MS (5003504), Douradina - PR (4107256), Dourados - MS (5003702), Doutor Camargo - PR (4107306), Doutor Pedrinho - SC (4205159), Eldorado - MS (5003751), Enéas Marques - PR (4107405), Engenheiro Beltrão - PR (4107504), Entre Rios - SC (4205175), Entre Rios do Oeste - PR (4107538), Epitaciolândia - AC (1200252), Esperança Nova - PR (4107520), Espigão Alto do Iguaçu - PR (4107546), Espigão D'Oeste - RO (1100098), Euclides da Cunha Paulista - SP (3515350), Farol - PR (4107553), Fátima do Sul - MS (5003801), Faxinal - PR (4107603), Faxinal dos Guedes - SC (4205308), Fazenda Rio Grande - PR (4107652), Fênix - PR (4107702), Fernandes Pinheiro - PR (4107736), Figueirópolis D'Oeste - MT (5103809), Floraí - PR (4107801), Flor da Serra do Sul - PR (4107850), Floresta - PR (4107900), Florianópolis - SC (4205407), Flórida - PR (4108106), Formosa do Oeste - PR (4108205), Formosa do Sul - SC (4205431), Foz do Iguaçu - PR (4108304), Foz do Jordão - PR (4108452), Fraiburgo - SC (4205506), Francisco Alves - PR (4108320), Francisco Beltrão - PR (4108403), Frei Rogério - SC (4205555), Galvão - SC (4205605), Garopaba - SC (4205704), Garuva - SC (4205803), Gaspar - SC (4205902), General Carneiro - PR (4108502), Glória de Dourados - MS (5004007), Glória D'Oeste - MT (5103957), Godoy Moreira - PR (4108551), Goioerê - PR (4108601), Goioxim - PR (4108650), Governador Celso Ramos - SC (4206009), Governador Jorge Teixeira - RO (1101005), Grandes Rios - PR (4108700), Guabiruba - SC (4206306), Guaíra - PR (4108809), Guairaçá - PR (4108908), Guajará-Mirim - RO (1100106), Guamiranga - PR (4108957), Guaporema - PR (4109104), Guaramirim - SC (4206504), Guaraniaçu - PR (4109302), Guarapuava - PR (4109401), Guaratuba - PR (4109609), Guarujá do Sul - SC (4206603), Guia Lopes da Laguna - MS (5004106), Honório Serpa - PR (4109658), Ibema - PR (4109757), Ibiam - SC (4206751), Ibicaré - SC (4206801), Ibirama - SC (4206900), Icaraíma - PR (4109906), Iguaraçu - PR (4110003), Iguatemi - MS (5004304), Iguatu - PR (4110052), Ilhota - SC (4207106), Imbaú - PR (4110078), Imbituba - SC (4207304), Imbituva - PR (4110102), Imbuia - SC (4207403), Inácio Martins - PR (4110201), Inajá - PR (4110300), Indaial - SC (4207502), Indianópolis - PR (4110409), Indiavaí - MT (5104500), Iomerê - SC (4207577), Ipiranga - PR (4110508), Iporã - PR (4110607), Ipuaçu - SC (4207684), Iracema do Oeste - PR (4110656), Irani - SC (4207809), Irati - PR (4110706), Irati - SC (4207858), Iretama - PR (4110805), Irineópolis - SC (4207908), Itaiópolis - SC (4208104), Itaipulândia - PR (4110953), Itajaí - SC (4208203), Itambé - PR (4111100), Itapejara d'Oeste - PR (4111209), Itapema - SC (4208302), Itaperuçu - PR (4111258), Itapoá - SC (4208450), Itaporã - MS (5004502), Itaquiraí - MS (5004601), Itaúna do Sul - PR (4111308), Itiquira - MT (5104609), Ituporanga - SC (4208500), Ivaí - PR (4111407), Ivaiporã - PR (4111506), Ivaté - PR (4111555), Ivatuba - PR (4111605), Ivinhema - MS (5004700), Jaciara - MT (5104807), Jandaia do Sul - PR (4112108), Jangada - MT (5104906), Janiópolis - PR (4112207), Japorã - MS (5004809), Japurá - PR (4112405), Jaraguá do Sul - SC (4208906), Jaraguari - MS (5004908), Jardim - MS (5005004), Jardim Alegre - PR (4112504), Jaru - RO (1100114), Jateí - MS (5005103), Jauru - MT (5105002), Jesuítas - PR (4112751), Ji-Paraná - RO (1100122), Joinville - SC (4209102), José Boiteux - SC (4209151), Juína - MT (5105150), Jupiá - SC (4209177), Juranda - PR (4112959), Juscimeira - MT (5105200), Jussara - PR (4113007), Juti - MS (5005152), Kaloré - PR (4113106), Lábrea - AM (1302405), Ladário - MS (5005202), Lages - SC (4209300), Laguna Carapã - MS (5005251), Lambari D'Oeste - MT (5105234), Lapa - PR (4113205), Laranjal - PR (4113254), Laranjeiras do Sul - PR (4113304), Laurentino - SC (4209508), Lebon Régis - SC (4209706), Leoberto Leal - SC (4209805), Lidianópolis - PR (4113429), Lindoeste - PR (4113452), Loanda - PR (4113502), Lobato - PR (4113601), Londrina - PR (4113700), Lontras - SC (4209904), Luiz Alves - SC (4210001), Luiziana - PR (4113734), Lunardelli - PR (4113759), Luzerna - SC (4210035), Macieira - SC (4210050), Mafra - SC (4210100), Major Gercino - SC (4210209), Major Vieira - SC (4210308), Mallet - PR (4113908), Mamborê - PR (4114005), Mandaguaçu - PR (4114104), Mandaguari - PR (4114203), Mandirituba - PR (4114302), Manfrinópolis - PR (4114351), Mangueirinha - PR (4114401), Manoel Ribas - PR (4114500), Manoel Urbano - AC (1200344), Maracaju - MS (5005400), Marechal Cândido Rondon - PR (4114609), Maria Helena - PR (4114708), Marialva - PR (4114807), Marilândia do Sul - PR (4114906), Marilena - PR (4115002), Mariluz - PR (4115101), Maringá - PR (4115200), Mariópolis - PR (4115309), Maripá - PR (4115358), Marmeleiro - PR (4115408), Marquinho - PR (4115457), Marumbi - PR (4115507), Massaranduba - SC (4210605), Matelândia - PR (4115606), Mato Rico - PR (4115739), Matos Costa - SC (4210704), Mauá da Serra - PR (4115754), Medianeira - PR (4115804), Mercedes - PR (4115853), Ministro Andreazza - RO (1101203), Mirador - PR (4115903), Miranda - MS (5005608), Mirante da Serra - RO (1101302), Mirassol d'Oeste - MT (5105622), Mirim Doce - SC (4210852), Missal - PR (4116059), Monte Carlo - SC (4211058), Monte Castelo - SC (4211108), Monte Negro - RO (1101401), Moreira Sales - PR (4116109), Morretes - PR (4116208), Mundo Novo - MS (5005681), Munhoz de Melo - PR (4116307), Navegantes - SC (4211306), Naviraí - MS (5005707), Nioaque - MS (5005806), Nobres - MT (5105903), Nortelândia - MT (5106000), Nossa Senhora do Livramento - MT (5106109), Nova Aliança do Ivaí - PR (4116505), Nova Alvorada do Sul - MS (5006002), Nova Andradina - MS (5006200), Nova Aurora - PR (4116703), Nova Brasilândia D'Oeste - RO (1100148), Nova Cantu - PR (4116802), Nova Esperança - PR (4116901), Nova Esperança do Sudoeste - PR (4116950), Nova Lacerda - MT (5106182), Nova Laranjeiras - PR (4117057), Nova Londrina - PR (4117107), Nova Mamoré - RO (1100338), Nova Marilândia - MT (5108857), Nova Maringá - MT (5108907), Nova Olímpia - MT (5106232), Nova Olímpia - PR (4117206), Nova Prata do Iguaçu - PR (4117255), Nova Santa Rosa - PR (4117222), Nova Tebas - PR (4117271), Nova Trento - SC (4211504), Nova União - RO (1101435), Novo Horizonte - SC (4211652), Novo Horizonte do Oeste - RO (1100502), Novo Horizonte do Sul - MS (5006259), Novo Itacolomi - PR (4117297), Ortigueira - PR (4117305), Otacílio Costa - SC (4211751), Ourizona - PR (4117404), Ouro Preto do Oeste - RO (1100155), Ouro Verde - SC (4211850), Ouro Verde do Oeste - PR (4117453), Paiçandu - PR (4117503), Palhoça - SC (4211900), Palmas - PR (4117602), Palma Sola - SC (4212007), Palmeira - PR (4117701), Palmeira - SC (4212056), Palmital - PR (4117800), Palotina - PR (4117909), Papanduva - SC (4212205), Paraíso do Norte - PR (4118006), Paranacity - PR (4118105), Paranapoema - PR (4118303), Paranavaí - PR (4118402), Paranhos - MS (5006358), Parecis - RO (1101450), Passos Maia - SC (4212270), Pato Bragado - PR (4118451), Pato Branco - PR (4118501), Paula Freitas - PR (4118600), Paulo Frontin - PR (4118709), Paulo Lopes - SC (4212304), Peabiru - PR (4118808), Pedro Gomes - MS (5006408), Penha - SC (4212502), Perobal - PR (4118857), Pérola - PR (4118907), Pérola d'Oeste - PR (4119004), Petrolândia - SC (4212700), Piên - PR (4119103), Pimenta Bueno - RO (1100189), Pimenteiras do Oeste - RO (1101468), Pinhais - PR (4119152), Pinhal de São Bento - PR (4119251), Pinhão - PR (4119301), Pinheiro Preto - SC (4213005), Piraquara - PR (4119509), Pitanga - PR (4119608), Pitangueiras - PR (4119657), Plácido de Castro - AC (1200385), Planaltina do Paraná - PR (4119707), Planalto - PR (4119806), Poconé - MT (5106505), Pomerode - SC (4213203), Ponta Grossa - PR (4119905), Ponta Porã - MS (5006606), Ponte Alta - SC (4213302), Ponte Alta do Norte - SC (4213351), Pontes e Lacerda - MT (5106752), Ponte Serrada - SC (4213401), Porto Acre - AC (1200807), Porto Amazonas - PR (4120101), Porto Barreiro - PR (4120150), Porto Belo - SC (4213500), Porto Esperidião - MT (5106828), Porto Estrela - MT (5106851), Porto Murtinho - MS (5006903), Porto Rico - PR (4120200), Porto União - SC (4213609), Porto Velho - RO (1100205), Porto Vitória - PR (4120309), Pouso Redondo - SC (4213708), Pranchita - PR (4120358), Presidente Castelo Branco - PR (4120408), Presidente Getúlio - SC (4214003), Presidente Médici - RO (1100254), Presidente Nereu - SC (4214102), Primavera de Rondônia - RO (1101476), Prudentópolis - PR (4120606), Quarto Centenário - PR (4120655), Quatro Pontes - PR (4120853), Quedas do Iguaçu - PR (4120903), Querência do Norte - PR (4121000), Quilombo - SC (4214201), Quinta do Sol - PR (4121109), Quitandinha - PR (4121208), Ramilândia - PR (4121257), Rancho Alegre D'Oeste - PR (4121356), Rancho Queimado - SC (4214300), Realeza - PR (4121406), Rebouças - PR (4121505), Renascença - PR (4121604), Reserva - PR (4121703), Reserva do Cabaçal - MT (5107156), Reserva do Iguaçu - PR (4121752), Ribas do Rio Pardo - MS (5007109), Rio Azul - PR (4122008), Rio Bom - PR (4122107), Rio Bonito do Iguaçu - PR (4122156), Rio Branco - AC (1200401), Rio Branco - MT (5107206), Rio Branco do Ivaí - PR (4122172), Rio Brilhante - MS (5007208), Rio das Antas - SC (4214409), Rio do Campo - SC (4214508), Rio do Oeste - SC (4214607), Rio dos Cedros - SC (4214706), Rio do Sul - SC (4214805), Rio Negrinho - SC (4215000), Rio Negro - PR (4122305), Rio Negro - MS (5007307), Rio Verde de Mato Grosso - MS (5007406), Rochedo - MS (5007505), Rodeio - SC (4215109), Rolândia - PR (4122404), Rolim de Moura - RO (1100288), Roncador - PR (4122503), Rondolândia - MT (5107578), Rondon - PR (4122602), Rondonópolis - MT (5107602), Rosana - SP (3544251), Rosário do Ivaí - PR (4122651), Rosário Oeste - MT (5107701), Sabáudia - PR (4122701), Salete - SC (4215307), Salgado Filho - PR (4122800), Saltinho - SC (4215356), Salto do Céu - MT (5107750), Salto do Lontra - PR (4123006), Salto Veloso - SC (4215406), Santa Cecília - SC (4215505), Santa Cruz de Monte Castelo - PR (4123303), Santa Fé - PR (4123402), Santa Helena - PR (4123501), Santa Isabel do Ivaí - PR (4123709), Santa Izabel do Oeste - PR (4123808), Santa Lúcia - PR (4123824), Santa Luzia D'Oeste - RO (1100296), Santa Maria do Oeste - PR (4123857), Santa Mônica - PR (4123956), Santa Rosa do Purus - AC (1200435), Santa Tereza do Oeste - PR (4124020), Santa Terezinha - SC (4215679), Santa Terezinha de Itaipu - PR (4124053), Santiago do Sul - SC (4215695), Santo Afonso - MT (5107263), Santo Amaro da Imperatriz - SC (4215703), Santo Antônio do Caiuá - PR (4124202), Santo Antônio do Leverger - MT (5107800), Santo Antônio do Sudoeste - PR (4124400), São Bento do Sul - SC (4215802), São Bernardino - SC (4215752), São Bonifácio - SC (4215901), São Carlos do Ivaí - PR (4124608), São Cristóvão do Sul - SC (4216057), São Domingos - SC (4216107), São Felipe D'Oeste - RO (1101484), São Francisco do Guaporé - RO (1101492), São Francisco do Sul - SC (4216206), São Gabriel do Oeste - MS (5007695), São João - PR (4124806), São João Batista - SC (4216305), São João do Caiuá - PR (4124905), São João do Itaperiú - SC (4216354), São João do Ivaí - PR (4125001), São João do Triunfo - PR (4125100), São Jorge d'Oeste - PR (4125209), São Jorge do Ivaí - PR (4125308), São Jorge do Patrocínio - PR (4125357), São José - SC (4216602), São José das Palmeiras - PR (4125456), São José do Rio Claro - MT (5107305), São José dos Pinhais - PR (4125506), São José dos Quatro Marcos - MT (5107107), São Lourenço do Oeste - SC (4216909), São Manoel do Paraná - PR (4125555), São Mateus do Sul - PR (4125605), São Miguel do Guaporé - RO (1100320), São Miguel do Iguaçu - PR (4125704), São Pedro de Alcântara - SC (4217253), São Pedro do Iguaçu - PR (4125753), São Pedro do Ivaí - PR (4125803), São Pedro do Paraná - PR (4125902), São Tomé - PR (4126108), Sapezal - MT (5107875), Sarandi - PR (4126256), Saudade do Iguaçu - PR (4126272), Schroeder - SC (4217402), Senador Guiomard - AC (1200450), Sena Madureira - AC (1200500), Seringueiras - RO (1101500), Serranópolis do Iguaçu - PR (4126355), Sete Quedas - MS (5007703), Sidrolândia - MS (5007901), Sonora - MS (5007935), Sulina - PR (4126652), Tacuru - MS (5007950), Taió - SC (4217808), Tamarana - PR (4126678), Tamboara - PR (4126702), Tangará - SC (4217907), Tangará da Serra - MT (5107958), Tapejara - PR (4126801), Tapira - PR (4126900), Taquarussu - MS (5007976), Teixeira Soares - PR (4127007), Teixeirópolis - RO (1101559), Telêmaco Borba - PR (4127106), Teodoro Sampaio - SP (3554300), Terenos - MS (5008008), Terra Boa - PR (4127205), Terra Rica - PR (4127304), Terra Roxa - PR (4127403), Theobroma - RO (1101609), Tibagi - PR (4127502), Tijucas - SC (4218004), Tijucas do Sul - PR (4127601), Timbó - SC (4218202), Timbó Grande - SC (4218251), Toledo - PR (4127700), Três Barras - SC (4218301), Três Barras do Paraná - PR (4127858), Treze Tílias - SC (4218509), Trombudo Central - SC (4218608), Tuneiras do Oeste - PR (4127908), Tupãssi - PR (4127957), Turvo - PR (4127965), Ubiratã - PR (4128005), Umuarama - PR (4128104), União da Vitória - PR (4128203), Uniflor - PR (4128302), Urupá - RO (1101708), Vale de São Domingos - MT (5108352), Vale do Paraíso - RO (1101807), Vargeão - SC (4219101), Vargem Bonita - SC (4219176), Várzea Grande - MT (5108402), Ventania - PR (4128534), Vera Cruz do Oeste - PR (4128559), Verê - PR (4128609), Vicentina - MS (5008404), Vidal Ramos - SC (4219200), Videira - SC (4219309), Vila Bela da Santíssima Trindade - MT (5105507), Vilhena - RO (1100304), Virmond - PR (4128658), Vitorino - PR (4128708), Vitor Meireles - SC (4219358), Witmarsum - SC (4219408), Xambrê - PR (4128807), Xapuri - AC (1200708)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Oeste Catarinense, Centro-Sul Mato-grossense, Vale do Acre, Vale do Itajaí, Grande Florianópolis, Metropolitana de Curitiba, Leste Rondoniense, Centro Ocidental Paranaense, Noroeste Paranaense, Sudoeste de Mato Grosso do Sul, Sudoeste Paranaense, Oeste Paranaense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Norte Central Paranaense, Sudeste Paranaense, Sudoeste Mato-grossense, Norte Catarinense, Centro Norte de Mato Grosso do Sul, Centro-Sul Paranaense, Sul Amazonense, Serrana, Norte Mato-grossense, Madeira-Guaporé, Sudeste Mato-grossense, Centro Oriental Paranaense, Presidente Prudente, Sul Catarinense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-26.135714,-48.208008 -25.373809,-49.273682 -23.543845,-51.251221 -22.659641,-52.212524 -20.071411,-54.393311 -16.920195,-54.777832 -14.392118,-56.206055 -11.802834,-59.128418 -9.903921,-62.885742 -9.0804,-65.720215 -9.037003,-69.104004 -9.557417,-70.598145 -11.027472,-70.664063 -11.049038,-70.268555 -10.833306,-69.499512 -11.070603,-68.774414 -10.984335,-68.291016 -10.703792,-67.939453 -10.682201,-67.763672 -10.228437,-67.126465 -9.947209,-66.577148 -9.75237,-65.742188 -9.730714,-65.258789 -10.422988,-65.368652 -11.092166,-65.390625 -11.845847,-65.01709 -12.447305,-64.27002 -12.554564,-63.435059 -12.918907,-62.644043 -13.432367,-61.809082 -13.624633,-60.79834 -14.498508,-60.358887 -15.114553,-60.380859 -15.114553,-60.556641 -15.432501,-60.358887 -16.172473,-60.05127 -16.320139,-58.425293 -16.657244,-58.381348 -16.930705,-58.491211 -17.266728,-58.161621 -17.644022,-57.744141 -18.333669,-57.590332 -19.269665,-57.98584 -19.66328,-58.139648 -19.952696,-57.897949 -20.11784,-58.139648 -20.776659,-57.875977 -22.024546,-58.029785 -22.126355,-57.392578 -22.248429,-56.865234 -22.065278,-56.535645 -22.268764,-56.25 -22.329752,-55.898438 -22.776182,-55.678711 -23.5237,-55.59082 -23.966176,-55.371094 -23.905927,-54.667969 -24.066528,-54.338379 -24.647017,-54.360352 -25.165173,-54.492187 -25.562265,-54.755859 -25.700938,-54.42627 -25.601902,-53.920898 -26.056783,-53.701172 -26.313113,-53.635254 -28.22697,-48.317871 -27.547242,-48.076172 -27.078692,-48.208008 -26.74561,-48.427734 -26.135714,-48.208008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.208008,
+              -26.135714
+            ],
+            [
+              -49.273682,
+              -25.373809
+            ],
+            [
+              -51.251221,
+              -23.543845
+            ],
+            [
+              -52.212524,
+              -22.659641
+            ],
+            [
+              -54.393311,
+              -20.071411
+            ],
+            [
+              -54.777832,
+              -16.920195
+            ],
+            [
+              -56.206055,
+              -14.392118
+            ],
+            [
+              -59.128418,
+              -11.802834
+            ],
+            [
+              -62.885742,
+              -9.903921
+            ],
+            [
+              -65.720215,
+              -9.0804
+            ],
+            [
+              -69.104004,
+              -9.037003
+            ],
+            [
+              -70.598145,
+              -9.557417
+            ],
+            [
+              -70.664063,
+              -11.027472
+            ],
+            [
+              -70.268555,
+              -11.049038
+            ],
+            [
+              -69.499512,
+              -10.833306
+            ],
+            [
+              -68.774414,
+              -11.070603
+            ],
+            [
+              -68.291016,
+              -10.984335
+            ],
+            [
+              -67.939453,
+              -10.703792
+            ],
+            [
+              -67.763672,
+              -10.682201
+            ],
+            [
+              -67.126465,
+              -10.228437
+            ],
+            [
+              -66.577148,
+              -9.947209
+            ],
+            [
+              -65.742188,
+              -9.75237
+            ],
+            [
+              -65.258789,
+              -9.730714
+            ],
+            [
+              -65.368652,
+              -10.422988
+            ],
+            [
+              -65.390625,
+              -11.092166
+            ],
+            [
+              -65.01709,
+              -11.845847
+            ],
+            [
+              -64.27002,
+              -12.447305
+            ],
+            [
+              -63.435059,
+              -12.554564
+            ],
+            [
+              -62.644043,
+              -12.918907
+            ],
+            [
+              -61.809082,
+              -13.432367
+            ],
+            [
+              -60.79834,
+              -13.624633
+            ],
+            [
+              -60.358887,
+              -14.498508
+            ],
+            [
+              -60.380859,
+              -15.114553
+            ],
+            [
+              -60.556641,
+              -15.114553
+            ],
+            [
+              -60.358887,
+              -15.432501
+            ],
+            [
+              -60.05127,
+              -16.172473
+            ],
+            [
+              -58.425293,
+              -16.320139
+            ],
+            [
+              -58.381348,
+              -16.657244
+            ],
+            [
+              -58.491211,
+              -16.930705
+            ],
+            [
+              -58.161621,
+              -17.266728
+            ],
+            [
+              -57.744141,
+              -17.644022
+            ],
+            [
+              -57.590332,
+              -18.333669
+            ],
+            [
+              -57.98584,
+              -19.269665
+            ],
+            [
+              -58.139648,
+              -19.66328
+            ],
+            [
+              -57.897949,
+              -19.952696
+            ],
+            [
+              -58.139648,
+              -20.11784
+            ],
+            [
+              -57.875977,
+              -20.776659
+            ],
+            [
+              -58.029785,
+              -22.024546
+            ],
+            [
+              -57.392578,
+              -22.126355
+            ],
+            [
+              -56.865234,
+              -22.248429
+            ],
+            [
+              -56.535645,
+              -22.065278
+            ],
+            [
+              -56.25,
+              -22.268764
+            ],
+            [
+              -55.898438,
+              -22.329752
+            ],
+            [
+              -55.678711,
+              -22.776182
+            ],
+            [
+              -55.59082,
+              -23.5237
+            ],
+            [
+              -55.371094,
+              -23.966176
+            ],
+            [
+              -54.667969,
+              -23.905927
+            ],
+            [
+              -54.338379,
+              -24.066528
+            ],
+            [
+              -54.360352,
+              -24.647017
+            ],
+            [
+              -54.492187,
+              -25.165173
+            ],
+            [
+              -54.755859,
+              -25.562265
+            ],
+            [
+              -54.42627,
+              -25.700938
+            ],
+            [
+              -53.920898,
+              -25.601902
+            ],
+            [
+              -53.701172,
+              -26.056783
+            ],
+            [
+              -53.635254,
+              -26.313113
+            ],
+            [
+              -48.317871,
+              -28.22697
+            ],
+            [
+              -48.076172,
+              -27.547242
+            ],
+            [
+              -48.208008,
+              -27.078692
+            ],
+            [
+              -48.427734,
+              -26.74561
+            ],
+            [
+              -48.208008,
+              -26.135714
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Chuvas Intensas",
+        "categoria": "Met",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 03/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
+        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-07-03T00:00:00-03:00",
+        "expires": "2026-07-03T23:59:00-03:00",
+        "sent": "2026-06-29T12:19:01-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-07-03T22:29:10.397572+00:00",
+        "link": "https://avisos.inmet.gov.br/54777",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54777",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54777",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27667.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Abaetetuba - PA (1500107), Acará - PA (1500206), Afuá - PA (1500305), Alcântara - MA (2100204), Alenquer - PA (1500404), Almeirim - PA (1500503), Altamira - PA (1500602), Alto Alegre - RR (1400050), Alvarães - AM (1300029), Amajari - RR (1400027), Amapá - AP (1600105), Amapá do Maranhão - MA (2100550), Amaturá - AM (1300060), Anajás - PA (1500701), Anamã - AM (1300086), Ananindeua - PA (1500800), Anapu - PA (1500859), Anori - AM (1300102), Apicum-Açu - MA (2100832), Augusto Corrêa - PA (1500909), Aurora do Pará - PA (1500958), Autazes - AM (1300300), Aveiro - PA (1501006), Bacuri - MA (2101301), Bagre - PA (1501105), Baião - PA (1501204), Barcarena - PA (1501303), Barcelos - AM (1300409), Barreirinha - AM (1300508), Belém - PA (1501402), Belterra - PA (1501451), Benevides - PA (1501501), Benjamin Constant - AM (1300607), Bequimão - MA (2101905), Beruri - AM (1300631), Boa Vista - RR (1400100), Boa Vista do Gurupi - MA (2101970), Boa Vista do Ramos - AM (1300680), Bonfim - RR (1400159), Bonito - PA (1501600), Borba - AM (1300805), Bragança - PA (1501709), Brasil Novo - PA (1501725), Breves - PA (1501808), Bujaru - PA (1501907), Caapiranga - AM (1300839), Cachoeira do Arari - PA (1502004), Cachoeira do Piriá - PA (1501956), Calçoene - AP (1600204), Cametá - PA (1502103), Cândido Mendes - MA (2102606), Cantá - RR (1400175), Capanema - PA (1502202), Capitão Poço - PA (1502301), Caracaraí - RR (1400209), Carauari - AM (1301001), Careiro - AM (1301100), Careiro da Várzea - AM (1301159), Caroebe - RR (1400233), Carutapera - MA (2102903), Castanhal - PA (1502400), Cedral - MA (2103109), Central do Maranhão - MA (2103125), Centro do Guilherme - MA (2103158), Centro Novo do Maranhão - MA (2103174), Chaves - PA (1502509), Coari - AM (1301209), Codajás - AM (1301308), Colares - PA (1502608), Concórdia do Pará - PA (1502756), Curralinho - PA (1502806), Curuá - PA (1502855), Curuçá - PA (1502905), Cururupu - MA (2103703), Cutias - AP (1600212), Faro - PA (1503002), Ferreira Gomes - AP (1600238), Fonte Boa - AM (1301605), Garrafão do Norte - PA (1503077), Godofredo Viana - MA (2104305), Governador Nunes Freire - MA (2104677), Guimarães - MA (2104909), Gurupá - PA (1503101), Igarapé-Açu - PA (1503200), Igarapé-Miri - PA (1503309), Inhangapi - PA (1503408), Ipixuna do Pará - PA (1503457), Iracema - RR (1400282), Iranduba - AM (1301852), Irituia - PA (1503507), Itacoatiara - AM (1301902), Itaituba - PA (1503606), Itapiranga - AM (1302009), Itaubal - AP (1600253), Japurá - AM (1302108), Junco do Maranhão - MA (2105658), Juruá - AM (1302207), Juruti - PA (1503903), Jutaí - AM (1302306), Laranjal do Jari - AP (1600279), Limoeiro do Ajuru - PA (1504000), Luís Domingues - MA (2106201), Macapá - AP (1600303), Mãe do Rio - PA (1504059), Magalhães Barata - PA (1504109), Manacapuru - AM (1302504), Manaquiri - AM (1302553), Manaus - AM (1302603), Manicoré - AM (1302702), Maraã - AM (1302801), Maracaçumé - MA (2106326), Maracanã - PA (1504307), Maranhãozinho - MA (2106375), Marapanim - PA (1504406), Marituba - PA (1504422), Maués - AM (1302900), Mazagão - AP (1600402), Medicilândia - PA (1504455), Melgaço - PA (1504505), Mirinzal - MA (2106805), Mocajuba - PA (1504604), Moju - PA (1504703), Mojuí dos Campos - PA (1504752), Monte Alegre - PA (1504802), Muaná - PA (1504901), Mucajaí - RR (1400308), Nhamundá - AM (1303007), Normandia - RR (1400407), Nova Esperança do Piriá - PA (1504950), Nova Olinda do Maranhão - MA (2107357), Nova Olinda do Norte - AM (1303106), Nova Timboteua - PA (1505007), Novo Airão - AM (1303205), Óbidos - PA (1505106), Oeiras do Pará - PA (1505205), Oiapoque - AP (1600501), Oriximiná - PA (1505304), Ourém - PA (1505403), Pacajá - PA (1505486), Pacaraima - RR (1400456), Paragominas - PA (1505502), Parintins - AM (1303403), Pedra Branca do Amapari - AP (1600154), Peixe-Boi - PA (1505601), Peri Mirim - MA (2108405), Pinheiro - MA (2108603), Placas - PA (1505650), Ponta de Pedras - PA (1505700), Portel - PA (1505809), Porto de Moz - PA (1505908), Porto Grande - AP (1600535), Porto Rico do Maranhão - MA (2109056), Pracuúba - AP (1600550), Prainha - PA (1506005), Presidente Figueiredo - AM (1303536), Presidente Médici - MA (2109239), Presidente Sarney - MA (2109270), Primavera - PA (1506104), Quatipuru - PA (1506112), Rio Preto da Eva - AM (1303569), Rorainópolis - RR (1400472), Rurópolis - PA (1506195), Salinópolis - PA (1506203), Salvaterra - PA (1506302), Santa Bárbara do Pará - PA (1506351), Santa Cruz do Arari - PA (1506401), Santa Helena - MA (2109809), Santa Isabel do Rio Negro - AM (1303601), Santa Izabel do Pará - PA (1506500), Santa Luzia do Pará - PA (1506559), Santa Luzia do Paruá - MA (2110039), Santa Maria do Pará - PA (1506609), Santana - AP (1600600), Santarém - PA (1506807), Santarém Novo - PA (1506906), Santo Antônio do Içá - AM (1303700), Santo Antônio do Tauá - PA (1507003), São Caetano de Odivelas - PA (1507102), São Domingos do Capim - PA (1507201), São Francisco do Pará - PA (1507409), São Gabriel da Cachoeira - AM (1303809), São João da Baliza - RR (1400506), São João da Ponta - PA (1507466), São João de Pirabas - PA (1507474), São Luiz - RR (1400605), São Miguel do Guamá - PA (1507607), São Paulo de Olivença - AM (1303908), São Sebastião da Boa Vista - PA (1507706), São Sebastião do Uatumã - AM (1303957), Senador José Porfírio - PA (1507805), Serra do Navio - AP (1600055), Serrano do Maranhão - MA (2111789), Silves - AM (1304005), Soure - PA (1507904), Tabatinga - AM (1304062), Tailândia - PA (1507953), Tapauá - AM (1304104), Tartarugalzinho - AP (1600709), Tefé - AM (1304203), Terra Alta - PA (1507961), Terra Santa - PA (1507979), Tomé-Açu - PA (1508001), Tonantins - AM (1304237), Tracuateua - PA (1508035), Turiaçu - MA (2112407), Turilândia - MA (2112456), Uarini - AM (1304260), Uiramutã - RR (1400704), Uruará - PA (1508159), Urucará - AM (1304302), Urucurituba - AM (1304401), Vigia - PA (1508209), Viseu - PA (1508308), Vitória do Jari - AP (1600808), Vitória do Xingu - PA (1508357)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Nordeste Paraense, Marajó, Norte Maranhense, Baixo Amazonas, Sudoeste Paraense, Norte de Roraima, Centro Amazonense, Norte do Amapá, Oeste Maranhense, Sudoeste Amazonense, Metropolitana de Belém, Norte Amazonense, Sul Amazonense, Sul de Roraima, Sul do Amapá, Sudeste Paraense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-4.302591,-70.004883 -5.178482,-62.885742 -4.127285,-54.667969 -2.723583,-45.966797 -2.32846,-44.384766 -1.10955,-44.79126 -0.725078,-45.955811 -0.329588,-47.60376 0.538322,-48.47168 1.296276,-49.306641 2.086941,-50.064697 2.602864,-50.548096 3.447625,-50.844727 3.91906,-50.822754 4.346411,-50.95459 4.565474,-51.416016 3.206333,-52.294922 2.372369,-52.77832 2.262595,-52.954102 2.229662,-53.129883 2.416276,-53.613281 2.196727,-54.294434 2.547988,-55.107422 2.460181,-55.810547 2.361392,-56.019287 2.174771,-56.151123 1.999106,-55.931396 1.867345,-55.964355 1.933227,-56.162109 2.021065,-57.084961 1.757537,-57.821045 1.285293,-58.73291 1.395126,-59.27124 1.850874,-59.754639 2.279062,-59.743652 2.652251,-59.979858 2.943041,-59.952393 3.195364,-59.902954 3.348922,-59.801331 3.486006,-59.815063 3.565507,-59.869995 3.655964,-59.732666 3.795743,-59.642029 3.93824,-59.523926 4.00674,-59.589844 4.127285,-59.636536 4.2259,-59.735413 4.340934,-59.664001 4.412137,-59.724426 4.480595,-59.878235 4.518928,-60.174866 4.636655,-60.081482 4.784469,-60.018311 5.069058,-59.974365 5.246863,-60.13916 5.222247,-60.644531 4.82826,-60.688477 4.434044,-61.479492 4.171115,-62.457275 4.017699,-62.677002 3.886177,-62.74292 3.721745,-62.731934 3.666928,-63.006592 3.93002,-63.28125 3.951941,-63.984375 4.214943,-64.643555 4.171115,-64.80835 3.677892,-64.368896 3.513421,-64.259033 3.294082,-64.281006 2.986927,-64.160156 2.438229,-63.995361 2.152814,-63.413086 1.977147,-63.995361 1.63674,-64.226074 1.054628,-65.039063 0.966751,-65.742188 0.725078,-66.335449 1.21939,-66.829834 1.142502,-67.049561 1.768518,-67.126465 2.196727,-67.368164 1.977147,-68.071289 1.911267,-68.214111 1.713612,-68.291016 1.735574,-69.873047 1.10955,-69.840088 1.142502,-69.301758 0.703107,-69.082031 0.659165,-69.521484 0.505365,-70.037842 0.12085,-70.026855 -0.230712,-70.026855 -0.505365,-69.598389 -1.274309,-69.477539 -4.302591,-70.004883"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.004883,
+              -4.302591
+            ],
+            [
+              -62.885742,
+              -5.178482
+            ],
+            [
+              -54.667969,
+              -4.127285
+            ],
+            [
+              -45.966797,
+              -2.723583
+            ],
+            [
+              -44.384766,
+              -2.32846
+            ],
+            [
+              -44.79126,
+              -1.10955
+            ],
+            [
+              -45.955811,
+              -0.725078
+            ],
+            [
+              -47.60376,
+              -0.329588
+            ],
+            [
+              -48.47168,
+              0.538322
+            ],
+            [
+              -49.306641,
+              1.296276
+            ],
+            [
+              -50.064697,
+              2.086941
+            ],
+            [
+              -50.548096,
+              2.602864
+            ],
+            [
+              -50.844727,
+              3.447625
+            ],
+            [
+              -50.822754,
+              3.91906
+            ],
+            [
+              -50.95459,
+              4.346411
+            ],
+            [
+              -51.416016,
+              4.565474
+            ],
+            [
+              -52.294922,
+              3.206333
+            ],
+            [
+              -52.77832,
+              2.372369
+            ],
+            [
+              -52.954102,
+              2.262595
+            ],
+            [
+              -53.129883,
+              2.229662
+            ],
+            [
+              -53.613281,
+              2.416276
+            ],
+            [
+              -54.294434,
+              2.196727
+            ],
+            [
+              -55.107422,
+              2.547988
+            ],
+            [
+              -55.810547,
+              2.460181
+            ],
+            [
+              -56.019287,
+              2.361392
+            ],
+            [
+              -56.151123,
+              2.174771
+            ],
+            [
+              -55.931396,
+              1.999106
+            ],
+            [
+              -55.964355,
+              1.867345
+            ],
+            [
+              -56.162109,
+              1.933227
+            ],
+            [
+              -57.084961,
+              2.021065
+            ],
+            [
+              -57.821045,
+              1.757537
+            ],
+            [
+              -58.73291,
+              1.285293
+            ],
+            [
+              -59.27124,
+              1.395126
+            ],
+            [
+              -59.754639,
+              1.850874
+            ],
+            [
+              -59.743652,
+              2.279062
+            ],
+            [
+              -59.979858,
+              2.652251
+            ],
+            [
+              -59.952393,
+              2.943041
+            ],
+            [
+              -59.902954,
+              3.195364
+            ],
+            [
+              -59.801331,
+              3.348922
+            ],
+            [
+              -59.815063,
+              3.486006
+            ],
+            [
+              -59.869995,
+              3.565507
+            ],
+            [
+              -59.732666,
+              3.655964
+            ],
+            [
+              -59.642029,
+              3.795743
+            ],
+            [
+              -59.523926,
+              3.93824
+            ],
+            [
+              -59.589844,
+              4.00674
+            ],
+            [
+              -59.636536,
+              4.127285
+            ],
+            [
+              -59.735413,
+              4.2259
+            ],
+            [
+              -59.664001,
+              4.340934
+            ],
+            [
+              -59.724426,
+              4.412137
+            ],
+            [
+              -59.878235,
+              4.480595
+            ],
+            [
+              -60.174866,
+              4.518928
+            ],
+            [
+              -60.081482,
+              4.636655
+            ],
+            [
+              -60.018311,
+              4.784469
+            ],
+            [
+              -59.974365,
+              5.069058
+            ],
+            [
+              -60.13916,
+              5.246863
+            ],
+            [
+              -60.644531,
+              5.222247
+            ],
+            [
+              -60.688477,
+              4.82826
+            ],
+            [
+              -61.479492,
+              4.434044
+            ],
+            [
+              -62.457275,
+              4.171115
+            ],
+            [
+              -62.677002,
+              4.017699
+            ],
+            [
+              -62.74292,
+              3.886177
+            ],
+            [
+              -62.731934,
+              3.721745
+            ],
+            [
+              -63.006592,
+              3.666928
+            ],
+            [
+              -63.28125,
+              3.93002
+            ],
+            [
+              -63.984375,
+              3.951941
+            ],
+            [
+              -64.643555,
+              4.214943
+            ],
+            [
+              -64.80835,
+              4.171115
+            ],
+            [
+              -64.368896,
+              3.677892
+            ],
+            [
+              -64.259033,
+              3.513421
+            ],
+            [
+              -64.281006,
+              3.294082
+            ],
+            [
+              -64.160156,
+              2.986927
+            ],
+            [
+              -63.995361,
+              2.438229
+            ],
+            [
+              -63.413086,
+              2.152814
+            ],
+            [
+              -63.995361,
+              1.977147
+            ],
+            [
+              -64.226074,
+              1.63674
+            ],
+            [
+              -65.039063,
+              1.054628
+            ],
+            [
+              -65.742188,
+              0.966751
+            ],
+            [
+              -66.335449,
+              0.725078
+            ],
+            [
+              -66.829834,
+              1.21939
+            ],
+            [
+              -67.049561,
+              1.142502
+            ],
+            [
+              -67.126465,
+              1.768518
+            ],
+            [
+              -67.368164,
+              2.196727
+            ],
+            [
+              -68.071289,
+              1.977147
+            ],
+            [
+              -68.214111,
+              1.911267
+            ],
+            [
+              -68.291016,
+              1.713612
+            ],
+            [
+              -69.873047,
+              1.735574
+            ],
+            [
+              -69.840088,
+              1.10955
+            ],
+            [
+              -69.301758,
+              1.142502
+            ],
+            [
+              -69.082031,
+              0.703107
+            ],
+            [
+              -69.521484,
+              0.659165
+            ],
+            [
+              -70.037842,
+              0.505365
+            ],
+            [
+              -70.026855,
+              0.12085
+            ],
+            [
+              -70.026855,
+              -0.230712
+            ],
+            [
+              -69.598389,
+              -0.505365
+            ],
+            [
+              -69.477539,
+              -1.274309
+            ],
+            [
+              -70.004883,
+              -4.302591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "tipo": "INMET",
+        "status": "Ativo",
+        "status_tempo": "hoje",
+        "is_active": true,
+        "severidade": "Perigo Potencial",
+        "severity_group": "perigo_potencial",
+        "evento": "Ventos Costeiros",
+        "categoria": "Met",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "descricao": "INMET publica aviso iniciando em: 03/07/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "sender": "info.aviso@inmet.gov.br",
+        "sender_name": "Instituto Nacional de Meteorologia",
+        "onset": "2026-07-03T00:00:00-03:00",
+        "expires": "2026-07-03T23:59:00-03:00",
+        "sent": "2026-06-29T12:13:27-03:00",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "response_type": "Prepare",
+        "updated_at": "2026-07-03T22:29:10.397572+00:00",
+        "link": "https://avisos.inmet.gov.br/54773",
+        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54773",
+        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54773",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27664.1",
+        "color_risk": "#FFFE00",
+        "municipios": "Agrolândia - SC (4200200), Águas Mornas - SC (4200606), Alfredo Wagner - SC (4200705), Angelina - SC (4200903), Angra dos Reis - RJ (3300100), Anitápolis - SC (4201109), Antônio Carlos - SC (4201208), Arambaré - RS (4300851), Araquari - SC (4201307), Araranguá - SC (4201406), Araruama - RJ (3300209), Armação dos Búzios - RJ (3300233), Armazém - SC (4201505), Arraial do Cabo - RJ (3300258), Arroio do Sal - RS (4301057), Balneário Arroio do Silva - SC (4201950), Balneário Barra do Sul - SC (4202057), Balneário Camboriú - SC (4202008), Balneário Gaivota - SC (4202073), Balneário Piçarras - SC (4212809), Balneário Pinhal - RS (4301636), Balneário Rincão - SC (4220000), Bananal - SP (3504909), Barra do Ribeiro - RS (4301909), Barra Mansa - RJ (3300407), Barra Velha - SC (4202107), Belford Roxo - RJ (3300456), Bertioga - SP (3506359), Biguaçu - SC (4202305), Biritiba Mirim - SP (3506607), Bocaina do Sul - SC (4202438), Bombinhas - SC (4202453), Bom Jardim - RJ (3300506), Bom Jardim da Serra - SC (4202503), Bom Jesus - RS (4302303), Bom Retiro - SC (4202602), Braço do Norte - SC (4202800), Cabo Frio - RJ (3300704), Cachoeiras de Macacu - RJ (3300803), Camaquã - RS (4303509), Cambará do Sul - RS (4303608), Camboriú - SC (4203204), Campo Belo do Sul - SC (4203402), Campos dos Goytacazes - RJ (3301009), Cananéia - SP (3509908), Canelinha - SC (4203709), Capão Alto - SC (4203253), Capão da Canoa - RS (4304630), Capivari de Baixo - SC (4203956), Capivari do Sul - RS (4304671), Caraá - RS (4304713), Caraguatatuba - SP (3510500), Carapebus - RJ (3300936), Cardoso Moreira - RJ (3301157), Casimiro de Abreu - RJ (3301306), Chapadão do Lageado - SC (4204194), Cidreira - RS (4305454), Cocal do Sul - SC (4204251), Conceição de Macabu - RJ (3301405), Cordeiro - RJ (3301504), Correia Pinto - SC (4204558), Criciúma - SC (4204608), Cubatão - SP (3513504), Cunha - SP (3513603), Dom Pedro de Alcântara - RS (4306551), Duas Barras - RJ (3301603), Duque de Caxias - RJ (3301702), Engenheiro Paulo de Frontin - RJ (3301801), Ermo - SC (4205191), Florianópolis - SC (4205407), Forquilhinha - SC (4205456), Garopaba - SC (4205704), Garuva - SC (4205803), Glorinha - RS (4309050), Governador Celso Ramos - SC (4206009), Grão Pará - SC (4206108), Gravataí - RS (4309209), Gravatal - SC (4206207), Guapimirim - RJ (3301850), Guaraqueçaba - PR (4109500), Guaratuba - PR (4109609), Guarujá - SP (3518701), Içara - SC (4207007), Iguaba Grande - RJ (3301876), Iguape - SP (3520301), Ilhabela - SP (3520400), Ilha Comprida - SP (3520426), Imaruí - SC (4207205), Imbé - RS (4310330), Imbituba - SC (4207304), Imbuia - SC (4207403), Itaboraí - RJ (3301900), Itaguaí - RJ (3302007), Itajaí - SC (4208203), Itanhaém - SP (3522109), Itapema - SC (4208302), Itapoá - SC (4208450), Itariri - SP (3523305), Itati - RS (4310652), Ituporanga - SC (4208500), Jacinto Machado - SC (4208708), Jacupiranga - SP (3524600), Jaguaruna - SC (4208807), Japeri - RJ (3302270), Jaquirana - RS (4311122), Joinville - SC (4209102), Lages - SC (4209300), Lagoinha - SP (3526308), Laguna - SC (4209409), Lauro Müller - SC (4209607), Leoberto Leal - SC (4209805), Macaé - RJ (3302403), Macuco - RJ (3302452), Magé - RJ (3302502), Major Gercino - SC (4210209), Mampituba - RS (4311734), Mangaratiba - RJ (3302601), Maquiné - RS (4311775), Maracajá - SC (4210407), Maricá - RJ (3302700), Matinhos - PR (4115705), Meleiro - SC (4210803), Mendes - RJ (3302809), Mesquita - RJ (3302858), Miguel Pereira - RJ (3302908), Mongaguá - SP (3531100), Morretes - PR (4116208), Morrinhos do Sul - RS (4312443), Morro da Fumaça - SC (4211207), Morro Grande - SC (4211256), Mostardas - RS (4312500), Natividade da Serra - SP (3532306), Navegantes - SC (4211306), Nilópolis - RJ (3303203), Niterói - RJ (3303302), Nova Friburgo - RJ (3303401), Nova Iguaçu - RJ (3303500), Nova Trento - SC (4211504), Nova Veneza - SC (4211603), Orleans - SC (4211702), Osório - RS (4313508), Otacílio Costa - SC (4211751), Painel - SC (4211892), Palhoça - SC (4211900), Palmares do Sul - RS (4313656), Palmeira - SC (4212056), Paracambi - RJ (3303609), Paraibuna - SP (3535606), Paranaguá - PR (4118204), Paraty - RJ (3303807), Pariquera-Açu - SP (3536208), Passo de Torres - SC (4212254), Paty do Alferes - RJ (3303856), Paulo Lopes - SC (4212304), Pedras Grandes - SC (4212403), Penha - SC (4212502), Peruíbe - SP (3537602), Pescaria Brava - SC (4212650), Petrolândia - SC (4212700), Petrópolis - RJ (3303906), Piraí - RJ (3304003), Pontal do Paraná - PR (4119954), Porto Alegre - RS (4314902), Porto Belo - SC (4213500), Praia Grande - SC (4213807), Praia Grande - SP (3541000), Queimados - RJ (3304144), Quissamã - RJ (3304151), Rancho Queimado - SC (4214300), Redenção da Serra - SP (3542305), Rio Bonito - RJ (3304300), Rio Claro - RJ (3304409), Rio das Ostras - RJ (3304524), Rio de Janeiro - RJ (3304557), Rio Fortuna - SC (4214904), Rio Rufino - SC (4215059), Riozinho - RS (4315750), Rolante - RS (4316006), Salesópolis - SP (3545001), Sangão - SC (4215455), Santa Maria Madalena - RJ (3304607), Santa Rosa de Lima - SC (4215604), Santa Rosa do Sul - SC (4215653), Santo Amaro da Imperatriz - SC (4215703), Santo Antônio da Patrulha - RS (4317608), Santos - SP (3548500), São Bernardo do Campo - SP (3548708), São Bonifácio - SC (4215901), São Fidélis - RJ (3304805), São Francisco de Itabapoana - RJ (3304755), São Francisco de Paula - RS (4318200), São Francisco do Sul - SC (4216206), São Gonçalo - RJ (3304904), São João Batista - SC (4216305), São João da Barra - RJ (3305000), São João de Meriti - RJ (3305109), São João do Itaperiú - SC (4216354), São João do Sul - SC (4216404), São Joaquim - SC (4216503), São José - SC (4216602), São José do Barreiro - SP (3549607), São José do Cerrito - SC (4216800), São José do Norte - RS (4318507), São José dos Ausentes - RS (4318622), São Lourenço do Sul - RS (4318804), São Ludgero - SC (4217006), São Luiz do Paraitinga - SP (3550001), São Martinho - SC (4217105), São Paulo - SP (3550308), São Pedro da Aldeia - RJ (3305208), São Pedro de Alcântara - SC (4217253), São Sebastião - SP (3550704), São Sebastião do Alto - RJ (3305307), São Vicente - SP (3551009), Saquarema - RJ (3305505), Seropédica - RJ (3305554), Siderópolis - SC (4217600), Silva Jardim - RJ (3305604), Sombrio - SC (4217709), Sumidouro - RJ (3305703), Tanguá - RJ (3305752), Tapes - RS (4321105), Taquara - RS (4321204), Tavares - RS (4321352), Teresópolis - RJ (3305802), Terra de Areia - RS (4321436), Tijucas - SC (4218004), Timbé do Sul - SC (4218103), Torres - RS (4321501), Trajano de Moraes - RJ (3305901), Tramandaí - RS (4321600), Três Cachoeiras - RS (4321667), Três Forquilhas - RS (4321832), Treviso - SC (4218350), Treze de Maio - SC (4218400), Tubarão - SC (4218707), Turvo - SC (4218806), Ubatuba - SP (3555406), Urubici - SC (4218905), Urupema - SC (4218954), Urussanga - SC (4219002), Vacaria - RS (4322509), Vassouras - RJ (3306206), Viamão - RS (4323002), Vidal Ramos - SC (4219200), Xangri-lá - RS (4323804)",
+        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+        "area_desc": "Aviso para as áreas: Vale do Itajaí, Grande Florianópolis, Sul Fluminense, Metropolitana de Porto Alegre, Norte Catarinense, Sul Catarinense, Baixadas, Vale do Paraíba Paulista, Metropolitana do Rio de Janeiro, Metropolitana de São Paulo, Serrana, Centro Fluminense, Nordeste Rio-grandense, Norte Fluminense, Litoral Sul Paulista, Metropolitana de Curitiba, Sudeste Rio-grandense",
+        "area_index": 0,
+        "geocodes": {},
+        "polygon_raw": "-32.210477,-51.841736 -31.793555,-51.954346 -31.3466,-52.009277 -31.041168,-51.619263 -30.649727,-51.437988 -30.275672,-51.234741 -29.978729,-50.817261 -29.322326,-50.443726 -28.241489,-50.754089 -27.705415,-50.539856 -27.393717,-49.276428 -27.342494,-48.847961 -26.953901,-48.746338 -26.554136,-48.768311 -26.295877,-48.891907 -26.009893,-48.886414 -25.646478,-48.79303 -25.356437,-48.378296 -24.779254,-47.905884 -24.384626,-47.243958 -23.998799,-46.672668 -23.707409,-46.049194 -23.251441,-45.428467 -22.953335,-44.829712 -22.733124,-44.414978 -22.446572,-43.382263 -22.08055,-42.275391 -21.43006,-41.316833 -21.427503,-40.638428 -21.690609,-40.819702 -21.955783,-40.748291 -22.156883,-40.825195 -22.403411,-41.275635 -22.537927,-41.506348 -22.829352,-41.580505 -23.152987,-41.860657 -23.221155,-42.030945 -23.284242,-43.025208 -23.279196,-43.173523 -23.415367,-44.077148 -23.69232,-44.497375 -24.139235,-45.148315 -24.347097,-45.782776 -24.539628,-46.095886 -24.669482,-46.573792 -25.068185,-47.205505 -25.48791,-47.875671 -26.091322,-48.199768 -26.234302,-48.262939 -26.757873,-48.356323 -27.217999,-48.120117 -27.62514,-48.169556 -28.025925,-48.249207 -28.432468,-48.403015 -28.758028,-48.674927 -28.948072,-49.042969 -29.358239,-49.485168 -29.51372,-49.54834 -29.606894,-49.638977 -30.054831,-49.921875 -30.614277,-50.147095 -31.041168,-50.449219 -31.505971,-50.877686 -31.877558,-51.311646 -32.210477,-51.841736"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.841736,
+              -32.210477
+            ],
+            [
+              -51.954346,
+              -31.793555
+            ],
+            [
+              -52.009277,
+              -31.3466
+            ],
+            [
+              -51.619263,
+              -31.041168
+            ],
+            [
+              -51.437988,
+              -30.649727
+            ],
+            [
+              -51.234741,
+              -30.275672
+            ],
+            [
+              -50.817261,
+              -29.978729
+            ],
+            [
+              -50.443726,
+              -29.322326
+            ],
+            [
+              -50.754089,
+              -28.241489
+            ],
+            [
+              -50.539856,
+              -27.705415
+            ],
+            [
+              -49.276428,
+              -27.393717
+            ],
+            [
+              -48.847961,
+              -27.342494
+            ],
+            [
+              -48.746338,
+              -26.953901
+            ],
+            [
+              -48.768311,
+              -26.554136
+            ],
+            [
+              -48.891907,
+              -26.295877
+            ],
+            [
+              -48.886414,
+              -26.009893
+            ],
+            [
+              -48.79303,
+              -25.646478
+            ],
+            [
+              -48.378296,
+              -25.356437
+            ],
+            [
+              -47.905884,
+              -24.779254
+            ],
+            [
+              -47.243958,
+              -24.384626
+            ],
+            [
+              -46.672668,
+              -23.998799
+            ],
+            [
+              -46.049194,
+              -23.707409
+            ],
+            [
+              -45.428467,
+              -23.251441
+            ],
+            [
+              -44.829712,
+              -22.953335
+            ],
+            [
+              -44.414978,
+              -22.733124
+            ],
+            [
+              -43.382263,
+              -22.446572
+            ],
+            [
+              -42.275391,
+              -22.08055
+            ],
+            [
+              -41.316833,
+              -21.43006
+            ],
+            [
+              -40.638428,
+              -21.427503
+            ],
+            [
+              -40.819702,
+              -21.690609
+            ],
+            [
+              -40.748291,
+              -21.955783
+            ],
+            [
+              -40.825195,
+              -22.156883
+            ],
+            [
+              -41.275635,
+              -22.403411
+            ],
+            [
+              -41.506348,
+              -22.537927
+            ],
+            [
+              -41.580505,
+              -22.829352
+            ],
+            [
+              -41.860657,
+              -23.152987
+            ],
+            [
+              -42.030945,
+              -23.221155
+            ],
+            [
+              -43.025208,
+              -23.284242
+            ],
+            [
+              -43.173523,
+              -23.279196
+            ],
+            [
+              -44.077148,
+              -23.415367
+            ],
+            [
+              -44.497375,
+              -23.69232
+            ],
+            [
+              -45.148315,
+              -24.139235
+            ],
+            [
+              -45.782776,
+              -24.347097
+            ],
+            [
+              -46.095886,
+              -24.539628
+            ],
+            [
+              -46.573792,
+              -24.669482
+            ],
+            [
+              -47.205505,
+              -25.068185
+            ],
+            [
+              -47.875671,
+              -25.48791
+            ],
+            [
+              -48.199768,
+              -26.091322
+            ],
+            [
+              -48.262939,
+              -26.234302
+            ],
+            [
+              -48.356323,
+              -26.757873
+            ],
+            [
+              -48.120117,
+              -27.217999
+            ],
+            [
+              -48.169556,
+              -27.62514
+            ],
+            [
+              -48.249207,
+              -28.025925
+            ],
+            [
+              -48.403015,
+              -28.432468
+            ],
+            [
+              -48.674927,
+              -28.758028
+            ],
+            [
+              -49.042969,
+              -28.948072
+            ],
+            [
+              -49.485168,
+              -29.358239
+            ],
+            [
+              -49.54834,
+              -29.51372
+            ],
+            [
+              -49.638977,
+              -29.606894
+            ],
+            [
+              -49.921875,
+              -30.054831
+            ],
+            [
+              -50.147095,
+              -30.614277
+            ],
+            [
+              -50.449219,
+              -31.041168
+            ],
+            [
+              -50.877686,
+              -31.505971
+            ],
+            [
+              -51.311646,
+              -31.877558
+            ],
+            [
+              -51.841736,
+              -32.210477
             ]
           ]
         ]
