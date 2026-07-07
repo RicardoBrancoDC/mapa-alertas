@@ -3,9 +3,9 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Otacílio Costa", "uf": "SC", "codibge": "4211751", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.008803661374877, -27.4976205245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Beruri", "uf": "AM", "codibge": "1300631", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -61.734033241528735, -4.537876234 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.2750255405 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.5754933435 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Otacílio Costa", "uf": "SC", "codibge": "4211751", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.008803661374877, -27.4976205245 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Manaus", "uf": "AM", "codibge": "1302603", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.370348832243828, -2.5754933435 ] } }
 ]
 }
