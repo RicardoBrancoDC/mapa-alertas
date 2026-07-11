@@ -4,6 +4,8 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Coronel Freitas", "uf": "SC", "codibge": "4204400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.712744509715918, -26.880526912 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Coronel Freitas", "uf": "SC", "codibge": "4204400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.712744509715918, -26.880526912 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Coronel Freitas", "uf": "SC", "codibge": "4204400", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.712744509715918, -26.880526912 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Faxinal dos Guedes", "uf": "SC", "codibge": "4205308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.253112947181805, -26.844026878499999 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Xanxerê", "uf": "SC", "codibge": "4219507", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.38652432030031, -26.877315255499994 ] } }
 ]
 }
