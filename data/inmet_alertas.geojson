@@ -4,38 +4,34 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27782.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27782.1",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "event": "Ventos Costeiros",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Ventos Costeiros",
-        "categoria": "Met",
-        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 13/07/2026 08:41. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
-        "instruction": "Contate a Defesa Civil (telefone: 199).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-07-13T08:41:00-03:00",
         "expires": "2026-07-13T23:59:00-03:00",
         "sent": "2026-07-13T11:40:07-03:00",
+        "pubDate": "Mon, 13 Jul 2026 08:41:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-07-13T21:08:59.234390+00:00",
-        "link": "https://avisos.inmet.gov.br/54961",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54961",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54961",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27782.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Alcobaça - BA (2900801), Alfredo Chaves - ES (3200300), Anchieta - ES (3200409), Angra dos Reis - RJ (3300100), Aracruz - ES (3200607), Araruama - RJ (3300209), Armação dos Búzios - RJ (3300233), Arraial do Cabo - RJ (3300258), Belford Roxo - RJ (3300456), Belmonte - BA (2903409), Cabo Frio - RJ (3300704), Cachoeiras de Macacu - RJ (3300803), Campos dos Goytacazes - RJ (3301009), Carapebus - RJ (3300936), Caravelas - BA (2906907), Cariacica - ES (3201308), Casimiro de Abreu - RJ (3301306), Conceição da Barra - ES (3201605), Cunha - SP (3513603), Domingos Martins - ES (3201902), Duque de Caxias - RJ (3301702), Fundão - ES (3202207), Guapimirim - RJ (3301850), Guarapari - ES (3202405), Iconha - ES (3202603), Iguaba Grande - RJ (3301876), Itaboraí - RJ (3301900), Itaguaí - RJ (3302007), Itapemirim - ES (3202801), Jaguaré - ES (3203056), Linhares - ES (3203205), Macaé - RJ (3302403), Magé - RJ (3302502), Mangaratiba - RJ (3302601), Marataízes - ES (3203320), Marechal Floriano - ES (3203346), Maricá - RJ (3302700), Mesquita - RJ (3302858), Mucuri - BA (2922003), Nilópolis - RJ (3303203), Niterói - RJ (3303302), Nova Iguaçu - RJ (3303500), Nova Viçosa - BA (2923001), Paraty - RJ (3303807), Piraí - RJ (3304003), Piúma - ES (3204203), Porto Seguro - BA (2925303), Prado - BA (2925501), Presidente Kennedy - ES (3204302), Queimados - RJ (3304144), Quissamã - RJ (3304151), Rio Bonito - RJ (3304300), Rio Claro - RJ (3304409), Rio das Ostras - RJ (3304524), Rio de Janeiro - RJ (3304557), Rio Novo do Sul - ES (3204401), Santa Cruz Cabrália - BA (2927705), Santa Leopoldina - ES (3204500), São Francisco de Itabapoana - RJ (3304755), São Gonçalo - RJ (3304904), São João da Barra - RJ (3305000), São João de Meriti - RJ (3305109), São Mateus - ES (3204906), São Pedro da Aldeia - RJ (3305208), Saquarema - RJ (3305505), Seropédica - RJ (3305554), Serra - ES (3205002), Silva Jardim - RJ (3305604), Tanguá - RJ (3305752), Ubatuba - SP (3555406), Viana - ES (3205101), Vila Velha - ES (3205200), Vitória - ES (3205309)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Sul Baiano, Central Espírito-santense, Sul Fluminense, Litoral Norte Espírito-santense, Baixadas, Metropolitana do Rio de Janeiro, Norte Fluminense, Vale do Paraíba Paulista, Sul Espírito-santense",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-23.261534,-44.890137 -23.049407,-44.835205 -22.907803,-44.505615 -22.786311,-43.945313 -22.705255,-43.330078 -22.674847,-42.780762 -22.593726,-42.297363 -22.380556,-42.000732 -22.03473,-41.52832 -21.534847,-41.242676 -20.992214,-41.011963 -20.643066,-40.78125 -20.014645,-40.352783 -19.445874,-40.03418 -18.833515,-39.91333 -18.375379,-39.836426 -18.093644,-39.759521 -17.66496,-39.605713 -17.161786,-39.364014 -16.615138,-39.243164 -16.088042,-39.089355 -15.866242,-38.979492 -15.821324,-38.814697 -15.892659,-38.773499 -16.06429,-38.795471 -16.325411,-38.905334 -16.625665,-38.995972 -16.907056,-39.042664 -17.201146,-39.116821 -17.424029,-39.111328 -17.551081,-39.119568 -17.637478,-39.096222 -17.713369,-39.089355 -17.82453,-39.144287 -17.935622,-39.265137 -18.01008,-39.398346 -18.088423,-39.443665 -18.239786,-39.539795 -18.401443,-39.60022 -18.633233,-39.660645 -18.85431,-39.668884 -19.075097,-39.652405 -19.267073,-39.630432 -19.430334,-39.638672 -19.603782,-39.721069 -19.725342,-39.795227 -19.841644,-39.949036 -20.006903,-40.061646 -20.285385,-40.168762 -20.535077,-40.278625 -20.725291,-40.402222 -20.879343,-40.561523 -20.969134,-40.671387 -21.151115,-40.775757 -21.381475,-40.888367 -21.557839,-40.943298 -21.690609,-40.937805 -21.871695,-40.924072 -21.991442,-40.915833 -22.111088,-41.009216 -22.233175,-41.231689 -22.337374,-41.561279 -22.484644,-41.76178 -22.596262,-41.827698 -22.702722,-41.781006 -22.804035,-41.764526 -22.930571,-41.846924 -23.054462,-41.945801 -23.087312,-42.047424 -23.072151,-42.289124 -23.077205,-42.561035 -23.092365,-43.033447 -23.108786,-43.310852 -23.134046,-43.655548 -23.188338,-43.970032 -23.293072,-44.276276 -23.372514,-44.456177 -23.396463,-44.611359 -23.390161,-44.734955 -23.346038,-44.839325 -23.261534,-44.890137"
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 13/07/2026 08:41. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/54961",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Baiano, Central EspÃ­rito-santense, Sul Fluminense, Litoral Norte EspÃ­rito-santense, Baixadas, Metropolitana do Rio de Janeiro, Norte Fluminense, Vale do ParaÃ­ba Paulista, Sul EspÃ­rito-santense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Baiano, Central EspÃ­rito-santense, Sul Fluminense, Litoral Norte EspÃ­rito-santense, Baixadas, Metropolitana do Rio de Janeiro, Norte Fluminense, Vale do ParaÃ­ba Paulista, Sul EspÃ­rito-santense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54961"
       },
       "geometry": {
         "type": "Polygon",
@@ -372,38 +368,34 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27781.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27781.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 13/07/2026 09:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
         "onset": "2026-07-13T09:00:00-03:00",
         "expires": "2026-07-13T23:59:00-03:00",
         "sent": "2026-07-13T11:39:26-03:00",
+        "pubDate": "Mon, 13 Jul 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-07-13T21:08:59.234390+00:00",
-        "link": "https://avisos.inmet.gov.br/54960",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54960",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54960",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27781.1",
-        "color_risk": "#FFFE00",
-        "municipios": "Assis Brasil - AC (1200054), Atalaia do Norte - AM (1300201), Benjamin Constant - AM (1300607), Boca do Acre - AM (1300706), Brasiléia - AC (1200104), Bujari - AC (1200138), Cruzeiro do Sul - AC (1200203), Eirunepé - AM (1301407), Envira - AM (1301506), Epitaciolândia - AC (1200252), Feijó - AC (1200302), Guajará - AM (1301654), Ipixuna - AM (1301803), Jordão - AC (1200328), Jutaí - AM (1302306), Mâncio Lima - AC (1200336), Manoel Urbano - AC (1200344), Marechal Thaumaturgo - AC (1200351), Pauini - AM (1303502), Porto Walter - AC (1200393), Rio Branco - AC (1200401), Rodrigues Alves - AC (1200427), Santa Rosa do Purus - AC (1200435), São Paulo de Olivença - AM (1303908), Sena Madureira - AC (1200500), Tarauacá - AC (1200609), Xapuri - AC (1200708)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Vale do Acre, Sudoeste Amazonense, Sul Amazonense, Vale do Juruá",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-9.275622,-68.269043 -9.687398,-68.269043 -10.185187,-68.291016 -10.682201,-68.291016 -10.962764,-68.329468 -11.011297,-68.47229 -11.065212,-68.59314 -11.043647,-68.708496 -10.989728,-68.763428 -10.962764,-68.829346 -10.957371,-68.917236 -10.957371,-69.0271 -10.941192,-69.082031 -10.930405,-69.191895 -10.925011,-69.301758 -10.90883,-69.428101 -10.903436,-69.532471 -10.951978,-69.708252 -10.898042,-69.752197 -10.892648,-69.818115 -10.898042,-69.922485 -10.941192,-70.043335 -10.978943,-70.131226 -11.016689,-70.197144 -11.027472,-70.296021 -11.005904,-70.378418 -10.968157,-70.43335 -10.90883,-70.504761 -10.930405,-70.598145 -9.844392,-70.598145 -9.795678,-70.52124 -9.746956,-70.493774 -9.692813,-70.504761 -9.62783,-70.543213 -9.562834,-70.548706 -9.48699,-70.482788 -9.40571,-70.482788 -9.394871,-70.554199 -9.45448,-70.653076 -9.503244,-70.735474 -9.562834,-70.801392 -9.616998,-70.856323 -9.649492,-70.916748 -9.698228,-70.960693 -9.757784,-71.015625 -9.795678,-71.125488 -9.849804,-71.18042 -9.920155,-71.213379 -9.947209,-71.273804 -9.925566,-71.345215 -9.947209,-71.411133 -9.947209,-71.537476 -9.968851,-71.658325 -9.96344,-71.790161 -9.95803,-71.872559 -9.96344,-71.987915 -9.96344,-72.108765 -9.876864,-72.119751 -9.784851,-72.130737 -9.774025,-72.130737 -9.692813,-72.218628 -9.589917,-72.262573 -9.476154,-72.312012 -9.400291,-72.487793 -9.394871,-72.641602 -9.373193,-72.762451 -9.373193,-73.130493 -9.221405,-72.976685 -9.140063,-72.932739 -9.020728,-72.910767 -8.857934,-73.00415 -8.695069,-73.119507 -8.608179,-73.273315 -8.553862,-73.311768 -8.472372,-73.300781 -8.390865,-73.394165 -8.347388,-73.482056 -8.21149,-73.553467 -8.108177,-73.564453 -8.004837,-73.597412 -7.939556,-73.66333 -7.912353,-73.718262 -7.85794,-73.657837 -7.792636,-73.641357 -7.732765,-73.66333 -7.683773,-73.773193 -7.618442,-73.855591 -7.574883,-73.932495 -7.493196,-73.88855 -7.422389,-73.899536 -7.406048,-73.833618 -7.389705,-73.723755 -7.32433,-73.652344 -7.226249,-73.66333 -7.1663,-73.745728 -7.100893,-73.707275 -6.915521,-73.66333 -6.828261,-73.575439 -6.719165,-73.465576 -6.686431,-73.278809 -6.642783,-73.168945 -6.479067,-73.059082 -6.293459,-73.070068 -6.184246,-73.146973 -6.085936,-73.146973 -5.965754,-73.114014 -5.856475,-72.971191 -5.747174,-72.927246 -5.550381,-72.872314 -5.353521,-72.850342 -5.211306,-72.817383 -5.156599,-72.685547 -5.047171,-72.476807 -4.937724,-72.344971 -4.882994,-72.213135 -4.806365,-72.081299 -4.937724,-71.784668 -5.244128,-71.38916 -5.550381,-71.081543 -5.790897,-70.795898 -6.271618,-70.367432 -6.52273,-70.081787 -6.8828,-69.741211 -7.318882,-69.433594 -7.710992,-69.104004 -8.015716,-68.851318 -8.439772,-68.543701 -8.961045,-68.36792 -9.275622,-68.269043"
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 13/07/2026 09:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54960",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Vale do Acre, Sudoeste Amazonense, Sul Amazonense, Vale do JuruÃ¡",
+        "areas": [
+          "Aviso para as Ã¡reas: Vale do Acre, Sudoeste Amazonense, Sul Amazonense, Vale do JuruÃ¡"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54960"
       },
       "geometry": {
         "type": "Polygon",
@@ -924,510 +916,6 @@
             [
               -68.269043,
               -9.275622
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
-        "tipo": "INMET",
-        "status": "Ativo",
-        "status_tempo": "hoje",
-        "is_active": true,
-        "severidade": "Perigo Potencial",
-        "severity_group": "perigo_potencial",
-        "evento": "Chuvas Intensas",
-        "categoria": "Met",
-        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
-        "descricao": "INMET publica aviso iniciando em: 13/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-        "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Evite usar aparelhos eletrônicos ligados à tomada. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-        "sender": "info.aviso@inmet.gov.br",
-        "sender_name": "Instituto Nacional de Meteorologia",
-        "onset": "2026-07-13T00:00:00-03:00",
-        "expires": "2026-07-13T23:59:00-03:00",
-        "sent": "2026-07-12T00:00:00-03:00",
-        "urgency": "Future",
-        "certainty": "Likely",
-        "response_type": "Prepare",
-        "updated_at": "2026-07-13T21:08:59.234390+00:00",
-        "link": "https://avisos.inmet.gov.br/54957",
-        "source_rss_link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54957",
-        "guid": "https://apiprevmet3.inmet.gov.br/avisos/rss/54957",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27778.2",
-        "color_risk": "#FFFE00",
-        "municipios": "Acrelândia - AC (1200013), Alta Floresta D'Oeste - RO (1100015), Alto Alegre dos Parecis - RO (1100379), Alto Paraíso - RO (1100403), Alvorada D'Oeste - RO (1100346), Apuí - AM (1300144), Aripuanã - MT (5101407), Ariquemes - RO (1100023), Assis Brasil - AC (1200054), Atalaia do Norte - AM (1300201), Benjamin Constant - AM (1300607), Boca do Acre - AM (1300706), Brasiléia - AC (1200104), Bujari - AC (1200138), Buritis - RO (1100452), Cabixi - RO (1100031), Cacaulândia - RO (1100601), Cacoal - RO (1100049), Campo Novo de Rondônia - RO (1100700), Campos de Júlio - MT (5102686), Candeias do Jamari - RO (1100809), Canutama - AM (1300904), Capixaba - AC (1200179), Castanheiras - RO (1100908), Cerejeiras - RO (1100056), Chupinguaia - RO (1100924), Colniza - MT (5103254), Colorado do Oeste - RO (1100064), Comodoro - MT (5103304), Conquista D'Oeste - MT (5103361), Corumbiara - RO (1100072), Costa Marques - RO (1100080), Cruzeiro do Sul - AC (1200203), Cujubim - RO (1100940), Eirunepé - AM (1301407), Envira - AM (1301506), Epitaciolândia - AC (1200252), Espigão D'Oeste - RO (1100098), Feijó - AC (1200302), Governador Jorge Teixeira - RO (1101005), Guajará - AM (1301654), Guajará-Mirim - RO (1100106), Humaitá - AM (1301704), Ipixuna - AM (1301803), Itamarati - AM (1301951), Itapuã do Oeste - RO (1101104), Jaru - RO (1100114), Ji-Paraná - RO (1100122), Jordão - AC (1200328), Juína - MT (5105150), Jutaí - AM (1302306), Lábrea - AM (1302405), Machadinho D'Oeste - RO (1100130), Mâncio Lima - AC (1200336), Manicoré - AM (1302702), Manoel Urbano - AC (1200344), Marechal Thaumaturgo - AC (1200351), Ministro Andreazza - RO (1101203), Mirante da Serra - RO (1101302), Monte Negro - RO (1101401), Nova Brasilândia D'Oeste - RO (1100148), Nova Lacerda - MT (5106182), Nova Mamoré - RO (1100338), Nova União - RO (1101435), Novo Aripuanã - AM (1303304), Novo Horizonte do Oeste - RO (1100502), Ouro Preto do Oeste - RO (1100155), Parecis - RO (1101450), Pauini - AM (1303502), Pimenta Bueno - RO (1100189), Pimenteiras do Oeste - RO (1101468), Plácido de Castro - AC (1200385), Porto Acre - AC (1200807), Porto Velho - RO (1100205), Porto Walter - AC (1200393), Presidente Médici - RO (1100254), Primavera de Rondônia - RO (1101476), Rio Branco - AC (1200401), Rio Crespo - RO (1100262), Rodrigues Alves - AC (1200427), Rolim de Moura - RO (1100288), Rondolândia - MT (5107578), Santa Luzia D'Oeste - RO (1100296), Santa Rosa do Purus - AC (1200435), São Felipe D'Oeste - RO (1101484), São Francisco do Guaporé - RO (1101492), São Miguel do Guaporé - RO (1100320), São Paulo de Olivença - AM (1303908), Senador Guiomard - AC (1200450), Sena Madureira - AC (1200500), Seringueiras - RO (1101500), Tapauá - AM (1304104), Tarauacá - AC (1200609), Teixeirópolis - RO (1101559), Theobroma - RO (1101609), Urupá - RO (1101708), Vale do Anari - RO (1101757), Vale do Paraíso - RO (1101807), Vila Bela da Santíssima Trindade - MT (5105507), Vilhena - RO (1100304), Xapuri - AC (1200708)",
-        "source": "https://apiprevmet3.inmet.gov.br/avisos/rss",
-        "area_desc": "Aviso para as áreas: Vale do Acre, Leste Rondoniense, Sul Amazonense, Norte Mato-grossense, Sudoeste Amazonense, Madeira-Guaporé, Sudoeste Mato-grossense, Vale do Juruá",
-        "area_index": 0,
-        "geocodes": {},
-        "polygon_raw": "-6.555475,-73.157959 -6.697343,-73.487549 -6.806444,-73.619385 -7.100893,-73.773193 -7.2099,-73.696289 -7.329778,-73.674316 -7.373362,-73.751221 -7.384258,-73.861084 -7.504089,-73.916016 -7.634776,-73.773193 -7.808963,-73.641357 -7.934115,-73.685303 -8.021155,-73.602905 -8.140805,-73.564453 -8.24411,-73.515015 -8.352823,-73.465576 -8.537565,-73.267822 -8.776511,-73.00415 -9.015302,-72.938232 -9.18887,-72.938232 -9.351513,-73.103027 -9.373193,-72.685547 -9.449062,-72.443848 -9.481572,-72.322998 -9.568251,-72.25708 -9.730714,-72.147217 -9.95803,-72.092285 -9.947209,-71.334229 -9.784851,-71.136475 -9.687398,-70.938721 -9.535749,-70.718994 -9.416548,-70.565186 -9.40571,-70.499268 -9.557417,-70.455322 -9.676569,-70.510254 -9.903921,-70.543213 -10.260871,-70.543213 -10.60662,-70.565186 -10.887254,-70.565186 -10.962764,-70.411377 -11.005904,-70.257568 -10.90883,-70.092773 -10.898042,-69.752197 -10.876465,-69.554443 -10.887254,-69.180908 -10.90883,-69.005127 -10.941192,-68.741455 -11.049038,-68.69751 -11.081385,-68.598633 -10.984335,-68.389893 -10.790141,-68.192139 -10.660608,-68.104248 -10.628216,-67.906494 -10.628216,-67.741699 -10.466206,-67.576904 -10.347344,-67.357178 -10.260871,-67.214355 -10.131117,-66.950684 -9.968851,-66.763916 -9.860628,-66.621094 -9.75237,-66.192627 -9.698228,-65.841064 -9.741542,-65.599365 -9.633246,-65.379639 -9.795678,-65.269775 -9.979671,-65.203857 -10.217625,-65.22583 -10.466206,-65.335693 -10.628216,-65.335693 -10.833306,-65.236816 -11.092166,-65.203857 -11.350797,-65.291748 -11.501557,-65.22583 -11.684514,-65.050049 -11.867351,-65.006104 -12.136005,-64.500732 -12.340002,-64.412842 -12.404389,-64.226074 -12.425848,-63.929443 -12.415119,-63.643799 -12.54384,-63.28125 -12.715368,-62.940674 -12.951029,-62.698975 -13.004558,-62.523193 -13.068777,-62.347412 -13.132979,-62.050781 -13.314794,-62.028809 -13.464422,-61.721191 -13.475106,-61.512451 -13.453737,-61.21582 -13.453737,-60.853271 -13.613956,-60.699463 -13.710035,-60.501709 -13.880746,-60.402832 -14.008696,-60.358887 -14.179186,-60.413818 -14.349548,-60.402832 -14.498508,-60.281982 -14.764259,-60.183105 -14.997852,-60.216064 -14.976627,-59.754639 -14.711135,-59.47998 -14.221789,-59.326172 -13.272026,-59.128418 -12.415119,-58.952637 -11.296934,-58.963623 -10.412183,-59.403076 -9.18887,-60.106201 -9.18887,-60.161133 -8.29847,-60.688477 -7.710992,-61.962891 -6.773716,-64.204102 -6.293459,-66.708984 -5.922045,-71.147461 -6.555475,-73.157959"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -73.157959,
-              -6.555475
-            ],
-            [
-              -73.487549,
-              -6.697343
-            ],
-            [
-              -73.619385,
-              -6.806444
-            ],
-            [
-              -73.773193,
-              -7.100893
-            ],
-            [
-              -73.696289,
-              -7.2099
-            ],
-            [
-              -73.674316,
-              -7.329778
-            ],
-            [
-              -73.751221,
-              -7.373362
-            ],
-            [
-              -73.861084,
-              -7.384258
-            ],
-            [
-              -73.916016,
-              -7.504089
-            ],
-            [
-              -73.773193,
-              -7.634776
-            ],
-            [
-              -73.641357,
-              -7.808963
-            ],
-            [
-              -73.685303,
-              -7.934115
-            ],
-            [
-              -73.602905,
-              -8.021155
-            ],
-            [
-              -73.564453,
-              -8.140805
-            ],
-            [
-              -73.515015,
-              -8.24411
-            ],
-            [
-              -73.465576,
-              -8.352823
-            ],
-            [
-              -73.267822,
-              -8.537565
-            ],
-            [
-              -73.00415,
-              -8.776511
-            ],
-            [
-              -72.938232,
-              -9.015302
-            ],
-            [
-              -72.938232,
-              -9.18887
-            ],
-            [
-              -73.103027,
-              -9.351513
-            ],
-            [
-              -72.685547,
-              -9.373193
-            ],
-            [
-              -72.443848,
-              -9.449062
-            ],
-            [
-              -72.322998,
-              -9.481572
-            ],
-            [
-              -72.25708,
-              -9.568251
-            ],
-            [
-              -72.147217,
-              -9.730714
-            ],
-            [
-              -72.092285,
-              -9.95803
-            ],
-            [
-              -71.334229,
-              -9.947209
-            ],
-            [
-              -71.136475,
-              -9.784851
-            ],
-            [
-              -70.938721,
-              -9.687398
-            ],
-            [
-              -70.718994,
-              -9.535749
-            ],
-            [
-              -70.565186,
-              -9.416548
-            ],
-            [
-              -70.499268,
-              -9.40571
-            ],
-            [
-              -70.455322,
-              -9.557417
-            ],
-            [
-              -70.510254,
-              -9.676569
-            ],
-            [
-              -70.543213,
-              -9.903921
-            ],
-            [
-              -70.543213,
-              -10.260871
-            ],
-            [
-              -70.565186,
-              -10.60662
-            ],
-            [
-              -70.565186,
-              -10.887254
-            ],
-            [
-              -70.411377,
-              -10.962764
-            ],
-            [
-              -70.257568,
-              -11.005904
-            ],
-            [
-              -70.092773,
-              -10.90883
-            ],
-            [
-              -69.752197,
-              -10.898042
-            ],
-            [
-              -69.554443,
-              -10.876465
-            ],
-            [
-              -69.180908,
-              -10.887254
-            ],
-            [
-              -69.005127,
-              -10.90883
-            ],
-            [
-              -68.741455,
-              -10.941192
-            ],
-            [
-              -68.69751,
-              -11.049038
-            ],
-            [
-              -68.598633,
-              -11.081385
-            ],
-            [
-              -68.389893,
-              -10.984335
-            ],
-            [
-              -68.192139,
-              -10.790141
-            ],
-            [
-              -68.104248,
-              -10.660608
-            ],
-            [
-              -67.906494,
-              -10.628216
-            ],
-            [
-              -67.741699,
-              -10.628216
-            ],
-            [
-              -67.576904,
-              -10.466206
-            ],
-            [
-              -67.357178,
-              -10.347344
-            ],
-            [
-              -67.214355,
-              -10.260871
-            ],
-            [
-              -66.950684,
-              -10.131117
-            ],
-            [
-              -66.763916,
-              -9.968851
-            ],
-            [
-              -66.621094,
-              -9.860628
-            ],
-            [
-              -66.192627,
-              -9.75237
-            ],
-            [
-              -65.841064,
-              -9.698228
-            ],
-            [
-              -65.599365,
-              -9.741542
-            ],
-            [
-              -65.379639,
-              -9.633246
-            ],
-            [
-              -65.269775,
-              -9.795678
-            ],
-            [
-              -65.203857,
-              -9.979671
-            ],
-            [
-              -65.22583,
-              -10.217625
-            ],
-            [
-              -65.335693,
-              -10.466206
-            ],
-            [
-              -65.335693,
-              -10.628216
-            ],
-            [
-              -65.236816,
-              -10.833306
-            ],
-            [
-              -65.203857,
-              -11.092166
-            ],
-            [
-              -65.291748,
-              -11.350797
-            ],
-            [
-              -65.22583,
-              -11.501557
-            ],
-            [
-              -65.050049,
-              -11.684514
-            ],
-            [
-              -65.006104,
-              -11.867351
-            ],
-            [
-              -64.500732,
-              -12.136005
-            ],
-            [
-              -64.412842,
-              -12.340002
-            ],
-            [
-              -64.226074,
-              -12.404389
-            ],
-            [
-              -63.929443,
-              -12.425848
-            ],
-            [
-              -63.643799,
-              -12.415119
-            ],
-            [
-              -63.28125,
-              -12.54384
-            ],
-            [
-              -62.940674,
-              -12.715368
-            ],
-            [
-              -62.698975,
-              -12.951029
-            ],
-            [
-              -62.523193,
-              -13.004558
-            ],
-            [
-              -62.347412,
-              -13.068777
-            ],
-            [
-              -62.050781,
-              -13.132979
-            ],
-            [
-              -62.028809,
-              -13.314794
-            ],
-            [
-              -61.721191,
-              -13.464422
-            ],
-            [
-              -61.512451,
-              -13.475106
-            ],
-            [
-              -61.21582,
-              -13.453737
-            ],
-            [
-              -60.853271,
-              -13.453737
-            ],
-            [
-              -60.699463,
-              -13.613956
-            ],
-            [
-              -60.501709,
-              -13.710035
-            ],
-            [
-              -60.402832,
-              -13.880746
-            ],
-            [
-              -60.358887,
-              -14.008696
-            ],
-            [
-              -60.413818,
-              -14.179186
-            ],
-            [
-              -60.402832,
-              -14.349548
-            ],
-            [
-              -60.281982,
-              -14.498508
-            ],
-            [
-              -60.183105,
-              -14.764259
-            ],
-            [
-              -60.216064,
-              -14.997852
-            ],
-            [
-              -59.754639,
-              -14.976627
-            ],
-            [
-              -59.47998,
-              -14.711135
-            ],
-            [
-              -59.326172,
-              -14.221789
-            ],
-            [
-              -59.128418,
-              -13.272026
-            ],
-            [
-              -58.952637,
-              -12.415119
-            ],
-            [
-              -58.963623,
-              -11.296934
-            ],
-            [
-              -59.403076,
-              -10.412183
-            ],
-            [
-              -60.106201,
-              -9.18887
-            ],
-            [
-              -60.161133,
-              -9.18887
-            ],
-            [
-              -60.688477,
-              -8.29847
-            ],
-            [
-              -61.962891,
-              -7.710992
-            ],
-            [
-              -64.204102,
-              -6.773716
-            ],
-            [
-              -66.708984,
-              -6.293459
-            ],
-            [
-              -71.147461,
-              -5.922045
-            ],
-            [
-              -73.157959,
-              -6.555475
             ]
           ]
         ]
