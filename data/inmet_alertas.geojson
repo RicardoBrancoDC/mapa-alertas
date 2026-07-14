@@ -5,6 +5,406 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27789.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27789.2",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-14T12:00:00-03:00",
+        "expires": "2026-07-14T18:00:00-03:00",
+        "sent": "2026-07-13T00:00:00-03:00",
+        "pubDate": "Tue, 14 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 14/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54973",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Sul Goiano, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Oeste de Minas, Sul/Sudoeste de Minas, RibeirÃ£o Preto, AraÃ§atuba, Noroeste Paranaense, Norte Central Paranaense, Araraquara, Leste de Mato Grosso do Sul, MarÃ­lia, Bauru, Assis, Campinas, Campo das Vertentes, Centro Goiano",
+        "areas": [
+          "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Sul Goiano, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Oeste de Minas, Sul/Sudoeste de Minas, RibeirÃ£o Preto, AraÃ§atuba, Noroeste Paranaense, Norte Central Paranaense, Araraquara, Leste de Mato Grosso do Sul, MarÃ­lia, Bauru, Assis, Campinas, Campo das Vertentes, Centro Goiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54973"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.339355,
+              -17.004262
+            ],
+            [
+              -49.669189,
+              -17.025273
+            ],
+            [
+              -48.834229,
+              -17.193275
+            ],
+            [
+              -47.999268,
+              -17.549772
+            ],
+            [
+              -47.598267,
+              -18.064924
+            ],
+            [
+              -47.477417,
+              -18.229351
+            ],
+            [
+              -47.477417,
+              -18.654052
+            ],
+            [
+              -47.15332,
+              -19.47695
+            ],
+            [
+              -46.636963,
+              -20.07657
+            ],
+            [
+              -45.615234,
+              -20.447602
+            ],
+            [
+              -44.846191,
+              -20.571082
+            ],
+            [
+              -44.274902,
+              -20.817741
+            ],
+            [
+              -44.187012,
+              -21.125498
+            ],
+            [
+              -44.956055,
+              -21.493964
+            ],
+            [
+              -46.230469,
+              -21.453069
+            ],
+            [
+              -46.834717,
+              -21.647217
+            ],
+            [
+              -48.164063,
+              -21.820708
+            ],
+            [
+              -49.141846,
+              -21.892084
+            ],
+            [
+              -50.097656,
+              -22.105999
+            ],
+            [
+              -51.328125,
+              -22.69512
+            ],
+            [
+              -51.740112,
+              -22.907803
+            ],
+            [
+              -52.311401,
+              -23.008964
+            ],
+            [
+              -53.129883,
+              -22.87744
+            ],
+            [
+              -53.283691,
+              -22.69512
+            ],
+            [
+              -53.305664,
+              -22.268764
+            ],
+            [
+              -52.932129,
+              -21.71868
+            ],
+            [
+              -52.316895,
+              -21.309846
+            ],
+            [
+              -51.558838,
+              -20.447602
+            ],
+            [
+              -51.130371,
+              -20.11784
+            ],
+            [
+              -50.932617,
+              -19.849394
+            ],
+            [
+              -50.822754,
+              -19.47695
+            ],
+            [
+              -51.141357,
+              -19.197053
+            ],
+            [
+              -52.349854,
+              -18.677471
+            ],
+            [
+              -52.89917,
+              -18.093644
+            ],
+            [
+              -52.811279,
+              -17.602139
+            ],
+            [
+              -51.481934,
+              -17.193275
+            ],
+            [
+              -50.339355,
+              -17.004262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27791.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27791.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-14T12:00:00-03:00",
+        "expires": "2026-07-14T18:00:00-03:00",
+        "sent": "2026-07-14T11:02:57-03:00",
+        "pubDate": "Tue, 14 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 14/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/54970",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Sul Goiano, Presidente Prudente, Leste de Mato Grosso do Sul, Oeste de Minas, Centro Norte de Mato Grosso do Sul, Sul/Sudoeste de Minas, SÃ£o JosÃ© do Rio Preto, RibeirÃ£o Preto, Sudeste Mato-grossense, Noroeste Paranaense, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Pantanais Sul Mato-grossense, AraÃ§atuba, Centro Ocidental Paranaense, Oeste Paranaense, MarÃ­lia, Campinas, Central Mineira, Noroeste de Minas, Assis",
+        "areas": [
+          "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Sul Goiano, Presidente Prudente, Leste de Mato Grosso do Sul, Oeste de Minas, Centro Norte de Mato Grosso do Sul, Sul/Sudoeste de Minas, SÃ£o JosÃ© do Rio Preto, RibeirÃ£o Preto, Sudeste Mato-grossense, Noroeste Paranaense, Norte Central Paranaense, Sudoeste de Mato Grosso do Sul, Pantanais Sul Mato-grossense, AraÃ§atuba, Centro Ocidental Paranaense, Oeste Paranaense, MarÃ­lia, Campinas, Central Mineira, Noroeste de Minas, Assis"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/54970"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.321655,
+              -24.026397
+            ],
+            [
+              -55.025024,
+              -24.026397
+            ],
+            [
+              -54.53064,
+              -23.941076
+            ],
+            [
+              -54.459229,
+              -25.185059
+            ],
+            [
+              -53.953857,
+              -25.185059
+            ],
+            [
+              -52.294922,
+              -23.926013
+            ],
+            [
+              -51.394043,
+              -23.241346
+            ],
+            [
+              -51.262207,
+              -22.654572
+            ],
+            [
+              -51.020508,
+              -22.136532
+            ],
+            [
+              -50.097656,
+              -21.186973
+            ],
+            [
+              -48.339844,
+              -21.043491
+            ],
+            [
+              -46.73584,
+              -21.698265
+            ],
+            [
+              -45.98877,
+              -21.371244
+            ],
+            [
+              -45.53833,
+              -21.176729
+            ],
+            [
+              -45.285645,
+              -20.715015
+            ],
+            [
+              -45.791016,
+              -19.725342
+            ],
+            [
+              -46.494141,
+              -18.39623
+            ],
+            [
+              -47.768555,
+              -17.748687
+            ],
+            [
+              -50.053711,
+              -17.413546
+            ],
+            [
+              -52.119141,
+              -17.392579
+            ],
+            [
+              -53.876953,
+              -17.518344
+            ],
+            [
+              -56.887207,
+              -17.936929
+            ],
+            [
+              -57.590332,
+              -18.192825
+            ],
+            [
+              -57.7771,
+              -18.698285
+            ],
+            [
+              -58.117676,
+              -19.440694
+            ],
+            [
+              -58.227539,
+              -20.308569
+            ],
+            [
+              -57.980347,
+              -20.925528
+            ],
+            [
+              -58.016052,
+              -21.522072
+            ],
+            [
+              -58.018799,
+              -22.20012
+            ],
+            [
+              -57.678223,
+              -22.174688
+            ],
+            [
+              -57.367859,
+              -22.281472
+            ],
+            [
+              -56.672974,
+              -22.317049
+            ],
+            [
+              -56.428528,
+              -22.136532
+            ],
+            [
+              -56.219788,
+              -22.306885
+            ],
+            [
+              -55.881958,
+              -22.309426
+            ],
+            [
+              -55.82428,
+              -22.446572
+            ],
+            [
+              -55.659485,
+              -22.636828
+            ],
+            [
+              -55.686951,
+              -22.879971
+            ],
+            [
+              -55.618286,
+              -23.099944
+            ],
+            [
+              -55.582581,
+              -23.299379
+            ],
+            [
+              -55.579834,
+              -23.498514
+            ],
+            [
+              -55.442505,
+              -23.850674
+            ],
+            [
+              -55.321655,
+              -24.026397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27790.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27790.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
