@@ -3,6 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Quaraí", "uf": "RS", "codibge": "4315305", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.128503084911486, -30.2908419575 ] } }
 ]
 }
