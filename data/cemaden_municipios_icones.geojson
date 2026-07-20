@@ -6,6 +6,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Quaraí", "uf": "RS", "codibge": "4315305", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.128503084911486, -30.2908419575 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Macapá", "uf": "AP", "codibge": "1600303", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.952855419007449, 0.571600245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santa Maria", "uf": "RS", "codibge": "4316907", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.770305857570406, -29.777569374500001 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cachoeira do Sul", "uf": "RS", "codibge": "4303004", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.007862971678129, -30.235685828500003 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cachoeira do Sul", "uf": "RS", "codibge": "4303004", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.007862971678129, -30.235685828500003 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Lourenço do Sul", "uf": "RS", "codibge": "4318804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.128433460700833, -31.252891709499998 ] } }
 ]
 }
