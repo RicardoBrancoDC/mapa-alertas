@@ -5,6 +5,534 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27870.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27870.1",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Grande Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Extreme",
+        "nivel": "Extreme",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-21T17:00:00-03:00",
+        "expires": "2026-07-21T23:59:00-03:00",
+        "sent": "2026-07-21T19:57:58-03:00",
+        "pubDate": "Tue, 21 Jul 2026 17:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Extreme",
+        "description": "INMET publica aviso iniciando em: 21/07/2026 17:00. Chuva superior a 60 mm/h ou acima de 100 mm/dia. Grande risco de grandes alagamentos e transbordamentos de rios, grandes deslizamentos de encostas,   em cidades com tais Ã¡reas de risco.",
+        "instruction": "Desligue aparelhos elÃ©tricos, quadro geral de energia. Observe alteraÃ§Ã£o nas encostas. PermaneÃ§a em local abrigado. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55098",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Noroeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Centro Oriental Rio-grandense, Sudoeste Rio-grandense, Sul Catarinense",
+        "areas": [
+          "Aviso para as Ã¡reas: Noroeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Centro Oriental Rio-grandense, Sudoeste Rio-grandense, Sul Catarinense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55098"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.179962,
+              -28.705043
+            ],
+            [
+              -51.987305,
+              -32.25462
+            ],
+            [
+              -51.459961,
+              -31.863563
+            ],
+            [
+              -50.773315,
+              -31.264466
+            ],
+            [
+              -50.202026,
+              -30.538608
+            ],
+            [
+              -49.932861,
+              -30.012031
+            ],
+            [
+              -49.971313,
+              -29.792984
+            ],
+            [
+              -49.685669,
+              -29.353452
+            ],
+            [
+              -49.921875,
+              -29.161756
+            ],
+            [
+              -49.954834,
+              -28.960089
+            ],
+            [
+              -49.801025,
+              -28.767659
+            ],
+            [
+              -49.669189,
+              -28.613459
+            ],
+            [
+              -49.669189,
+              -28.478349
+            ],
+            [
+              -50.163574,
+              -28.449374
+            ],
+            [
+              -50.537109,
+              -28.362402
+            ],
+            [
+              -50.998535,
+              -27.877928
+            ],
+            [
+              -51.394043,
+              -27.605671
+            ],
+            [
+              -51.756592,
+              -27.43029
+            ],
+            [
+              -52.250977,
+              -27.25463
+            ],
+            [
+              -52.701416,
+              -27.117813
+            ],
+            [
+              -53.195801,
+              -26.971038
+            ],
+            [
+              -53.701172,
+              -26.951453
+            ],
+            [
+              -53.75061,
+              -26.931865
+            ],
+            [
+              -53.86322,
+              -27.083582
+            ],
+            [
+              -54.18457,
+              -27.249746
+            ],
+            [
+              -54.591064,
+              -27.435165
+            ],
+            [
+              -54.893188,
+              -27.525323
+            ],
+            [
+              -54.917908,
+              -27.634874
+            ],
+            [
+              -55.258484,
+              -27.868217
+            ],
+            [
+              -55.511169,
+              -28.06471
+            ],
+            [
+              -55.802307,
+              -28.243908
+            ],
+            [
+              -55.802307,
+              -28.265682
+            ],
+            [
+              -55.765915,
+              -28.296521
+            ],
+            [
+              -55.72403,
+              -28.32312
+            ],
+            [
+              -55.713043,
+              -28.351525
+            ],
+            [
+              -55.70549,
+              -28.377506
+            ],
+            [
+              -55.71991,
+              -28.365423
+            ],
+            [
+              -55.739822,
+              -28.355151
+            ],
+            [
+              -55.869598,
+              -28.349108
+            ],
+            [
+              -55.892258,
+              -28.36784
+            ],
+            [
+              -55.915604,
+              -28.405293
+            ],
+            [
+              -55.955429,
+              -28.457826
+            ],
+            [
+              -56.037827,
+              -28.510936
+            ],
+            [
+              -56.04126,
+              -28.530845
+            ],
+            [
+              -56.029587,
+              -28.594169
+            ],
+            [
+              -56.179962,
+              -28.705043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27869.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27869.2",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Grande Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Extreme",
+        "nivel": "Extreme",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-21T16:40:00-03:00",
+        "expires": "2026-07-22T09:00:00-03:00",
+        "sent": "2026-07-21T00:00:00-03:00",
+        "pubDate": "Tue, 21 Jul 2026 16:40:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Extreme",
+        "description": "INMET publica aviso iniciando em: 21/07/2026 16:40. Chuva superior a 60 mm/h ou acima de 100 mm/dia. Grande risco de grandes alagamentos e transbordamentos de rios, grandes deslizamentos de encostas,   em cidades com tais Ã¡reas de risco.",
+        "instruction": "Desligue aparelhos elÃ©tricos, quadro geral de energia. Observe alteraÃ§Ã£o nas encostas. PermaneÃ§a em local abrigado. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55097",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Noroeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Sudoeste Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Sul Catarinense, Centro Oriental Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Noroeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Sudoeste Rio-grandense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Nordeste Rio-grandense, Serrana, Sul Catarinense, Centro Oriental Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55097"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.464233,
+              -29.094577
+            ],
+            [
+              -52.03125,
+              -32.222096
+            ],
+            [
+              -52.025757,
+              -32.223839
+            ],
+            [
+              -51.917953,
+              -32.136083
+            ],
+            [
+              -51.893234,
+              -32.11573
+            ],
+            [
+              -51.746979,
+              -32.010405
+            ],
+            [
+              -51.58287,
+              -31.900295
+            ],
+            [
+              -51.15921,
+              -31.607779
+            ],
+            [
+              -51.112518,
+              -31.578535
+            ],
+            [
+              -50.953903,
+              -31.401707
+            ],
+            [
+              -50.811768,
+              -31.244508
+            ],
+            [
+              -50.495911,
+              -30.89103
+            ],
+            [
+              -50.44939,
+              -30.837099
+            ],
+            [
+              -50.41317,
+              -30.782253
+            ],
+            [
+              -49.954834,
+              -29.990623
+            ],
+            [
+              -50.009766,
+              -29.804901
+            ],
+            [
+              -49.54834,
+              -29.238477
+            ],
+            [
+              -49.0979,
+              -28.8158
+            ],
+            [
+              -49.416504,
+              -28.3914
+            ],
+            [
+              -49.735107,
+              -28.410728
+            ],
+            [
+              -50.020752,
+              -28.420391
+            ],
+            [
+              -50.339355,
+              -28.381735
+            ],
+            [
+              -50.614014,
+              -28.285033
+            ],
+            [
+              -51.207275,
+              -27.693256
+            ],
+            [
+              -51.756592,
+              -27.410786
+            ],
+            [
+              -52.371826,
+              -27.176469
+            ],
+            [
+              -53.261719,
+              -26.775039
+            ],
+            [
+              -53.709412,
+              -26.615541
+            ],
+            [
+              -53.778076,
+              -26.657278
+            ],
+            [
+              -53.728638,
+              -26.931865
+            ],
+            [
+              -53.804855,
+              -27.062795
+            ],
+            [
+              -54.08226,
+              -27.221662
+            ],
+            [
+              -54.566345,
+              -27.451009
+            ],
+            [
+              -54.871216,
+              -27.541153
+            ],
+            [
+              -54.878769,
+              -27.620273
+            ],
+            [
+              -54.892502,
+              -27.624532
+            ],
+            [
+              -54.915848,
+              -27.650081
+            ],
+            [
+              -54.924088,
+              -27.66711
+            ],
+            [
+              -54.935074,
+              -27.67988
+            ],
+            [
+              -55.049744,
+              -27.769229
+            ],
+            [
+              -55.063477,
+              -27.76376
+            ],
+            [
+              -55.084763,
+              -27.772874
+            ],
+            [
+              -55.093002,
+              -27.788669
+            ],
+            [
+              -55.090256,
+              -27.800817
+            ],
+            [
+              -55.129395,
+              -27.805069
+            ],
+            [
+              -55.340195,
+              -27.925867
+            ],
+            [
+              -55.369034,
+              -27.956804
+            ],
+            [
+              -55.474777,
+              -28.060468
+            ],
+            [
+              -55.799561,
+              -28.257215
+            ],
+            [
+              -55.790634,
+              -28.266287
+            ],
+            [
+              -55.718536,
+              -28.323725
+            ],
+            [
+              -55.700684,
+              -28.384756
+            ],
+            [
+              -55.739136,
+              -28.357568
+            ],
+            [
+              -55.872345,
+              -28.350921
+            ],
+            [
+              -55.912857,
+              -28.408011
+            ],
+            [
+              -55.955772,
+              -28.46507
+            ],
+            [
+              -56.035767,
+              -28.516064
+            ],
+            [
+              -56.025124,
+              -28.593264
+            ],
+            [
+              -56.206741,
+              -28.736958
+            ],
+            [
+              -56.302185,
+              -28.780298
+            ],
+            [
+              -56.355743,
+              -28.941162
+            ],
+            [
+              -56.384239,
+              -28.951077
+            ],
+            [
+              -56.407585,
+              -28.973605
+            ],
+            [
+              -56.414452,
+              -28.99613
+            ],
+            [
+              -56.492729,
+              -29.066673
+            ],
+            [
+              -56.464233,
+              -29.094577
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27861.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27861.1",
         "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
