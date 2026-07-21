@@ -12,6 +12,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rolante", "uf": "RS", "codibge": "4316006", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.569844709302188, -29.636219240499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Lajeado", "uf": "RS", "codibge": "4311403", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.988717988924918, -29.449293144 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Sebastião do Caí", "uf": "RS", "codibge": "4319505", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.332523515748576, -29.585937651 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Novo Hamburgo", "uf": "RS", "codibge": "4313409", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.022936319573404, -29.73366174 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Novo Hamburgo", "uf": "RS", "codibge": "4313409", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.022936319573404, -29.73366174 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Três Coroas", "uf": "RS", "codibge": "4321709", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.760501940135583, -29.470978224 ] } }
 ]
 }
