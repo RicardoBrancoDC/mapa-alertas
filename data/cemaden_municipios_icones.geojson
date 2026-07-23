@@ -55,6 +55,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio Formoso", "uf": "PE", "codibge": "2611903", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.23313661505199, -8.665749080499999 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Água Preta", "uf": "PE", "codibge": "2600401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.4836214474524, -8.659175402 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Palmares", "uf": "PE", "codibge": "2610004", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.607865415881989, -8.6639200765 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Xexéu", "uf": "PE", "codibge": "2616506", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.638586820785747, -8.841293352499999 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Xexéu", "uf": "PE", "codibge": "2616506", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.638586820785747, -8.841293352499999 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Xavier", "uf": "RS", "codibge": "4315107", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.163222859123977, -27.937537626 ] } }
 ]
 }
