@@ -14,6 +14,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Sapucaia do Sul", "uf": "RS", "codibge": "4320008", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.128179566416925, -29.822477036 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Alegre", "uf": "RS", "codibge": "4314902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.189173608756114, -30.101758856499998 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eldorado do Sul", "uf": "RS", "codibge": "4306767", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.500470791968645, -30.081326021 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cachoeira do Sul", "uf": "RS", "codibge": "4303004", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.007862971678129, -30.235685828500003 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cachoeira do Sul", "uf": "RS", "codibge": "4303004", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.007862971678129, -30.235685828500003 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Bauru", "uf": "SP", "codibge": "3506003", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.155245294771305, -22.240308447 ] } }
 ]
 }
