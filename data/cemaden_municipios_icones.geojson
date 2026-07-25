@@ -3,8 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Novo Hamburgo", "uf": "RS", "codibge": "4313409", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.022936319573404, -29.73366174 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Xavier", "uf": "RS", "codibge": "4315107", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.163222859123977, -27.937537626 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Borja", "uf": "RS", "codibge": "4318002", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.840834281971027, -28.714265923 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Leopoldo", "uf": "RS", "codibge": "4318705", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.168688475088196, -29.742739144 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Sapucaia do Sul", "uf": "RS", "codibge": "4320008", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.128179566416925, -29.822477036 ] } },
