@@ -548,6 +548,250 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27887.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27887.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-25T12:00:00-03:00",
+        "expires": "2026-07-25T18:00:00-03:00",
+        "sent": "2026-07-24T11:56:44-03:00",
+        "pubDate": "Sat, 25 Jul 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 25/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55125",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Goiano, Leste Goiano, Sul Cearense, Ocidental do Tocantins, Sudeste Piauiense, Centro-Sul Mato-grossense, Sul Goiano, SÃ£o Francisco Pernambucano, Nordeste Mato-grossense, SertÃµes Cearenses, Centro Norte de Mato Grosso do Sul, Oriental do Tocantins, Norte Mato-grossense, Leste Rondoniense, Sudoeste Paraense, Sudeste Mato-grossense, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Centro-Norte Piauiense, Extremo Oeste Baiano, Centro-Sul Cearense, Sul Amazonense, Noroeste Goiano, Sudoeste Mato-grossense, SertÃ£o Pernambucano, Noroeste de Minas, Leste Maranhense, Vale SÃ£o-Franciscano da Bahia, Norte de Minas, Centro Sul Baiano, Distrito Federal, Sudeste Paraense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Madeira-GuaporÃ©, Centro Norte Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Goiano, Leste Goiano, Sul Cearense, Ocidental do Tocantins, Sudeste Piauiense, Centro-Sul Mato-grossense, Sul Goiano, SÃ£o Francisco Pernambucano, Nordeste Mato-grossense, SertÃµes Cearenses, Centro Norte de Mato Grosso do Sul, Oriental do Tocantins, Norte Mato-grossense, Leste Rondoniense, Sudoeste Paraense, Sudeste Mato-grossense, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Centro-Norte Piauiense, Extremo Oeste Baiano, Centro-Sul Cearense, Sul Amazonense, Noroeste Goiano, Sudoeste Mato-grossense, SertÃ£o Pernambucano, Noroeste de Minas, Leste Maranhense, Vale SÃ£o-Franciscano da Bahia, Norte de Minas, Centro Sul Baiano, Distrito Federal, Sudeste Paraense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Madeira-GuaporÃ©, Centro Norte Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55125"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.709961,
+              -9.255489
+            ],
+            [
+              -61.684569,
+              -7.981334
+            ],
+            [
+              -60.278319,
+              -8.155079
+            ],
+            [
+              -59.04785,
+              -8.35823
+            ],
+            [
+              -57.583004,
+              -8.387208
+            ],
+            [
+              -55.825192,
+              -8.474127
+            ],
+            [
+              -54.682614,
+              -8.416184
+            ],
+            [
+              -53.627926,
+              -8.445155
+            ],
+            [
+              -51.987305,
+              -8.35823
+            ],
+            [
+              -50.551754,
+              -8.097338
+            ],
+            [
+              -49.526367,
+              -7.662146
+            ],
+            [
+              -48.120117,
+              -7.28462
+            ],
+            [
+              -45.893551,
+              -7.110268
+            ],
+            [
+              -44.633787,
+              -6.93585
+            ],
+            [
+              -43.813477,
+              -6.499526
+            ],
+            [
+              -42.93457,
+              -6.12107
+            ],
+            [
+              -40.737305,
+              -6.557724
+            ],
+            [
+              -39.067383,
+              -6.761368
+            ],
+            [
+              -38.833006,
+              -7.516983
+            ],
+            [
+              -39.125973,
+              -8.126335
+            ],
+            [
+              -40.209961,
+              -8.792658
+            ],
+            [
+              -40.85449,
+              -9.284396
+            ],
+            [
+              -41.58691,
+              -9.89088
+            ],
+            [
+              -42.465817,
+              -10.812875
+            ],
+            [
+              -42.641598,
+              -11.990021
+            ],
+            [
+              -42.93457,
+              -13.133533
+            ],
+            [
+              -43.051756,
+              -14.498713
+            ],
+            [
+              -43.139647,
+              -15.432469
+            ],
+            [
+              -44.428711,
+              -15.573587
+            ],
+            [
+              -45.512694,
+              -15.6018
+            ],
+            [
+              -46.538086,
+              -15.855534
+            ],
+            [
+              -47.358397,
+              -16.474423
+            ],
+            [
+              -47.739254,
+              -16.698988
+            ],
+            [
+              -48.208008,
+              -17.20329
+            ],
+            [
+              -49.116209,
+              -17.45493
+            ],
+            [
+              -50.522459,
+              -17.594579
+            ],
+            [
+              -51.079098,
+              -17.594579
+            ],
+            [
+              -52.045895,
+              -17.90143
+            ],
+            [
+              -53.276364,
+              -18.152095
+            ],
+            [
+              -54.506832,
+              -18.179923
+            ],
+            [
+              -55.971678,
+              -17.985025
+            ],
+            [
+              -56.879879,
+              -17.789909
+            ],
+            [
+              -57.260742,
+              -17.510802
+            ],
+            [
+              -57.758785,
+              -16.67093
+            ],
+            [
+              -58.930664,
+              -15.20648
+            ],
+            [
+              -59.692379,
+              -14.64045
+            ],
+            [
+              -60.747067,
+              -13.959288
+            ],
+            [
+              -62.124022,
+              -12.990876
+            ],
+            [
+              -62.475584,
+              -11.846731
+            ],
+            [
+              -63.002928,
+              -10.323403
+            ],
+            [
+              -62.709961,
+              -9.255489
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
