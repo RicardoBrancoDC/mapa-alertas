@@ -13,6 +13,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pelotas", "uf": "RS", "codibge": "4314407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.341898247608285, -31.561206036 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Três Coroas", "uf": "RS", "codibge": "4321709", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.760501940135583, -29.470978224 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Santa Cruz do Sul", "uf": "RS", "codibge": "4316808", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.402170432406422, -29.646958647 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Sebastião do Caí", "uf": "RS", "codibge": "4319505", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.332523515748576, -29.585937651 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Sebastião do Caí", "uf": "RS", "codibge": "4319505", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.332523515748576, -29.585937651 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Novo Hamburgo", "uf": "RS", "codibge": "4313409", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.022936319573404, -29.73366174 ] } }
 ]
 }
