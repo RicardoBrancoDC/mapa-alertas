@@ -5,33 +5,33 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
-        "id": "urn:oid:2.49.0.0.76.0.2026.27923.1::1",
-        "identifier": "urn:oid:2.49.0.0.76.0.2026.27923.1",
-        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27923.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27923.2",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo",
         "event": "Ventos Costeiros",
-        "severity": "Moderate",
-        "nivel": "Perigo Potencial",
+        "severity": "Severe",
+        "nivel": "Severe",
         "nivel_grupo": "perigo_potencial",
         "status_tempo": "hoje",
         "onset": "2026-07-29T10:00:00-03:00",
         "expires": "2026-07-29T23:59:00-03:00",
-        "sent": "2026-07-29T12:55:46-03:00",
+        "sent": "2026-07-29T00:00:00-03:00",
         "pubDate": "Wed, 29 Jul 2026 10:00:00 +0000",
         "sender": "info.aviso@inmet.gov.br",
         "senderName": "Instituto Nacional de Meteorologia",
         "responseType": "Prepare",
         "urgency": "Future",
         "certainty": "Likely",
-        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Severe",
         "description": "INMET publica aviso iniciando em: 29/07/2026 10:00. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
         "instruction": "Contate a Defesa Civil (telefone: 199).",
-        "web": "https://avisos.inmet.gov.br/55187",
+        "web": "https://avisos.inmet.gov.br/55188",
         "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
         "areaDesc": "Aviso para as Ã¡reas: Sul Fluminense, Baixadas, Metropolitana de SÃ£o Paulo, Litoral Sul Paulista, Vale do ParaÃ­ba Paulista, Metropolitana de Curitiba, Metropolitana do Rio de Janeiro",
         "areas": [
           "Aviso para as Ã¡reas: Sul Fluminense, Baixadas, Metropolitana de SÃ£o Paulo, Litoral Sul Paulista, Vale do ParaÃ­ba Paulista, Metropolitana de Curitiba, Metropolitana do Rio de Janeiro"
         ],
-        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55187"
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55188"
       },
       "geometry": {
         "type": "Polygon",
@@ -656,6 +656,150 @@
             [
               -59.941406,
               -16.762468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27911.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27911.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-07-29T11:00:00-03:00",
+        "expires": "2026-07-29T19:00:00-03:00",
+        "sent": "2026-07-28T12:44:41-03:00",
+        "pubDate": "Wed, 29 Jul 2026 11:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 29/07/2026 11:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55169",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Goiano, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Leste Goiano, Central Mineira, Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Zona da Mata, Ocidental do Tocantins, Sudeste Piauiense, SertÃµes Cearenses, Sul Goiano, Vale do Rio Doce, SÃ£o JosÃ© do Rio Preto, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, Nordeste Mato-grossense, SertÃ£o Paraibano, Campinas, Oeste de Minas, Oeste Potiguar, Norte de Minas, Sul/Sudoeste de Minas, Campo das Vertentes, Oriental do Tocantins, RibeirÃ£o Preto, Norte Goiano, Sul Maranhense, Metropolitana de Belo Horizonte, Sudoeste Piauiense, Centro Norte Baiano, Araraquara, Jequitinhonha, Extremo Oeste Baiano, Centro-Sul Cearense, Leste de Mato Grosso do Sul, Noroeste Goiano, Piracicaba, Noroeste de Minas, Centro-Norte Piauiense, Sul Fluminense, Bauru, Distrito Federal, AraÃ§atuba, Vale do ParaÃ­ba Paulista, Central Potiguar, Nordeste Baiano, Vale do Mucuri, Centro Fluminense, Jaguaribe, Norte Mato-grossense, Sudeste Mato-grossense, Sudeste Paraense, Metropolitana do Rio de Janeiro, Borborema",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Goiano, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Leste Goiano, Central Mineira, Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Zona da Mata, Ocidental do Tocantins, Sudeste Piauiense, SertÃµes Cearenses, Sul Goiano, Vale do Rio Doce, SÃ£o JosÃ© do Rio Preto, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, Nordeste Mato-grossense, SertÃ£o Paraibano, Campinas, Oeste de Minas, Oeste Potiguar, Norte de Minas, Sul/Sudoeste de Minas, Campo das Vertentes, Oriental do Tocantins, RibeirÃ£o Preto, Norte Goiano, Sul Maranhense, Metropolitana de Belo Horizonte, Sudoeste Piauiense, Centro Norte Baiano, Araraquara, Jequitinhonha, Extremo Oeste Baiano, Centro-Sul Cearense, Leste de Mato Grosso do Sul, Noroeste Goiano, Piracicaba, Noroeste de Minas, Centro-Norte Piauiense, Sul Fluminense, Bauru, Distrito Federal, AraÃ§atuba, Vale do ParaÃ­ba Paulista, Central Potiguar, Nordeste Baiano, Vale do Mucuri, Centro Fluminense, Jaguaribe, Norte Mato-grossense, Sudeste Mato-grossense, Sudeste Paraense, Metropolitana do Rio de Janeiro, Borborema"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55169"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -47.416992,
+              -22.755921
+            ],
+            [
+              -50.625,
+              -20.632784
+            ],
+            [
+              -52.250977,
+              -18.354526
+            ],
+            [
+              -53.4375,
+              -15.538376
+            ],
+            [
+              -52.910156,
+              -11.781325
+            ],
+            [
+              -49.306641,
+              -8.754795
+            ],
+            [
+              -46.713867,
+              -7.885147
+            ],
+            [
+              -40.297852,
+              -6.053161
+            ],
+            [
+              -38.276367,
+              -5.659719
+            ],
+            [
+              -36.826172,
+              -6.533645
+            ],
+            [
+              -39.243164,
+              -9.75237
+            ],
+            [
+              -40.341797,
+              -10.962764
+            ],
+            [
+              -41.484375,
+              -13.453737
+            ],
+            [
+              -41.660156,
+              -14.689881
+            ],
+            [
+              -41.308594,
+              -15.792254
+            ],
+            [
+              -41.44043,
+              -16.720385
+            ],
+            [
+              -41.484375,
+              -18.39623
+            ],
+            [
+              -41.967773,
+              -19.269665
+            ],
+            [
+              -42.363281,
+              -19.890723
+            ],
+            [
+              -42.495117,
+              -20.550509
+            ],
+            [
+              -42.231445,
+              -21.248422
+            ],
+            [
+              -42.714844,
+              -21.861499
+            ],
+            [
+              -43.022461,
+              -22.146708
+            ],
+            [
+              -43.637695,
+              -22.309426
+            ],
+            [
+              -45.175781,
+              -22.593726
+            ],
+            [
+              -47.416992,
+              -22.755921
             ]
           ]
         ]
