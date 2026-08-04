@@ -5,6 +5,8 @@
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Borja", "uf": "RS", "codibge": "4318002", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.840834281971027, -28.714265923 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Itaqui", "uf": "RS", "codibge": "4310603", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.389820549322302, -29.137636298499991 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Uruguaiana", "uf": "RS", "codibge": "4322400", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.814308006888403, -29.800457825499993 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Uruguaiana", "uf": "RS", "codibge": "4322400", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.814308006888403, -29.800457825499993 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Paulista", "uf": "PE", "codibge": "2610707", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.842839913101741, -7.910726955 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Olinda", "uf": "PE", "codibge": "2609600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.870585017494683, -7.999503742 ] } }
 ]
 }
