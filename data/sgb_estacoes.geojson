@@ -14,7 +14,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897892+00:00",
+        "updated_at": "2026-08-07T17:56:19.274080+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -38,7 +38,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897917+00:00",
+        "updated_at": "2026-08-07T17:56:19.274109+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -62,7 +62,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897922+00:00",
+        "updated_at": "2026-08-07T17:56:19.274116+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -86,7 +86,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897932+00:00",
+        "updated_at": "2026-08-07T17:56:19.274123+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -110,7 +110,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897936+00:00",
+        "updated_at": "2026-08-07T17:56:19.274128+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -134,7 +134,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897940+00:00",
+        "updated_at": "2026-08-07T17:56:19.274133+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -158,7 +158,7 @@
         "is_active": false,
         "bacia": "acre",
         "descricao": "Bacia: acre",
-        "updated_at": "2026-08-07T17:07:06.897944+00:00",
+        "updated_at": "2026-08-07T17:56:19.274138+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -182,7 +182,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897952+00:00",
+        "updated_at": "2026-08-07T17:56:19.274147+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -206,7 +206,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897957+00:00",
+        "updated_at": "2026-08-07T17:56:19.274153+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -230,7 +230,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897961+00:00",
+        "updated_at": "2026-08-07T17:56:19.274158+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -244,17 +244,17 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Beruri | Cota de Alerta",
+        "title": "Beruri | Normal",
         "nome": "Beruri",
         "sigla_pm": "BER",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
-        "status": "Cota de Alerta",
-        "severity_group": "alerta",
-        "is_active": true,
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897965+00:00",
+        "updated_at": "2026-08-07T17:56:19.274165+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -278,7 +278,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897968+00:00",
+        "updated_at": "2026-08-07T17:56:19.274170+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -302,7 +302,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897971+00:00",
+        "updated_at": "2026-08-07T17:56:19.274176+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -326,7 +326,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897979+00:00",
+        "updated_at": "2026-08-07T17:56:19.274183+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -350,7 +350,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897983+00:00",
+        "updated_at": "2026-08-07T17:56:19.274188+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -374,7 +374,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897986+00:00",
+        "updated_at": "2026-08-07T17:56:19.274191+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -398,7 +398,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897989+00:00",
+        "updated_at": "2026-08-07T17:56:19.274195+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -422,7 +422,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897992+00:00",
+        "updated_at": "2026-08-07T17:56:19.274199+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -446,7 +446,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897995+00:00",
+        "updated_at": "2026-08-07T17:56:19.274203+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -470,7 +470,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.897999+00:00",
+        "updated_at": "2026-08-07T17:56:19.274209+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -494,7 +494,7 @@
         "is_active": true,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898001+00:00",
+        "updated_at": "2026-08-07T17:56:19.274213+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -508,33 +508,9 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Manaus | Cota de Alerta",
+        "title": "Manaus | Normal",
         "nome": "Manaus",
         "sigla_pm": "MAO",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Cota de Alerta",
-        "severity_group": "alerta",
-        "is_active": true,
-        "bacia": "amazonas",
-        "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898004+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.02694,
-          -3.13667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Óbidos | Normal",
-        "nome": "Óbidos",
-        "sigla_pm": "OB",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
         "status": "Normal",
@@ -542,14 +518,14 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898007+00:00",
+        "updated_at": "2026-08-07T17:56:19.274217+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.51306,
-          -1.91917
+          -60.02694,
+          -3.13667
         ]
       }
     },
@@ -566,7 +542,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898012+00:00",
+        "updated_at": "2026-08-07T17:56:19.274223+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -574,30 +550,6 @@
         "coordinates": [
           -54.0125,
           -4.5278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Porto de Moz | Normal",
-        "nome": "Porto de Moz",
-        "sigla_pm": "PM",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Normal",
-        "severity_group": "normal",
-        "is_active": false,
-        "bacia": "amazonas",
-        "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898015+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.24066,
-          -1.75306
         ]
       }
     },
@@ -614,7 +566,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898020+00:00",
+        "updated_at": "2026-08-07T17:56:19.274228+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -622,6 +574,30 @@
         "coordinates": [
           -63.91694,
           -8.74833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Porto de Moz | Normal",
+        "nome": "Porto de Moz",
+        "sigla_pm": "PM",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "amazonas",
+        "descricao": "Bacia: amazonas",
+        "updated_at": "2026-08-07T17:56:19.274232+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.24066,
+          -1.75306
         ]
       }
     },
@@ -638,7 +614,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898023+00:00",
+        "updated_at": "2026-08-07T17:56:19.274237+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -662,7 +638,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898026+00:00",
+        "updated_at": "2026-08-07T17:56:19.274241+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -686,7 +662,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898031+00:00",
+        "updated_at": "2026-08-07T17:56:19.274245+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -710,7 +686,7 @@
         "is_active": false,
         "bacia": "amazonas",
         "descricao": "Bacia: amazonas",
-        "updated_at": "2026-08-07T17:07:06.898034+00:00",
+        "updated_at": "2026-08-07T17:56:19.274250+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -718,6 +694,318 @@
         "coordinates": [
           -69.9447,
           -4.23472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Óbidos | Normal",
+        "nome": "Óbidos",
+        "sigla_pm": "OB",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "amazonas",
+        "descricao": "Bacia: amazonas",
+        "updated_at": "2026-08-07T17:56:19.274254+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.51306,
+          -1.91917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Araguacema (27320000) | Normal",
+        "nome": "Araguacema (27320000)",
+        "sigla_pm": "AC",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274258+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.5555,
+          -8.8028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Araguaiana (24850000) | Normal",
+        "nome": "Araguaiana (24850000)",
+        "sigla_pm": "AR",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274263+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8281,
+          -15.7381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Araguatins (28850000) | Normal",
+        "nome": "Araguatins (28850000)",
+        "sigla_pm": "AT",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274267+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.1297,
+          -5.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aruanã (25200000) | Normal",
+        "nome": "Aruanã (25200000)",
+        "sigla_pm": "AU",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274274+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0822,
+          -14.9122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bandeirantes (25700000) | Normal",
+        "nome": "Bandeirantes (25700000)",
+        "sigla_pm": "BD",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274278+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.8013,
+          -13.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Barra do Garças (24700000) | Normal",
+        "nome": "Barra do Garças (24700000)",
+        "sigla_pm": "BG",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274281+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.228,
+          -15.8916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Conceição do Araguaia (27500000) | Normal",
+        "nome": "Conceição do Araguaia (27500000)",
+        "sigla_pm": "CA",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274286+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2594,
+          -8.2694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Descarreto (23700000) | Normal",
+        "nome": "Descarreto (23700000)",
+        "sigla_pm": "DT",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274289+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.4689,
+          -5.7894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Itupiranga (29200000) | Normal",
+        "nome": "Itupiranga (29200000)",
+        "sigla_pm": "IT",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274293+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.324,
+          -5.128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Marabá (29050000) | Normal",
+        "nome": "Marabá (29050000)",
+        "sigla_pm": "MB",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274296+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.124,
+          -5.338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "São Félix do Araguaia (26350000) | Normal",
+        "nome": "São Félix do Araguaia (26350000)",
+        "sigla_pm": "SF",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274300+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.6625,
+          -11.6181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Xambioá (28300000) | Normal",
+        "nome": "Xambioá (28300000)",
+        "sigla_pm": "XA",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "araguaia",
+        "descricao": "Bacia: araguaia",
+        "updated_at": "2026-08-07T17:56:19.274304+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.536,
+          -6.413
         ]
       }
     },
@@ -734,7 +1022,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898037+00:00",
+        "updated_at": "2026-08-07T17:56:19.274308+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -758,7 +1046,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898039+00:00",
+        "updated_at": "2026-08-07T17:56:19.274315+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -782,7 +1070,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898042+00:00",
+        "updated_at": "2026-08-07T17:56:19.274318+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -806,7 +1094,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898047+00:00",
+        "updated_at": "2026-08-07T17:56:19.274322+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -830,7 +1118,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898052+00:00",
+        "updated_at": "2026-08-07T17:56:19.274326+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -844,17 +1132,17 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Fé e Esperança | Estação sem transmissão",
+        "title": "Fé e Esperança | Normal",
         "nome": "Fé e Esperança",
         "sigla_pm": "FéeEsp",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
-        "status": "Estação sem transmissão",
-        "severity_group": "sem_transmissao",
+        "status": "Normal",
+        "severity_group": "normal",
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898058+00:00",
+        "updated_at": "2026-08-07T17:56:19.274329+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -878,7 +1166,7 @@
         "is_active": false,
         "bacia": "branco",
         "descricao": "Bacia: branco",
-        "updated_at": "2026-08-07T17:07:06.898062+00:00",
+        "updated_at": "2026-08-07T17:56:19.274333+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -902,7 +1190,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898065+00:00",
+        "updated_at": "2026-08-07T17:56:19.274336+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -926,7 +1214,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898069+00:00",
+        "updated_at": "2026-08-07T17:56:19.274340+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -950,7 +1238,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898072+00:00",
+        "updated_at": "2026-08-07T17:56:19.274343+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -974,7 +1262,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898075+00:00",
+        "updated_at": "2026-08-07T17:56:19.274412+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -998,7 +1286,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898078+00:00",
+        "updated_at": "2026-08-07T17:56:19.274420+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1022,7 +1310,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898080+00:00",
+        "updated_at": "2026-08-07T17:56:19.274429+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1046,7 +1334,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898085+00:00",
+        "updated_at": "2026-08-07T17:56:19.274435+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1070,7 +1358,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898088+00:00",
+        "updated_at": "2026-08-07T17:56:19.274438+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1078,30 +1366,6 @@
         "coordinates": [
           -51.18888,
           -29.33534
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Passo do Caí - WEB | Estação sem transmissão",
-        "nome": "Passo do Caí - WEB",
-        "sigla_pm": "8730000",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Estação sem transmissão",
-        "severity_group": "sem_transmissao",
-        "is_active": false,
-        "bacia": "cai",
-        "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898091+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.36369,
-          -29.86464
         ]
       }
     },
@@ -1118,7 +1382,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898099+00:00",
+        "updated_at": "2026-08-07T17:56:19.274442+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1126,6 +1390,30 @@
         "coordinates": [
           -51.4402,
           -29.70109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo do Caí - WEB | Sem Informação",
+        "nome": "Passo do Caí - WEB",
+        "sigla_pm": "8730000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Sem Informação",
+        "severity_group": "outro",
+        "is_active": false,
+        "bacia": "cai",
+        "descricao": "Bacia: cai",
+        "updated_at": "2026-08-07T17:56:19.274450+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.36369,
+          -29.86464
         ]
       }
     },
@@ -1142,7 +1430,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898102+00:00",
+        "updated_at": "2026-08-07T17:56:19.274456+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1166,7 +1454,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898104+00:00",
+        "updated_at": "2026-08-07T17:56:19.274460+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1190,7 +1478,7 @@
         "is_active": false,
         "bacia": "cai",
         "descricao": "Bacia: cai",
-        "updated_at": "2026-08-07T17:07:06.898107+00:00",
+        "updated_at": "2026-08-07T17:56:19.274463+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1214,7 +1502,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898110+00:00",
+        "updated_at": "2026-08-07T17:56:19.274467+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1238,7 +1526,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898113+00:00",
+        "updated_at": "2026-08-07T17:56:19.274472+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1262,7 +1550,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898115+00:00",
+        "updated_at": "2026-08-07T17:56:19.274478+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1276,17 +1564,17 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Governador Valadares | Sem transmissão",
+        "title": "Governador Valadares | Sem Informação",
         "nome": "Governador Valadares",
         "sigla_pm": "GV",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
-        "status": "Sem transmissão",
-        "severity_group": "sem_transmissao",
+        "status": "Sem Informação",
+        "severity_group": "outro",
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898120+00:00",
+        "updated_at": "2026-08-07T17:56:19.274482+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1300,17 +1588,17 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Linhares | Sem transmissão",
+        "title": "Linhares | Sem Informação",
         "nome": "Linhares",
         "sigla_pm": "LI",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
-        "status": "Sem transmissão",
-        "severity_group": "sem_transmissao",
+        "status": "Sem Informação",
+        "severity_group": "outro",
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898123+00:00",
+        "updated_at": "2026-08-07T17:56:19.274486+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1334,7 +1622,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898126+00:00",
+        "updated_at": "2026-08-07T17:56:19.274490+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1358,7 +1646,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898129+00:00",
+        "updated_at": "2026-08-07T17:56:19.274493+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1382,7 +1670,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898131+00:00",
+        "updated_at": "2026-08-07T17:56:19.274497+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1406,7 +1694,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898134+00:00",
+        "updated_at": "2026-08-07T17:56:19.274500+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1430,7 +1718,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898141+00:00",
+        "updated_at": "2026-08-07T17:56:19.274504+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1454,7 +1742,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898143+00:00",
+        "updated_at": "2026-08-07T17:56:19.274508+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1478,7 +1766,7 @@
         "is_active": false,
         "bacia": "doce",
         "descricao": "Bacia: doce",
-        "updated_at": "2026-08-07T17:07:06.898146+00:00",
+        "updated_at": "2026-08-07T17:56:19.274513+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1486,6 +1774,1134 @@
         "coordinates": [
           -41.91806,
           -18.575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "4 Irmãos Canal Gravataí | Normal",
+        "nome": "4 Irmãos Canal Gravataí",
+        "sigla_pm": "87398750",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274517+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7439,
+          -29.9803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Albatroz | Sem Informação",
+        "nome": "Albatroz",
+        "sigla_pm": "87406000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Sem Informação",
+        "severity_group": "outro",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274524+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.16555,
+          -29.96583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Arroio Caraá | Normal",
+        "nome": "Arroio Caraá",
+        "sigla_pm": "87318000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274528+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.4338,
+          -29.791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Auler | Normal",
+        "nome": "Auler",
+        "sigla_pm": "02852004",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274532+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.38166,
+          -28.80388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Barca do Caí | Normal",
+        "nome": "Barca do Caí",
+        "sigla_pm": "87170000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274536+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.38333,
+          -29.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Barra do Fão | Normal",
+        "nome": "Barra do Fão",
+        "sigla_pm": "86780000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274539+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.16222,
+          -29.22388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bom Princípio | Normal",
+        "nome": "Bom Princípio",
+        "sigla_pm": "87168590",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274543+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.3556,
+          -29.5072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bom Retiro do Sul Montante | Normal",
+        "nome": "Bom Retiro do Sul Montante",
+        "sigla_pm": "86881000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274547+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.95111,
+          -29.60805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "CORSAN Alvorada | Normal",
+        "nome": "CORSAN Alvorada",
+        "sigla_pm": "87401750",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274550+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0367,
+          -29.9683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cais Mauá C6 | Cota de Atenção",
+        "nome": "Cais Mauá C6",
+        "sigla_pm": "87450004",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Cota de Atenção",
+        "severity_group": "atencao",
+        "is_active": true,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274556+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2211,
+          -30.0211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Camping São Sepé CPRM | Normal",
+        "nome": "Camping São Sepé CPRM",
+        "sigla_pm": "85623010",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274560+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5633,
+          -30.1942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Campo Bom | Normal",
+        "nome": "Campo Bom",
+        "sigla_pm": "8738000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274563+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.04611,
+          -29.69166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Capão dos Coxos | Normal",
+        "nome": "Capão dos Coxos",
+        "sigla_pm": "02950045",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274569+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.58416,
+          -29.40833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Costa do Rio Cadeia Montante | Normal",
+        "nome": "Costa do Rio Cadeia Montante",
+        "sigla_pm": "87230000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274572+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.31361,
+          -29.59055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Dona Francisca | Normal",
+        "nome": "Dona Francisca",
+        "sigla_pm": "85400000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274576+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.35277,
+          -29.62694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Encantado | Normal",
+        "nome": "Encantado",
+        "sigla_pm": "86720000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274580+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.855,
+          -29.23444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estrela | Normal",
+        "nome": "Estrela",
+        "sigla_pm": "86879300",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274583+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.96222,
+          -29.47333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Feliz | Normal",
+        "nome": "Feliz",
+        "sigla_pm": "87165001",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274590+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.30611,
+          -29.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Foz do Paranhana | Normal",
+        "nome": "Foz do Paranhana",
+        "sigla_pm": "87376000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274594+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.8122,
+          -29.6858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Guaporé | Normal",
+        "nome": "Guaporé",
+        "sigla_pm": "02851044",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274599+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.87916,
+          -28.84444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ibiraiaras",
+        "nome": "Ibiraiaras",
+        "sigla_pm": "02851072",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Não informado",
+        "severity_group": "outro",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274605+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.63305,
+          -28.38111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ilha da Pintada | Normal",
+        "nome": "Ilha da Pintada",
+        "sigla_pm": "87450005",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274609+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.25055,
+          -30.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ipanema | Normal",
+        "nome": "Ipanema",
+        "sigla_pm": "87460120",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274615+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.23277,
+          -30.13527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Linha Colombo | Normal",
+        "nome": "Linha Colombo",
+        "sigla_pm": "86560000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274618+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.95305,
+          -28.91222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Linha Gonzaga | Normal",
+        "nome": "Linha Gonzaga",
+        "sigla_pm": "87150000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274622+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.99583,
+          -29.3075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Linha José Júlio | Normal",
+        "nome": "Linha José Júlio",
+        "sigla_pm": "86472000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274625+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.69972,
+          -29.09777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Morro Reuter | Normal",
+        "nome": "Morro Reuter",
+        "sigla_pm": "02951142",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274629+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.03694,
+          -29.52888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Muçum | Normal",
+        "nome": "Muçum",
+        "sigla_pm": "86510000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274633+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.86861,
+          -29.16722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Nova Palmira | Normal",
+        "nome": "Nova Palmira",
+        "sigla_pm": "87160000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274636+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.18888,
+          -29.33555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo Carreiro | Normal",
+        "nome": "Passo Carreiro",
+        "sigla_pm": "86500000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274642+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8325,
+          -28.84888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo Montenegro | Normal",
+        "nome": "Passo Montenegro",
+        "sigla_pm": "87270000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274645+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.44111,
+          -29.70111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo São Lourenço | Normal",
+        "nome": "Passo São Lourenço",
+        "sigla_pm": "85642000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274649+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.01555,
+          -30.00777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo Tainhas | Normal",
+        "nome": "Passo Tainhas",
+        "sigla_pm": "86160000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274652+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.45611,
+          -28.86805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo das Canoas Auxiliar | Normal",
+        "nome": "Passo das Canoas Auxiliar",
+        "sigla_pm": "8739900",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274659+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.97777,
+          -29.96444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo do Caí | Normal",
+        "nome": "Passo do Caí",
+        "sigla_pm": "87300000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274663+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.36369,
+          -29.86464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Picada Café | Normal",
+        "nome": "Picada Café",
+        "sigla_pm": "87189000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274667+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.14,
+          -29.4614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Porto Mariante | Normal",
+        "nome": "Porto Mariante",
+        "sigla_pm": "86895000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274671+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.97,
+          -29.69222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Rio Pardo | Cota de Alerta",
+        "nome": "Rio Pardo",
+        "sigla_pm": "85900000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Cota de Alerta",
+        "severity_group": "alerta",
+        "is_active": true,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274674+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.37555,
+          -29.995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Santa Tereza | Normal",
+        "nome": "Santa Tereza",
+        "sigla_pm": "86472600",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274678+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.73222,
+          -29.17805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "São Leopoldo | Cota de Atenção",
+        "nome": "São Leopoldo",
+        "sigla_pm": "8738200",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Cota de Atenção",
+        "severity_group": "atencao",
+        "is_active": true,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274684+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.14833,
+          -29.75888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "São Vendelino | Normal",
+        "nome": "São Vendelino",
+        "sigla_pm": "87168000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274687+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.36888,
+          -29.38277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Taquari | Cota de Atenção",
+        "nome": "Taquari",
+        "sigla_pm": "86950000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Cota de Atenção",
+        "severity_group": "atencao",
+        "is_active": true,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274691+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.87583,
+          -29.80694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Terminal CATSUL Guaíba | Normal",
+        "nome": "Terminal CATSUL Guaíba",
+        "sigla_pm": "87242000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274695+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.3111,
+          -30.1075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Triunfo | Normal",
+        "nome": "Triunfo",
+        "sigla_pm": "87010000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274698+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.6942,
+          -29.9419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Usina do Gasômetro | Normal",
+        "nome": "Usina do Gasômetro",
+        "sigla_pm": "87450020",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274704+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.24194,
+          -30.03472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vacaria | Normal",
+        "nome": "Vacaria",
+        "sigla_pm": "02850045",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274708+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.93611,
+          -28.48972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vale Real | Normal",
+        "nome": "Vale Real",
+        "sigla_pm": "87163000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "guaiba",
+        "descricao": "Bacia: guaiba",
+        "updated_at": "2026-08-07T17:56:19.274711+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.25361,
+          -29.39972
         ]
       }
     },
@@ -1502,7 +2918,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-08-07T17:07:06.898151+00:00",
+        "updated_at": "2026-08-07T17:56:19.274715+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1526,7 +2942,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-08-07T17:07:06.898156+00:00",
+        "updated_at": "2026-08-07T17:56:19.274720+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1550,7 +2966,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-08-07T17:07:06.898158+00:00",
+        "updated_at": "2026-08-07T17:56:19.274725+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1574,7 +2990,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-08-07T17:07:06.898161+00:00",
+        "updated_at": "2026-08-07T17:56:19.274729+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1598,7 +3014,7 @@
         "is_active": false,
         "bacia": "itapecuru",
         "descricao": "Bacia: itapecuru",
-        "updated_at": "2026-08-07T17:07:06.898164+00:00",
+        "updated_at": "2026-08-07T17:56:19.274734+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1622,7 +3038,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-08-07T17:07:06.898167+00:00",
+        "updated_at": "2026-08-07T17:56:19.274738+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1646,7 +3062,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-08-07T17:07:06.898171+00:00",
+        "updated_at": "2026-08-07T17:56:19.274741+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1670,7 +3086,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-08-07T17:07:06.898174+00:00",
+        "updated_at": "2026-08-07T17:56:19.274745+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1694,7 +3110,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-08-07T17:07:06.898248+00:00",
+        "updated_at": "2026-08-07T17:56:19.274751+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1718,7 +3134,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-08-07T17:07:06.898252+00:00",
+        "updated_at": "2026-08-07T17:56:19.274755+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1742,7 +3158,7 @@
         "is_active": false,
         "bacia": "madeira",
         "descricao": "Bacia: madeira",
-        "updated_at": "2026-08-07T17:07:06.898257+00:00",
+        "updated_at": "2026-08-07T17:56:19.274759+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1766,7 +3182,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898262+00:00",
+        "updated_at": "2026-08-07T17:56:19.274762+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1790,7 +3206,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898267+00:00",
+        "updated_at": "2026-08-07T17:56:19.274768+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1814,7 +3230,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898272+00:00",
+        "updated_at": "2026-08-07T17:56:19.274771+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1838,7 +3254,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898275+00:00",
+        "updated_at": "2026-08-07T17:56:19.274775+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1862,7 +3278,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898278+00:00",
+        "updated_at": "2026-08-07T17:56:19.274781+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1886,7 +3302,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898280+00:00",
+        "updated_at": "2026-08-07T17:56:19.274786+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1910,7 +3326,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898283+00:00",
+        "updated_at": "2026-08-07T17:56:19.274793+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1934,7 +3350,7 @@
         "is_active": false,
         "bacia": "mundau",
         "descricao": "Bacia: mundau",
-        "updated_at": "2026-08-07T17:07:06.898286+00:00",
+        "updated_at": "2026-08-07T17:56:19.274797+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1958,7 +3374,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-08-07T17:07:06.898288+00:00",
+        "updated_at": "2026-08-07T17:56:19.274802+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -1982,7 +3398,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-08-07T17:07:06.898291+00:00",
+        "updated_at": "2026-08-07T17:56:19.274806+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2006,7 +3422,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-08-07T17:07:06.898296+00:00",
+        "updated_at": "2026-08-07T17:56:19.274809+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2030,7 +3446,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-08-07T17:07:06.898299+00:00",
+        "updated_at": "2026-08-07T17:56:19.274815+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2054,7 +3470,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-08-07T17:07:06.898303+00:00",
+        "updated_at": "2026-08-07T17:56:19.274819+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2078,7 +3494,7 @@
         "is_active": false,
         "bacia": "muriae",
         "descricao": "Bacia: muriae",
-        "updated_at": "2026-08-07T17:07:06.898306+00:00",
+        "updated_at": "2026-08-07T17:56:19.274822+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2102,7 +3518,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898309+00:00",
+        "updated_at": "2026-08-07T17:56:19.274826+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2126,7 +3542,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898312+00:00",
+        "updated_at": "2026-08-07T17:56:19.274830+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2150,7 +3566,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898314+00:00",
+        "updated_at": "2026-08-07T17:56:19.274833+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2158,30 +3574,6 @@
         "coordinates": [
           -57.69,
           -17.64
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "CÁCERES (DNPVN) | Normal",
-        "nome": "CÁCERES (DNPVN)",
-        "sigla_pm": "CAC",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Normal",
-        "severity_group": "normal",
-        "is_active": false,
-        "bacia": "paraguai",
-        "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898319+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.7,
-          -16.07
         ]
       }
     },
@@ -2198,7 +3590,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898322+00:00",
+        "updated_at": "2026-08-07T17:56:19.274837+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2206,6 +3598,30 @@
         "coordinates": [
           -54.76,
           -18.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "CÁCERES (DNPVN) | Normal",
+        "nome": "CÁCERES (DNPVN)",
+        "sigla_pm": "CAC",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "paraguai",
+        "descricao": "Bacia: paraguai",
+        "updated_at": "2026-08-07T17:56:19.274846+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.7,
+          -16.07
         ]
       }
     },
@@ -2222,7 +3638,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898325+00:00",
+        "updated_at": "2026-08-07T17:56:19.274849+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2246,7 +3662,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898329+00:00",
+        "updated_at": "2026-08-07T17:56:19.274853+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2270,7 +3686,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898334+00:00",
+        "updated_at": "2026-08-07T17:56:19.274858+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2294,7 +3710,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898337+00:00",
+        "updated_at": "2026-08-07T17:56:19.274864+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2318,7 +3734,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898340+00:00",
+        "updated_at": "2026-08-07T17:56:19.274867+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2342,7 +3758,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898343+00:00",
+        "updated_at": "2026-08-07T17:56:19.274871+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2366,7 +3782,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898347+00:00",
+        "updated_at": "2026-08-07T17:56:19.274874+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2390,7 +3806,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898350+00:00",
+        "updated_at": "2026-08-07T17:56:19.274880+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2414,7 +3830,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898353+00:00",
+        "updated_at": "2026-08-07T17:56:19.274885+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2438,7 +3854,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898355+00:00",
+        "updated_at": "2026-08-07T17:56:19.274889+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2462,7 +3878,7 @@
         "is_active": false,
         "bacia": "paraguai",
         "descricao": "Bacia: paraguai",
-        "updated_at": "2026-08-07T17:07:06.898358+00:00",
+        "updated_at": "2026-08-07T17:56:19.274894+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2486,7 +3902,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898363+00:00",
+        "updated_at": "2026-08-07T17:56:19.274898+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2510,7 +3926,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898366+00:00",
+        "updated_at": "2026-08-07T17:56:19.274903+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2534,7 +3950,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898368+00:00",
+        "updated_at": "2026-08-07T17:56:19.274907+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2558,7 +3974,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898373+00:00",
+        "updated_at": "2026-08-07T17:56:19.274910+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2582,7 +3998,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898376+00:00",
+        "updated_at": "2026-08-07T17:56:19.274914+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2606,7 +4022,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898378+00:00",
+        "updated_at": "2026-08-07T17:56:19.274917+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2620,17 +4036,17 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Fazenda União | Estação sem transmissão",
+        "title": "Fazenda União | Sem Informação",
         "nome": "Fazenda União",
         "sigla_pm": "FU",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
-        "status": "Estação sem transmissão",
-        "severity_group": "sem_transmissao",
+        "status": "Sem Informação",
+        "severity_group": "outro",
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898382+00:00",
+        "updated_at": "2026-08-07T17:56:19.274921+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2654,7 +4070,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898387+00:00",
+        "updated_at": "2026-08-07T17:56:19.274927+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2678,7 +4094,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898391+00:00",
+        "updated_at": "2026-08-07T17:56:19.274930+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2702,7 +4118,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898394+00:00",
+        "updated_at": "2026-08-07T17:56:19.274934+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2726,7 +4142,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898399+00:00",
+        "updated_at": "2026-08-07T17:56:19.274939+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2750,7 +4166,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898401+00:00",
+        "updated_at": "2026-08-07T17:56:19.274944+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2774,7 +4190,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898404+00:00",
+        "updated_at": "2026-08-07T17:56:19.274948+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2798,7 +4214,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898407+00:00",
+        "updated_at": "2026-08-07T17:56:19.274951+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2822,7 +4238,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898409+00:00",
+        "updated_at": "2026-08-07T17:56:19.274955+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2846,7 +4262,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898412+00:00",
+        "updated_at": "2026-08-07T17:56:19.274959+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2870,7 +4286,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898415+00:00",
+        "updated_at": "2026-08-07T17:56:19.274962+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2894,7 +4310,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898417+00:00",
+        "updated_at": "2026-08-07T17:56:19.274966+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2918,7 +4334,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898422+00:00",
+        "updated_at": "2026-08-07T17:56:19.274969+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2942,7 +4358,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898425+00:00",
+        "updated_at": "2026-08-07T17:56:19.274973+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2966,7 +4382,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898432+00:00",
+        "updated_at": "2026-08-07T17:56:19.274978+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -2990,7 +4406,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898434+00:00",
+        "updated_at": "2026-08-07T17:56:19.274984+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3014,7 +4430,7 @@
         "is_active": false,
         "bacia": "parnaiba",
         "descricao": "Bacia: parnaiba",
-        "updated_at": "2026-08-07T17:07:06.898437+00:00",
+        "updated_at": "2026-08-07T17:56:19.274987+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3038,7 +4454,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-08-07T17:07:06.898440+00:00",
+        "updated_at": "2026-08-07T17:56:19.274993+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3062,7 +4478,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-08-07T17:07:06.898443+00:00",
+        "updated_at": "2026-08-07T17:56:19.274996+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3086,7 +4502,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-08-07T17:07:06.898446+00:00",
+        "updated_at": "2026-08-07T17:56:19.275000+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3110,7 +4526,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-08-07T17:07:06.898448+00:00",
+        "updated_at": "2026-08-07T17:56:19.275003+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3134,7 +4550,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-08-07T17:07:06.898451+00:00",
+        "updated_at": "2026-08-07T17:56:19.275007+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3158,7 +4574,7 @@
         "is_active": false,
         "bacia": "pomba",
         "descricao": "Bacia: pomba",
-        "updated_at": "2026-08-07T17:07:06.898454+00:00",
+        "updated_at": "2026-08-07T17:56:19.275028+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3182,7 +4598,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898457+00:00",
+        "updated_at": "2026-08-07T17:56:19.275032+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3206,7 +4622,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898461+00:00",
+        "updated_at": "2026-08-07T17:56:19.275036+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3230,7 +4646,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898464+00:00",
+        "updated_at": "2026-08-07T17:56:19.275042+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3254,7 +4670,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898467+00:00",
+        "updated_at": "2026-08-07T17:56:19.275046+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3278,7 +4694,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898472+00:00",
+        "updated_at": "2026-08-07T17:56:19.275051+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3302,7 +4718,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898479+00:00",
+        "updated_at": "2026-08-07T17:56:19.275056+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3326,7 +4742,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898481+00:00",
+        "updated_at": "2026-08-07T17:56:19.275059+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3350,7 +4766,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898484+00:00",
+        "updated_at": "2026-08-07T17:56:19.275063+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3374,7 +4790,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898488+00:00",
+        "updated_at": "2026-08-07T17:56:19.275066+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3398,7 +4814,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898491+00:00",
+        "updated_at": "2026-08-07T17:56:19.275071+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3422,7 +4838,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898494+00:00",
+        "updated_at": "2026-08-07T17:56:19.275075+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3446,7 +4862,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898498+00:00",
+        "updated_at": "2026-08-07T17:56:19.275079+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3470,7 +4886,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898501+00:00",
+        "updated_at": "2026-08-07T17:56:19.275084+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3494,7 +4910,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898504+00:00",
+        "updated_at": "2026-08-07T17:56:19.275088+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3518,7 +4934,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898506+00:00",
+        "updated_at": "2026-08-07T17:56:19.275091+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3542,7 +4958,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898516+00:00",
+        "updated_at": "2026-08-07T17:56:19.275094+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3566,7 +4982,7 @@
         "is_active": false,
         "bacia": "saofrancisco",
         "descricao": "Bacia: saofrancisco",
-        "updated_at": "2026-08-07T17:07:06.898519+00:00",
+        "updated_at": "2026-08-07T17:56:19.275100+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3590,7 +5006,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898521+00:00",
+        "updated_at": "2026-08-07T17:56:19.275103+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3614,7 +5030,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898524+00:00",
+        "updated_at": "2026-08-07T17:56:19.275107+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3638,7 +5054,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898527+00:00",
+        "updated_at": "2026-08-07T17:56:19.275112+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3662,7 +5078,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898532+00:00",
+        "updated_at": "2026-08-07T17:56:19.275116+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3686,7 +5102,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898538+00:00",
+        "updated_at": "2026-08-07T17:56:19.275119+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3710,7 +5126,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898541+00:00",
+        "updated_at": "2026-08-07T17:56:19.275124+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3734,7 +5150,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898544+00:00",
+        "updated_at": "2026-08-07T17:56:19.275128+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3758,7 +5174,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898546+00:00",
+        "updated_at": "2026-08-07T17:56:19.275132+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3782,7 +5198,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898549+00:00",
+        "updated_at": "2026-08-07T17:56:19.275137+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3806,7 +5222,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898554+00:00",
+        "updated_at": "2026-08-07T17:56:19.275140+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3830,7 +5246,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898557+00:00",
+        "updated_at": "2026-08-07T17:56:19.275144+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3854,7 +5270,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898559+00:00",
+        "updated_at": "2026-08-07T17:56:19.275147+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3878,7 +5294,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898562+00:00",
+        "updated_at": "2026-08-07T17:56:19.275150+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3902,7 +5318,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898565+00:00",
+        "updated_at": "2026-08-07T17:56:19.275156+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3916,17 +5332,17 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Taquari | Cota de Atenção",
+        "title": "Taquari | Normal",
         "nome": "Taquari",
         "sigla_pm": "8695000",
         "tipo": "SGB",
         "categoria": "Estação hidrológica",
-        "status": "Cota de Atenção",
-        "severity_group": "atencao",
-        "is_active": true,
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898570+00:00",
+        "updated_at": "2026-08-07T17:56:19.275159+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3950,7 +5366,7 @@
         "is_active": false,
         "bacia": "taquari",
         "descricao": "Bacia: taquari",
-        "updated_at": "2026-08-07T17:07:06.898572+00:00",
+        "updated_at": "2026-08-07T17:56:19.275166+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3974,7 +5390,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898577+00:00",
+        "updated_at": "2026-08-07T17:56:19.275169+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -3998,7 +5414,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898580+00:00",
+        "updated_at": "2026-08-07T17:56:19.275173+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4022,7 +5438,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898583+00:00",
+        "updated_at": "2026-08-07T17:56:19.275176+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4046,7 +5462,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898585+00:00",
+        "updated_at": "2026-08-07T17:56:19.275194+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4070,7 +5486,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898590+00:00",
+        "updated_at": "2026-08-07T17:56:19.275198+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4094,7 +5510,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898593+00:00",
+        "updated_at": "2026-08-07T17:56:19.275202+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4118,7 +5534,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898595+00:00",
+        "updated_at": "2026-08-07T17:56:19.275205+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4142,7 +5558,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898598+00:00",
+        "updated_at": "2026-08-07T17:56:19.275209+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4166,7 +5582,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898603+00:00",
+        "updated_at": "2026-08-07T17:56:19.275214+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4190,7 +5606,7 @@
         "is_active": true,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898606+00:00",
+        "updated_at": "2026-08-07T17:56:19.275220+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4214,7 +5630,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898608+00:00",
+        "updated_at": "2026-08-07T17:56:19.275226+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4238,7 +5654,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898611+00:00",
+        "updated_at": "2026-08-07T17:56:19.275231+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4262,7 +5678,7 @@
         "is_active": true,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898616+00:00",
+        "updated_at": "2026-08-07T17:56:19.275235+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4270,54 +5686,6 @@
         "coordinates": [
           -55.48083,
           -29.59555
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Passo do Osório | Normal",
-        "nome": "Passo do Osório",
-        "sigla_pm": "7674200",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Normal",
-        "severity_group": "normal",
-        "is_active": false,
-        "bacia": "uruguai",
-        "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898619+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.6003,
-          -29.9511
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Passo dos Britos | Normal",
-        "nome": "Passo dos Britos",
-        "sigla_pm": "7670000",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Normal",
-        "severity_group": "normal",
-        "is_active": false,
-        "bacia": "uruguai",
-        "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898622+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -55.7478,
-          -29.9731
         ]
       }
     },
@@ -4334,7 +5702,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898624+00:00",
+        "updated_at": "2026-08-07T17:56:19.275239+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4358,7 +5726,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898627+00:00",
+        "updated_at": "2026-08-07T17:56:19.275243+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4366,6 +5734,54 @@
         "coordinates": [
           -56.03944,
           -28.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo do Osório | Normal",
+        "nome": "Passo do Osório",
+        "sigla_pm": "7674200",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "uruguai",
+        "descricao": "Bacia: uruguai",
+        "updated_at": "2026-08-07T17:56:19.275246+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.6003,
+          -29.9511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Passo dos Britos | Normal",
+        "nome": "Passo dos Britos",
+        "sigla_pm": "7670000",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "uruguai",
+        "descricao": "Bacia: uruguai",
+        "updated_at": "2026-08-07T17:56:19.275250+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.7478,
+          -29.9731
         ]
       }
     },
@@ -4382,7 +5798,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898630+00:00",
+        "updated_at": "2026-08-07T17:56:19.275253+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4406,7 +5822,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898636+00:00",
+        "updated_at": "2026-08-07T17:56:19.275257+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4430,7 +5846,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898641+00:00",
+        "updated_at": "2026-08-07T17:56:19.275262+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4454,7 +5870,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898644+00:00",
+        "updated_at": "2026-08-07T17:56:19.275265+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4478,7 +5894,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898646+00:00",
+        "updated_at": "2026-08-07T17:56:19.275269+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4502,7 +5918,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898649+00:00",
+        "updated_at": "2026-08-07T17:56:19.275272+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4526,7 +5942,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898652+00:00",
+        "updated_at": "2026-08-07T17:56:19.275276+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4550,7 +5966,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898654+00:00",
+        "updated_at": "2026-08-07T17:56:19.275286+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4574,7 +5990,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898659+00:00",
+        "updated_at": "2026-08-07T17:56:19.275289+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4598,7 +6014,7 @@
         "is_active": true,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898662+00:00",
+        "updated_at": "2026-08-07T17:56:19.275293+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4622,7 +6038,7 @@
         "is_active": false,
         "bacia": "uruguai",
         "descricao": "Bacia: uruguai",
-        "updated_at": "2026-08-07T17:07:06.898665+00:00",
+        "updated_at": "2026-08-07T17:56:19.275296+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4646,7 +6062,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898670+00:00",
+        "updated_at": "2026-08-07T17:56:19.275300+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4654,30 +6070,6 @@
         "coordinates": [
           -44.02073,
           -19.23555
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Ponte do Licínio | Normal",
-        "nome": "Ponte do Licínio",
-        "sigla_pm": "PTLI",
-        "tipo": "SGB",
-        "categoria": "Estação hidrológica",
-        "status": "Normal",
-        "severity_group": "normal",
-        "is_active": false,
-        "bacia": "velhas",
-        "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898672+00:00",
-        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.19282,
-          -18.67196
         ]
       }
     },
@@ -4694,7 +6086,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898675+00:00",
+        "updated_at": "2026-08-07T17:56:19.275305+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4702,6 +6094,30 @@
         "coordinates": [
           -43.91111,
           -19.55972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ponte do Licínio | Normal",
+        "nome": "Ponte do Licínio",
+        "sigla_pm": "PTLI",
+        "tipo": "SGB",
+        "categoria": "Estação hidrológica",
+        "status": "Normal",
+        "severity_group": "normal",
+        "is_active": false,
+        "bacia": "velhas",
+        "descricao": "Bacia: velhas",
+        "updated_at": "2026-08-07T17:56:19.275309+00:00",
+        "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.19282,
+          -18.67196
         ]
       }
     },
@@ -4718,7 +6134,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898678+00:00",
+        "updated_at": "2026-08-07T17:56:19.275312+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4742,7 +6158,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898680+00:00",
+        "updated_at": "2026-08-07T17:56:19.275316+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4766,7 +6182,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898683+00:00",
+        "updated_at": "2026-08-07T17:56:19.275320+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4790,7 +6206,7 @@
         "is_active": false,
         "bacia": "velhas",
         "descricao": "Bacia: velhas",
-        "updated_at": "2026-08-07T17:07:06.898686+00:00",
+        "updated_at": "2026-08-07T17:56:19.275323+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4814,7 +6230,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898691+00:00",
+        "updated_at": "2026-08-07T17:56:19.275327+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4838,7 +6254,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898693+00:00",
+        "updated_at": "2026-08-07T17:56:19.275330+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4862,7 +6278,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898696+00:00",
+        "updated_at": "2026-08-07T17:56:19.275335+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4886,7 +6302,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898702+00:00",
+        "updated_at": "2026-08-07T17:56:19.275339+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4910,7 +6326,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898705+00:00",
+        "updated_at": "2026-08-07T17:56:19.275344+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4934,7 +6350,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898708+00:00",
+        "updated_at": "2026-08-07T17:56:19.275349+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
@@ -4958,7 +6374,7 @@
         "is_active": false,
         "bacia": "xingu",
         "descricao": "Bacia: xingu",
-        "updated_at": "2026-08-07T17:07:06.898710+00:00",
+        "updated_at": "2026-08-07T17:56:19.275353+00:00",
         "link": "https://www.sgb.gov.br/sace/sace_nivel/api_estacoes_situacao.php"
       },
       "geometry": {
