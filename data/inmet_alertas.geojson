@@ -5,6 +5,210 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.27997.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.27997.1",
+        "titulo": "Aviso de Vendaval. Severidade Grau: Perigo",
+        "event": "Vendaval",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-07T13:45:00-03:00",
+        "expires": "2026-08-07T23:59:00-03:00",
+        "sent": "2026-08-07T16:43:12-03:00",
+        "pubDate": "Fri, 07 Aug 2026 13:45:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Vendaval. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 07/08/2026 13:45. Vento variando entre 60 km/h e 100 km/h. Risco de queda de Ã¡rvores, destelhamento de casas e danos gerais em edificaÃ§Ãµes e plantaÃ§Ãµes.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Permaneca em local abrigado. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55297",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Central EspÃ­rito-santense, Sul Fluminense, Baixadas, Vale do ParaÃ­ba Paulista, Metropolitana do Rio de Janeiro, Metropolitana de SÃ£o Paulo, Centro Fluminense, Norte Fluminense, Sul EspÃ­rito-santense",
+        "areas": [
+          "Aviso para as Ã¡reas: Central EspÃ­rito-santense, Sul Fluminense, Baixadas, Vale do ParaÃ­ba Paulista, Metropolitana do Rio de Janeiro, Metropolitana de SÃ£o Paulo, Centro Fluminense, Norte Fluminense, Sul EspÃ­rito-santense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55297"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.174255,
+              -20.316297
+            ],
+            [
+              -40.187988,
+              -20.205501
+            ],
+            [
+              -40.289612,
+              -20.192613
+            ],
+            [
+              -40.385742,
+              -20.25189
+            ],
+            [
+              -40.509338,
+              -20.401272
+            ],
+            [
+              -40.627441,
+              -20.555652
+            ],
+            [
+              -40.874634,
+              -20.843412
+            ],
+            [
+              -41.160278,
+              -21.294493
+            ],
+            [
+              -41.231689,
+              -21.570611
+            ],
+            [
+              -41.270142,
+              -21.830907
+            ],
+            [
+              -41.506348,
+              -21.999082
+            ],
+            [
+              -41.929321,
+              -22.08055
+            ],
+            [
+              -42.692871,
+              -22.314508
+            ],
+            [
+              -43.352051,
+              -22.461802
+            ],
+            [
+              -44.000244,
+              -22.634293
+            ],
+            [
+              -44.593506,
+              -22.872379
+            ],
+            [
+              -45.153809,
+              -23.185813
+            ],
+            [
+              -45.675659,
+              -23.493477
+            ],
+            [
+              -46.062927,
+              -23.684774
+            ],
+            [
+              -45.628967,
+              -23.807962
+            ],
+            [
+              -45.55481,
+              -24.071544
+            ],
+            [
+              -45.324097,
+              -24.076559
+            ],
+            [
+              -44.928589,
+              -23.835601
+            ],
+            [
+              -44.829712,
+              -23.649556
+            ],
+            [
+              -44.67865,
+              -23.518663
+            ],
+            [
+              -44.096375,
+              -23.324602
+            ],
+            [
+              -43.610229,
+              -23.226203
+            ],
+            [
+              -42.550049,
+              -23.044353
+            ],
+            [
+              -42.017212,
+              -23.069624
+            ],
+            [
+              -41.888123,
+              -23.011492
+            ],
+            [
+              -41.835938,
+              -22.907803
+            ],
+            [
+              -41.671143,
+              -22.456726
+            ],
+            [
+              -41.443176,
+              -22.304344
+            ],
+            [
+              -41.09436,
+              -22.136532
+            ],
+            [
+              -40.987244,
+              -22.060187
+            ],
+            [
+              -40.891113,
+              -21.973614
+            ],
+            [
+              -40.904846,
+              -21.539957
+            ],
+            [
+              -40.759277,
+              -21.2689
+            ],
+            [
+              -40.490112,
+              -20.905003
+            ],
+            [
+              -40.220947,
+              -20.421865
+            ],
+            [
+              -40.174255,
+              -20.316297
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.27991.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.27991.1",
         "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
