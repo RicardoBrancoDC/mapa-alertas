@@ -3,6 +3,8 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Sebastião", "uf": "SP", "codibge": "3550704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.685104466448813, -23.745750935 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Ubatuba", "uf": "SP", "codibge": "3555406", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.081609183741129, -23.397500162500002 ] } }
 ]
 }
