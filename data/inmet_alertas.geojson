@@ -989,6 +989,106 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28011.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28011.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",
+        "event": "Baixa Umidade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-11T12:00:00-03:00",
+        "expires": "2026-08-11T18:00:00-03:00",
+        "sent": "2026-08-10T11:41:05-03:00",
+        "pubDate": "Tue, 11 Aug 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 11/08/2026 12:00. Umidade relativa do ar variando entre 20% e 12%. Risco de incÃªndios florestais e Ã  saÃºde. Ressecamento da pele, desconforto nos olhos, boca e nariz.",
+        "instruction": "Beba bastante lÃ­quido.  Atividades fÃ­sicas nÃ£o sÃ£o recomendadas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Use hidratante para pele e umidifique o ambiente. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55320",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Leste Goiano, Ocidental do Tocantins, Centro-Sul Mato-grossense, Sul Goiano, Centro Goiano, Nordeste Mato-grossense, Centro Norte de Mato Grosso do Sul, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Sudeste Mato-grossense, Norte Goiano, Noroeste Goiano, Sudeste Paraense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Extremo Oeste Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Leste Goiano, Ocidental do Tocantins, Centro-Sul Mato-grossense, Sul Goiano, Centro Goiano, Nordeste Mato-grossense, Centro Norte de Mato Grosso do Sul, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Sudeste Mato-grossense, Norte Goiano, Noroeste Goiano, Sudeste Paraense, Pantanais Sul Mato-grossense, Leste de Mato Grosso do Sul, Extremo Oeste Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55320"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.362305,
+              -10.833306
+            ],
+            [
+              -46.933594,
+              -9.232249
+            ],
+            [
+              -48.383789,
+              -8.233237
+            ],
+            [
+              -50.229492,
+              -7.536764
+            ],
+            [
+              -54.228516,
+              -7.318882
+            ],
+            [
+              -56.689453,
+              -8.841651
+            ],
+            [
+              -56.953125,
+              -10.790141
+            ],
+            [
+              -56.821289,
+              -13.966054
+            ],
+            [
+              -55.239258,
+              -18.062312
+            ],
+            [
+              -53.349609,
+              -18.562947
+            ],
+            [
+              -51.767578,
+              -18.39623
+            ],
+            [
+              -49.174805,
+              -16.467695
+            ],
+            [
+              -47.988281,
+              -14.604847
+            ],
+            [
+              -47.06543,
+              -12.811801
+            ],
+            [
+              -46.362305,
+              -10.833306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28005.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28005.1",
         "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
