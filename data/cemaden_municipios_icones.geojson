@@ -3,6 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caxias do Sul", "uf": "RS", "codibge": "4305108", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.026794579476693, -29.076819785 ] } }
 ]
 }
