@@ -396,6 +396,114 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28041.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28041.1",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo",
+        "event": "Ventos Costeiros",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-15T12:00:00-03:00",
+        "expires": "2026-08-15T23:59:00-03:00",
+        "sent": "2026-08-15T11:00:16-03:00",
+        "pubDate": "Sat, 15 Aug 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 15/08/2026 12:00. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/55365",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Porto Alegre, Sudeste Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Porto Alegre, Sudeste Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55365"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.163086,
+              -32.194209
+            ],
+            [
+              -52.371826,
+              -31.952162
+            ],
+            [
+              -52.283936,
+              -31.569175
+            ],
+            [
+              -51.767578,
+              -30.883369
+            ],
+            [
+              -51.459961,
+              -30.486551
+            ],
+            [
+              -51.108398,
+              -30.249577
+            ],
+            [
+              -50.690918,
+              -30.088108
+            ],
+            [
+              -50.482178,
+              -29.964453
+            ],
+            [
+              -50.163574,
+              -29.97397
+            ],
+            [
+              -50.031738,
+              -30.021544
+            ],
+            [
+              -50.141602,
+              -30.410782
+            ],
+            [
+              -50.383301,
+              -30.845647
+            ],
+            [
+              -50.866699,
+              -31.391158
+            ],
+            [
+              -51.262207,
+              -31.746854
+            ],
+            [
+              -51.745605,
+              -32.045333
+            ],
+            [
+              -51.888428,
+              -32.184911
+            ],
+            [
+              -52.163086,
+              -32.194209
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
