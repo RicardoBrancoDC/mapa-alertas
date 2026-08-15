@@ -6,6 +6,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Paulo", "uf": "SP", "codibge": "3550308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.717054522714349, -23.683385999 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Rio de Janeiro", "uf": "RJ", "codibge": "3304557", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.466108638108537, -22.937430926499999 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Juiz de Fora", "uf": "MG", "codibge": "3136702", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.450997967359626, -21.759089495 ] } }
 ]
 }
