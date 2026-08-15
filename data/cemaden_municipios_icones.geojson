@@ -3,6 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Paulo", "uf": "SP", "codibge": "3550308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.717054522714349, -23.683385999 ] } }
 ]
 }

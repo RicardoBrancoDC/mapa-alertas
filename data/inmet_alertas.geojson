@@ -1,4 +1,177 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28042.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28042.1",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "event": "Ventos Costeiros",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-15T08:03:00-03:00",
+        "expires": "2026-08-16T23:59:00-03:00",
+        "sent": "2026-08-15T11:04:50-03:00",
+        "pubDate": "Sat, 15 Aug 2026 08:03:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 15/08/2026 08:03. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/55366",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Catarinense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Grande FlorianÃ³polis, Nordeste Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Catarinense, Metropolitana de Porto Alegre, Sudeste Rio-grandense, Grande FlorianÃ³polis, Nordeste Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55366"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.410034,
+              -33.728908
+            ],
+            [
+              -53.453979,
+              -33.513919
+            ],
+            [
+              -53.470459,
+              -33.358062
+            ],
+            [
+              -53.031006,
+              -33.077734
+            ],
+            [
+              -52.761841,
+              -32.787275
+            ],
+            [
+              -52.536621,
+              -32.389239
+            ],
+            [
+              -52.119141,
+              -31.933517
+            ],
+            [
+              -51.849976,
+              -31.662733
+            ],
+            [
+              -51.481934,
+              -31.278551
+            ],
+            [
+              -51.152344,
+              -30.803193
+            ],
+            [
+              -50.916138,
+              -30.514949
+            ],
+            [
+              -50.548096,
+              -30.135626
+            ],
+            [
+              -50.350342,
+              -29.75484
+            ],
+            [
+              -49.910889,
+              -29.219302
+            ],
+            [
+              -49.482422,
+              -28.777289
+            ],
+            [
+              -49.064941,
+              -28.401065
+            ],
+            [
+              -48.867188,
+              -28.004102
+            ],
+            [
+              -48.581543,
+              -27.644606
+            ],
+            [
+              -48.339844,
+              -27.615406
+            ],
+            [
+              -48.713379,
+              -28.536275
+            ],
+            [
+              -49.240723,
+              -28.902397
+            ],
+            [
+              -49.844971,
+              -29.602118
+            ],
+            [
+              -50.042725,
+              -30.097613
+            ],
+            [
+              -50.29541,
+              -30.628459
+            ],
+            [
+              -50.603027,
+              -31.062345
+            ],
+            [
+              -50.855713,
+              -31.363018
+            ],
+            [
+              -51.240234,
+              -31.737511
+            ],
+            [
+              -51.668701,
+              -31.989442
+            ],
+            [
+              -51.932373,
+              -32.184911
+            ],
+            [
+              -52.185059,
+              -32.314991
+            ],
+            [
+              -52.426758,
+              -32.842674
+            ],
+            [
+              -52.701416,
+              -33.330528
+            ],
+            [
+              -53.410034,
+              -33.728908
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
