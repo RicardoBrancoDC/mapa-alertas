@@ -7,6 +7,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Parobé", "uf": "RS", "codibge": "4314050", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.858644661571383, -29.656843874499998 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Igrejinha", "uf": "RS", "codibge": "4310108", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.774460314944818, -29.563898558 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pelotas", "uf": "RS", "codibge": "4314407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.341898247608285, -31.561206036 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pedro Osório", "uf": "RS", "codibge": "4314209", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.911898102063759, -31.982154779499993 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pedro Osório", "uf": "RS", "codibge": "4314209", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.911898102063759, -31.982154779499993 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Lourenço do Sul", "uf": "RS", "codibge": "4318804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.128433460700833, -31.252891709499998 ] } }
 ]
 }
