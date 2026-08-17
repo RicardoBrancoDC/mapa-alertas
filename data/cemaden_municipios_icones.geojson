@@ -5,7 +5,6 @@
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pelotas", "uf": "RS", "codibge": "4314407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.341898247608285, -31.561206036 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pedro Osório", "uf": "RS", "codibge": "4314209", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.911898102063759, -31.982154779499993 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Lourenço do Sul", "uf": "RS", "codibge": "4318804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.128433460700833, -31.252891709499998 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Capão do Leão", "uf": "RS", "codibge": "4304663", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.542446681314402, -31.850314256499999 ] } }
 ]
 }
