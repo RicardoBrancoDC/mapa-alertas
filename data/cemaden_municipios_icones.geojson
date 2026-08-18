@@ -15,6 +15,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Palmares", "uf": "PE", "codibge": "2610004", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.607865415881989, -8.6639200765 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cortês", "uf": "PE", "codibge": "2604809", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.531265661129559, -8.423345969500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ribeirão", "uf": "PE", "codibge": "2611804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.350726862531396, -8.5195511965 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Bonito", "uf": "PE", "codibge": "2602308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.750581304988451, -8.486499683 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Bonito", "uf": "PE", "codibge": "2602308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.750581304988451, -8.486499683 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cabo de Santo Agostinho", "uf": "PE", "codibge": "2602902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.091675244559966, -8.275342245 ] } }
 ]
 }
