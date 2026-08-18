@@ -16,6 +16,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Ribeirão", "uf": "PE", "codibge": "2611804", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.350726862531396, -8.5195511965 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Bonito", "uf": "PE", "codibge": "2602308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.750581304988451, -8.486499683 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cabo de Santo Agostinho", "uf": "PE", "codibge": "2602902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.091675244559966, -8.275342245 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Jaguarão", "uf": "RS", "codibge": "4311007", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.335718000170814, -32.400952074499997 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Jaguarão", "uf": "RS", "codibge": "4311007", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.335718000170814, -32.400952074499997 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Vitória de Santo Antão", "uf": "PE", "codibge": "2616407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.274961143675256, -8.1640690855 ] } }
 ]
 }
