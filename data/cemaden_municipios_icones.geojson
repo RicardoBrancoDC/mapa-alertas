@@ -20,6 +20,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Vitória de Santo Antão", "uf": "PE", "codibge": "2616407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.274961143675256, -8.1640690855 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Recife", "uf": "PE", "codibge": "2611606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -34.927781066427215, -8.044199039 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Jaboatão dos Guararapes", "uf": "PE", "codibge": "2607901", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -35.001620623033673, -8.1486327005 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Lourenço do Sul", "uf": "RS", "codibge": "4318804", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.128433460700833, -31.252891709499998 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Lourenço do Sul", "uf": "RS", "codibge": "4318804", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.128433460700833, -31.252891709499998 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Dom Pedrito", "uf": "RS", "codibge": "4306601", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.521542771579277, -31.019066326 ] } }
 ]
 }
