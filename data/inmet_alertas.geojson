@@ -1912,6 +1912,474 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28084.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28084.1",
+        "titulo": "Aviso de Vendaval. Severidade Grau: Perigo",
+        "event": "Vendaval",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-21T12:00:00-03:00",
+        "expires": "2026-08-21T23:59:00-03:00",
+        "sent": "2026-08-20T13:19:03-03:00",
+        "pubDate": "Fri, 21 Aug 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Vendaval. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 21/08/2026 12:00. Vento variando entre 60 km/h e 100 km/h. Risco de queda de Ã¡rvores, destelhamento de casas e danos gerais em edificaÃ§Ãµes e plantaÃ§Ãµes.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Permaneca em local abrigado. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55440",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Fluminense, Baixadas, Vale do ParaÃ­ba Paulista, Metropolitana do Rio de Janeiro, Metropolitana de SÃ£o Paulo, Centro Fluminense, Norte Fluminense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Fluminense, Baixadas, Vale do ParaÃ­ba Paulista, Metropolitana do Rio de Janeiro, Metropolitana de SÃ£o Paulo, Centro Fluminense, Norte Fluminense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55440"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.973511,
+              -21.412162
+            ],
+            [
+              -40.995483,
+              -21.611472
+            ],
+            [
+              -40.984497,
+              -21.841105
+            ],
+            [
+              -40.968018,
+              -21.993989
+            ],
+            [
+              -41.077881,
+              -22.09073
+            ],
+            [
+              -41.303101,
+              -22.187405
+            ],
+            [
+              -41.621704,
+              -22.339914
+            ],
+            [
+              -41.885376,
+              -22.573438
+            ],
+            [
+              -41.868896,
+              -22.781246
+            ],
+            [
+              -41.951294,
+              -22.973567
+            ],
+            [
+              -42.165527,
+              -23.029187
+            ],
+            [
+              -42.852173,
+              -23.054462
+            ],
+            [
+              -43.665161,
+              -23.145411
+            ],
+            [
+              -44.598999,
+              -23.392682
+            ],
+            [
+              -44.983521,
+              -23.543845
+            ],
+            [
+              -45.093384,
+              -23.669682
+            ],
+            [
+              -45.10437,
+              -23.865745
+            ],
+            [
+              -45.203247,
+              -23.991271
+            ],
+            [
+              -45.351562,
+              -24.011344
+            ],
+            [
+              -45.74707,
+              -23.941076
+            ],
+            [
+              -45.823975,
+              -23.875792
+            ],
+            [
+              -45.911865,
+              -23.725012
+            ],
+            [
+              -45.604248,
+              -23.508589
+            ],
+            [
+              -45.488892,
+              -23.367471
+            ],
+            [
+              -45.159302,
+              -23.089838
+            ],
+            [
+              -44.780273,
+              -22.872379
+            ],
+            [
+              -44.478149,
+              -22.781246
+            ],
+            [
+              -44.241943,
+              -22.66471
+            ],
+            [
+              -43.983765,
+              -22.548074
+            ],
+            [
+              -43.610229,
+              -22.563293
+            ],
+            [
+              -43.15979,
+              -22.512557
+            ],
+            [
+              -42.874146,
+              -22.502407
+            ],
+            [
+              -42.572021,
+              -22.375476
+            ],
+            [
+              -42.324829,
+              -22.233175
+            ],
+            [
+              -41.868896,
+              -21.943046
+            ],
+            [
+              -41.654663,
+              -21.769703
+            ],
+            [
+              -41.390991,
+              -21.468406
+            ],
+            [
+              -41.242676,
+              -21.371244
+            ],
+            [
+              -41.099854,
+              -21.340548
+            ],
+            [
+              -40.973511,
+              -21.412162
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28077.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28077.1",
+        "titulo": "Aviso de Vendaval. Severidade Grau: Perigo Potencial",
+        "event": "Vendaval",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-21T12:00:00-03:00",
+        "expires": "2026-08-21T23:59:00-03:00",
+        "sent": "2026-08-19T18:09:20-03:00",
+        "pubDate": "Fri, 21 Aug 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Vendaval. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 21/08/2026 12:00. Vento variando entre 40 km/h e 60 km/h. Baixo risco de queda de galhos de Ã¡rvores.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55429",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Fluminense, Vale do ParaÃ­ba Paulista, Baixadas, Metropolitana do Rio de Janeiro, Centro Fluminense, Norte Fluminense, Sul EspÃ­rito-santense, Metropolitana de SÃ£o Paulo",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Fluminense, Vale do ParaÃ­ba Paulista, Baixadas, Metropolitana do Rio de Janeiro, Centro Fluminense, Norte Fluminense, Sul EspÃ­rito-santense, Metropolitana de SÃ£o Paulo"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55429"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.841675,
+              -21.227942
+            ],
+            [
+              -40.951538,
+              -21.37636
+            ],
+            [
+              -41.017456,
+              -21.488852
+            ],
+            [
+              -41.022949,
+              -21.580827
+            ],
+            [
+              -40.968018,
+              -21.652323
+            ],
+            [
+              -40.968018,
+              -21.810508
+            ],
+            [
+              -40.951538,
+              -21.943046
+            ],
+            [
+              -41.039429,
+              -22.100909
+            ],
+            [
+              -41.281128,
+              -22.192491
+            ],
+            [
+              -41.64917,
+              -22.324671
+            ],
+            [
+              -41.764526,
+              -22.426263
+            ],
+            [
+              -41.940308,
+              -22.57851
+            ],
+            [
+              -41.945801,
+              -22.649502
+            ],
+            [
+              -41.852417,
+              -22.735657
+            ],
+            [
+              -41.912842,
+              -22.887562
+            ],
+            [
+              -41.945801,
+              -23.019076
+            ],
+            [
+              -42.198486,
+              -23.01402
+            ],
+            [
+              -42.692871,
+              -23.024132
+            ],
+            [
+              -43.104858,
+              -23.008964
+            ],
+            [
+              -43.363037,
+              -23.049407
+            ],
+            [
+              -43.577271,
+              -23.094891
+            ],
+            [
+              -43.868408,
+              -23.115102
+            ],
+            [
+              -44.082642,
+              -23.216107
+            ],
+            [
+              -44.390259,
+              -23.281719
+            ],
+            [
+              -44.615479,
+              -23.372514
+            ],
+            [
+              -44.884644,
+              -23.458207
+            ],
+            [
+              -45.12085,
+              -23.629427
+            ],
+            [
+              -44.956055,
+              -23.725012
+            ],
+            [
+              -44.994507,
+              -23.820526
+            ],
+            [
+              -45.12085,
+              -23.941076
+            ],
+            [
+              -45.274658,
+              -24.026397
+            ],
+            [
+              -45.576782,
+              -24.071544
+            ],
+            [
+              -45.697632,
+              -23.991271
+            ],
+            [
+              -45.714111,
+              -23.875792
+            ],
+            [
+              -45.719604,
+              -23.790371
+            ],
+            [
+              -45.725098,
+              -23.684774
+            ],
+            [
+              -45.730591,
+              -23.63446
+            ],
+            [
+              -45.708618,
+              -23.463246
+            ],
+            [
+              -45.466919,
+              -23.246393
+            ],
+            [
+              -45.252686,
+              -23.104997
+            ],
+            [
+              -45.0,
+              -22.993795
+            ],
+            [
+              -44.692383,
+              -22.852133
+            ],
+            [
+              -44.478149,
+              -22.73059
+            ],
+            [
+              -44.285889,
+              -22.598798
+            ],
+            [
+              -44.13208,
+              -22.497332
+            ],
+            [
+              -43.895874,
+              -22.456726
+            ],
+            [
+              -43.582764,
+              -22.426263
+            ],
+            [
+              -43.115845,
+              -22.43134
+            ],
+            [
+              -42.95105,
+              -22.441495
+            ],
+            [
+              -42.681885,
+              -22.426263
+            ],
+            [
+              -42.368774,
+              -22.329752
+            ],
+            [
+              -42.225952,
+              -22.223005
+            ],
+            [
+              -41.846924,
+              -21.922663
+            ],
+            [
+              -41.550293,
+              -21.672744
+            ],
+            [
+              -41.314087,
+              -21.350781
+            ],
+            [
+              -40.995483,
+              -21.181851
+            ],
+            [
+              -40.841675,
+              -21.227942
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
