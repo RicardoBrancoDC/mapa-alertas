@@ -5,6 +5,178 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28090.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28090.2",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "event": "Ventos Costeiros",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-22T09:00:00-03:00",
+        "expires": "2026-08-22T23:59:00-03:00",
+        "sent": "2026-08-21T00:00:00-03:00",
+        "pubDate": "Sat, 22 Aug 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 22/08/2026 09:00. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/55458",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Norte Cearense, Noroeste Cearense, Central Potiguar, Leste Maranhense, Oeste Potiguar, Metropolitana de Fortaleza, Jaguaribe, Norte Maranhense, Agreste Potiguar, Norte Piauiense, Leste Potiguar",
+        "areas": [
+          "Aviso para as Ã¡reas: Norte Cearense, Noroeste Cearense, Central Potiguar, Leste Maranhense, Oeste Potiguar, Metropolitana de Fortaleza, Jaguaribe, Norte Maranhense, Agreste Potiguar, Norte Piauiense, Leste Potiguar"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55458"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -44.01123,
+              -2.405299
+            ],
+            [
+              -43.956299,
+              -2.668712
+            ],
+            [
+              -43.494873,
+              -2.712609
+            ],
+            [
+              -42.945557,
+              -2.866235
+            ],
+            [
+              -42.198486,
+              -3.074695
+            ],
+            [
+              -41.297607,
+              -3.337954
+            ],
+            [
+              -40.330811,
+              -3.217302
+            ],
+            [
+              -39.737549,
+              -3.480523
+            ],
+            [
+              -39.111328,
+              -3.908099
+            ],
+            [
+              -38.375244,
+              -4.488809
+            ],
+            [
+              -37.529297,
+              -5.11283
+            ],
+            [
+              -36.210938,
+              -5.462896
+            ],
+            [
+              -35.189209,
+              -5.845545
+            ],
+            [
+              -35.090332,
+              -5.796362
+            ],
+            [
+              -35.293579,
+              -5.233187
+            ],
+            [
+              -35.612183,
+              -5.025283
+            ],
+            [
+              -36.403198,
+              -4.97056
+            ],
+            [
+              -37.11731,
+              -4.762573
+            ],
+            [
+              -37.74353,
+              -4.329979
+            ],
+            [
+              -38.303833,
+              -3.787522
+            ],
+            [
+              -38.995972,
+              -3.266661
+            ],
+            [
+              -39.715576,
+              -2.860749
+            ],
+            [
+              -40.402222,
+              -2.690661
+            ],
+            [
+              -41.127319,
+              -2.778451
+            ],
+            [
+              -41.764526,
+              -2.701635
+            ],
+            [
+              -42.099609,
+              -2.564451
+            ],
+            [
+              -42.731323,
+              -2.443717
+            ],
+            [
+              -43.406982,
+              -2.246129
+            ],
+            [
+              -43.527832,
+              -2.128112
+            ],
+            [
+              -43.775024,
+              -2.147324
+            ],
+            [
+              -43.926086,
+              -2.281806
+            ],
+            [
+              -44.013977,
+              -2.34767
+            ],
+            [
+              -44.01123,
+              -2.405299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28098.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28098.1",
         "titulo": "Aviso de Vendaval. Severidade Grau: Perigo Potencial",
