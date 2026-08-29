@@ -8,7 +8,6 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pelotas", "uf": "RS", "codibge": "4314407", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.341898247608285, -31.561206036 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Arroio Grande", "uf": "RS", "codibge": "4301305", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.029908720121668, -32.194648240499994 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Capão do Leão", "uf": "RS", "codibge": "4304663", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.542446681314402, -31.850314256499999 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pedro Osório", "uf": "RS", "codibge": "4314209", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.911898102063759, -31.982154779499993 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Igrejinha", "uf": "RS", "codibge": "4310108", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.774460314944818, -29.563898558 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Pedro Osório", "uf": "RS", "codibge": "4314209", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.911898102063759, -31.982154779499993 ] } }
 ]
 }
