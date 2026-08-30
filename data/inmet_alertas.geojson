@@ -1940,6 +1940,122 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28149.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28149.1",
+        "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
+        "event": "Chuvas Intensas",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-08-30T15:00:00-03:00",
+        "expires": "2026-08-31T10:00:00-03:00",
+        "sent": "2026-08-30T12:51:01-03:00",
+        "pubDate": "Sun, 30 Aug 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Chuvas Intensas. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 30/08/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elÃ©trica, queda de galhos de Ã¡rvores, alagamentos e de descargas elÃ©tricas.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55531",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Leste Alagoano",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Recife, Mata Pernambucana, Leste Alagoano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55531"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -34.837646,
+              -7.634776
+            ],
+            [
+              -35.046387,
+              -7.721878
+            ],
+            [
+              -35.189209,
+              -8.037473
+            ],
+            [
+              -35.375977,
+              -8.320212
+            ],
+            [
+              -35.634155,
+              -8.678779
+            ],
+            [
+              -35.842896,
+              -9.042428
+            ],
+            [
+              -35.963745,
+              -9.253936
+            ],
+            [
+              -36.090088,
+              -9.492408
+            ],
+            [
+              -36.177979,
+              -9.741542
+            ],
+            [
+              -36.243896,
+              -10.141932
+            ],
+            [
+              -36.177979,
+              -10.314919
+            ],
+            [
+              -35.980225,
+              -10.16356
+            ],
+            [
+              -35.628662,
+              -9.719886
+            ],
+            [
+              -35.386963,
+              -9.427387
+            ],
+            [
+              -35.15625,
+              -9.145486
+            ],
+            [
+              -34.925537,
+              -8.646196
+            ],
+            [
+              -34.837646,
+              -8.24411
+            ],
+            [
+              -34.760742,
+              -7.89603
+            ],
+            [
+              -34.837646,
+              -7.634776
+            ]
+          ]
+        ]
+      }
     }
   ]
 }

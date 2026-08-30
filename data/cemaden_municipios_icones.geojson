@@ -5,6 +5,7 @@
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Lages", "uf": "SC", "codibge": "4209300", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.305841758668336, -28.002364014500003 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Caxias do Sul", "uf": "RS", "codibge": "4305108", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.026794579476693, -29.076819785 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Sebastião do Caí", "uf": "RS", "codibge": "4319505", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.332523515748576, -29.585937651 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Sebastião do Caí", "uf": "RS", "codibge": "4319505", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.332523515748576, -29.585937651 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Paulo", "uf": "SP", "codibge": "3550308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.717054522714349, -23.683385999 ] } }
 ]
 }
