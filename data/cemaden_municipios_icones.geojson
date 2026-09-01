@@ -40,6 +40,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Pomerode", "uf": "SC", "codibge": "4213203", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.173352164688957, -26.727791573499996 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Capinzal", "uf": "SC", "codibge": "4203907", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.630678375057109, -27.423240249499994 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cerro Azul", "uf": "PR", "codibge": "4105201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.245544953182545, -24.885213388 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio dos Cedros", "uf": "SC", "codibge": "4214706", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.359262648859854, -26.632953813500002 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio dos Cedros", "uf": "SC", "codibge": "4214706", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.359262648859854, -26.632953813500002 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itararé", "uf": "SP", "codibge": "3523206", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.301971977545371, -24.101336558 ] } }
 ]
 }
