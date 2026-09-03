@@ -3,9 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Otacílio Costa", "uf": "SC", "codibge": "4211751", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.008803661374877, -27.4976205245 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Eldorado", "uf": "SP", "codibge": "3514809", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.19601471728366, -24.499841694499999 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Sete Barras", "uf": "SP", "codibge": "3551801", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -47.942309827678443, -24.295279841 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Registro", "uf": "SP", "codibge": "3542602", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -47.798023923920347, -24.494725533 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Sete Barras", "uf": "SP", "codibge": "3551801", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -47.942309827678443, -24.295279841 ] } }
 ]
 }
