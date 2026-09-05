@@ -484,6 +484,150 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28191.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28191.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-05T10:00:00-03:00",
+        "expires": "2026-09-05T23:00:00-03:00",
+        "sent": "2026-09-04T12:07:28-03:00",
+        "pubDate": "Sat, 05 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 05/09/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55608",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Sudeste Piauiense, SertÃµes Cearenses, Nordeste Baiano, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Oeste Potiguar, Agreste Pernambucano, Norte de Minas, Jequitinhonha, Jaguaribe, Sudoeste Piauiense, Centro-Norte Piauiense, Centro Norte Baiano, Borborema, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste de Minas, Leste Maranhense, Central Mineira, Central Potiguar, Norte Cearense, SertÃ£o Sergipano, Vale do Mucuri, Noroeste Cearense, Oriental do Tocantins, Agreste Sergipano",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Sudeste Piauiense, SertÃµes Cearenses, Nordeste Baiano, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Oeste Potiguar, Agreste Pernambucano, Norte de Minas, Jequitinhonha, Jaguaribe, Sudoeste Piauiense, Centro-Norte Piauiense, Centro Norte Baiano, Borborema, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste de Minas, Leste Maranhense, Central Mineira, Central Potiguar, Norte Cearense, SertÃ£o Sergipano, Vale do Mucuri, Noroeste Cearense, Oriental do Tocantins, Agreste Sergipano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55608"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -37.661133,
+              -5.397273
+            ],
+            [
+              -38.891602,
+              -4.65308
+            ],
+            [
+              -40.253906,
+              -4.609278
+            ],
+            [
+              -41.52832,
+              -5.397273
+            ],
+            [
+              -42.84668,
+              -6.271618
+            ],
+            [
+              -44.384766,
+              -7.667441
+            ],
+            [
+              -45.483398,
+              -9.709057
+            ],
+            [
+              -46.098633,
+              -11.652236
+            ],
+            [
+              -45.834961,
+              -13.923404
+            ],
+            [
+              -45.708618,
+              -15.543668
+            ],
+            [
+              -45.428467,
+              -16.467695
+            ],
+            [
+              -45.148315,
+              -17.08304
+            ],
+            [
+              -44.780273,
+              -17.471193
+            ],
+            [
+              -43.90686,
+              -17.722526
+            ],
+            [
+              -43.033447,
+              -17.727759
+            ],
+            [
+              -42.346802,
+              -17.628317
+            ],
+            [
+              -41.748047,
+              -17.434511
+            ],
+            [
+              -40.473633,
+              -16.299051
+            ],
+            [
+              -40.297852,
+              -14.43468
+            ],
+            [
+              -39.462891,
+              -12.297068
+            ],
+            [
+              -38.452148,
+              -11.135287
+            ],
+            [
+              -37.573242,
+              -10.358151
+            ],
+            [
+              -37.045898,
+              -9.102097
+            ],
+            [
+              -36.782227,
+              -7.188101
+            ],
+            [
+              -37.045898,
+              -6.09686
+            ],
+            [
+              -37.661133,
+              -5.397273
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
