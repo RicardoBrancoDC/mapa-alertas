@@ -5,6 +5,190 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28230.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28230.1",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-09T15:30:00-03:00",
+        "expires": "2026-09-10T10:00:00-03:00",
+        "sent": "2026-09-09T18:14:22-03:00",
+        "pubDate": "Wed, 09 Sep 2026 15:30:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 09/09/2026 15:30. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55663",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de SÃ£o Paulo, Litoral Sul Paulista, Vale do ParaÃ­ba Paulista, Metropolitana de Curitiba, Sul Fluminense",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de SÃ£o Paulo, Litoral Sul Paulista, Vale do ParaÃ­ba Paulista, Metropolitana de Curitiba, Sul Fluminense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55663"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -47.89544,
+              -25.310875
+            ],
+            [
+              -48.152046,
+              -25.27899
+            ],
+            [
+              -48.168983,
+              -25.131702
+            ],
+            [
+              -47.745665,
+              -24.80449
+            ],
+            [
+              -47.296342,
+              -24.386976
+            ],
+            [
+              -47.081909,
+              -24.231938
+            ],
+            [
+              -46.866989,
+              -24.077488
+            ],
+            [
+              -46.498632,
+              -23.948795
+            ],
+            [
+              -46.223989,
+              -23.851538
+            ],
+            [
+              -46.047478,
+              -23.642115
+            ],
+            [
+              -45.787869,
+              -23.55064
+            ],
+            [
+              -45.48832,
+              -23.459101
+            ],
+            [
+              -45.228709,
+              -23.33084
+            ],
+            [
+              -45.10889,
+              -23.312507
+            ],
+            [
+              -44.982032,
+              -23.275317
+            ],
+            [
+              -44.884659,
+              -23.298239
+            ],
+            [
+              -44.773793,
+              -23.275317
+            ],
+            [
+              -44.689522,
+              -23.285002
+            ],
+            [
+              -44.554067,
+              -23.268426
+            ],
+            [
+              -44.468679,
+              -23.350987
+            ],
+            [
+              -44.460683,
+              -23.471509
+            ],
+            [
+              -44.471226,
+              -23.619334
+            ],
+            [
+              -44.655933,
+              -23.728202
+            ],
+            [
+              -44.877663,
+              -23.891265
+            ],
+            [
+              -45.238695,
+              -24.043844
+            ],
+            [
+              -45.518274,
+              -24.189617
+            ],
+            [
+              -45.797853,
+              -24.298838
+            ],
+            [
+              -46.104126,
+              -24.488949
+            ],
+            [
+              -46.273412,
+              -24.534389
+            ],
+            [
+              -46.433215,
+              -24.563455
+            ],
+            [
+              -46.847205,
+              -24.794831
+            ],
+            [
+              -47.124338,
+              -24.954305
+            ],
+            [
+              -47.273169,
+              -25.107181
+            ],
+            [
+              -47.624731,
+              -25.303288
+            ],
+            [
+              -47.771873,
+              -25.303731
+            ],
+            [
+              -47.89544,
+              -25.310875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28221.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28221.1",
         "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
