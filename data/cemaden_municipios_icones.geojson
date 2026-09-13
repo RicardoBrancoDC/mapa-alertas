@@ -155,6 +155,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Cerro Azul", "uf": "PR", "codibge": "4105201", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.245544953182545, -24.885213388 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Almirante Tamandaré", "uf": "PR", "codibge": "4100400", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.327871565477587, -25.306350358500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Rio Branco do Sul", "uf": "PR", "codibge": "4122206", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.380802961381946, -25.055455708500002 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Antonina", "uf": "PR", "codibge": "4101200", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.704154874127802, -25.2961971115 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Antonina", "uf": "PR", "codibge": "4101200", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.704154874127802, -25.2961971115 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Porto Mauá", "uf": "RS", "codibge": "4315057", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.67862216330505, -27.583551203 ] } }
 ]
 }
