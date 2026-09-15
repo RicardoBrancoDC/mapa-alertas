@@ -1,8 +1,8 @@
 {
   "status": "ok",
-  "updated_at": "2026-09-15T12:03:32.528275+00:00",
-  "alertas_abertos": 86,
+  "updated_at": "2026-09-15T16:44:13.692742+00:00",
+  "alertas_abertos": 80,
   "estados_com_alerta": 6,
-  "municipios_com_alerta": 80,
-  "icones": 86
+  "municipios_com_alerta": 75,
+  "icones": 80
 }
