@@ -1,4 +1,633 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28274.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28274.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",
+        "event": "Baixa Umidade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-16T10:00:00-03:00",
+        "expires": "2026-09-16T21:00:00-03:00",
+        "sent": "2026-09-16T11:53:08-03:00",
+        "pubDate": "Wed, 16 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 16/09/2026 10:00. Umidade relativa do ar variando entre 20% e 12%. Risco de incÃªndios florestais e Ã  saÃºde. Ressecamento da pele, desconforto nos olhos, boca e nariz.",
+        "instruction": "Beba bastante lÃ­quido.  Atividades fÃ­sicas nÃ£o sÃ£o recomendadas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Use hidratante para pele e umidifique o ambiente. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55730",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Maranhense, Sudoeste Piauiense, Extremo Oeste Baiano, Oriental do Tocantins, Vale SÃ£o-Franciscano da Bahia, Norte Goiano, Sudeste Piauiense, Leste Goiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Maranhense, Sudoeste Piauiense, Extremo Oeste Baiano, Oriental do Tocantins, Vale SÃ£o-Franciscano da Bahia, Norte Goiano, Sudeste Piauiense, Leste Goiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55730"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -45.834961,
+              -8.885072
+            ],
+            [
+              -44.428711,
+              -8.450639
+            ],
+            [
+              -43.066406,
+              -8.189742
+            ],
+            [
+              -42.011719,
+              -8.189742
+            ],
+            [
+              -42.011719,
+              -9.709057
+            ],
+            [
+              -43.022461,
+              -10.876465
+            ],
+            [
+              -43.59375,
+              -13.197165
+            ],
+            [
+              -44.692383,
+              -14.179186
+            ],
+            [
+              -46.142578,
+              -14.051331
+            ],
+            [
+              -46.186523,
+              -13.154376
+            ],
+            [
+              -46.582031,
+              -12.554564
+            ],
+            [
+              -46.582031,
+              -11.350797
+            ],
+            [
+              -46.494141,
+              -10.358151
+            ],
+            [
+              -45.834961,
+              -8.885072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28273.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28273.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-16T10:00:00-03:00",
+        "expires": "2026-09-16T21:00:00-03:00",
+        "sent": "2026-09-16T11:51:41-03:00",
+        "pubDate": "Wed, 16 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 16/09/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55729",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Goiano, Leste Goiano, Sul Cearense, Vale SÃ£o-Franciscano da Bahia, Ocidental do Tocantins, Central Potiguar, Sudeste Piauiense, SertÃµes Cearenses, Oeste Potiguar, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Nordeste Mato-grossense, SertÃ£o Paraibano, Oriental do Tocantins, Norte Goiano, Sul Maranhense, Jaguaribe, Sudoeste Piauiense, Borborema, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste Goiano, Noroeste de Minas, Leste Maranhense, Norte de Minas, Centro Sul Baiano, Distrito Federal, Sul Goiano, Centro Norte Baiano, Noroeste Cearense, Sudeste Paraense, Agreste Pernambucano, Nordeste Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Goiano, Leste Goiano, Sul Cearense, Vale SÃ£o-Franciscano da Bahia, Ocidental do Tocantins, Central Potiguar, Sudeste Piauiense, SertÃµes Cearenses, Oeste Potiguar, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Nordeste Mato-grossense, SertÃ£o Paraibano, Oriental do Tocantins, Norte Goiano, Sul Maranhense, Jaguaribe, Sudoeste Piauiense, Borborema, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste Goiano, Noroeste de Minas, Leste Maranhense, Norte de Minas, Centro Sul Baiano, Distrito Federal, Sul Goiano, Centro Norte Baiano, Noroeste Cearense, Sudeste Paraense, Agreste Pernambucano, Nordeste Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55729"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -37.792969,
+              -5.397273
+            ],
+            [
+              -37.045898,
+              -5.615986
+            ],
+            [
+              -36.606445,
+              -6.402648
+            ],
+            [
+              -36.694336,
+              -7.623887
+            ],
+            [
+              -36.870117,
+              -8.015716
+            ],
+            [
+              -37.924805,
+              -8.928487
+            ],
+            [
+              -39.067383,
+              -9.535749
+            ],
+            [
+              -41.132813,
+              -10.185187
+            ],
+            [
+              -42.802734,
+              -11.953349
+            ],
+            [
+              -42.802734,
+              -13.325485
+            ],
+            [
+              -43.417969,
+              -15.072124
+            ],
+            [
+              -44.208984,
+              -15.45368
+            ],
+            [
+              -45.922852,
+              -15.623037
+            ],
+            [
+              -47.15332,
+              -15.623037
+            ],
+            [
+              -48.164063,
+              -16.299051
+            ],
+            [
+              -48.823242,
+              -17.056785
+            ],
+            [
+              -49.526367,
+              -17.224758
+            ],
+            [
+              -50.317383,
+              -17.056785
+            ],
+            [
+              -51.28418,
+              -16.172473
+            ],
+            [
+              -51.459961,
+              -16.172473
+            ],
+            [
+              -51.943359,
+              -15.961329
+            ],
+            [
+              -52.03125,
+              -15.326572
+            ],
+            [
+              -52.426758,
+              -14.604847
+            ],
+            [
+              -52.338867,
+              -13.154376
+            ],
+            [
+              -51.679688,
+              -10.271681
+            ],
+            [
+              -49.87793,
+              -9.622414
+            ],
+            [
+              -48.032227,
+              -9.18887
+            ],
+            [
+              -46.186523,
+              -8.146243
+            ],
+            [
+              -45.483398,
+              -7.275292
+            ],
+            [
+              -44.428711,
+              -6.446318
+            ],
+            [
+              -43.417969,
+              -5.965754
+            ],
+            [
+              -42.758789,
+              -5.222247
+            ],
+            [
+              -41.835938,
+              -4.65308
+            ],
+            [
+              -39.814453,
+              -4.740675
+            ],
+            [
+              -37.792969,
+              -5.397273
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28270.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28270.2",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-16T10:00:00-03:00",
+        "expires": "2026-09-16T21:00:00-03:00",
+        "sent": "2026-09-15T00:00:00-03:00",
+        "pubDate": "Wed, 16 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 16/09/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55728",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Ocidental do Tocantins, Central Potiguar, Sudeste Piauiense, SertÃµes Cearenses, Oeste Potiguar, Nordeste Baiano, SertÃ£o Pernambucano, Leste Maranhense, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Sudeste Paraense, Nordeste Mato-grossense, SertÃ£o Alagoano, SertÃ£o Paraibano, Leste Goiano, Agreste Pernambucano, Norte de Minas, Noroeste Cearense, Borborema, Agreste Paraibano, Oriental do Tocantins, Jequitinhonha, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Jaguaribe, Sudoeste Piauiense, Centro Norte Baiano, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste Goiano, Agreste Alagoano, Noroeste de Minas, Centro Maranhense, Norte Piauiense, Centro Goiano, Central Mineira, Agreste Potiguar, Norte Cearense, SertÃ£o Sergipano, Vale do Mucuri, Leste Alagoano, Norte Mato-grossense, Oeste Maranhense, Agreste Sergipano",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Ocidental do Tocantins, Central Potiguar, Sudeste Piauiense, SertÃµes Cearenses, Oeste Potiguar, Nordeste Baiano, SertÃ£o Pernambucano, Leste Maranhense, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Sudeste Paraense, Nordeste Mato-grossense, SertÃ£o Alagoano, SertÃ£o Paraibano, Leste Goiano, Agreste Pernambucano, Norte de Minas, Noroeste Cearense, Borborema, Agreste Paraibano, Oriental do Tocantins, Jequitinhonha, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Jaguaribe, Sudoeste Piauiense, Centro Norte Baiano, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste Goiano, Agreste Alagoano, Noroeste de Minas, Centro Maranhense, Norte Piauiense, Centro Goiano, Central Mineira, Agreste Potiguar, Norte Cearense, SertÃ£o Sergipano, Vale do Mucuri, Leste Alagoano, Norte Mato-grossense, Oeste Maranhense, Agreste Sergipano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55728"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -42.780762,
+              -17.790535
+            ],
+            [
+              -41.330566,
+              -17.07779
+            ],
+            [
+              -40.45166,
+              -16.235772
+            ],
+            [
+              -40.78125,
+              -15.474857
+            ],
+            [
+              -40.913086,
+              -13.603278
+            ],
+            [
+              -40.627441,
+              -12.404389
+            ],
+            [
+              -40.209961,
+              -11.587669
+            ],
+            [
+              -39.375,
+              -10.790141
+            ],
+            [
+              -37.683105,
+              -10.466206
+            ],
+            [
+              -36.364746,
+              -9.579084
+            ],
+            [
+              -35.90332,
+              -7.993957
+            ],
+            [
+              -36.057129,
+              -6.293459
+            ],
+            [
+              -38.276367,
+              -5.047171
+            ],
+            [
+              -39.79248,
+              -4.54357
+            ],
+            [
+              -40.561523,
+              -3.601142
+            ],
+            [
+              -43.374023,
+              -3.732708
+            ],
+            [
+              -46.494141,
+              -5.965754
+            ],
+            [
+              -48.120117,
+              -6.533645
+            ],
+            [
+              -49.746094,
+              -6.620957
+            ],
+            [
+              -53.217773,
+              -5.747174
+            ],
+            [
+              -54.404297,
+              -6.446318
+            ],
+            [
+              -54.799805,
+              -8.624472
+            ],
+            [
+              -53.833008,
+              -11.049038
+            ],
+            [
+              -52.514648,
+              -14.604847
+            ],
+            [
+              -50.625,
+              -15.538376
+            ],
+            [
+              -49.262695,
+              -15.45368
+            ],
+            [
+              -48.076172,
+              -15.156974
+            ],
+            [
+              -46.977539,
+              -15.411319
+            ],
+            [
+              -45.483398,
+              -16.383391
+            ],
+            [
+              -44.121094,
+              -17.560247
+            ],
+            [
+              -42.780762,
+              -17.790535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28272.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28272.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-16T08:45:00-03:00",
+        "expires": "2026-09-17T10:00:00-03:00",
+        "sent": "2026-09-16T11:42:45-03:00",
+        "pubDate": "Wed, 16 Sep 2026 08:45:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 16/09/2026 08:45. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55725",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Central Mineira, Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Noroeste EspÃ­rito-santense, Vale do Mucuri, Sul Baiano, Sul EspÃ­rito-santense, Campo das Vertentes, Metropolitana de Belo Horizonte, Jequitinhonha, Noroeste Fluminense, Litoral Norte EspÃ­rito-santense, Norte de Minas, Norte Fluminense, Centro Fluminense, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Oeste de Minas, Noroeste de Minas",
+        "areas": [
+          "Aviso para as Ã¡reas: Central Mineira, Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Noroeste EspÃ­rito-santense, Vale do Mucuri, Sul Baiano, Sul EspÃ­rito-santense, Campo das Vertentes, Metropolitana de Belo Horizonte, Jequitinhonha, Noroeste Fluminense, Litoral Norte EspÃ­rito-santense, Norte de Minas, Norte Fluminense, Centro Fluminense, TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Oeste de Minas, Noroeste de Minas"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55725"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.133301,
+              -17.151288
+            ],
+            [
+              -39.572754,
+              -17.056785
+            ],
+            [
+              -39.935303,
+              -16.983249
+            ],
+            [
+              -40.45166,
+              -16.951724
+            ],
+            [
+              -41.176758,
+              -16.909684
+            ],
+            [
+              -42.583008,
+              -16.983249
+            ],
+            [
+              -43.527832,
+              -17.046281
+            ],
+            [
+              -44.58252,
+              -17.224758
+            ],
+            [
+              -45.131836,
+              -17.392579
+            ],
+            [
+              -45.637207,
+              -17.612611
+            ],
+            [
+              -46.098633,
+              -18.041421
+            ],
+            [
+              -46.19751,
+              -18.448347
+            ],
+            [
+              -45.834961,
+              -19.23855
+            ],
+            [
+              -45.428467,
+              -19.394068
+            ],
+            [
+              -44.934082,
+              -19.81839
+            ],
+            [
+              -44.58252,
+              -20.148785
+            ],
+            [
+              -44.25293,
+              -20.540221
+            ],
+            [
+              -43.791504,
+              -20.95118
+            ],
+            [
+              -43.297119,
+              -21.412162
+            ],
+            [
+              -42.583008,
+              -21.830907
+            ],
+            [
+              -41.791992,
+              -22.23826
+            ],
+            [
+              -41.517334,
+              -22.390714
+            ],
+            [
+              -40.957031,
+              -22.09582
+            ],
+            [
+              -40.913086,
+              -21.667639
+            ],
+            [
+              -40.825195,
+              -21.248422
+            ],
+            [
+              -40.528564,
+              -20.797201
+            ],
+            [
+              -40.264893,
+              -20.468189
+            ],
+            [
+              -39.979248,
+              -19.932041
+            ],
+            [
+              -39.715576,
+              -19.611544
+            ],
+            [
+              -39.605713,
+              -19.23855
+            ],
+            [
+              -39.616699,
+              -18.635835
+            ],
+            [
+              -39.528809,
+              -18.29195
+            ],
+            [
+              -39.309082,
+              -18.062312
+            ],
+            [
+              -39.122314,
+              -17.832374
+            ],
+            [
+              -39.078369,
+              -17.696362
+            ],
+            [
+              -39.034424,
+              -17.403063
+            ],
+            [
+              -39.133301,
+              -17.151288
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
