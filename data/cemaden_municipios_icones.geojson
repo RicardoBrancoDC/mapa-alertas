@@ -3,6 +3,6 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Registro", "uf": "SP", "codibge": "3542602", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -47.798023923920347, -24.494725533 ] } }
+
 ]
 }
