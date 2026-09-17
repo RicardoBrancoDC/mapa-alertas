@@ -1,4 +1,265 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28278.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28278.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",
+        "event": "Baixa Umidade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-17T10:00:00-03:00",
+        "expires": "2026-09-17T21:00:00-03:00",
+        "sent": "2026-09-17T11:56:39-03:00",
+        "pubDate": "Thu, 17 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 17/09/2026 10:00. Umidade relativa do ar variando entre 20% e 12%. Risco de incÃªndios florestais e Ã  saÃºde. Ressecamento da pele, desconforto nos olhos, boca e nariz.",
+        "instruction": "Beba bastante lÃ­quido.  Atividades fÃ­sicas nÃ£o sÃ£o recomendadas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Use hidratante para pele e umidifique o ambiente. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55736",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Ocidental do Tocantins, Oriental do Tocantins, Norte Goiano, Sul Maranhense, Leste Goiano, Extremo Oeste Baiano, Sudoeste Piauiense, Vale SÃ£o-Franciscano da Bahia, Noroeste Goiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Ocidental do Tocantins, Oriental do Tocantins, Norte Goiano, Sul Maranhense, Leste Goiano, Extremo Oeste Baiano, Sudoeste Piauiense, Vale SÃ£o-Franciscano da Bahia, Noroeste Goiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55736"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.339844,
+              -8.885072
+            ],
+            [
+              -46.669922,
+              -8.472372
+            ],
+            [
+              -45.483398,
+              -8.667918
+            ],
+            [
+              -44.318848,
+              -9.31899
+            ],
+            [
+              -43.967285,
+              -10.314919
+            ],
+            [
+              -43.901367,
+              -11.566144
+            ],
+            [
+              -44.25293,
+              -12.811801
+            ],
+            [
+              -44.780273,
+              -13.496473
+            ],
+            [
+              -45.439453,
+              -14.179186
+            ],
+            [
+              -46.582031,
+              -14.4134
+            ],
+            [
+              -48.339844,
+              -13.94473
+            ],
+            [
+              -49.504395,
+              -13.453737
+            ],
+            [
+              -50.053711,
+              -12.275599
+            ],
+            [
+              -49.943848,
+              -10.682201
+            ],
+            [
+              -49.21875,
+              -9.384032
+            ],
+            [
+              -48.339844,
+              -8.885072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28271.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28271.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-17T10:00:00-03:00",
+        "expires": "2026-09-17T21:00:00-03:00",
+        "sent": "2026-09-15T12:04:49-03:00",
+        "pubDate": "Thu, 17 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 17/09/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55724",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Ocidental do Tocantins, Sudeste Piauiense, SertÃµes Cearenses, SertÃ£o Pernambucano, Leste Maranhense, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Nordeste Mato-grossense, SertÃ£o Paraibano, Leste Goiano, Oeste Potiguar, Norte de Minas, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Jaguaribe, Sudoeste Piauiense, Centro Norte Baiano, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste Goiano, Noroeste de Minas, Sudeste Paraense, Vale SÃ£o-Franciscano da Bahia, Norte Piauiense, Centro Goiano, Norte Cearense, Noroeste Cearense, Centro Maranhense, Central Potiguar",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Ocidental do Tocantins, Sudeste Piauiense, SertÃµes Cearenses, SertÃ£o Pernambucano, Leste Maranhense, SÃ£o Francisco Pernambucano, Centro-Norte Piauiense, Nordeste Mato-grossense, SertÃ£o Paraibano, Leste Goiano, Oeste Potiguar, Norte de Minas, Oriental do Tocantins, Norte Mato-grossense, Sudoeste Paraense, Norte Goiano, Sul Maranhense, Jaguaribe, Sudoeste Piauiense, Centro Norte Baiano, Extremo Oeste Baiano, Centro-Sul Cearense, Noroeste Goiano, Noroeste de Minas, Sudeste Paraense, Vale SÃ£o-Franciscano da Bahia, Norte Piauiense, Centro Goiano, Norte Cearense, Noroeste Cearense, Centro Maranhense, Central Potiguar"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55724"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.625977,
+              -15.156974
+            ],
+            [
+              -46.230469,
+              -15.919074
+            ],
+            [
+              -43.989258,
+              -16.130262
+            ],
+            [
+              -42.539062,
+              -16.299051
+            ],
+            [
+              -40.78125,
+              -15.411319
+            ],
+            [
+              -40.561523,
+              -13.795406
+            ],
+            [
+              -40.913086,
+              -11.738302
+            ],
+            [
+              -41.088867,
+              -9.709057
+            ],
+            [
+              -40.517578,
+              -8.624472
+            ],
+            [
+              -38.803711,
+              -8.05923
+            ],
+            [
+              -37.353516,
+              -7.580328
+            ],
+            [
+              -37.177734,
+              -6.009459
+            ],
+            [
+              -37.397461,
+              -5.266008
+            ],
+            [
+              -38.62793,
+              -4.915833
+            ],
+            [
+              -40.605469,
+              -4.302591
+            ],
+            [
+              -42.93457,
+              -3.732708
+            ],
+            [
+              -43.286133,
+              -3.951941
+            ],
+            [
+              -43.901367,
+              -5.57225
+            ],
+            [
+              -45.834961,
+              -7.362467
+            ],
+            [
+              -48.647461,
+              -7.493196
+            ],
+            [
+              -51.240234,
+              -7.754537
+            ],
+            [
+              -54.711914,
+              -7.406048
+            ],
+            [
+              -57.788086,
+              -8.146243
+            ],
+            [
+              -57.524414,
+              -9.709057
+            ],
+            [
+              -56.337891,
+              -11.867351
+            ],
+            [
+              -53.481445,
+              -14.008696
+            ],
+            [
+              -51.37207,
+              -15.665354
+            ],
+            [
+              -48.691406,
+              -14.689881
+            ],
+            [
+              -46.625977,
+              -15.156974
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
