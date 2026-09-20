@@ -3,6 +3,11 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Blumenau", "uf": "SC", "codibge": "4202404", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.110266212652924, -26.8713644905 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Brusque", "uf": "SC", "codibge": "4202909", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.891553491422933, -27.125384526 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santo Amaro da Imperatriz", "uf": "SC", "codibge": "4215703", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.776577246920446, -27.746274495 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "São Pedro de Alcântara", "uf": "SC", "codibge": "4217253", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.834871334876127, -27.586017774 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Gaspar", "uf": "SC", "codibge": "4205902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.937468144242615, -26.919476340499997 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Itapetininga", "uf": "SP", "codibge": "3522307", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.137656511232052, -23.6346034665 ] } }
 ]
 }
