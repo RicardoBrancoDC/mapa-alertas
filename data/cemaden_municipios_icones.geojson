@@ -84,6 +84,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Curitiba", "uf": "PR", "codibge": "4106902", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.285011088188369, -25.495230215499994 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Paulo", "uf": "SP", "codibge": "3550308", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.717054522714349, -23.683385999 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Venâncio Aires", "uf": "RS", "codibge": "4322608", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.244140097202653, -29.553329464499999 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Montenegro", "uf": "RS", "codibge": "4312401", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.523401449892845, -29.708783488499996 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Montenegro", "uf": "RS", "codibge": "4312401", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.523401449892845, -29.708783488499996 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Campo Grande", "uf": "MS", "codibge": "5002704", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.34737108106556, -20.875513825 ] } }
 ]
 }
