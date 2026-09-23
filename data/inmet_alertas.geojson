@@ -5,6 +5,346 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28325.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28325.1",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-23T09:36:00-03:00",
+        "expires": "2026-09-23T23:59:00-03:00",
+        "sent": "2026-09-23T12:35:30-03:00",
+        "pubDate": "Wed, 23 Sep 2026 09:36:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 23/09/2026 09:36. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55807",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Zona da Mata, Campinas, Sul/Sudoeste de Minas, Sul EspÃ­rito-santense, Central EspÃ­rito-santense, Campo das Vertentes, Macro Metropolitana Paulista, Sul Fluminense, Vale do ParaÃ­ba Paulista, Noroeste Fluminense, Piracicaba, Baixadas, Centro Fluminense, Metropolitana de SÃ£o Paulo, Metropolitana do Rio de Janeiro, Norte Fluminense, Metropolitana de Belo Horizonte, Oeste de Minas, Litoral Sul Paulista",
+        "areas": [
+          "Aviso para as Ã¡reas: Zona da Mata, Campinas, Sul/Sudoeste de Minas, Sul EspÃ­rito-santense, Central EspÃ­rito-santense, Campo das Vertentes, Macro Metropolitana Paulista, Sul Fluminense, Vale do ParaÃ­ba Paulista, Noroeste Fluminense, Piracicaba, Baixadas, Centro Fluminense, Metropolitana de SÃ£o Paulo, Metropolitana do Rio de Janeiro, Norte Fluminense, Metropolitana de Belo Horizonte, Oeste de Minas, Litoral Sul Paulista"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55807"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -45.609741,
+              -24.174319
+            ],
+            [
+              -46.373291,
+              -24.29704
+            ],
+            [
+              -47.362061,
+              -23.689805
+            ],
+            [
+              -47.686157,
+              -22.659641
+            ],
+            [
+              -47.356567,
+              -22.278931
+            ],
+            [
+              -46.889648,
+              -21.943046
+            ],
+            [
+              -45.164795,
+              -21.279137
+            ],
+            [
+              -43.439941,
+              -20.776659
+            ],
+            [
+              -42.506104,
+              -20.241583
+            ],
+            [
+              -41.550293,
+              -20.324024
+            ],
+            [
+              -40.946045,
+              -20.488773
+            ],
+            [
+              -40.737305,
+              -20.766387
+            ],
+            [
+              -40.638428,
+              -21.063997
+            ],
+            [
+              -40.924072,
+              -21.647217
+            ],
+            [
+              -40.891113,
+              -22.055096
+            ],
+            [
+              -41.514587,
+              -22.393253
+            ],
+            [
+              -41.778259,
+              -22.702722
+            ],
+            [
+              -41.912842,
+              -23.039298
+            ],
+            [
+              -42.069397,
+              -23.117628
+            ],
+            [
+              -42.242432,
+              -23.14036
+            ],
+            [
+              -43.211975,
+              -23.145411
+            ],
+            [
+              -44.197998,
+              -23.352343
+            ],
+            [
+              -44.956055,
+              -23.885838
+            ],
+            [
+              -45.609741,
+              -24.174319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28322.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28322.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",
+        "event": "Baixa Umidade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-23T10:00:00-03:00",
+        "expires": "2026-09-23T22:00:00-03:00",
+        "sent": "2026-09-23T11:54:29-03:00",
+        "pubDate": "Wed, 23 Sep 2026 10:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 23/09/2026 10:00. Umidade relativa do ar variando entre 20% e 12%. Risco de incÃªndios florestais e Ã  saÃºde. Ressecamento da pele, desconforto nos olhos, boca e nariz.",
+        "instruction": "Beba bastante lÃ­quido.  Atividades fÃ­sicas nÃ£o sÃ£o recomendadas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Use hidratante para pele e umidifique o ambiente. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55803",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Cearense, Sudeste Piauiense, SertÃµes Cearenses, SÃ£o Francisco Pernambucano, Oeste Potiguar, SertÃ£o Paraibano, Sul Maranhense, Sudoeste Piauiense, Extremo Oeste Baiano, Centro-Sul Cearense, SertÃ£o Pernambucano, Centro-Norte Piauiense, Vale SÃ£o-Franciscano da Bahia, Oriental do Tocantins, Jaguaribe, Centro Norte Baiano, Centro Sul Baiano, Norte de Minas",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Cearense, Sudeste Piauiense, SertÃµes Cearenses, SÃ£o Francisco Pernambucano, Oeste Potiguar, SertÃ£o Paraibano, Sul Maranhense, Sudoeste Piauiense, Extremo Oeste Baiano, Centro-Sul Cearense, SertÃ£o Pernambucano, Centro-Norte Piauiense, Vale SÃ£o-Franciscano da Bahia, Oriental do Tocantins, Jaguaribe, Centro Norte Baiano, Centro Sul Baiano, Norte de Minas"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55803"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.538086,
+              -11.243062
+            ],
+            [
+              -46.713867,
+              -10.595821
+            ],
+            [
+              -46.494141,
+              -10.01213
+            ],
+            [
+              -45.922852,
+              -9.449062
+            ],
+            [
+              -45.65918,
+              -9.167179
+            ],
+            [
+              -45.219727,
+              -8.667918
+            ],
+            [
+              -43.945313,
+              -7.993957
+            ],
+            [
+              -43.022461,
+              -7.710992
+            ],
+            [
+              -42.319336,
+              -7.427837
+            ],
+            [
+              -41.484375,
+              -6.860985
+            ],
+            [
+              -41.19873,
+              -5.965754
+            ],
+            [
+              -40.979004,
+              -5.353521
+            ],
+            [
+              -40.737305,
+              -5.069058
+            ],
+            [
+              -40.45166,
+              -5.047171
+            ],
+            [
+              -39.616699,
+              -5.178482
+            ],
+            [
+              -39.243164,
+              -5.419148
+            ],
+            [
+              -38.474121,
+              -5.637853
+            ],
+            [
+              -38.166504,
+              -5.703448
+            ],
+            [
+              -37.63916,
+              -6.293459
+            ],
+            [
+              -37.507324,
+              -7.035476
+            ],
+            [
+              -37.96875,
+              -7.710992
+            ],
+            [
+              -38.891602,
+              -8.385431
+            ],
+            [
+              -40.36377,
+              -8.841651
+            ],
+            [
+              -41.132813,
+              -9.145486
+            ],
+            [
+              -42.165527,
+              -10.033767
+            ],
+            [
+              -42.780762,
+              -11.156845
+            ],
+            [
+              -43.132324,
+              -11.953349
+            ],
+            [
+              -43.110352,
+              -13.090179
+            ],
+            [
+              -43.115845,
+              -13.942064
+            ],
+            [
+              -43.184509,
+              -14.096621
+            ],
+            [
+              -43.319092,
+              -14.208476
+            ],
+            [
+              -43.615723,
+              -14.32826
+            ],
+            [
+              -44.362793,
+              -14.392118
+            ],
+            [
+              -44.934082,
+              -14.349548
+            ],
+            [
+              -45.052185,
+              -14.336243
+            ],
+            [
+              -45.170288,
+              -14.288339
+            ],
+            [
+              -45.33783,
+              -14.171197
+            ],
+            [
+              -45.483398,
+              -13.38962
+            ],
+            [
+              -45.856934,
+              -12.46876
+            ],
+            [
+              -46.296387,
+              -11.910354
+            ],
+            [
+              -46.538086,
+              -11.243062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28321.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28321.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
