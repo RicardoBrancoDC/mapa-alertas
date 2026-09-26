@@ -3,6 +3,7 @@
 "name": "cemaden_municipios_icones",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Leopoldo", "uf": "RS", "codibge": "4318705", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.168688475088196, -29.742739144 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Leopoldo", "uf": "RS", "codibge": "4318705", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.168688475088196, -29.742739144 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Marechal Thaumaturgo", "uf": "AC", "codibge": "1200351", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -72.491342675529921, -9.089550456 ] } }
 ]
 }
