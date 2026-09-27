@@ -4,7 +4,6 @@
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Leopoldo", "uf": "RS", "codibge": "4318705", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.168688475088196, -29.742739144 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Marechal Thaumaturgo", "uf": "AC", "codibge": "1200351", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -72.491342675529921, -9.089550456 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Santa Maria", "uf": "RS", "codibge": "4316907", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -53.770305857570406, -29.777569374500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santa Maria", "uf": "RS", "codibge": "4316907", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -53.770305857570406, -29.777569374500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Rosário do Sul", "uf": "RS", "codibge": "4316402", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.19438083053408, -30.377877919 ] } },
