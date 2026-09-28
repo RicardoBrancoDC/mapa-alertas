@@ -5,6 +5,138 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28368.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28368.1",
+        "titulo": "Aviso de Onda de Calor. Severidade Grau: Grande Perigo",
+        "event": "Onda de Calor",
+        "severity": "Extreme",
+        "nivel": "Extreme",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-28T14:00:00-03:00",
+        "expires": "2026-09-30T18:00:00-03:00",
+        "sent": "2026-09-28T16:15:33-03:00",
+        "pubDate": "Mon, 28 Sep 2026 14:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Onda de Calor. Severidade Grau: Extreme",
+        "description": "INMET publica aviso iniciando em: 28/09/2026 14:00. Risco Ã  saÃºde. Temperatura 5ÂºC acima da mÃ©dia por perÃ­odo maior do que 5 dias.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/55872",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Central Mineira, Zona da Mata, Vale do Rio Doce, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Campinas, Sul Goiano, Oeste de Minas, Sul/Sudoeste de Minas, Campo das Vertentes, RibeirÃ£o Preto, AraÃ§atuba, Metropolitana de Belo Horizonte, Araraquara, Jequitinhonha, Leste de Mato Grosso do Sul, Piracicaba, Bauru, Norte de Minas, Noroeste de Minas, Leste Goiano, Vale do Mucuri",
+        "areas": [
+          "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Central Mineira, Zona da Mata, Vale do Rio Doce, Presidente Prudente, SÃ£o JosÃ© do Rio Preto, Campinas, Sul Goiano, Oeste de Minas, Sul/Sudoeste de Minas, Campo das Vertentes, RibeirÃ£o Preto, AraÃ§atuba, Metropolitana de Belo Horizonte, Araraquara, Jequitinhonha, Leste de Mato Grosso do Sul, Piracicaba, Bauru, Norte de Minas, Noroeste de Minas, Leste Goiano, Vale do Mucuri"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55872"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -46.186523,
+              -22.593726
+            ],
+            [
+              -44.58252,
+              -22.248429
+            ],
+            [
+              -43.319092,
+              -21.800308
+            ],
+            [
+              -42.835693,
+              -21.2689
+            ],
+            [
+              -41.923828,
+              -19.828725
+            ],
+            [
+              -41.835938,
+              -18.802318
+            ],
+            [
+              -42.297363,
+              -17.790535
+            ],
+            [
+              -42.890625,
+              -17.214264
+            ],
+            [
+              -43.670654,
+              -16.730907
+            ],
+            [
+              -45.999756,
+              -16.867634
+            ],
+            [
+              -48.768311,
+              -17.581194
+            ],
+            [
+              -50.20752,
+              -18.20848
+            ],
+            [
+              -51.361084,
+              -18.802318
+            ],
+            [
+              -51.888428,
+              -19.704658
+            ],
+            [
+              -51.954346,
+              -20.148785
+            ],
+            [
+              -51.921387,
+              -20.571082
+            ],
+            [
+              -51.668701,
+              -21.074249
+            ],
+            [
+              -51.240234,
+              -21.350781
+            ],
+            [
+              -50.339355,
+              -21.596151
+            ],
+            [
+              -49.801025,
+              -21.71868
+            ],
+            [
+              -49.262695,
+              -21.861499
+            ],
+            [
+              -47.460937,
+              -22.436418
+            ],
+            [
+              -46.186523,
+              -22.593726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28361.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28361.1",
         "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo Potencial",
