@@ -24,6 +24,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Santa Maria", "uf": "RS", "codibge": "4316907", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -53.770305857570406, -29.777569374500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santa Maria", "uf": "RS", "codibge": "4316907", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -53.770305857570406, -29.777569374500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santa Cruz do Sul", "uf": "RS", "codibge": "4316808", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.402170432406422, -29.646958647 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.2750255405 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Manacapuru", "uf": "AM", "codibge": "1302504", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -60.709374982035129, -3.2750255405 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Venâncio Aires", "uf": "RS", "codibge": "4322608", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.244140097202653, -29.553329464499999 ] } }
 ]
 }
