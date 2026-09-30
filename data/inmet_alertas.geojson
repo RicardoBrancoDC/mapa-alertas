@@ -5,6 +5,126 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28379.2::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28379.2",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",
+        "event": "Baixa Umidade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-09-30T10:30:00-03:00",
+        "expires": "2026-09-30T19:00:00-03:00",
+        "sent": "2026-09-30T00:00:00-03:00",
+        "pubDate": "Wed, 30 Sep 2026 10:30:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 30/09/2026 10:30. Umidade relativa do ar variando entre 20% e 12%. Risco de incÃªndios florestais e Ã  saÃºde. Ressecamento da pele, desconforto nos olhos, boca e nariz.",
+        "instruction": "Beba bastante lÃ­quido.  Atividades fÃ­sicas nÃ£o sÃ£o recomendadas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Use hidratante para pele e umidifique o ambiente. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55898",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Leste Goiano, Oriental do Tocantins, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Extremo Oeste Baiano, Noroeste de Minas, Central Mineira, Vale SÃ£o-Franciscano da Bahia, Centro Goiano, Norte de Minas, Distrito Federal, Centro Sul Baiano, Ocidental do Tocantins",
+        "areas": [
+          "Aviso para as Ã¡reas: Leste Goiano, Oriental do Tocantins, Norte Goiano, Sul Maranhense, Sudoeste Piauiense, Extremo Oeste Baiano, Noroeste de Minas, Central Mineira, Vale SÃ£o-Franciscano da Bahia, Centro Goiano, Norte de Minas, Distrito Federal, Centro Sul Baiano, Ocidental do Tocantins"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55898"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -45.288116,
+              -8.469937
+            ],
+            [
+              -46.312525,
+              -9.061818
+            ],
+            [
+              -47.044831,
+              -9.639905
+            ],
+            [
+              -47.581859,
+              -11.128578
+            ],
+            [
+              -48.070063,
+              -12.41903
+            ],
+            [
+              -48.753549,
+              -13.940159
+            ],
+            [
+              -48.70473,
+              -15.168789
+            ],
+            [
+              -48.411804,
+              -15.968317
+            ],
+            [
+              -48.216526,
+              -16.343475
+            ],
+            [
+              -47.191294,
+              -16.99826
+            ],
+            [
+              -45.82027,
+              -17.885833
+            ],
+            [
+              -44.389645,
+              -18.201507
+            ],
+            [
+              -43.334952,
+              -17.215443
+            ],
+            [
+              -43.383292,
+              -15.45133
+            ],
+            [
+              -43.529756,
+              -13.275832
+            ],
+            [
+              -43.480936,
+              -11.368002
+            ],
+            [
+              -43.236834,
+              -10.457153
+            ],
+            [
+              -43.334473,
+              -9.591768
+            ],
+            [
+              -43.529756,
+              -8.724168
+            ],
+            [
+              -45.288116,
+              -8.469937
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28377.3::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28377.3",
         "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",

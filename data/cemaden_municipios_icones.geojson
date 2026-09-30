@@ -19,6 +19,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Xanxerê", "uf": "SC", "codibge": "4219507", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -52.38652432030031, -26.877315255499994 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Otacílio Costa", "uf": "SC", "codibge": "4211751", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -50.008803661374877, -27.4976205245 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Taquari", "uf": "RS", "codibge": "4321303", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.831261152487855, -29.740491844499996 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Montenegro", "uf": "RS", "codibge": "4312401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.523401449892845, -29.708783488499996 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Montenegro", "uf": "RS", "codibge": "4312401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.523401449892845, -29.708783488499996 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Jerônimo", "uf": "RS", "codibge": "4318408", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.927374984314113, -30.29187583 ] } }
 ]
 }
