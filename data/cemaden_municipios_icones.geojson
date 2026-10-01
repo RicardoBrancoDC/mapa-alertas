@@ -14,6 +14,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Montenegro", "uf": "RS", "codibge": "4312401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.523401449892845, -29.708783488499996 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Jerônimo", "uf": "RS", "codibge": "4318408", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -51.927374984314113, -30.29187583 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Juiz de Fora", "uf": "MG", "codibge": "3136702", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.450997967359626, -21.759089495 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Apiúna", "uf": "SC", "codibge": "4201257", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.356042964855178, -27.119471911 ] } }
 ]
 }
