@@ -1,4 +1,517 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28407.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28407.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo",
+        "event": "Baixa Umidade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-02T10:35:00-03:00",
+        "expires": "2026-10-02T22:00:00-03:00",
+        "sent": "2026-10-02T13:33:55-03:00",
+        "pubDate": "Fri, 02 Oct 2026 10:35:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 02/10/2026 10:35. Umidade relativa do ar variando entre 20% e 12%. Risco de incÃªndios florestais e Ã  saÃºde. Ressecamento da pele, desconforto nos olhos, boca e nariz.",
+        "instruction": "Beba bastante lÃ­quido.  Atividades fÃ­sicas nÃ£o sÃ£o recomendadas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Use hidratante para pele e umidifique o ambiente. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55931",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Centro Sul Baiano, Centro Norte Baiano, Extremo Oeste Baiano, Sudoeste Piauiense, Vale SÃ£o-Franciscano da Bahia, Norte de Minas, Nordeste Baiano",
+        "areas": [
+          "Aviso para as Ã¡reas: Centro Sul Baiano, Centro Norte Baiano, Extremo Oeste Baiano, Sudoeste Piauiense, Vale SÃ£o-Franciscano da Bahia, Norte de Minas, Nordeste Baiano"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55931"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -42.297363,
+              -16.024696
+            ],
+            [
+              -43.044434,
+              -16.972741
+            ],
+            [
+              -43.769531,
+              -17.172283
+            ],
+            [
+              -44.58252,
+              -16.993755
+            ],
+            [
+              -45.131836,
+              -14.51978
+            ],
+            [
+              -44.648437,
+              -12.554564
+            ],
+            [
+              -44.077148,
+              -11.264612
+            ],
+            [
+              -43.857422,
+              -9.795678
+            ],
+            [
+              -43.286133,
+              -9.579084
+            ],
+            [
+              -42.93457,
+              -10.228437
+            ],
+            [
+              -42.495117,
+              -10.703792
+            ],
+            [
+              -40.693359,
+              -10.487812
+            ],
+            [
+              -39.902344,
+              -10.09867
+            ],
+            [
+              -39.199219,
+              -10.271681
+            ],
+            [
+              -39.682617,
+              -11.22151
+            ],
+            [
+              -40.429688,
+              -11.781325
+            ],
+            [
+              -41.396484,
+              -12.897489
+            ],
+            [
+              -41.726074,
+              -13.816744
+            ],
+            [
+              -41.616211,
+              -14.817371
+            ],
+            [
+              -42.297363,
+              -16.024696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28398.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28398.1",
+        "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Perigo",
+        "event": "Acumulado de Chuva",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-02T09:00:00-03:00",
+        "expires": "2026-10-02T23:59:00-03:00",
+        "sent": "2026-10-02T11:55:17-03:00",
+        "pubDate": "Fri, 02 Oct 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Acumulado de Chuva. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 02/10/2026 09:00. Chuva entre 30 a 60 mm/h ou 50 a 100 mm/dia. Risco de alagamentos, deslizamentos de encostas, transbordamentos de rios, em cidades com tais Ã¡reas de risco.",
+        "instruction": "Evite enfrentar o mau tempo. Observe alteraÃ§Ã£o nas encostas. Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Em caso de situaÃ§Ã£o de inundaÃ§Ã£o, ou similar, proteja seus pertences da Ã¡gua envoltos em sacos plÃ¡sticos. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55917",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Noroeste EspÃ­rito-santense, Sul EspÃ­rito-santense, Campo das Vertentes, Metropolitana de Belo Horizonte, Sul/Sudoeste de Minas, Noroeste Fluminense, Litoral Norte EspÃ­rito-santense, Baixadas, Centro Fluminense, Jequitinhonha, Vale do Mucuri, Sul Fluminense, Metropolitana do Rio de Janeiro, Norte Fluminense, Central Mineira",
+        "areas": [
+          "Aviso para as Ã¡reas: Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Noroeste EspÃ­rito-santense, Sul EspÃ­rito-santense, Campo das Vertentes, Metropolitana de Belo Horizonte, Sul/Sudoeste de Minas, Noroeste Fluminense, Litoral Norte EspÃ­rito-santense, Baixadas, Centro Fluminense, Jequitinhonha, Vale do Mucuri, Sul Fluminense, Metropolitana do Rio de Janeiro, Norte Fluminense, Central Mineira"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55917"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.089111,
+              -19.87006
+            ],
+            [
+              -40.061646,
+              -19.921713
+            ],
+            [
+              -40.045166,
+              -20.04045
+            ],
+            [
+              -40.292358,
+              -20.601936
+            ],
+            [
+              -40.517578,
+              -21.063997
+            ],
+            [
+              -40.745544,
+              -21.55273
+            ],
+            [
+              -40.792236,
+              -21.647217
+            ],
+            [
+              -40.822449,
+              -21.693161
+            ],
+            [
+              -40.822449,
+              -21.754398
+            ],
+            [
+              -40.797729,
+              -21.879341
+            ],
+            [
+              -40.816956,
+              -22.006721
+            ],
+            [
+              -40.863647,
+              -22.139076
+            ],
+            [
+              -41.163025,
+              -22.301803
+            ],
+            [
+              -41.41571,
+              -22.459264
+            ],
+            [
+              -41.564026,
+              -22.573438
+            ],
+            [
+              -41.748047,
+              -22.882501
+            ],
+            [
+              -42.011719,
+              -23.099944
+            ],
+            [
+              -42.352295,
+              -23.170664
+            ],
+            [
+              -42.879639,
+              -23.231251
+            ],
+            [
+              -43.352051,
+              -23.079732
+            ],
+            [
+              -43.747559,
+              -22.71539
+            ],
+            [
+              -43.945313,
+              -22.380556
+            ],
+            [
+              -44.049683,
+              -22.187405
+            ],
+            [
+              -44.099121,
+              -21.851302
+            ],
+            [
+              -43.983765,
+              -21.412162
+            ],
+            [
+              -43.857422,
+              -20.976828
+            ],
+            [
+              -43.786011,
+              -20.576225
+            ],
+            [
+              -43.747559,
+              -20.25189
+            ],
+            [
+              -43.786011,
+              -19.952696
+            ],
+            [
+              -43.901367,
+              -19.373341
+            ],
+            [
+              -43.890381,
+              -18.958246
+            ],
+            [
+              -43.912354,
+              -18.458768
+            ],
+            [
+              -43.879395,
+              -18.239786
+            ],
+            [
+              -43.736572,
+              -18.072757
+            ],
+            [
+              -43.582764,
+              -17.727759
+            ],
+            [
+              -43.209229,
+              -17.706828
+            ],
+            [
+              -42.209473,
+              -18.093644
+            ],
+            [
+              -41.385498,
+              -18.427502
+            ],
+            [
+              -40.869141,
+              -18.739906
+            ],
+            [
+              -40.418701,
+              -18.989415
+            ],
+            [
+              -40.237427,
+              -19.352611
+            ],
+            [
+              -40.171509,
+              -19.652934
+            ],
+            [
+              -40.149536,
+              -19.771873
+            ],
+            [
+              -40.089111,
+              -19.87006
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28387.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28387.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-02T09:00:00-03:00",
+        "expires": "2026-10-02T23:59:00-03:00",
+        "sent": "2026-10-01T11:56:24-03:00",
+        "pubDate": "Fri, 02 Oct 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 02/10/2026 09:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55902",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Central Potiguar, Sudeste Piauiense, SertÃµes Cearenses, Nordeste Baiano, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Oeste Potiguar, Agreste Pernambucano, Norte de Minas, Jequitinhonha, Jaguaribe, Leste Goiano, Centro Norte Baiano, Borborema, Extremo Oeste Baiano, Sudoeste Piauiense, Centro-Sul Cearense, Noroeste de Minas, Centro-Norte Piauiense, Agreste Alagoano, SertÃ£o Sergipano, Agreste Sergipano, Central Mineira",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Cearense, Centro Sul Baiano, Vale SÃ£o-Franciscano da Bahia, Central Potiguar, Sudeste Piauiense, SertÃµes Cearenses, Nordeste Baiano, SertÃ£o Pernambucano, SÃ£o Francisco Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Oeste Potiguar, Agreste Pernambucano, Norte de Minas, Jequitinhonha, Jaguaribe, Leste Goiano, Centro Norte Baiano, Borborema, Extremo Oeste Baiano, Sudoeste Piauiense, Centro-Sul Cearense, Noroeste de Minas, Centro-Norte Piauiense, Agreste Alagoano, SertÃ£o Sergipano, Agreste Sergipano, Central Mineira"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55902"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -37.880859,
+              -5.353521
+            ],
+            [
+              -37.133789,
+              -5.747174
+            ],
+            [
+              -36.650391,
+              -6.533645
+            ],
+            [
+              -36.298828,
+              -8.05923
+            ],
+            [
+              -36.518555,
+              -9.275622
+            ],
+            [
+              -37.133789,
+              -10.141932
+            ],
+            [
+              -37.661133,
+              -10.660608
+            ],
+            [
+              -38.891602,
+              -11.049038
+            ],
+            [
+              -39.748535,
+              -11.609193
+            ],
+            [
+              -40.166016,
+              -12.168226
+            ],
+            [
+              -40.473633,
+              -12.811801
+            ],
+            [
+              -40.869141,
+              -13.966054
+            ],
+            [
+              -40.957031,
+              -15.114553
+            ],
+            [
+              -40.913086,
+              -16.172473
+            ],
+            [
+              -41.154785,
+              -16.778246
+            ],
+            [
+              -42.006226,
+              -17.193275
+            ],
+            [
+              -43.417969,
+              -17.518344
+            ],
+            [
+              -45.0,
+              -17.476432
+            ],
+            [
+              -46.142578,
+              -16.972741
+            ],
+            [
+              -46.669922,
+              -16.256867
+            ],
+            [
+              -46.801758,
+              -15.36895
+            ],
+            [
+              -46.538086,
+              -13.880746
+            ],
+            [
+              -45.703125,
+              -12.511665
+            ],
+            [
+              -45.043945,
+              -11.436955
+            ],
+            [
+              -44.912109,
+              -10.444598
+            ],
+            [
+              -44.604492,
+              -9.622414
+            ],
+            [
+              -43.92334,
+              -8.776511
+            ],
+            [
+              -42.978516,
+              -8.320212
+            ],
+            [
+              -42.451172,
+              -7.580328
+            ],
+            [
+              -42.275391,
+              -6.795535
+            ],
+            [
+              -41.923828,
+              -5.703448
+            ],
+            [
+              -41.308594,
+              -5.178482
+            ],
+            [
+              -39.726563,
+              -5.178482
+            ],
+            [
+              -37.880859,
+              -5.353521
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
