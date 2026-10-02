@@ -18,6 +18,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Teresópolis", "uf": "RJ", "codibge": "3305802", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -42.865329944199132, -22.299724889499998 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Alegrete", "uf": "RS", "codibge": "4300406", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.752741053630004, -29.7632417015 ] } }
 ]
 }
