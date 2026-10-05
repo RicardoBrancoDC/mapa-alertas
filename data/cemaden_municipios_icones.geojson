@@ -33,6 +33,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cotia", "uf": "SP", "codibge": "3513009", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.980088110687859, -23.683254151 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Taboão da Serra", "uf": "SP", "codibge": "3552809", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.787375797795235, -23.621038639499993 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Campinas", "uf": "SP", "codibge": "3509502", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -46.989969440481978, -22.896561372500003 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São José dos Campos", "uf": "SP", "codibge": "3549904", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.958401234096485, -23.057310499 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São José dos Campos", "uf": "SP", "codibge": "3549904", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.958401234096485, -23.057310499 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Conselheiro Lafaiete", "uf": "MG", "codibge": "3118304", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.787800681768061, -20.669251496 ] } }
 ]
 }
