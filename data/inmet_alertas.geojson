@@ -341,6 +341,154 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28435.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28435.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-07T18:00:00-03:00",
+        "expires": "2026-10-07T23:59:00-03:00",
+        "sent": "2026-10-06T12:58:14-03:00",
+        "pubDate": "Wed, 07 Oct 2026 18:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 07/10/2026 18:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55975",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Oeste Catarinense, Noroeste Rio-grandense, Metropolitana de Porto Alegre, Sudoeste Paranaense, Nordeste Rio-grandense, Serrana, Centro Oriental Rio-grandense, Oeste Paranaense, Centro-Sul Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Oeste Catarinense, Noroeste Rio-grandense, Metropolitana de Porto Alegre, Sudoeste Paranaense, Nordeste Rio-grandense, Serrana, Centro Oriental Rio-grandense, Oeste Paranaense, Centro-Sul Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55975"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.272461,
+              -24.066528
+            ],
+            [
+              -54.547119,
+              -25.473033
+            ],
+            [
+              -54.107666,
+              -25.572176
+            ],
+            [
+              -53.964844,
+              -25.681137
+            ],
+            [
+              -53.613281,
+              -26.283565
+            ],
+            [
+              -53.22876,
+              -26.32296
+            ],
+            [
+              -53.02002,
+              -26.39187
+            ],
+            [
+              -52.800293,
+              -26.657278
+            ],
+            [
+              -52.69043,
+              -27.15692
+            ],
+            [
+              -52.789307,
+              -27.556982
+            ],
+            [
+              -52.855225,
+              -27.858504
+            ],
+            [
+              -52.822266,
+              -28.719496
+            ],
+            [
+              -52.624512,
+              -29.42046
+            ],
+            [
+              -51.987305,
+              -30.249577
+            ],
+            [
+              -50.778809,
+              -31.034108
+            ],
+            [
+              -50.701904,
+              -31.019987
+            ],
+            [
+              -50.245972,
+              -30.339695
+            ],
+            [
+              -50.075684,
+              -29.869229
+            ],
+            [
+              -50.317383,
+              -29.113775
+            ],
+            [
+              -50.888672,
+              -28.459033
+            ],
+            [
+              -51.28418,
+              -27.683528
+            ],
+            [
+              -51.525879,
+              -27.098254
+            ],
+            [
+              -51.70166,
+              -26.411551
+            ],
+            [
+              -52.888184,
+              -25.601902
+            ],
+            [
+              -53.459473,
+              -25.085599
+            ],
+            [
+              -53.876953,
+              -24.246965
+            ],
+            [
+              -54.272461,
+              -24.066528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28434.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28434.1",
         "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
