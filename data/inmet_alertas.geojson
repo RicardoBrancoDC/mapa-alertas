@@ -336,6 +336,170 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28434.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28434.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "event": "Tempestade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-07T12:00:00-03:00",
+        "expires": "2026-10-07T23:59:00-03:00",
+        "sent": "2026-10-06T12:47:02-03:00",
+        "pubDate": "Wed, 07 Oct 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 07/10/2026 12:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/55974",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Noroeste Rio-grandense, Sudeste Rio-grandense, Metropolitana de Porto Alegre, Centro Oriental Rio-grandense, Sudoeste Paranaense",
+        "areas": [
+          "Aviso para as Ã¡reas: Sudoeste Rio-grandense, Oeste Catarinense, Centro Ocidental Rio-grandense, Noroeste Rio-grandense, Sudeste Rio-grandense, Metropolitana de Porto Alegre, Centro Oriental Rio-grandense, Sudoeste Paranaense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/55974"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.624268,
+              -26.273714
+            ],
+            [
+              -53.239746,
+              -26.32296
+            ],
+            [
+              -53.009033,
+              -26.401711
+            ],
+            [
+              -52.811279,
+              -26.657278
+            ],
+            [
+              -52.712402,
+              -27.166695
+            ],
+            [
+              -52.866211,
+              -27.858504
+            ],
+            [
+              -52.844238,
+              -28.72913
+            ],
+            [
+              -52.646484,
+              -29.40132
+            ],
+            [
+              -52.009277,
+              -30.240086
+            ],
+            [
+              -50.778809,
+              -31.034108
+            ],
+            [
+              -51.811523,
+              -32.008076
+            ],
+            [
+              -52.294922,
+              -32.435613
+            ],
+            [
+              -52.536621,
+              -33.137551
+            ],
+            [
+              -53.371582,
+              -33.797409
+            ],
+            [
+              -53.503418,
+              -33.632916
+            ],
+            [
+              -53.393555,
+              -33.229498
+            ],
+            [
+              -53.217773,
+              -32.713355
+            ],
+            [
+              -53.547363,
+              -32.454156
+            ],
+            [
+              -53.986816,
+              -31.989442
+            ],
+            [
+              -54.84375,
+              -31.428663
+            ],
+            [
+              -55.546875,
+              -30.921076
+            ],
+            [
+              -55.942383,
+              -31.090574
+            ],
+            [
+              -55.942383,
+              -30.883369
+            ],
+            [
+              -56.865234,
+              -30.126124
+            ],
+            [
+              -57.282715,
+              -30.259067
+            ],
+            [
+              -57.590332,
+              -30.221102
+            ],
+            [
+              -57.23877,
+              -29.840644
+            ],
+            [
+              -55.92041,
+              -28.401065
+            ],
+            [
+              -54.777832,
+              -27.547242
+            ],
+            [
+              -53.833008,
+              -27.137368
+            ],
+            [
+              -53.624268,
+              -26.273714
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
