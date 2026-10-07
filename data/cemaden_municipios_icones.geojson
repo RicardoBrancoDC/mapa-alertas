@@ -14,6 +14,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Jaraguá do Sul", "uf": "SC", "codibge": "4208906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -49.127879908745143, -26.433493603499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Joinville", "uf": "SC", "codibge": "4209102", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.886868815228262, -26.263946144499997 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Volta Redonda", "uf": "RJ", "codibge": "3306305", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -44.090328684318578, -22.523710595 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Coxim", "uf": "MS", "codibge": "5003306", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -54.944548893349008, -18.188781346499997 ] } }
 ]
 }
