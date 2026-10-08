@@ -12,6 +12,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santa Maria", "uf": "RS", "codibge": "4316907", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -53.770305857570406, -29.777569374500001 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Santa Cruz do Sul", "uf": "RS", "codibge": "4316808", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.402170432406422, -29.646958647 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Santa Cruz do Sul", "uf": "RS", "codibge": "4316808", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -52.402170432406422, -29.646958647 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cachoeira do Sul", "uf": "RS", "codibge": "4303004", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.007862971678129, -30.235685828500003 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Cachoeira do Sul", "uf": "RS", "codibge": "4303004", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.007862971678129, -30.235685828500003 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Umuarama", "uf": "PR", "codibge": "4128104", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.333553444956337, -23.707101858 ] } }
 ]
 }
