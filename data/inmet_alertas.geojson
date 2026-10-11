@@ -5,6 +5,298 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28477.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28477.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "event": "Tempestade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-11T12:00:00-03:00",
+        "expires": "2026-10-12T23:59:00-03:00",
+        "sent": "2026-10-11T13:35:17-03:00",
+        "pubDate": "Sun, 11 Oct 2026 12:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 11/10/2026 12:00. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/56044",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Campinas, Oeste de Minas, Sul/Sudoeste de Minas, Zona da Mata, SÃ£o JosÃ© do Rio Preto, RibeirÃ£o Preto, Araraquara, Sul Fluminense, Campo das Vertentes, Vale do ParaÃ­ba Paulista, Noroeste Fluminense, Piracicaba, Centro Fluminense, Metropolitana de SÃ£o Paulo, Macro Metropolitana Paulista, Metropolitana do Rio de Janeiro, Norte Fluminense",
+        "areas": [
+          "Aviso para as Ã¡reas: TriÃ¢ngulo Mineiro/Alto ParanaÃ­ba, Campinas, Oeste de Minas, Sul/Sudoeste de Minas, Zona da Mata, SÃ£o JosÃ© do Rio Preto, RibeirÃ£o Preto, Araraquara, Sul Fluminense, Campo das Vertentes, Vale do ParaÃ­ba Paulista, Noroeste Fluminense, Piracicaba, Centro Fluminense, Metropolitana de SÃ£o Paulo, Macro Metropolitana Paulista, Metropolitana do Rio de Janeiro, Norte Fluminense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/56044"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -42.143555,
+              -21.534847
+            ],
+            [
+              -42.561035,
+              -21.412162
+            ],
+            [
+              -43.417969,
+              -21.289374
+            ],
+            [
+              -44.384766,
+              -20.981957
+            ],
+            [
+              -46.318359,
+              -20.427013
+            ],
+            [
+              -47.460937,
+              -19.828725
+            ],
+            [
+              -48.098145,
+              -19.518375
+            ],
+            [
+              -48.88916,
+              -19.518375
+            ],
+            [
+              -49.416504,
+              -20.014645
+            ],
+            [
+              -49.526367,
+              -20.365228
+            ],
+            [
+              -49.438477,
+              -20.756114
+            ],
+            [
+              -48.449707,
+              -21.88189
+            ],
+            [
+              -47.702637,
+              -22.674847
+            ],
+            [
+              -47.06543,
+              -23.180764
+            ],
+            [
+              -46.724854,
+              -23.372514
+            ],
+            [
+              -46.395264,
+              -23.503552
+            ],
+            [
+              -45.802002,
+              -23.392682
+            ],
+            [
+              -45.065918,
+              -23.039298
+            ],
+            [
+              -44.725342,
+              -22.968509
+            ],
+            [
+              -44.099121,
+              -22.705255
+            ],
+            [
+              -43.626709,
+              -22.634293
+            ],
+            [
+              -43.231201,
+              -22.563293
+            ],
+            [
+              -42.72583,
+              -22.451649
+            ],
+            [
+              -42.198486,
+              -22.258597
+            ],
+            [
+              -42.088623,
+              -22.03473
+            ],
+            [
+              -42.143555,
+              -21.534847
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28476.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28476.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo",
+        "event": "Tempestade",
+        "severity": "Severe",
+        "nivel": "Severe",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-11T10:32:00-03:00",
+        "expires": "2026-10-11T23:59:00-03:00",
+        "sent": "2026-10-11T13:31:40-03:00",
+        "pubDate": "Sun, 11 Oct 2026 10:32:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Severe",
+        "description": "INMET publica aviso iniciando em: 11/10/2026 10:32. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes,  queda de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Se possÃ­vel, desligue aparelhos elÃ©tricos e quadro geral de energia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/56043",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Vale do ItajaÃ­, Metropolitana de Curitiba, Noroeste Rio-grandense, Centro Ocidental Paranaense, Noroeste Paranaense, Sudoeste de Mato Grosso do Sul, Sudoeste Paranaense, Oeste Paranaense, Sudeste Paranaense, Norte Central Paranaense, Centro Oriental Paranaense, Norte Pioneiro Paranaense, Norte Catarinense, Centro-Sul Paranaense, Nordeste Rio-grandense",
+        "areas": [
+          "Aviso para as Ã¡reas: Serrana, Oeste Catarinense, Vale do ItajaÃ­, Metropolitana de Curitiba, Noroeste Rio-grandense, Centro Ocidental Paranaense, Noroeste Paranaense, Sudoeste de Mato Grosso do Sul, Sudoeste Paranaense, Oeste Paranaense, Sudeste Paranaense, Norte Central Paranaense, Centro Oriental Paranaense, Norte Pioneiro Paranaense, Norte Catarinense, Centro-Sul Paranaense, Nordeste Rio-grandense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/56043"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.294434,
+              -23.019076
+            ],
+            [
+              -55.480957,
+              -23.84565
+            ],
+            [
+              -55.305176,
+              -23.966176
+            ],
+            [
+              -54.975586,
+              -23.966176
+            ],
+            [
+              -54.645996,
+              -23.825551
+            ],
+            [
+              -54.338379,
+              -23.986253
+            ],
+            [
+              -54.272461,
+              -24.347097
+            ],
+            [
+              -54.404297,
+              -25.125393
+            ],
+            [
+              -54.558105,
+              -25.522615
+            ],
+            [
+              -54.074707,
+              -25.582085
+            ],
+            [
+              -53.657227,
+              -26.214591
+            ],
+            [
+              -53.745117,
+              -26.843677
+            ],
+            [
+              -53.76709,
+              -27.215556
+            ],
+            [
+              -53.02002,
+              -27.391278
+            ],
+            [
+              -52.163086,
+              -27.547242
+            ],
+            [
+              -50.888672,
+              -28.130128
+            ],
+            [
+              -50.581055,
+              -28.052591
+            ],
+            [
+              -49.943848,
+              -27.508271
+            ],
+            [
+              -49.284668,
+              -26.450902
+            ],
+            [
+              -49.125366,
+              -25.720735
+            ],
+            [
+              -49.130859,
+              -25.463115
+            ],
+            [
+              -49.394531,
+              -24.686952
+            ],
+            [
+              -49.707642,
+              -24.106647
+            ],
+            [
+              -50.493164,
+              -23.483401
+            ],
+            [
+              -51.416016,
+              -23.362429
+            ],
+            [
+              -53.041992,
+              -23.120154
+            ],
+            [
+              -54.294434,
+              -23.019076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28475.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28475.1",
         "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
