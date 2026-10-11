@@ -8,6 +8,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "São Borja", "uf": "RS", "codibge": "4318002", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -55.840834281971027, -28.714265923 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Itaqui", "uf": "RS", "codibge": "4310603", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.389820549322302, -29.137636298499991 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Uruguaiana", "uf": "RS", "codibge": "4322400", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.814308006888403, -29.800457825499993 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Capitão Leônidas Marques", "uf": "PR", "codibge": "4104600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.597915453909593, -25.458789651 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Capitão Leônidas Marques", "uf": "PR", "codibge": "4104600", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.597915453909593, -25.458789651 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Juiz de Fora", "uf": "MG", "codibge": "3136702", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.450997967359626, -21.759089495 ] } }
 ]
 }
