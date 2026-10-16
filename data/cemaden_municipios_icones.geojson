@@ -13,6 +13,7 @@
 { "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Ubatuba", "uf": "SP", "codibge": "3555406", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.081609183741129, -23.397500162500002 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Rio Branco", "uf": "AC", "codibge": "1200401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -68.159484772371087, -9.994924338499999 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Nova Friburgo", "uf": "RJ", "codibge": "3303401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -42.493404918242902, -22.306342638 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Nova Friburgo", "uf": "RJ", "codibge": "3303401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -42.493404918242902, -22.306342638 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Nova Friburgo", "uf": "RJ", "codibge": "3303401", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 2 }, "geometry": { "type": "Point", "coordinates": [ -42.493404918242902, -22.306342638 ] } },
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Petrópolis", "uf": "RJ", "codibge": "3303906", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -43.175855454380347, -22.388731238 ] } }
 ]
 }
