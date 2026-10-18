@@ -1,4 +1,529 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28515.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28515.1",
+        "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
+        "event": "Baixa Umidade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-18T09:00:00-03:00",
+        "expires": "2026-10-18T22:00:00-03:00",
+        "sent": "2026-10-18T11:21:44-03:00",
+        "pubDate": "Sun, 18 Oct 2026 09:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Baixa Umidade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 18/10/2026 09:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incÃªndios florestais e Ã  saÃºde.",
+        "instruction": "Beba bastante lÃ­quido.  Evite desgaste fÃ­sico nas horas mais secas. Evite exposiÃ§Ã£o ao sol nas horas mais quentes do dia. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/56105",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Sul Cearense, Central Potiguar, SertÃµes Cearenses, Oeste Potiguar, SertÃ£o Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Agreste Pernambucano, Borborema, Agreste Paraibano, Jaguaribe, Centro-Sul Cearense, Norte Cearense, Centro-Norte Piauiense, Norte Piauiense, Agreste Alagoano, Noroeste Cearense, SÃ£o Francisco Pernambucano, Agreste Potiguar",
+        "areas": [
+          "Aviso para as Ã¡reas: Sul Cearense, Central Potiguar, SertÃµes Cearenses, Oeste Potiguar, SertÃ£o Pernambucano, SertÃ£o Alagoano, SertÃ£o Paraibano, Agreste Pernambucano, Borborema, Agreste Paraibano, Jaguaribe, Centro-Sul Cearense, Norte Cearense, Centro-Norte Piauiense, Norte Piauiense, Agreste Alagoano, Noroeste Cearense, SÃ£o Francisco Pernambucano, Agreste Potiguar"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/56105"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.144531,
+              -4.82826
+            ],
+            [
+              -39.550781,
+              -4.258768
+            ],
+            [
+              -40.429688,
+              -3.951941
+            ],
+            [
+              -41.660156,
+              -3.995781
+            ],
+            [
+              -41.967773,
+              -4.455951
+            ],
+            [
+              -42.011719,
+              -4.915833
+            ],
+            [
+              -40.957031,
+              -5.878332
+            ],
+            [
+              -40.187988,
+              -6.462693
+            ],
+            [
+              -39.506836,
+              -7.117245
+            ],
+            [
+              -38.803711,
+              -8.05923
+            ],
+            [
+              -38.144531,
+              -9.232249
+            ],
+            [
+              -37.661133,
+              -9.557417
+            ],
+            [
+              -37.133789,
+              -9.611582
+            ],
+            [
+              -36.606445,
+              -9.40571
+            ],
+            [
+              -36.166992,
+              -8.624472
+            ],
+            [
+              -36.013184,
+              -7.819847
+            ],
+            [
+              -36.046143,
+              -7.406048
+            ],
+            [
+              -36.090088,
+              -6.915521
+            ],
+            [
+              -36.101074,
+              -6.67552
+            ],
+            [
+              -36.419678,
+              -6.151478
+            ],
+            [
+              -36.760254,
+              -5.769036
+            ],
+            [
+              -38.144531,
+              -4.82826
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28514.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28514.1",
+        "titulo": "Aviso de Ventos Costeiros. Severidade Grau: Perigo Potencial",
+        "event": "Ventos Costeiros",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-18T08:10:00-03:00",
+        "expires": "2026-10-18T23:59:00-03:00",
+        "sent": "2026-10-18T11:06:39-03:00",
+        "pubDate": "Sun, 18 Oct 2026 08:10:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Ventos Costeiros. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 18/10/2026 08:10. IntensificaÃ§Ã£o dos ventos nas regiÃµes litorÃ¢neas, movimentando dunas de areia sobre construÃ§Ãµes na orla.",
+        "instruction": "Contate a Defesa Civil (telefone: 199).",
+        "web": "https://avisos.inmet.gov.br/56104",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Metropolitana de Porto Alegre, Norte Catarinense, Sul Catarinense, Sudeste Rio-grandense, Vale do ItajaÃ­, Grande FlorianÃ³polis, Metropolitana de Curitiba",
+        "areas": [
+          "Aviso para as Ã¡reas: Metropolitana de Porto Alegre, Norte Catarinense, Sul Catarinense, Sudeste Rio-grandense, Vale do ItajaÃ­, Grande FlorianÃ³polis, Metropolitana de Curitiba"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/56104"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.377075,
+              -33.744897
+            ],
+            [
+              -53.415527,
+              -33.74718
+            ],
+            [
+              -53.440247,
+              -33.699208
+            ],
+            [
+              -53.528137,
+              -33.690067
+            ],
+            [
+              -53.536377,
+              -33.653495
+            ],
+            [
+              -53.530884,
+              -33.614619
+            ],
+            [
+              -53.508911,
+              -33.541395
+            ],
+            [
+              -53.486938,
+              -33.541395
+            ],
+            [
+              -53.486938,
+              -33.566573
+            ],
+            [
+              -53.453979,
+              -33.566573
+            ],
+            [
+              -53.44574,
+              -33.504759
+            ],
+            [
+              -53.426514,
+              -33.431441
+            ],
+            [
+              -53.473206,
+              -33.25936
+            ],
+            [
+              -53.426514,
+              -33.144451
+            ],
+            [
+              -53.412781,
+              -33.160547
+            ],
+            [
+              -53.330383,
+              -33.073131
+            ],
+            [
+              -53.264465,
+              -33.11915
+            ],
+            [
+              -53.223267,
+              -33.054716
+            ],
+            [
+              -53.160095,
+              -32.974108
+            ],
+            [
+              -53.168335,
+              -32.888813
+            ],
+            [
+              -53.129883,
+              -32.787275
+            ],
+            [
+              -53.083191,
+              -32.831135
+            ],
+            [
+              -52.987061,
+              -32.745703
+            ],
+            [
+              -53.000793,
+              -32.787275
+            ],
+            [
+              -52.956848,
+              -32.849596
+            ],
+            [
+              -52.857971,
+              -32.91418
+            ],
+            [
+              -52.80304,
+              -32.898038
+            ],
+            [
+              -52.759094,
+              -32.872667
+            ],
+            [
+              -52.616272,
+              -32.625497
+            ],
+            [
+              -52.583313,
+              -32.523658
+            ],
+            [
+              -52.69043,
+              -32.308027
+            ],
+            [
+              -52.67395,
+              -32.238359
+            ],
+            [
+              -52.627258,
+              -32.145386
+            ],
+            [
+              -52.261963,
+              -31.821565
+            ],
+            [
+              -52.163086,
+              -31.672083
+            ],
+            [
+              -52.03125,
+              -31.634676
+            ],
+            [
+              -51.965332,
+              -31.344254
+            ],
+            [
+              -51.635742,
+              -31.203405
+            ],
+            [
+              -51.470947,
+              -31.052934
+            ],
+            [
+              -51.481934,
+              -30.892797
+            ],
+            [
+              -51.427002,
+              -30.817346
+            ],
+            [
+              -51.383057,
+              -30.666266
+            ],
+            [
+              -51.251221,
+              -30.410782
+            ],
+            [
+              -51.053467,
+              -30.344436
+            ],
+            [
+              -50.910645,
+              -30.344436
+            ],
+            [
+              -50.767822,
+              -30.278044
+            ],
+            [
+              -50.668945,
+              -30.202114
+            ],
+            [
+              -50.581055,
+              -30.192618
+            ],
+            [
+              -50.460205,
+              -30.173625
+            ],
+            [
+              -50.064697,
+              -29.51611
+            ],
+            [
+              -49.559326,
+              -28.921631
+            ],
+            [
+              -49.295654,
+              -28.68095
+            ],
+            [
+              -49.01001,
+              -28.507316
+            ],
+            [
+              -48.922119,
+              -28.420391
+            ],
+            [
+              -48.757324,
+              -28.110749
+            ],
+            [
+              -48.691406,
+              -27.80021
+            ],
+            [
+              -48.691406,
+              -27.44979
+            ],
+            [
+              -48.702393,
+              -27.127591
+            ],
+            [
+              -48.768311,
+              -26.88288
+            ],
+            [
+              -48.790283,
+              -26.627818
+            ],
+            [
+              -48.713379,
+              -26.362342
+            ],
+            [
+              -48.702393,
+              -25.958045
+            ],
+            [
+              -48.55957,
+              -25.938287
+            ],
+            [
+              -48.449707,
+              -26.214591
+            ],
+            [
+              -48.47168,
+              -26.578702
+            ],
+            [
+              -48.47168,
+              -26.853479
+            ],
+            [
+              -48.394775,
+              -27.029771
+            ],
+            [
+              -48.262939,
+              -27.205786
+            ],
+            [
+              -48.262939,
+              -27.527758
+            ],
+            [
+              -48.361816,
+              -27.829361
+            ],
+            [
+              -48.47168,
+              -28.207609
+            ],
+            [
+              -48.537598,
+              -28.439714
+            ],
+            [
+              -48.768311,
+              -28.623104
+            ],
+            [
+              -49.438477,
+              -29.113775
+            ],
+            [
+              -49.822998,
+              -29.583012
+            ],
+            [
+              -50.064697,
+              -30.050077
+            ],
+            [
+              -50.273438,
+              -30.5528
+            ],
+            [
+              -50.635986,
+              -31.015279
+            ],
+            [
+              -50.899658,
+              -31.334871
+            ],
+            [
+              -51.339111,
+              -31.746854
+            ],
+            [
+              -51.844482,
+              -32.017392
+            ],
+            [
+              -52.064209,
+              -32.194209
+            ],
+            [
+              -52.229004,
+              -32.370683
+            ],
+            [
+              -52.294922,
+              -32.537552
+            ],
+            [
+              -52.404785,
+              -32.888813
+            ],
+            [
+              -52.56958,
+              -33.220308
+            ],
+            [
+              -52.789307,
+              -33.449777
+            ],
+            [
+              -53.302917,
+              -33.733477
+            ],
+            [
+              -53.377075,
+              -33.744897
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
