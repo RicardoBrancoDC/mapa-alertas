@@ -5,6 +5,182 @@
       "type": "Feature",
       "properties": {
         "fonte": "INMET",
+        "id": "urn:oid:2.49.0.0.76.0.2026.28516.1::1",
+        "identifier": "urn:oid:2.49.0.0.76.0.2026.28516.1",
+        "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+        "event": "Tempestade",
+        "severity": "Moderate",
+        "nivel": "Perigo Potencial",
+        "nivel_grupo": "perigo_potencial",
+        "status_tempo": "hoje",
+        "onset": "2026-10-18T15:00:00-03:00",
+        "expires": "2026-10-19T09:00:00-03:00",
+        "sent": "2026-10-18T13:24:10-03:00",
+        "pubDate": "Sun, 18 Oct 2026 15:00:00 +0000",
+        "sender": "info.aviso@inmet.gov.br",
+        "senderName": "Instituto Nacional de Meteorologia",
+        "responseType": "Prepare",
+        "urgency": "Future",
+        "certainty": "Likely",
+        "headline": "Aviso de Tempestade. Severidade Grau: Moderate",
+        "description": "INMET publica aviso iniciando em: 18/10/2026 15:00. Chuva entre 20 e 30 mm/h ou atÃ© 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elÃ©trica, estragos em plantaÃ§Ãµes, queda de galhos de Ã¡rvores e de alagamentos.",
+        "instruction": "Em caso de rajadas de vento: (nÃ£o se abrigue debaixo de Ã¡rvores, pois hÃ¡ leve risco de queda e descargas elÃ©tricas e nÃ£o estacione veÃ­culos prÃ³ximos a torres de transmissÃ£o e placas de propaganda). Evite usar aparelhos eletrÃ´nicos ligados Ã  tomada. Obtenha mais informaÃ§Ãµes junto Ã  Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+        "web": "https://avisos.inmet.gov.br/56107",
+        "contact": "INMET - Eixo Monumental Sul Via S1 - Sudoeste - BrasÃ­lia-DF (61) 2102-4700",
+        "areaDesc": "Aviso para as Ã¡reas: Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Sul EspÃ­rito-santense, Metropolitana de Belo Horizonte, Noroeste Fluminense, Baixadas, Centro Fluminense, Metropolitana do Rio de Janeiro, Norte Fluminense, Sul Fluminense",
+        "areas": [
+          "Aviso para as Ã¡reas: Zona da Mata, Vale do Rio Doce, Central EspÃ­rito-santense, Sul EspÃ­rito-santense, Metropolitana de Belo Horizonte, Noroeste Fluminense, Baixadas, Centro Fluminense, Metropolitana do Rio de Janeiro, Norte Fluminense, Sul Fluminense"
+        ],
+        "link": "https://apiprevmet3.inmet.gov.br/avisos/rss/56107"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.929321,
+              -19.373341
+            ],
+            [
+              -42.17926,
+              -19.103648
+            ],
+            [
+              -42.239685,
+              -19.090671
+            ],
+            [
+              -42.30011,
+              -19.093267
+            ],
+            [
+              -42.632446,
+              -19.316327
+            ],
+            [
+              -42.989502,
+              -19.921713
+            ],
+            [
+              -43.209229,
+              -20.725291
+            ],
+            [
+              -43.374023,
+              -21.412162
+            ],
+            [
+              -43.486633,
+              -22.078005
+            ],
+            [
+              -43.486633,
+              -22.233175
+            ],
+            [
+              -43.401489,
+              -22.385635
+            ],
+            [
+              -43.294373,
+              -22.535391
+            ],
+            [
+              -43.233948,
+              -22.649502
+            ],
+            [
+              -43.130951,
+              -22.767318
+            ],
+            [
+              -43.152924,
+              -22.876175
+            ],
+            [
+              -43.117218,
+              -22.993795
+            ],
+            [
+              -43.001862,
+              -23.039298
+            ],
+            [
+              -42.615967,
+              -23.029187
+            ],
+            [
+              -41.888123,
+              -23.069624
+            ],
+            [
+              -41.877136,
+              -22.907803
+            ],
+            [
+              -41.734314,
+              -22.798971
+            ],
+            [
+              -41.767273,
+              -22.581047
+            ],
+            [
+              -41.542053,
+              -22.413568
+            ],
+            [
+              -41.187744,
+              -22.212835
+            ],
+            [
+              -40.918579,
+              -22.075459
+            ],
+            [
+              -40.910339,
+              -21.999082
+            ],
+            [
+              -40.9021,
+              -21.922663
+            ],
+            [
+              -40.957031,
+              -21.524627
+            ],
+            [
+              -40.709839,
+              -20.987086
+            ],
+            [
+              -40.525818,
+              -20.820308
+            ],
+            [
+              -41.00647,
+              -20.411569
+            ],
+            [
+              -41.228943,
+              -20.169411
+            ],
+            [
+              -41.445923,
+              -19.911384
+            ],
+            [
+              -41.929321,
+              -19.373341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fonte": "INMET",
         "id": "urn:oid:2.49.0.0.76.0.2026.28515.1::1",
         "identifier": "urn:oid:2.49.0.0.76.0.2026.28515.1",
         "titulo": "Aviso de Baixa Umidade. Severidade Grau: Perigo Potencial",
