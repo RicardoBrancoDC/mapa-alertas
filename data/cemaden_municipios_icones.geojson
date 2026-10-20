@@ -5,10 +5,6 @@
 "features": [
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Itaqui", "uf": "RS", "codibge": "4310603", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.389820549322302, -29.137636298499991 ] } },
 { "type": "Feature", "properties": { "tipo_icone": "hidro", "municipio": "Uruguaiana", "uf": "RS", "codibge": "4322400", "nivel_max": "alto", "severity_group": "alto", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -56.814308006888403, -29.800457825499993 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Ilhéus", "uf": "BA", "codibge": "2913606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -39.151575797742751, -14.765151896499994 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Espera Feliz", "uf": "MG", "codibge": "3124203", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -41.95597692966426, -20.5880495985 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Muniz Freire", "uf": "ES", "codibge": "3203700", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -41.396756443668181, -20.40115123 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Divino de São Lourenço", "uf": "ES", "codibge": "3201803", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -41.732958345261238, -20.586629141499998 ] } },
-{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Carlos Chagas", "uf": "MG", "codibge": "3113701", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -40.881899120069853, -17.668885997 ] } }
+{ "type": "Feature", "properties": { "tipo_icone": "geo", "municipio": "Ilhéus", "uf": "BA", "codibge": "2913606", "nivel_max": "moderado", "severity_group": "moderado", "total_alertas": 1 }, "geometry": { "type": "Point", "coordinates": [ -39.151575797742751, -14.765151896499994 ] } }
 ]
 }
